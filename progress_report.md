@@ -1,5 +1,10 @@
-# Report 1
+# Report 1 (Project Plan)
 ## 10/3/2017
 I found a corpus of English conversations between nonnative speakers, called the Vienna-Oxford International Corpus of English. My next steps will include
 1. Finding a corpus of conversations between native English speakers.
 2. Beginning to process the corpus/read the files. This step could take some time, since the Vienna-Oxford International Corpus contains markdown files. I will also probably have to reformat the data.
+
+#Report 2 (First Progress Report)
+## 10/12/2017
+I used BeautifulSoup to process the XML files in the Vienna-Oxford corpus. Reading and manipulating the data didn't take as much time or work as I originally expected, but it did take some time to get used to the BeautifulSoup commands. I think that, as of now, my organization of the data is pretty good, but I am expecting to modify it later on as my goals become more clear.
+Even though the Vienna-Oxford corpus focuses on non-native speakers, some of the participants listed in the corpus do speak English as a native language. One of the statistics that I found was the number of participants who have English listed as an L1. While the proportion of native English speakers was small, there were more than I expected. Originally, I was planning on finding an additional corpus of native English to compare to the Vienna-Oxford corpus; however, now I'm considering removing all of the native English speakers from the Vienna-Oxford corpus, and creating a new corpus from their speech. I think that the main advantage of creating this new corpus is consistency. To compare native and non-native speakers, I would have to find another corpus with a similar annotation system, which could be difficult. If I create this new corpus, the native speech and nonnative speech would come from the same corpus and have the same annotations, making the comparisons much more feasible. However, since the nonnative speakers vastly outnumber the native speakers, the native corpus would be much smaller than the nonnative corpus, which isn't ideal.
