@@ -7,7 +7,7 @@ Under the following conditions:
 * Noncommercial — You may not use this work for commercial purposes. 
 * Share Alike — If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one." This license is not very restricted, so I am confident that I can include all of the data and derived versions of the data
 
-#British National Corpus (BNC)
+# British National Corpus (BNC)
 The following comes from the corpus's licence
 * The BNC Consortium hereby grants according to the terms and conditions set out herein and in consideration of the payments specified herein a non-exclusive, non-transferable Licence to the Licensee to use the BNC Processed Material for the purposes of linguistic research and/or the development of language products.
 * Distribution of the BNC Processed Material is restricted to the Licensee or in the event of the Licensee being an organisation, to the Licensee's research group. This group is defined as consisting only of those Licensee's employees whom the Licensee authorises to perform the work using the BNC Processed Material for the purposes described in 2a.
