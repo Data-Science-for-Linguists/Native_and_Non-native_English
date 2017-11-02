@@ -1,0 +1,2770 @@
+default namespace = "http://www.tei-c.org/ns/Examples"
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace ns1 = "http://www.univie.ac.at/voice/ns/1.0"
+namespace ns2 = "http://purl.oclc.org/dsdl/schematron"
+namespace ns3 = "http://www.tei-c.org/ns/1.0"
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+namespace xlink = "http://www.w3.org/1999/xlink"
+
+# Schema generated from ODD source 2011-04-13T15:14:45Z. 
+# Edition: 1.9.0. Last updated on February 25th 2011.
+# Edition Location: http://www.tei-c.org/Vault/P5/1.9.0/
+#
+
+#
+macro.paraContent =
+  (text | model.gLike | model.phrase | model.inter | model.global)*
+macro.limitedContent = (text | model.limitedPhrase | model.inter)*
+macro.phraseSeq = (text | model.gLike | model.phrase | model.global)*
+macro.phraseSeq.limited = (text | model.limitedPhrase | model.global)*
+macro.specialPara =
+  (text
+   | model.gLike
+   | model.phrase
+   | model.inter
+   | model.divPart
+   | model.global)*
+macro.xtext = (text | model.gLike)*
+data.certainty = "high" | "medium" | "low" | "unknown"
+data.numeric =
+  xsd:double
+  | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+  | xsd:decimal
+data.count = xsd:nonNegativeInteger
+data.temporal.w3c =
+  xsd:date
+  | xsd:gYear
+  | xsd:gMonth
+  | xsd:gDay
+  | xsd:gYearMonth
+  | xsd:gMonthDay
+  | xsd:time
+  | xsd:dateTime
+data.duration.w3c = xsd:duration
+data.truthValue = xsd:boolean
+data.xTruthValue = xsd:boolean | "unknown" | "inapplicable"
+data.language = xsd:language
+data.sex = "0" | "1" | "2" | "9"
+data.namespace = xsd:anyURI
+data.pointer = xsd:anyURI
+data.version = xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
+data.key = xsd:string
+data.word = xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+data.name = xsd:Name
+data.enumerated = data.name
+data.temporal.iso =
+  xsd:date
+  | xsd:gYear
+  | xsd:gMonth
+  | xsd:gDay
+  | xsd:gYearMonth
+  | xsd:gMonthDay
+  | xsd:time
+  | xsd:dateTime
+  | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+macro.anyXML =
+  element * - (ns3:* | egXML) {
+    attribute * { text }*,
+    (text | macro.anyXML)*
+  }
+att.ascribed.attributes = att.ascribed.attribute.who
+att.ascribed.attribute.who =
+  
+  ## indicates the person, or group of people, to whom the element content is ascribed.
+  attribute who {
+    list { data.pointer, data.pointer* }
+  }?
+att.canonical.attributes = empty
+att.ranging.attributes =
+  att.ranging.attribute.atLeast,
+  att.ranging.attribute.atMost,
+  att.ranging.attribute.min,
+  att.ranging.attribute.max
+att.ranging.attribute.atLeast =
+  
+  ## gives a minimum estimated value for the approximate measurement.
+  attribute atLeast { data.numeric }?
+att.ranging.attribute.atMost =
+  
+  ## gives a maximum estimated value for the approximate measurement.
+  attribute atMost { data.numeric }?
+att.ranging.attribute.min =
+  
+  ## where the measurement summarizes more than one observation
+  ##       or a range, supplies the minimum value
+  ##         observed.
+  attribute min { data.numeric }?
+att.ranging.attribute.max =
+  
+  ## where the measurement summarizes more than one observation
+  ##       or a range, supplies the maximum value
+  ##       observed.
+  attribute max { data.numeric }?
+att.dimensions.attributes = att.ranging.attributes
+att.breaking.attributes = att.breaking.attribute.break
+att.breaking.attribute.break =
+  
+  ## indicates whether or not the  element
+  ##	bearing this attribute should be considered to mark the end of
+  ##	an orthographic token in the same way as whitespace.
+  attribute break { data.enumerated }?
+att.datable.w3c.attributes =
+  att.datable.w3c.attribute.when,
+  att.datable.w3c.attribute.from,
+  att.datable.w3c.attribute.to
+att.datable.w3c.attribute.when =
+  
+  ## supplies the value of the date or time in a standard form,
+  ##       e.g. yyyy-mm-dd.
+  attribute when { data.temporal.w3c }?
+att.datable.w3c.attribute.from =
+  
+  ## indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.
+  attribute from { data.temporal.w3c }?
+att.datable.w3c.attribute.to =
+  
+  ## indicates the ending point of the period in standard
+  ##	  form, e.g. yyyy-mm-dd.
+  attribute to { data.temporal.w3c }?
+att.declarable.attributes = empty
+att.declaring.attributes = empty
+att.divLike.attributes = empty
+att.docStatus.attributes = att.docStatus.attribute.status
+att.docStatus.attribute.status =
+  
+  ## describes the status of a document either currently or, when
+  ## associated with a dated element, at the time indicated.
+  ## Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn
+  [ a:defaultValue = "draft" ] attribute status { data.enumerated }?
+att.duration.w3c.attributes = att.duration.w3c.attribute.dur
+att.duration.w3c.attribute.dur =
+  
+  ## (duration) indicates the length of this element in time.
+  attribute dur { data.duration.w3c }?
+att.responsibility.attributes =
+  att.responsibility.attribute.cert, att.responsibility.attribute.resp
+att.responsibility.attribute.cert =
+  
+  ## (certainty) signifies the degree of certainty associated with the intervention or interpretation.
+  attribute cert { data.certainty }?
+att.responsibility.attribute.resp =
+  
+  ## (responsible party) indicates the agency responsible for the intervention or interpretation, for example an
+  ##         editor or transcriber.
+  attribute resp {
+    list { data.pointer, data.pointer* }
+  }?
+att.editLike.attributes =
+  att.dimensions.attributes, att.responsibility.attributes
+att.global.attributes =
+  att.global.linking.attributes,
+  att.global.analytic.attributes,
+  att.global.facs.attributes,
+  att.global.attribute.xmlid,
+  att.global.attribute.n,
+  att.global.attribute.xmllang,
+  att.global.attribute.rend,
+  att.global.attribute.xmlbase,
+  att.global.attribute.xmlspace
+att.global.attribute.xmlid =
+  
+  ## (identifier) provides a unique identifier for the element bearing the attribute.
+  attribute xml:id { xsd:ID }?
+att.global.attribute.n =
+  
+  ## (number) gives a number (or other label) for an element, which is not necessarily unique within
+  ##         the document.
+  attribute n {
+    list { data.word, data.word* }
+  }?
+att.global.attribute.xmllang =
+  
+  ## (language) indicates the language of the element content using a tag generated
+  ##         according to BCP 47
+  ##          
+  attribute xml:lang { data.language }?
+att.global.attribute.rend =
+  
+  ## (rendition) indicates how the element in question was rendered or presented in the source text.
+  attribute rend {
+    list { data.word, data.word* }
+  }?
+att.global.attribute.xmlbase =
+  
+  ## provides a base URI reference with which applications can resolve relative URI
+  ##         references into absolute URI references.
+  attribute xml:base { data.pointer }?
+att.global.attribute.xmlspace =
+  
+  ## signals an intention about how white space should be 
+  ##       managed by  applications. 
+  attribute xml:space {
+    
+    ## the processor should treat white space according to the
+    ##	default XML white space handling rules
+    "default"
+    | 
+      ## the processor should preserve unchanged any and all
+      ##	white space in the source
+      "preserve"
+  }?
+att.handFeatures.attributes =
+  att.handFeatures.attribute.scribeRef,
+  att.handFeatures.attribute.scriptRef
+att.handFeatures.attribute.scribeRef =
+  
+  ## points to a full description of the scribe concerned, typically supplied by a person element
+  ##       elsewhere in the description.
+  attribute scribeRef {
+    list { data.pointer, data.pointer* }
+  }?
+att.handFeatures.attribute.scriptRef =
+  
+  ## points to a full description of the script or writing style used by
+  ## this hand, typically supplied by a scriptNote element
+  ##       elsewhere in the description.
+  attribute scriptRef {
+    list { data.pointer, data.pointer* }
+  }?
+att.naming.attributes =
+  att.canonical.attributes, att.naming.attribute.role
+att.naming.attribute.role =
+  
+  ## may be used to specify further information about the entity referenced by
+  ## this name, for example the occupation of a person, or the status of a place. 
+  attribute role { data.enumerated }?
+att.placement.attributes = empty
+att.typed.attributes =
+  att.typed.attribute.type, att.typed.attribute.subtype
+att.typed.attribute.type =
+  
+  ## characterizes the element in some sense, using any convenient
+  ##  classification scheme or typology.
+  attribute type { data.enumerated }?
+att.typed.attribute.subtype =
+  
+  ## provides a sub-categorization of the element, if needed
+  attribute subtype { data.enumerated }?
+att.pointing.attributes = att.pointing.attribute.target
+att.pointing.attribute.target =
+  
+  ## specifies the destination of the reference by supplying one or more URI References
+  attribute target {
+    list { data.pointer, data.pointer* }
+  }?
+att.readFrom.attributes = att.readFrom.attribute.source
+att.readFrom.attribute.source =
+  
+  ## specifies the source from which declarations and definitions for
+  ## the components of the object being defined may be obtained. 
+  attribute source { xsd:anyURI }?
+att.segLike.attributes = att.segLike.attribute.function
+att.segLike.attribute.function =
+  
+  ## characterizes the function of the segment.
+  attribute function { data.enumerated }?
+att.spanning.attributes = empty
+att.timed.attributes = att.duration.w3c.attributes
+model.nameLike.agent = name | orgName | persName
+model.nameLike.agent_alternation = name | orgName | persName
+model.nameLike.agent_sequence = name, orgName, persName
+model.nameLike.agent_sequenceOptional = name?, orgName?, persName?
+model.nameLike.agent_sequenceOptionalRepeatable =
+  name*, orgName*, persName*
+model.nameLike.agent_sequenceRepeatable = name+, orgName+, persName+
+model.segLike = w | c | pc | seg | to
+model.segLike_alternation = w | c | pc | seg | to
+model.segLike_sequence = w, c, pc, seg, to
+model.segLike_sequenceOptional = w?, c?, pc?, seg?, to?
+model.segLike_sequenceOptionalRepeatable = w*, c*, pc*, seg*, to*
+model.segLike_sequenceRepeatable = w+, c+, pc+, seg+, to+
+model.emphLike = foreign | emph | title
+model.emphLike_alternation = foreign | emph | title
+model.emphLike_sequence = foreign, emph, title
+model.emphLike_sequenceOptional = foreign?, emph?, title?
+model.emphLike_sequenceOptionalRepeatable = foreign*, emph*, title*
+model.emphLike_sequenceRepeatable = foreign+, emph+, title+
+model.highlighted = model.emphLike
+model.highlighted_alternation = model.emphLike_alternation
+model.highlighted_sequence = model.emphLike_sequence
+model.highlighted_sequenceOptional = model.emphLike_sequenceOptional?
+model.highlighted_sequenceOptionalRepeatable =
+  model.emphLike_sequenceOptionalRepeatable*
+model.highlighted_sequenceRepeatable =
+  model.emphLike_sequenceRepeatable+
+model.dateLike = date
+model.dateLike_alternation = date
+model.dateLike_sequence = date
+model.dateLike_sequenceOptional = date?
+model.dateLike_sequenceOptionalRepeatable = date*
+model.dateLike_sequenceRepeatable = date+
+model.egLike = egXML
+model.egLike_alternation = egXML
+model.egLike_sequence = egXML
+model.egLike_sequenceOptional = egXML?
+model.egLike_sequenceOptionalRepeatable = egXML*
+model.egLike_sequenceRepeatable = egXML+
+model.pPart.transcriptional = unclear | supplied | surplus
+model.pPart.transcriptional_alternation = unclear | supplied | surplus
+model.pPart.transcriptional_sequence = unclear, supplied, surplus
+model.pPart.transcriptional_sequenceOptional =
+  unclear?, supplied?, surplus?
+model.pPart.transcriptional_sequenceOptionalRepeatable =
+  unclear*, supplied*, surplus*
+model.pPart.transcriptional_sequenceRepeatable =
+  unclear+, supplied+, surplus+
+model.pPart.edit = model.pPart.transcriptional
+model.pPart.edit_alternation = model.pPart.transcriptional_alternation
+model.pPart.edit_sequence = model.pPart.transcriptional_sequence
+model.pPart.edit_sequenceOptional =
+  model.pPart.transcriptional_sequenceOptional?
+model.pPart.edit_sequenceOptionalRepeatable =
+  model.pPart.transcriptional_sequenceOptionalRepeatable*
+model.pPart.edit_sequenceRepeatable =
+  model.pPart.transcriptional_sequenceRepeatable+
+model.ptrLike = ref
+model.ptrLike_alternation = ref
+model.ptrLike_sequence = ref
+model.ptrLike_sequenceOptional = ref?
+model.ptrLike_sequenceOptionalRepeatable = ref*
+model.ptrLike_sequenceRepeatable = ref+
+model.lPart = notAllowed
+model.lPart_alternation = notAllowed
+model.lPart_sequence = empty
+model.lPart_sequenceOptional = empty
+model.lPart_sequenceOptionalRepeatable = empty
+model.lPart_sequenceRepeatable = notAllowed
+model.milestoneLike = anchor | gb
+model.milestoneLike_alternation = anchor | gb
+model.milestoneLike_sequence = anchor, gb
+model.milestoneLike_sequenceOptional = anchor?, gb?
+model.milestoneLike_sequenceOptionalRepeatable = anchor*, gb*
+model.milestoneLike_sequenceRepeatable = anchor+, gb+
+model.gLike = notAllowed
+model.oddRef = classRef | elementRef | macroRef
+model.oddRef_alternation = classRef | elementRef | macroRef
+model.oddRef_sequence = classRef, elementRef, macroRef
+model.oddRef_sequenceOptional = classRef?, elementRef?, macroRef?
+model.oddRef_sequenceOptionalRepeatable =
+  classRef*, elementRef*, macroRef*
+model.oddRef_sequenceRepeatable = classRef+, elementRef+, macroRef+
+model.phrase.xml = att | gi | val
+model.phrase.xml_alternation = att | gi | val
+model.phrase.xml_sequence = att, gi, val
+model.phrase.xml_sequenceOptional = att?, gi?, val?
+model.phrase.xml_sequenceOptionalRepeatable = att*, gi*, val*
+model.phrase.xml_sequenceRepeatable = att+, gi+, val+
+model.biblLike = bibl | biblStruct
+model.biblLike_alternation = bibl | biblStruct
+model.biblLike_sequence = bibl, biblStruct
+model.biblLike_sequenceOptional = bibl?, biblStruct?
+model.biblLike_sequenceOptionalRepeatable = bibl*, biblStruct*
+model.biblLike_sequenceRepeatable = bibl+, biblStruct+
+model.headLike = notAllowed
+model.headLike_alternation = notAllowed
+model.headLike_sequence = empty
+model.headLike_sequenceOptional = empty
+model.headLike_sequenceOptionalRepeatable = empty
+model.headLike_sequenceRepeatable = notAllowed
+model.labelLike = label
+model.labelLike_alternation = label
+model.labelLike_sequence = label
+model.labelLike_sequenceOptional = label?
+model.labelLike_sequenceOptionalRepeatable = label*
+model.labelLike_sequenceRepeatable = label+
+model.listLike = \list | listBibl | listPerson
+model.listLike_alternation = \list | listBibl | listPerson
+model.listLike_sequence = \list, listBibl, listPerson
+model.listLike_sequenceOptional = \list?, listBibl?, listPerson?
+model.listLike_sequenceOptionalRepeatable =
+  \list*, listBibl*, listPerson*
+model.listLike_sequenceRepeatable = \list+, listBibl+, listPerson+
+model.noteLike = note
+model.noteLike_alternation = note
+model.noteLike_sequence = note
+model.noteLike_sequenceOptional = note?
+model.noteLike_sequenceOptionalRepeatable = note*
+model.noteLike_sequenceRepeatable = note+
+model.pLike = p
+model.pLike_alternation = p
+model.pLike_sequence = p
+model.pLike_sequenceOptional = p?
+model.pLike_sequenceOptionalRepeatable = p*
+model.pLike_sequenceRepeatable = p+
+model.global.edit = gap
+model.global.edit_alternation = gap
+model.global.edit_sequence = gap
+model.global.edit_sequenceOptional = gap?
+model.global.edit_sequenceOptionalRepeatable = gap*
+model.global.edit_sequenceRepeatable = gap+
+model.divPart = model.pLike | model.divPart.spoken
+model.divPart_alternation =
+  model.pLike_alternation | model.divPart.spoken_alternation
+model.divPart_sequence =
+  model.pLike_sequence, model.divPart.spoken_sequence
+model.divPart_sequenceOptional =
+  model.pLike_sequenceOptional?, model.divPart.spoken_sequenceOptional?
+model.divPart_sequenceOptionalRepeatable =
+  model.pLike_sequenceOptionalRepeatable*,
+  model.divPart.spoken_sequenceOptionalRepeatable*
+model.divPart_sequenceRepeatable =
+  model.pLike_sequenceRepeatable+,
+  model.divPart.spoken_sequenceRepeatable+
+model.persTraitLike = age | langKnowledge | sex
+model.persTraitLike_alternation = age | langKnowledge | sex
+model.persTraitLike_sequence = age, langKnowledge, sex
+model.persTraitLike_sequenceOptional = age?, langKnowledge?, sex?
+model.persTraitLike_sequenceOptionalRepeatable =
+  age*, langKnowledge*, sex*
+model.persTraitLike_sequenceRepeatable = age+, langKnowledge+, sex+
+model.persStateLike = persName | occupation
+model.persStateLike_alternation = persName | occupation
+model.persStateLike_sequence = persName, occupation
+model.persStateLike_sequenceOptional = persName?, occupation?
+model.persStateLike_sequenceOptionalRepeatable = persName*, occupation*
+model.persStateLike_sequenceRepeatable = persName+, occupation+
+model.personLike = person | personGrp
+model.personPart = model.persTraitLike | model.persStateLike | bibl
+model.publicationStmtPart =
+  address
+  | date
+  | publisher
+  | pubPlace
+  | distributor
+  | idno
+  | availability
+model.glossLike = notAllowed
+model.respLike =
+  author | editor | respStmt | sponsor | funder | principal
+model.respLike_alternation =
+  author | editor | respStmt | sponsor | funder | principal
+model.respLike_sequence =
+  author, editor, respStmt, sponsor, funder, principal
+model.respLike_sequenceOptional =
+  author?, editor?, respStmt?, sponsor?, funder?, principal?
+model.respLike_sequenceOptionalRepeatable =
+  author*, editor*, respStmt*, sponsor*, funder*, principal*
+model.respLike_sequenceRepeatable =
+  author+, editor+, respStmt+, sponsor+, funder+, principal+
+model.divTopPart = model.headLike
+model.divTopPart_alternation = model.headLike_alternation
+model.divTopPart_sequence = model.headLike_sequence
+model.divTopPart_sequenceOptional = model.headLike_sequenceOptional?
+model.divTopPart_sequenceOptionalRepeatable =
+  model.headLike_sequenceOptionalRepeatable*
+model.divTopPart_sequenceRepeatable = model.headLike_sequenceRepeatable+
+model.divTop = model.divTopPart
+model.divBottom = notAllowed
+model.msQuoteLike = title
+model.msQuoteLike_alternation = title
+model.msQuoteLike_sequence = title
+model.msQuoteLike_sequenceOptional = title?
+model.msQuoteLike_sequenceOptionalRepeatable = title*
+model.msQuoteLike_sequenceRepeatable = title+
+model.imprintPart = publisher | biblScope | pubPlace | distributor
+model.imprintPart_alternation =
+  publisher | biblScope | pubPlace | distributor
+model.imprintPart_sequence = publisher, biblScope, pubPlace, distributor
+model.imprintPart_sequenceOptional =
+  publisher?, biblScope?, pubPlace?, distributor?
+model.imprintPart_sequenceOptionalRepeatable =
+  publisher*, biblScope*, pubPlace*, distributor*
+model.imprintPart_sequenceRepeatable =
+  publisher+, biblScope+, pubPlace+, distributor+
+model.catDescPart = notAllowed
+model.settingPart = locale | activity
+model.addressLike = address
+model.addressLike_alternation = address
+model.addressLike_sequence = address
+model.addressLike_sequenceOptional = address?
+model.addressLike_sequenceOptionalRepeatable = address*
+model.addressLike_sequenceRepeatable = address+
+model.nameLike = model.nameLike.agent | idno
+model.nameLike_alternation = model.nameLike.agent_alternation | idno
+model.nameLike_sequence = model.nameLike.agent_sequence, idno
+model.nameLike_sequenceOptional =
+  model.nameLike.agent_sequenceOptional?, idno?
+model.nameLike_sequenceOptionalRepeatable =
+  model.nameLike.agent_sequenceOptionalRepeatable*, idno*
+model.nameLike_sequenceRepeatable =
+  model.nameLike.agent_sequenceRepeatable+, idno+
+model.global =
+  model.milestoneLike
+  | model.noteLike
+  | model.global.edit
+  | ref
+  | model.global.spoken
+  | track
+model.biblPart = model.respLike | model.imprintPart | edition | extent
+model.addrPart = model.nameLike | addrLine
+model.pPart.data = model.dateLike | model.addressLike | model.nameLike
+model.pPart.data_alternation =
+  model.dateLike_alternation
+  | model.addressLike_alternation
+  | model.nameLike_alternation
+model.pPart.data_sequence =
+  model.dateLike_sequence,
+  model.addressLike_sequence,
+  model.nameLike_sequence
+model.pPart.data_sequenceOptional =
+  model.dateLike_sequenceOptional?,
+  model.addressLike_sequenceOptional?,
+  model.nameLike_sequenceOptional?
+model.pPart.data_sequenceOptionalRepeatable =
+  model.dateLike_sequenceOptionalRepeatable*,
+  model.addressLike_sequenceOptionalRepeatable*,
+  model.nameLike_sequenceOptionalRepeatable*
+model.pPart.data_sequenceRepeatable =
+  model.dateLike_sequenceRepeatable+,
+  model.addressLike_sequenceRepeatable+,
+  model.nameLike_sequenceRepeatable+
+model.inter =
+  model.egLike
+  | model.oddRef
+  | model.biblLike
+  | model.labelLike
+  | model.listLike
+model.inter_alternation =
+  model.egLike_alternation
+  | model.oddRef_alternation
+  | model.biblLike_alternation
+  | model.labelLike_alternation
+  | model.listLike_alternation
+model.inter_sequence =
+  model.egLike_sequence,
+  model.oddRef_sequence,
+  model.biblLike_sequence,
+  model.labelLike_sequence,
+  model.listLike_sequence
+model.inter_sequenceOptional =
+  model.egLike_sequenceOptional?,
+  model.oddRef_sequenceOptional?,
+  model.biblLike_sequenceOptional?,
+  model.labelLike_sequenceOptional?,
+  model.listLike_sequenceOptional?
+model.inter_sequenceOptionalRepeatable =
+  model.egLike_sequenceOptionalRepeatable*,
+  model.oddRef_sequenceOptionalRepeatable*,
+  model.biblLike_sequenceOptionalRepeatable*,
+  model.labelLike_sequenceOptionalRepeatable*,
+  model.listLike_sequenceOptionalRepeatable*
+model.inter_sequenceRepeatable =
+  model.egLike_sequenceRepeatable+,
+  model.oddRef_sequenceRepeatable+,
+  model.biblLike_sequenceRepeatable+,
+  model.labelLike_sequenceRepeatable+,
+  model.listLike_sequenceRepeatable+
+model.common = model.divPart | model.inter
+model.phrase =
+  model.segLike
+  | model.highlighted
+  | model.pPart.edit
+  | model.ptrLike
+  | model.lPart
+  | model.phrase.xml
+  | model.pPart.data
+  | pvc
+model.limitedPhrase =
+  model.emphLike | model.ptrLike | model.phrase.xml | model.pPart.data
+model.divLike = \div
+model.divGenLike = notAllowed
+model.div1Like = notAllowed
+model.teiHeaderPart = encodingDesc | profileDesc
+model.sourceDescPart = scriptStmt | recordingStmt
+model.encodingDescPart =
+  projectDesc | samplingDecl | editorialDecl | tagsDecl | classDecl
+model.editorialDeclPart = correction | normalization | segmentation
+model.profileDescPart =
+  particDesc | settingDesc | creation | langUsage | textClass
+model.resourceLike = notAllowed
+att.personal.attributes = att.naming.attributes
+model.placeLike = notAllowed
+p =
+  
+  ## (paragraph) marks paragraphs in prose.
+  element ns3:p {
+    macro.paraContent,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declaring.attributes,
+    empty
+  }
+foreign =
+  
+  ## (foreign) identifies a word or phrase as belonging to some language other than that of the
+  ##                 surrounding text. 
+  element ns3:foreign {
+    macro.phraseSeq,
+    
+    ## Translation or comment in English regarding the meaning of the element's content
+    attribute ns1:translation { text }?,
+    att.typed.attributes,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmllang,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+emph =
+  
+  ## (emphasized) marks words or phrases which are stressed or emphasized for
+  ##         linguistic or rhetorical effect.
+  element ns3:emph {
+    macro.paraContent,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+gap =
+  
+  ## (gap) indicates a point where material has been omitted in a transcription, whether for editorial
+  ##     reasons described in the TEI header, as part of sampling practice, or because the material is
+  ##     illegible, invisible, or inaudible.
+  element ns3:gap {
+    model.glossLike*,
+    
+    ##
+    attribute ns1:desc { text }?,
+    
+    ## gives the reason for omission. Sample values include sampling,
+    ##         inaudible, irrelevant, cancelled.
+    attribute reason {
+      list { data.word, data.word* }
+    }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.duration.w3c.attributes,
+    att.duration.iso.attributes,
+    att.editLike.attributes,
+    empty
+  }
+unclear =
+  
+  ## contains a word, phrase, or passage which cannot be transcribed with certainty because it
+  ##         is illegible or inaudible in the source.
+  element ns3:unclear {
+    macro.paraContent,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.editLike.attributes,
+    empty
+  }
+name =
+  
+  ## (name, proper noun) contains a proper noun or noun phrase.
+  element ns3:name {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.naming.attributes,
+    att.typed.attribute.type,
+    empty
+  }
+address =
+  
+  ## contains a postal  address, for example of a
+  ##         publisher, an organization, or an individual.
+  element ns3:address {
+    (model.global*, (model.addrPart, model.global*)+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+addrLine =
+  
+  ## (address line) contains one line of a postal address.
+  element ns3:addrLine {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+date =
+  
+  ## contains a date in any format.
+  element ns3:date {
+    (text | model.gLike | model.phrase | model.global)*,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.datable.w3c.attributes,
+    att.datable.iso.attributes,
+    att.duration.iso.attributes,
+    att.editLike.attributes,
+    empty
+  }
+ref =
+  
+  ## (reference) defines a reference to another location, possibly modified by additional text or comment.
+  element ns3:ref {
+    macro.paraContent
+    >> ns2:pattern [
+         id = "ref-constraint-refAtts"
+         "\x{a}" ~
+         "            "
+         ns2:rule [
+           context = "tei:ref"
+           "\x{a}" ~
+           "               "
+           ns2:report [
+             test = "@target and @cRef"
+             "Only one of the\x{a}" ~
+             "	attributes 'target' and 'cRef' may be supplied."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    att.pointing.attributes,
+    att.typed.attributes,
+    att.declaring.attributes,
+    empty
+  }
+\list =
+  
+  ## (list) contains any sequence of items organized as a list.
+  element ns3:list {
+    ((model.divTop | model.global)*,
+     ((item, model.global*)+
+      | (label, model.global*, item, model.global*)+),
+     (model.divBottom, model.global*)*),
+    
+    ## describes the form of the list.
+    [ a:defaultValue = "simple" ]
+    attribute type {
+      
+      ##
+      "ordered"
+    }?,
+    att.global.attribute.xmlid,
+    
+    ## (rendition) indicates how the element in question was rendered or presented in the source text.
+    attribute rend {
+      list {
+        (
+         ##
+         "p"),
+        (
+         ##
+         "p")*
+      }
+    }?,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+item =
+  
+  ## contains one component of a list.
+  element ns3:item {
+    macro.specialPara,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+label =
+  
+  ## contains the label associated with an item in a list; in glossaries, marks the term being
+  ##     defined.
+  element ns3:label { macro.phraseSeq, att.global.attributes, empty }
+note =
+  
+  ## contains a note or annotation.
+  element ns3:note {
+    macro.specialPara,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.placement.attributes,
+    att.responsibility.attribute.cert,
+    att.typed.attribute.subtype,
+    empty
+  }
+analytic =
+  
+  ## (analytic level) contains bibliographic elements describing an item (e.g. an article or poem) published
+  ##     within a monograph or journal and not as an independent publication.
+  element ns3:analytic {
+    (author | editor | respStmt | title | ref | date)*,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+monogr =
+  
+  ## (monographic level) contains bibliographic elements describing an item (e.g. a book or journal) published as an
+  ##     independent item (i.e. as a separate physical object).
+  element ns3:monogr {
+    ((((author | editor | respStmt),
+       (author | editor | respStmt)*,
+       title+,
+       (idno | editor | respStmt)*)
+      | ((title | ref)+, (idno | author | editor | respStmt)*))?,
+     model.noteLike*,
+     (edition, (idno | editor | respStmt)*)*,
+     imprint,
+     (imprint | extent | biblScope)*),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+author =
+  
+  ## in a bibliographic reference, contains the name(s) of the
+  ##   author(s), personal or corporate, of a work; for example in the same
+  ##   form as that provided by a recognized bibliographic name authority. 
+  element ns3:author {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.naming.attributes,
+    empty
+  }
+editor =
+  
+  ## secondary statement of responsibility for a bibliographic item, for example the name of an
+  ##     individual, institution or organization, (or of several such) acting as editor, compiler,
+  ##     translator, etc. 
+  element ns3:editor {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.canonical.attributes,
+    empty
+  }
+respStmt =
+  
+  ## (statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition,
+  ##     recording, or series, where the specialized elements for authors, editors, etc. do not suffice
+  ##     or do not apply.
+  element ns3:respStmt {
+    ((resp+, model.nameLike.agent+) | (model.nameLike.agent+, resp+)),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+resp =
+  
+  ## (responsibility) contains a phrase describing the nature of a person's intellectual responsibility.
+  element ns3:resp {
+    macro.phraseSeq.limited,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.canonical.attributes,
+    empty
+  }
+title =
+  
+  ## contains a title for any kind of work.
+  element ns3:title {
+    macro.paraContent,
+    
+    ## indicates the bibliographic level for a title, that is, whether
+    ##                                         it identifies an article, book, journal, series, or
+    ##                                         unpublished material.
+    attribute level {
+      
+      ##
+      "j"
+      | 
+        ##
+        "m"
+    }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.canonical.attributes,
+    empty
+  }
+imprint =
+  
+  ## groups information relating to the publication or distribution
+  ##         of a bibliographic item.
+  element ns3:imprint {
+    ((model.imprintPart | model.dateLike), model.global*)+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+publisher =
+  
+  ## provides the name of the organization responsible for the publication or distribution of a
+  ##         bibliographic item.
+  element ns3:publisher {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+biblScope =
+  
+  ## (scope of citation) defines the scope of a bibliographic reference, for example as a
+  ##         list of page numbers, or a named subdivision of a larger work.
+  element ns3:biblScope {
+    macro.phraseSeq,
+    
+    ## identifies the type of information conveyed by the element, e.g.
+    ##                 columns, pages, volume.
+    attribute type {
+      
+      ##
+      "issue"
+      | 
+        ##
+        "pp"
+      | 
+        ##
+        "vol"
+    }?,
+    
+    ## specifies the starting point of the range of units indicated by the type attribute.
+    attribute from { data.word }?,
+    
+    ## specifies the end-point of the range of units indicated by the type attribute.
+    attribute to { data.word }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+pubPlace =
+  
+  ## (publication place) contains the name of the place where a bibliographic item was published.
+  element ns3:pubPlace {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.naming.attributes,
+    empty
+  }
+bibl =
+  
+  ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may
+  ##     not be explicitly tagged. 
+  element ns3:bibl {
+    (text
+     | model.gLike
+     | model.highlighted
+     | model.pPart.data
+     | model.pPart.edit
+     | model.segLike
+     | model.ptrLike
+     | model.biblPart
+     | model.global)*,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+biblStruct =
+  
+  ## (structured bibliographic citation) contains a structured bibliographic citation, in which only bibliographic sub-elements
+  ##     appear and in a specified order. 
+  element ns3:biblStruct {
+    (analytic*, monogr+, (model.noteLike | idno)*),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+listBibl =
+  
+  ## (citation list) contains a list of bibliographic citations of any kind. 
+  element ns3:listBibl {
+    (model.headLike*,
+     (model.biblLike | model.milestoneLike | listBibl)+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+teiCorpus =
+  
+  ## contains the whole of a TEI encoded corpus, comprising a single corpus header and one or
+  ##     more TEI elements, each containing a single text header and a text.
+  element ns3:teiCorpus {
+    (teiHeader, (TEI | teiCorpus)+),
+    
+    ## The version of the TEI scheme
+    [ a:defaultValue = "5.0" ] attribute version { data.version }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+w =
+  
+  ## (word) represents a grammatical (not necessarily orthographic) word.
+  element ns3:w {
+    (text
+     | model.gLike
+     | seg
+     | w
+     | c
+     | model.global
+     | model.lPart
+     | model.highlighted
+     | model.pPart.edit)*,
+    
+    ## Describes the mode a word is uttered in
+    attribute ns1:mode { text }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+c =
+  
+  ## (character) represents a character.
+  element ns3:c {
+    macro.xtext,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.segLike.attributes,
+    att.typed.attribute.type,
+    empty
+  }
+pc =
+  
+  ##  (punctuation character) a character or string of characters regarded as constituting a
+  ##   single punctuation mark.
+  element ns3:pc {
+    (text | model.gLike | c)*,
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    
+    ## indicates the extent to which this punctuation mark
+    ##       conventionally separates words or phrases
+    attribute force {
+      
+      ## the punctuation mark is a word separator
+      "strong"
+      | 
+        ## the punctuation mark is not a word separator
+        "weak"
+      | 
+        ## the punctuation mark may or may not be a
+        ## word separator
+        "inter"
+    }?,
+    
+    ## provides a name for the kind of unit delimited by  this punctuation mark.
+    attribute unit { data.enumerated }?,
+    
+    ## indicates whether this punctuation mark precedes or
+    ##       follows the unit it delimits.
+    attribute pre { data.truthValue }?,
+    empty
+  }
+att.global.analytic.attributes = empty
+particDesc =
+  
+  ## (participation description) describes the identifiable speakers, voices, or other participants
+  ## in any kind of text. 
+  element ns3:particDesc {
+    (model.pLike+ | (model.personLike | listPerson)+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+settingDesc =
+  
+  ## (setting description) describes the setting or settings within which a language
+  ## interaction takes place, either as a prose description or as a
+  ## series of setting elements.
+  element ns3:settingDesc {
+    (model.pLike+ | (setting | model.placeLike)+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+setting =
+  
+  ## describes one particular setting in which a language
+  ##   interaction takes place.
+  element ns3:setting {
+    (model.pLike+
+     | (model.nameLike.agent | model.dateLike | model.settingPart)*),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+locale =
+  
+  ## contains a brief informal description of the kind of
+  ## place concerned, for example: a room, a restaurant, a park bench, etc.
+  element ns3:locale {
+    macro.phraseSeq.limited,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+activity =
+  
+  ## contains a brief informal description of what a participant in a
+  ## language interaction is doing other than speaking, if anything.
+  element ns3:activity {
+    macro.phraseSeq.limited,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+teiHeader =
+  
+  ## (TEI Header) supplies the descriptive and declarative information making up an electronic title page
+  ##     prefixed to every TEI-conformant text.
+  element ns3:teiHeader {
+    (fileDesc, model.teiHeaderPart*, revisionDesc?),
+    
+    ## specifies the kind of document to which the header is attached, for example whether it
+    ##         is a corpus or individual text.
+    [ a:defaultValue = "text" ]
+    attribute type {
+      
+      ##
+      "corpus"
+    }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+fileDesc =
+  
+  ## (file description) contains a full bibliographic description of an electronic file.
+  element ns3:fileDesc {
+    ((titleStmt, editionStmt?, extent?, publicationStmt, notesStmt?),
+     sourceDesc+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+titleStmt =
+  
+  ## (title statement) groups information about the title of a work and those responsible for its intellectual
+  ##     content.
+  element ns3:titleStmt {
+    (title+, model.respLike*),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+sponsor =
+  
+  ## specifies the name of a sponsoring organization or institution.
+  element ns3:sponsor {
+    macro.phraseSeq.limited,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+funder =
+  
+  ## (funding body) specifies the name of an individual, institution, or organization responsible for the
+  ##     funding of a project or text.
+  element ns3:funder {
+    macro.phraseSeq.limited,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+principal =
+  
+  ## (principal researcher) supplies the name of the principal researcher responsible for the
+  ## creation of an electronic text.
+  element ns3:principal {
+    macro.phraseSeq.limited,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+editionStmt =
+  
+  ## (edition statement) groups information relating to one edition of a text.
+  element ns3:editionStmt {
+    (model.pLike+ | (edition, respStmt*)),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+edition =
+  
+  ## (edition) describes the particularities of one edition of a text.
+  element ns3:edition {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+extent =
+  
+  ## describes the approximate size of a text as stored on some carrier medium, whether digital
+  ##     or non-digital, specified in any convenient units.
+  element ns3:extent {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+publicationStmt =
+  
+  ## (publication statement) groups information concerning the publication or distribution of an electronic or other
+  ##     text. 
+  element ns3:publicationStmt {
+    (model.pLike+ | model.publicationStmtPart+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+distributor =
+  
+  ## supplies the name of a person or other agency responsible for the
+  ## distribution of a text.
+  element ns3:distributor {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+idno =
+  
+  ## (identifier) supplies any form of identifier used to identify some object,
+  ##   such as a bibliographic item, a person, a title, an organization,
+  ##   etc. in a standardized way.
+  element ns3:idno {
+    macro.xtext,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+availability =
+  
+  ## supplies information about the availability of a text, for example any restrictions on its
+  ##     use or distribution, its copyright status, etc.
+  element ns3:availability {
+    model.pLike+,
+    
+    ## supplies a code identifying the current availability of the text. 
+    [ a:defaultValue = "unknown" ]
+    attribute status {
+      
+      ##
+      "free"
+    }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlbase,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+notesStmt =
+  
+  ## (notes statement) collects together any notes providing information about a text additional to that recorded
+  ##     in other parts of the bibliographic description.
+  element ns3:notesStmt {
+    model.noteLike+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+sourceDesc =
+  
+  ## (source description) describes the source from which an electronic text was derived or generated, typically a
+  ##     bibliographic description in the case of a digitized text, or a phrase such as "born digital"
+  ##     for a text which has no previous existence.
+  element ns3:sourceDesc {
+    (model.pLike+
+     | (model.biblLike | model.sourceDescPart | model.listLike)+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+encodingDesc =
+  
+  ## (encoding description) documents the relationship between an electronic text and the
+  ## source or sources from which it was derived.
+  element ns3:encodingDesc {
+    (model.encodingDescPart | model.pLike)+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+projectDesc =
+  
+  ## (project description) describes in detail the aim or purpose for which an electronic file was encoded, together
+  ##     with any other relevant information concerning the process by which it was assembled or
+  ##     collected.
+  element ns3:projectDesc {
+    model.pLike+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+samplingDecl =
+  
+  ## (sampling declaration) contains a prose description of the rationale and methods used in sampling texts in the
+  ##     creation of a corpus or collection.
+  element ns3:samplingDecl {
+    model.pLike+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+editorialDecl =
+  
+  ## (editorial practice declaration) provides details of editorial principles and practices applied
+  ## during the encoding of a text.
+  element ns3:editorialDecl {
+    (model.pLike | model.editorialDeclPart)+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+correction =
+  
+  ## (correction principles) states how and under what circumstances corrections have been made in the text.
+  element ns3:correction {
+    model.pLike+,
+    
+    ## indicates the degree of correction applied to the text. 
+    [ a:defaultValue = "unknown" ]
+    attribute status {
+      
+      ##
+      "high"
+    }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+normalization =
+  
+  ## indicates the extent of normalization or regularization of the original source carried out
+  ##     in converting it to electronic form.
+  element ns3:normalization {
+    model.pLike+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+segmentation =
+  
+  ## describes the principles according to which the text has been segmented, for example into
+  ##     sentences, tone-units, graphemic strata, etc.
+  element ns3:segmentation {
+    model.pLike+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+tagsDecl =
+  
+  ## (tagging declaration) provides detailed information about the tagging applied to a document.
+  element ns3:tagsDecl {
+    \namespace*,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+tagUsage =
+  
+  ## supplies information about the usage of a specific element within a text. 
+  element ns3:tagUsage {
+    macro.limitedContent,
+    
+    ## (element name) the name (generic identifier) of the element indicated by the tag.
+    attribute gi { data.name },
+    
+    ## specifies the number of occurrences of this element within the text.
+    attribute occurs { data.count }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+\namespace =
+  
+  ## supplies the formal name of the namespace to which the elements documented by its children
+  ##     belong. 
+  element ns3:namespace {
+    tagUsage+,
+    
+    ## the full formal name of the namespace concerned.
+    attribute name { data.namespace },
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+classDecl =
+  
+  ## (classification declarations) contains one or more taxonomies defining any classificatory
+  ## codes used elsewhere in the text.
+  element ns3:classDecl {
+    taxonomy+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+taxonomy =
+  
+  ## defines a typology used to classify texts either implicitly, by means of a bibliographic
+  ##     citation, or explicitly by a structured taxonomy.
+  element ns3:taxonomy {
+    (model.glossLike* | category+ | (model.biblLike, category*)),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+category =
+  
+  ## contains an individual descriptive category, possibly nested within a superordinate
+  ##     category, within a user-defined taxonomy.
+  element ns3:category {
+    ((catDesc+ | model.glossLike*), category*),
+    att.global.attribute.xmlid,
+    att.global.attribute.n,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+catDesc =
+  
+  ## (category description) describes some category within a taxonomy or text typology, either in the form of a brief
+  ##     prose description or in terms of the situational parameters used by the TEI formal textDesc.
+  element ns3:catDesc {
+    (text | model.limitedPhrase | model.catDescPart)*,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+profileDesc =
+  
+  ## (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the
+  ##     languages and sublanguages used, the situation in which it was produced, the participants and
+  ##     their setting.
+  element ns3:profileDesc {
+    model.profileDescPart*,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+creation =
+  
+  ## contains information about the creation of a text.
+  element ns3:creation {
+    macro.phraseSeq.limited,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+langUsage =
+  
+  ## (language usage) describes the languages, sublanguages, registers, dialects, etc.
+  ## represented within a text.
+  element ns3:langUsage {
+    language+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+language =
+  
+  ## characterizes a single language or sublanguage used within a text.
+  element ns3:language {
+    macro.phraseSeq.limited,
+    
+    ## (identifier) Supplies a language code constructed as defined in BCP 47 which is used to identify the
+    ##         language documented by this element, and which is referenced by the global
+    ##         xml:lang attribute.
+    attribute ident { data.language },
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+textClass =
+  
+  ## (text classification) groups information which describes the nature or topic of a text in terms of a standard
+  ##     classification scheme, thesaurus, etc.
+  element ns3:textClass {
+    catRef*,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+catRef =
+  
+  ## (category reference) specifies one or more defined categories within some taxonomy or text typology.
+  element ns3:catRef {
+    empty,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.pointing.attributes,
+    empty
+  }
+revisionDesc =
+  
+  ## (revision description) summarizes the revision history for a file.
+  element ns3:revisionDesc {
+    (\list | change+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.docStatus.attributes,
+    empty
+  }
+change =
+  
+  ## summarizes a particular change or correction made to a particular version of an electronic
+  ##     text which is shared between several researchers.
+  element ns3:change {
+    (text | model.limitedPhrase | model.inter | model.global)*,
+    att.global.attribute.xmlid,
+    att.global.attribute.n,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.ascribed.attributes,
+    att.datable.w3c.attributes,
+    att.datable.iso.attributes,
+    att.docStatus.attributes,
+    empty
+  }
+anchor =
+  
+  ## (anchor point) attaches an identifier to a point within a text, whether or not it corresponds with a textual element.
+  element ns3:anchor {
+    empty,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.typed.attribute.type,
+    empty
+  }
+seg =
+  
+  ## (arbitrary segment) represents any segmentation of text below the chunk level.
+  element ns3:seg {
+    macro.paraContent,
+    att.global.attribute.xmlid,
+    att.global.attribute.n,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.typed.attribute.type,
+    att.responsibility.attributes,
+    empty
+  }
+att.global.linking.attributes =
+  att.global.linking.attribute.corresp,
+  att.global.linking.attribute.synch,
+  att.global.linking.attribute.sameAs
+att.global.linking.attribute.corresp =
+  
+  ## (corresponds) points to elements that correspond to the current
+  ##       element in some way.
+  attribute corresp {
+    list { data.pointer, data.pointer* }
+  }?
+att.global.linking.attribute.synch =
+  
+  ## (synchronous) points to elements that are synchronous with the current
+  ##       element.
+  attribute synch {
+    list { data.pointer, data.pointer* }
+  }?
+att.global.linking.attribute.sameAs =
+  
+  ## points to an element that is the same as the current
+  ##       element.
+  attribute sameAs { data.pointer }?
+orgName =
+  
+  ## (organization name) contains an organizational name. 
+  element ns3:orgName {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.datable.w3c.attribute.when,
+    att.datable.iso.attributes,
+    att.editLike.attributes,
+    att.personal.attributes,
+    empty
+  }
+persName =
+  
+  ## (personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including any
+  ##     or all of the person's forenames, surnames, honorifics, added names, etc.
+  element ns3:persName {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.datable.w3c.attribute.when,
+    att.datable.iso.attributes,
+    att.editLike.attributes,
+    att.personal.attributes,
+    empty
+  }
+age =
+  
+  ## (age) specifies the age of a person.
+  element ns3:age {
+    macro.phraseSeq.limited,
+    
+    ## supplies a numeric code representing the age or age group
+    attribute value { data.count }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.editLike.attributes,
+    att.datable.w3c.attribute.when,
+    att.datable.iso.attributes,
+    empty
+  }
+langKnowledge =
+  
+  ## (language knowledge) summarizes the state of a person's linguistic knowledge, either as prose or by a list of langKnown elements.
+  element ns3:langKnowledge {
+    (model.pLike | langKnown+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.datable.w3c.attribute.when,
+    att.datable.iso.attributes,
+    att.editLike.attributes,
+    empty
+  }
+langKnown =
+  
+  ## (language known) summarizes the state of a person's linguistic competence, i.e., knowledge of a single language.
+  element ns3:langKnown {
+    macro.phraseSeq.limited,
+    
+    ## supplies a valid language tag for the language concerned.
+    attribute tag { data.language },
+    
+    ## a code indicating the person's level of knowledge for this language 
+    attribute level { data.word }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.datable.w3c.attribute.when,
+    att.datable.iso.attributes,
+    att.editLike.attributes,
+    empty
+  }
+listPerson =
+  
+  ## (list of persons) contains a list of descriptions, each of which provides information about an identifiable
+  ##     person or a group of people, for example the participants in a language interaction, or the
+  ##     people referred to in a historical source. 
+  element ns3:listPerson {
+    (model.headLike*,
+     (model.personLike | listPerson)+,
+     (relation | relationGrp)*),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.typed.attribute.type,
+    att.declarable.attributes,
+    empty
+  }
+occupation =
+  
+  ## contains an informal description of a person's trade, profession or occupation.
+  element ns3:occupation {
+    macro.phraseSeq,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.datable.w3c.attribute.when,
+    att.datable.iso.attributes,
+    att.editLike.attributes,
+    att.naming.attributes,
+    empty
+  }
+relationGrp =
+  
+  ## (relation group) provides information about relationships identified amongst people, places, and
+  ##     organizations, either informally as prose or as formally expressed relation links. 
+  element ns3:relationGrp {
+    (model.pLike+ | relation+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+person =
+  
+  ## provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a
+  ##         historical source.
+  element ns3:person {
+    (model.pLike+ | (model.personPart | model.global)*),
+    
+    ## specifies a primary role or classification for the person.
+    attribute role {
+      list {
+        (
+         ##
+         "audience"
+         | 
+           ##
+           "chair"
+         | 
+           ##
+           "coordinator"
+         | 
+           ##
+           "interviewee"
+         | 
+           ##
+           "interviewer"
+         | 
+           ##
+           "non-participant"
+         | 
+           ##
+           "participant"
+         | 
+           ##
+           "presenter"
+         | 
+           ##
+           "researcher"
+         | 
+           ##
+           "student"
+         | 
+           ##
+           "teacher"
+         | 
+           ##
+           "translator"),
+        (
+         ##
+         "audience"
+         | 
+           ##
+           "chair"
+         | 
+           ##
+           "coordinator"
+         | 
+           ##
+           "interviewee"
+         | 
+           ##
+           "interviewer"
+         | 
+           ##
+           "non-participant"
+         | 
+           ##
+           "participant"
+         | 
+           ##
+           "presenter"
+         | 
+           ##
+           "researcher"
+         | 
+           ##
+           "student"
+         | 
+           ##
+           "teacher"
+         | 
+           ##
+           "translator")*
+      }
+    }?,
+    
+    ## specifies the sex of the person.
+    attribute sex { data.sex }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.editLike.attributes,
+    empty
+  }
+personGrp =
+  
+  ## (personal group) describes a group of individuals treated as a single person for analytic purposes.
+  element ns3:personGrp {
+    (model.pLike+ | model.personPart*),
+    
+    ## specifies the role of this group of participants in the interaction.
+    attribute role {
+      
+      ##
+      "audience"
+      | 
+        ##
+        "interactants"
+      | 
+        ##
+        "speakers"
+    }?,
+    
+    ## specifies the size or approximate size of the group.
+    attribute size {
+      list { data.word, data.word* }
+    }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+relation =
+  
+  ## (relationship) describes any kind of relationship or linkage amongst a specified group of participants.
+  element ns3:relation {
+    empty
+    >> ns2:pattern [
+         id = "relation-constraint-activemutual"
+         "\x{a}" ~
+         "            "
+         ns2:rule [
+           context = "tei:relation"
+           "\x{a}" ~
+           "               "
+           ns2:report [
+             test = "@active and @mutual"
+             "Only one of the attributes\x{a}" ~
+             "	'active' and 'mutual' may be supplied"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> ns2:pattern [
+         id = "relation-constraint-activepassive"
+         "\x{a}" ~
+         "            "
+         ns2:rule [
+           context = "tei:relation"
+           "\x{a}" ~
+           "               "
+           ns2:report [
+             test = "@passive and not(@active)"
+             "the attribute 'passive'\x{a}" ~
+             "	may be supplied only if the attribute 'active' is\x{a}" ~
+             "	supplied"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    (
+     ## supplies a list of participants amongst all of whom the relationship holds equally.
+     attribute mutual {
+       list { data.pointer, data.pointer* }
+     }?),
+    
+    ## categorizes the relationship in some respect, e.g. as social, personal or other.
+    [ a:defaultValue = "personal" ]
+    attribute type {
+      
+      ##
+      "acquaintedness"
+      | 
+        ##
+        "power"
+    }?,
+    
+    ## supplies a name for the kind of relationship of which this is an instance.
+    attribute name {
+      
+      ##
+      "acquainted"
+      | 
+        ##
+        "acquaintedness_unknown"
+      | 
+        ##
+        "power_relations_unknown"
+      | 
+        ##
+        "predominantly_acquainted"
+      | 
+        ##
+        "predominantly_unacquainted"
+      | 
+        ##
+        "fairly_asymmetrical"
+      | 
+        ##
+        "fairly_symmetrical"
+      | 
+        ##
+        "unacquainted"
+    },
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.datable.w3c.attribute.when,
+    att.datable.iso.attributes,
+    att.editLike.attributes,
+    att.naming.attributes,
+    empty
+  }
+sex =
+  
+  ## specifies the sex of a person.
+  element ns3:sex {
+    macro.phraseSeq,
+    
+    ##
+    attribute value { data.sex }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.editLike.attributes,
+    att.datable.w3c.attribute.when,
+    att.datable.iso.attributes,
+    empty
+  }
+att.datable.iso.attributes = empty
+att.duration.iso.attributes = empty
+model.global.spoken = pause | vocal | incident | shift
+model.global.spoken_alternation = pause | vocal | incident | shift
+model.global.spoken_sequence = pause, vocal, incident, shift
+model.global.spoken_sequenceOptional = pause?, vocal?, incident?, shift?
+model.global.spoken_sequenceOptionalRepeatable =
+  pause*, vocal*, incident*, shift*
+model.global.spoken_sequenceRepeatable =
+  pause+, vocal+, incident+, shift+
+model.recordingPart = model.dateLike | respStmt | equipment
+scriptStmt =
+  
+  ## (script statement) contains a citation giving details of the script used for
+  ## a spoken text.
+  element ns3:scriptStmt {
+    (model.pLike+ | model.biblLike),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+recordingStmt =
+  
+  ## (recording statement) describes a set of recordings used as the basis for transcription of a
+  ## spoken text.
+  element ns3:recordingStmt {
+    (model.pLike+ | recording+),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+recording =
+  
+  ## (recording event) details of an audio or video recording event
+  ## used as the source of a spoken text, either directly or from
+  ## a public broadcast. 
+  element ns3:recording {
+    (model.pLike+ | model.recordingPart*),
+    
+    ## the kind of recording.
+    [ a:defaultValue = "audio" ]
+    attribute type {
+      
+      ##
+      "audio"
+    }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    att.duration.w3c.attributes,
+    att.duration.iso.attributes,
+    empty
+  }
+equipment =
+  
+  ## provides technical details of the equipment and media used for
+  ## an audio or video recording used as the source for a spoken text.
+  element ns3:equipment {
+    model.pLike+,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declarable.attributes,
+    empty
+  }
+u =
+  
+  ## (utterance) a stretch of speech usually preceded and followed by
+  ## silence or by a change of speaker.
+  element ns3:u {
+    (text | model.gLike | model.phrase | model.global)*,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declaring.attributes,
+    att.ascribed.attributes,
+    empty
+  }
+pause =
+  
+  ## a pause either between or within utterances.
+  element ns3:pause {
+    empty,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.timed.attributes,
+    empty
+  }
+vocal =
+  
+  ## any vocalized but not necessarily lexical phenomenon, for
+  ##   example voiced pauses, non-lexical backchannels, etc.
+  element ns3:vocal {
+    model.glossLike*,
+    
+    ## Specifies the approx. count of syllables
+    attribute ns1:syl { data.count }?,
+    
+    ##
+    attribute ns1:desc { text }?,
+    
+    ## indicates whether or not the phenomenon is repeated.
+    [ a:defaultValue = "false" ]
+    attribute iterated { data.xTruthValue }?,
+    att.timed.attributes,
+    att.typed.attributes,
+    empty
+  }
+incident =
+  
+  ## any phenomenon or occurrence, not necessarily vocalized or
+  ## communicative, for example incidental noises or other events affecting
+  ## communication.
+  element ns3:incident {
+    model.glossLike*,
+    
+    ##
+    attribute ns1:desc { text }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.timed.attributes,
+    empty
+  }
+shift =
+  
+  ## marks the point at which some paralinguistic feature of a series of
+  ## utterances by any one speaker changes.
+  element ns3:shift {
+    empty,
+    
+    ## a
+    ## paralinguistic feature.
+    attribute feature {
+      
+      ##
+      "custom"
+      | 
+        ##
+        "loud"
+      | 
+        ##
+        "tempo"
+      | 
+        ##
+        "voice"
+    }?,
+    
+    ## specifies the new state of the paralinguistic feature specified.
+    [ a:defaultValue = "normal" ]
+    attribute new {
+      
+      ##
+      "a"
+      | 
+        ##
+        "f"
+      | 
+        ##
+        "high"
+      | 
+        ##
+        "imitating"
+      | 
+        ##
+        "l"
+      | 
+        ##
+        "laugh"
+      | 
+        ##
+        "neutral"
+      | 
+        ##
+        "not"
+      | 
+        ##
+        "p"
+      | 
+        ##
+        "phone"
+      | 
+        ##
+        "reading"
+      | 
+        ##
+        "reading_aloud"
+      | 
+        ##
+        "sigh"
+      | 
+        ##
+        "singing"
+      | 
+        ##
+        "speaking"
+      | 
+        ##
+        "voice"
+      | 
+        ##
+        "whisp"
+      | 
+        ##
+        "with"
+      | 
+        ##
+        "yawning"
+      | 
+        ##
+        "speaking_with_a_high_voice"
+    }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+model.divPart.spoken = u
+model.divPart.spoken_alternation = u
+model.divPart.spoken_sequence = u
+model.divPart.spoken_sequenceOptional = u?
+model.divPart.spoken_sequenceOptionalRepeatable = u*
+model.divPart.spoken_sequenceRepeatable = u+
+att =
+  
+  ## (attribute) contains the name of an attribute appearing within running text.
+  element ns3:att {
+    text,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+egXML =
+  
+  ## (example of XML) contains a single well-formed XML fragment demonstrating the use of some XML element or
+  ##     attribute, in which the egXML element itself functions as the root element. 
+  element egXML {
+    (text | macro.anyXML)*,
+    att.global.attributes,
+    
+    ## indicates the intended validity of the example with respect to
+    ## a schema.
+    [ a:defaultValue = "true" ]
+    attribute valid {
+      
+      ## the example is intended to be fully valid,
+      ## assuming that its root element can be used as the root element in the
+      ## schema concerned.
+      "true"
+      | 
+        ## the example could be transformed into
+        ## a valid document by inserting any number of valid attributes and child
+        ## elements anywhere within it; it is valid against a version of the
+        ## schema concerned in which every data, list, element, or attribute
+        ## element has been made optional.
+        "feasible"
+      | 
+        ## the example is not intended to be valid,
+        ## and contains deliberate errors.
+        "false"
+    }?,
+    empty
+  }
+gi =
+  
+  ## (element name) contains the name (generic identifier) of an element.
+  element ns3:gi {
+    text,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+val =
+  
+  ## (value) contains a single attribute value.
+  element ns3:val {
+    text,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+classRef =
+  
+  ## points to the specification for an attribute or model class which is to be included in a schema
+  element ns3:classRef {
+    empty,
+    att.global.attributes,
+    att.readFrom.attributes,
+    
+    ## the identifier used for the required class within the
+    ##	source indicated.
+    attribute key { xsd:NCName },
+    empty
+  }
+elementRef =
+  
+  ## points to the specification for some element which is to be included in a schema
+  element ns3:elementRef {
+    empty,
+    att.global.attributes,
+    att.readFrom.attributes,
+    
+    ## the identifier used for the required element within the
+    ##	source indicated.
+    attribute key { xsd:NCName },
+    empty
+  }
+macroRef =
+  
+  ## points to the specification for some pattern which is to be included in a schema
+  element ns3:macroRef {
+    empty,
+    att.global.attributes,
+    att.readFrom.attributes,
+    
+    ## the identifier used for the required pattern within the
+    ##	source indicated.
+    attribute key { xsd:NCName },
+    empty
+  }
+constraint =
+  
+  ##  (constraint rules) the formal rules of a constraint
+  element ns3:constraint {
+    (text | macro.anyXML), att.global.attributes, empty
+  }
+att.combinable.attributes = att.combinable.attribute.mode
+att.combinable.attribute.mode =
+  
+  ## specifies the effect of this declaration on its parent
+  ##     object.
+  [ a:defaultValue = "add" ]
+  attribute mode {
+    
+    ## this declaration is added to the current definitions
+    "add"
+    | 
+      ## if present already, the whole of the declaration 
+      ##	  for this object is  removed from the current setup
+      "delete"
+    | 
+      ## this declaration changes the declaration of the same
+      ##     name in the current definition
+      "change"
+    | 
+      ## this declaration replaces the declaration of the same
+      ##     name in the current definition
+      "replace"
+  }?
+att.identified.attributes =
+  att.combinable.attributes, att.identified.attribute.status
+att.identified.attribute.status =
+  
+  ## indicates the current status of the object identified with
+  ## respect to the current version of the TEI Guidelines.
+  [ a:defaultValue = "stable" ]
+  attribute status {
+    
+    ## the item is not recommended for use,
+    ## and may be withdrawn at a future release.
+    "deprecated"
+    | 
+      ## the item is new and still under
+      ## review.
+      "unstable"
+    | 
+      ## the item has changed significantly since the
+      ## preceding version.
+      "changed"
+    | 
+      ## the item has not recently changed and is
+      ## not expected to do so except for correction of any errors.
+      "stable"
+  }?
+TEI =
+  
+  ## (TEI document) contains a single TEI-conformant document,
+  ## comprising a TEI header and a text, either in isolation or as part of a
+  ## teiCorpus element.
+  element ns3:TEI {
+    (teiHeader,
+     ((model.resourceLike+, \text?) | \text))
+    >> ns2:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
+    >> ns2:ns [
+         prefix = "rng"
+         uri = "http://relaxng.org/ns/structure/1.0"
+       ],
+    
+    ## specifies the version number of the TEI Guidelines against
+    ##       which this document is valid.
+    attribute version { data.version }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmllang,
+    att.global.attribute.xmlbase,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    empty
+  }
+\text =
+  
+  ## contains a single text of any kind, whether unitary or composite, for example a poem or
+  ##     drama, a collection of essays, a novel, a dictionary, or a corpus sample.
+  element ns3:text {
+    (model.global*, body, model.global*),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declaring.attributes,
+    empty
+  }
+body =
+  
+  ## (text body) contains the whole body of a single unitary text, excluding any front or back matter.
+  element ns3:body {
+    (model.global*,
+     (model.divTop, (model.global | model.divTop)*)?,
+     (model.divGenLike, (model.global | model.divGenLike)*)?,
+     ((model.divLike, (model.global | model.divGenLike)*)+
+      | (model.div1Like, (model.global | model.divGenLike)*)+
+      | ((model.common, model.global*)+,
+         ((model.divLike, (model.global | model.divGenLike)*)+
+          | (model.div1Like, (model.global | model.divGenLike)*)+)?)),
+     (model.divBottom, model.global*)*),
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.declaring.attributes,
+    empty
+  }
+\div =
+  
+  ## (text division) contains a subdivision of the front, body, or back of a text.
+  element ns3:div {
+    ((model.divTop | model.global)*,
+     ((((model.divLike | model.divGenLike), model.global*)+
+       | ((model.common, model.global*)+,
+          ((model.divLike | model.divGenLike), model.global*)*)),
+      (model.divBottom, model.global*)*)?),
+    
+    ##
+    attribute ns1:end { data.temporal.iso }?,
+    
+    ##
+    attribute ns1:start { data.temporal.iso }?,
+    
+    ##
+    attribute ns1:medium_type { data.enumerated }?,
+    
+    ##
+    attribute ns1:end_medium_number { data.key }?,
+    
+    ##
+    attribute ns1:start_medium_number { data.key }?,
+    
+    ##
+    attribute ns1:end_track { data.count }?,
+    
+    ##
+    attribute ns1:start_track { data.count }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.divLike.attributes,
+    att.typed.attribute.type,
+    att.declaring.attributes,
+    empty
+  }
+att.global.facs.attributes = empty
+gb =
+  
+  ##  (gathering begins) marks the point in a transcribed codex at which a new
+  ##   gathering or quire begins.
+  element ns3:gb {
+    empty,
+    att.global.attributes,
+    att.typed.attributes,
+    att.spanning.attributes,
+    att.breaking.attributes,
+    empty
+  }
+supplied =
+  
+  ## signifies text supplied by the transcriber or editor for any
+  ##   reason, typically because the original cannot be read because of
+  ##   physical damage or loss to the original.
+  element ns3:supplied {
+    macro.paraContent,
+    
+    ##  Transcription of the item in the International
+    ##               Phonetic Alphabet (IPA) 
+    attribute ns1:ipa {
+      list { xsd:token, xsd:token* }
+    }?,
+    
+    ## indicates why the text has had to be supplied.
+    attribute reason {
+      list { data.word, data.word* }
+    }?,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmlspace,
+    att.global.linking.attributes,
+    att.global.analytic.attributes,
+    att.global.facs.attributes,
+    att.editLike.attributes,
+    empty
+  }
+surplus =
+  
+  ##  (Texte superflu) marks text present in the source which the editor believes to
+  ##   be superfluous or redundant.
+  element ns3:surplus {
+    macro.paraContent,
+    att.global.attributes,
+    att.editLike.attributes,
+    
+    ## indicates the grounds for believing this text to be superfluous.
+    attribute reason {
+      list { data.word, data.word* }
+    }?,
+    empty
+  }
+track =
+  
+  ## indicating the beginning of a new track.
+  element ns1:track {
+    empty,
+    att.typed.attributes,
+    
+    ##
+    attribute medium { data.key }?,
+    
+    ##
+    attribute num { data.key }?,
+    empty
+  }
+pvc =
+  
+  ## Indicating a Pronunciation Variation and Coinage as described in the VOICE Transcription Conventions
+  element ns1:pvc {
+    macro.paraContent,
+    
+    ##
+    attribute comment { text }?,
+    
+    ##  Transcription of the item in the International
+    ##               Phonetic Alphabet (IPA) 
+    attribute ns1:ipa {
+      list { xsd:token, xsd:token* }
+    }?,
+    empty
+  }
+to =
+  
+  ## Indicating a stretch of speach directed to a person
+  element ns1:to {
+    macro.paraContent,
+    att.segLike.attributes,
+    att.ascribed.attributes,
+    empty
+  }
+start = TEI | teiCorpus

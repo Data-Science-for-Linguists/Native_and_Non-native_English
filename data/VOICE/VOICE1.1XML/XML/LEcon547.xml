@@ -1,0 +1,748 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="LEcon547" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>conversation between family and visiting student in car while driving around and visiting a castle</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>Austrian Science Foundation (FWF)</funder>
+            <sponsor/>
+            <respStmt>
+               <resp>Corpus Compilation</resp>
+               <orgName>VOICE Project</orgName>
+               <persName>Barbara Seidlhofer</persName>
+               <persName>Angelika Breiteneder</persName>
+               <persName>Marie-Luise Pitzl</persName>
+               <persName>Stefan Majewski</persName>
+               <persName>Theresa Klimpfinger</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+	  <edition>Version 1.1 XML, <date>May 2011</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Angelika Breiteneder</name> 
+		<name>Theresa Klimpfinger</name> 
+		<name>Stefan Majewski</name> 
+		<name>Marie-Luise Pitzl</name> 
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk,
+		Marie-Luise Pitzl</publisher>
+	  <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+		<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  		<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). Minor revisions and
+		  corrections were made by Ruth Osimk. VOICE 1.1 XML is
+		  available for download at the VOICE Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+	  	<p>
+          The recommended citation for VOICE 1.1 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.1
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Ruth Osimk, Marie-Luise Pitzl.</bibl>
+		</p>
+		<p>The short citation for VOICE 1.1 XML is:
+		</p>
+		<p>
+          <bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version 1.1 XML</edition>).</bibl>
+        </p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="LEcon547_wc">Words: 1220</note>
+            <note xml:id="LEcon547_tn_0">This conversation takes place during a trip in which a Maltese family shows a Serbian student some parts of Malta. At the beginning, the speakers are just returning from visiting a church and talk about religious customs. Then the topic changes to pronouncing different words in Maltese. They are going around by car and stop at a castle to visit it. Parts are unintelligible on the recording and therefore have not been transcribed. S3 asks S4 to teach her some Maltese words, after which the speakers continue to talk about interesting features of the castle they are visiting.  </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H15M21S" type="audio">
+                  <date>2006-05-20</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R11</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="LEcon547_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="LEcon547_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="LEcon547_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="LEcon547_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="LEcon547_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="LEcon547_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="LEcon547_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="LEcon547_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="LEcon547_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="LEcon547_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="LEcon547_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="LEcon547_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="LEcon547_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="LEcon547_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="LEcon547_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="LEcon547_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="LEcon547_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="orgName" occurs="1"/>
+      <tagUsage gi="persName" occurs="5"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="name" occurs="8"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="4"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="80"/>
+      <tagUsage gi="gi" occurs="3"/>
+      <tagUsage gi="att" occurs="13"/>
+      <tagUsage gi="list" occurs="12"/>
+      <tagUsage gi="label" occurs="22"/>
+      <tagUsage gi="val" occurs="43"/>
+      <tagUsage gi="item" occurs="42"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="2"/>
+      <tagUsage gi="person" occurs="6"/>
+      <tagUsage gi="age" occurs="5"/>
+      <tagUsage gi="sex" occurs="5"/>
+      <tagUsage gi="langKnowledge" occurs="5"/>
+      <tagUsage gi="langKnown" occurs="6"/>
+      <tagUsage gi="occupation" occurs="2"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="5"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="2"/>
+      <tagUsage gi="u" occurs="245">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+      <tagUsage gi="incident" occurs="10">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="shift" occurs="14">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="pause" occurs="100">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="seg" occurs="107">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="c" occurs="52">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="20">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="supplied" occurs="25">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed
+		to be anonymized. The <att>reason</att> attribute is used to
+		mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="vocal" occurs="29">Used to mark laughter and other speaker
+        noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="unclear" occurs="10">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="emph" occurs="1">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="foreign" occurs="45">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the <att>voice:translation</att> attribute
+		provides a rough translation of the non-English speech into
+		English.
+		</tagUsage>
+      <tagUsage gi="gap" occurs="1">Used to mark points where a short portion of
+		speech has not been recorded or has been left untranscribed,
+		whether for editorial reasons, as part of the sampling practice,
+		or because the material is inaudible or comprises sensitive
+		content. The following <att>reason</att> attributes are used to
+		mark:
+		<list>
+		  <label><val>not_recorded</val></label><item>Not recorded
+		  speech</item>
+		  <label><val>not_transcribed</val></label><item>Not transcribed
+		  speech</item>
+		</list>
+		Further information on the reason for a gap is provided within
+		the <att>voice:desc</att> attribute.
+		</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:track" occurs="2">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in
+		length) and thus refers to the audio recording of the
+		transcribed speech event.
+		</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#LEcon547_LE #LEcon547_con"/>
+            <catRef target="#LE #con"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">MT</name>
+               <name type="city">unknown</name>
+               <locale>car, castle</locale>
+               <activity>driving around, walking around</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="5"/>
+                  <personGrp role="interactants" size="4"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="participant" sameAs="#P530" xml:id="LEcon547_S1">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="mlt-MT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P531" xml:id="LEcon547_S2">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="mlt-MT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P532" xml:id="LEcon547_S4">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="mlt-MT"/>
+                        <langKnown level="L1" tag="eng-MT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="non-participant" sameAs="#P608" xml:id="LEcon547_S5">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="mlt-MT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P168" xml:id="LEcon547_S3">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="scc-RS"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person sameAs="#SS" xml:id="LEcon547_SS"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#LEcon547_S1 #LEcon547_S2 #LEcon547_S3 #LEcon547_S4" name="fairly_symmetrical" type="power"/>
+                  <relation mutual="#LEcon547_S1 #LEcon547_S2 #LEcon547_S3 #LEcon547_S4" name="acquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-11" who="TK">finalized for publication</change>
+         <change when="2009-02-13" who="MLP">proof-reading</change>
+         <change when="2007-10-19" who="TK">checking</change>
+         <change when="2007-03-12" who="ABa">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="02:00" voice:end_medium_number="1" voice:end_track="2" voice:medium_type="md" voice:start="00:03" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_1"><incident voice:desc="speakers return from visiting a church and get into their car"/><shift corresp="#LEcon547_s_2" feature="loud" new="p" xml:id="LEcon547_s_1"/> all right <shift corresp="#LEcon547_s_1" feature="loud" new="neutral" xml:id="LEcon547_s_2"/><pause dur="PT6S"/><incident voice:desc="speakers get in the car and doors are closed"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_2"> you know they cross differently <pause/> than us <pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_3"> we cross <seg n="1" type="overlap" xml:id="LEcon547_ol_0"> er </seg> from this side but <pause/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_4"><seg n="1" synch="#LEcon547_ol_0" type="overlap" xml:id="LEcon547_ol_1"> yes </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_5"> and you do it more than once <pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_6"> really<c function="rise" type="intonation"/><anchor synch="#LEcon547_oc_1" type="other_continuation" xml:id="LEcon547_oc_0"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_7"><anchor synch="#LEcon547_oc_0" type="other_continuation" xml:id="LEcon547_oc_1"/> three times </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_8"> yeah i know <anchor synch="#LEcon547_oc_3" type="other_continuation" xml:id="LEcon547_oc_2"/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_9"><anchor synch="#LEcon547_oc_2" type="other_continuation" xml:id="LEcon547_oc_3"/> three <seg n="2" type="overlap" xml:id="LEcon547_ol_2"> times </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_10"><seg n="2" synch="#LEcon547_ol_2" type="overlap" xml:id="LEcon547_ol_3"> some</seg>times <pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_11"> at the same time<c function="rise" type="intonation"/> though <pause dur="PT1S"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_12"> i cross once but <pause/> some people do <pause/> three times </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_13"> i see<c function="rise" type="intonation"/><pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_14"> and <pause dur="PT1S"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_15"> i never knew </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_16"> yeah but it's it's the <seg n="3" type="overlap" xml:id="LEcon547_ol_4"> same religion </seg> basically </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_17"><seg n="3" synch="#LEcon547_ol_4" type="overlap" xml:id="LEcon547_ol_5"> the same thing </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_18"> o<c type="lengthening"/>h definitely <pause dur="PT1S"/> no but this seems interesting of <seg n="4" type="overlap" xml:id="LEcon547_ol_6"> how </seg> some things are <pause dur="PT1S"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_19"><seg n="4" synch="#LEcon547_ol_6" type="overlap" xml:id="LEcon547_ol_7"> yeah </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_20"> the differences all the tiny <seg n="5" type="overlap" xml:id="LEcon547_ol_8"> differences </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_21"><seg n="5" synch="#LEcon547_ol_8" type="overlap" xml:id="LEcon547_ol_9"> oh<c function="rise" type="intonation"/></seg><pause/> then i will take you to <pause/> to a couple of churches in vienna they are really beautiful <seg n="6" type="overlap" xml:id="LEcon547_ol_10"> if you want to <pause/> they are orthodox </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_22"><seg n="6" synch="#LEcon547_ol_10" type="overlap" xml:id="LEcon547_ol_11"> really<c function="rise" type="intonation"/><pause/> thank you yes </seg> yes i'd love to go </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_23"> yes there is a russian church so<c type="lengthening"/> beautiful <pause/> amazing <pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_24"> great thanks so i still can go in right<c function="rise" type="intonation"/><pause/> since i'm <anchor synch="#LEcon547_oc_5" type="other_continuation" xml:id="LEcon547_oc_4"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_25"><anchor synch="#LEcon547_oc_4" type="other_continuation" xml:id="LEcon547_oc_5"/> of course <pause dur="PT1S"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_26"> good<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_27"> and russian women even put scarves on <seg n="7" type="overlap" xml:id="LEcon547_ol_12"> the head </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_28"><seg n="7" synch="#LEcon547_ol_12" type="overlap" xml:id="LEcon547_ol_13"> yes </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_29"> aha<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_30"> and <pause/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_31"> we used to </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_32"><seg n="8" type="overlap" xml:id="LEcon547_ol_14"> i am </seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_33"><seg n="8" synch="#LEcon547_ol_14" type="overlap" xml:id="LEcon547_ol_15"> but not </seg> any more now <pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_34"> i'm against it<c function="fall" type="intonation"/> i don't know<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_35"> does everyone<c function="rise" type="intonation"/><seg n="9" type="overlap" xml:id="LEcon547_ol_16"> wear a scarf or </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_36"><seg n="9" synch="#LEcon547_ol_16" type="overlap" xml:id="LEcon547_ol_17"> no you don't have to </seg> you don't have to do it <seg n="1" type="overlap" xml:id="LEcon547_ol_18"> but </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_37"><seg n="1" synch="#LEcon547_ol_18" type="overlap" xml:id="LEcon547_ol_19"> i see </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_38"> when i was a boy everyone use to wear <seg n="2" type="overlap" xml:id="LEcon547_ol_20"> a veil </seg> in church <seg n="3" type="overlap" xml:id="LEcon547_ol_21"><supplied reason="unintelligible"> x </supplied> the women </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_39"><seg n="2" synch="#LEcon547_ol_20" type="overlap" xml:id="LEcon547_ol_22"> mhm </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_40"><seg n="3" synch="#LEcon547_ol_21" type="overlap" xml:id="LEcon547_ol_23"> and they </seg> used to cover their elbows as well </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_41"> yes </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_42"> huh<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_43"> yes <pause/> and weren't supposed to be <pause/> without sleeves </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_44"> sleeveless <vocal voice:desc="yawns"/> but that is even <seg n="4" type="overlap" xml:id="LEcon547_ol_24"> today </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_45"><seg n="4" synch="#LEcon547_ol_24" type="overlap" xml:id="LEcon547_ol_25"> even </seg> guys you know used to cover their <seg n="5" type="overlap" xml:id="LEcon547_ol_26"> hands </seg> with gloves <pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_46"><seg n="5" synch="#LEcon547_ol_26" type="overlap" xml:id="LEcon547_ol_27"> yes </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_47"> their what<c function="rise" type="intonation"/><pause/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_48"> guys used to cover their arms so when i was a boy i had my own you know <pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_49"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_50"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_51"><shift corresp="#LEcon547_s_4" feature="loud" new="p" xml:id="LEcon547_s_3"/> you cover your arms <shift corresp="#LEcon547_s_3" feature="loud" new="neutral" xml:id="LEcon547_s_4"/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_52"> yes </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_53"><supplied reason="unintelligible"> xxx </supplied></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_54"><seg n="6" type="overlap" xml:id="LEcon547_ol_28"> even though it's a hard thing <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_55"><seg n="6" synch="#LEcon547_ol_28" type="overlap" xml:id="LEcon547_ol_29"> and how does it cover <unclear> your elbows </unclear></seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_56"><seg n="6" synch="#LEcon547_ol_28" type="overlap" xml:id="LEcon547_ol_30"> yes cos <supplied reason="unintelligible"> x </supplied> we </seg> we used to have e<c type="lengthening"/>rm  </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_57"> no in church  </u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_58"><seg n="7" type="overlap" xml:id="LEcon547_ol_31"> in church </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_59"><seg n="7" synch="#LEcon547_ol_31" type="overlap" xml:id="LEcon547_ol_32"> in church </seg> in church we are talking about that <pause/> yeah </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_60"><seg n="8" type="overlap" xml:id="LEcon547_ol_33"> what did you have<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_61"><seg n="8" synch="#LEcon547_ol_33" type="overlap" xml:id="LEcon547_ol_34"> cos if we </seg> ha- cos i- if we ha- had a sleevel- a sort of a a a sleeveless top <pause/> we used to have so- erm <pause/> something sort of <emph> tube </emph> with an elasti- <pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_62"><seg n="1" type="overlap" xml:id="LEcon547_ol_35"> aha </seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_63"><seg n="1" synch="#LEcon547_ol_35" type="overlap" xml:id="LEcon547_ol_36"> something </seg> elastic  </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_64"><seg n="2" type="overlap" xml:id="LEcon547_ol_37"> an elastic </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_65"><seg n="2" synch="#LEcon547_ol_37" type="overlap" xml:id="LEcon547_ol_38"> aha </seg> yes <anchor synch="#LEcon547_oc_7" type="other_continuation" xml:id="LEcon547_oc_6"/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_66"><anchor synch="#LEcon547_oc_6" type="other_continuation" xml:id="LEcon547_oc_7"/> uhu uhu er so that it holds <pause/> onto your arm <pause/> to cover your arm </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_67"><seg n="3" type="overlap" xml:id="LEcon547_ol_39"><foreign type="L1" voice:translation="sleeve" xml:lang="mlt"><unclear> manki </unclear></foreign></seg><supplied reason="unintelligible"> xxx </supplied></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_68"><seg n="3" synch="#LEcon547_ol_39" type="overlap" xml:id="LEcon547_ol_40"> it was </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_69"> a mo- er er we used to <seg n="5" type="overlap" xml:id="LEcon547_ol_41"> call it <foreign type="L1" voice:translation="sleeve" xml:lang="mlt"><unclear> manki </unclear></foreign></seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_70"><seg n="5" synch="#LEcon547_ol_41" type="overlap" xml:id="LEcon547_ol_42"> a monkey<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_71"><seg n="6" type="overlap" xml:id="LEcon547_ol_43"> a <foreign type="L1" voice:translation="sleeve" xml:lang="mlt"><unclear> manki </unclear></foreign></seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_72"><seg n="6" synch="#LEcon547_ol_43" type="overlap" xml:id="LEcon547_ol_44"> a <foreign type="L1" voice:translation="sleeve" xml:lang="mlt"><unclear> manki </unclear></foreign></seg><foreign type="L1" voice:translation="sleeve" xml:lang="mlt"><unclear> manki manki </unclear></foreign> means sleeve no<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_73"><seg n="7" type="overlap" xml:id="LEcon547_ol_45"> a<c type="lengthening"/>h<c function="rise" type="intonation"/></seg> all right i thought monkey in english  </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_74"><seg n="7" synch="#LEcon547_ol_45" type="overlap" xml:id="LEcon547_ol_46"> aha </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_75"> yeah no no no  </u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_76"><seg n="1" type="overlap" xml:id="LEcon547_ol_47"> ma- ma- <foreign type="L1" voice:translation="sleeve" xml:lang="mlt"><unclear> manki </unclear></foreign> as in in ita- </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_77"><seg n="1" synch="#LEcon547_ol_47" type="overlap" xml:id="LEcon547_ol_48"> as in monkey </seg><pause/><foreign type="L1" voice:translation="monkey" xml:lang="mlt"> xadina </foreign><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_78"> in <seg n="2" type="overlap" xml:id="LEcon547_ol_49"> italian </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_79"><seg n="2" synch="#LEcon547_ol_49" type="overlap" xml:id="LEcon547_ol_50"><foreign type="L1" voice:translation="monkey" xml:lang="mlt"> xadina </foreign> is </seg> monkey in maltese the animal </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_80"> aha <pause/><foreign type="LN" voice:translation="monkey" xml:lang="mlt"> xadina </foreign></u>
+            <u who="#LEcon547_SS" xml:id="LEcon547_u_81"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="6"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_82"><seg n="3" type="overlap" xml:id="LEcon547_ol_51"><supplied reason="unintelligible"> xxx </supplied></seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_83"><seg n="3" synch="#LEcon547_ol_51" type="overlap" xml:id="LEcon547_ol_52"><shift corresp="#LEcon547_s_6" feature="voice" new="laugh" xml:id="LEcon547_s_5"/> how sweet she said it <shift corresp="#LEcon547_s_5" feature="voice" new="neutral" xml:id="LEcon547_s_6"/></seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_84"> you learn it fast </u>
+            <u who="#LEcon547_SS" xml:id="LEcon547_u_85"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="4" type="overlap" xml:id="LEcon547_ol_53"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_86"><seg n="4" synch="#LEcon547_ol_53" type="overlap" xml:id="LEcon547_ol_54"> teach me something <pause/> teach me </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_87"> okay like <pause/> what<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_88"> cheers was really difficult and <anchor synch="#LEcon547_oc_9" type="other_continuation" xml:id="LEcon547_oc_8"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_89"><anchor synch="#LEcon547_oc_8" type="other_continuation" xml:id="LEcon547_oc_9"/><foreign type="L1" voice:translation="health" xml:lang="mlt"> sahha </foreign><anchor synch="#LEcon547_oc_11" type="other_continuation" xml:id="LEcon547_oc_10"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_90"><anchor synch="#LEcon547_oc_10" type="other_continuation" xml:id="LEcon547_oc_11"/> i i'm giving up </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_91"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_92"><foreign type="L1" voice:translation="health" xml:lang="mlt"> sahha </foreign></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_93"><foreign type="L1" voice:translation="health" xml:lang="mlt"> sahha </foreign></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_94"><foreign type="LN" voice:translation="health" xml:lang="mlt"> sahha </foreign></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_95"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#LEcon547_s_8" feature="voice" new="laugh" xml:id="LEcon547_s_7"/>  no don't give up <shift corresp="#LEcon547_s_7" feature="voice" new="neutral" xml:id="LEcon547_s_8"/><pause/> so e<c type="lengthening"/>rm </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_96"> the most difficult word in maltese <pause dur="PT2S"/> is <seg n="5" type="overlap" xml:id="LEcon547_ol_55"> flower </seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_97"><seg n="5" synch="#LEcon547_ol_55" type="overlap" xml:id="LEcon547_ol_56"> flower </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_98"> as in flower <seg n="6" type="overlap" xml:id="LEcon547_ol_57"><supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_99"><seg n="6" synch="#LEcon547_ol_57" type="overlap" xml:id="LEcon547_ol_58"> tell me<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_100"> ah<c type="lengthening"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_101"><foreign type="L1" xml:lang="mlt"> xxx </foreign></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_102"><foreign type="L1" xml:lang="mlt"> xxx </foreign></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_103"><foreign type="LN" xml:lang="mlt"> xxx xxx </foreign></u>
+            <u who="#LEcon547_SS" xml:id="LEcon547_u_104"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_105"> tell me again </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_106"><seg n="7" type="overlap" xml:id="LEcon547_ol_59"><foreign type="L1" xml:lang="mlt"> xxx </foreign></seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_107"><seg n="7" synch="#LEcon547_ol_59" type="overlap" xml:id="LEcon547_ol_60"><foreign type="L1" xml:lang="mlt"> xxx </foreign></seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_108"><foreign type="LN" xml:lang="mlt"> xxx </foreign></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_109"> yay she said it<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_110"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_111"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_112"><supplied reason="unintelligible"> xx </supplied></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_113"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><seg n="8" type="overlap" xml:id="LEcon547_ol_61">  the english can't say <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_114"><seg n="8" synch="#LEcon547_ol_61" type="overlap" xml:id="LEcon547_ol_62"> but i wouldn't be able to </seg> remember it </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_115"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/>  don't worry <seg n="1" type="overlap" xml:id="LEcon547_ol_63"> then i'll remind you </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_116"><foreign type="LN" xml:lang="mlt"><seg n="1" synch="#LEcon547_ol_63" type="overlap" xml:id="LEcon547_ol_64"> xxx </seg> xxx </foreign><pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_117"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><seg n="2" type="overlap" xml:id="LEcon547_ol_65"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_118"><seg n="2" synch="#LEcon547_ol_65" type="overlap" xml:id="LEcon547_ol_66"> look at this <supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_119"><voice:track medium="1" num="2" type="md"/><seg n="3" type="overlap" xml:id="LEcon547_ol_67"> i think i think </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_120"><seg n="3" synch="#LEcon547_ol_67" type="overlap" xml:id="LEcon547_ol_68"> it's gone </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_121"> i <pause/> think <anchor synch="#LEcon547_oc_13" type="other_continuation" xml:id="LEcon547_oc_12"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_122"><anchor synch="#LEcon547_oc_12" type="other_continuation" xml:id="LEcon547_oc_13"/> o<c type="lengthening"/>h <anchor synch="#LEcon547_oc_15" type="other_continuation" xml:id="LEcon547_oc_14"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_123"><anchor synch="#LEcon547_oc_14" type="other_continuation" xml:id="LEcon547_oc_15"/> what <pause/> we'll do is <pause/> we'll go down <pause/> it this is not the main entrance that will go into <pause/> through for to for <foreign type="L1" voice:translation="maltese town" xml:lang="mlt"> mdina </foreign><pause/> but it's more picturesque </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_124"> aha </u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_125"> yes are you show it show her the roman villa <pause dur="PT3S"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_126"><seg n="4" type="overlap" xml:id="LEcon547_ol_69"> a<c type="lengthening"/>h yes </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_127"><seg n="4" synch="#LEcon547_ol_69" type="overlap" xml:id="LEcon547_ol_70"> wha- </seg> what's this<c function="rise" type="intonation"/><pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_128"> this is <seg n="5" type="overlap" xml:id="LEcon547_ol_71"><supplied reason="unintelligible"> xxxx </supplied> the royal gardens in <foreign type="L1" voice:translation="maltese town" xml:lang="mlt"> mdina </foreign></seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_129"><seg n="5" synch="#LEcon547_ol_71" type="overlap" xml:id="LEcon547_ol_72"><supplied reason="unintelligible"> xxxx </supplied> that's the roman villa </seg><pause/> they <seg n="8" type="overlap" xml:id="LEcon547_ol_73"> found </seg> the remains of a of a of an actual roman villa and they've got the floor it's a lovely mosaic<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_130"><seg n="8" synch="#LEcon547_ol_73" type="overlap" xml:id="LEcon547_ol_74"> mhm </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_131"> it's one of the best in the mediterranean </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_132"> mhm </u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_133"> and the- <pause/> there are <seg n="6" type="overlap" xml:id="LEcon547_ol_75"><unclear> the roman baths </unclear> as well </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_134"><seg n="6" synch="#LEcon547_ol_75" type="overlap" xml:id="LEcon547_ol_76"> over there look </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_135"> yeah <pause/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_136"> this is the roman villa would you like to take a photo<c function="rise" type="intonation"/><pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_137"> yeah from the car i can </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_138"> yeah but i <seg n="7" type="overlap" xml:id="LEcon547_ol_77"> can't stop </seg> here because i might you know somebody might crash into me <pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_139"><seg n="7" synch="#LEcon547_ol_77" type="overlap" xml:id="LEcon547_ol_78"> i mean </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_140"><seg n="10" type="overlap" xml:id="LEcon547_ol_79"> yeah </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_141"><seg n="10" synch="#LEcon547_ol_79" type="overlap" xml:id="LEcon547_ol_80"> you gotta do </seg> it when <seg n="1" type="overlap" xml:id="LEcon547_ol_81"> we're when whe- when </seg> we're coming back yes </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_142"><seg n="1" synch="#LEcon547_ol_81" type="overlap" xml:id="LEcon547_ol_82"> okay exactly on our way out </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_143"> i remember when i had gone to the <seg n="2" type="overlap" xml:id="LEcon547_ol_83"> roman baths </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_144"><seg n="2" synch="#LEcon547_ol_83" type="overlap" xml:id="LEcon547_ol_84"> so this was a </seg> wall <seg n="3" type="overlap" xml:id="LEcon547_ol_85"> city look look at </seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_145"><seg n="3" synch="#LEcon547_ol_85" type="overlap" xml:id="LEcon547_ol_86"> look at this </seg><supplied reason="anonymization"> [S3] </supplied></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_146"> aha<c function="rise" type="intonation"/><pause dur="PT2S"/> wow<c function="fall" type="intonation"/><pause dur="PT4S"/><incident voice:desc="music from the radio can be heard"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_147"> these are the these were they <seg n="4" type="overlap" xml:id="LEcon547_ol_87"> used have  doors here </seg> and the doors would go closed you know </u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_148"><seg n="4" synch="#LEcon547_ol_87" type="overlap" xml:id="LEcon547_ol_88"> the entrance </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_149"> yes <pause/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_150"> yes<c function="fall" type="intonation"/> there are more to come so we'll <pause dur="PT2S"/><seg n="5" type="overlap" xml:id="LEcon547_ol_89"> le- </seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_151"><seg n="5" synch="#LEcon547_ol_89" type="overlap" xml:id="LEcon547_ol_90"> to shut </seg> the people in </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_152"> let me park somewhere you know <pause dur="PT3S"/><incident voice:desc="music from the radio can be heard"/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_153"> these are old fortifications </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_154"> yes <pause dur="PT22S"/><incident voice:desc="music from the radio can be heard; the car is parked; people unbuckle their seat belts and get out"/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_155"> okay<c function="fall" type="intonation"/> so let me put these here that they don't get <pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_156"> yes </u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_157"> torn <pause dur="PT3S"/><incident voice:desc="door of car closes"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_158"> let me take this <pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_159"> yes better <pause/> better not leave <seg n="6" type="overlap" xml:id="LEcon547_ol_91"> this </seg> here because <pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_160"><seg n="6" synch="#LEcon547_ol_91" type="overlap" xml:id="LEcon547_ol_92"> yes </seg></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_161"> god forbid they <unclear> had </unclear> steal them <pause dur="PT3S"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_162"> yeah <pause/> i shouldn't </u>
+         </div>
+         <gap dur="PT00H07M51S" reason="not_transcribed" voice:desc="un; recording device is carried in bag, hardly anything can be heard; speakers walk away from the car to have a look at a castle and talk about the castle; S1 and S2 have conversation with S5 in the background"/>
+         <div type="medium" voice:end="00:21" voice:end_medium_number="1" voice:end_track="6" voice:medium_type="md" voice:start="00:51" voice:start_medium_number="1" voice:start_track="5">
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_163"> teach me something <pause dur="PT1S"/><incident voice:desc="parallel conversation between S1, S2 and S5"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_164"> okay like<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_165"> in maltese </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_166"> e<c type="lengthening"/>rm  </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_167"> i can <pause dur="PT2S"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_168"> okay how are you<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_169"> mhm </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_170"> is <foreign type="L1" voice:translation="how are you" xml:lang="mlt"> kif inti </foreign></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_171"><foreign type="LN" voice:translation="how are you" xml:lang="mlt"> kif inti </foreign></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_172"> exactly  </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_173"><foreign type="LN" voice:translation="how are you" xml:lang="mlt"> kif inti </foreign></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_174"><foreign type="L1" voice:translation="how are you" xml:lang="mlt"> kif inti </foreign><pause/> e<c type="lengthening"/>rm what's your name<c function="rise" type="intonation"/><pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_175"><foreign type="LN" xml:lang="mlt"> kef inti </foreign></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_176"><foreign type="L1" voice:translation="how" xml:lang="mlt"> kif </foreign><pause/> exactly </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_177"> not <foreign type="LN" voice:translation="how are you" xml:lang="mlt"> kif inti kef inti </foreign></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_178"><foreign type="L1" voice:translation="how how are you" xml:lang="mlt"> kif kif inti </foreign></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_179"><foreign type="LN" voice:translation="how are you" xml:lang="mlt"> kif inti </foreign></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_180"> exactly <anchor synch="#LEcon547_oc_17" type="other_continuation" xml:id="LEcon547_oc_16"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_181"><anchor synch="#LEcon547_oc_16" type="other_continuation" xml:id="LEcon547_oc_17"/> okay <pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_182"> a<c type="lengthening"/>nd for example you ask me <foreign type="L1" voice:translation="how are you" xml:lang="mlt"> kif inti </foreign> and i would say </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_183"><foreign type="LN" voice:translation="how are you" xml:lang="mlt"> kif inti </foreign><pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_184"> i would say <foreign type="LN" voice:translation="good" xml:lang="mlt"> tajjeba </foreign></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_185"><foreign type="LN" voice:translation="good" xml:lang="mlt"> tajjeba </foreign><anchor synch="#LEcon547_oc_19" type="other_continuation" xml:id="LEcon547_oc_18"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_186"><anchor synch="#LEcon547_oc_18" type="other_continuation" xml:id="LEcon547_oc_19"/> which is <seg n="7" type="overlap" xml:id="LEcon547_ol_93"> good </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_187"><seg n="7" synch="#LEcon547_ol_93" type="overlap" xml:id="LEcon547_ol_94"> good </seg><foreign type="LN" voice:translation="good" xml:lang="mlt"> tajjeba </foreign></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_188"> very good <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_189"><foreign type="LN" voice:translation="good" xml:lang="mlt"> tajjeba </foreign> i know </u>
+            <u who="#LEcon547_S5" xml:id="LEcon547_u_190"> ciao <incident voice:desc="parallel conversation stops, S5 leaves"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_191"> ciao </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_192"> bye <pause dur="PT1S"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_193"> and <foreign type="LN" voice:translation="good" xml:lang="mlt"> tajjeba </foreign> is if it's if i'm a female <pause/> so i would say <foreign type="LN" voice:translation="good" xml:lang="mlt"> tajjeba </foreign><pause/> but for example my father would say <foreign type="LN" voice:translation="good" xml:lang="mlt"> tajjeb </foreign></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_194"> a<c type="lengthening"/><c type="lengthening"/>h<c function="fall" type="intonation"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_195"> look another <supplied reason="unintelligible"> xx </supplied></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_196"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_197"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_198"><supplied reason="unintelligible"> xx xx x xxxxx </supplied><incident voice:desc="noise of microphone being moved"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_199"> no no no no i was like <pause/> i couldn't believe er that there are two different words for men and women  </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_200"> oh yes  </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_201"><foreign type="LN" voice:translation="good" xml:lang="mlt"> tajjeb </foreign> and </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_202"><foreign type="L1" voice:translation="good" xml:lang="mlt"> tajjeb </foreign> and <foreign type="L1" voice:translation="good" xml:lang="mlt"> tajjeba </foreign><foreign type="L1" voice:translation="good" xml:lang="mlt"> tajjeb </foreign> is male and <foreign type="L1" voice:translation="good" xml:lang="mlt"> tajjeba </foreign><seg n="8" type="overlap" xml:id="LEcon547_ol_95"> is female </seg></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_203"><seg n="8" synch="#LEcon547_ol_95" type="overlap" xml:id="LEcon547_ol_96"> no </seg> not at all </u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_204"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_205"> and this window is <pause/> older than <pause/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_206"> the same age same age </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_207"> ah the same age </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_208"> but they'll be restored you know<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_209"> aha <pause dur="PT1S"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_210"> norman you said<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_211"> norman <supplied reason="unintelligible"> xxxx </supplied><pause/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_212"> norman hamilton <pause/> right<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_213"> look at those two <supplied reason="unintelligible"> xxxx </supplied></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_214"> yes  </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_215"> can you see them<c function="rise" type="intonation"/> like <supplied reason="unintelligible"> xxxx </supplied><incident voice:desc="noise of bag being opened and closed"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_216"> what <unclear> is there is </unclear><c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_217"> it's like a parrot or <supplied reason="unintelligible"> xxxx </supplied></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_218"><supplied reason="unintelligible"> xxxx </supplied> probably to scare the evil spirits away <pause dur="PT2S"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_219"> to scare the spirits away<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_220"> i don't know <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon547_SS" xml:id="LEcon547_u_221"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_222"> probably <supplied reason="unintelligible"> xx xx xx xx x x xx x xx x x </supplied></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_223"> look what i told you before look it's winding <pause/> the road is winding <seg n="9" type="overlap" xml:id="LEcon547_ol_97"> you can't see </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_224"><seg n="9" synch="#LEcon547_ol_97" type="overlap" xml:id="LEcon547_ol_98"> you can't </seg> see from one end to the <seg n="1" type="overlap" xml:id="LEcon547_ol_99"> other </seg></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_225"><seg n="1" synch="#LEcon547_ol_99" type="overlap" xml:id="LEcon547_ol_100"> you </seg> can't see whether there are people over there or not <pause dur="PT1S"/></u>
+            <u who="#LEcon547_S4" xml:id="LEcon547_u_226"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_227"> that's the trick <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="2" type="overlap" xml:id="LEcon547_ol_101"> of this fortress </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_228"><seg n="2" synch="#LEcon547_ol_101" type="overlap" xml:id="LEcon547_ol_102"> yeah </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_229"><shift corresp="#LEcon547_s_10" feature="loud" new="p" xml:id="LEcon547_s_9"/><supplied reason="unintelligible"> xxx </supplied><shift corresp="#LEcon547_s_9" feature="loud" new="neutral" xml:id="LEcon547_s_10"/><pause/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_230"> and this is like er one whole city <pause/><seg n="3" type="overlap" xml:id="LEcon547_ol_103"> like one whole town </seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_231"><seg n="3" synch="#LEcon547_ol_103" type="overlap" xml:id="LEcon547_ol_104"> yes yes yes </seg> the wall is  </u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_232"> exactly <pause/><supplied reason="unintelligible"> xxxxxx </supplied></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_233"><supplied reason="unintelligible"> xxxxxx </supplied></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_234"> and who lives here<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_235"> i don't know </u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_236"> i knew </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_237"> in the in the in the town </u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_238"> a very old town <voice:track medium="1" num="6" type="md"/><pause/> maltese have <supplied reason="unintelligible"> xxx </supplied></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_239"> really<c function="rise" type="intonation"/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_240"><shift corresp="#LEcon547_s_12" feature="loud" new="p" xml:id="LEcon547_s_11"/> they don't really do <supplied reason="unintelligible"> xxx </supplied><shift corresp="#LEcon547_s_11" feature="loud" new="neutral" xml:id="LEcon547_s_12"/><pause/></u>
+            <u who="#LEcon547_S1" xml:id="LEcon547_u_241"><shift corresp="#LEcon547_s_14" feature="loud" new="p" xml:id="LEcon547_s_13"/><supplied reason="unintelligible"> xxx </supplied><shift corresp="#LEcon547_s_13" feature="loud" new="neutral" xml:id="LEcon547_s_14"/></u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_242"> and then <pause/> they don't mind they can't see people <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="4" type="overlap" xml:id="LEcon547_ol_105"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_243"><seg n="4" synch="#LEcon547_ol_105" type="overlap" xml:id="LEcon547_ol_106"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></seg>  all right <pause/> and then it depends on the side street you know </u>
+            <u who="#LEcon547_S3" xml:id="LEcon547_u_244"> it's so romantic <pause/></u>
+            <u who="#LEcon547_S2" xml:id="LEcon547_u_245"> yeah in the side streets it's the other people live here </u>
+         </div>
+      </body>
+   </text>
+</TEI>

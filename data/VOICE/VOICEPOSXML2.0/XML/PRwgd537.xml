@@ -1,0 +1,4642 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:p="http://www.univie.ac.at/voice/pos" xmlns:t="http://www.tei-c.org/ns/1.0" xml:id="PRwgd537">
+  <teiHeader>
+    <fileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <titleStmt>
+        <title>working group discussion about the development of a mathematical theorem</title>
+        <principal>Prof. Barbara Seidlhofer</principal>
+        <editor/>
+        <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+        <sponsor/>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name xml:id="SM">Stefan Majewski</name>
+          <name xml:id="RO">Ruth Osimk-Teasdale</name>
+          <name xml:id="MLP">Marie-Luise Pitzl</name>
+          <name xml:id="MR">Michael Radeka</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Version POS XML 2.0, <date>January 2013</date></edition>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name>Barbara Seidlhofer</name>
+          <name>Stefan Majewski</name>
+          <name>Ruth Osimk-Teasdale</name>
+          <name>Marie-Luise Pitzl</name>
+          <name>Michael Radeka</name>
+          <name>Nora Dorn</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+        <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+        <address>
+          <addrLine>Spitalgasse 2, AAKH Hof 8</addrLine>
+          <addrLine>1090 Vienna</addrLine>
+          <addrLine>Austria</addrLine>
+          <addrLine>Telephone: +43 1 427742446</addrLine>
+          <addrLine>Email: voice@univie.ac.at</addrLine>
+          <addrLine>Website: http://www.univie.ac.at/voice</addrLine>
+        </address>
+        <availability status="free">
+          <p> The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE POS XML 2.0 is the first part-of-speech tagged version of VOICE. It is based on the same data source as VOICE 2.0 XML. 
+		  VOICE 2.0 XML, which includes minor revisions with regard to previous versions, and VOICE POS XML 2.0, are available for download at the VOICE Project's website
+		  <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+          <p>
+          The recommended citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version POS XML 2.0
+		</edition>). Director: Barbara Seidlhofer; Researchers:
+		Stefan Majewski, Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka, Nora Dorn.</bibl>
+          </p>
+          <p>The short citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version POS XML 2.0</edition>).</bibl>
+          </p>
+          <p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note xml:id="PRwgd537_tc">Tokens: 3447</note>
+        <note xml:id="PRwgd537_wc">Words: 3030</note>
+        <note xml:id="PRwgd537_tn_0">This working group discussion between two mathematicians focuses on the development of a mathematical theorem. S10 does most of development and is also the one who writes the results down. Since he is often speaking and writing at the same time, his speech is relatively slow. This speech event could not be recorded in its entirety; the beginning and end of the conversation are missing. </note>
+      </notesStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording dur="PT00H21M44S" type="audio">
+            <date>2005-10-27</date>
+            <equipment>
+              <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+            </equipment>
+            <respStmt>
+              <resp>recording</resp>
+              <name>R19</name>
+            </respStmt>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <classDecl>
+        <taxonomy>
+          <category xml:id="PRwgd537_domain">
+            <catDesc>Domain</catDesc>
+            <category sameAs="#ED" xml:id="PRwgd537_ED">
+              <catDesc>educational</catDesc>
+            </category>
+            <category sameAs="#LE" xml:id="PRwgd537_LE">
+              <catDesc>leisure</catDesc>
+            </category>
+            <category sameAs="#PB" xml:id="PRwgd537_PB">
+              <catDesc>professional business</catDesc>
+            </category>
+            <category sameAs="#PO" xml:id="PRwgd537_PO">
+              <catDesc>professional organizational</catDesc>
+            </category>
+            <category sameAs="#PR" xml:id="PRwgd537_PR">
+              <catDesc>professional research/science</catDesc>
+            </category>
+          </category>
+          <category xml:id="PRwgd537_spet">
+            <catDesc>Speech Event Type</catDesc>
+            <category sameAs="#int" xml:id="PRwgd537_int">
+              <catDesc>interview</catDesc>
+            </category>
+            <category sameAs="#prc" xml:id="PRwgd537_prc">
+              <catDesc>press conference</catDesc>
+            </category>
+            <category sameAs="#sve" xml:id="PRwgd537_sve">
+              <catDesc>service encounter</catDesc>
+            </category>
+            <category sameAs="#sed" xml:id="PRwgd537_sed">
+              <catDesc>seminar discussion</catDesc>
+            </category>
+            <category sameAs="#wgd" xml:id="PRwgd537_wgd">
+              <catDesc>working group discussion</catDesc>
+            </category>
+            <category sameAs="#wsd" xml:id="PRwgd537_wsd">
+              <catDesc>workshop discussion</catDesc>
+            </category>
+            <category sameAs="#mtg" xml:id="PRwgd537_mtg">
+              <catDesc>meeting</catDesc>
+            </category>
+            <category sameAs="#pan" xml:id="PRwgd537_pan">
+              <catDesc>panel</catDesc>
+            </category>
+            <category sameAs="#qas" xml:id="PRwgd537_qas">
+              <catDesc>question-answer session</catDesc>
+            </category>
+            <category sameAs="#con" xml:id="PRwgd537_con">
+              <catDesc>conversation</catDesc>
+            </category>
+          </category>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="TEI" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+          <tagUsage gi="title" occurs="5"/>
+          <tagUsage gi="principal" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="funder" occurs="1"/>
+          <tagUsage gi="sponsor" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="3"/>
+          <tagUsage gi="resp" occurs="3"/>
+          <tagUsage gi="name" occurs="13"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="edition" occurs="3"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="publisher" occurs="1"/>
+          <tagUsage gi="distributor" occurs="1"/>
+          <tagUsage gi="address" occurs="1"/>
+          <tagUsage gi="addrLine" occurs="6"/>
+          <tagUsage gi="availability" occurs="1"/>
+          <tagUsage gi="p" occurs="8"/>
+          <tagUsage gi="ref" occurs="4"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="notesStmt" occurs="1"/>
+          <tagUsage gi="note" occurs="3"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="recordingStmt" occurs="1"/>
+          <tagUsage gi="recording" occurs="1"/>
+          <tagUsage gi="equipment" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="classDecl" occurs="1"/>
+          <tagUsage gi="taxonomy" occurs="1"/>
+          <tagUsage gi="category" occurs="17"/>
+          <tagUsage gi="catDesc" occurs="17"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="tagUsage" occurs="72"/>
+          <tagUsage gi="gi" occurs="5"/>
+          <tagUsage gi="att" occurs="2"/>
+          <tagUsage gi="fLib" occurs="2"/>
+          <tagUsage gi="f" occurs="95"/>
+          <tagUsage gi="fvLib" occurs="1"/>
+          <tagUsage gi="fs" occurs="56"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="catRef" occurs="2"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="setting" occurs="1"/>
+          <tagUsage gi="locale" occurs="1"/>
+          <tagUsage gi="activity" occurs="1"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="listPerson" occurs="3"/>
+          <tagUsage gi="personGrp" occurs="2"/>
+          <tagUsage gi="person" occurs="2"/>
+          <tagUsage gi="age" occurs="2"/>
+          <tagUsage gi="sex" occurs="2"/>
+          <tagUsage gi="occupation" occurs="2"/>
+          <tagUsage gi="langKnowledge" occurs="2"/>
+          <tagUsage gi="langKnown" occurs="2"/>
+          <tagUsage gi="relationGrp" occurs="1"/>
+          <tagUsage gi="relation" occurs="2"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="change" occurs="11"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="u" occurs="344">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+          <tagUsage gi="w" occurs="3466">
+		Used to mark lexical forms (tokens), but also word fragments,
+		pauses, onomatopoeic noises, spelling, laughter and breathing.
+		<gi>w</gi> is used with <att>ana</att> and <att>lemma</att>
+		attributes to mark its part-of-speech and lemma. Note that for
+		tokens with ambiguous tags <gi>w</gi> may contain nested
+		<gi>w</gi> elements to express alternative interpretations.
+		</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <p>
+        <fLib>
+          <f xml:id="CC" name="CC">coordinating conjunction</f>
+          <f xml:id="CD" name="CD">cardinal number</f>
+          <f xml:id="DM" name="DM">discourse marker</f>
+          <f xml:id="DT" name="DT">determiner</f>
+          <f xml:id="EX" name="EX">existential there</f>
+          <f xml:id="FW" name="FW">foreign word (non-English speech)</f>
+          <f xml:id="IN" name="IN">preposition or subordinating conjunction</f>
+          <f xml:id="JJ" name="JJ">adjective, positive</f>
+          <f xml:id="JJR" name="JJR">adjective, comparative</f>
+          <f xml:id="JJS" name="JJS">adjective, superlative</f>
+          <f xml:id="MD" name="MD">modal verb</f>
+          <f xml:id="NN" name="NN">noun, singular or mass</f>
+          <f xml:id="NNS" name="NNS">noun, plural</f>
+          <f xml:id="PA" name="PA">pause</f>
+          <f xml:id="PDT" name="PDT">predeterminer</f>
+          <f xml:id="PP" name="PP">pronoun, personal</f>
+          <f xml:id="PPS" name="PP$">pronoun, possessive</f>
+          <f xml:id="PRE" name="PRE">pronoun, relative</f>
+          <f xml:id="PVC" name="PVC">pronunciation variations and coinages</f>
+          <f xml:id="RB" name="RB">adverb, positive</f>
+          <f xml:id="RBR" name="RBR">adverb, comparative</f>
+          <f xml:id="RE" name="RE">response particle</f>
+          <f xml:id="RP" name="RP">particle</f>
+          <f xml:id="SP" name="SP">spelling out</f>
+          <f xml:id="SYM" name="SYM">symbol</f>
+          <f xml:id="TO" name="TO">to, infinitive use</f>
+          <f xml:id="UH" name="UH">interjection</f>
+          <f xml:id="UNI" name="UNI">unintelligible speech</f>
+          <f xml:id="UNK" name="UNK">unknown</f>
+          <f xml:id="V" name="V">generic verb tag</f>
+          <f xml:id="VB" name="VB">verb be, base form</f>
+          <f xml:id="VBD" name="VBD">verb be, past tense</f>
+          <f xml:id="VBP" name="VBP">verb be, present non-3rd person singular</f>
+          <f xml:id="VBS" name="VBS">verb be, contracted form</f>
+          <f xml:id="VBZ" name="VBZ">verb be, present 3rd person singular</f>
+          <f xml:id="VHP" name="VHP">verb have, present non-3rd person singular</f>
+          <f xml:id="VHZ" name="VHZ">verb have, present 3rd person singular</f>
+          <f xml:id="VV" name="VV">other verbs than be and have, base form</f>
+          <f xml:id="VVD" name="VVD">other verbs than be and have, past tense</f>
+          <f xml:id="VVG" name="VVG">other verbs than be and have, gerund or present participle</f>
+          <f xml:id="VVN" name="VVN">other verbs than be and have, past participle</f>
+          <f xml:id="VVP" name="VVP">other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="VVZ" name="VVZ">other verbs than be and have, present 3rd person singular</f>
+          <f xml:id="WDT" name="WDT">wh-determiner</f>
+          <f xml:id="WP" name="WP">wh-pronoun</f>
+          <f xml:id="WRB" name="WRB">wh-adverb</f>
+          <f xml:id="XX" name="XX">partial word</f>
+        </fLib>
+        <fLib>
+          <f xml:id="fCC" name="fCC">function coordinating conjunction</f>
+          <f xml:id="fCD" name="fCD">function cardinal number</f>
+          <f xml:id="fDM" name="fDM">function discourse marker</f>
+          <f xml:id="fDT" name="fDT">function determiner</f>
+          <f xml:id="fEX" name="fEX">function existential there</f>
+          <f xml:id="fFW" name="fFW">function foreign word (non-English speech)</f>
+          <f xml:id="fIN" name="fIN">function preposition or subordinating conjunction</f>
+          <f xml:id="fJJ" name="fJJ">function adjective, positive</f>
+          <f xml:id="fJJR" name="fJJR">function adjective, comparative</f>
+          <f xml:id="fJJS" name="fJJS">function adjective, superlative</f>
+          <f xml:id="fMD" name="fMD">function modal verb</f>
+          <f xml:id="fNN" name="fNN">function noun, singular or mass</f>
+          <f xml:id="fNNS" name="fNNS">function noun, plural</f>
+          <f xml:id="fNP" name="fNP">function proper noun, singular</f>
+          <f xml:id="fPA" name="fPA">function pause</f>
+          <f xml:id="fPDT" name="fPDT">function predeterminer</f>
+          <f xml:id="fPP" name="fPP">function pronoun, personal</f>
+          <f xml:id="fPPS" name="fPP$">function pronoun, possessive</f>
+          <f xml:id="fPRE" name="fPRE">function pronoun, relative</f>
+          <f xml:id="fPVC" name="fPVC">function pronunciation variations and coinages</f>
+          <f xml:id="fRB" name="fRB">function adverb, positive</f>
+          <f xml:id="fRBR" name="fRBR">function adverb, comparative</f>
+          <f xml:id="fRE" name="fRE">function response particle</f>
+          <f xml:id="fRP" name="fRP">function particle</f>
+          <f xml:id="fSP" name="fSP">function spelling out</f>
+          <f xml:id="fSYM" name="fSYM">function symbol</f>
+          <f xml:id="fTO" name="fTO">function to, infinitive use</f>
+          <f xml:id="fUH" name="fUH">function interjection</f>
+          <f xml:id="fUNI" name="fUNI">function unintelligible speech</f>
+          <f xml:id="fUNK" name="fUNK">function unknown</f>
+          <f xml:id="fV" name="fV">function generic verb tag</f>
+          <f xml:id="fVB" name="fVB">function verb be, base form</f>
+          <f xml:id="fVBD" name="fVBD">function verb be, past tense</f>
+          <f xml:id="fVBP" name="fVBP">function verb be, present non-3rd person singular</f>
+          <f xml:id="fVBS" name="fVBS">function verb be, contracted form</f>
+          <f xml:id="fVBZ" name="fVBZ">function verb be, present 3rd person singular</f>
+          <f xml:id="fVHP" name="fVHP">function verb have, present non-3rd person singular</f>
+          <f xml:id="fVHZ" name="fVHZ">function verb have, present 3rd person singular</f>
+          <f xml:id="fVV" name="fVV">function other verbs than be and have, base form</f>
+          <f xml:id="fVVD" name="fVVD">function other verbs than be and have, past tense</f>
+          <f xml:id="fVVG" name="fVVG">function other verbs than be and have, gerund or present participle</f>
+          <f xml:id="fVVN" name="fVVN">function other verbs than be and have, past participle</f>
+          <f xml:id="fVVP" name="fVVP">function other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="fVVZ" name="fVVZ">function other verbs than be and have, present 3rd person singular</f>
+          <f xml:id="fWDT" name="fWDT">function wh-determiner</f>
+          <f xml:id="fWP" name="fWP">function wh-pronoun</f>
+          <f xml:id="fWRB" name="fWRB">function wh-adverb</f>
+          <f xml:id="fXX" name="fXX">function partial word</f>
+        </fLib>
+        <fvLib>
+          <fs xml:id="UHfUH" feats="#UH #fUH"/>
+          <fs xml:id="DMfDM" feats="#DM #fDM"/>
+          <fs xml:id="XXfXX" feats="#XX #fXX"/>
+          <fs xml:id="MDfMD" feats="#MD #fMD"/>
+          <fs xml:id="PPfPP" feats="#PP #fPP"/>
+          <fs xml:id="VVfVV" feats="#VV #fVV"/>
+          <fs xml:id="INfIN" feats="#IN #fIN"/>
+          <fs xml:id="CDfCD" feats="#CD #fCD"/>
+          <fs xml:id="NNfNN" feats="#NN #fNN"/>
+          <fs xml:id="VVPfVVP" feats="#VVP #fVVP"/>
+          <fs xml:id="DTfDT" feats="#DT #fDT"/>
+          <fs xml:id="SYMfSYM" feats="#SYM #fSYM"/>
+          <fs xml:id="PAfPA" feats="#PA #fPA"/>
+          <fs xml:id="CCfCC" feats="#CC #fCC"/>
+          <fs xml:id="VVZfVVZ" feats="#VVZ #fVVZ"/>
+          <fs xml:id="VHPfVHP" feats="#VHP #fVHP"/>
+          <fs xml:id="REfRE" feats="#RE #fRE"/>
+          <fs xml:id="NNSfNNS" feats="#NNS #fNNS"/>
+          <fs xml:id="VBPfVBP" feats="#VBP #fVBP"/>
+          <fs xml:id="PVCfJJ" feats="#PVC #fJJ"/>
+          <fs xml:id="NNfNNS" feats="#NN #fNNS"/>
+          <fs xml:id="JJfJJ" feats="#JJ #fJJ"/>
+          <fs xml:id="VBZfVBZ" feats="#VBZ #fVBZ"/>
+          <fs xml:id="RBfRB" feats="#RB #fRB"/>
+          <fs xml:id="PPSfPPS" feats="#PP$ #fPP$"/>
+          <fs xml:id="PREfPRE" feats="#PRE #fPRE"/>
+          <fs xml:id="VBDfVBD" feats="#VBD #fVBD"/>
+          <fs xml:id="VVNfVVN" feats="#VVN #fVVN"/>
+          <fs xml:id="JJRfJJR" feats="#JJR #fJJR"/>
+          <fs xml:id="VVZfVVP" feats="#VVZ #fVVP"/>
+          <fs xml:id="UNIfUNI" feats="#UNI #fUNI"/>
+          <fs xml:id="VVGfVVG" feats="#VVG #fVVG"/>
+          <fs xml:id="TOfTO" feats="#TO #fTO"/>
+          <fs xml:id="VBfVB" feats="#VB #fVB"/>
+          <fs xml:id="EXfEX" feats="#EX #fEX"/>
+          <fs xml:id="PVCfNN" feats="#PVC #fNN"/>
+          <fs xml:id="WRBfWRB" feats="#WRB #fWRB"/>
+          <fs xml:id="VfV" feats="#V #fV"/>
+          <fs xml:id="RPfRP" feats="#RP #fRP"/>
+          <fs xml:id="VfVVZ" feats="#V #fVVZ"/>
+          <fs xml:id="VVDfVVD" feats="#VVD #fVVD"/>
+          <fs xml:id="VVGfNN" feats="#VVG #fNN"/>
+          <fs xml:id="VBSfVBS" feats="#VBS #fVBS"/>
+          <fs xml:id="PDTfPDT" feats="#PDT #fPDT"/>
+          <fs xml:id="WPfWP" feats="#WP #fWP"/>
+          <fs xml:id="PPfDM" feats="#PP #fDM"/>
+          <fs xml:id="VVPfDM" feats="#VVP #fDM"/>
+          <fs xml:id="PVCfNP" feats="#PVC #fNP"/>
+          <fs xml:id="VHZfVHZ" feats="#VHZ #fVHZ"/>
+          <fs xml:id="FWfFW" feats="#FW #fFW"/>
+          <fs xml:id="UNKfUNK" feats="#UNK #fUNK"/>
+          <fs xml:id="RBRfRBR" feats="#RBR #fRBR"/>
+          <fs xml:id="PVCfPVC" feats="#PVC #fPVC"/>
+          <fs xml:id="JJSfJJS" feats="#JJS #fJJS"/>
+          <fs xml:id="SPfSP" feats="#SP #fSP"/>
+          <fs xml:id="WDTfWDT" feats="#WDT #fWDT"/>
+        </fvLib>
+      </p>
+    </encodingDesc>
+    <profileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass>
+        <catRef target="#PRwgd537_PR #PRwgd537_wgd"/>
+        <catRef target="#PR #wgd"/>
+      </textClass>
+      <settingDesc>
+        <setting>
+          <name type="country">AT</name>
+          <name type="city">Vienna</name>
+          <locale>room at Vienna University of Technology</locale>
+          <activity>developing mathematical theorem, writing calculations down</activity>
+        </setting>
+      </settingDesc>
+      <particDesc>
+        <listPerson type="main">
+          <listPerson type="groups">
+            <personGrp role="speakers" size="4"/>
+            <personGrp role="interactants" size="2"/>
+          </listPerson>
+          <listPerson type="identified">
+            <person role="participant" sameAs="#P516" xml:id="PRwgd537_S10">
+              <age value="4">50+</age>
+              <sex value="1">male</sex>
+              <occupation>mathematician</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="rus-RU"/>
+              </langKnowledge>
+            </person>
+            <person role="participant" sameAs="#P517" xml:id="PRwgd537_S11">
+              <age value="4">50+</age>
+              <sex value="1">male</sex>
+              <occupation>mathematician</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="jpn-JP"/>
+              </langKnowledge>
+            </person>
+          </listPerson>
+          <relationGrp>
+            <relation mutual="#PRwgd537_S10 #PRwgd537_S11" name="fairly_symmetrical" type="power"/>
+            <relation mutual="#PRwgd537_S10 #PRwgd537_S11" name="acquainted" type="acquaintedness"/>
+          </relationGrp>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <change when="2012-12-05" who="#BS #MR #RO #SM">Update of corpus
+      header for VOICE POS XML 2.0 release</change>
+      <change when="2012-12-05" who="#SM #MR #RO">Update of corpus
+      header for VOICE 2.0 XML release</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR">Lemmatisation</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR #RO #AW #CS       #IV #KM #LL #ND #VT">Part-of-speech tagging</change>
+      <change from="2010-09-01" to="2011-01-13" who="#SM       #MR">Extraction and tokenisation of VOICE 2.0 XML
+      utterances</change>
+      <change when="2011-04-19" who="RO">changes for VOICE 1.1</change>
+      <change when="2009-05-19" who="SM">conversion to XML</change>
+      <change when="2009-05-12" who="AB">finalized for publication</change>
+      <change when="2008-09-30" who="AB">proof-reading</change>
+      <change when="2007-12-14" who="JL">checking</change>
+      <change when="2006-01-25" who="UF">transcription</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_1">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#XXfXX">c-</w>
+        <w ana="#XXfXX">c-</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVfVV" lemma="prove">prove</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#VVPfVVP" lemma="define">define</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVZfVVZ" lemma="satisfy">satisfies</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="condition">condition</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#NNfNN" lemma="definition">definition</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="say">say</w>
+        <w ana="#INfIN" lemma="that">that</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_2">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_3">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#NNfNN" lemma="triple">triple</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="triple">triple</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_4">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_5">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNSfNNS" lemma="form">forms</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_6">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_7">
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="if">if</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_8">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_9">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PVCfJJ">p_non-degenerate</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#MDfMD" lemma="can">could</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#XXfXX">trip-</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PVCfJJ">p_non-degenerate</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_10">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_11">
+        <w ana="#PVCfJJ">p_non-degenerate</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNfNNS" lemma="form">form</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_j">s_j</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#JJfJJ" lemma="equal">equal</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#JJfJJ" lemma="associate">associate</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="operator">operator</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_12">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVZfVVZ" lemma="give">gives</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#SYMfSYM" lemma="s_j">s_j</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_13">
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#NNfNN" lemma="gamma">gamma</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="beta">beta</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_14">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_15">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_hypercomplex</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_16">
+        <w ana="#PVCfJJ">p_hypercomplex</w>
+        <w ana="#RBfRB" lemma="almost">almost</w>
+        <w ana="#PVCfJJ">p_hypercomplex</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_17">
+        <w ana="#RBfRB" lemma="almost">almost</w>
+        <w ana="#PVCfJJ">p_hypercomplex</w>
+        <w ana="#NNfNN" lemma="structure">structure</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_18">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_19">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#JJfJJ" lemma="particular">particular</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="prove">prove</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPSfPPS" lemma="we">our</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">tri-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_20">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_21">
+        <w ana="#NNfNN" lemma="triple">triple</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+        <w ana="#NNfNN" lemma="associate">associate</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#PVCfJJ">p_admissive</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_22">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_23">
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="call">call</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="differential">differential</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="exactly">exactly</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVfVV" lemma="prove">prove</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#NNfNNS" lemma="form">form</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#XXfXX">c-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_24">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_25">
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#XXfXX">ex-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="differential">differential</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PPfPP" lemma="they">them</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_26">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="anyway">anyway</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="given">given</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#RBfRB" lemma="first">first</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_27">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">o-</w>
+        <w ana="#XXfXX">o-</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#XXfXX">gi-</w>
+        <w ana="#VVNfVVN" lemma="give">given</w>
+        <w ana="#XXfXX">om-</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_28">
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#NNfNN" lemma="question">question</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#NNfNN" lemma="assumption">assumption</w>
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_29">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_30">
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_31">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVZfVVP" lemma="assume">assumes</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_32">
+        <w ana="#UNIfUNI">xxx</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_33">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#RBfRB" lemma="maybe">maybe</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_34">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVfVV" lemma="prove">prove</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#RBfRB" lemma="probably">probably</w>
+        <w ana="#XXfXX">ye-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_35">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVGfVVG" lemma="use">using</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_36">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#XXfXX">wha-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="do">do</w>
+        <w ana="#DMfDM">
+          <w ana="#RBfRB">
+            <w lemma="so">so</w>
+          </w>
+        </w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVZfVVP" lemma="assume">assumes</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_37">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_38">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_39">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_40">
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#SYMfSYM" lemma="s_n">s_n</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVNfVVN" lemma="restrict">restricted</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_41">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_42">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VVZfVVZ" lemma="mean">means</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#XXfXX">h-</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#SYMfSYM" lemma="s_j">s_j</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_43">
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_44">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="want">want</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="prove">prove</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#VVNfVVN" lemma="associate">associated</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_45">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_46">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_47">
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VVPfVVP" lemma="exist">exist</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#NNfNN" lemma="triple">triple</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#VVZfVVZ" lemma="give">gives</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VVZfVVZ" lemma="mean">means</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_48">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_49">
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#NNfNN" lemma="definition">definition</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_50">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="aha">aha</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVfVV" lemma="let">let</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#VVfVV" lemma="check">check</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="note">note</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="note">note</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="triple">triple</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_51">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_52">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_m">s_m</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="mod">mod</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_53">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_54">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_55">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="know">know</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="beta">beta</w>
+        <w ana="#JJfJJ" lemma="equal">equal</w>
+        <w ana="#NNfNN" lemma="delta">delta</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#NNfNN" lemma="beta">beta</w>
+        <w ana="#NNfNN" lemma="delta">delta</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#NNfNN" lemma="beta">beta</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_56">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_57">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="write">write</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="equation">equation</w>
+        <w ana="#NNfNN" lemma="star">star</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#SYMfSYM" lemma="s_x">s_x</w>
+        <w ana="#SYMfSYM" lemma="s_y">s_y</w>
+        <w ana="#JJfJJ" lemma="equal">equal</w>
+        <w ana="#PAfPA">_3</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="equal">equal</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#NNfNN" lemma="definition">definition</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#SYMfSYM" lemma="s_x">s_x</w>
+        <w ana="#SYMfSYM" lemma="s_y">s_y</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PVCfNN">p_modulo</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_58">
+        <w ana="#XXfXX">bu-</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="mean">mean</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_59">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VfV" lemma="come">come</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VfV" lemma="come">come</w>
+        <w ana="#RPfRP" lemma="out">out</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_60">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#XXfXX">be-</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#XXfXX">orth-</w>
+        <w ana="#XXfXX">orth-</w>
+        <w ana="#XXfXX">ortho-</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_61">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_62">
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="see">see</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_63">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VfVVZ" lemma="come">come</w>
+        <w ana="#RPfRP" lemma="out">out</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_64">
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#XXfXX">c-</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_65">
+        <w ana="#NNfNN" lemma="bracket">bracket</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#UNIfUNI">x</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_66">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_67">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="use">use</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#JJfJJ" lemma="inverse">inverse</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#JJfJJ" lemma="inverse">inverse</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVPfVVP" lemma="go">go</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_68">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#XXfXX">m-</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#XXfXX">normat-</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="define">define</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="formula">formula</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#XXfXX">c-</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#XXfXX">ca-</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#NNfNN" lemma="notion">notion</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#RBfRB" lemma="so">so</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#XXfXX">h-</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#NNfNN" lemma="notion">notion</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PVCfNN">p_orthogonality</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VVDfVVD" lemma="vanish">vanished</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_69">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_70">
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#VVPfVVP" lemma="belong">belong</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_71">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_72">
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="three-dimensional">three-dimensional</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#XXfXX">a-</w>
+        <w ana="#PVCfNN">p_annihilator</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_73">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_74">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_75">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_76">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="speak">speak</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VfVVZ" lemma="belong">belong</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_77">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_78">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="space">space</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#XXfXX">orth-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_79">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_80">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_81">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_82">
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#PAfPA">_3</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_83">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_84">
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#XXfXX">cl-</w>
+        <w ana="#JJfJJ" lemma="clear">clear</w>
+        <w ana="#NNfNN" lemma="sense">sense</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_85">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_86">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_87">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">bu-</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DMfDM">
+          <w ana="#RBfRB">
+            <w lemma="so">so</w>
+          </w>
+        </w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_88">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VVZfVVZ" lemma="mean">means</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="choose">choose</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="different">different</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">is-</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="class">class</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_89">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_90">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">s-</w>
+        <w ana="#NNfNN" lemma="scalar">scalar</w>
+        <w ana="#NNfNN" lemma="product">product</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NNfNN" lemma="scalar">scalar</w>
+        <w ana="#NNfNN" lemma="square">square</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="same">same</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_91">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#DTfDT" lemma="no">no</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#VfV" lemma="exist">exist</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="necessary">necessary</w>
+        <w ana="#VfVVZ" lemma="exist">exist</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="proportion">proportion</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_92">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#XXfXX">n-</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_93">
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UNIfUNI">pseudoxx</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="prove">proved</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UNIfUNI">pseudoxx</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#JJfJJ" lemma="other">other</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#NNfNN" lemma="stuff">stuff</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_94">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="true">true</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_95">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="other">other</w>
+        <w ana="#NNfNN" lemma="hand">hand</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#VVDfVVD" lemma="exist">existed</w>
+        <w ana="#RBfRB" lemma="locally">locally</w>
+        <w ana="#XXfXX">admiss-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_96">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_97">
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#PVCfNN">p_annihilator</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVfVV" lemma="generate">generate</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_hermitian</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#JJfJJ" lemma="inverse">inverse</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="okay">okay</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_98">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="see">see</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="prove">prove</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#VVGfNN" lemma="follow/following">following</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="give">give</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_99">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_100">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_101">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="give">give</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="independent">independent</w>
+        <w ana="#XXfXX">def-</w>
+        <w ana="#JJfJJ" lemma="independent">independent</w>
+        <w ana="#NNfNN" lemma="definition">definition</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#XXfXX">admi-</w>
+        <w ana="#NNfNN" lemma="admissibility">admissibility</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_102">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_103">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_104">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_105">
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="say">say</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNNS" lemma="form">form</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VVPfVVP" lemma="form">form</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_106">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_107">
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="well">well</w>
+        <w ana="#JJfJJ" lemma="defined">defined</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="defined">defined</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_108">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_109">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VVPfVVP" lemma="form">form</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_110">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_111">
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#NNfNN" lemma="respect">respect</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="class">class</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_112">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_113">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#RBfRB" lemma="automatically">automatically</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="clear">clear</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_114">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_115">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="clear">clear</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_116">
+        <w ana="#RBfRB" lemma="then">then</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_117">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PDTfPDT" lemma="all">all</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#PVCfJJ">p_automatical</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PDTfPDT" lemma="all">all</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_118">
+        <w ana="#CCfCC" lemma="and">and</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_119">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">quat-</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PVCfJJ">
+          <w ana="#PVCfNN">p_automatical</w>
+        </w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_120">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="mean">mean</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="take">take</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="bracket">bracket</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#NNfNN" lemma="show">show</w>
+        <w ana="#RPfRP" lemma="up">up</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_121">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">ye-</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_122">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#VVGfVVG" lemma="start">starting</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_123">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_124">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="yet">yet</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVNfVVN" lemma="show">shown</w>
+        <w ana="#INfIN" lemma="before">before</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_125">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_126">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#VVGfVVG" lemma="use">using</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="bracket">bracket</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="take">take</w>
+        <w ana="#NNfNN" lemma="bracket">bracket</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_127">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_128">
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="write">write</w>
+        <w ana="#RPfRP" lemma="down">down</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">cod-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_129">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="see">see</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#PDTfPDT" lemma="all">all</w>
+        <w ana="#PDTfPDT" lemma="all">all</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#RBfRB" lemma="absolutely">absolutely</w>
+        <w ana="#JJfJJ" lemma="clear">clear</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">wh-</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_130">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_131">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="any">any</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="any">any</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="quotient">quotient</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_132">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_133">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#JJfJJ" lemma="vector-bounded">vector-bounded</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#XXfXX">s-</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#NNfNN" lemma="quotient">quotient</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_134">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_135">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_136">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_137">
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="any">any</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_138">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_139">
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="know">know</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_140">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_141">
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="formula">formula</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="clear">clear</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">dua-</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#RBfRB" lemma="again">again</w>
+        <w ana="#INfIN" lemma="without">without</w>
+        <w ana="#DTfDT" lemma="any">any</w>
+        <w ana="#NNfNN" lemma="condition">condition</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_142">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_143">
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="take">take</w>
+        <w ana="#DTfDT" lemma="any">any</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">du-</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_144">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="way">way</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#SYMfSYM" lemma="s_j">s_j</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#VVNfVVN" lemma="define">defined</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="automatically">automatically</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_j">s_j</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#SYMfSYM" lemma="s_j">s_j</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#SYMfSYM" lemma="s_j">s_j</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UNIfUNI">xxxxx</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_145">
+        <w ana="#XXfXX">quatr-</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#RBfRB" lemma="automatically">automatically</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_146">
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#NNfNN" lemma="calculation">calculation</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_147">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VfVVZ" lemma="follow">follow</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_148">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_149">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">struct-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="lie">lie</w>
+        <w ana="#NNfNN" lemma="bracket">bracket</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="find">find</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_150">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_151">
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PVCfJJ">p_isomorphic</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#NNfNN" lemma="assumption">assumption</w>
+        <w ana="#PVCfJJ">p_isomorphic</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="standard">standard</w>
+        <w ana="#NNfNN" lemma="lie">lie</w>
+        <w ana="#VVGfNN">
+          <w ana="#VVGfVVG">
+            <w lemma="bracket/bracketing">bracketing</w>
+          </w>
+        </w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PPfDM" lemma="you">you</w>
+        <w ana="#VVPfDM" lemma="know">know</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PPfDM" lemma="you">you</w>
+        <w ana="#VVPfDM" lemma="know">know</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_152">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VVZfVVZ" lemma="satisfy">satisfies</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_153">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="see">see</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_154">
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="true">true</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">n-</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_155">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_156">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_157">
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#DTfDT" lemma="no">no</w>
+        <w ana="#PVCfJJ">p_isomorphic</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">mor-</w>
+        <w ana="#PVCfNN">p_morphism</w>
+        <w ana="#INfIN" lemma="between">between</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfNP">p_non-h</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PVCfJJ">p_isomorph</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VHZfVHZ" lemma="have">has</w>
+        <w ana="#FWfFW">f_heisenberg</w>
+        <w ana="#NNfNN" lemma="algebra">algebra</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_158">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_159">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_160">
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="even">even</w>
+        <w ana="#XXfXX">ma-</w>
+        <w ana="#XXfXX">may-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="maybe">maybe</w>
+        <w ana="#UNIfUNI">x</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_161">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="moment">moment</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#UNIfUNI">xxxxxx</w>
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_162">
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_163">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="converse">converse</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UNKfUNK" lemma="so">so</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UNKfUNK" lemma="so">so</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#NNfNN" lemma="triple">triple</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_164">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_165">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VVZfVVZ" lemma="do">does</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_166">
+        <w ana="#XXfXX">o-</w>
+        <w ana="#XXfXX">ortho-</w>
+        <w ana="#XXfXX">ortho-</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_167">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#XXfXX">becau-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_168">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+        <w ana="#PPSfPPS" lemma="we">our</w>
+        <w ana="#UNIfUNI">x</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_169">
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_170">
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#INfIN" lemma="as">as</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_171">
+        <w ana="#UNIfUNI">pseudoxxx</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#FWfFW">f_heisenberg</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_172">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#UNIfUNI">xxxx</w>
+        <w ana="#VVPfVVP" lemma="assume">assume</w>
+        <w ana="#UHfUH" lemma="ah">ah</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_173">
+        <w ana="#FWfFW">f_heisenberg</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNfNN" lemma="beta">beta</w>
+        <w ana="#JJfJJ" lemma="converse">converse</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_174">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#XXfXX">th-</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#JJfJJ" lemma="enough">enough</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="speak">speak</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#NNfNN" lemma="case">case</w>
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#RBfRB" lemma="already">already</w>
+        <w ana="#VHZfVHZ" lemma="have">has</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UNIfUNI">pseudoxx</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="conform">conform</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#JJfJJ" lemma="interesting">interesting</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_175">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_176">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VVfVV" lemma="discuss">discuss</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#RBRfRBR" lemma="late">later</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="simple">simple</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_177">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_178">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_179">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_180">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="till">till</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#XXfXX">rewri-</w>
+        <w ana="#VVfVV" lemma="rewrite">rewrite</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_181">
+        <w ana="#REfRE" lemma="hm">hm</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_182">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#XXfXX">du-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#XXfXX">g-</w>
+        <w ana="#VVNfVVN" lemma="give">given</w>
+        <w ana="#DTfDT" lemma="a">an</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVNfVVN" lemma="give">given</w>
+        <w ana="#XXfXX">mis-</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#VVNfVVN" lemma="call">called</w>
+        <w ana="#XXfXX">du-</w>
+        <w ana="#XXfXX">du-</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_183">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_184">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="give">give</w>
+        <w ana="#NNfNN" lemma="definition">definition</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#XXfXX">definiti-</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_185">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_186">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="definition">definition</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNSfNNS" lemma="form">forms</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_187">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_188">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VVPfVVP" lemma="belong">belong</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_189">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_190">
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PVCfNN">p_annihilator</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_191">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_192">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_193">
+        <w ana="#PVCfNN">p_annihilator</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNNS" lemma="form">form</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#VVNfVVN" lemma="call">called</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#PAfPA">_3</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_194">
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#PVCfJJ">p_pointwise</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="point">point</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_195">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#DTfDT" lemma="any">any</w>
+        <w ana="#NNfNN" lemma="point">point</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVZfVVZ" lemma="do">does</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="same">same</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_196">
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#RBfRB" lemma="never">never</w>
+        <w ana="#VVfVV" lemma="mind">mind</w>
+        <w ana="#RBfRB" lemma="never">never</w>
+        <w ana="#VVfVV" lemma="mind">mind</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_197">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_198">
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="respect">respect</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_199">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_200">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="call">call</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNfNN" lemma="star">star</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_201">
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_202">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_203">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_204">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">f-</w>
+        <w ana="#XXfXX">f-</w>
+        <w ana="#XXfXX">f-</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#JJfJJ" lemma="conformal">conformal</w>
+        <w ana="#XXfXX">cra-</w>
+        <w ana="#NNfNN" lemma="class">class</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_205">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_3</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_206">
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="class">class</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#INfIN" lemma="before">before</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="remark">remark</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VVPfVVP" lemma="exist">exist</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#JJfJJ" lemma="canonical">canonical</w>
+        <w ana="#NNfNN" lemma="dex">dex</w>
+        <w ana="#XXfXX">conf-</w>
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="class">class</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_207">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_3</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_208">
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="class">class</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="well">well</w>
+        <w ana="#JJfJJ" lemma="defined">defined</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PVCfJJ">p_orthonormal</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_209">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_210">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="clear">clear</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="same">same</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PVCfPVC">p_equivalently</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_211">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_212">
+        <w ana="#PVCfPVC">p_equivalently</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_n">s_n</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_213">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_214">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="even">even</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="point">point</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_215">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_216">
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_217">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_218">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="admissibility">admissibility</w>
+        <w ana="#RBfRB" lemma="practically">practically</w>
+        <w ana="#VVZfVVZ" lemma="mean">means</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#VHZfVHZ" lemma="have">has</w>
+        <w ana="#PVCfJJ">p_orthogonal</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_219">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_220">
+        <w ana="#PVCfJJ">p_orthogonal</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#NNfNN" lemma="respect">respect</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#XXfXX">s-</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#UNIfUNI">somex</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_221">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_222">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#XXfXX">su-</w>
+        <w ana="#XXfXX">pro-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#NNfNN" lemma="proposition">proposition</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">propositi-</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_223">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_224">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="equal">equal</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="a">an</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#NNfNN" lemma="triple">triple</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_5</w>
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVNfVVN" lemma="restrict">restricted</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_225">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_226">
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PVCfJJ">p_non-degenerate</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#JJfJJ">
+          <w ana="#VVfVV">
+            <w lemma="degenerate">degenerate</w>
+          </w>
+        </w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVfVV" lemma="define">define</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_227">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_228">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_229">
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#UNIfUNI">x</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_230">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">hyp-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="almost">almost</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_hypercomplex</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#NNfNN" lemma="structure">structure</w>
+        <w ana="#PAfPA">_3</w>
+        <w ana="#SYMfSYM" lemma="s_j">s_j</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#JJfJJ" lemma="equal">equal</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="gamma">gamma</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#VVNfVVN" lemma="compose">composed</w>
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="beta">beta</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_231">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_232">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#NNfNN" lemma="proof">proof</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="simple">simple</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVfVV" lemma="follow">follow</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="indeed">indeed</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#RBfRB" lemma="indeed">indeed</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#NNfNN" lemma="equation">equation</w>
+        <w ana="#NNfNN" lemma="star">star</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_233">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_234">
+        <w ana="#NNfNN" lemma="star">star</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#VVNfVVN" lemma="rewrite">rewritten</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#SYMfSYM" lemma="s_x">s_x</w>
+        <w ana="#SYMfSYM" lemma="s_y">s_y</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="equal">equal</w>
+        <w ana="#JJfJJ" lemma="minus">minus</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#SYMfSYM" lemma="s_x">s_x</w>
+        <w ana="#SYMfSYM" lemma="s_y">s_y</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#XXfXX">x-</w>
+        <w ana="#RBfRB" lemma="maybe">maybe</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_3</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WRBfWRB" lemma="where">where</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_235">
+        <w ana="#XXfXX">x-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_236">
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#JJfJJ" lemma="equal">equal</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_237">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="write">write</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_238">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">x-</w>
+        <w ana="#XXfXX">x-</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_239">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_240">
+        <w ana="#XXfXX">rh-</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_m">s_m</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="mod">mod</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_241">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_242">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#JJfJJ" lemma="central">central</w>
+        <w ana="#NNfNN" lemma="formula">formula</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#XXfXX">c-</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#VVNfVVN" lemma="reformulate">reformulated</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#XXfXX">su-</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_243">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#RBfRB" lemma="maybe">maybe</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_244">
+        <w ana="#XXfXX">n-</w>
+        <w ana="#XXfXX">n-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="no">no</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_245">
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_246">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_247">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_248">
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#XXfXX">x-</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">drop-</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="drop">dropped</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="simplify">simplify</w>
+        <w ana="#NNfNN" lemma="notation">notation</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#NNfNN" lemma="definition">definition</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#VVZfVVZ" lemma="mean">means</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_249">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_250">
+        <w ana="#NNfNN" lemma="triple">triple</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_251">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_252">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="uhu">uhu</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#INfIN" lemma="till">till</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="really">really</w>
+        <w ana="#RBfRB" lemma="mainly">mainly</w>
+        <w ana="#NNfNN" lemma="structure">structure</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="immediately">immediately</w>
+        <w ana="#VfVVZ" lemma="follow">follow</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NNfNN" lemma="definition">definition</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#NNfNN" lemma="number">number</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_253">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_254">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#NNfNN" lemma="number">number</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNfNN" lemma="number">number</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="speak">speak</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#PVCfNN">p_integrability</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_255">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#XXfXX">ho-</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="proportion">proportion</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_256">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#XXfXX">abou-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#VVfVV" lemma="let">let</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#VVfVV" lemma="look">look</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="probably">probably</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJSfJJS" lemma="good">best</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="proposition">proposition</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">codi-</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="natural">natural</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="understand">understand</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UNIfUNI">xxxxxxx</w>
+        <w ana="#NNfNN" lemma="condition">condition</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VHZfVHZ" lemma="have">has</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_257">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_258">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="agree">agree</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PVCfJJ">p_pseudo-conformal</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="structure">structure</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PVCfJJ">p_isomorph</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#FWfFW">f_heisenberg</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="algebra">algebra</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_259">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">n-</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">no-</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#SPfSP">s_h</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVGfNN">
+          <w ana="#VVGfVVG">
+            <w lemma="grade/grading">grading</w>
+          </w>
+        </w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">g-</w>
+        <w ana="#VVNfVVN" lemma="grade">graded</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#XXfXX">g-</w>
+        <w ana="#JJfJJ" lemma="associated">associated</w>
+        <w ana="#VVNfVVN" lemma="grade">graded</w>
+        <w ana="#NNfNN" lemma="algebra">algebra</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PVCfJJ">p_isomorphic</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_260">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#VVGfNN">
+          <w ana="#VVGfVVG">
+            <w lemma="grade/grading">grading</w>
+          </w>
+        </w>
+        <w ana="#VVGfNN">
+          <w ana="#VVGfVVG">
+            <w lemma="grade/grading">grading</w>
+          </w>
+        </w>
+        <w ana="#VVGfNN">
+          <w ana="#VVGfVVG">
+            <w lemma="grade/grading">grading</w>
+          </w>
+        </w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_261">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_262">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="converse">converse</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_263">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_264">
+        <w ana="#VVfVV" lemma="suppose">suppose</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="locally">locally</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#NNfNN" lemma="triple">triple</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VVZfVVZ" lemma="mean">means</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_265">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_266">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_267">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#XXfXX">admis-</w>
+        <w ana="#NNfNN" lemma="admissibility">admissibility</w>
+        <w ana="#VVZfVVZ" lemma="assume">assumes</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_268">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_269">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="other">other</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_270">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="maybe">maybe</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">p-</w>
+        <w ana="#NNfNN" lemma="part">part</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_271">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_272">
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#PVCfJJ">p_nessary</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_273">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_274">
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#PVCfJJ">p_conformal</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#INfIN" lemma="on">on</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_275">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#XXfXX">o-</w>
+        <w ana="#XXfXX">o-</w>
+        <w ana="#XXfXX">o-</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_276">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_277">
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="define">define</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_278">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_279">
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#PVCfNN">p_annihilator</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_280">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_281">
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="three-dimensional">three-dimensional</w>
+        <w ana="#NNfNN" lemma="bundle">bundle</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVZfVVZ" lemma="assume">assumes</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#XXfXX">s-</w>
+        <w ana="#VVNfVVN" lemma="fix">fixed</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#NNfNN" lemma="metric">metric</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#JJfJJ" lemma="dual">dual</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_282">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#INfIN" lemma="under">under</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="locally">locally</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WRBfWRB" lemma="why">why</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VVZfVVZ" lemma="become">becomes</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">tri-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVNfVVN" lemma="grade">graded</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#VVZfVVZ" lemma="become">becomes</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#FWfFW">f_heisenberg</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#FWfFW">f_heisenberg</w>
+        <w ana="#NNfNN" lemma="algebra">algebra</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_283">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="assume">assume</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="try">try</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#UNIfUNI">xxxxx</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#NNfNN" lemma="manifold">manifold</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_284">
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_285">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PVCfJJ">p_co-dimensional</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#NNfNN" lemma="distribution">distribution</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_286">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_287">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="star">star</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PVCfNN">p_annihilator</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_288">
+        <w ana="#PVCfNN">p_annihilator</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_289">
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_290">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_291">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#SYMfSYM" lemma="s_t">s_t</w>
+        <w ana="#NNfNN" lemma="star">star</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_292">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_293">
+        <w ana="#SYMfSYM" lemma="s_m">s_m</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_294">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_295">
+        <w ana="#XXfXX">s-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="three-dimensional">three-dimensional</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="assume">assume</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">g-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_296">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_297">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="choose">choose</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#XXfXX">ba-</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_298">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#VVfVV" lemma="suppose">suppose</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_299">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#WDTfWDT" lemma="what">what</w>
+        <w ana="#NNfNN" lemma="sense">sense</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_300">
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="sense">sense</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VVZfVVZ" lemma="mean">means</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_301">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_302">
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_303">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_304">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_305">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_306">
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">pre-</w>
+        <w ana="#JJfJJ" lemma="previous">previous</w>
+        <w ana="#NNfNN" lemma="proportion">proportion</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_307">
+        <w ana="#XXfXX">de-</w>
+        <w ana="#VVfVV" lemma="define">define</w>
+        <w ana="#XXfXX">co-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#SYMfSYM" lemma="s_d">s_d</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_308">
+        <w ana="#UNIfUNI">xxx</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_309">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_310">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_311">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_j">s_j</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#VVZfVVZ" lemma="give">gives</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_312">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#SYMfSYM" lemma="s_j">s_j</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#VVNfVVN" lemma="give">given</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#NNfNN" lemma="omega">omega</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NNfNN" lemma="gamma">gamma</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#SYMfSYM" lemma="s_g">s_g</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#NNfNN" lemma="beta">beta</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_313">
+        <w ana="#XXfXX">quater-</w>
+        <w ana="#XXfXX">hyper-</w>
+        <w ana="#XXfXX">hyperco-</w>
+        <w ana="#XXfXX">hypercom-</w>
+        <w ana="#XXfXX">-complex</w>
+        <w ana="#NNSfNNS" lemma="structure">structures</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="theta">theta</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="get">get</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PVCfJJ">p_pseudo-conformal</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="structure">structure</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_314">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVfVV" lemma="let">let</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#VVfVV" lemma="look">look</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="aha">aha</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_315">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="proportion">proportion</w>
+        <w ana="#RBfRB" lemma="already">already</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_pseudo-conformal</w>
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_316">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_317">
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#VVGfNN">
+          <w ana="#VVGfVVG">
+            <w lemma="grade/grading">grading</w>
+          </w>
+        </w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_318">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVfVV" lemma="let">let</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVfVV" lemma="look">look</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#NNfNN" lemma="map">map</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="wage">wage</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_t">s_t</w>
+        <w ana="#SYMfSYM" lemma="s_m">s_m</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#NNfNN" lemma="mod">mod</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#XXfXX">def-</w>
+        <w ana="#VVNfVVN" lemma="define">defined</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#NNfNN" lemma="lie">lie</w>
+        <w ana="#NNfNN" lemma="bracket">bracket</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_319">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_320">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_x">s_x</w>
+        <w ana="#SYMfSYM" lemma="s_y">s_y</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_321">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_322">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVPfVVP" lemma="go">go</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_x">s_x</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_y">s_y</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="mod">mod</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_323">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PVCfJJ">p_non-degenerous</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_324">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_4</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">wh-</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="map">map</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="restrict">restrict</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="point">point</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="map">map</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PVCfJJ">p_pointwise</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_325">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_326">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PVCfJJ">p_pointwise</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="point">point</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_327">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_328">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="map">map</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PVCfJJ">p_isomorphic</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#NNfNN" lemma="map">map</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#SYMfSYM" lemma="s_n">s_n</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="wage">wage</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#SYMfSYM" lemma="s_n">s_n</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVPfVVP" lemma="go">go</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="image">image</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_329">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_330">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="assume">assume</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="maybe">maybe</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="write">write</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#XXfXX">o-</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="do">do</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#REfRE" lemma="aha">aha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fact">fact</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#XXfXX">y-</w>
+        <w ana="#XXfXX">y-</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">b-</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="map">map</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="choose">choose</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#XXfXX">ba-</w>
+        <w ana="#NNfNN" lemma="basis">basis</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">x-</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_331">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_332">
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#XXfXX">wr-</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="map">map</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#VVNfVVN" lemma="write">written</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#SYMfSYM" lemma="s_x">s_x</w>
+        <w ana="#SYMfSYM" lemma="s_y">s_y</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="equal">equal</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#SYMfSYM" lemma="s_x">s_x</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_y">s_y</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="xi">xi</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_333">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_334">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_335">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_336">
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#NNfNNS" lemma="form">form</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#JJfJJ" lemma="admissible">admissible</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="okay">okay</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_337">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_338">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#XXfXX">q-</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VHZfVHZ" lemma="have">has</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_339">
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_340">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="rho">rho</w>
+        <w ana="#NNfNN" lemma="alpha">alpha</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">o-</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#VfV" lemma="belong">belong</w>
+        <w ana="#XXfXX">f-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNfNN" lemma="form">form</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_341">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_342">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#SYMfSYM" lemma="s_h">s_h</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_quaternionic</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRwgd537_S11" xml:id="PRwgd537_u_343">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRwgd537_S10" xml:id="PRwgd537_u_344">
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+    </body>
+  </text>
+</TEI>

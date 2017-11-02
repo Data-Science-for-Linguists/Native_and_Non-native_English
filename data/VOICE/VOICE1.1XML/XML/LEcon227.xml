@@ -1,0 +1,708 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="LEcon227" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>conversation between exchange students about cultural differences</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>Austrian Science Foundation (FWF)</funder>
+            <sponsor/>
+            <respStmt>
+               <resp>Corpus Compilation</resp>
+               <orgName>VOICE Project</orgName>
+               <persName>Barbara Seidlhofer</persName>
+               <persName>Angelika Breiteneder</persName>
+               <persName>Marie-Luise Pitzl</persName>
+               <persName>Stefan Majewski</persName>
+               <persName>Theresa Klimpfinger</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+	  <edition>Version 1.1 XML, <date>May 2011</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Angelika Breiteneder</name> 
+		<name>Theresa Klimpfinger</name> 
+		<name>Stefan Majewski</name> 
+		<name>Marie-Luise Pitzl</name> 
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk,
+		Marie-Luise Pitzl</publisher>
+	  <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+		<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  		<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). Minor revisions and
+		  corrections were made by Ruth Osimk. VOICE 1.1 XML is
+		  available for download at the VOICE Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+	  	<p>
+          The recommended citation for VOICE 1.1 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.1
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Ruth Osimk, Marie-Luise Pitzl.</bibl>
+		</p>
+		<p>The short citation for VOICE 1.1 XML is:
+		</p>
+		<p>
+          <bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version 1.1 XML</edition>).</bibl>
+        </p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="LEcon227_wc">Words: 2538</note>
+            <note xml:id="LEcon227_tn_0">This casual conversation between two students takes place in a pub in Vienna. At the beginning, the speakers talk about using English in intercultural situations and share their opinions and perceptions of this matter. They continue their conversation on cultural and particularly political aspects of S1's home country and then compare the political systems and parties in their respective home countries. </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H15M30S" type="audio">
+                  <date>2005-09-20</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R14</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="LEcon227_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="LEcon227_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="LEcon227_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="LEcon227_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="LEcon227_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="LEcon227_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="LEcon227_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="LEcon227_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="LEcon227_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="LEcon227_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="LEcon227_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="LEcon227_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="LEcon227_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="LEcon227_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="LEcon227_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="LEcon227_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="LEcon227_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="orgName" occurs="1"/>
+      <tagUsage gi="persName" occurs="5"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="name" occurs="8"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="80"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="13"/>
+      <tagUsage gi="list" occurs="11"/>
+      <tagUsage gi="label" occurs="20"/>
+      <tagUsage gi="val" occurs="41"/>
+      <tagUsage gi="item" occurs="40"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="3"/>
+      <tagUsage gi="personGrp" occurs="2"/>
+      <tagUsage gi="person" occurs="2"/>
+      <tagUsage gi="age" occurs="2"/>
+      <tagUsage gi="sex" occurs="2"/>
+      <tagUsage gi="occupation" occurs="2"/>
+      <tagUsage gi="langKnowledge" occurs="2"/>
+      <tagUsage gi="langKnown" occurs="2"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="5"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="1"/>
+      <tagUsage gi="u" occurs="239">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+      <tagUsage gi="pause" occurs="417">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="unclear" occurs="8">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="c" occurs="49">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="52">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="seg" occurs="80">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="shift" occurs="12">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="incident" occurs="3">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="vocal" occurs="2">Used to mark laughter and other speaker
+        noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="emph" occurs="22">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="supplied" occurs="8">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed
+		to be anonymized. The <att>reason</att> attribute is used to
+		mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="foreign" occurs="4">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the <att>voice:translation</att> attribute
+		provides a rough translation of the non-English speech into
+		English.
+		</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:track" occurs="5">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in
+		length) and thus refers to the audio recording of the
+		transcribed speech event.
+		</tagUsage>
+      <tagUsage gi="voice:pvc" occurs="7">Used to mark a pronunciation
+		variation or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+		VOICE mark-up conventions [2.1].</ref>the
+		VOICE mark-up conventions [2.1]. An existing word
+		corresponding to the PVC may be provided within a
+		<att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc
+		element. Additional phonetic transcription may be provided
+		within a <att>voice:ipa</att>voice:ipa attribute within the
+		<gi>voice:pvc</gi>voice:pvc element.</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#LEcon227_LE #LEcon227_con"/>
+            <catRef target="#LE #con"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">AT</name>
+               <name type="city">Vienna</name>
+               <locale>pub</locale>
+               <activity>drinking</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="2"/>
+                  <personGrp role="interactants" size="2"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="participant" sameAs="#P158" xml:id="LEcon227_S1">
+                     <age value="1">17-24</age>
+                     <sex value="1">male</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="dut-BE"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P159" xml:id="LEcon227_S2">
+                     <age value="1">17-24</age>
+                     <sex value="1">male</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="dan-DK"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#LEcon227_S1 #LEcon227_S2" name="fairly_symmetrical" type="power"/>
+                  <relation mutual="#LEcon227_S1 #LEcon227_S2" name="acquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-11" who="TK">finalized for publication</change>
+         <change when="2008-02-13" who="MLP">proof-reading</change>
+         <change when="2006-08-14" who="TK">checking</change>
+         <change when="2005-09-25" who="CHu">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="00:31" voice:end_medium_number="1" voice:end_track="6" voice:medium_type="md" voice:start="00:01" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_1"> if it was <pause dur="PT1S"/> was really communication <pause dur="PT1S"/><unclear> thank you </unclear><pause/> if it was er <pause/> really communication <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_2"> yeah <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_3"> because <pause/> i talk english you talk english <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_4"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_5"> we understand each other <pause/> but <pause/> if e<c type="lengthening"/>rm <pause dur="PT1S"/> tha- that doesn't mean that <pause/> when i have a a scientific <pause/> you know thing to prove and you have something to prove <pause dur="PT1S"/> that <pause dur="PT1S"/> that it is enough communication <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_6"> yeah <pause/> we lose some yeah <anchor synch="#LEcon227_oc_1" type="other_continuation" xml:id="LEcon227_oc_0"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_7"><anchor synch="#LEcon227_oc_0" type="other_continuation" xml:id="LEcon227_oc_1"/> because we lose a lot </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_8"> yeah i know that i <pause/> have to search for words still <pause/> e<seg n="1" type="overlap" xml:id="LEcon227_ol_0">ven </seg> though i <pause dur="PT2S"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_9"><seg n="1" synch="#LEcon227_ol_0" type="overlap" xml:id="LEcon227_ol_1"> yes </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_10"> and even if you find a word <pause dur="PT2S"/> it might be not just the right word or <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_11"> yeah <anchor synch="#LEcon227_oc_3" type="other_continuation" xml:id="LEcon227_oc_2"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_12"><anchor synch="#LEcon227_oc_2" type="other_continuation" xml:id="LEcon227_oc_3"/> and it was then about <pause/> that actually <pause/> i understand you <pause/> and you understand me and i understand you better than you understand <pause/> and you understand me better than er <pause/> a proper englishman <pause dur="PT2S"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_13"> yeah <anchor synch="#LEcon227_oc_5" type="other_continuation" xml:id="LEcon227_oc_4"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_14"><anchor synch="#LEcon227_oc_4" type="other_continuation" xml:id="LEcon227_oc_5"/> cos someone who's from england is accustomed to <pause dur="PT2S"/> the high standard of english<c function="rise" type="intonation"/><pause/> and when he listens to us he he he understands <pause/> things <pause/> but <pause dur="PT1S"/> it's very much a flat english <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_15"> yeah <anchor synch="#LEcon227_oc_7" type="other_continuation" xml:id="LEcon227_oc_6"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_16"><anchor synch="#LEcon227_oc_6" type="other_continuation" xml:id="LEcon227_oc_7"/> if you understand </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_17"> yeah i understand <pause/> it's just like when <pause/> you're talking to a <seg n="2" type="overlap" xml:id="LEcon227_ol_2"> german german speaker </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_18"><seg n="2" synch="#LEcon227_ol_2" type="overlap" xml:id="LEcon227_ol_3"> we just express ours- </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_19"> ye<seg n="3" type="overlap" xml:id="LEcon227_ol_4">ah </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_20"><seg n="3" synch="#LEcon227_ol_4" type="overlap" xml:id="LEcon227_ol_5"> ye</seg>ah <pause/> we ex- <anchor synch="#LEcon227_oc_9" type="other_continuation" xml:id="LEcon227_oc_8"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_21"><anchor synch="#LEcon227_oc_8" type="other_continuation" xml:id="LEcon227_oc_9"/> it's w- even worse i mean once a german <anchor synch="#LEcon227_oc_11" type="other_continuation" xml:id="LEcon227_oc_10"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_22"><anchor synch="#LEcon227_oc_10" type="other_continuation" xml:id="LEcon227_oc_11"/> we express ourselves very functionally <pause/> you <seg n="5" type="overlap" xml:id="LEcon227_ol_6"> know<c function="rise" type="intonation"/></seg><pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_23"><seg n="5" synch="#LEcon227_ol_6" type="overlap" xml:id="LEcon227_ol_7"> yeah </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_24"> we don't take <pause/> you know the right way we just take the way <pause/> that we think <pause/> that you will understand me and you <anchor synch="#LEcon227_oc_13" type="other_continuation" xml:id="LEcon227_oc_12"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_25"><anchor synch="#LEcon227_oc_12" type="other_continuation" xml:id="LEcon227_oc_13"/> yeah <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_26"> so<c type="lengthening"/><pause/> that was actually the study<c function="fall" type="intonation"/> the s- i didn't study it <pause/> i just read some <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_27"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_28"> it was something in the er <pause/> in the margin  of a <pause/> of a congress which was said then <pause/><shift corresp="#LEcon227_s_2" feature="voice" new="imitating" xml:id="LEcon227_s_1"/> do people understand each other <shift corresp="#LEcon227_s_1" feature="voice" new="neutral" xml:id="LEcon227_s_2"/><pause dur="PT2S"/><incident dur="PT2S" voice:desc="S1 is handed a drink "/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_29"><shift corresp="#LEcon227_s_4" feature="loud" new="p" xml:id="LEcon227_s_3"/> this is <shift corresp="#LEcon227_s_3" feature="loud" new="neutral" xml:id="LEcon227_s_4"/><pause/><shift corresp="#LEcon227_s_6" feature="voice" new="laugh" xml:id="LEcon227_s_5"/> okay <shift corresp="#LEcon227_s_5" feature="voice" new="neutral" xml:id="LEcon227_s_6"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#LEcon227_s_8" feature="voice" new="laugh" xml:id="LEcon227_s_7"/> it's for me <shift corresp="#LEcon227_s_7" feature="voice" new="neutral" xml:id="LEcon227_s_8"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_30"><shift corresp="#LEcon227_s_10" feature="voice" new="laugh" xml:id="LEcon227_s_9"/> okay <pause/> yeah <shift corresp="#LEcon227_s_9" feature="voice" new="neutral" xml:id="LEcon227_s_10"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_31"> but anyway so<c type="lengthening"/><pause/> we have flemish parties <pause dur="PT1S"/> in belgium<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_32"> yeah <pause/> but which party is the biggest <pause/> in belgium<c function="rise" type="intonation"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_33"> the biggest <seg n="6" type="overlap" xml:id="LEcon227_ol_8"> party </seg> is <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_34"><seg n="6" synch="#LEcon227_ol_8" type="overlap" xml:id="LEcon227_ol_9"> e<c type="lengthening"/>r </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_35"> the <seg n="7" type="overlap" xml:id="LEcon227_ol_10"> biggest party is </seg> the christian democratic party  </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_36"><seg n="7" synch="#LEcon227_ol_10" type="overlap" xml:id="LEcon227_ol_11"> which <unclear> part </unclear> is like </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_37"> and where's <pause/> most people <pause/> are most people flemish<c function="rise" type="intonation"/> or french<c function="rise" type="intonation"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_38"> flemish <pause dur="PT1S"/> sixty per cent is  flemish <pause/> forty per cent is  walloon so french <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_39"> yeah <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_40"> a<c type="lengthening"/>nd brussels is the capital <pause dur="PT1S"/> and brussels is in e<c type="lengthening"/>r <pause dur="PT1S"/> is entirely in flanders <pause dur="PT1S"/> so<c type="lengthening"/> it's surrounded by flanders  but is <pause/> in majority french <pause/><seg n="1" type="overlap" xml:id="LEcon227_ol_12"> eighty </seg> per cent's french-speaking <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_41"><seg n="1" synch="#LEcon227_ol_12" type="overlap" xml:id="LEcon227_ol_13"> yeah </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_42"> but it is in flanders <pause/> and the surroundings are then flemish <pause/> but it's because it's capital and because flemish people like to live in the country <pause/> and not in cities <pause/> cos they're more conservative </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_43"> yeah <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_44"> overall <pause/> they are more conservative <pause/> like to live in the green  with their children with their own house with the<c type="lengthening"/> with the yard a garden <pause/> so they don't live <emph> in </emph> the city <pause dur="PT1S"/> and er <pause/> walloon people are more socialist <pause/> overall <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_45"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_46"> so their biggest party in <voice:track medium="1" num="2" type="md"/><pause/> in er <pause/> wallonia is the socialist party it's like forty per cent in <supplied reason="unintelligible"> xx </supplied> i think </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_47"> yeah <pause/> but when the make governments <pause/> do they<c type="lengthening"/><pause dur="PT1S"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_48"> no it <anchor synch="#LEcon227_oc_15" type="other_continuation" xml:id="LEcon227_oc_14"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_49"><anchor synch="#LEcon227_oc_14" type="other_continuation" xml:id="LEcon227_oc_15"/> going <unclear> going together </unclear> all the flemish and the french </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_50"> yeah </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_51"> socialist <seg n="2" type="overlap" xml:id="LEcon227_ol_14"><supplied reason="unintelligible"> xxxxxx </supplied></seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_52"><seg n="2" synch="#LEcon227_ol_14" type="overlap" xml:id="LEcon227_ol_15"> yeah there's a lot of </seg> tension <pause/> certainly the last ten years there's a lot of tension but <pause/> it's still symmetrical </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_53"> yeah <pause/> so the alliance is not </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_54"> yeah </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_55"> not is not <seg n="3" type="overlap" xml:id="LEcon227_ol_16"> flemish flemish </seg> and socialist socialist alliances </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_56"><seg n="3" synch="#LEcon227_ol_16" type="overlap" xml:id="LEcon227_ol_17"> flemish socialist </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_57"> yeah <pause/> but you have <pause/> we have a <voice:pvc> federalized </voice:pvc> state <pause dur="PT1S"/> so it's federal <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_58"> yeah <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_59"> like in germany and austria <pause/> but we have a torri- territorial <pause/> federation <pause dur="PT1S"/> but we also have a communal federation <pause/> which is <pause dur="PT1S"/> so we have er<c type="lengthening"/>m <pause dur="PT1S"/> south north <pause/> federalism <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_60"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_61"> and then the capital is also a region <pause/> but we also have then <pause dur="PT1S"/> erm a flemish <pause/> region <pause/> which doesn't e- entirely <pause/> you know <pause/> overlap with the north region <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_62"> yeah <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_63"> and then a french-talking <pause/> region which doesn't overlap <pause/> with the<c type="lengthening"/> south region <pause/> and then we have german <pause/> region <pause/> which doesn't overlap with anything at all <pause dur="PT1S"/> so we have seven governments <pause/> seven parliaments </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_64"> wow </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_65"> seven prime ministers <anchor synch="#LEcon227_oc_17" type="other_continuation" xml:id="LEcon227_oc_16"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_66"><anchor synch="#LEcon227_oc_16" type="other_continuation" xml:id="LEcon227_oc_17"/> but <pause/> how much power do they have<c function="rise" type="intonation"/> as <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_67"> quite a lot <anchor synch="#LEcon227_oc_19" type="other_continuation" xml:id="LEcon227_oc_18"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_68"><anchor synch="#LEcon227_oc_18" type="other_continuation" xml:id="LEcon227_oc_19"/> they must have different <pause/> tasks </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_69"> yeah <pause/> but quite a lot actually it's very much <pause/> so <pause/> erm <pause/> er de- a <voice:pvc comment="decree"> decreet </voice:pvc><pause/> has the same power as a law <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_70"> yeah <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_71"> so something <pause/> er issued by the <pause/> flemish part <pause/> has the same <pause/> er power as something <pause/> commissioned be the federal part <pause/><seg n="4" type="overlap" xml:id="LEcon227_ol_18"> the </seg> national part <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_72"><seg n="4" synch="#LEcon227_ol_18" type="overlap" xml:id="LEcon227_ol_19"> yeah </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_73"> but we then have a a constitutional <pause/> you know <pause dur="PT1S"/> er <emph> court </emph><pause/> which then decides <pause/> who <pause/><seg n="5" type="overlap" xml:id="LEcon227_ol_20"> which </seg> yeah <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_74"><seg n="5" synch="#LEcon227_ol_20" type="overlap" xml:id="LEcon227_ol_21"> has </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_75"><seg n="6" type="overlap" xml:id="LEcon227_ol_22"> which </seg> goes above what <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_76"><seg n="6" synch="#LEcon227_ol_22" type="overlap" xml:id="LEcon227_ol_23"> sort of er </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_77"> yeah <pause/> that's very con<seg n="6" synch="#LEcon227_ol_22" type="overlap" xml:id="LEcon227_ol_24">fusing </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_78"><seg n="6" synch="#LEcon227_ol_22" type="overlap" xml:id="LEcon227_ol_25"> it's <emph> very </emph></seg> confusing </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_79"> yeah <anchor synch="#LEcon227_oc_21" type="other_continuation" xml:id="LEcon227_oc_20"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_80"><anchor synch="#LEcon227_oc_20" type="other_continuation" xml:id="LEcon227_oc_21"/> we belgians erm <pause/> a lot for you know foreigners <pause dur="PT1S"/> but like <pause/> as i was saying the socialist party is working with the<c type="lengthening"/> er <pause/> former part of the flemish party which is the social liberal <pause/> party <pause/> and then we have a green party <pause dur="PT2S"/> so the greens <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_81"> yeah <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_82"> which have erm <pause dur="PT1S"/> eight per cent <pause/> which is a little bit less than the e<c type="lengthening"/>r <pause/> a- about the <seg n="7" type="overlap" xml:id="LEcon227_ol_26"> same now as the german </seg> greens </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_83"><seg n="7" synch="#LEcon227_ol_26" type="overlap" xml:id="LEcon227_ol_27"> the same as now erm </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_84"> they only back one <pause/> zero <seg n="8" type="overlap" xml:id="LEcon227_ol_28"> point </seg> one <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_85"><seg n="8" synch="#LEcon227_ol_28" type="overlap" xml:id="LEcon227_ol_29"> yeah </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_86"> and then <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_87"> and in in wallonia <pause dur="PT1S"/> er the<c type="lengthening"/> er <pause/> the green party is bigger it's fourteen per cent or something </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_88"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_89"> because they don't have the fascist party which <seg n="1" type="overlap" xml:id="LEcon227_ol_30"> takes up twenty per cent </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_90"><seg n="1" synch="#LEcon227_ol_30" type="overlap" xml:id="LEcon227_ol_31"> do you have communist </seg> er <unclear> old </unclear> communist<c function="rise" type="intonation"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_91"> we have communist parties but they <pause/> mean nothing <pause/> at all </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_92"><shift corresp="#LEcon227_s_12" feature="loud" new="p" xml:id="LEcon227_s_11"/> yeah <shift corresp="#LEcon227_s_11" feature="loud" new="neutral" xml:id="LEcon227_s_12"/><pause/><seg n="2" type="overlap" xml:id="LEcon227_ol_32"><supplied reason="unintelligible"> xxx </supplied></seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_93"><seg n="2" synch="#LEcon227_ol_32" type="overlap" xml:id="LEcon227_ol_33"> they don't have </seg> one per cent <pause/> not even <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_94"> then like they united <pause/> f- er<c type="lengthening"/><pause/> fifteen years ago all the <pause/> that <pause/> socialist and <voice:track medium="1" num="3" type="md"/> communist <anchor synch="#LEcon227_oc_23" type="other_continuation" xml:id="LEcon227_oc_22"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_95"><anchor synch="#LEcon227_oc_22" type="other_continuation" xml:id="LEcon227_oc_23"/> yeah </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_96"> and all of these parties <pause/> and now they are always in parliament with around <pause/> three per cent <supplied reason="unintelligible"> xx </supplied> so <pause dur="PT1S"/> so s- <anchor synch="#LEcon227_oc_25" type="other_continuation" xml:id="LEcon227_oc_24"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_97"><anchor synch="#LEcon227_oc_24" type="other_continuation" xml:id="LEcon227_oc_25"/> yeah yeah bu- <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_98"> but now <anchor synch="#LEcon227_oc_27" type="other_continuation" xml:id="LEcon227_oc_26"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_99"><anchor synch="#LEcon227_oc_26" type="other_continuation" xml:id="LEcon227_oc_27"/> we have the party <pause/> party of er <foreign type="LN" voice:translation="labor" xml:lang="ger"> arbeit </foreign> you know <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_100"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_101"> which is the er stalinist they're stalinist <pause dur="PT1S"/> that's why they don't get votes cos <seg n="3" type="overlap" xml:id="LEcon227_ol_34"> they're stalinist </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_102"><seg n="3" synch="#LEcon227_ol_34" type="overlap" xml:id="LEcon227_ol_35"> yeah you don't </seg> get influence if you a<c type="lengthening"/>re yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_103"> so<c type="lengthening"/> no <pause dur="PT1S"/> they they don't matter <pause/> at all <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_104"> yeah that's okay <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_105"> yeah <pause/> and then you er <pause/> you have greens <pause dur="PT1S"/> socialists christian democrats and then you use- you used to have the flemish party which is now a fascist party <pause/> and a part which <pause/> joined the <pause/> christian democrats in the part which joined erm <pause dur="PT2S"/> the socialists <pause/> and then you have a liberal party <pause dur="PT1S"/> which has also twenty per cent <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_106"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_107"> so you have about four parties that have twenty per cent <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_108"> but erm it's a socialist government you have now<c function="rise" type="intonation"/><pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_109"> we <emph> now </emph> have <pause/> a national level <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_110"> yeah er <seg n="4" type="overlap" xml:id="LEcon227_ol_36"> of national level yeah that's </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_111"><seg n="4" synch="#LEcon227_ol_36" type="overlap" xml:id="LEcon227_ol_37"> a federal level </seg><pause/> we have er flemish and <pause/> wa- er <pause/> walloon socialists </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_112"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_113"> with <pause/> flemish and walloon er liberals </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_114"> liberals yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_115"> so purple they call it <pause/> purple cos <pause/> red and blue <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_116"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_117"> so socialist liberal <pause dur="PT1S"/> and on the <pause/> flemish level <pause/> we have a <pause/> liberal a grand coalition liberal christian democrats and socialists <pause dur="PT1S"/> so all the three big parties <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_118"> er <seg n="5" type="overlap" xml:id="LEcon227_ol_38"> so the<c type="lengthening"/></seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_119"><seg n="5" synch="#LEcon227_ol_38" type="overlap" xml:id="LEcon227_ol_39"> except the </seg> fascists  </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_120"> er have <pause/> do you have <supplied reason="unintelligible" voice:ipa="ˈpɑsɪts"> xx </supplied> or <unclear> a </unclear> parlat- <pause/><seg n="8" type="overlap" xml:id="LEcon227_ol_40"><unclear> -mentarism </unclear></seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_121"><seg n="8" synch="#LEcon227_ol_40" type="overlap" xml:id="LEcon227_ol_41"> what<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_122"> do you have <supplied reason="unintelligible" voice:ipa="ˈpɑsɪts"> xx </supplied> or a <voice:pvc> parliamentarism </voice:pvc><pause dur="PT1S"/> do you have to have a majority<c function="rise" type="intonation"/><pause/><unclear> that's </unclear><supplied reason="unintelligible"> x </supplied> to <voice:pvc> parliamentarism </voice:pvc></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_123"> yeah <pause dur="PT1S"/><seg n="6" type="overlap" xml:id="LEcon227_ol_42"> it's a </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_124"><seg n="6" synch="#LEcon227_ol_42" type="overlap" xml:id="LEcon227_ol_43"> in den</seg>mark we can <pause dur="PT1S"/> like make a government of thirty per cent and still <anchor synch="#LEcon227_oc_29" type="other_continuation" xml:id="LEcon227_oc_28"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_125"><anchor synch="#LEcon227_oc_28" type="other_continuation" xml:id="LEcon227_oc_29"/><emph> yeah </emph> we <pause/> you <emph> can </emph> do that but if you don't <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_126"> okay <anchor synch="#LEcon227_oc_31" type="other_continuation" xml:id="LEcon227_oc_30"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_127"><anchor synch="#LEcon227_oc_30" type="other_continuation" xml:id="LEcon227_oc_31"/> you <emph> can </emph> do that but then you're never yeah <pause/> then you have to have a mino- i don't know <pause/> a min- you have a minority government you can have that <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_128"> yeah <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_129"> but well <pause/> you know <pause/> no but in belgium you don't do that <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_130"> we always have that we have never had a majority government in denmark <anchor synch="#LEcon227_oc_33" type="other_continuation" xml:id="LEcon227_oc_32"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_131"><anchor synch="#LEcon227_oc_32" type="other_continuation" xml:id="LEcon227_oc_33"/> well </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_132"> but it does need for <pause/> each case <pause/> they need to find someone to cooperate with <pause/> so they use both sides of <pause/> the spectrum </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_133"> in belgium it <emph> is </emph> possible <pause/> but you don't do it </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_134"> okay <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_135"> it's just you know you <emph> can </emph> do it <pause/> but nobody does it <pause dur="PT1S"/> in belgium it's custom to <pause/> trying to have <pause/> the largest majority as possible <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_136"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_137"> that's custom <pause dur="PT3S"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_138"> so you <pause/> legally it's possible but nobody does it <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_139"> yeah <pause dur="PT2S"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_140"> and yeah <pause/> so in flanders you have the grand coalition <pause/> cos it's everybody against the fascists <pause/> cos that was the only coalition <emph> possible </emph><pause dur="PT1S"/> without the fascists <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_141"> how big is the fascists party you said<c function="rise" type="intonation"/> twenty per cent<c function="rise" type="intonation"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_142"><emph> more </emph> than twenty per cent <pause/> and <anchor synch="#LEcon227_oc_35" type="other_continuation" xml:id="LEcon227_oc_34"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_143"><anchor synch="#LEcon227_oc_34" type="other_continuation" xml:id="LEcon227_oc_35"/> well how much<c function="rise" type="intonation"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_144"> more than twenty per cent <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_145"> o<c type="lengthening"/>h <seg n="7" type="overlap" xml:id="LEcon227_ol_44"> yeah </seg> that's not good <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_146"><seg n="7" synch="#LEcon227_ol_44" type="overlap" xml:id="LEcon227_ol_45"> yeah </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_147"> it's <emph> not </emph> good </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_148"> no </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_149"> but a lot <voice:track medium="1" num="4" type="md"/> of you know fifteen per cent of the voters from the fascist party say oh no<c type="lengthening"/><pause/> they are not really fascist <pause/> they're just <pause/> nationalist and they're proud to be flemish and <pause/> you know the establishment is trying to demonize  them and </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_150"> yeah <pause dur="PT1S"/> we have the our nationalist party is <emph> fifteen </emph> per cent <pause/> that's way too much also <pause/> and the government is almost always working with them <pause dur="PT1S"/> so it's <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_151"> yeah <pause/> i <seg n="1" type="overlap" xml:id="LEcon227_ol_46"> heard about that </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_152"><seg n="1" synch="#LEcon227_ol_46" type="overlap" xml:id="LEcon227_ol_47"> we're way </seg> too influenced by the nationalists </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_153"> yeah but that's <pause/> you know cos twenty-five per cent <pause/> almost is now in the polls <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_154"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_155"> the polls they almost have twenty-<emph>five </emph> per cent <pause/> so they<unclear>'re </unclear> almost the biggest party </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_156"> aha </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_157"> in <emph> flanders </emph> yeah<c function="rise" type="intonation"/> not in belgium in <emph> flanders </emph><c function="fall" type="intonation"/><pause/> so the north part <pause dur="PT2S"/> but well you know <pause dur="PT1S"/> that does <pause/> it does like scare <pause/> the liberal party <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_158"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_159"> into like <pause/> being less liberal and more conservative <pause/> cos they're liberals <pause/> they should be more you know freedom  and <pause/> and stuff <anchor synch="#LEcon227_oc_37" type="other_continuation" xml:id="LEcon227_oc_36"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_160"><anchor synch="#LEcon227_oc_36" type="other_continuation" xml:id="LEcon227_oc_37"/> yeah <anchor synch="#LEcon227_oc_39" type="other_continuation" xml:id="LEcon227_oc_38"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_161"><anchor synch="#LEcon227_oc_38" type="other_continuation" xml:id="LEcon227_oc_39"/> but they're <pause/> actually cos they're <pause/> they feel like the fascist party behind them they are more like law and order  and <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_162"> yeah <pause/> it's exactly the same in denmark <pause/> our liberal party is <pause dur="PT1S"/> less liberal than our conservative party <pause/> our conservative wants  to liberalize a lot of stuff <pause/> but the liberals want to just be bigger and to like vote us <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_163"> the liberals are liberally economic economic they <pause/> they wanna <seg n="2" type="overlap" xml:id="LEcon227_ol_48"> be </seg> liberal <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_164"><seg n="2" synch="#LEcon227_ol_48" type="overlap" xml:id="LEcon227_ol_49"> yeah </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_165"> but on <pause dur="PT1S"/> er immigrant issues and criminal issues and </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_166"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_167"> other issues they're all <pause dur="PT1S"/> just you know they <pause dur="PT1S"/> they were like <pause dur="PT1S"/> e<c type="lengthening"/>r now <pause/> er gays can get married in belgium<c function="rise" type="intonation"/><pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_168"> what<c function="rise" type="intonation"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_169"> homosexuals<c function="rise" type="intonation"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_170"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_171"> can get married in belgium<c function="rise" type="intonation"/><pause dur="PT1S"/> so <seg n="3" type="overlap" xml:id="LEcon227_ol_50"> married like </seg><pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_172"><seg n="3" synch="#LEcon227_ol_50" type="overlap" xml:id="LEcon227_ol_51"> they can now </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_173"> like er <seg n="4" type="overlap" xml:id="LEcon227_ol_52"> i </seg> can get married to her <incident voice:desc="S1 points at a girl"/><pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_174"><seg n="4" synch="#LEcon227_ol_52" type="overlap" xml:id="LEcon227_ol_53"> yeah </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_175"> but i can get also get married to you <incident voice:desc="S1 points at S2"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_176"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_177"> it's a- it's exactly the same <pause dur="PT2S"/> but there was like between the socialists and the liberals there was this e<c type="lengthening"/>rm <pause dur="PT1S"/> agreement <pause dur="PT1S"/> next step is that <pause/> if i marry you <pause/> we can adopt children <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_178"> yeah <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_179"> as a ho- homosexual couple <pause dur="PT1S"/> but now the liberals are like <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_180"> yeah <seg n="5" type="overlap" xml:id="LEcon227_ol_54"> scared and </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_181"><seg n="5" synch="#LEcon227_ol_54" type="overlap" xml:id="LEcon227_ol_55"> re- retreating </seg> cos the fascists are saying no<c type="lengthening"/> this is not natural and it isn't nat- so they're saying <pause/> we are <emph> for </emph> it but <pause dur="PT1S"/> e<c type="lengthening"/>r public opinion and blah blah blah like that <pause/> so <pause/> you know <pause/> they're they're stuck into  the <pause/> t- to gain votes <pause dur="PT1S"/> but you know that doesn't work <pause/><seg n="6" type="overlap" xml:id="LEcon227_ol_56"> you can't </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_182"><seg n="6" synch="#LEcon227_ol_56" type="overlap" xml:id="LEcon227_ol_57"> that's funny </seg> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_183"> you can't win the votes by <pause/> you know <pause/> copying them you should win the votes by being diff- erm <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_184"> er in denmark we our prime minister who's liberal er from the liberal party <pause/> he actually said that <pause/> it was fair <pause/> erm homosexual can adopt children but <pause/> he said his party's not behind him so <pause/> he's just like <pause/> retreating <pause dur="PT1S"/> that <pause/> he said it once and then he said oh i can't say that because <pause/> i have to have <pause/> my background behind <seg n="7" type="overlap" xml:id="LEcon227_ol_58"> me <pause/> and he knows </seg><pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_185"><seg n="7" synch="#LEcon227_ol_58" type="overlap" xml:id="LEcon227_ol_59"> yeah yeah <pause/> it's the same </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_186"> he's only saying it because he is losing <voice:track medium="1" num="5" type="md"/> voters when he said it <pause/> and  </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_187"> yeah </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_188"> exactly the same <pause/> i think <pause dur="PT1S"/> probably it's much alike in flemish <pause/> dutch and danish people <seg n="1" type="overlap" xml:id="LEcon227_ol_60"> like these </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_189"><seg n="1" synch="#LEcon227_ol_60" type="overlap" xml:id="LEcon227_ol_61"> it's a european </seg> phenomenon </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_190"> this ger- german lang- yeah european <pause/> also <seg n="2" type="overlap" xml:id="LEcon227_ol_62"> in general </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_191"><seg n="2" synch="#LEcon227_ol_62" type="overlap" xml:id="LEcon227_ol_63"> yeah it's </seg> it's the <pause/> cos <pause/> it's the same with the<c type="lengthening"/><pause/> migrants now <pause/> in belgium can vote </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_192"> yeah <anchor synch="#LEcon227_oc_41" type="other_continuation" xml:id="LEcon227_oc_40"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_193"><anchor synch="#LEcon227_oc_40" type="other_continuation" xml:id="LEcon227_oc_41"/> so you don't have to have the belgian nationality <pause/> to vote for like <pause/> communal <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_194"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_195"> erm <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_196"> it's <seg n="3" type="overlap" xml:id="LEcon227_ol_64"> like that </seg> in denmark </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_197"><seg n="3" synch="#LEcon227_ol_64" type="overlap" xml:id="LEcon227_ol_65"><foreign type="L1" xml:lang="dut"> xxx </foreign></seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_198"> so if <pause/> for the city of antwerp <pause/> if you're moroccan <pause/> or turkish you can vote <pause/> cos you live in antwerp </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_199"> yeah <pause dur="PT2S"/> but <seg n="4" type="overlap" xml:id="LEcon227_ol_66"> this </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_200"><seg n="4" synch="#LEcon227_ol_66" type="overlap" xml:id="LEcon227_ol_67"> and </seg><pause dur="PT1S"/> the liberals were <emph> always </emph><pause dur="PT1S"/> for that <pause/> they were always saying that's a good thing <pause dur="PT1S"/> until five years ago <pause dur="PT2S"/> they said no <emph> no </emph><pause/> it's a bad thing cos <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_201"> that's funny <pause/> it's <pause/> we they have been able to vote like they er since the eighties in denmark <pause/> but now the liberals <pause/> the conservative <pause/> and the national party wants to change that so it's probably getting changed <pause/> s- we have a <pause/> an election in november <pause/> and they are trying to change that so they can so they can't vote any more <pause/> and they have <pause/> done so for mo- over <seg n="5" type="overlap" xml:id="LEcon227_ol_68"> twenty years </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_202"><seg n="5" synch="#LEcon227_ol_68" type="overlap" xml:id="LEcon227_ol_69"> yeah it </seg> it was it was <seg n="6" type="overlap" xml:id="LEcon227_ol_70"> like i- </seg><pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_203"><seg n="6" synch="#LEcon227_ol_70" type="overlap" xml:id="LEcon227_ol_71"> it's like yeah </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_204"> it was a completely <pause/> you know just like a <foreign type="L1" xml:lang="dut"> xxx </foreign><pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_205"> yeah  </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_206"> that the the liberal congress <pause/> you know the liberal party has a congress every year <pause dur="PT1S"/> and so <pause/> it was a approved that <pause/><voice:pvc> non-belgians </voice:pvc> can vote <pause dur="PT1S"/> in these events you know <pause/> for the city elections and <pause/> communal e- elections <pause/> and it was this extremely you know emotional <pause dur="PT1S"/> congress about <pause/> whether to get out of government or <pause/> stay in government cos <pause/><seg n="7" type="overlap" xml:id="LEcon227_ol_72"> it </seg> was <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_207"><seg n="7" synch="#LEcon227_ol_72" type="overlap" xml:id="LEcon227_ol_73"> yeah </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_208"> like <pause/> a <foreign type="L1" voice:translation="dictate" xml:lang="dut"> diktat </foreign> from the socialists that <pause/> they could vote or n- can't vote and <pause dur="PT1S"/> you know they're they're f- <pause/> they're scared </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_209"> yeah <pause/> that </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_210"> they're <seg n="1" type="overlap" xml:id="LEcon227_ol_74"> always looking </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_211"><seg n="1" synch="#LEcon227_ol_74" type="overlap" xml:id="LEcon227_ol_75"> it's also all </seg> about  </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_212"> always looking back <pause/> always looking back  if the fascists are er if they're not losing voters <pause dur="PT1S"/> and always <emph> fight</emph>ing between this or the very liberal part <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_213"> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_214"> which doesn't want to give in to the <pause dur="PT1S"/><seg n="2" type="overlap" xml:id="LEcon227_ol_76"> and e<c type="lengthening"/>r yeah </seg></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_215"><seg n="2" synch="#LEcon227_ol_76" type="overlap" xml:id="LEcon227_ol_77"> oh yeah and so </seg><pause/> also fight about the median voters and <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_216"> yeah </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_217"> like </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_218"> i know <anchor synch="#LEcon227_oc_43" type="other_continuation" xml:id="LEcon227_oc_42"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_219"><anchor synch="#LEcon227_oc_42" type="other_continuation" xml:id="LEcon227_oc_43"/> you learn a theory e<c type="lengthening"/>r like </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_220"> yeah </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_221"> fight about median vo- but also <pause dur="PT1S"/> i think this entire debate is influenced by the <voice:pvc> medias </voice:pvc> because <pause/> the <voice:pvc> medias </voice:pvc> in denmark at least either they <pause/> debate about immigration <pause/> immigrants and <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_222"> yeah in <anchor synch="#LEcon227_oc_45" type="other_continuation" xml:id="LEcon227_oc_44"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_223"><anchor synch="#LEcon227_oc_44" type="other_continuation" xml:id="LEcon227_oc_45"/> all that so </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_224"> yeah the media is <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_225"> they are like p- putting their agenda down on us  and <pause/> so they decide pretty much <pause dur="PT1S"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_226"> yeah </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_227"> and it's not very good for <pause dur="PT1S"/> it's today and maybe that's why <pause/> personally i am not one hundred per cent <pause/><emph> for </emph><pause/> democracy <pause dur="PT1S"/> i think there should <pause/> be something <supplied reason="unintelligible"> xxx x </supplied><pause/> it's just hard to define it because <anchor synch="#LEcon227_oc_47" type="other_continuation" xml:id="LEcon227_oc_46"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_228"><anchor synch="#LEcon227_oc_46" type="other_continuation" xml:id="LEcon227_oc_47"/> yeah public opinion sometimes is <pause/> very <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_229"> yeah <pause/> too<c type="lengthening"/><seg n="3" type="overlap" xml:id="LEcon227_ol_78"> influe- </seg></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_230"><seg n="3" synch="#LEcon227_ol_78" type="overlap" xml:id="LEcon227_ol_79"> different </seg> than me yeah <pause/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_231"> but also very different than they <emph> are </emph><pause dur="PT1S"/> it's like <voice:track medium="1" num="6" type="md"/><pause/> they are influenced by something <pause/> by fear for example </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_232"> yeah </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_233"> they always use fear and <pause dur="PT1S"/> in the media and er <pause/> politicians use fear to say oh <pause/> this is so dangerous <pause/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_234"> i know </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_235"> so people are <pause/> voting out of ignorance <pause/> rather than out of <anchor synch="#LEcon227_oc_49" type="other_continuation" xml:id="LEcon227_oc_48"/></u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_236"><anchor synch="#LEcon227_oc_48" type="other_continuation" xml:id="LEcon227_oc_49"/> yeah <pause/> very much out of not knowing and <anchor synch="#LEcon227_oc_51" type="other_continuation" xml:id="LEcon227_oc_50"/></u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_237"><anchor synch="#LEcon227_oc_50" type="other_continuation" xml:id="LEcon227_oc_51"/> yeah </u>
+            <u who="#LEcon227_S1" xml:id="LEcon227_u_238"> trying to keep things as they think it was or </u>
+            <u who="#LEcon227_S2" xml:id="LEcon227_u_239"> yeah <pause/> and they did the same in the thirties where <pause/> democracy failed by <pause/> voting hitler to power </u>
+         </div>
+      </body>
+   </text>
+</TEI>

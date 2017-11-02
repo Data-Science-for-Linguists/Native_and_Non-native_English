@@ -1,0 +1,862 @@
+******************************************************************************
+*   Vienna-Oxford International Corpus of English (XML Release)
+******************************************************************************
+
+
+1. Contents
+-----------
+
+This package includes the XML data files and additional material of
+the Vienna-Oxford International Corpus of English (VOICE). It
+comprises four data sets.
+
+- The first data set, VOICE 1.0 XML, corresponds to the data that was
+  published via the web platform VOICE Online
+  <http://www.univie.ac.at/voice/> on 2009-05-22.
+
+- The second data set, VOICE 1.1 XML, corresponds to the data that was
+  published via the web platform VOICE Online
+  <http://www.univie.ac.at/voice/> on 2011-05-05. It includes minor
+  revisions and corrections that were made between 2011-01-24 and
+  2011-04-22.
+
+- The third data set, VOICE 2.0 XML, corresponds to the data that was
+  published via the web platform VOICE Online
+  <http://www.univie.ac.at/voice/> on 2013-01-22. It includes minor
+  revisions and corrections that were made between 2012-07-02 and
+  2012-07-31.
+
+- The fourth data set, VOICE POS XML 2.0, is the first part-of-speech
+  tagged and lemmatized version of the corpus. It corresponds to the
+  data on VOICE POS Online 2.0, which was published and is accessible
+  via the web platform VOICE Online <http://www.univie.ac.at/voice/>
+  on 2013-01-22. It also corresponds to the data of VOICE 2.0 XML (see
+  above), however including a number of differences in the encoding
+  scheme (see section 4).
+
+
+2. License
+----------
+
+This copy of VOICE XML is licensed under a Creative Commons
+Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
+License (http://creativecommons.org/licenses/by-nc-sa/3.0/). This is a
+very liberal license that grants certain rights for non-commercial
+use, especially your right to use VOICE for your own research, but
+also reserves certain rights for the original creators of
+VOICE. Please refer to the file COPYING for the details of this
+license and the extent of the rights granted.
+
+
+3. Structure
+------------
+
+/VOICE1.0XML
+
+Contains all files specific to the version 1.0 of VOICE XML. Note that
+this version aligns with all research done on the basis of VOICE
+Online before 5 May 2011. In this folder you will find three
+sub-folders: XML, derivedHTML, derivedTXT. The XML folder contains all
+full corpus files of VOICE 1.0 XML. One corpus-header.xml with shared
+meta-data and general information on the corpus and 151 individual
+corpus files corresponding to the 151 corpus texts. The file names are
+indicative of the domain and speech event type of the particular event
+(e.g. EDcon4.xml). This format is described under 7. NAMING
+RULES. Additionally, two derived versions of the corpus are provided
+in HTML and plain TXT format in the corresponding folders, derivedTXT
+and derivedHTML. Please refer to the README files in the respective
+folders for information on the limitations of these derived versions
+of the corpus.
+
+/VOICE1.1XML
+
+Contains all files specific to the revised version 1.1 of VOICE. Note
+that this version aligns with research done on the basis of VOICE
+Online from 5 May 2011 until 22 January 2013. The folder structure
+follows the same principles as described in VOICE1.0XML above.
+
+/VOICE2.0XML
+
+Contains all files specific to the revised version 2.0 of VOICE. Note
+that this version aligns with research done on the basis of VOICE
+Online from January 2013. The folder structure follows the same
+principles as described in VOICE1.0XML above. This edition of VOICE
+XML is recommended for future research, as it includes further
+revisions in some of the corpus texts.
+
+/VOICEPOSXML2.0
+
+This folder includes a part-of-speech (POS) tagged and lemmatized
+version of the corpus. Note that this version aligns with research
+done on the basis of VOICE POS Online from January 2013. In this
+folder you will find two sub-folders: XML and derivedTXT. The XML
+folder contains all corpus files of VOICE 2.0 XML, one
+corpus-header.xml with shared meta-data and general information on the
+corpus and 151 individual corpus files corresponding to the 151 corpus
+texts. The folder derivedTXT contains a derived (tab-separated) text
+version of the tagged corpus. The file names are indicative of the
+domain and speech event type of the particular
+event(e.g. EDcon4.xml). This format is described under section
+7. NAMING RULES.
+
+
+/schema
+
+Contains the definition of the schema derived from the Text Encoding
+Initiative Guidelines P5 (TEI P5) and the documentation of the
+schema. The schema is a subset of elements defined in TEI P5 with
+minor additions to suit the requirements for the encoding of
+VOICE. The definition of the schema as well as the documentation of
+features that were added to standard TEI P5 is specified using the TEI
+ODD vocabulary (see <http://www.tei-c.org/Guidelines/Customization/odds.xml>).
+The files VOICESchema.rng and VOICESchema.rnc can be used with an
+RelaxNG validator to ensure the validity of the corpus files. Many XML
+editors have built-in facilities for this, but in any case James
+Clark's freely available jing package can be used for this purpose
+(see <http://www.thaiopensource.com/relaxng/jing.html>). The schema is
+accompanied by a documentation in PDF format. This PDF file is
+directly generated from the ODD specification, that is, it is the
+result of merging the documentation as provided by the TEI Council
+with the documentation of VOICE's custom elements, using the official
+TEI tool roma2. We gratefully acknowledge the work of all contributors
+to the TEI Guidelines (see <http://www.tei-c.org/Guidelines/P5>).
+
+The schema does not include the description for VOICE POS XML. VOICE
+POS XML is a schema which displays the POS-tags with featurestructures
+on word-level.
+
+/contrib
+
+Contains code that can be used to process VOICE. The files in this
+folder are provided for your convenience to give you code examples on
+how to pre-process the corpus files to suit your specific needs. The
+XSLT-Stylesheets you find here were used to prepare the derivedTXT and
+derivedHTML versions of the corpus.
+
+
+4. Differences between VOICE XML, VOICE Online and VOICE POS
+-----------------------------------------------------------------
+
+The following sections describe the differences between the encoding
+schemata of VOICE XML, VOICE Online and VOICE POS means of
+example. That is, the representation differences of individual
+features in the three versions are listed. Obviously this is not a
+normative reference, but should help users accustomed to working with
+one version of the corpus to get started with another version.  If not
+indicated otherwise, "VOICE POS" refers to both the XML and the
+derivedTXT version of the part-of-speech and lemmatized version of the
+corpus. Due to the practical issues in the tokenization and tagging
+procedure only pure text, pauses and laughter were extracted, which
+means that some additional mark-up, e.g. overlaps or emphasis, is
+either not represented in the VOICE POS versions, or represented
+differently, as is the case for e.g. anonymization (for details, see
+the individual subsections below).
+
+
+Vocabularies:
+
+In XML, vocabularies, that is sets of tags, can be distinguished by
+namespaces. The default namespace for the documents in VOICE XML is
+the TEI namespace "http://www.tei-c.org/ns/1.0". For additions to the
+TEI schema, the VOICE XML specific namespace
+"http://www.univie.ac.at/voice/ns/1.0" is used with the prefix
+"voice". In the descriptions below <u> would refer to the TEI XML
+element with the name "u" whereas <voice:to> refers to the VOICE XML
+specific element with the name "to".
+
+Conventions:
+
+To set attribute names apart from the descriptive text, they are
+prefixed with an "@" symbol (@voice:desc). Similarly, XML Element
+names are always surrounded by pointy brackets (<seg>). The term
+'pseudo-XML notation' refers to mark-up in VOICE Online that resembles
+XML elements in that it uses a start < > and end </ > tag.
+
+The Subsections in this section follow this format:
+
+- Example in VOICE Online format
+- Brief description of this example
+- Corresponding example in VOICE XML format
+- Brief description of this example
+- Corresponding example in VOICE POS
+- Brief description of this example
+
+All examples are minimal fragments that are reduced in order to focus
+on the described feature. As these fragments are constructed examples,
+they do not necessarily occur exactly in this form in the corpus.
+
+  4.1. UTTERANCES
+  ---------------
+  S1: ...
+  S2: ...
+  
+  In VOICE Online, utterances start with a 'sigle' (the speaker ID,
+  e.g. S1:, S2:) and extend to the end of the text-block. The next
+  sigle starts the next utterance.
+  
+  <u who="#EDcon4_S1"> <!-- ... --> </u>
+  <u who="#EDcon4_S2"> <!-- ... --> </u>
+  
+  In VOICE XML and VOICE POS XML utterances are contained within <u>
+  elements. The attribute @who contains a corresponding form of the
+  speaker's sigle.
+  
+  EDcon4_11:2
+
+  In the derivedTXT version of VOICE POS, utterances are not framed by
+  a <u> element but each token is listed vertically in a line, being
+  preceded by an element which indicates event ID (EDcon4), utterance
+  number (_11) and position of the token in the utterance
+  (:2). Utterances are separated by a space line.
+
+  4.2. INTONATION
+  ---------------
+  my next er slide?
+  absolutely yes. 
+  
+  In VOICE Online, intonation is represented by "?" (rising) and "."
+  (falling).
+  
+  my next er slide<c type="intonation" function="rise"/>
+  absolutely yes<c type="intonation" function="fall"/>
+  
+  In VOICE XML, intonation is represented by the <c> element. The
+  attribute @type is set to "intonation" while the attribute @function
+  indicates rising ("rise") and falling ("fall") intonation.
+  
+  my next er slide
+  absolutely yes 
+
+  In VOICE POS, there is no mark-up to indicate intonation.
+  
+  
+  4.3. EMPHASIS
+  -------------
+  a very IMPORTANT issue
+  toMORrow we have to work on the
+  
+  In VOICE Online, particular emphasis on a syllable is indicated by
+  uppercase letters.
+  
+  a very <emph>important</emph> issue
+  to<emph>mor</emph>row we have to work on the
+  
+  In VOICE XML, emphasis is indicated by the <emph> element. The
+  content of this element corresponds to the emphasised portion of
+  speech. Note that only lowercase letters are used in VOICE XML.
+ 
+  a very important issue
+  tomorrow we have to work on the
+ 
+  In VOICE POS, there is no mark-up to indicate emphasis.
+  
+
+  4.4. PAUSES
+  -----------
+  give me different (.) different (.) points
+  aha (2) so finally 
+  
+  In VOICE Online, pauses are indicated by parentheses. The
+  parentheses contain either a "." for a brief pause or a number
+  indicating the duration of the pause in seconds.
+  
+  give me different <pause/> different </pause> points
+  aha <pause dur="PT2S"/>
+  
+  In VOICE XML, pauses are indicated by the <pause> Element. The
+  attribute @dur indicates the duration in W3C format (see the TEI
+  Guidelines: 8.3.2 Pausing).
+  
+  give me different _0 different _0 points
+  aha _2 so finally 
+
+  In VOICE POS, pauses are represented by an underscore ("_") followed
+  by a numeral (zero for a brief pause or a number greater than zero
+  indicating duration of the pause to approximate seconds)
+  
+  
+
+  4.5. OVERLAPS
+  -------------
+  it is your best <1> case </1> scenario
+  <1> yeah </1>
+  
+  In VOICE Online, overlaps are indicated by a pseudo-XML notation
+  with a number (e.g. <1> </1>). The overlapping portions of speech
+  can be identified by the corresponding numbers.
+  
+  it is your best <seg n="1" type="overlap" xml:id="EDcon999_ol_6"> case
+  </seg> scenario
+  
+  <seg n="1" synch="#EDcon999_ol_6" type="overlap"
+  xml:id="EDcon999_ol_7> yeah </seg>
+  
+  In VOICE XML, overlaps are indicated with the element <seg> and an
+  attribute @type with the value "overlap". The corresponding numbers
+  you find in VOICE Online are provided in the attribute @n. Every
+  overlap carries a unique attribute @xml:id, which is referenced in
+  the corresponding following overlaps in the @synch attribute.
+
+  it is your best case scenario
+  yeah
+  
+  In VOICE POS, there is no mark-up to indicate overlaps. 
+  
+
+  4.6. OTHER-CONTINUATION
+  -----------------------
+  yes=
+  =really
+  
+  In VOICE Online, other-continuation is indicated with "=" at the end
+  of one utterance and "=" at the beginning of the next.
+  
+  yes <anchor xml:id="EDcon999_oc_0" synch="#EDcon999_oc_1"/>
+  <anchor xml:id="EDcon999_oc_1" synch="#EDcon999_oc_0"/> really
+  
+  In VOICE XML, other-continuation is indicated with the element
+  <anchor> and attribute @type with the value
+  "other_continuation". The attribute @xml:id is unique for every
+  anchor and is used to establish the reference to the corresponding
+  <anchor> with the attribute @synch.
+
+  yes
+  really
+
+  In VOICE POS, there is no mark-up to indicate other-continuation. 
+    
+  4.7. LENGTHENING
+  ----------------
+  mo:re technique
+  the: er::m
+  
+  In VOICE Online, lengthening is indicated with ":".
+  
+  mo<c type="lengthening"/>re technique
+  the<c type="lengthening"/> er<c type="lengthening"/><c
+  type="lengthening/>m
+  
+  In VOICE XML, lengthening is indicated with the element <c> and an
+  attribute @type with the value "lengthening".
+  
+  more technique
+  the erm
+
+  In VOICE POS, there is no mark-up to indicate lengthening.
+  
+
+  4.8. WORD FRAGMENTS
+  -------------------
+  to go t- t- to to this t- -ype
+  
+  Self-interruptions and incomplete words are indicated with "-" at
+  the point of disruption, i.e. at the beginning or end of a word
+  fragment. All three versions (VOICE Online, VOICE XML and VOICE POS) follow this rule.
+  
+
+  4.9. LAUGHTER
+  -------------
+  who knows @@
+  <@> yeah </@> @@ that's right
+  
+  In VOICE Online, laughter is indicated by sequences of "@"
+  symbols. If a portion of speech is spoken laughingly, this is
+  indicated by surrounding the portion of speech with the pseudo-XML
+  notation <@> </@>
+  
+  who knows <vocal type="wordlike" subtype="wordstart"
+  voice:desc="laughing" voice:syl="2"/>
+
+  <shift corresp="#EDcon999_s_4" feature="voice" new="laugh"
+  xml:id="EDcon999_s_3"/> yeah <shift corresp="#EDcon999_s_3"
+  new="neutral" xml:id="EDcon999_s_4"/> <vocal type="wordlike"
+  subtype="wordstart" voice:desc="laughing" voice:syl="2"/> that's right
+  
+  In VOICE XML, laughter is indicated by the <vocal> element with the
+  attribute @type="wordlike" and an attribute
+  @voice:desc="laughing". Portions of speech that are spoken
+  laughingly are indicated with the element <shift> with the attribute
+  @feature="voice" and @new="laugh". The end of these portions are
+  indicated with an element <shift> with the attribute
+  @feature="voice" and @new="neutral".
+  
+  who knows @@
+  yeah @@ that's right
+
+  In VOICE POS, laughter is indicated by sequences of "@"
+  symbols. There is no mark-up for portions of speech which are spoken
+  laughingly.
+  
+
+  4.10. UNCERTAIN TRANSCRIPTION
+  -----------------------------
+  very (generous) friends
+  
+  In VOICE Online, words or word-fragments that cannot be identified
+  with confidence are indicated as uncertain transcription in
+  parentheses.
+  
+  very <unclear> generous </unclear> friends
+  
+  In VOICE XML, uncertain transcription is indicated with the element
+  <unclear>.
+  
+  very generous friends
+
+  In VOICE POS, there is no mark-up to indicate uncertain transcriptions.
+  
+  
+
+  4.11. PRONUNCIATION VARIATIONS & COINAGES
+  -----------------------------------------
+  <pvc> bices </pvc>
+  <pvc> compy {company} </pvc>
+  <pvc> summamary {summary} <ipa> sʌməˈmærɪ </ipa> </pvc>
+  
+  In VOICE Online, Pronunciation Variations and Coinages (PVCs) are
+  indicated with the pseudo-XML notation <pvc> </pvc>. Optionally, a
+  corresponding existing word might be indicated in curly
+  brackets. Sometimes a phonetic representation of the PVC in IPA is
+  given in the pseudo-XML notation <ipa> </ipa>.
+  
+  <voice:pvc> bices </voice:pvc>
+  <voice:pvc comment="company"> compy </voice:pvc>
+  <voice:pvc comment="summary" voice:ipa="sʌməˈmærɪ"> summamary
+  </voice:pvc>
+
+  In VOICE XML, PVCs are indicated by surrounding the word that has
+  been identified as PVC with a <voice:pvc> element. The optional
+  attribute @comment indicates an existing word corresponding to the
+  PVC. In some cases, the attribute @voice:ipa is added to provide a
+  phonetic representation of the PVC.
+
+  p_bices
+  p_compy
+  p_summamary 
+
+  In VOICE POS, PVCs are marked "p_" preceding the token. 
+
+  4.12. ONOMATOPOEIC NOISES
+  -------------------------
+  <ono> dəʃ dəʃ dəʃ </ono> somebody
+  
+  In VOICE Online, onomatopoeic noises are indicated in pseudo-XML
+  notation <ono> </ono>.
+  
+  <seg type="onomatopoeia"> dəʃ dəʃ dəʃ </seg> somebody
+  
+  In VOICE XML onomatopoeic noises are indicated by surrounding the
+  portion of speech that constitutes the onomatopoeia with a <seg>
+  element with the attribute @type="onomatopoeia".
+
+
+  o_dəʃ o_dəʃ o_dəʃ somebody
+
+  In VOICE POS, all onomatopoeia are represented by IPA symbols, and
+  are additionally marked "o_" preceding the token.
+
+
+  4.13. NON-ENGLISH SPEECH
+  ------------------------
+  <L1ger> bei firmen {at companies} </L1ger> or wherever
+  this is <LNger> die seite {the page} </LNger>
+  
+  In VOICE Online, non-English speech is given in either pseudo-XML
+  notation <L1ger> (first language German), <LNger> (other language
+  German), <LQger> (language German, could be either first or other
+  language). A translation can be provided in curly brackets.
+  
+  <foreign type="L1" voice:translation="at companies" xml:lang="ger">
+  bei firmen </foreign> or wherever 
+  
+  this is <foreign type="LN" voice:translation="the page"
+  xml:lang="ger"> die seite </foreign>
+  
+  In VOICE XML, portions of foreign language are indicated by the
+  element <foreign> with an attribute @type that indicates L1, LN or
+  LQ. Optionally the attribute @voice:translation is used to provide a
+  translation. The attribute @xml:lang provides a three letter code
+  for the used language. Refer to the corpus header or the TEI
+  Guidelines for more information on language codes.
+  
+  f_bei f_firmen or wherever
+  this is f_die f_seite
+
+  In VOICE POS, non-English language is marked "f_" preceding the
+  token, no language specification and no translation are provided.
+  
+
+  4.14. SPELLING OUT
+  ------------------
+  <spel> j a r g o n </spel>
+  
+  In VOICE Online, words or abbreviations which are spelt out by the
+  speaker are indicated with the pseudo-XML notation <spel>
+  </spel>. The spaces between the letters indicate the boundaries of
+  the spelling, that is either letters or clusters of letters.
+  
+  <w voice:mode="spelt"> j a r g o n </w>
+  
+  In VOICE XML, spelt words are contained in <w> elements with the
+  attribute @voice:mode="spelt". The spaces indicate the boundaries of
+  the spelling analogous to VOICE Online.
+  
+  s_jargon
+
+  In VOICE POS, spelling is marked "s_" preceding the token.
+  Boundaries in the spelling are not indicated.
+  
+  
+
+  4.15. SPEAKING MODES
+  --------------------
+  in the <fast> universities of </fast> cyprus
+  
+  In VOICE Online, significant shifts in the speaking mode are
+  indicated with pseudo-XML elements. The label in the tags (in the
+  above example "fast") corresponds to the speaking mode.
+  
+  in the <shift feature="tempo" new="a" xml:id="EDcon999_s_5"/>
+  universities of <shift feature="tempo" new="neutral"
+  xml:id="EDcon999_s_6" corresp="#EDcon999_s_5"/> cyprus
+  
+  In VOICE XML, speaking modes are indicated with the <shift>
+  element. This is qualified with two attributes. The attribute
+  @feature indicates which aspect is altered (e.g. tempo). The
+  attribute @new indicates the newly assigned value. When shifting
+  back to neutral, only the shift is reverted that is explicitly named
+  in the attribute @corresp. For a list of occurring combinations of
+  @feature and @new, refer to the VOICE corpus header (section
+  <tagUsage>).
+  
+  in the universities of cyprus
+
+  In VOICE POS, there is no mark-up to indicate speaking modes.
+  
+
+  4.16. BREATH
+  ------------
+  so it's always hh good
+  
+  Noticeable breathing in or out is, in all three versions (VOICE
+  Online, VOICE XML and VOICE POS), indicated by two (relatively
+  short) or three (relatively long) "h" in sequence.
+  
+
+  4.17. SPEAKER NOISES
+  --------------------
+  yes <yawns>
+  
+  In VOICE Online, speaker noises are indicated by a label in pointy
+  brackets.
+  
+  yes <vocal voice:desc="yawns"/>
+  
+  In VOICE XML, speaker noises are indicated with the element <vocal>
+  (note: speaker noises also include those that are only
+  semi-vocalised or qualify as non-verbal feedback). For a list of
+  possible features encoded in the attribute @voice:desc, refer to the
+  VOICE corpus header (section <tagUsage>).
+  
+  yes
+
+  In VOICE POS, there is no mark-up to indicate speaker noises.
+  
+
+  4.18. ANONYMIZATION
+  -------------------
+  oh [S6] is really good
+  
+  In VOICE Online, anonymization is given in square brackets. The
+  label between the brackets indicates what is anonymized (ie. S1,
+  S2/last, first name8, org1).
+  
+  oh <supplied reason="anonymization"> [S6] </supplied> is really good
+  
+  In VOICE XML, the element <supplied> with the attribute
+  @reason="anonymization" is used to indicate anonymized parts. The
+  text in the element (e.g. [S6]) follows the same format as the
+  anonymizations in VOICE Online.
+  
+  oh a_[S6] is really good
+
+  In VOICE POS, anonymization is given in square brackets, as in VOICE
+  Online. The anonymization is additionally marked "a_" preceding the
+  token.
+  
+
+  4.19. CONTEXTUAL EVENTS
+  -----------------------
+  {mobile rings}
+  {S3 pours coffee (3)}
+  
+  In VOICE Online, contextual information is added between curly
+  brackets if it is thought to be relevant to the understanding of the
+  interaction.
+  
+  <incident voice:desc="mobile rings"/>
+  <incident voice:desc="S3 pours coffee" dur="PT3S"/>
+  
+  In VOICE XML, contextual events are indicated by the element
+  <incident>. The attribute @voice:desc provides a description of the
+  event and the optional attribute @dur gives the approximate duration
+  in seconds in W3C format (see 4.4. Pauses).
+  
+  In VOICE POS, there is no mark-up to indicate contextual events.
+
+  4.20. PARALLEL CONVERSATIONS
+  ----------------------------
+  er <to S2> not quite isn't it </to S2>
+  
+  In VOICE Online, parallel conversations are indicated in pseudo-XML
+  notation, where the tagname is composed of "to " and the sigle of
+  the speaker the portion of speech is directed to.
+  
+  er <voice:to @who="#EDcon999_S1"> not quite isn't it </voice:to>
+  
+  In VOICE XML, the element <voice:to> is used to indicated parallel
+  conversations. The mandatory attribute @who refers to the speaker
+  the portion of speech is directed to.
+
+  er not quite isn't it
+
+  In VOICE POS, there is no mark-up to indicate parallel conversations.
+  
+
+  4.21. UNINTELLIGIBLE SPEECH
+  ---------------------------
+  we <un> xxx </un> for the
+  the process will <un> x <ipa> θeɪŋ </ipa> </un>
+  
+  In VOICE Online, unintelligible speech is indicated with the <un>
+  </un> pseudo-XML notation. The number of unintelligible syllables
+  roughly corresponds to the number of "x" characters. Optionally, the
+  <ipa> </ipa> pseudo-XML element provides a phonetic representation
+  of the unintelligible portion of speech.
+  
+  we <supplied reason="unintelligible"> xxx </supplied> for the
+  the process will <supplied reason="unintelligible" voice:ipa="θeɪŋ">
+  x </supplied>
+  
+  In VOICE XML, unintelligible speech is indicated in the element
+  <supplied> with the attribute @reason="unintelligible". The optional
+  attribute @voice:ipa provides a phonetic representation of the
+  unintelligible portion of speech.
+
+  we xxx for the
+  the process will x
+  
+  In VOICE POS, unintelligible speech is indicated by "x"-characters,
+  the number of these corresponding to the number of syllables, as in
+  VOICE Online. The phonetic transcription is never given for
+  unintelligible speech.
+    
+
+  4.22. TRANSCRIPTION BORDERS
+  ---------------------------
+  (gap 00:06:36) {multiple parallel conversations, hardly intelligible}
+  (nrec 00:00:45) {change of minidisk}
+  
+  In VOICE Online, omissions between blocks of transcription are
+  indicated by in parentheses indicating a label for the reason of
+  omission (i.e gap and nrec), a time marker indicating the duration
+  and a description in curly brackets.
+  
+  <gap dur="PT00H06M36S" reason="not_transcribed" voice:desc="multiple
+  parallel conversations, hardly intelligible"/>
+  <gap dur="PT00H00H45S" reason="not_recorded" voice:desc="change of
+  minidisk"/>
+  
+  In VOICE XML, contiguous blocks of sequential utterances are
+  contained by <div> elements. Omissions between these elements are
+  indicated by the <gap> element with the attribute @reason indicating
+  "not_transcribed" (gap) or "not_recorded" (nrec) as the reason for
+  the omission. The duration of the gap is encoded in the attribute
+  @dur in W3C format (see 4.4. Pauses).
+  
+  In VOICE POS, omissions between blocks of transcription are not
+  indicated.
+
+  
+5. Corpus Size 
+--------------
+
+Whereas in the XML versions the corpus size is given in terms of
+'orthographically defined words' (with pauses and laughter not being
+counted at all, items in spelt sequences counted as individual words,
+e.g. "j a r g o n" counted as six words), for the POS versions the
+units counted are tokens. This means that pauses and
+laughter-sequences total one token, contractions and possessive
+markers are counted as two tokens (e.g. he's = tokens "he" and "s",
+teachers' = tokens "teacher" and "'") and spelt sequences are drawn
+together and counted as one token, e.g. s_jargon.
+
+
+6. Recommended Tools
+--------------------
+
+One of the objectives of the release of VOICE XML is to enhance the
+researchers' flexibility by enabling them to use the tools that suit
+their particular research projects. But increased flexibility also
+implies increased complexity. To provide a starting point for your
+enquiries, please consider one of the programs listed below for
+working with VOICE XML and VOICE POS.
+
+
+  6.1 Corpus Tools
+  ------------------
+
+  * Xaira <http://xaira.sourceforge.net> An XML Aware Indexer and
+    Retrieval Architecture that can make use of the annotation for
+    querying.
+
+  * Wordsmith <http://www.lexically.net/wordsmith> (almost completely
+    XML agnostic, but widely used).
+
+  * GATE Tools <http://www.gate.ac.uk> General Architecture for Text
+    Engineering. Framework that provides integration with many NLP
+    tools.
+
+
+  6.2 General Purpose Tools
+  -------------------------
+
+  * saxon <http://www.saxonica.com> General Purpose XML Stylesheet and
+    XQuery processor.
+
+  * BaseX <http://www.basex.org> XML Database that can be structurally
+    queried with the XML Query Language.
+
+  * eXist-db <http://www.exist-db.org> The XML Database VOICE Online
+    uses as a back-end.
+
+  * Oxygen <http://www.oxygenxml.com> XML Editor that can be used in
+    combination with any of the above general purpose tools.
+
+
+7. Naming Rules
+---------------
+
+The filenames for corpus texts in VOICE XML and VOICE POS follow the
+definition of event IDs as they are used in VOICE Online. The event ID
+specifies the domain the text is part of (two capital letters,
+e.g. PR), the speech event type it represents (three lower case
+letters, e.g. con), and combines this with a number that the text was
+assigned to in the VOICE database (e.g. 29). The combination of these
+specifications uniquely identifies the individual text in the corpus
+(e.g. PRcon29.xml). For abbreviations and definitions of domains and
+speech event types, see the file corpus-header.xml.
+
+The following production rules in EBNF (see
+<http://www.w3.org/TR/REC-xml/#sec-notation>) define the naming scheme
+of the corpus files for VOICE:
+
+corpus_file_name ::= domain speech-event-type ID file-type
+
+domain ::= educational | leisure | professional_business |
+          professional_organizational | professional_research
+
+educational ::= "ED"
+
+leisure ::= "LE"
+
+professional_business ::= "PB"
+
+professional_organisational ::= "PO"
+
+professional_research ::= "PR"
+
+speech-event-type ::= interview | press_conference | service_encounter |
+                     seminar_discussion | working_group_discussion |
+                     workshop_discussion | meeting | panel |
+                     question-answer_session | conversation
+
+interview ::= "int"
+
+press_conference ::= "prc"
+
+service_encounter ::= "svc"
+
+seminar_discussion ::= "sed"
+
+working_group_discussion ::= "wsd"
+
+meeting ::= "mtg"
+
+panel ::= "pan"
+
+question-answer session ::= "qas"
+
+conversation ::= "con"
+
+ID ::= [0-9] [0-9]*
+
+file_type ::= "xml" | "html" | "txt"
+
+7. Tagset for VOICE POS XML
+---------------------------
+BR:Breathing
+CC:Coordinating conjunction
+CD:Cardinal Number
+DM:Discourse Marker
+DOS:Contracted -s, meaning 'does'
+DT:Determiner
+EX:Existential there
+FI:Formulaic Items
+FW:Foreign word (Non-English speech)
+IN:Preposition or subordinating conjunction
+JJ:Adjective, positive
+JJR:Adjective, comparative
+JJS:Adjective, superlative
+LA:Laughter
+LS:List Item Marker
+MD:Modal Verb
+N:Generic Noun Tag
+NN:Noun, singular or mass
+NNS:Noun, plural
+NP:Proper Noun, singular
+NPS:Proper Noun, plural
+ONO:Onomatopoeic noises
+PA:Pause
+PDT:Predeterminer
+POS:Possessive Ending
+PP:Pronoun, personal
+PP$:Pronoun, possessive
+PRE:Pronoun, relative
+PVC:Pronunciation Variations and Coinages
+RB:Adverb, positive
+RBR:Adverb, comparative
+RBS:Adverb, superlative
+RE:Response particle
+RP:Particle
+SP:Spelling out
+SYM:Symbol
+TO:to, infinitive use
+UH:Interjections
+UNI:Unintelligible speech
+UNK:Unknown
+V:Generic Verb Tag
+VB:Verb be, base form
+VBD:Verb be, past tense
+VBG:Verb be, gerund or present participle
+VBN:Verb be, past participle
+VBP:Verb be, present non-3rd person singular
+VBS:Verb be, contracted form
+VBZ:Verb be, present 3rd person singular
+VH:Verb have, base form
+VHD:Verb have, past tense
+VHG:Verb have, gerund or present participle
+VHN:verb have, past participle
+VHP:Verb have, present non-3rd person singular
+VHS:Verb have, contracted form
+VHZ:Verb have, present 3rd person singular
+VV:Verbs other than be and have, base form
+VVD:Verbs other than be and have, past tense
+VVG:Verbs other than be and have, gerund or present participle
+VVN:Verbs other than be and have, past participle
+VVP:Verbs other than be and have, present non-3rd person singular
+VVZ:Verbs other than be and have, present 3rd person singular
+WDT:Wh-Determiner
+WP:Wh-pronoun
+WRB:Wh-adverb
+XX:Partial word

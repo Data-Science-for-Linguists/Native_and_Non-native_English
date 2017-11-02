@@ -1,0 +1,774 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="PRqas495" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>question-answer session about youth issues in China</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>Austrian Science Foundation (FWF)</funder>
+            <sponsor/>
+            <respStmt>
+               <resp>Corpus Compilation</resp>
+               <orgName>VOICE Project</orgName>
+               <persName>Barbara Seidlhofer</persName>
+               <persName>Angelika Breiteneder</persName>
+               <persName>Marie-Luise Pitzl</persName>
+               <persName>Stefan Majewski</persName>
+               <persName>Theresa Klimpfinger</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+		<edition>Version 1.0 XML, <date>May 2011</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Angelika Breiteneder</name> 
+		<name>Theresa Klimpfinger</name> 
+		<name>Stefan Majewski</name> 
+		<name>Marie-Luise Pitzl</name> 
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Marie-Luise Pitzl</publisher> 
+	  <distributor>VOICE Project, University of Vienna, Austria</distributor> 
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+	  	<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  	<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE 1.0 XML is
+		  available for download at the VOICE Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+		  http://creativecommons.org/licenses/by-nc-sa/3.0/
+		  </ref>). The original audio files are held at the Department
+		  of English, University of Vienna. 23 selected audio files
+		  are available as audio streams in the VOICE Online interface
+		  at the VOICE Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+		<p>
+		The recommended citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Marie-Luise Pitzl.</bibl>
+		</p>
+		<p>The short citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>).</bibl></p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="PRqas495_wc">Words: 4608</note>
+            <note xml:id="PRqas495_tn_0">This question-answer session takes place after the presentation by a Chinese speaker at a youth researcher conference on youth issues such as youth unemployment and delinquency. Participants are predominately unacquainted. There is simultaneous translation into and from Spanish for those speakers who do not speak English. </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H32M36S" type="audio">
+                  <date>2006-12-11</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R5</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="PRqas495_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="PRqas495_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="PRqas495_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="PRqas495_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="PRqas495_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="PRqas495_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="PRqas495_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="PRqas495_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="PRqas495_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="PRqas495_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="PRqas495_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="PRqas495_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="PRqas495_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="PRqas495_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="PRqas495_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="PRqas495_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="PRqas495_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="orgName" occurs="1"/>
+      <tagUsage gi="persName" occurs="5"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="name" occurs="8"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="83"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="17"/>
+      <tagUsage gi="list" occurs="12"/>
+      <tagUsage gi="label" occurs="22"/>
+      <tagUsage gi="val" occurs="44"/>
+      <tagUsage gi="item" occurs="42"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="2"/>
+      <tagUsage gi="person" occurs="18"/>
+      <tagUsage gi="age" occurs="13"/>
+      <tagUsage gi="sex" occurs="13"/>
+      <tagUsage gi="occupation" occurs="1"/>
+      <tagUsage gi="langKnowledge" occurs="13"/>
+      <tagUsage gi="langKnown" occurs="13"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="5"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="5"/>
+      <tagUsage gi="u" occurs="195">Used to mark a stretch of speech commonly
+		preceded and followed by a pause or by a change of speaker. A
+		<gi>u</gi> is, however, not required to be bounded by a pause or
+		a change of speaker, nor does it represent a turn in a
+		conversation analytic sense. At a minimum, a <gi>u</gi> is some
+		phonetic production or noise made by a given speaker or a group of speakers.</tagUsage>
+      <tagUsage gi="c" occurs="184">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="incident" occurs="5">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="pause" occurs="541">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="emph" occurs="59">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="vocal" occurs="46">Used to mark laughter and other speaker
+		noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="seg" occurs="141">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="unclear" occurs="52">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="supplied" occurs="66">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed to
+		be anonymized. The <att>reason</att> attribute is used to mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="foreign" occurs="14">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the 
+		<att>voice:translation</att> attribute provides a rough translation of the
+		non-English speech into English.
+		</tagUsage>
+      <tagUsage gi="gap" occurs="4">Used to mark points where a short portion of
+		speech has not been recorded or has been left untranscribed,
+		whether for editorial reasons, as part of the sampling practice,
+		or because the material is inaudible or comprises sensitive
+		content. The following <att>reason</att> attributes are used to
+		mark:
+		<list>
+		  <label><val>not_recorded</val></label><item>Not recorded
+		  speech</item>
+		  <label><val>not_transcribed</val></label><item>Not transcribed
+		  speech</item>
+		</list>
+		Further information on the reason for a gap is provided within
+		the <att>voice:desc</att> attribute.
+		</tagUsage>
+      <tagUsage gi="shift" occurs="62">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		  </list>
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="22">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="w" occurs="15">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:to" occurs="3">Used to mark speech directed towards a
+		particular speaker. The <att>who</att>who attribute indicates the
+		addressed speaker.</tagUsage>
+      <tagUsage gi="voice:pvc" occurs="13">Used to mark a pronunciation variation
+		or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+			VOICE mark-up conventions [2.1].</ref>the
+			VOICE mark-up conventions [2.1]. An existing word corresponding to the PVC may be provided within a <att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc element. Additional phonetic
+			transcription may be provided within a <att>voice:ipa</att>voice:ipa attribute
+			within the <gi>voice:pvc</gi>voice:pvc element.</tagUsage>
+      <tagUsage gi="voice:track" occurs="9">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in length) and thus refers to the audio recording
+		of the transcribed speech event.
+		</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#PRqas495_PR #PRqas495_qas"/>
+            <catRef target="#PR #qas"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">AT</name>
+               <name type="city">Vienna</name>
+               <locale>seminar room at hotel</locale>
+               <activity>drinking coffee, taking notes</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="13"/>
+                  <personGrp role="interactants" size="12"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="chair" sameAs="#P770" xml:id="PRqas495_S1">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <occupation>head of a European youth institute</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa-ES"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P771" xml:id="PRqas495_S2">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng-US"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P772" xml:id="PRqas495_S3">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="chi-CN"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P773" xml:id="PRqas495_S4">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa-CR"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P774" xml:id="PRqas495_S5">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng-CA"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P775" xml:id="PRqas495_S6">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P776" xml:id="PRqas495_S7">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa-CL"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P777" xml:id="PRqas495_S8">
+                     <age value="4">50+</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="hun-HU"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P778" xml:id="PRqas495_S9">
+                     <age value="4">50+</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-DE"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P779" xml:id="PRqas495_S10">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa-AR"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="coordinator" sameAs="#P780" xml:id="PRqas495_S11">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="non-participant" sameAs="#P781" xml:id="PRqas495_S12">
+                     <age value="4">50+</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng-GB"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P782" xml:id="PRqas495_S13">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa-AR"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person sameAs="#SS" xml:id="PRqas495_SS"/>
+                  <person corresp="#PRqas495_S1" sameAs="#SX" xml:id="PRqas495_SX-1"/>
+                  <person corresp="#PRqas495_S4" sameAs="#SX" xml:id="PRqas495_SX-4"/>
+                  <person sameAs="#SX-f" xml:id="PRqas495_SX-f"/>
+                  <person sameAs="#SX-m" xml:id="PRqas495_SX-m"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#PRqas495_S1 #PRqas495_S10 #PRqas495_S11 #PRqas495_S13 #PRqas495_S2 #PRqas495_S3 #PRqas495_S4 #PRqas495_S5 #PRqas495_S6 #PRqas495_S7 #PRqas495_S8 #PRqas495_S9" name="fairly_symmetrical" type="power"/>
+                  <relation mutual="#PRqas495_S1 #PRqas495_S10 #PRqas495_S11 #PRqas495_S13 #PRqas495_S2 #PRqas495_S3 #PRqas495_S4 #PRqas495_S5 #PRqas495_S6 #PRqas495_S7 #PRqas495_S8 #PRqas495_S9" name="acquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-12" who="AB">finalized for publication</change>
+         <change when="2009-01-20" who="TK">proof-reading</change>
+         <change when="2008-10-02" who="HB">checking</change>
+         <change when="2008-03-21" who="JH">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="02:19" voice:end_medium_number="1" voice:end_track="1" voice:medium_type="md" voice:start="00:01" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_1"><voice:to who="#PRqas495_S3"> very well<c function="rise" type="intonation"/><incident voice:desc="parallel,  incomprehensible conversation(s) in the background"/><pause/> e<c type="lengthening"/>r thank you very much for your very informative <pause/> presentation<c function="rise" type="intonation"/><pause dur="PT1S"/> so that no- <pause/><emph> now </emph> we have a <pause/><emph> much </emph> broader and deeper knowledge <pause dur="PT1S"/> about er <vocal voice:desc="clears throat"/><pause/> young people especially young disadvantaged people <pause/> in china<c function="rise" type="intonation"/></voice:to><incident voice:desc="parallel, incomprehensible conversation(s) in the background end"/><pause/> so i open the floor for questions and commentaries<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_2"> m<seg n="1" type="overlap" xml:id="PRqas495_ol_0">hm<c function="rise" type="intonation"/></seg></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_3"><seg n="1" synch="#PRqas495_ol_0" type="overlap" xml:id="PRqas495_ol_1"> er </seg><pause dur="PT1S"/><unclear> please </unclear><pause/><unclear><supplied reason="anonymization"> [S2] </supplied></unclear><pause dur="PT1S"/></u>
+            <u who="#PRqas495_SX-4" xml:id="PRqas495_u_4"><supplied reason="unintelligible"> xx<c function="rise" type="intonation"/><pause/> x<c function="rise" type="intonation"/></supplied><pause/></u>
+            <u who="#PRqas495_S2" xml:id="PRqas495_u_5"> given my interest in extra-curricular activities <pause/> as you were referring to how common<c function="rise" type="intonation"/><pause dur="PT2S"/> are extra-curricular activities <pause/> centers<c function="rise" type="intonation"/><pause/> for <voice:pvc> non-immigrant </voice:pvc> youth<c function="rise" type="intonation"/><pause/> or is that <pause/> er <pause/> i just don't have a sense of <pause dur="PT1S"/> er are there <pause/> any <pause/> how many centers are there is this just a common part of <pause/> youth's everyday life<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_6"> well you know in china actually <unclear> you </unclear> knows  e<c type="lengthening"/>r this  kinds of youth center you know in the past usually w- we only has  er <unclear> very </unclear> field only have a field you know <pause/> for example<c function="rise" type="intonation"/> er in the city in a big city like <supplied reason="unintelligible"> xxx </supplied> a big city or beijing is a big ci- -ty they have a <pause/> a a municipal you know youth center<c function="fall" type="intonation"/><pause/><unclear> they're s- they're </unclear> simple and then<c function="rise" type="intonation"/> in in the <emph> districts </emph> usually they have a <pause/> er also have another center <pause/> you know in every district <pause/> for the district it usually is not that many you know usually they have er eight or <pause/> seven districts and then <pause/> they have this <pause/> er <pause/> so e<c type="lengthening"/>r so actually the centers the number of centers is very <pause/> is very rare i can say you know <pause/> but since the last few years china's also find that you know <pause/> er maybe they need more community ba- community centers <pause/> or youth centers for young people to gather together and then <pause/> er er so they they conduct a pilot study and then they come up with a report that's er f- er we need to set up more<c function="rise" type="intonation"/><pause/> this typ- this kind of centers in different cities so <emph> now </emph> in <emph> some </emph><pause/> in some cities not all cities er in some <pause/> er developed cities like hangzhou <pause/> like er you know shanghai beijing <pause/> this er <supplied reason="unintelligible"> xx </supplied><emph> this </emph> cities they <pause/> have more and more <pause/> er centers but <emph> still </emph> developing still developing <pause/> erm an<c type="lengthening"/>d so this is er the <seg n="2" type="overlap" xml:id="PRqas495_ol_2"> situa</seg>tion <pause dur="PT5S"/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_7"><seg n="2" synch="#PRqas495_ol_2" type="overlap" xml:id="PRqas495_ol_3"> aha </seg><pause/><supplied reason="anonymization"> [S1] </supplied><c function="rise" type="intonation"/></u>
+            <u who="#PRqas495_SX-m" xml:id="PRqas495_u_8"> mhm <supplied reason="anonymization"> [S1] </supplied><c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_9"><foreign type="L1" voice:translation="really" xml:lang="spa"> realmente </foreign></u>
+         </div>
+         <gap dur="PT00H01M47S" reason="not_transcribed" voice:desc="non-e; S4 speaks spanish, simultaneous interpretation in english is provided via headphones"/>
+         <div type="medium" voice:end="01:11" voice:end_medium_number="1" voice:end_track="4" voice:medium_type="md" voice:start="01:06" voice:start_medium_number="1" voice:start_track="2">
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_10"><foreign type="L1" voice:translation="thanks" xml:lang="spa"> gracias </foreign><pause dur="PT2S"/></u>
+            <u who="#PRqas495_S13" xml:id="PRqas495_u_11"> okay<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_12"> okay <pause/> thank you very much for the question i think <pause/> first <pause dur="PT1S"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_13"> er <pause/> excuse me <pause/> er before you continue <pause/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_14"><shift corresp="#PRqas495_s_2" feature="loud" new="p" xml:id="PRqas495_s_1"/> yah <shift corresp="#PRqas495_s_1" feature="loud" new="neutral" xml:id="PRqas495_s_2"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_15"> maybe you should speak s<c type="lengthening"/>lowly<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_16"> yeah <anchor synch="#PRqas495_oc_1" type="other_continuation" xml:id="PRqas495_oc_0"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_17"><anchor synch="#PRqas495_oc_0" type="other_continuation" xml:id="PRqas495_oc_1"/> because the er translator has then problems to<c type="lengthening"/><pause/> follow you if you are <seg n="3" type="overlap" xml:id="PRqas495_ol_4"> too fast <pause/><supplied reason="unintelligible"> xx </supplied><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas495_SS" xml:id="PRqas495_u_18"><seg n="3" synch="#PRqas495_ol_4" type="overlap" xml:id="PRqas495_ol_5"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="3"/><seg n="8" type="overlap" xml:id="PRqas495_ol_6"><shift corresp="#PRqas495_s_4" feature="loud" new="p" xml:id="PRqas495_s_3"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><shift corresp="#PRqas495_s_3" feature="loud" new="neutral" xml:id="PRqas495_s_4"/></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_19"><seg n="8" synch="#PRqas495_ol_6" type="overlap" xml:id="PRqas495_ol_7"> first of all <pause/> first of all </seg> thank you for the question you know <pause/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_20"><seg n="4" type="overlap" xml:id="PRqas495_ol_8"> er </seg></u>
+            <u who="#PRqas495_SX-m" xml:id="PRqas495_u_21"><seg n="4" synch="#PRqas495_ol_8" type="overlap" xml:id="PRqas495_ol_9"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_22"> you know in china e<c type="lengthening"/>r <pause/> actually we we have very rare you know er extern- er have immigrants from <emph> other </emph> countries <pause/> you know <pause/> so <seg n="5" type="overlap" xml:id="PRqas495_ol_10"> basi</seg>cally under migrant workers <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_23"><seg n="5" synch="#PRqas495_ol_10" type="overlap" xml:id="PRqas495_ol_11"> aha </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_24"> i here refer is <pause/> actually is internal <pause/> mi<emph>grants </emph><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_25"> okay <anchor synch="#PRqas495_oc_3" type="other_continuation" xml:id="PRqas495_oc_2"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_26"><anchor synch="#PRqas495_oc_2" type="other_continuation" xml:id="PRqas495_oc_3"/> okay<c function="rise" type="intonation"/> so er <pause/> the internal mi<emph>grants </emph> actually is maybe come from rural  area to the urban cities <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_27"> aha <pause/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_28"> so er <pause/> so okay this is the first question second is <pause/> regarding the exclusions you know <pause/> my my e<c type="lengthening"/>r my er concept of a plan is social inclusion into the mus- er <voice:pvc> multi-youth </voice:pvc> here is mainly refer to<c type="lengthening"/> er this group of people <pause/> were being disadvantaged people were being excluded you know from <pause/> the<c type="lengthening"/> e<c type="lengthening"/>r <pause/> from <pause/> a- several as as as <pause/> like political <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_29"> a<seg n="6" type="overlap" xml:id="PRqas495_ol_12">ha </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_30"><seg n="6" synch="#PRqas495_ol_12" type="overlap" xml:id="PRqas495_ol_13"> e<c type="lengthening"/>r </seg> you know e<c type="lengthening"/>r er participation because they they <pause dur="PT1S"/><supplied reason="unintelligible"> xxxxxx </supplied><seg n="7" type="overlap" xml:id="PRqas495_ol_14"> so</seg>cial welfare<c function="rise" type="intonation"/> like social benefits<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_31"><seg n="7" synch="#PRqas495_ol_14" type="overlap" xml:id="PRqas495_ol_15"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_32"> or er you <seg n="1" type="overlap" xml:id="PRqas495_ol_16"> know <emph> e</emph></seg>ducation<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_33"><seg n="1" synch="#PRqas495_ol_16" type="overlap" xml:id="PRqas495_ol_17"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_34"> you know i mean <pause/> er <pause/> they <pause/> sure <supplied reason="unintelligible"> xxxxxx </supplied> as as <pause/> er i think you know commissioner er like a commissioner of the european community is the<c type="lengthening"/> definition of social inclusion basically <pause/> is er <pause/><supplied reason="unintelligible"><seg n="2" type="overlap" xml:id="PRqas495_ol_18"> xx </seg></supplied> to my you know interpretation of this <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_35"><seg n="2" synch="#PRqas495_ol_18" type="overlap" xml:id="PRqas495_ol_19"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_36"> concept so in china you know in fact <pause/> in fact huh<c function="rise" type="intonation"/> the mi<emph>grant </emph> workers<c function="rise" type="intonation"/><pause/> when they work in the cities they were actually they were excluded from all this you <seg n="3" type="overlap" xml:id="PRqas495_ol_20"> know </seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_37"><seg n="3" synch="#PRqas495_ol_20" type="overlap" xml:id="PRqas495_ol_21"> a</seg>ha <pause/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_38"> for example <pause/> they w- they they're they they do not <voice:track medium="1" num="3" type="md"/> get the residents <pause/> of <unclear> lives </unclear><pause/> of the city you know <pause/> that means they are still <pause/> a rural <pause/> citizen you know <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_39"><shift corresp="#PRqas495_s_6" feature="loud" new="p" xml:id="PRqas495_s_5"/> hm <shift corresp="#PRqas495_s_5" feature="loud" new="neutral" xml:id="PRqas495_s_6"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_40"> you know in china chinese citizen <pause/><seg n="4" type="overlap" xml:id="PRqas495_ol_22"> you see </seg> i'm chinese <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_41"><seg n="4" synch="#PRqas495_ol_22" type="overlap" xml:id="PRqas495_ol_23"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_42"> but if <emph> i </emph> live in the cities i'm a urban resident <pause/> so i get <emph> all </emph> the benefits <pause/><seg n="5" type="overlap" xml:id="PRqas495_ol_24"><voice:pvc> welfares </voice:pvc></seg> of the <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_43"><seg n="5" synch="#PRqas495_ol_24" type="overlap" xml:id="PRqas495_ol_25"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_44"> of the cities <pause/> but if i'm a rural residents <pause/> i can't get <emph> anything </emph> from this you know so it's <emph> totally </emph> different that's why i said discrimination you know <pause/> so er so we have to i mean <seg n="6" type="overlap" xml:id="PRqas495_ol_26"> this is </seg> must be the result i i i- it's because <unclear> er now is </unclear><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_45"><seg n="6" synch="#PRqas495_ol_26" type="overlap" xml:id="PRqas495_ol_27"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_46"> now it's very different from bef- er from before <pause/> so so er for example you know my granddad get married<c function="rise" type="intonation"/><pause/> and they <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_47"><shift corresp="#PRqas495_s_8" feature="loud" new="p" xml:id="PRqas495_s_7"/> mhm <shift corresp="#PRqas495_s_7" feature="loud" new="neutral" xml:id="PRqas495_s_8"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_48"> their children do not have <pause/> the right to l- of the cit- of the <voice:pvc> urbans </voice:pvc> residents <pause/> so<c function="rise" type="intonation"/> they cannot receive educat<seg n="7" type="overlap" xml:id="PRqas495_ol_28">ion <emph> there </emph></seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_49"><seg n="7" synch="#PRqas495_ol_28" type="overlap" xml:id="PRqas495_ol_29"> mhm </seg><shift corresp="#PRqas495_s_10" feature="loud" new="p" xml:id="PRqas495_s_9"/> hm <shift corresp="#PRqas495_s_9" feature="loud" new="neutral" xml:id="PRqas495_s_10"/><pause/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_50"> so their education you know they <pause/> so so they don't have the right to receive education in the cities you know so that's totally <supplied reason="unintelligible"> xx </supplied> i mean <supplied reason="unintelligible"> xx </supplied><pause/> to the <pause/> compulsory education <pause/> of er the chinese e<c type="lengthening"/>r <pause dur="PT1S"/> advocate  by the chinese government you know <pause/> but <pause/> this <pause/> this happened there <pause/> so now the government also has to take action again- er er on on this area i mean excluded basically they  excluded from social life from you know <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_51"><emph> m</emph>hm  </u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_52"> from er er even from <pause/> you know they was <pause/> peop- <pause/> er hh <pause/> from er how do you say <seg n="8" type="overlap" xml:id="PRqas495_ol_30"> yah </seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_53"><voice:to who="#PRqas495_SX"><foreign type="L1" xml:lang="spa"><seg n="8" synch="#PRqas495_ol_30" type="overlap" xml:id="PRqas495_ol_31"> xx </seg> xx<seg n="9" type="overlap" xml:id="PRqas495_ol_32">xx </seg></foreign></voice:to></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_54"><seg n="9" synch="#PRqas495_ol_32" type="overlap" xml:id="PRqas495_ol_33"> er ev- </seg> ev- every aspect you know </u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_55"><voice:to who="#PRqas495_SX"><foreign type="L1" xml:lang="spa"> xxx </foreign></voice:to><anchor synch="#PRqas495_oc_5" type="other_continuation" xml:id="PRqas495_oc_4"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_56"><anchor synch="#PRqas495_oc_4" type="other_continuation" xml:id="PRqas495_oc_5"/> from their living area you know even the<unclear>y're </unclear> excluded in a in a s- in in a small place you know er <pause dur="PT1S"/> this <pause dur="PT1S"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_57"> just <seg n="1" type="overlap" xml:id="PRqas495_ol_34"> to </seg> clarify one <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_58"><seg n="1" synch="#PRqas495_ol_34" type="overlap" xml:id="PRqas495_ol_35"> hm </seg></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_59"><seg n="2" type="overlap" xml:id="PRqas495_ol_36"> aspect </seg><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_60"><seg n="2" synch="#PRqas495_ol_36" type="overlap" xml:id="PRqas495_ol_37"><emph> m</emph>hm </seg></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_61"> er <supplied reason="anonymization"> [S4] </supplied><pause/> thinks or<c type="lengthening"/> gets the conclusion from your words that <pause/> this concept of minority youth applies mainly or exclusively <pause/> to the young migrants<c function="fall" type="intonation"/><pause/> but what i have understood from your presentation <anchor synch="#PRqas495_oc_7" type="other_continuation" xml:id="PRqas495_oc_6"/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_62"><anchor synch="#PRqas495_oc_6" type="other_continuation" xml:id="PRqas495_oc_7"/> yah </u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_63"> is that <emph> besides </emph> young migrants <pause/> er under minority youth you put that what we would call here disadvantaged youth those <seg n="3" type="overlap" xml:id="PRqas495_ol_38"> unem</seg>ployed </u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_64"><seg n="3" synch="#PRqas495_ol_38" type="overlap" xml:id="PRqas495_ol_39"> aha </seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_65"> o<seg n="4" type="overlap" xml:id="PRqas495_ol_40">kay </seg></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_66"><seg n="4" synch="#PRqas495_ol_40" type="overlap" xml:id="PRqas495_ol_41"> those </seg> who haven't been <supplied reason="unintelligible"> xxx </supplied><anchor synch="#PRqas495_oc_9" type="other_continuation" xml:id="PRqas495_oc_8"/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_67"><anchor synch="#PRqas495_oc_8" type="other_continuation" xml:id="PRqas495_oc_9"/><foreign type="L1" xml:lang="spa"> x </foreign><pause/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_68"> and with other social <pause/> problems and <seg n="5" type="overlap" xml:id="PRqas495_ol_42"> so on </seg><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_69"><seg n="5" synch="#PRqas495_ol_42" type="overlap" xml:id="PRqas495_ol_43"> mhm </seg></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_70"> e<c type="lengthening"/>r any help for <emph> us </emph> at least for the <pause/><vocal voice:desc="clears throat"/><seg n="6" type="overlap" xml:id="PRqas495_ol_44"> er con</seg>cept <emph> we </emph> are using <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_71"><seg n="6" synch="#PRqas495_ol_44" type="overlap" xml:id="PRqas495_ol_45"> mhm </seg></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_72"> when we speak from  minority youth <pause/> we don't er include all the youth that have some <pause/> problems of social adaptation adjustment and so on<c function="rise" type="intonation"/><pause dur="PT1S"/><shift corresp="#PRqas495_s_12" feature="voice" new="laugh" xml:id="PRqas495_s_11"/> we speak <shift corresp="#PRqas495_s_11" feature="voice" new="neutral" xml:id="PRqas495_s_12"/> more of <seg n="1" type="overlap" xml:id="PRqas495_ol_46"> added </seg> minority youth and things like this but it is interesting that under the<c type="lengthening"/> social  disadvantaged er you have put it under <seg n="7" type="overlap" xml:id="PRqas495_ol_47"> this ca</seg>tegory <pause dur="PT1S"/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_73"><seg n="1" synch="#PRqas495_ol_46" type="overlap" xml:id="PRqas495_ol_48"> yeah </seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_74"><seg n="7" synch="#PRqas495_ol_47" type="overlap" xml:id="PRqas495_ol_49"> mhm </seg><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_75"><seg n="8" type="overlap" xml:id="PRqas495_ol_50"><foreign type="L1" voice:translation="yes" xml:lang="spa"> si </foreign></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_76"><seg n="8" synch="#PRqas495_ol_50" type="overlap" xml:id="PRqas495_ol_51"> yeah </seg> you're correct you know when i'm thinking about this er topic i also c- have <seg n="9" type="overlap" xml:id="PRqas495_ol_52"> your question </seg> you know er <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_77"><seg n="9" synch="#PRqas495_ol_52" type="overlap" xml:id="PRqas495_ol_53"><foreign type="L1" voice:translation="a problem" xml:lang="spa"> un problema </foreign></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_78"> so i just i- i i this is my my my interpretation my my definition of minority youth is my concept actually it's also consider <pause/> it's also include people er for example er people with low education <pause/> even illitu- <voice:pvc comment="illiterate"> illitury </voice:pvc> youth you know even <voice:pvc comment="illiterate"> illitury </voice:pvc> youth <seg n="10" type="overlap" xml:id="PRqas495_ol_54"> there're still <voice:pvc comment="illiterate"> illitury </voice:pvc></seg> youth in many china you know <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_79"><seg n="10" synch="#PRqas495_ol_54" type="overlap" xml:id="PRqas495_ol_55"> i know i know </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_80"> so er more <voice:track medium="1" num="4" type="md"/> people you know er <pause/> suffer from health er issues such as aids you know they're you- <emph> young </emph> people who are you know er <pause/> who are who are <pause/> also minority you know <pause/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_81"> mhm  </u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_82"> so er so i just consider th- or because <pause/> minority you know is versus to  majority<c function="fall" type="intonation"/><pause/> so because i i i i consider this concept from this <pause/> this point of <seg n="1" type="overlap" xml:id="PRqas495_ol_56"> view </seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_83"><seg n="1" synch="#PRqas495_ol_56" type="overlap" xml:id="PRqas495_ol_57"> m</seg>hm </u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_84"> so actually when i <pause/> i because i'm too preoccupied <pause/> by mi<emph>grant </emph> workers <pause/> because i think their situation is most diffi<seg n="2" type="overlap" xml:id="PRqas495_ol_58">cult </seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_85"><seg n="2" synch="#PRqas495_ol_58" type="overlap" xml:id="PRqas495_ol_59"> m</seg>hm <anchor synch="#PRqas495_oc_11" type="other_continuation" xml:id="PRqas495_oc_10"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_86"><anchor synch="#PRqas495_oc_10" type="other_continuation" xml:id="PRqas495_oc_11"/> i know <pause/> it's very very <pause/> poor very very <pause/> very i i think it's very injustice  so so er <pause/> so you can say i'm preoccupied by that <seg n="3" type="overlap" xml:id="PRqas495_ol_60"> but act</seg>ually <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_87"><seg n="3" synch="#PRqas495_ol_60" type="overlap" xml:id="PRqas495_ol_61"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_88"> when we're talking about juvenile <voice:pvc comment="delinquency"> delinquence </voice:pvc> we're talking about unemployed  youth you know unemployed youth actually has become er what we i i <unclear> here </unclear> i term it as a urban poverty <pause dur="PT1S"/> caste <pause/> of young people now urban poverty <supplied reason="unintelligible"> xx </supplied> un- unemployed youth is not rural youth actually they are <pause/> urban youth no but they are <unclear> employed </unclear> unemploye<emph>d </emph><pause/> so in <pause/> so you you see the problem <pause/> s- and  </u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_89"><shift corresp="#PRqas495_s_14" feature="loud" new="p" xml:id="PRqas495_s_13"/> okay <shift corresp="#PRqas495_s_13" feature="loud" new="neutral" xml:id="PRqas495_s_14"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_90"> yah <pause/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_91"> but there <seg n="4" type="overlap" xml:id="PRqas495_ol_62"> is still </seg> the question of the <seg n="8" type="overlap" xml:id="PRqas495_ol_63"><supplied reason="unintelligible"> xxx </supplied> it's the question about the <supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_92"><seg n="4" synch="#PRqas495_ol_62" type="overlap" xml:id="PRqas495_ol_64"> mhm </seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_93"><seg n="8" synch="#PRqas495_ol_63" type="overlap" xml:id="PRqas495_ol_65"><foreign type="L1" voice:translation="yes" xml:lang="spa"> si </foreign> it's the same que</seg>stion only er </u>
+         </div>
+         <gap dur="PT00H01M04S" reason="not_transcribed" voice:desc="non-e; S4 speaks spanish, simultaneous interpretation in english is provided via headphones"/>
+         <div type="medium" voice:end="00:17" voice:end_medium_number="1" voice:end_track="7" voice:medium_type="md" voice:start="02:15" voice:start_medium_number="1" voice:start_track="4">
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_94"><shift corresp="#PRqas495_s_16" feature="loud" new="p" xml:id="PRqas495_s_15"/><unclear> thank you </unclear><shift corresp="#PRqas495_s_15" feature="loud" new="neutral" xml:id="PRqas495_s_16"/><pause dur="PT3S"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_95"> e<c type="lengthening"/>r well i agree with er to some extent <pause/> i agree with your er comments <pause/> because e<c type="lengthening"/>r <unclear> it may lead to </unclear> e<c type="lengthening"/>r you know certain er <pause/> e<c type="lengthening"/>r e<c type="lengthening"/>r <pause dur="PT1S"/> e<c type="lengthening"/>rm <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> e<c type="lengthening"/>r i mean e<c type="lengthening"/>r <pause dur="PT1S"/> erm <pause dur="PT1S"/> i me- i mean <pause/> i mean not clear you know about you know e<c type="lengthening"/>r <pause dur="PT1S"/> the<c type="lengthening"/> er this group of people <pause/> but i think you know like in china it's more specific is <pause/> actually the group the<c type="lengthening"/> the<c type="lengthening"/> the<c type="lengthening"/><pause/> the group of people mi<emph>grant </emph> workers when they <seg n="5" type="overlap" xml:id="PRqas495_ol_66"> call </seg><pause/></u>
+            <u who="#PRqas495_SX-m" xml:id="PRqas495_u_96"><seg n="5" synch="#PRqas495_ol_66" type="overlap" xml:id="PRqas495_ol_67"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_97"> for the unemployed youth usually <pause/> if they call i- if you er c- <voice:track medium="1" num="5" type="md"/> versus you know the number of the<c type="lengthening"/><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_98"> mhm </u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_99"> o- of the ci- of the urban youth <pause/> or the total number of the <pause/> of the country's young people they are <pause/> in a <pause/> minority situation <pause dur="PT1S"/> they are actually <seg n="6" type="overlap" xml:id="PRqas495_ol_68"> in a </seg> minority situ<seg n="7" type="overlap" xml:id="PRqas495_ol_69">ation </seg> for example in china <seg n="8" type="overlap" xml:id="PRqas495_ol_70"> we have two </seg> point five you know er <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_100"><seg n="6" synch="#PRqas495_ol_68" type="overlap" xml:id="PRqas495_ol_71"> aha </seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_101"><seg n="7" synch="#PRqas495_ol_69" type="overlap" xml:id="PRqas495_ol_72"><unclear> okay </unclear></seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_102"><seg n="8" synch="#PRqas495_ol_70" type="overlap" xml:id="PRqas495_ol_73"><foreign type="L1" voice:translation="the majority" xml:lang="spa"> la mayoria </foreign></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_103"> young people mean i <seg n="9" type="overlap" xml:id="PRqas495_ol_74"> m- </seg> sorry <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_104"><seg n="9" synch="#PRqas495_ol_74" type="overlap" xml:id="PRqas495_ol_75"> hm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_105"> i mean two point five billion <seg n="10" type="overlap" xml:id="PRqas495_ol_76"> young people you know </seg><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_106"><seg n="10" synch="#PRqas495_ol_76" type="overlap" xml:id="PRqas495_ol_77"><foreign type="L1" voice:translation="the majority" xml:lang="spa"><supplied reason="unintelligible"> x x x </supplied> la mayoriy </foreign></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_107"> so it's <pause/> so it's a a a <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#PRqas495_s_18" feature="voice" new="laugh" xml:id="PRqas495_s_17"/><voice:pvc comment="enormous"> enormorous </voice:pvc><shift corresp="#PRqas495_s_17" feature="voice" new="neutral" xml:id="PRqas495_s_18"/> number you know <seg n="1" type="overlap" xml:id="PRqas495_ol_78"> of young </seg> people <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_108"><seg n="1" synch="#PRqas495_ol_78" type="overlap" xml:id="PRqas495_ol_79"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_109"> so er <pause/> so this is </u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_110"> mhm </u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_111"> but i agree i agree your observation <pause/> yes<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_112"> okay <supplied reason="anonymization"> [S5] </supplied><seg n="2" type="overlap" xml:id="PRqas495_ol_80"> and then </seg><supplied reason="anonymization"> [S6] </supplied><vocal voice:desc="clears throat"/><vocal voice:desc="coughs"/><pause dur="PT2S"/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_113"><seg n="2" synch="#PRqas495_ol_80" type="overlap" xml:id="PRqas495_ol_81"> okay </seg></u>
+            <u who="#PRqas495_S5" xml:id="PRqas495_u_114"> thank you very much for your presentation <pause/> erm <pause/> my question e<c type="lengthening"/>r concerns er social exclusion <pause dur="PT1S"/> in some understandings of social inclusion er social <emph> ex</emph>clusion er the er issue of relations is er <unclear> talked about </unclear> so for example <pause/> er social exclusion is not only e<c type="lengthening"/>r expressed in terms of <pause/> er poverty or er discrimination but also expressed in terms of <pause/> er lack of family relations or disintegration of family relations and erm one point in your presentation you said that <pause/> e<c type="lengthening"/>r young migrant workers e<c type="lengthening"/>r prefer to work on sundays i think it was and work as much as possible to save up money and i thought well maybe it's because they're sending money <emph> back </emph><pause/> to their families in in rural areas <pause/> e<c type="lengthening"/>rm and so i'm i'm <seg n="3" type="overlap" xml:id="PRqas495_ol_82"> wonder</seg>ing if that's the case <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_115"><seg n="3" synch="#PRqas495_ol_82" type="overlap" xml:id="PRqas495_ol_83"> mhm </seg></u>
+            <u who="#PRqas495_S5" xml:id="PRqas495_u_116"> er on the one hand and on <pause/> the other hand <pause/> do migrant youth e<c type="lengthening"/>r have erm social ties to their families <pause/> and whether or not these ties are <pause/> e<c type="lengthening"/>rm are supportive <pause/> or are <emph> they </emph> the ones supporting their own families <pause/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_117"> i think your comments is  er absolutely right er <pause/> e<c type="lengthening"/>r the firs- o- first one of course they want they're really very <seg n="4" type="overlap" xml:id="PRqas495_ol_84"> poor in </seg> the rural areas and they want to er get as much money as they can <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_118"><seg n="4" synch="#PRqas495_ol_84" type="overlap" xml:id="PRqas495_ol_85"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_119"> so this is er correct and second is <seg n="5" type="overlap" xml:id="PRqas495_ol_86"> actu</seg>ally the many migrant <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_120"><seg n="5" synch="#PRqas495_ol_86" type="overlap" xml:id="PRqas495_ol_87"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_121"> i can say majority of the migrant workers they still want to make you know a very close contact tie with thei- thei- their family <pause/> yes so you s- can see during every every year during the<c type="lengthening"/> chinese new year <pause/> you can see <pause/> it's <emph> really </emph> very difficult <pause/> er to get a train ticket back to their home<emph>town </emph><pause/> and it's very v- a very very busy time when when there is <unclear> convenience </unclear> f- the you- young migrants they want go back home <pause/> and and many young migrants actually you know after they were a number of years they w- they they they when they <pause/> got enough money and then they <pause/> they will go home so <supplied reason="unintelligible"> x </supplied><shift corresp="#PRqas495_s_20" feature="tempo" new="a" xml:id="PRqas495_s_19"/> the chinese government <shift corresp="#PRqas495_s_19" feature="tempo" new="neutral" xml:id="PRqas495_s_20"/> also want to do er al- also want to encourage er this kinds of er <pause/> just <pause/> re- re- going back you know home er to the- to their regions er <pause/><supplied reason="unintelligible"> xxxx </supplied> er you know techni- tech- er techniques or knowledge and eq- er and so <pause/> on forth  back to the <voice:pvc> countrysides </voice:pvc><pause/><shift corresp="#PRqas495_s_22" feature="loud" new="f" xml:id="PRqas495_s_21"/> but <shift corresp="#PRqas495_s_21" feature="loud" new="neutral" xml:id="PRqas495_s_22"/> you know there's another another er phenomena  that <emph> now</emph>a<emph>day</emph>s more and more migrant <voice:track medium="1" num="6" type="md"/> workers wants  to stay <pause/> in the cities you know <pause/> they want to the- be there because the child was born there you know even <unclear> some of the </unclear><supplied reason="unintelligible"> xxxxx </supplied> become middl- sch- in go to middle in to middle schools <pause/> and they have already<c function="rise" type="intonation"/> you know all <pause/> they have already established their connection in the cities the- so they want to be there<c function="fall" type="intonation"/><pause dur="PT1S"/> so yo- ha- tha- that's the issue <pause/> coming up very serious- <pause/> -ly the government has to handle the issue otherwise it'll be it'll become <pause/> you know <pause/> er an unstable er <pause/></u>
+            <u who="#PRqas495_SX-m" xml:id="PRqas495_u_122"> hm </u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_123"><unclear> stabil<c type="lengthening"/>izing </unclear> you know er er <unclear> factors </unclear><pause/> yeah <pause/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_124"><supplied reason="anonymization"> [S6] </supplied><c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRqas495_S6" xml:id="PRqas495_u_125"> thank you very much for your presentation erm <pause dur="PT1S"/> i've got two questions <pause/> one is<c type="lengthening"/> concerning e<c type="lengthening"/>rm the graduates of universities and the unemployed <pause/> youth section you mentioned then <pause/> erm and <pause/> is there any increasing number <pause/> of unemployed graduates that's my my question <seg n="6" type="overlap" xml:id="PRqas495_ol_88"> about that </seg><pause/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_126"><seg n="6" synch="#PRqas495_ol_88" type="overlap" xml:id="PRqas495_ol_89"> yes </seg><pause/> yes </u>
+            <u who="#PRqas495_S6" xml:id="PRqas495_u_127"> and what what about the percentage about <seg n="1" type="overlap" xml:id="PRqas495_ol_90"> this </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_128"><seg n="1" synch="#PRqas495_ol_90" type="overlap" xml:id="PRqas495_ol_91"> no </seg> the actual percentage i i i can't give you now but the perce- the <pause/> er i think is er <pause/> is quite high <pause/> that's why the government <unclear> is </unclear> also very concerned about this because you know to study in in china usu- er er to study in universities usually we we <unclear> is we've got </unclear> a very er <unclear> significant </unclear><pause/> e<c type="lengthening"/>r <pause/> e<c type="lengthening"/>r e<c type="lengthening"/>r <pause/> things of the<c type="lengthening"/> family you know and the family invest a lot money for the child to go to the university because now is <pause/> many students have to pay themselves you know to go to university <pause/> in the past all of them <unclear> are </unclear> paid by the government but now they have to pay so they <supplied reason="unintelligible"> xx </supplied> they have to <pause/> borrow money from <pause/> some of them huh<c function="rise" type="intonation"/> maybe <pause dur="PT1S"/> maybe of them huh<c function="rise" type="intonation"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#PRqas495_s_24" feature="voice" new="laugh" xml:id="PRqas495_s_23"/> have to <shift corresp="#PRqas495_s_23" feature="voice" new="neutral" xml:id="PRqas495_s_24"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> have to borrow money from oth- their relatives friends and so on you know to go to university but afterwards you know they cannot find a job you know <pause/> so that's the problem er <pause/> so e<c type="lengthening"/>r it become <unclear> a </unclear><supplied reason="unintelligible"> xxxx </supplied> that's why i mentioned here you know <unclear> the </unclear> government <pause/> e<c type="lengthening"/>r <pause/> tr- try every effort <pause/> and to<c type="lengthening"/> er <pause/> to<c type="lengthening"/> to<c type="lengthening"/> e<c type="lengthening"/>r <pause/> to<c type="lengthening"/> er settle this issue <pause/> and another thing the government is to <pause/> to <emph> limit </emph> now <pause dur="PT1S"/> they already yeah <pause/> to limit <pause/> the admission <pause dur="PT1S"/> of the<c type="lengthening"/> e<c type="lengthening"/>r quo- the <emph> quota </emph><pause/> of university students <pause/> they they said they must please stop and so now <pause/> if you have any new program on to <pause/> to open the university<c function="rise" type="intonation"/><pause/> then <pause/> erm e<c type="lengthening"/>r it's not that easy now in the past it's  quite easy for example er a university of in in america want  to have a joint program but in a university <supplied reason="unintelligible"> xx </supplied> in china <pause/> it's easier <pause/> and now it's more and more difficult <pause/> er <pause/> er <pause dur="PT1S"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_129"> you have the second question <seg n="2" type="overlap" xml:id="PRqas495_ol_92"> and </seg> then <supplied reason="anonymization"> [S7] </supplied><pause/></u>
+            <u who="#PRqas495_S6" xml:id="PRqas495_u_130"><seg n="2" synch="#PRqas495_ol_92" type="overlap" xml:id="PRqas495_ol_93"> yeah i've g- </seg></u>
+            <u who="#PRqas495_S6" xml:id="PRqas495_u_131"> i've got a second question er it's about <pause dur="PT1S"/> what is understood under <pause/> the term <pause dur="PT1S"/> cultural garbage <pause/><seg n="3" type="overlap" xml:id="PRqas495_ol_94"> it would be </seg> interesting <seg n="4" type="overlap" xml:id="PRqas495_ol_95"> for me </seg></u>
+            <u who="#PRqas495_SS" xml:id="PRqas495_u_132"><seg n="3" synch="#PRqas495_ol_94" type="overlap" xml:id="PRqas495_ol_96"><shift corresp="#PRqas495_s_26" feature="loud" new="p" xml:id="PRqas495_s_25"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><shift corresp="#PRqas495_s_25" feature="loud" new="neutral" xml:id="PRqas495_s_26"/></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_133"><seg n="3" synch="#PRqas495_ol_94" type="overlap" xml:id="PRqas495_ol_97"> okay </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_134"><seg n="4" synch="#PRqas495_ol_95" type="overlap" xml:id="PRqas495_ol_98"> is </seg> cultural garbage you know yeah <seg n="8" type="overlap" xml:id="PRqas495_ol_99"> maybe you know er </seg></u>
+            <u who="#PRqas495_SS" xml:id="PRqas495_u_135"><seg n="8" synch="#PRqas495_ol_99" type="overlap" xml:id="PRqas495_ol_100"><shift corresp="#PRqas495_s_28" feature="loud" new="p" xml:id="PRqas495_s_27"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/><shift corresp="#PRqas495_s_27" feature="loud" new="neutral" xml:id="PRqas495_s_28"/></seg></u>
+            <u who="#PRqas495_SX-f" xml:id="PRqas495_u_136"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="5" type="overlap" xml:id="PRqas495_ol_101"><vocal type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_137"><seg n="5" synch="#PRqas495_ol_101" type="overlap" xml:id="PRqas495_ol_102"> regarding cultural gar</seg>bage <unclear> that means that </unclear> i- it means it is bad things you know bad things about er sex about you <voice:track medium="1" num="7" type="md"/><seg n="6" type="overlap" xml:id="PRqas495_ol_103"> know it's mainly refer </seg> i think <unclear> is </unclear> more or less refer to sex you know <pause/></u>
+            <u who="#PRqas495_S6" xml:id="PRqas495_u_138"><seg n="6" synch="#PRqas495_ol_103" type="overlap" xml:id="PRqas495_ol_104"><supplied reason="unintelligible"> x </supplied><shift corresp="#PRqas495_s_30" feature="loud" new="p" xml:id="PRqas495_s_29"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#PRqas495_s_29" feature="loud" new="neutral" xml:id="PRqas495_s_30"/></seg></u>
+            <u who="#PRqas495_S6" xml:id="PRqas495_u_139"> okay <anchor synch="#PRqas495_oc_13" type="other_continuation" xml:id="PRqas495_oc_12"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_140"><anchor synch="#PRqas495_oc_12" type="other_continuation" xml:id="PRqas495_oc_13"/> er <emph> here </emph> is <pause/> is okay is no problem  </u>
+            <u who="#PRqas495_S6" xml:id="PRqas495_u_141"> yah <seg n="7" type="overlap" xml:id="PRqas495_ol_105"> okay </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_142"><seg n="7" synch="#PRqas495_ol_105" type="overlap" xml:id="PRqas495_ol_106"> but if </seg> you p<c type="lengthening"/>ut this one back to china <supplied reason="unintelligible"> xxxx </supplied> is er is er <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#PRqas495_s_32" feature="voice" new="laugh" xml:id="PRqas495_s_31"/> it's cultural ba- garbage <seg n="8" type="overlap" xml:id="PRqas495_ol_107"> yeah <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg><shift corresp="#PRqas495_s_31" feature="voice" new="neutral" xml:id="PRqas495_s_32"/></u>
+            <u who="#PRqas495_S6" xml:id="PRqas495_u_143"><shift corresp="#PRqas495_s_34" feature="voice" new="laugh" xml:id="PRqas495_s_33"/><seg n="8" synch="#PRqas495_ol_107" type="overlap" xml:id="PRqas495_ol_108"> okay </seg> thank you <shift corresp="#PRqas495_s_33" feature="voice" new="neutral" xml:id="PRqas495_s_34"/><seg n="9" type="overlap" xml:id="PRqas495_ol_109"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><pause/></u>
+            <u who="#PRqas495_SX-1" xml:id="PRqas495_u_144"><seg n="9" synch="#PRqas495_ol_109" type="overlap" xml:id="PRqas495_ol_110"><supplied reason="anonymization"> [S7] </supplied></seg><pause dur="PT3S"/></u>
+         </div>
+         <gap dur="PT00H01M22S" reason="not_transcribed" voice:desc="non-e; S7 speaks spanish, simultaneous interpretation in english is provided via headphones"/>
+         <div type="medium" voice:end="02:10" voice:end_medium_number="1" voice:end_track="10" voice:medium_type="md" voice:start="01:39" voice:start_medium_number="1" voice:start_track="7">
+            <u who="#PRqas495_S7" xml:id="PRqas495_u_145"><foreign type="L1" voice:translation="thank you" xml:lang="spa"> gracias </foreign><pause dur="PT2S"/></u>
+            <u who="#PRqas495_SX-m" xml:id="PRqas495_u_146"><supplied reason="unintelligible"> x x </supplied><seg n="10" type="overlap" xml:id="PRqas495_ol_111"><supplied reason="unintelligible"> xx </supplied><shift corresp="#PRqas495_s_36" feature="loud" new="p" xml:id="PRqas495_s_35"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#PRqas495_s_35" feature="loud" new="neutral" xml:id="PRqas495_s_36"/></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_147"><seg n="10" synch="#PRqas495_ol_111" type="overlap" xml:id="PRqas495_ol_112"> yeah <pause/> thank you for the question you know er </seg> actually you know social values in in china <pause/> you know is  changing er <unclear> and not </unclear> you know er <pause/> of course i'm just talking about the trend you know the new kind because china is so big and you know there are ma- many of them you know still live in very bad er <pause/> e<c type="lengthening"/>r areas and <pause/> but you know if you look er into the <emph> current </emph> situation you can see you can see the <unclear> market market </unclear> where <unclear> areas </unclear> become <pause/> very <emph> dominant </emph> in china <pause/> so the young people er <pause/> er <pause/> the young people becoming very <pause/> dynamic and also er they treasure they treasure  for <unclear> better </unclear><supplied reason="unintelligible"> x </supplied> you know <pause/> that's why they <pause/> they work very hard <pause/> they you know <pause/> try the best to get you know <pause/> position and to get a good degree in the in mainly in university in <pause/> united states  <w voice:mode="spelt"> u <shift corresp="#PRqas495_s_38" feature="voice" new="laugh" xml:id="PRqas495_s_37"/> k <shift corresp="#PRqas495_s_37" feature="voice" new="neutral" xml:id="PRqas495_s_38"/></w><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/> or australia or even in hong kong you know so <pause/> the- <pause/> they try you know the- this  kinds of <pause/> they try to pursue you know a a <pause/> a better career that's a very very very clear you know very <supplied reason="unintelligible"> x </supplied> aim <pause/> they <pause/> for what purpose they main- measure the purpose is to get more i mean <pause/> get a <unclear> better life </unclear><pause/> or to earn more money get better position in future so that kinds of capitalist value in fact <pause/> is very common among young people <voice:track medium="1" num="8" type="md"/> in china i think <emph> now</emph>a<emph>day</emph>s <pause/> and of course you'll may <pause/> i mean this may raise <pause/> er er the problem of er <pause/> of <seg n="1" type="overlap" xml:id="PRqas495_ol_113"> that </seg> er conventional <pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_148"><seg n="1" synch="#PRqas495_ol_113" type="overlap" xml:id="PRqas495_ol_114"> mhm </seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_149"> socialist values in china<c function="fall" type="intonation"/> you know because conventionally you know china emphasizes very much on  social values you know socia- er socialist values you know and <pause/> er <pause/> a<c type="lengthening"/>nd because of e<c type="lengthening"/>r <pause/> so e<c type="lengthening"/>r <pause dur="PT1S"/> so e<c type="lengthening"/>r the government as far as i know huh<c function="rise" type="intonation"/> the government  also<c function="rise" type="intonation"/><pause/> very concerned about <emph> this </emph> you know how to how to <pause dur="PT1S"/> that's why they they some of the<c type="lengthening"/><pause/> the<c type="lengthening"/><pause/> the<c type="lengthening"/> the <unclear> policy </unclear> also think that we have <unclear><emph> to </emph></unclear><pause/><unclear> limit </unclear> some of the <pause/> they they <pause/> e<c type="lengthening"/>r well maybe it's considered as western you know <shift corresp="#PRqas495_s_40" feature="voice" new="laugh" xml:id="PRqas495_s_39"/> er <shift corresp="#PRqas495_s_39" feature="voice" new="neutral" xml:id="PRqas495_s_40"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRqas495_s_42" feature="voice" new="laugh" xml:id="PRqas495_s_41"/> garbage <unclear> i mean in a </unclear> western <shift corresp="#PRqas495_s_41" feature="voice" new="neutral" xml:id="PRqas495_s_42"/> cultural garbage huh<c function="rise" type="intonation"/> er so don't be you know er <anchor synch="#PRqas495_oc_15" type="other_continuation" xml:id="PRqas495_oc_14"/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_150"><anchor synch="#PRqas495_oc_14" type="other_continuation" xml:id="PRqas495_oc_15"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><seg n="2" type="overlap" xml:id="PRqas495_ol_115"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_151"><seg n="2" synch="#PRqas495_ol_115" type="overlap" xml:id="PRqas495_ol_116"> er er </seg> you know <pause dur="PT1S"/> to be <supplied reason="unintelligible"> xxx </supplied> in in china or it should be banned and so on forth  and <pause/> but they <pause/> but this kinds of <supplied reason="unintelligible"> xxx </supplied> is very common <pause/> yeah <pause dur="PT1S"/> yeah of course there are the kinds of <supplied reason="unintelligible"> xxx </supplied> erm still very important in china <pause/> but is <pause/> is decreasing my family <unclear> so </unclear> even though is still very important in china but it's it's less important now it's it's it's <pause/> like in <supplied reason="unintelligible"> xxx </supplied> like but <pause/> but of course <pause/> it- it- it comes to change <pause/> but anyway <pause/> it's decreasing<c function="fall" type="intonation"/> people become <pause/> more and more individual i can say they become more and more individual <pause/> you know <pause/> for example if you go to beijing or you <pause/> to shanghai you can see <pause/> e<c type="lengthening"/>r young people become more more and more independent and they want to live you know er <pause/> outside their home you know many of them want to live outside their home <emph> now </emph> you know <pause/> er <pause dur="PT1S"/> so this  kinds of change because er <pause dur="PT1S"/> it's because of modernization and because of <pause/> westernization or because of <shift corresp="#PRqas495_s_44" feature="voice" new="laugh" xml:id="PRqas495_s_43"/> er <voice:pvc> marketization </voice:pvc><shift corresp="#PRqas495_s_43" feature="voice" new="neutral" xml:id="PRqas495_s_44"/> you know <pause dur="PT1S"/> yo- that's a general kind <pause dur="PT2S"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_152"> okay i don't know if there are more questions<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_153"> mhm <anchor synch="#PRqas495_oc_17" type="other_continuation" xml:id="PRqas495_oc_16"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_154"><anchor synch="#PRqas495_oc_16" type="other_continuation" xml:id="PRqas495_oc_17"/> to  his presentation<c function="rise" type="intonation"/><pause dur="PT1S"/><shift corresp="#PRqas495_s_46" feature="loud" new="p" xml:id="PRqas495_s_45"/> hm<c function="rise" type="intonation"/><shift corresp="#PRqas495_s_45" feature="loud" new="neutral" xml:id="PRqas495_s_46"/><pause dur="PT2S"/></u>
+            <u who="#PRqas495_S13" xml:id="PRqas495_u_155"><foreign type="L1" xml:lang="spa"> x x <seg n="3" type="overlap" xml:id="PRqas495_ol_117"> x xxx </seg></foreign></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_156"><foreign type="L1" xml:lang="spa"><seg n="3" synch="#PRqas495_ol_117" type="overlap" xml:id="PRqas495_ol_118"> no se <supplied reason="unintelligible"> xx </supplied> no </seg><supplied reason="unintelligible"> xx </supplied> tradujo </foreign><pause dur="PT1S"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_157"> er <pause/> questions<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRqas495_S8" xml:id="PRqas495_u_158"> i don't know i- i don't know whether the this is a question <pause/> or not a question<c function="rise" type="intonation"/><pause/> er i think if i <pause dur="PT1S"/> understood well<c function="rise" type="intonation"/><pause/> er there is two er societies in <pause/> china<c function="rise" type="intonation"/><pause/> and er young people lives  er in two society in urban society and er <pause/> and er and rural er society<c function="rise" type="intonation"/> i think er this is problem i <unclear> invert </unclear><pause/> as well <pause/><shift corresp="#PRqas495_s_48" feature="loud" new="p" xml:id="PRqas495_s_47"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRqas495_s_47" feature="loud" new="neutral" xml:id="PRqas495_s_48"/><pause/> and er so i- so i think <pause/> and e<c type="lengthening"/>r er we<c type="lengthening"/><pause/> i i think we know er urban society generally<c function="rise" type="intonation"/><pause/> and er there are of course there is a<c type="lengthening"/> a upper strata  in urban society as well<c function="rise" type="intonation"/> and <emph> be</emph>low urban society there is a  other strata <pause/> we don't <voice:track medium="1" num="9" type="md"/> know <pause/> er exact<emph>ly </emph><c function="rise" type="intonation"/><pause/> who who are in in <supplied reason="unintelligible"> xx </supplied> society m- my question it is possible <pause/> er to investigate er e<c type="lengthening"/>r er rural society <pause/> why i think it it wi- it would be very important <seg n="4" type="overlap" xml:id="PRqas495_ol_119"> because </seg><pause/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_159"><seg n="4" synch="#PRqas495_ol_119" type="overlap" xml:id="PRqas495_ol_120"> mhm </seg></u>
+            <u who="#PRqas495_S8" xml:id="PRqas495_u_160"> er <unclear> so far </unclear> er there was a center er problem er modernization problem <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> and the- the- there is <supplied reason="unintelligible"> xx </supplied> of modernization<c function="rise" type="intonation"/><pause/> the<c type="lengthening"/><emph> pride </emph> in society<c function="fall" type="intonation"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_161"><shift corresp="#PRqas495_s_50" feature="loud" new="p" xml:id="PRqas495_s_49"/> mhm <shift corresp="#PRqas495_s_49" feature="loud" new="neutral" xml:id="PRqas495_s_50"/><pause/> yeah i thin- thank you for the question i think basically er rural er you know in- i i mean investigation on rural youth is still er not very common <pause/> but of course there are some chinese studies you know on rural young people <pause dur="PT1S"/> er er <pause/> but it's not not not very common and rural area you know er <pause/> because now the development is focused on city urban <pause/> urban area and the problem <unclear> does usually happen </unclear> in the urban area so that's why they're focusing on the urban area and and but there is the problem about the rural development <pause/> you know because all the young people all the talented people are goi- t- are going to the city you know <pause/> they <pause/> so now it's <supplied reason="unintelligible"> x </supplied> very difficult to find <unclear> talented </unclear> people <pause/> er to develop the<c type="lengthening"/><pause/> the<c type="lengthening"/> the<c type="lengthening"/> the rural area  </u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_162"><shift corresp="#PRqas495_s_52" feature="loud" new="p" xml:id="PRqas495_s_51"/> m<seg n="5" type="overlap" xml:id="PRqas495_ol_121">hm </seg><shift corresp="#PRqas495_s_51" feature="loud" new="neutral" xml:id="PRqas495_s_52"/></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_163"><seg n="5" synch="#PRqas495_ol_121" type="overlap" xml:id="PRqas495_ol_122"> so </seg> that that's the problem <pause/> but anyway i think er this area needs i mean as you say yes needs <shift corresp="#PRqas495_s_54" feature="voice" new="laugh" xml:id="PRqas495_s_53"/> e<c type="lengthening"/>r <shift corresp="#PRqas495_s_53" feature="voice" new="neutral" xml:id="PRqas495_s_54"/> you know <pause/> to pay more attention to <pause dur="PT2S"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_164"><supplied reason="anonymization"> [S9] </supplied><c function="rise" type="intonation"/><supplied reason="unintelligible"> xx<c function="rise" type="intonation"/></supplied><pause dur="PT2S"/></u>
+            <u who="#PRqas495_S9" xml:id="PRqas495_u_165"> er you er told us s<c type="lengthening"/>omething about the important role of  <w voice:mode="spelt"> n g os  </w> for <pause/> integration for the<c type="lengthening"/><pause/> er <pause/> m<c type="lengthening"/>igrant er young persons <pause/> can you tell us a little bit more about er such  <w voice:mode="spelt"> n g os  </w></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_166"> yeah<c function="fall" type="intonation"/> you know er a- actually  <w voice:mode="spelt"> n g o  </w> in china is still er under developing  you <seg n="8" type="overlap" xml:id="PRqas495_ol_123"> know it's </seg> it's still a a a new area for for development you know <seg n="6" type="overlap" xml:id="PRqas495_ol_124"> we only have a </seg> a a field okay a field of international <pause/></u>
+            <u who="#PRqas495_SX-4" xml:id="PRqas495_u_167"><seg n="8" synch="#PRqas495_ol_123" type="overlap" xml:id="PRqas495_ol_125"> mhm </seg></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_168"><seg n="6" synch="#PRqas495_ol_124" type="overlap" xml:id="PRqas495_ol_126"><unclear> we only </unclear><supplied reason="unintelligible"> x </supplied></seg></u>
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_169"> er  <w voice:mode="spelt"> n g os  </w> who have their service in china a <supplied reason="unintelligible"> xx </supplied> an- hh an- and of course <supplied reason="unintelligible"> xxx </supplied> er some you know er <pause/> e<c type="lengthening"/><c type="lengthening"/>r <pause dur="PT1S"/> some <pause/> e<c type="lengthening"/>r e<c type="lengthening"/>r <pause/> like some supporters they are supported by <unclear><supplied reason="anonymization"> [org1] </supplied></unclear> or supported by <supplied reason="anonymization"> [org2] </supplied> or you know <pause/> er <pause/> this  kinds of <pause/> thing or we have some you know er <pause/> er trust fund you know er support by <pause/> some international organization <supplied reason="unintelligible"> xxx </supplied> provide s- services in <pause/> in main china<c function="rise" type="intonation"/><pause/> e<c type="lengthening"/>r we also have some er church organization like <supplied reason="anonymization"> [org3] </supplied> you know <pause/> they have a lots of project  in main china<c function="rise" type="intonation"/> we also have er <pause/> like <supplied reason="anonymization"> [org4] </supplied> you know have a lots of  er project  in main china<c function="rise" type="intonation"/><pause/> and <supplied reason="unintelligible"> xx </supplied><pause/> you know <pause/> i mean in terms of numbers it's still <pause/> not very <pause/> not not many <pause/> but locally er now locally <unclear> mainly </unclear> in china many  <w voice:mode="spelt"> n g os  </w><pause/> no actually <pause/><unclear> are your </unclear><w voice:mode="spelt"> n g os  </w> it must <voice:track medium="1" num="10" type="md"/> if you want to encourage the country you must <pause/> you know <supplied reason="unintelligible"> xxxxx </supplied> because it's it's a <pause/> a kinds  of different understandin- different concepts er as the west huh<c function="rise" type="intonation"/> you know in ch- in chinese <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRqas495_s_56" feature="voice" new="laugh" xml:id="PRqas495_s_55"/> it's very interesting huh<c function="rise" type="intonation"/><shift corresp="#PRqas495_s_55" feature="voice" new="neutral" xml:id="PRqas495_s_56"/> erm <pause/> because you know er if you the- you can mi- if you register you know they are of course there are rules and regulation <pause/> require <unclear> an </unclear><w voice:mode="spelt"> n g o  </w> to register<c function="fall" type="intonation"/><pause/> so if you <pause/> you have to register<c function="rise" type="intonation"/> in <pause/> and then you become a  <w voice:mode="spelt"> n g os  </w> huh<c function="rise" type="intonation"/><pause/> but of course many of them are very difficult to register because they have been the- the the requirements of registration is  very complicated huh<c function="rise" type="intonation"/> because you have to get <pause/> e<c type="lengthening"/>r <pause/> e<c type="lengthening"/>r e<c type="lengthening"/>r e<c type="lengthening"/>r people to <unclear> signify </unclear> your sponsor and so on <emph> some </emph> organization to be your sponsor organizations <pause/> and responds something that respon- s- support for your organization and then <emph> you </emph> can register <pause/> so that make  it very complicated but anyway i don't want to go into details but <pause/> because of this actually you know in china we have thousands of  <w voice:mode="spelt"> n g os  </w><pause/> thousands of  <w voice:mode="spelt"> n g os  </w> but many of them are <emph> not </emph> you know <pause/> are <emph> not </emph> registered are not register- or they register on  other <pause/> er names you know on er a kinds of <voice:pvc> under-business </voice:pvc><pause/> you know <pause/> e<c type="lengthening"/>r e<c type="lengthening"/>r <pause/><unclear> now it is </unclear><pause/> erm<c type="lengthening"/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause/> so e<c type="lengthening"/>r <pause/> so we can say that it's not <pause/> to some extent it's not very it's not very er well-organized<c function="fall" type="intonation"/> but the vari- the <voice:pvc comment="varieties"> varisities </voice:pvc> are increasing <pause/> and for example the one i just <unclear> mention </unclear> about the occupational injuries <unclear> there is </unclear><supplied reason="unintelligible"> x </supplied> is an  <w voice:mode="spelt"> n g o  </w> some<unclear>thing </unclear> like an  <w voice:mode="spelt"> n g o  </w> and then <pause/> they also have contact with er organiza- similar organizations i- in hong kong and then they provide service in <supplied reason="unintelligible"> xx </supplied> to provide <pause/> er services for the inju- inj- er for the workers injured <pause/><unclear> something like this </unclear> and they <pause/> also offer help for education <pause/> for most of them and so on <pause/> and all this covered different areas elderly <pause/> service pa- er education an- and all this <pause/> but there is a lots of still a lots  of er er room for de- for for further development <pause dur="PT2S"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_170"> okay er <pause/><supplied reason="anonymization"> [S10] </supplied><c function="rise" type="intonation"/><pause/> do you want to  </u>
+            <u who="#PRqas495_S10" xml:id="PRqas495_u_171"> er <anchor synch="#PRqas495_oc_19" type="other_continuation" xml:id="PRqas495_oc_18"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_172"><anchor synch="#PRqas495_oc_18" type="other_continuation" xml:id="PRqas495_oc_19"/> question<c function="rise" type="intonation"/></u>
+            <u who="#PRqas495_SX-f" xml:id="PRqas495_u_173"><shift corresp="#PRqas495_s_58" feature="loud" new="p" xml:id="PRqas495_s_57"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><pause dur="PT1S"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRqas495_s_57" feature="loud" new="neutral" xml:id="PRqas495_s_58"/><pause/></u>
+            <u who="#PRqas495_S10" xml:id="PRqas495_u_174"> e<c type="lengthening"/>r <pause/></u>
+         </div>
+         <gap dur="PT00H00M27S" reason="not_transcribed" voice:desc="non-e; S10 speaks spanish, simultaneous interpretation in english is provided via headphones"/>
+         <div type="medium" voice:end="02:36" voice:end_medium_number="1" voice:end_track="11" voice:medium_type="md" voice:start="02:37" voice:start_medium_number="1" voice:start_track="10">
+            <u who="#PRqas495_S3" xml:id="PRqas495_u_175"> well<c function="rise" type="intonation"/> e<c type="lengthening"/>r you know er <pause/> formal <pause/> formal youth <supplied reason="unintelligible"> x </supplied> organization <pause/> is very you know is very e<c type="lengthening"/>rm <vocal type="speaker_noise" voice:desc="smacks lips"/> important in main er china huh<c function="rise" type="intonation"/><pause/> like the <pause/> communist youth league <pause/> no that's <pause/> that's a very big organization you know and it control  everything regarding <pause/> e<c type="lengthening"/>r youth developments<c function="fall" type="intonation"/><pause/> before informal <voice:track medium="1" num="11" type="md"/><pause/> but for <pause/> ordinary youth <pause/> they <pause/> there are yes there are a lots of  i think <pause/> now have already have a lots  of <pause/> er youth organizations <pause/> but they're <emph> not </emph><pause/><w voice:mode="spelt"> n g os  </w><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> because as i s- i told you that <pause/> it's not easy to register <pause/> you know as an  <w voice:mode="spelt"> n g o  </w><pause/> but they <pause/> have informal <pause dur="PT1S"/> they are not to be formal groups of young people but the- fo- ex- if the- they're sharing <pause/> the similar interest <pause/> or similar expertise <pause/> or you know si- er er <pause/> or doing certain kinds of service <pause/> yes they are not <pause dur="PT3S"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_176"> well i don't know if e<c type="lengthening"/>r to <pause/> his presentation<c function="rise" type="intonation"/> there are still <pause/> questions or commentaries <pause dur="PT1S"/><emph> if </emph><emph> they </emph><emph> are </emph><emph> not </emph><pause/> we're passing to the last er step of our <pause/> er conference today <pause dur="PT1S"/> and before we pass to this step which will be a more general discussion about things we have heard <pause/> e<c type="lengthening"/>r short information about er this evening <pause/> maybe <pause dur="PT1S"/><supplied reason="anonymization"> [S11] </supplied> you <pause/> inform about a<c type="lengthening"/>h oops <incident voice:desc="S1 has just dropped something"/></u>
+            <u who="#PRqas495_S11" xml:id="PRqas495_u_177"> yes the bus e<c type="lengthening"/>rm which will bring us to the<c type="lengthening"/><pause/> to the town hall <pause/> it leaves at seven thirty<c function="fall" type="intonation"/><pause/> please be in time<c function="rise" type="intonation"/><pause/> er and we will meet er at the registr- erm reception desk <pause dur="PT1S"/> and please don't forget this invitation card <pause/> for the <pause/> for this reception it's in this green bag you got <pause/> i think that's the most <pause/> important thing yah <pause/></u>
+            <u who="#PRqas495_S12" xml:id="PRqas495_u_178"><incident voice:desc="spanish speakers start conversing with each other"/><supplied reason="unintelligible"> xxxxx </supplied> sorry to add something because there was another announcement </u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_179"> in <seg n="7" type="overlap" xml:id="PRqas495_ol_127"> this er </seg></u>
+            <u who="#PRqas495_S11" xml:id="PRqas495_u_180"><seg n="7" synch="#PRqas495_ol_127" type="overlap" xml:id="PRqas495_ol_128"> sorry </seg> sorry <pause dur="PT1S"/></u>
+            <u who="#PRqas495_S12" xml:id="PRqas495_u_181"> there was another announcement <unclear> in the </unclear><supplied reason="unintelligible"> xxx </supplied> conference there is a small change in the schedule <seg n="1" type="overlap" xml:id="PRqas495_ol_129"> it's </seg><pause/></u>
+            <u who="#PRqas495_S11" xml:id="PRqas495_u_182"><seg n="1" synch="#PRqas495_ol_129" type="overlap" xml:id="PRqas495_ol_130"> e<c type="lengthening"/>r </seg></u>
+            <u who="#PRqas495_S12" xml:id="PRqas495_u_183"> meeting for at seven fifteen <pause dur="PT1S"/></u>
+            <u who="#PRqas495_S11" xml:id="PRqas495_u_184"> yes because we have to leave at seven thirty so <pause/></u>
+            <u who="#PRqas495_S12" xml:id="PRqas495_u_185"> no i- i- i- i- i'm just telling what <seg n="2" type="overlap" xml:id="PRqas495_ol_131"> the- </seg> what they annou<seg n="3" type="overlap" xml:id="PRqas495_ol_132">nced </seg></u>
+            <u who="#PRqas495_S11" xml:id="PRqas495_u_186"><seg n="2" synch="#PRqas495_ol_131" type="overlap" xml:id="PRqas495_ol_133"> okay </seg></u>
+            <u who="#PRqas495_S11" xml:id="PRqas495_u_187"><seg n="3" synch="#PRqas495_ol_132" type="overlap" xml:id="PRqas495_ol_134"> okay </seg> i will i will ask the organizers and okay <foreign type="L1" voice:translation="i will ask and" xml:lang="ger"> ich sch- ich frag das und <supplied reason="unintelligible"> xxxx </supplied></foreign></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_188"> well <pause/> er probably <incident voice:desc="spanish speakers stop conversing with each other, no more parallel conversations"/> this is for all of us important<c function="rise" type="intonation"/><pause/> the meeting will be seven fifteen <pause/> because <emph> until </emph> we go to the bus and so it takes still some time but <supplied reason="anonymization"> [S11] </supplied> will cle<c type="lengthening"/>ar <pause/> that <emph> up </emph><pause/> hh and when they say here <pause/> please be <pause/> at least at seven thirty<c function="rise" type="intonation"/><pause/> er the austrian  they <emph> mean </emph> it <pause/> that is <shift corresp="#PRqas495_s_60" feature="voice" new="laugh" xml:id="PRqas495_s_59"/> at <seg n="4" type="overlap" xml:id="PRqas495_ol_135"> seven thirty they go </seg><shift corresp="#PRqas495_s_59" feature="voice" new="neutral" xml:id="PRqas495_s_60"/></u>
+            <u who="#PRqas495_SS" xml:id="PRqas495_u_189"><seg n="4" synch="#PRqas495_ol_135" type="overlap" xml:id="PRqas495_ol_136"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="5" type="overlap" xml:id="PRqas495_ol_137"><vocal type="wordlike" voice:desc="laughing" voice:syl="5"/></seg></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_190"><seg n="5" synch="#PRqas495_ol_137" type="overlap" xml:id="PRqas495_ol_138"><shift corresp="#PRqas495_s_62" feature="voice" new="laugh" xml:id="PRqas495_s_61"/> the bus goes <supplied reason="unintelligible"> xx </supplied> so<c type="lengthening"/><shift corresp="#PRqas495_s_61" feature="voice" new="neutral" xml:id="PRqas495_s_62"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas495_S11" xml:id="PRqas495_u_191"> okay we will meet <seg n="6" type="overlap" xml:id="PRqas495_ol_139"> at seven <emph> fifteen </emph></seg></u>
+            <u who="#PRqas495_SS" xml:id="PRqas495_u_192"><seg n="6" synch="#PRqas495_ol_139" type="overlap" xml:id="PRqas495_ol_140"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="7"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_193"> so that's just for er <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/> information <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#PRqas495_S4" xml:id="PRqas495_u_194"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/><anchor synch="#PRqas495_oc_21" type="other_continuation" xml:id="PRqas495_oc_20"/></u>
+            <u who="#PRqas495_S1" xml:id="PRqas495_u_195"><anchor synch="#PRqas495_oc_20" type="other_continuation" xml:id="PRqas495_oc_21"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+         </div>
+      </body>
+   </text>
+</TEI>

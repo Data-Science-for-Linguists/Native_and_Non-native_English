@@ -1,0 +1,604 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="POprc522" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>press conference about the military conflict between Israel and the Hezbollah in Lebanon</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+            <sponsor/>
+            <respStmt>
+		<resp>Researchers</resp> 
+		<name xml:id="AB">Angelika Breiteneder</name> 
+		<name xml:id="TK">Theresa Klimpfinger</name> 
+		<name xml:id="SM">Stefan Majewski</name> 
+		<name xml:id="MLP">Marie-Luise Pitzl</name>
+	  </respStmt>
+         </titleStmt>
+         <editionStmt>
+	  <edition>Version 2.0 XML, <date>January 2013</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Stefan Majewski</name> 
+		<name>Ruth Osimk-Teasdale</name>
+		<name>Marie-Luise Pitzl</name>
+		<name>Michael Radeka</name>
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+	  <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+		<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  		<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). Minor revisions were gathered
+		  by Ruth Osimk-Teasdale and Michael Radeka and corrections were made by 
+		  Ruth Osimk-Teasdale. VOICE 2.0 XML is available for download at the VOICE 
+		  Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+	  	<p>
+          The recommended citation for VOICE 2.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 2.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka.</bibl>
+		</p>
+		<p>The short citation for VOICE 2.0 XML is:
+		</p>
+		<p>
+          <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version 2.0 XML</edition>).</bibl>
+        </p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="POprc522_wc">Words: 3433</note>
+            <note xml:id="POprc522_tn_0">This press conference deals with the conflict between Israel and the Hezbollah in Lebanon and the European Union's approval of a United Nations Security Council resolution aimed at ending this conflict. After a meeting of EU foreign ministers, three representatives of the European Commission (S2, S3, S4) report on the meeting's outcome and answer related questions posed by international journalists. Some of these questions are asked and answered in French, and simultaneously translated into English. S1 chairs the press conference and invites journalists in the audience to pose their questions. </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H26M08S" type="audio">
+                  <date>2006-08-01</date>
+                  <equipment>
+                     <p>unknown</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>European Commission</name>
+                     <name> Audiovisual Service</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="POprc522_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="POprc522_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="POprc522_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="POprc522_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="POprc522_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="POprc522_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="POprc522_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="POprc522_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="POprc522_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="POprc522_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="POprc522_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="POprc522_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="POprc522_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="POprc522_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="POprc522_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="POprc522_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="POprc522_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="name" occurs="13"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="82"/>
+      <tagUsage gi="gi" occurs="4"/>
+      <tagUsage gi="att" occurs="16"/>
+      <tagUsage gi="list" occurs="12"/>
+      <tagUsage gi="label" occurs="22"/>
+      <tagUsage gi="val" occurs="44"/>
+      <tagUsage gi="item" occurs="42"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="3"/>
+      <tagUsage gi="person" occurs="12"/>
+      <tagUsage gi="age" occurs="10"/>
+      <tagUsage gi="sex" occurs="10"/>
+      <tagUsage gi="occupation" occurs="9"/>
+      <tagUsage gi="langKnowledge" occurs="10"/>
+      <tagUsage gi="langKnown" occurs="10"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="7"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="8"/>
+      <tagUsage gi="u" occurs="32">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+      <tagUsage gi="gap" occurs="7">Used to mark points where a short portion of
+		speech has not been recorded or has been left untranscribed,
+		whether for editorial reasons, as part of the sampling practice,
+		or because the material is inaudible or comprises sensitive
+		content. The following <att>reason</att> attributes are used to
+		mark:
+		<list>
+		  <label><val>not_recorded</val></label><item>Not recorded
+		  speech</item>
+		  <label><val>not_transcribed</val></label><item>Not transcribed
+		  speech</item>
+		</list>
+		Further information on the reason for a gap is provided within
+		the <att>voice:desc</att> attribute.
+		</tagUsage>
+      <tagUsage gi="unclear" occurs="32">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="pause" occurs="492">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="c" occurs="203">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="emph" occurs="109">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="shift" occurs="30">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="w" occurs="13">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage>
+      <tagUsage gi="vocal" occurs="4">Used to mark laughter and other speaker
+        noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="supplied" occurs="30">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed
+		to be anonymized. The <att>reason</att> attribute is used to
+		mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="incident" occurs="2">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="seg" occurs="2">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="foreign" occurs="1">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the <att>voice:translation</att> attribute
+		provides a rough translation of the non-English speech into
+		English.
+		</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:track" occurs="7">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in
+		length) and thus refers to the audio recording of the
+		transcribed speech event.
+		</tagUsage>
+      <tagUsage gi="voice:pvc" occurs="6">Used to mark a pronunciation
+		variation or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+		VOICE mark-up conventions [2.1].</ref>the
+		VOICE mark-up conventions [2.1]. An existing word
+		corresponding to the PVC may be provided within a
+		<att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc
+		element. Additional phonetic transcription may be provided
+		within a <att>voice:ipa</att>voice:ipa attribute within the
+		<gi>voice:pvc</gi>voice:pvc element.</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#POprc522_PO #POprc522_prc"/>
+            <catRef target="#PO #prc"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">BE</name>
+               <name type="city">Brussels</name>
+               <locale>unknown</locale>
+               <activity>unknown</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="10"/>
+                  <personGrp role="interactants" size="10"/>
+                  <personGrp role="audience" size="unknown"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="presenter" sameAs="#P69" xml:id="POprc522_S3">
+                     <age value="4">50+</age>
+                     <sex value="1">male</sex>
+                     <occupation>high-ranking EU politican</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa-ES"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P63" xml:id="POprc522_S2">
+                     <age value="4">50+</age>
+                     <sex value="1">male</sex>
+                     <occupation>high-ranking EU politician</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="fin-FI"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="chair" sameAs="#P123" xml:id="POprc522_S1">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="fin-FI"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P124" xml:id="POprc522_S4">
+                     <age value="4">50+</age>
+                     <sex value="2">female</sex>
+                     <occupation>member of the European Commission</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P125" xml:id="POprc522_S5">
+                     <age value="0">unknown</age>
+                     <sex value="2">female</sex>
+                     <occupation>journalist</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="rum-RO"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P126" xml:id="POprc522_S6">
+                     <age value="0">unknown</age>
+                     <sex value="2">female</sex>
+                     <occupation>journalist</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="und"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P127" xml:id="POprc522_S7">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>journalist</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P128" xml:id="POprc522_S8">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>journalist</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng-GB"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P129" xml:id="POprc522_S9">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>journalist</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa-MX"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P130" xml:id="POprc522_S10">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>journalist</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="fin"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person corresp="#POprc522_S7" sameAs="#SX" xml:id="POprc522_SX-7"/>
+                  <person sameAs="#SX-m" xml:id="POprc522_SX-m"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#POprc522_S1 #POprc522_S10 #POprc522_S2 #POprc522_S3 #POprc522_S4 #POprc522_S5 #POprc522_S6 #POprc522_S7 #POprc522_S8 #POprc522_S9" name="fairly_asymmetrical" type="power"/>
+                  <relation mutual="#POprc522_S1 #POprc522_S10 #POprc522_S2 #POprc522_S3 #POprc522_S4 #POprc522_S5 #POprc522_S6 #POprc522_S7 #POprc522_S8 #POprc522_S9" name="predominantly_unacquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-04-14" who="RO">changes for VOICE 1.1</change>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-12" who="TK">finalized for publication</change>
+         <change when="2008-11-04" who="AB">proof-reading</change>
+         <change when="2007-01-09" who="MLP">checking</change>
+         <change when="2006-12-29" who="JL">transcript completion</change>
+         <change when="2006-12-28" who="JL">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="00:01" voice:end_medium_number="1" voice:end_track="1" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#POprc522_S1" xml:id="POprc522_u_1"><voice:track medium="1" num="1" type="md"/> okay </u>
+         </div>
+         <gap dur="PT00H00M21S" reason="not_transcribed" voice:desc="non-e; S1 speaks french and welcomes everyone to press conference; this is simultaneously translated into english"/>
+         <div type="medium" voice:end="00:25" voice:end_medium_number="1" voice:end_track="1" voice:medium_type="md" voice:start="00:22" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#POprc522_S2" xml:id="POprc522_u_2"><unclear> well </unclear> ladies and gentlemen <pause/> when the<c type="lengthening"/></u>
+         </div>
+         <gap dur="PT00H00M03S" reason="not_recorded"/>
+         <div type="medium" voice:end="02:00" voice:end_medium_number="1" voice:end_track="7" voice:medium_type="md" voice:start="00:28" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#POprc522_S2" xml:id="POprc522_u_3"> call for an<c type="lengthening"/> er extraordinary meeting of the council last week er hh er <pause/> we were <pause/> as yet er <pause/> unsure do we actually <pause/> need er e<c type="lengthening"/>r <pause/> to <unclear> do </unclear> make any <pause/> take any ne- new decisions er <pause/> er draft any new conclusions but the <emph> events </emph> er <pause/> in the middle east <pause/> particularly during the last weekend<c function="fall" type="intonation"/><pause/> and er the ongoing violence <pause/> notwithstanding the<c type="lengthening"/> supposed er forty-eighth hour ceasefire which is not a ceasefire <pause/> hh er <pause/> have <pause/> er <pause/> led to a situation where it is <emph> imperative </emph> that the european <pause/> union <pause/> come out  with a <pause/> clear hh statement <pause/> er on it's er <pause/> policy and <pause/> on er <pause dur="PT1S"/><shift corresp="#POprc522_s_2" feature="tempo" new="l" xml:id="POprc522_s_1"/> what it aims <shift corresp="#POprc522_s_1" feature="tempo" new="neutral" xml:id="POprc522_s_2"/> to do <pause/> to bring the conflict to an <emph> end </emph><pause/> and to<c type="lengthening"/> bring <pause/> peace to lebanon <pause/> and er er sustainable peace er hh er to the whole <pause/> middle east<c function="fall" type="intonation"/><pause/> hhh <shift corresp="#POprc522_s_4" feature="loud" new="p" xml:id="POprc522_s_3"/> e<c type="lengthening"/>r <shift corresp="#POprc522_s_3" feature="loud" new="neutral" xml:id="POprc522_s_4"/> we recognize that there were great expectations er <pause/> particularly in le<emph>ba</emph>non <pause/> lebanon <pause/> on  the european union hh as e<c type="lengthening"/>r perhaps the <pause/> only from their point of view <pause/> e<c type="lengthening"/>r international actor which they <pause/> had confidence in <pause/> and expecte- expect  er to <pause/> e<c type="lengthening"/>r play <pause/> a crucial role <pause/> in bringing an end <pause/> to the <pause/> hostilities<c function="fall" type="intonation"/> hh e<c type="lengthening"/>r <pause/> i <emph> know </emph> er ooph  that er <pause/> there are always <emph> doubts </emph><pause/> about the european union's ability <pause/> in<c type="lengthening"/><voice:pvc comment="specifically"> specifilically </voice:pvc> situations like we have today <pause/> to come to a common agreement and common policy<c function="fall" type="intonation"/><pause/> now er i th- think that these <emph> doubters </emph> have been put into doubt<c function="fall" type="intonation"/><pause/> hh we had a three and a half hour <pause/> hh er meeting <pause/> er very intense discussions <pause/> but <emph> not </emph> this unity<c function="fall" type="intonation"/><pause dur="PT1S"/> of course we engaged er in er quite a lot of <emph> drafting </emph><pause/> after all we are dealing with very hh e<c type="lengthening"/>r crucial items and er it is important to get the words and concepts right hh <pause/> but er i can e<c type="lengthening"/>r <emph> affirm </emph><pause/> that er there are <emph> no </emph> divisions er in the european union<c function="fall" type="intonation"/><pause/> and er <pause dur="PT1S"/> the key <pause/> sentence is of course er the how the council calls for an <emph> immediate </emph> cessation <pause/> of hostilities <pause/> to be followed by a sustainable <pause/> ceasefire<c function="fall" type="intonation"/><pause/> and in which context<c function="fall" type="intonation"/><pause/> the council <pause/><shift corresp="#POprc522_s_6" feature="tempo" new="a" xml:id="POprc522_s_5"/> fully supports the efforts of the  <w voice:mode="spelt"> u n  </w> secretary general <shift corresp="#POprc522_s_5" feature="tempo" new="neutral" xml:id="POprc522_s_6"/><pause/> and the security council to rapidly hh <voice:track medium="1" num="2" type="md"/> er to be convened to define <pause/> the political framework for a lasting solution <pause/> to be agreed on <pause/><shift corresp="#POprc522_s_8" feature="loud" new="p" xml:id="POprc522_s_7"/> parti- <shift corresp="#POprc522_s_7" feature="loud" new="neutral" xml:id="POprc522_s_8"/> by <emph> all </emph> parties <pause dur="PT1S"/><vocal type="speaker_noise" voice:desc="smacks lips"/> hh which is also the necessary precondition for <pause/> the deployment of an international force <pause/> a force which requires a strong mandate from the  <w voice:mode="spelt"> u n  </w> hh to act in support of a <pause/> political settlement er and the lebanese armed forces hh er <pause/> and <emph> once </emph><pause/> such a framework has been established<c function="fall" type="intonation"/><pause/> and we <pause/> are <pause/><emph> hope</emph>fully talking er <pause/> mo<c type="lengthening"/>re about days rather than weeks hh then <pause/> the  <w voice:mode="spelt"> e u  </w> member states <pause/> or  <w voice:mode="spelt"> e u  </w><emph> member </emph> states have indicated their readiness to contribute to such an operation hh together with international partners<c function="fall" type="intonation"/><pause/> we are not talking about an  <w voice:mode="spelt"> e u  </w> operation <pause dur="PT1S"/> e<c type="lengthening"/>r it is a united nations er operation <pause/> but er we recognize that the european union hh er <emph> member </emph> states will play a s- e<c type="lengthening"/>r quite significant <emph> role </emph><pause/> in such a force<c function="fall" type="intonation"/> hh er and several <pause/> member states er have already <pause/> indicated their readiness to contribute<c function="fall" type="intonation"/> hh for many member states of course this er remains an open <pause/> question hh and er indeed <pause/> in all our countries er participating in <emph> any </emph><pause/> er peacekeeping operations <pause/> let alone an operation which will be more demanding <pause/> er than the operations we have <pause/> er hh er been <pause/> a party to previously hh er will er require <pause/> er <pause dur="PT1S"/> parliamentary approval <pause/> er <pause dur="PT1S"/> as <pause/><supplied reason="unintelligible"> x </supplied><unclear> put forth </unclear> in in each country's own hh er constitutional <pause/><emph> arrange</emph>ments<c function="fall" type="intonation"/><pause/> but the important thing is that the the there is a <emph> unified </emph><pause/> commitment<c function="fall" type="intonation"/><pause dur="PT1S"/> of the european union <pause/> be<emph>hind </emph> this program<c function="fall" type="intonation"/><pause/> immediate cessation of hostilities <pause dur="PT2S"/> to be followed by a sustainable <voice:pvc> peacefire </voice:pvc><pause/> political agreement <pause/> with reference also <pause/> to the lebanese government seven point program <pause/> which we find a good basis hh for er such an agreement <pause dur="PT2S"/> and e<c type="lengthening"/>r er the deployment of an <pause/> international force<c function="fall" type="intonation"/><pause dur="PT1S"/> as you may have know- er known the united nation secretary general has er <pause/> e<c type="lengthening"/>r had already indicatively called for a meeting <emph> yesterday </emph> to prepare such a force <pause/> but er <pause/> having discussed er er the e<c type="lengthening"/>r issue <pause/> er er with us er the secretary general decided to postpone the meeting <emph> until </emph> we have had our <pause/> hh own meeting here today <pause/> hh and it think that was er e<c type="lengthening"/>r <pause/> right because <emph> now </emph><pause/> we have <pause/> the clear <pause/> hh e<c type="lengthening"/>r er <pause dur="PT1S"/> preconditions an- and frameworks set out <pause/> in our conclusions er <pause/> also<c type="lengthening"/> for <pause/> working <pause/> now on the international force<c function="fall" type="intonation"/> and <emph> here </emph> of course i stress the <pause/> hh important role that the european union <emph> has </emph> as we <emph> will </emph> be <pause/> our member states the greatest er <pause/> troop <pause/> contributors but <voice:track medium="1" num="3" type="md"/> not the only ones it is a genuine international force<c function="fall" type="intonation"/> hhh and e<c type="lengthening"/>r <pause/> i expect that er our <pause dur="PT1S"/><emph> discussions </emph> and er our decision er today <pause/> on the conclusions hh will <pause/> show that the european union er <pause dur="PT1S"/> is able to live up to its responsibilities hh <emph> and </emph> indeed of course er th- <pause/> what we need now is a follow-up to these decisions <pause/> and er the<c type="lengthening"/> council hh <pause/> er gave a clear <emph> mandate </emph><pause/> to the high representative <pause/> to remain engage <pause/> and to remain in contact <pause/> with <emph> all </emph><pause/> relevant parties<c function="fall" type="intonation"/><pause/> and to be<c type="lengthening"/> ready <pause/> to <unclear> be </unclear> contribute to a political solution hh and to the peace process<c function="fall" type="intonation"/><pause/> this wi- <unclear> he </unclear> will be supported by the presidency <pause/> the commission <pause/> and all the member states<c function="fall" type="intonation"/><pause/> but we <emph> also </emph> er <pause/> took note <pause/> of the need to coordinate our efforts <pause/> it is actually a <pause/><emph> strength </emph> of the european union that we have <unclear> to </unclear> twenty-five actors<c function="fall" type="intonation"/><pause dur="PT1S"/> pro<emph>vid</emph>ed <pause/> that they have the same message and the same program<c function="fall" type="intonation"/> and i believe this is now the case <pause/> in er in the present <pause/> crisis hh and that we we <emph> can </emph><pause/> bring a significant <pause dur="PT1S"/> decisive contribution to<c type="lengthening"/> bringing an end to the conflict<c function="fall" type="intonation"/><shift corresp="#POprc522_s_10" feature="tempo" new="a" xml:id="POprc522_s_9"/> we are not going to do it alone <shift corresp="#POprc522_s_9" feature="tempo" new="neutral" xml:id="POprc522_s_10"/><pause/> that is quite clear hh we will be working together with er <pause/> er other parties and partners hh e<c type="lengthening"/>r particularly in the security council where the er next important decisions <pause/> will be taken<c function="fall" type="intonation"/><pause dur="PT1S"/><shift corresp="#POprc522_s_12" feature="loud" new="p" xml:id="POprc522_s_11"/> thank you<c function="fall" type="intonation"/><shift corresp="#POprc522_s_11" feature="loud" new="neutral" xml:id="POprc522_s_12"/><pause dur="PT1S"/></u>
+            <u who="#POprc522_S3" xml:id="POprc522_u_4"> th- <shift corresp="#POprc522_s_14" feature="tempo" new="a" xml:id="POprc522_s_13"/> thank you thank you <shift corresp="#POprc522_s_13" feature="tempo" new="neutral" xml:id="POprc522_s_14"/> very much <supplied reason="anonymization"> [S2] </supplied> on the on the <pause/> on the <emph> talks </emph> that we have had today <unclear> of </unclear><supplied reason="unintelligible"> xx </supplied><pause/> lunch and <unclear> of </unclear><supplied reason="unintelligible"> xx </supplied><pause/> the meeting of the <pause/> of the european of the european council <pause/> we have been talking with er <emph> many </emph><pause/> of the countries which are going to play a role<c function="rise" type="intonation"/><pause/> i want to tell you that er <pause/> the european union is supporting the meeting that the <pause/> er united nation is going to take place <pause/><unclear> probably </unclear> security council will take place probably <pause/> before the end of this <emph> week </emph> hh and i want to remind you that there are <emph> five </emph> members of the out of <emph> fifteen </emph><pause/> which are members of the european union<c function="fall" type="intonation"/><pause/> two permanent three <voice:pvc comment="non-permanent"> non-perment </voice:pvc><pause/> so we have <pause/> hh a very substantive support in the security council<c function="rise" type="intonation"/> hh and we hope that in <unclear> a </unclear> coordinated fashion we will be hh our voi- voice <unclear> was </unclear> erm er <pause/> to<c type="lengthening"/> to be heard <pause/> in the <pause/> e<c type="lengthening"/>r movement er to er the solution of this conflict<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#POprc522_S4" xml:id="POprc522_u_5"> i just would like to add that of course <pause/><emph> apart </emph> from the political solution <pause/> it is highly important that we now work <pause/> on this humanitarian crisis you know we all were <pause/><emph> deeply </emph> shocked by the recent events in kana hh and the loss of lives is indeed <pause/> unacceptable <pause/> and the killing of innocent civilians must stop <pause/><emph> therefore </emph><pause/> i think this message of today hh is also <pause/> a very important message with <unclear> you- </unclear> regards <pause/> to <pause/> humanitarian <pause/> access <pause/> to humanitarian corridors <pause/> to working towards a solution hh and <pause/> here <pause/> the commission you know <pause/> commissione<c type="lengthening"/>r <pause/> louis michel who is the responsible one <pause/> for humanitarian aid <pause/> together with me <pause/> we have decided <pause/> er to<c type="lengthening"/> intend <voice:track medium="1" num="4" type="md"/><pause/> to support <pause/> a package of <emph> fifty </emph> million euros <pause/> for humanitarian aid but of course money alone <pause/> is not possible <pause/> we also need <emph> access </emph> we need <pause/> humanitarian corridors <pause/> we need possibilities to exit and entry  the country hh and er <pause/> for <emph> that </emph> also we have been working <pause/> when we were in israel <pause/> we have now one echo  person directly also <pause/> sitting <pause/> in the ministerial <pause/> er meeting o<c type="lengthening"/>f er <shift corresp="#POprc522_s_16" feature="tempo" new="a" xml:id="POprc522_s_15"/> the ministry of defense of israel in order to have a good coordination <shift corresp="#POprc522_s_15" feature="tempo" new="neutral" xml:id="POprc522_s_16"/><pause/> that really the humanitarian corridors hh <emph> can </emph> be opened <pause/> we know <pause/> it has not yet worked as <emph> well </emph> as we normally <pause/> wanted it to work <pause/> but it's highly important that this will be done<c function="fall" type="intonation"/> hh so therefore we work together <pause/> very very closely <pause/> and i must say <pause/> i also reiterate <pause/> this message of <emph> unity </emph><pause/> of the european union <pause/> which is really the <emph> most </emph> important <pause/> at this very moment<c function="fall" type="intonation"/> thank you<c function="fall" type="intonation"/><pause/></u>
+            <u who="#POprc522_S1" xml:id="POprc522_u_6"> just to remind  that er <pause/> this press conference is <voice:pvc> webcasted </voice:pvc> with the presidency and the council website <pause/> let's take questions <pause/> a<c type="lengthening"/>nd er <pause/> please s- say your name and the media organization you're representing and hh a<c type="lengthening"/>nd er to <emph> whom </emph> you address your question<c function="fall" type="intonation"/><pause/> e<c type="lengthening"/>r <pause/> we start with <supplied reason="anonymization"> [S5] </supplied> and then <supplied reason="anonymization"> [S6] </supplied><c function="fall" type="intonation"/><pause/> please<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#POprc522_S5" xml:id="POprc522_u_7"><supplied reason="anonymization"> [S5] </supplied><supplied reason="anonymization"> [S5/last] </supplied> e<c type="lengthening"/>r <supplied reason="anonymization"> [org1] </supplied> e<c type="lengthening"/>r the european union spoke with one voice today but that voice is <emph> weaker </emph> than what <pause/> than you wanted it to be before the meeting <pause/> hh e<c type="lengthening"/>r could you please explain me  to what exten<c type="lengthening"/>t are today's conclusions <pause/><emph> different </emph> from the conclusions reached at the last <pause/> council meeting hh e<c type="lengthening"/>r since you also called for a cessation of hostilities<c function="fall" type="intonation"/><pause dur="PT3S"/></u>
+            <u who="#POprc522_S2" xml:id="POprc522_u_8"> er <pause dur="PT1S"/> speaking as the presidency i'm <emph> very </emph> satisfied with this meeting and with the conclusions<c function="fall" type="intonation"/><pause/> i think that they were also in er some respects  er <pause/> e<c type="lengthening"/>r certainly al- er <emph> strengthened </emph><pause/> and er the difference of course er <pause/> e<c type="lengthening"/>r to the last council meeting is that e<c type="lengthening"/>r since then hh er we are now <pause/> engaged e<c type="lengthening"/>r <pause/> concretely <pause/> in in the framework er for both the political solution and the international force<c function="fall" type="intonation"/> hh so we have the <pause/> a a the <pause/><emph> out</emph>lines <pause/> of a comprehensive <pause/> er peace plan <pause/> er now <pause/> and i i believe that e<c type="lengthening"/>r er this represents a a step forward<c function="fall" type="intonation"/> hh particularly <pause/> as e<c type="lengthening"/>r the high representative already <emph> mentioned </emph> w- <pause/> we have er five out of fifteen security council members today <pause dur="PT2S"/></u>
+            <u who="#POprc522_S3" xml:id="POprc522_u_9"><shift corresp="#POprc522_s_18" feature="tempo" new="a" xml:id="POprc522_s_17"/> i mean <unclear> bu- if i </unclear><shift corresp="#POprc522_s_17" feature="tempo" new="neutral" xml:id="POprc522_s_18"/> if i can something <pause/> i <voice:pvc comment="liked"> likeded </voice:pvc> it that you to <emph> compare </emph> what we say toda<c type="lengthening"/>y <pause/> and e<c type="lengthening"/>r <pause/> with the resolution that is draft <pause/> that is already <emph> presented </emph><pause/> in the security council <pause/> er by the french <pause/> e<c type="lengthening"/>r member of the permanent er <pause/> of the permanent security council hh and you will read that it has elements <pause/> which are already <emph> there </emph><c function="fall" type="intonation"/><pause/> we hope very mu<c type="lengthening"/>ch <pause/> that that resolution will be the base <pause/> for the resolution that will be debate  in the security <voice:track medium="1" num="5" type="md"/> council hh and what we are doing here is support<unclear>ing </unclear> the <pause/> in a way <pause/><unclear> th- </unclear> the most important elements of that security council resolution<c function="fall" type="intonation"/><pause/> and i like to underline  also <unclear> what </unclear> the president has <emph> said </emph><pause/> that the resolution of <emph> today </emph><pause/> has something that it couldn't be <pause/> because it didn't exist at that <emph> time </emph> when we had the last er  <w voice:mode="spelt"> e u  </w> er council hh there was the <pause/> seven <emph> points </emph><pause/> of prime minister siniora<c function="rise" type="intonation"/><pause/> who had been made public in rome<c function="fall" type="intonation"/><pause/> and we support to them  also<c function="fall" type="intonation"/><pause dur="PT5S"/></u>
+            <u who="#POprc522_S6" xml:id="POprc522_u_10"> erm <pause/> yah e<c type="lengthening"/>rm for the presidency<c function="rise" type="intonation"/> hh <pause/> could you please explain what's the difference between asking for <unclear> a </unclear> e<c type="lengthening"/>rm immediate cessation of hostilities and a <pause/> ceasefire<c function="rise" type="intonation"/> hh and also if you could elaborate a bit more about  the mandate for the high representative<c function="rise" type="intonation"/> hh a<c type="lengthening"/>nd <pause/> and for mister <supplied reason="anonymization"> [S3/last] </supplied> erm <pause/> do you think it was wise to pass a resolution e<c type="lengthening"/>r against iran <pause/> right now<c function="rise" type="intonation"/><pause/> and could we<c type="lengthening"/> maybe <unclear> burden </unclear> the<c type="lengthening"/> the talks with iran <pause/> to<c type="lengthening"/><pause/> to be useful for this conflicts<c function="rise" type="intonation"/><pause/> thank you<c function="fall" type="intonation"/><pause/></u>
+            <u who="#POprc522_S2" xml:id="POprc522_u_11"> i don't think we should engage in in e<c type="lengthening"/>r <pause/> too much er <pause/> e<c type="lengthening"/>r fine-tuning as to the<c type="lengthening"/> er difference between cessation of hostilities and and a ceasefire <pause/> because the most <emph> important </emph> thing is <pause dur="PT2S"/> fo<c type="lengthening"/>r the<c type="lengthening"/> er <pause dur="PT1S"/><emph> people </emph> living in the region <pause/> threatened <pause/> by <pause dur="PT1S"/> the present use of er of weapons <pause/> be it er <pause/> hezbollah's rockets be it <unclear> the </unclear><pause/> israeli army artillery <pause/> or whatever <pause/> it means that this threat <pause/> is removed and there will be <pause/> no <emph> shooting </emph><pause/> no killing <pause/> this is the <pause/> main item <pause/> and <emph> then </emph><pause/> of course when we talk about a sustainable ceasefire hh it means that there will also be a <emph> political </emph> agreement er hh er to be worked out er with the parties <pause/> er but from the point of view of the people <pause/> er who are under threat <pause/> there is no difference<c function="fall" type="intonation"/><pause dur="PT4S"/></u>
+            <u who="#POprc522_S3" xml:id="POprc522_u_12"> erm <pause/> you asked me <supplied reason="unintelligible"> xx </supplied> that was approved by the security <emph> council </emph><pause dur="PT1S"/> and not by <emph> us </emph> by the security council er <emph> yesterday </emph><c function="fall" type="intonation"/><pause/> hh as you know that resolution was in the making <unclear> there </unclear> for a long time<c function="rise" type="intonation"/><pause/> er remember that er <pause/> this team of the present security council was done a <pause/> long time ago <pause/><unclear> giving </unclear> a month <pause/> hh we have been negotiating there from the month of <emph> june </emph><pause/> with e<c type="lengthening"/>r with the iran <pause/> and er we put a deadli<c type="lengthening"/>ne about this <emph> time </emph><pause/> e<c type="lengthening"/>r we don't want to mix the two issues er and therefore the <shift corresp="#POprc522_s_20" feature="tempo" new="a" xml:id="POprc522_s_19"/> members of the security council <shift corresp="#POprc522_s_19" feature="tempo" new="neutral" xml:id="POprc522_s_20"/> went <emph> ahead </emph><pause/> if you read the the carefully the <pause/> the resolution <pause/> you will see that the resolution <emph> basically </emph> is <pause/> hh <pause/> put in to what it was <emph> agreed </emph> on the board of govern<unclear>ance </unclear><pause/> last <pause/> at the last <unclear> l- </unclear> board of govern<unclear>ance </unclear> er <pause/> i<c type="lengthening"/>n vienna <pause/><voice:pvc> putted </voice:pvc> in language <pause/><shift corresp="#POprc522_s_22" feature="tempo" new="l" xml:id="POprc522_s_21"/> of the security council <shift corresp="#POprc522_s_21" feature="tempo" new="neutral" xml:id="POprc522_s_22"/><unclear> but he </unclear> has no <pause/> elements of sanctions or anything like <emph> that </emph><c function="fall" type="intonation"/><pause/> and he's  giving a month<c function="fall" type="intonation"/><pause/> hh so really he's giving a month to the iranians to respond positively<c function="rise" type="intonation"/><pause/> and er <pause/> in between the month remember it is the date of the twenty-second of <emph> august </emph> in which er <pause/> the president said that he <voice:track medium="1" num="6" type="md"/> would like to answer hh let me tell you also that er i had er e<c type="lengthening"/>r in the last few days hh er conversations er almost er <pause/> daily with er <pause/> the n<c type="lengthening"/>ational security adviser <unclear> doctor </unclear><supplied reason="unintelligible"> xx xx </supplied> hh er with whom i<c type="lengthening"/> i had been er <pause/> er <emph> discussing </emph> that <pause/> to the very last minute <pause/> all the questions pertaining to both<c function="fall" type="intonation"/><pause/> the resolution <pause/> and er the elements of the <pause/> agreement that er hh e<c type="lengthening"/>rm <shift corresp="#POprc522_s_24" feature="tempo" new="a" xml:id="POprc522_s_23"/> that we have presented to <emph> them </emph><shift corresp="#POprc522_s_23" feature="tempo" new="neutral" xml:id="POprc522_s_24"/> the <unclear> pack- </unclear> the <emph> packet </emph> that we presented to them<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#POprc522_S1" xml:id="POprc522_u_13"><shift corresp="#POprc522_s_26" feature="voice" new="whisp" xml:id="POprc522_s_25"/> okay <shift corresp="#POprc522_s_25" feature="voice" new="neutral" xml:id="POprc522_s_26"/><pause/><supplied reason="anonymization"> [org2] </supplied><c function="fall" type="intonation"/><pause dur="PT4S"/></u>
+            <u who="#POprc522_S7" xml:id="POprc522_u_14"><supplied reason="anonymization"> [S7] </supplied><supplied reason="anonymization"> [S7/last] </supplied> of <supplied reason="anonymization"> [org2] </supplied> er a couple of questions for the presidency and one to er mister <supplied reason="anonymization"> [S3/last] </supplied><pause/> er first of all if you could give us<c type="lengthening"/> er a better <emph> background </emph> to<c type="lengthening"/> e<c type="lengthening"/>r <pause/> the early events er some of the member states <pause/><vocal type="speaker_noise" voice:desc="swallows"/> arrived here on the basis that they believed there would not be any conclusion today and <pause/> they seemed a little bit confused and <pause/> some of them were a little bit unhappy that er <pause/> that e<c type="lengthening"/>r they weren't er informed of this and there seemed to be a bit of<c type="lengthening"/> er early division <pause/> and er <pause/> can you <pause/> tell us what sort of role er <pause/> margaret beckett the british <pause/> foreign minister played <pause/> er this afternoon er we're led to believe that she <pause/> played a significant role <pause/> and what you think this <emph> conclusion </emph> er what sort of message this will send to the united states in particular <pause/> and what sort of plans have you got <vocal type="speaker_noise" voice:desc="swallows"/> e<c type="lengthening"/>r to er address that this conclusion with er <pause/> president bush hh and er <pause/> mister <supplied reason="anonymization"> [S3/last] </supplied> er hhh <pause/> i believe you've got a letter <pause/> er from the  <w voice:mode="spelt"> u s  </w> er in the last number of days er asking you to<c type="lengthening"/> er hh er register hezbollah as a terrorist organization and er i wonder if you're intending to <emph> reply </emph> to that letter and er what your response will be to that request from the united states<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#POprc522_S2" xml:id="POprc522_u_15"> w<unclear>ell </unclear> may <pause/> i <pause/> first <pause dur="PT1S"/> note that er margaret beckett like everybody in the er <pause/> meeting played a very <emph> constructive </emph> role <pause/> and i have to say that i would have been <pause/> rather confused myself had i <pause/> er <pause/> come to the er meeting <pause/> only reading press reports er <pause/> prior press reports <pause/> e<c type="lengthening"/>r and er i didn't find any <pause/> confusion among the er er council <emph> members </emph><pause/> e<c type="lengthening"/>r of which a a er <pause/> perhaps the majority of which i had also hh the opportunity to talk on the <shift corresp="#POprc522_s_28" feature="voice" new="laugh" xml:id="POprc522_s_27"/> telephone <shift corresp="#POprc522_s_27" feature="voice" new="neutral" xml:id="POprc522_s_28"/> er <unclear> on </unclear> during er <pause/> during the previous days hh so we have been intensively er keeping contact er with with everyone<c function="fall" type="intonation"/><pause/> it is true as i <emph> mentioned </emph><pause/> that e<c type="lengthening"/>r when we called for the meeting a week ago <pause/> at that point we did not y- e<c type="lengthening"/>r necessarily see the need for new conclusions but as <pause/> indicated hh er the <pause/> events in the week and er er <pause/> surely show that these were needed an<c type="lengthening"/>d everybody agreed that <emph> nobody </emph> questioned <pause/> should we have conclusions or not <pause dur="PT1S"/> and as for er may i also comment on on the hezbollah <pause/> terrorist list issue <pause/> e<c type="lengthening"/>r given the <pause/> sensitive situation where we are i don't think this is something that we will <pause/> er be acting now <pause/> but it is <pause/><emph> can </emph> be then <pause/> later on when we <pause/> see what the outcome of the<c type="lengthening"/><pause/> o- if <pause/> out- if that is an outcome <pause/> and there surely must be an outcome of the political agreement hh <voice:track medium="1" num="7" type="md"/> to which er everybody in lebanon <pause/> should be a party to<c function="fall" type="intonation"/><pause dur="PT3S"/><incident voice:desc="some background noise"/></u>
+            <u who="#POprc522_SX-7" xml:id="POprc522_u_16"><supplied reason="unintelligible"> xx </supplied><w voice:mode="spelt"> u s  </w><pause/><w voice:mode="spelt"> u s  </w><pause/> wha- what <pause/> signal you think this sends to <unclear> you </unclear><pause/></u>
+            <u who="#POprc522_S2" xml:id="POprc522_u_17"> er erm <pause/> we will of course be e<c type="lengthening"/>r <pause/> closely informing the  <w voice:mode="spelt"> u s  </w> er about er our decisions <pause/> but imme- immediately er <pause/> this e<c type="lengthening"/>r discussions on on the <pause/> e<c type="lengthening"/>r e<c type="lengthening"/><c type="lengthening"/>r security council resolution <pause/> will continue in new york with <emph> all </emph><pause/> e<c type="lengthening"/>r the members of the council <pause/> and in particular with the central hh members er the<c type="lengthening"/> the permanent members<c function="fall" type="intonation"/> hh e<c type="lengthening"/>r but i believe that this will be actually <pause/><emph> helpful </emph> for the  <w voice:mode="spelt"> u s  </w> because they know there is a clear single european position<c function="fall" type="intonation"/><pause dur="PT4S"/></u>
+            <u who="#POprc522_S8" xml:id="POprc522_u_18"><supplied reason="anonymization"> [S8] </supplied><supplied reason="anonymization"> [S8/last] </supplied><supplied reason="anonymization"> [org3] </supplied><pause/> i wanna come back to the colleague's question about the difference between the cessation of hostilities and a ceasefire and <pause/> and i'm sorry to do that i know it's probably really embarrassing <pause/> hh e<c type="lengthening"/>r not being able to <pause/> call for a ceasefire when what you want is someone to <pause/> to cease firing hh but <pause/> given the events in <emph> rome </emph> last week where israel er hh <vocal type="speaker_noise" voice:desc="smacks lips"/> took it as a green light <pause/> e<c type="lengthening"/>r the failure <pause/> to come up with a ceasefire an- a- <pause/> aren't you afraid that the same thing might happen again today<c function="rise" type="intonation"/><pause/></u>
+            <u who="#POprc522_S2" xml:id="POprc522_u_19"> no<c function="fall" type="intonation"/><pause/> not at all and anyway i was in israel the next day from e<c type="lengthening"/>r <pause/> co- coming from rome hh e<c type="lengthening"/>r and er er made it very clear that this was a misinterpretation of a <emph> single </emph><pause/> minister hh in the israeli cabinet <emph> and </emph> the prime minister said clearly that no this was not the government's er or his hh interpretation <pause/> hh and i'm sure that there can be no misinterpretations after this hh e<c type="lengthening"/>r and i don't find it embarrassing at <emph> all </emph><pause/> er to talk about the cessation of hostilities <pause/> and ceasefire in the in the in the same sentence<c function="fall" type="intonation"/><pause dur="PT1S"/> because the as i said <pause dur="PT1S"/> the <emph> most </emph> important thing is that <pause/> no <emph> weapons </emph> will be fired<c function="fall" type="intonation"/><pause/> no people will be under <emph> fire </emph><c function="fall" type="intonation"/><pause/> this is the most important thing<c function="fall" type="intonation"/><pause dur="PT4S"/></u>
+            <u who="#POprc522_S1" xml:id="POprc522_u_20"><supplied reason="anonymization"> [org3] </supplied><pause dur="PT2S"/><shift corresp="#POprc522_s_30" feature="voice" new="whisp" xml:id="POprc522_s_29"/> yah <shift corresp="#POprc522_s_29" feature="voice" new="neutral" xml:id="POprc522_s_30"/><pause dur="PT1S"/></u>
+         </div>
+         <gap dur="PT00H01M17S" reason="not_transcribed" voice:desc="non-e; a journalist poses another question about the difference of ceasefire and cessation of hostilities in french to which S2 also replies in french; all this is simultaneously translated into english"/>
+         <div type="medium" voice:end="00:19" voice:end_medium_number="1" voice:end_track="8" voice:medium_type="md" voice:start="00:17" voice:start_medium_number="1" voice:start_track="8">
+            <u who="#POprc522_S1" xml:id="POprc522_u_21"> can you <pause/> do you want to say some<seg n="1" type="overlap" xml:id="POprc522_ol_0">thing<c function="rise" type="intonation"/></seg></u>
+            <u who="#POprc522_S3" xml:id="POprc522_u_22"><foreign type="LN" voice:translation="yes" xml:lang="fre"><seg n="1" synch="#POprc522_ol_0" type="overlap" xml:id="POprc522_ol_1"> oui </seg></foreign></u>
+         </div>
+         <gap dur="PT00H01M17S" reason="not_transcribed" voice:desc="non-e; S3 makes an additional clarification statement with regard to the previous question in french; this is simultaneously translated into english again"/>
+         <div type="medium" voice:end="01:40" voice:end_medium_number="1" voice:end_track="8" voice:medium_type="md" voice:start="01:36" voice:start_medium_number="1" voice:start_track="8">
+            <u who="#POprc522_S1" xml:id="POprc522_u_23"> lady back there and then <pause/> gentleman in the middle<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+         </div>
+         <gap dur="PT00H00M19S" reason="not_transcribed" voice:desc="non-e; a journalist poses a question to S2 and S3 on the attitude towards syria in french; this is simultaneously translated into english"/>
+         <div type="medium" voice:end="02:14" voice:end_medium_number="1" voice:end_track="8" voice:medium_type="md" voice:start="01:59" voice:start_medium_number="1" voice:start_track="8">
+            <u who="#POprc522_S2" xml:id="POprc522_u_24"> when we<c type="lengthening"/> er state that er we have asked the high representative <pause/> to remain engaged <emph> and </emph> in contact with <emph> all </emph><pause/> relevant er all the relevant parties <pause dur="PT1S"/> er that obviously means er all the states in the region<c function="rise" type="intonation"/><pause/> they are relevant parties<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+         </div>
+         <gap dur="PT00H01M00S" reason="not_transcribed" voice:desc="non-e; S3 answers the journalist's question in french; this is simultaneously translated into english"/>
+         <div type="medium" voice:end="00:50" voice:end_medium_number="1" voice:end_track="9" voice:medium_type="md" voice:start="00:14" voice:start_medium_number="1" voice:start_track="9">
+            <u who="#POprc522_S1" xml:id="POprc522_u_25"> we still have time for <pause/> two questions<c function="fall" type="intonation"/><pause dur="PT1S"/> gentleman <pause dur="PT1S"/> in the middle there<c function="fall" type="intonation"/><pause/></u>
+            <u who="#POprc522_S9" xml:id="POprc522_u_26"> hello<c function="fall" type="intonation"/><pause/><supplied reason="anonymization"> [S9] </supplied><supplied reason="anonymization"> [S9/last] </supplied> from<c type="lengthening"/> mexican agency<c type="lengthening"/><supplied reason="anonymization"> [org4] </supplied><c function="fall" type="intonation"/><pause/> i would like to know if the<c type="lengthening"/><unclear> pregons- </unclear><pause/> er presidency o<c type="lengthening"/>r the council has any declaration or if you have talk  about the<c type="lengthening"/> situation in cuba<c type="lengthening"/><c function="rise" type="intonation"/><pause/> how about fidel castro and hi<c type="lengthening"/>s health- healthy situation<c function="fall" type="intonation"/><pause dur="PT3S"/></u>
+            <u who="#POprc522_S2" xml:id="POprc522_u_27"> we have e<c type="lengthening"/>r not today <pause/> and not in recent council meetings but we <emph> have </emph> of course er <pause/> e<c type="lengthening"/>r discussed <emph> and </emph> er er adopted conclusions on the human rights situation in cuba<c function="fall" type="intonation"/> hh <pause/> but er this is not was not on today's list<c function="fall" type="intonation"/></u>
+         </div>
+         <gap dur="PT00H00M09S" reason="not_recorded" voice:desc="nothing on tape"/>
+         <div type="medium" voice:end="02:08" voice:end_medium_number="1" voice:end_track="9" voice:medium_type="md" voice:start="00:59" voice:start_medium_number="1" voice:start_track="9">
+            <u who="#POprc522_S1" xml:id="POprc522_u_28"> okay <emph> then </emph><pause/> last question <pause/><supplied reason="anonymization"> [S10] </supplied><supplied reason="anonymization"> [S10/last] </supplied><c function="fall" type="intonation"/><pause dur="PT5S"/></u>
+            <u who="#POprc522_S10" xml:id="POprc522_u_29"> yeah <supplied reason="unintelligible"> xx xx xx </supplied> finland<c function="rise" type="intonation"/><pause/><emph> regardless </emph> of the wordings of the conclusions of today er what is the presidency on the <unclear> of- </unclear><pause/> or i mean the european union going to do in the near future <pause/> about the lebanon crisis in concrete terms <pause/> are we are you just waiting for what's going to happen in new york<c function="rise" type="intonation"/> or <pause dur="PT1S"/> what's going to happen<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#POprc522_S2" xml:id="POprc522_u_30"> the five member states er er of the  <w voice:mode="spelt"> e u  </w> in the security council will work for a security council resolution <pause/> which <emph> in</emph><c type="lengthening"/><emph>corporates </emph> all the elements of er today's conclusions<c function="fall" type="intonation"/><pause/> starting out of course with the er <pause/> cessation of hostilities<c function="fall" type="intonation"/><pause dur="PT4S"/><incident dur="PT2S" voice:desc="whispered parallel conversation taking place "/> and <supplied reason="unintelligible"> xx </supplied> and by the way i it should be <pause/> added that er <pause/> er we also have a co- e<c type="lengthening"/>r in <emph> in </emph> the conclusion say <pause/> reference to the humanitarian assistance er hh and relief work that the  <w voice:mode="spelt"> e u  </w> is doing<c function="fall" type="intonation"/><pause/> and this will continue <pause/> e<c type="lengthening"/>r and engage er e<c type="lengthening"/>r the member states as well <pause dur="PT3S"/></u>
+            <u who="#POprc522_S1" xml:id="POprc522_u_31"> okay <pause/> thank you very much </u>
+            <u who="#POprc522_SX-m" xml:id="POprc522_u_32"> thank you very much<c function="fall" type="intonation"/></u>
+         </div>
+      </body>
+   </text>
+</TEI>

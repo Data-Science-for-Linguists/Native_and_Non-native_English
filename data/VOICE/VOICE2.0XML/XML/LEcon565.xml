@@ -1,0 +1,903 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="LEcon565" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>conversation about what to eat for lunch</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+            <sponsor/>
+            <respStmt>
+		<resp>Researchers</resp> 
+		<name xml:id="AB">Angelika Breiteneder</name> 
+		<name xml:id="TK">Theresa Klimpfinger</name> 
+		<name xml:id="SM">Stefan Majewski</name> 
+		<name xml:id="MLP">Marie-Luise Pitzl</name>
+	  </respStmt>
+         </titleStmt>
+         <editionStmt>
+	  <edition>Version 2.0 XML, <date>January 2013</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Stefan Majewski</name> 
+		<name>Ruth Osimk-Teasdale</name>
+		<name>Marie-Luise Pitzl</name>
+		<name>Michael Radeka</name>
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+	  <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+		<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  		<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). Minor revisions were gathered
+		  by Ruth Osimk-Teasdale and Michael Radeka and corrections were made by 
+		  Ruth Osimk-Teasdale. VOICE 2.0 XML is available for download at the VOICE 
+		  Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+	  	<p>
+          The recommended citation for VOICE 2.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 2.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka.</bibl>
+		</p>
+		<p>The short citation for VOICE 2.0 XML is:
+		</p>
+		<p>
+          <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version 2.0 XML</edition>).</bibl>
+        </p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="LEcon565_wc">Words: 3979</note>
+            <note xml:id="LEcon565_tn_0">This conversation is between two people and takes place on
+               a Saturday morning. S1 and S2 are a couple, hence the conversation is very informal.
+               They talk about and discuss what they could cook that day. They briefly speak about a
+               cooking program which they have watched on TV. While S2 is looking for recipes on the
+               internet, S1 tells S2 about an Austrian restaurant which she went to the day before.
+               S1 speaks about what she had to eat and drink there, which results in a brief
+               discussion about different kinds of coffee. S1 also tells S2 about an encounter with
+               a mouse in her office the day before. The speakers come to an agreement as to what
+               they will cook. They decide that they will go to an Argentinian coffee house on the
+               way and get ready to leave. </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H28M23S" type="audio">
+                  <date>2007-10-24</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R23</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="LEcon565_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="LEcon565_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="LEcon565_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="LEcon565_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="LEcon565_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="LEcon565_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="LEcon565_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="LEcon565_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="LEcon565_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="LEcon565_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="LEcon565_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="LEcon565_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="LEcon565_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="LEcon565_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="LEcon565_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="LEcon565_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="LEcon565_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="name" occurs="12"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="82"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="14"/>
+      <tagUsage gi="list" occurs="11"/>
+      <tagUsage gi="label" occurs="20"/>
+      <tagUsage gi="val" occurs="42"/>
+      <tagUsage gi="item" occurs="40"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="2"/>
+      <tagUsage gi="person" occurs="3"/>
+      <tagUsage gi="age" occurs="2"/>
+      <tagUsage gi="sex" occurs="2"/>
+      <tagUsage gi="occupation" occurs="1"/>
+      <tagUsage gi="langKnowledge" occurs="2"/>
+      <tagUsage gi="langKnown" occurs="2"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="7"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="1"/>
+      <tagUsage gi="u" occurs="420">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+      <tagUsage gi="emph" occurs="255">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="c" occurs="547">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="pause" occurs="436">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="26">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="unclear" occurs="42">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="w" occurs="2">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage>
+      <tagUsage gi="vocal" occurs="90">Used to mark laughter and other speaker
+        noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="shift" occurs="142">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="seg" occurs="199">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="incident" occurs="8">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="foreign" occurs="20">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the <att>voice:translation</att> attribute
+		provides a rough translation of the non-English speech into
+		English.
+		</tagUsage>
+      <tagUsage gi="supplied" occurs="28">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed
+		to be anonymized. The <att>reason</att> attribute is used to
+		mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:pvc" occurs="5">Used to mark a pronunciation
+		variation or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+		VOICE mark-up conventions [2.1].</ref>the
+		VOICE mark-up conventions [2.1]. An existing word
+		corresponding to the PVC may be provided within a
+		<att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc
+		element. Additional phonetic transcription may be provided
+		within a <att>voice:ipa</att>voice:ipa attribute within the
+		<gi>voice:pvc</gi>voice:pvc element.</tagUsage>
+      <tagUsage gi="voice:track" occurs="9">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in
+		length) and thus refers to the audio recording of the
+		transcribed speech event.
+		</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#LEcon565_LE #LEcon565_con"/>
+            <catRef target="#LE #con"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">GB</name>
+               <name type="city">London</name>
+               <locale>private apartment</locale>
+               <activity>writing shopping list; checking websites</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="2"/>
+                  <personGrp role="interactants" size="2"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="participant" sameAs="#P730" xml:id="LEcon565_S1">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <occupation>university lecturer</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ita-IT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P731" xml:id="LEcon565_S2">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-DE"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person sameAs="#SS" xml:id="LEcon565_SS"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#LEcon565_S1 #LEcon565_S2" name="fairly_symmetrical" type="power"/>
+                  <relation mutual="#LEcon565_S1 #LEcon565_S2" name="acquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2012-07-02" who="RO">changes for VOICE 2.0</change>
+         <change when="2011-01-24" who="RO">changes for VOICE 1.1</change>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-11" who="TK">finalized for publication</change>
+         <change when="2008-08-04" who="TK">proof-reading</change>
+         <change when="2008-05-04" who="RO">checking</change>
+         <change when="2008-01-27" who="AW">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="01:23" voice:end_medium_number="1" voice:end_track="10" voice:medium_type="md" voice:start="00:01" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_1"> some <emph> cook</emph>ing<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_2"> yeah </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_3"> what do you <emph> mean </emph> some cooking<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_4"> like <pause/> fruit and veg and <pause/> chocolate<c function="rise" type="intonation"/> and stuff <pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_5"> well you need to go and <emph> buy </emph> it<c function="fall" type="intonation"/><anchor synch="#LEcon565_oc_1" type="other_continuation" xml:id="LEcon565_oc_0"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_6"><anchor synch="#LEcon565_oc_0" type="other_continuation" xml:id="LEcon565_oc_1"/> hm that's what i mean yeah </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_7"> yeah yeah yeah </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_8"> so i mean i have s- do some thinking first<c function="fall" type="intonation"/> what we've <pause/> gotta buy <pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_9"> yeah <pause/> okay <pause dur="PT5S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_10"> what are your er ideas<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_11"> my ideas<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_12"><unclear> they </unclear> inspired by the <w voice:mode="spelt"> t v </w></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_13"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="6"/> why don't we do the <emph> clam </emph> soup<c function="fall" type="intonation"/><pause/><shift corresp="#LEcon565_s_2" feature="voice" new="laugh" xml:id="LEcon565_s_1"/> that they were doing the <shift corresp="#LEcon565_s_1" feature="voice" new="neutral" xml:id="LEcon565_s_2"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_14"> okay<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_15"> no <shift corresp="#LEcon565_s_4" feature="tempo" new="a" xml:id="LEcon565_s_3"/> no no <shift corresp="#LEcon565_s_3" feature="tempo" new="neutral" xml:id="LEcon565_s_4"/><seg n="1" type="overlap" xml:id="LEcon565_ol_0"> i don't feel like </seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_16"><seg n="1" synch="#LEcon565_ol_0" type="overlap" xml:id="LEcon565_ol_1"> why not<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_17"> well i don't feel like opening clams like they would <seg n="9" type="overlap" xml:id="LEcon565_ol_2"> do </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_18"><seg n="9" synch="#LEcon565_ol_2" type="overlap" xml:id="LEcon565_ol_3"> hh </seg><seg n="10" type="overlap" xml:id="LEcon565_ol_4"> shall </seg> we do the <pause dur="PT1S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_19"><seg n="10" synch="#LEcon565_ol_4" type="overlap" xml:id="LEcon565_ol_5"> s- </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_20"> fish<c function="fall" type="intonation"/><pause/> in red wi- no you don't like red wine <pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_21"> no <pause/><shift corresp="#LEcon565_s_6" feature="voice" new="yawning" xml:id="LEcon565_s_5"/> no the fish<c function="fall" type="intonation"/> at all <shift corresp="#LEcon565_s_5" feature="voice" new="neutral" xml:id="LEcon565_s_6"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_22"> what was the other sophisticated fish thing i did<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_23"><vocal type="speaker_noise" voice:desc="smacks lips"/> oh it was something like crab with peas and <seg n="2" type="overlap" xml:id="LEcon565_ol_6"> erm </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_24"><seg n="2" synch="#LEcon565_ol_6" type="overlap" xml:id="LEcon565_ol_7"> oh </seg> yeah<c function="fall" type="intonation"/> that's <pause/> no not the peas i didn't like that<c function="fall" type="intonation"/> but the other one had <pause/> i think it was a fish<c function="rise" type="intonation"/> and had like shrimps<c function="rise" type="intonation"/> on top<c function="rise" type="intonation"/> or something<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_25"> hm<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_26"> no<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_27"> why don't we go to the fishmonger <pause/> and see what <emph> they </emph> have<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_28"> then we can surf the internet<c function="fall" type="intonation"/> to see whether we find a <pause/> recipe for that fish<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_29"><shift corresp="#LEcon565_s_8" feature="voice" new="laugh" xml:id="LEcon565_s_7"/> okay <shift corresp="#LEcon565_s_7" feature="voice" new="neutral" xml:id="LEcon565_s_8"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_30"> but we <seg n="8" type="overlap" xml:id="LEcon565_ol_8"> ask </seg> for an english fish<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_31"><seg n="8" synch="#LEcon565_ol_8" type="overlap" xml:id="LEcon565_ol_9"> yah<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_32"> yeah<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_33"> no<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_34"> okay<c function="fall" type="intonation"/><pause/> so fi- fish<emph>monger </emph><c function="rise" type="intonation"/><pause dur="PT2S"/><incident dur="PT2S" voice:desc="writing it down "/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_35"> but <pause/> get filets no<c function="rise" type="intonation"/> so we don't have to take them <unclear> out </unclear> in a funny way<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_36"> hh no they cut it for you<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_37"> they do that<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_38"> yeah yeah yeah<c function="fall" type="intonation"/><seg n="3" type="overlap" xml:id="LEcon565_ol_10"> last time they did<c function="fall" type="intonation"/></seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_39"><seg n="3" synch="#LEcon565_ol_10" type="overlap" xml:id="LEcon565_ol_11"><unclear> oh that's the same then </unclear></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_40"> n-n<c function="fall" type="intonation"/><pause/> and erm <pause/> e<c type="lengthening"/>r in front of the fishmonger you've got the stall with the <pause/> with the<c type="lengthening"/> veggie <pause dur="PT2S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_41"> yeah veggies <unclear> are </unclear> all over the place <seg n="10" type="overlap" xml:id="LEcon565_ol_12"> huh<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_42"><seg n="10" synch="#LEcon565_ol_12" type="overlap" xml:id="LEcon565_ol_13"> yeah<c function="fall" type="intonation"/></seg> so we buy the <emph> veggies </emph><c function="rise" type="intonation"/> hhh what do we need as well<c function="fall" type="intonation"/><pause/> with<c type="lengthening"/> a bit of frui<c type="lengthening"/>t <pause dur="PT2S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_43"> hm<c function="fall" type="intonation"/><pause dur="PT2S"/> ten kilos of banana<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_44"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><pause/> hh yeah then we could buy <emph> that </emph><c function="rise" type="intonation"/> er we <emph> s</emph><c type="lengthening"/><emph>till </emph> have please remind me we still have <emph> loads </emph> of potatoes <seg n="4" type="overlap" xml:id="LEcon565_ol_14"><unclear> not to buy any </unclear></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_45"><seg n="4" synch="#LEcon565_ol_14" type="overlap" xml:id="LEcon565_ol_15"> do you not </seg> shall we do the dessert with banana<c function="fall" type="intonation"/><pause dur="PT2S"/><seg n="5" type="overlap" xml:id="LEcon565_ol_16"> was </seg> like caramel and stuff<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_46"><seg n="5" synch="#LEcon565_ol_16" type="overlap" xml:id="LEcon565_ol_17"> hm<c type="lengthening"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_47"><shift corresp="#LEcon565_s_10" feature="voice" new="whisp" xml:id="LEcon565_s_9"/> e<c type="lengthening"/>r <shift corresp="#LEcon565_s_9" feature="voice" new="neutral" xml:id="LEcon565_s_10"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_48"> o<c type="lengthening"/>r what was that<c function="rise" type="intonation"/><foreign type="LN" voice:translation="sweet milk" xml:lang="spa"> dulce leche </foreign><pause dur="PT1S"/> and banana<c function="fall" type="intonation"/><pause dur="PT1S"/> like you did in the last <pause/><shift corresp="#LEcon565_s_12" feature="loud" new="p" xml:id="LEcon565_s_11"/> but <supplied reason="unintelligible"> xxx </supplied><shift corresp="#LEcon565_s_11" feature="loud" new="neutral" xml:id="LEcon565_s_12"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_49"> i did it right<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_50"> what <foreign type="LN" voice:translation="sweet milk" xml:lang="spa"> dulce leche </foreign> and banana <pause dur="PT1S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_51"> y- last do you remember once<c function="fall" type="intonation"/> i cut the banana and put the <foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce de leche </foreign> on the top <pause/> and put it <pause/> warm in the<c type="lengthening"/> erm <pause/> yeah that's a <emph> crap </emph> dessert it takes one second to <shift corresp="#LEcon565_s_14" feature="voice" new="laugh" xml:id="LEcon565_s_13"/> do<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_13" feature="voice" new="neutral" xml:id="LEcon565_s_14"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="6" type="overlap" xml:id="LEcon565_ol_18"> you <unclear> cut </unclear> it </seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_52"><seg n="6" synch="#LEcon565_ol_18" type="overlap" xml:id="LEcon565_ol_19"> no but it's a </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_53"> you put it warm into the erm<c type="lengthening"/><pause/> the microwave<c function="fall" type="intonation"/> you make it warm<c function="fall" type="intonation"/><pause dur="PT1S"/><shift corresp="#LEcon565_s_16" feature="voice" new="yawning" xml:id="LEcon565_s_15"/> okay yeah let's <shift corresp="#LEcon565_s_15" feature="voice" new="neutral" xml:id="LEcon565_s_16"/> have bananas anyway<c function="fall" type="intonation"/> well <seg n="7" type="overlap" xml:id="LEcon565_ol_20"> we we </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_54"><seg n="7" synch="#LEcon565_ol_20" type="overlap" xml:id="LEcon565_ol_21"> then put </seg><foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce dulce de leche </foreign> as well <pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_55"> if we <emph> find </emph> it <pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_56"> well is that is it <voice:pvc> spanishy </voice:pvc> or <voice:pvc> portuguesey </voice:pvc><voice:track medium="1" num="2" type="md"/><pause/> whatever shop<c function="fall" type="intonation"/> and they should <emph> have </emph> it<c function="fall" type="intonation"/> well </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_57"> and most of the stuff there is caribbean<c type="lengthening"/><pause/> and <pause/> arabic <pause/> and <pause dur="PT2S"/> well we <emph> see </emph><c function="fall" type="intonation"/> we ca<seg n="1" type="overlap" xml:id="LEcon565_ol_22">n<c type="lengthening"/> look<c function="fall" type="intonation"/></seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_58"><seg n="1" synch="#LEcon565_ol_22" type="overlap" xml:id="LEcon565_ol_23"> let's go to </seg><supplied reason="unintelligible"> xxx </supplied> star<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_59"> but that's on the other <pause/> end right<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_60"> yeah<c function="fall" type="intonation"/> so we have a bit of a walk<c function="rise" type="intonation"/> on a nice saturday morning<c function="rise" type="intonation"/><pause/> haeh<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_61"> okay well<c function="fall" type="intonation"/> first we go to the<c type="lengthening"/> erm<c type="lengthening"/><pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> to <unclear> east streets </unclear> market and see if they've got the <foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce de leche </foreign> hm<c function="rise" type="intonation"/><pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> okay<c function="rise" type="intonation"/><pause/> then<c type="lengthening"/><pause dur="PT1S"/> or i <shift corresp="#LEcon565_s_18" feature="voice" new="whisp" xml:id="LEcon565_s_17"/> can make a cake<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_17" feature="voice" new="neutral" xml:id="LEcon565_s_18"/><pause dur="PT2S"/> with the <emph> nice </emph><supplied reason="unintelligible" voice:ipa="skeɪv"> x </supplied> that you gave me<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_62"> i <unclear> somehow </unclear> think of banana and <foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce de leche </foreign> for some reason<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_63"><shift corresp="#LEcon565_s_20" feature="voice" new="whisp" xml:id="LEcon565_s_19"/> hh god <shift corresp="#LEcon565_s_19" feature="voice" new="neutral" xml:id="LEcon565_s_20"/><pause/> well i make the cake for myself then<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_64"> no no no i mean you can com<emph>bine </emph> it<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_65"> okay <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/> all right<c function="fall" type="intonation"/> and er er<seg n="8" type="overlap" xml:id="LEcon565_ol_24">m<c type="lengthening"/><c type="lengthening"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_66"><seg n="8" synch="#LEcon565_ol_24" type="overlap" xml:id="LEcon565_ol_25"> but then the cake wouldn't be for dessert<c function="fall" type="intonation"/><pause/> all </seg> right<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_67"> well <emph> i </emph> eat it for dessert <emph> you </emph> eat it whenever you <emph> want </emph><c function="fall" type="intonation"/><anchor synch="#LEcon565_oc_3" type="other_continuation" xml:id="LEcon565_oc_2"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_68"><anchor synch="#LEcon565_oc_2" type="other_continuation" xml:id="LEcon565_oc_3"/> no i mean it <emph> takes </emph> too <emph> long </emph><c function="fall" type="intonation"/><pause/> that's <unclear> well </unclear><pause dur="PT1S"/> eating it </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_69"> ah for de- dessert after <emph> lunch </emph><seg n="2" type="overlap" xml:id="LEcon565_ol_26"> you </seg> mean<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_70"><seg n="2" synch="#LEcon565_ol_26" type="overlap" xml:id="LEcon565_ol_27"> yeah </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_71"> no it will be i make it in the afternoon or something<c function="fall" type="intonation"/> hh <pause/> okay<c function="fall" type="intonation"/><pause/> and then er <pause dur="PT1S"/><shift corresp="#LEcon565_s_22" feature="loud" new="p" xml:id="LEcon565_s_21"/> er <shift corresp="#LEcon565_s_21" feature="loud" new="neutral" xml:id="LEcon565_s_22"/><pause/> need buy <emph> milk </emph><c function="fall" type="intonation"/><pause dur="PT3S"/> and <emph> eggs </emph><c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_72"> and in terms of vegetables<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_73"> oh we just buy what they <emph> have </emph><c function="fall" type="intonation"/><pause/> if they've got fresh vegetables of the <emph> sea</emph>son <pause/> they always have tomatoes<c function="rise" type="intonation"/><pause/> so that those ones we <seg n="3" type="overlap" xml:id="LEcon565_ol_28"> can buy<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_74"><seg n="3" synch="#LEcon565_ol_28" type="overlap" xml:id="LEcon565_ol_29"> though </seg> they are not re<c type="lengthening"/>ally the seasonal<c function="rise" type="intonation"/><pause dur="PT2S"/> are <seg n="4" type="overlap" xml:id="LEcon565_ol_30"> they<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_75"><seg n="4" synch="#LEcon565_ol_30" type="overlap" xml:id="LEcon565_ol_31"><emph> jo</emph></seg>king<c function="fall" type="intonation"/> they've got <emph> leeks </emph><c function="fall" type="intonation"/> and er </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_76"> no i mean tom<emph>a</emph>toes are not seasonal<c function="fall" type="intonation"/><anchor synch="#LEcon565_oc_5" type="other_continuation" xml:id="LEcon565_oc_4"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_77"><anchor synch="#LEcon565_oc_4" type="other_continuation" xml:id="LEcon565_oc_5"/> ah no tomatoes no<c type="lengthening"/><shift corresp="#LEcon565_s_24" feature="tempo" new="a" xml:id="LEcon565_s_23"/> no no <shift corresp="#LEcon565_s_23" feature="tempo" new="neutral" xml:id="LEcon565_s_24"/> no<c function="fall" type="intonation"/><pause/> th- i said they always  have tomatoes<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_78"> we still have leek no<c function="rise" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_79"> the <emph> half </emph> of it<c function="fall" type="intonation"/><pause dur="PT1S"/> and i'v<seg n="5" type="overlap" xml:id="LEcon565_ol_32"><c type="lengthening"/>e </seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_80"><seg n="5" synch="#LEcon565_ol_32" type="overlap" xml:id="LEcon565_ol_33"> no one </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_81"> i yeah but i wanted to make leek and t- er potato soup<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_82"> leek potato<c function="fall" type="intonation"/> yeah <seg n="9" type="overlap" xml:id="LEcon565_ol_34"> so that's </seg> do a big <pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_83"><seg n="9" synch="#LEcon565_ol_34" type="overlap" xml:id="LEcon565_ol_35"> yeah </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_84"> b- er a soup yeah </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_85"> yeah <pause/> it's also good for your cold<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_86"> so what does leek and potato soup <emph> have </emph><c function="fall" type="intonation"/> apart from leek and <pause/> potato </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_87"> well i had  to look it up<c function="fall" type="intonation"/> but you see i looked it up in those <emph> books </emph></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_88"> shall i surf the internet <pause/><seg n="5" type="overlap" xml:id="LEcon565_ol_36"> to check </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_89"><seg n="5" synch="#LEcon565_ol_36" type="overlap" xml:id="LEcon565_ol_37"> hh </seg><pause/> o<shift corresp="#LEcon565_s_26" feature="voice" new="laugh" xml:id="LEcon565_s_25"/>kay<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_25" feature="voice" new="neutral" xml:id="LEcon565_s_26"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_90"> yeah<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_91"> hh unless you find the <emph> book </emph><c function="fall" type="intonation"/> upstairs<c function="fall" type="intonation"/> the books<c function="fall" type="intonation"/><seg n="6" type="overlap" xml:id="LEcon565_ol_38"> the </seg> recipe books<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_92"><seg n="6" synch="#LEcon565_ol_38" type="overlap" xml:id="LEcon565_ol_39"> it's </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_93"> it takes <emph> long</emph>er to find the book <pause/> than to <pause/><unclear> actually do the cooking </unclear></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_94"> do you wanna surf the internet now<c function="rise" type="intonation"/> before we go<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_95"> yeah <incident voice:desc="S2 gets up"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_96"> okay<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_97"> hhh <pause dur="PT2S"/> are you re<emph>cor</emph>ding this<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_98"> yes </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_99"><unclear> o</unclear>kay </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_100"> so be<emph>have </emph><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_101"> no i should be <emph> na</emph>tural <pause dur="PT2S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_102"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_103"> it shouldn't be artificially app<emph>lied </emph></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_104"> no<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_105"> otherwise it's not proper research <pause dur="PT14S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_106"> o<c type="lengthening"/>h yesterday i went to this cafe<c function="rise" type="intonation"/><pause/> with er <voice:track medium="1" num="3" type="md"/><supplied reason="anonymization"> [first name1] </supplied><c function="rise" type="intonation"/><pause/> it's in erm <pause/> at near the barbican<c function="fall" type="intonation"/><pause/> where are you sitting<c function="fall" type="intonation"/> here<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_107"> yes<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_28" feature="loud" new="p" xml:id="LEcon565_s_27"/> so i can go <seg n="7" type="overlap" xml:id="LEcon565_ol_40"> for </seg> that <shift corresp="#LEcon565_s_27" feature="loud" new="neutral" xml:id="LEcon565_s_28"/><emph> ca</emph>ble <pause dur="PT3S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_108"><seg n="7" synch="#LEcon565_ol_40" type="overlap" xml:id="LEcon565_ol_41"> okay </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_109"> it's a cafe near the barbican<c function="rise" type="intonation"/><pause dur="PT8S"/><shift corresp="#LEcon565_s_30" feature="loud" new="p" xml:id="LEcon565_s_29"/><supplied reason="unintelligible"> xxxx </supplied><shift corresp="#LEcon565_s_29" feature="loud" new="neutral" xml:id="LEcon565_s_30"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_110"> what did you have<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_111"> well it's called <foreign type="LN" voice:translation="crescent-shaped pastry" xml:lang="ger"><emph> kipf</emph>erl </foreign><pause/> and it's an austrian cafe<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_112"> sounds austrian<c function="rise" type="intonation"/> hh </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_113"><emph> yes </emph><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><pause/></u>
+            <u who="#LEcon565_SS" xml:id="LEcon565_u_114"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_115"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_116"> what does <foreign type="LN" voice:translation="crescent-shaped pastry" xml:lang="ger"><emph> kipferl </emph></foreign> mean<c function="fall" type="intonation"/> it's one of the <emph> cakes </emph> or something<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_117"> it's <shift corresp="#LEcon565_s_32" feature="tempo" new="l" xml:id="LEcon565_s_31"/> somethin<c type="lengthening"/>g <shift corresp="#LEcon565_s_31" feature="tempo" new="neutral" xml:id="LEcon565_s_32"/> like that<c function="fall" type="intonation"/> yeah<c function="fall" type="intonation"/><pause/><shift corresp="#LEcon565_s_34" feature="tempo" new="a" xml:id="LEcon565_s_33"/> something <shift corresp="#LEcon565_s_33" feature="tempo" new="neutral" xml:id="LEcon565_s_34"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_118"> and erm <pause dur="PT3S"/> and i bought this<c type="lengthening"/> er <emph> pesto </emph> with pumpkin seeds<c function="fall" type="intonation"/><pause/> do you <emph> know </emph> it<c function="fall" type="intonation"/><pause dur="PT3S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_119"> no<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_120"> but i left it in the <seg n="1" type="overlap" xml:id="LEcon565_ol_42"> office<c function="fall" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_121"><seg n="1" synch="#LEcon565_ol_42" type="overlap" xml:id="LEcon565_ol_43"><emph> au</emph>strian </seg><emph> pest</emph>o </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_122"> yeah </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_123"> sounds like an <pause/> how do you say <voice:pvc> anachrom </voice:pvc></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_124"><shift corresp="#LEcon565_s_36" feature="voice" new="laugh" xml:id="LEcon565_s_35"/> anachronism <shift corresp="#LEcon565_s_35" feature="voice" new="neutral" xml:id="LEcon565_s_36"/><seg n="2" type="overlap" xml:id="LEcon565_ol_44"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="7"/></seg> an oxymoron<c function="fall" type="intonation"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_125"><seg n="2" synch="#LEcon565_ol_44" type="overlap" xml:id="LEcon565_ol_45"> anachronism<c function="fall" type="intonation"/> no<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_126"> yeah <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> maybe <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> i don't know<c function="fall" type="intonation"/> may- i <emph> think </emph> er <supplied reason="anonymization"> [first name1] </supplied> told me it's a speciality<c function="fall" type="intonation"/><pause/> so <emph> i </emph> bought it<c function="fall" type="intonation"/><pause/> it's a pumpkin seed pesto<c function="fall" type="intonation"/> it doesn't look i mean it <emph> looks </emph> like a sauce <pause/> but it's<c function="fall" type="intonation"/><emph> not </emph> pesto i mean they call it <emph> pe</emph>sto <pause/> just to make it a bit <pause/> more <shift corresp="#LEcon565_s_38" feature="voice" new="laugh" xml:id="LEcon565_s_37"/> appealing<c function="rise" type="intonation"/> or something<c function="rise" type="intonation"/><shift corresp="#LEcon565_s_37" feature="voice" new="neutral" xml:id="LEcon565_s_38"/> i don't know<c function="rise" type="intonation"/> hh but erm<c type="lengthening"/><pause/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause/> a<c type="lengthening"/>h i forgot it<c function="fall" type="intonation"/><pause/> i left it on the <emph> desk </emph> of my <emph> o</emph>ffice <pause dur="PT5S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_127"> doesn't go with leek and potato any of that </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_128"> i don't know<c function="rise" type="intonation"/><pause/> but i have the re<seg n="3" type="overlap" xml:id="LEcon565_ol_46">cipe </seg> for it<c function="fall" type="intonation"/> or i <seg n="4" type="overlap" xml:id="LEcon565_ol_47"> have </seg> to ask <supplied reason="anonymization"> [first name1] </supplied> for <seg n="5" type="overlap" xml:id="LEcon565_ol_48"> how <pause/> to use it<c function="fall" type="intonation"/></seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_129"><seg n="3" synch="#LEcon565_ol_46" type="overlap" xml:id="LEcon565_ol_49"><emph> pesto </emph><c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_130"><seg n="4" synch="#LEcon565_ol_47" type="overlap" xml:id="LEcon565_ol_50"> no<c function="fall" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_131"><seg n="5" synch="#LEcon565_ol_48" type="overlap" xml:id="LEcon565_ol_51"> it's completely different </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_132"><seg n="6" type="overlap" xml:id="LEcon565_ol_52"> hm<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_133"><seg n="6" synch="#LEcon565_ol_52" type="overlap" xml:id="LEcon565_ol_53"><unclear> pota- </unclear></seg> leek and potatoes<c function="fall" type="intonation"/> completely different direction<c function="fall" type="intonation"/> to <emph> pesto </emph></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_134"> but it's not a pesto pesto like in the <seg n="9" type="overlap" xml:id="LEcon565_ol_54"><c type="lengthening"/></seg> typical sense<c function="fall" type="intonation"/> it's pumpkin <emph> seeds </emph><c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_135"><seg n="9" synch="#LEcon565_ol_54" type="overlap" xml:id="LEcon565_ol_55"> hm </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_136"> made with some sort of <emph> sauce </emph><c function="fall" type="intonation"/> i think<c function="fall" type="intonation"/><pause/> well i don't know anyway i should ask how to <pause/> use it<c function="fall" type="intonation"/> because i have <emph> no </emph> idea<c function="fall" type="intonation"/><pause dur="PT2S"/> i just bought it because she said it wer- and <pause/> and the and the shop and the<c type="lengthening"/> erm<c type="lengthening"/> the cafe is a cafe delicatessen<c function="fall" type="intonation"/><pause/> so it's got all this er like austrian stuff<c function="fall" type="intonation"/><pause/> and er <supplied reason="anonymization"> [first name1] </supplied> bought <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#LEcon565_s_40" feature="voice" new="laugh" xml:id="LEcon565_s_39"/> le- <shift corresp="#LEcon565_s_39" feature="voice" new="neutral" xml:id="LEcon565_s_40"/> she filled up bag full like that of erm <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> erm <pause/> a strange <pause dur="PT2S"/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause dur="PT1S"/> pumpkin seed oil<c function="rise" type="intonation"/><pause/> i think it was<c function="rise" type="intonation"/> something like that<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_137"> so it's all about pumpkins there </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_138"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#LEcon565_s_42" feature="voice" new="laugh" xml:id="LEcon565_s_41"/> yeah <shift corresp="#LEcon565_s_41" feature="voice" new="neutral" xml:id="LEcon565_s_42"/></u>
+            <u who="#LEcon565_SS" xml:id="LEcon565_u_139"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_140"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> because of hallo<emph>wee</emph><c type="lengthening"/><emph>n </emph><c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_141"> o<c type="lengthening"/>h <seg n="6" type="overlap" xml:id="LEcon565_ol_56"> maybe<c type="lengthening"/><c type="lengthening"/> yeah but what's </seg> got to do halloween with <shift corresp="#LEcon565_s_44" feature="voice" new="laugh" xml:id="LEcon565_s_43"/> austria<c function="fall" type="intonation"/> any<seg n="7" type="overlap" xml:id="LEcon565_ol_57">way </seg><shift corresp="#LEcon565_s_43" feature="voice" new="neutral" xml:id="LEcon565_s_44"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_142"><seg n="6" synch="#LEcon565_ol_56" type="overlap" xml:id="LEcon565_ol_58"><emph> tha</emph><c type="lengthening"/><emph>t's </emph> why<c type="lengthening"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_143"><seg n="7" synch="#LEcon565_ol_57" type="overlap" xml:id="LEcon565_ol_59"> hall- </seg> halloween is all over the place no<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_144"> yeah but that's apparently an austria speci<emph>a</emph>lity<c function="fall" type="intonation"/><pause dur="PT1S"/> it's a speci<emph>a</emph>lity i mean <pause/> unless it's a speciality that was invented <pause/> after halloween took over in austria <pause/> but anyway<c function="fall" type="intonation"/><pause/> and then there was er she bought this erm oddly <emph> stuff </emph><voice:track medium="1" num="4" type="md"/> for <supplied reason="anonymization"> [first name2] </supplied><c function="rise" type="intonation"/><pause/> er like erm <vocal type="speaker_noise" voice:desc="smacks lips"/><pause/> that's er two types of <emph> beer </emph> and e<c type="lengthening"/>r <pause/> there was erm <pause/> like they had very nice <emph> jams </emph> a<c type="lengthening"/>nd <pause/> chocolate <pause dur="PT2S"/><vocal type="speaker_noise" voice:desc="smacks lips"/> i put <anchor synch="#LEcon565_oc_7" type="other_continuation" xml:id="LEcon565_oc_6"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_145"><anchor synch="#LEcon565_oc_6" type="other_continuation" xml:id="LEcon565_oc_7"/> why didn't you buy any beer for me </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_146"> bu- i was out i was going <seg n="7" type="overlap" xml:id="LEcon565_ol_60"> out </seg> for <emph> dinner </emph><c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_147"><seg n="7" synch="#LEcon565_ol_60" type="overlap" xml:id="LEcon565_ol_61"> hm<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_148"> i didn't wanna b- <emph> buy </emph> things that i <seg n="1" type="overlap" xml:id="LEcon565_ol_62"> had to </seg> carry<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_149"><seg n="1" synch="#LEcon565_ol_62" type="overlap" xml:id="LEcon565_ol_63"> mhm<c function="fall" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_150"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_151"> that's why i left the pesto in the office in the end<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_152"> i see<c function="fall" type="intonation"/><supplied reason="anonymization"> [first name1] </supplied> buys beer for <supplied reason="anonymization"> [first name2] </supplied><c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_153"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="9" type="overlap" xml:id="LEcon565_ol_64"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_154"><seg n="9" synch="#LEcon565_ol_64" type="overlap" xml:id="LEcon565_ol_65"> and you </seg> never buy beer for <shift corresp="#LEcon565_s_46" feature="voice" new="laugh" xml:id="LEcon565_s_45"/> me<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_45" feature="voice" new="neutral" xml:id="LEcon565_s_46"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_155"><shift corresp="#LEcon565_s_48" feature="voice" new="laugh" xml:id="LEcon565_s_47"/> what do you buy for me <shift corresp="#LEcon565_s_47" feature="voice" new="neutral" xml:id="LEcon565_s_48"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_156"><shift corresp="#LEcon565_s_50" feature="loud" new="f" xml:id="LEcon565_s_49"/> chocolate<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_49" feature="loud" new="neutral" xml:id="LEcon565_s_50"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_157"> when<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_158"> all the <emph> ti</emph><c type="lengthening"/><emph>me </emph></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_159"> sometimes<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_160"> no almost every<emph>day </emph></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_161"><shift corresp="#LEcon565_s_52" feature="voice" new="yawning" xml:id="LEcon565_s_51"/> well i cook for you <shift corresp="#LEcon565_s_51" feature="voice" new="neutral" xml:id="LEcon565_s_52"/><pause dur="PT1S"/><supplied reason="unintelligible"> xx </supplied><pause dur="PT5S"/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause dur="PT3S"/> but it was <emph> r</emph><c type="lengthening"/><emph>e</emph><c type="lengthening"/><emph>ally </emph> cute restaurant<c function="fall" type="intonation"/> and we had this<c type="lengthening"/> erm <pause/> everything is in austrian<c function="rise" type="intonation"/><pause dur="PT1S"/> so there was <seg n="2" type="overlap" xml:id="LEcon565_ol_66"> this </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_162"><seg n="2" synch="#LEcon565_ol_66" type="overlap" xml:id="LEcon565_ol_67"> in </seg><emph> au</emph>strian<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_163"> yeah<c function="fall" type="intonation"/> not <seg n="3" type="overlap" xml:id="LEcon565_ol_68"> even in german<c function="fall" type="intonation"/></seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_164"><seg n="3" synch="#LEcon565_ol_68" type="overlap" xml:id="LEcon565_ol_69"> do you mean in <emph> ger</emph>man </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_165"> no no no <emph> no </emph><c function="fall" type="intonation"/> in erm<c type="lengthening"/><anchor synch="#LEcon565_oc_9" type="other_continuation" xml:id="LEcon565_oc_8"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_166"><anchor synch="#LEcon565_oc_8" type="other_continuation" xml:id="LEcon565_oc_9"/> austrian doesn't ex<emph>ist </emph><c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_167"> well i'm sorry <seg n="8" type="overlap" xml:id="LEcon565_ol_70"> but she said everything </seg> is in a <emph> dia</emph>lect <pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_168"><seg n="8" synch="#LEcon565_ol_70" type="overlap" xml:id="LEcon565_ol_71"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_169"> of something<c function="fall" type="intonation"/> you know<c function="rise" type="intonation"/><pause/> e<c type="lengthening"/>rm the variety in <pause/> wherever <pause/> that <pause/> erm<c type="lengthening"/> shop is from i don't know<c function="fall" type="intonation"/><pause dur="PT1S"/> and erm <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause/><shift corresp="#LEcon565_s_54" feature="loud" new="p" xml:id="LEcon565_s_53"/> m- <shift corresp="#LEcon565_s_53" feature="loud" new="neutral" xml:id="LEcon565_s_54"/> because there was a <emph> list </emph> of things that they were erm <vocal type="speaker_noise" voice:desc="smacks lips"/><pause/> selling<c function="fall" type="intonation"/> like food recipes<c function="fall" type="intonation"/> and she said er hh well if you look at <emph> those </emph><c function="fall" type="intonation"/><pause/> they are all in er er <pause/><shift corresp="#LEcon565_s_56" feature="voice" new="laugh" xml:id="LEcon565_s_55"/> in <shift corresp="#LEcon565_s_55" feature="voice" new="neutral" xml:id="LEcon565_s_56"/><pause/><emph> dia</emph>lect<c function="fall" type="intonation"/> hh <pause/><vocal voice:desc="clears throat"/> then i didn't understand <emph> any </emph> any of those but you could <emph> see </emph> them in the<c function="fall" type="intonation"/> counter<c function="fall" type="intonation"/><pause/> some kind of salad<c function="fall" type="intonation"/> potato salad with er <emph> sau</emph>sages and stuff like that<c function="fall" type="intonation"/><pause/> and erm <pause dur="PT2S"/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause dur="PT1S"/> but i- it was afternoon so i got just a <emph> co</emph>ffee but i y- you look at the<c type="lengthening"/> list of coffee<c function="rise" type="intonation"/> and there was this <pause/> coffee called me<emph>lange </emph><pause dur="PT1S"/><shift corresp="#LEcon565_s_58" feature="tempo" new="a" xml:id="LEcon565_s_57"/> and i went <shift corresp="#LEcon565_s_57" feature="tempo" new="neutral" xml:id="LEcon565_s_58"/><pause/> what is melange to <supplied reason="anonymization"> [first name1] </supplied> and erm and then she went oh it's <pause/> just you know <vocal type="speaker_noise" voice:desc="smacks lips"/> it's <seg n="4" type="overlap" xml:id="LEcon565_ol_72"><emph> milk </emph><c function="fall" type="intonation"/></seg> with coffee<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_170"><seg n="4" synch="#LEcon565_ol_72" type="overlap" xml:id="LEcon565_ol_73"> milk </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_171"> and it's cappuccino<c function="fall" type="intonation"/> that's what you mean<c function="fall" type="intonation"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="9" type="overlap" xml:id="LEcon565_ol_74"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#LEcon565_s_60" feature="voice" new="laugh" xml:id="LEcon565_s_59"/> is <emph> that </emph> what you <emph> mean </emph><c type="lengthening"/><shift corresp="#LEcon565_s_59" feature="voice" new="neutral" xml:id="LEcon565_s_60"/> and she went no it's not cappuccino it's different <emph> try </emph> it<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_172"><seg n="9" synch="#LEcon565_ol_74" type="overlap" xml:id="LEcon565_ol_75"> oh </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_173"> mela<c type="lengthening"/>nge <pause/> this sounds it's a typical austrian<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_62" feature="loud" new="p" xml:id="LEcon565_s_61"/><supplied reason="unintelligible"> xx </supplied> that sort of thing <shift corresp="#LEcon565_s_61" feature="loud" new="neutral" xml:id="LEcon565_s_62"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_174"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/> i <seg n="1" type="overlap" xml:id="LEcon565_ol_76"> don't know </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_175"><seg n="1" synch="#LEcon565_ol_76" type="overlap" xml:id="LEcon565_ol_77"> actually </seg> my <emph> sis</emph>ter told me<c function="fall" type="intonation"/> about this<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_176"> it's actually nice<c function="fall" type="intonation"/><anchor synch="#LEcon565_oc_11" type="other_continuation" xml:id="LEcon565_oc_10"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_177"><anchor synch="#LEcon565_oc_10" type="other_continuation" xml:id="LEcon565_oc_11"/> yeah yeah <seg n="5" type="overlap" xml:id="LEcon565_ol_78"> yeah it's </seg> typical </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_178"><seg n="5" synch="#LEcon565_ol_78" type="overlap" xml:id="LEcon565_ol_79"> and it's er </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_179"> yeah yeah yeah it's very <emph> nice </emph><c function="fall" type="intonation"/><pause/><emph> they </emph><emph> serve </emph> it<c function="fall" type="intonation"/> er with a little piece of chocolate<c function="rise" type="intonation"/><pause/> and er a glass of <emph> wa</emph>ter<c function="fall" type="intonation"/><pause dur="PT1S"/> so<c type="lengthening"/> it's <emph> ver</emph>y nice but it's <emph> si</emph>milar to cappuccino i mean <pause/> i think the <emph> froth </emph> it's less <pause/> it's a bit <pause/><emph> diff</emph>erent<c function="fall" type="intonation"/> but <pause/> i mean<c function="fall" type="intonation"/><pause/> it's more or less the same<c function="fall" type="intonation"/><pause/><shift corresp="#LEcon565_s_64" feature="loud" new="p" xml:id="LEcon565_s_63"/> obviously<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_63" feature="loud" new="neutral" xml:id="LEcon565_s_64"/> but in the list there was melange <emph> and </emph> cappuccino separately<c function="fall" type="intonation"/><pause/> so they <emph> make </emph> it <seg n="6" type="overlap" xml:id="LEcon565_ol_80"> diff</seg>erently it guess<c function="fall" type="intonation"/><anchor synch="#LEcon565_oc_13" type="other_continuation" xml:id="LEcon565_oc_12"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_180"><seg n="6" synch="#LEcon565_ol_80" type="overlap" xml:id="LEcon565_ol_81"><unclear> okay<c function="fall" type="intonation"/></unclear></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_181"><anchor synch="#LEcon565_oc_12" type="other_continuation" xml:id="LEcon565_oc_13"/><unclear> there's a </unclear> caffè latte <foreign type="LN" voice:translation="coffee with milk" xml:lang="fre"> cafe au lait<c function="fall" type="intonation"/></foreign><voice:track medium="1" num="5" type="md"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_182"><vocal type="speaker_noise" voice:desc="smacks lips"/><pause/> yeah no no i know but <pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_183"> this is es- sort of <seg n="7" type="overlap" xml:id="LEcon565_ol_82"><supplied reason="unintelligible"> xxx </supplied></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_184"><seg n="7" synch="#LEcon565_ol_82" type="overlap" xml:id="LEcon565_ol_83"> but they had </seg> melange cappuccino caf<seg n="1" type="overlap" xml:id="LEcon565_ol_84">fè </seg> la<seg n="2" type="overlap" xml:id="LEcon565_ol_85">tte and all the </seg> typical ones<c function="rise" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_185"><seg n="1" synch="#LEcon565_ol_84" type="overlap" xml:id="LEcon565_ol_86"> hm </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_186"><seg n="2" synch="#LEcon565_ol_85" type="overlap" xml:id="LEcon565_ol_87"> i understand </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_187"> that you find everywhere<c function="fall" type="intonation"/><pause/> so the the person who <emph> doe</emph>- who makes the cappuccino and the me<emph>lange </emph> they <emph> must </emph> make it in a different way<c function="fall" type="intonation"/><pause dur="PT2S"/> or maybe the it's just the <emph> name </emph><pause/><seg n="3" type="overlap" xml:id="LEcon565_ol_88"><shift corresp="#LEcon565_s_66" feature="voice" new="laugh" xml:id="LEcon565_s_65"/> it's different <shift corresp="#LEcon565_s_65" feature="voice" new="neutral" xml:id="LEcon565_s_66"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_188"><seg n="3" synch="#LEcon565_ol_88" type="overlap" xml:id="LEcon565_ol_89"> the e- is for exa- </seg> cappuccino is <unclear> that with </unclear> the italian <pause/> th- thingy<c function="fall" type="intonation"/><pause/> like <pause/> the big <pause dur="PT1S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_189"> yeah <seg n="4" type="overlap" xml:id="LEcon565_ol_90"> but the melange was done<c function="fall" type="intonation"/></seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_190"><seg n="4" synch="#LEcon565_ol_90" type="overlap" xml:id="LEcon565_ol_91"> chrome on all this<c function="rise" type="intonation"/></seg><pause/><seg n="5" type="overlap" xml:id="LEcon565_ol_92"> and and the <foreign type="LN" voice:translation="coffee with milk" xml:lang="fre"> cafe au lait </foreign> for example is </seg> the one that you press down like that<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_191"><seg n="5" synch="#LEcon565_ol_92" type="overlap" xml:id="LEcon565_ol_93"> the melange was done with the same </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_192"> ah really<c function="fall" type="intonation"/> is that the <emph> diff</emph>erence<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_193"> well everybody understands it <emph> slightly </emph> differently <seg n="6" type="overlap" xml:id="LEcon565_ol_94"><unclear> whatever </unclear><emph> exactly </emph> the different is<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_68" feature="loud" new="p" xml:id="LEcon565_s_67"/> and some people think <shift corresp="#LEcon565_s_67" feature="loud" new="neutral" xml:id="LEcon565_s_68"/></seg><shift corresp="#LEcon565_s_70" feature="loud" new="p" xml:id="LEcon565_s_69"/> it's the same even <shift corresp="#LEcon565_s_69" feature="loud" new="neutral" xml:id="LEcon565_s_70"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_194"><seg n="6" synch="#LEcon565_ol_94" type="overlap" xml:id="LEcon565_ol_95"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#LEcon565_s_72" feature="voice" new="laugh" xml:id="LEcon565_s_71"/> yes <shift corresp="#LEcon565_s_71" feature="voice" new="neutral" xml:id="LEcon565_s_72"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_195"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="7" type="overlap" xml:id="LEcon565_ol_96"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_196"><seg n="7" synch="#LEcon565_ol_96" type="overlap" xml:id="LEcon565_ol_97"> but </seg><shift corresp="#LEcon565_s_74" feature="loud" new="f" xml:id="LEcon565_s_73"/> french <shift corresp="#LEcon565_s_73" feature="loud" new="neutral" xml:id="LEcon565_s_74"/> have the <pause/> pressing <emph> down </emph> machine </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_197"> yeah <pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_198"> whereas the italian it's the one <pause/> either <emph> that </emph> one or the <pause/> big one <pause/><unclear> the </unclear> chrome<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_199"> yeah<c function="fall" type="intonation"/><pause/> no but yesterday in the cafe they were doing this melange with the big machine <pause/> and they were preparing it <seg n="1" type="overlap" xml:id="LEcon565_ol_98"> as </seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_200"><seg n="1" synch="#LEcon565_ol_98" type="overlap" xml:id="LEcon565_ol_99"> hm </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_201"> in the <emph> same </emph> way they were preparing cappucci<c type="lengthening"/>no<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_202"><shift corresp="#LEcon565_s_76" feature="loud" new="p" xml:id="LEcon565_s_75"/> yeah<c function="rise" type="intonation"/><shift corresp="#LEcon565_s_75" feature="loud" new="neutral" xml:id="LEcon565_s_76"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_203"> anyway<c function="fall" type="intonation"/> it was nice whatever it was<c function="fall" type="intonation"/> and then i had this<c type="lengthening"/><pause/><emph> cake </emph><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_204"> by the way that bill was <emph> this </emph> bill that wasn't my mobile phone<c function="fall" type="intonation"/> the <w voice:mode="spelt"> o </w> two bill<c function="fall" type="intonation"/><pause/> was for the inter- was for <unclear> the </unclear> internet </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_205"> a<c type="lengthening"/>h okay </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_206"> and we had <pause/> we didn't <emph> use </emph> very much <pause/> at all<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_207"><emph> no </emph><pause/><seg n="2" type="overlap" xml:id="LEcon565_ol_100"> okay that's good<c function="fall" type="intonation"/> well do </seg> you wanna find the<c type="lengthening"/> erm<c type="lengthening"/><vocal type="speaker_noise" voice:desc="smacks lips"/> the recipe<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_208"><seg n="2" synch="#LEcon565_ol_100" type="overlap" xml:id="LEcon565_ol_101"> we only used a <emph> frac</emph>tion </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_209"> leek and potato<c function="fall" type="intonation"/> shall <emph> i </emph> do it please <unclear> i'm surfing </unclear><anchor synch="#LEcon565_oc_15" type="other_continuation" xml:id="LEcon565_oc_14"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_210"><anchor synch="#LEcon565_oc_14" type="other_continuation" xml:id="LEcon565_oc_15"/> no </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_211"> yeah </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_212"> no no no <seg n="9" type="overlap" xml:id="LEcon565_ol_102"> no </seg><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_213"><seg n="9" synch="#LEcon565_ol_102" type="overlap" xml:id="LEcon565_ol_103"> yeah </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_214"> no <emph> you </emph><emph> talk </emph><pause/> and i surf<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_215"> no i <emph> like </emph> doing that<c function="fall" type="intonation"/><pause/><seg n="10" type="overlap" xml:id="LEcon565_ol_104"> ple</seg><c type="lengthening"/>ase </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_216"><seg n="10" synch="#LEcon565_ol_104" type="overlap" xml:id="LEcon565_ol_105"><unclear> hm </unclear></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_217"> i like too <pause dur="PT2S"/> hhh <pause dur="PT4S"/><incident dur="PT3S" voice:desc="S1 starts typing "/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_218"> see<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_219"> but then what i what do i do then<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_220"> hh <pause/> you write it down<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_221"> i don't like writing down<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_SS" xml:id="LEcon565_u_222"> hh </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_223"> oh with illustrated in<emph>struct</emph>ions<c function="fall" type="intonation"/><pause dur="PT8S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_224"> i need another coffee<c function="rise" type="intonation"/> and chocolate </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_225"> yeah i know <pause/> but we don't <seg n="3" type="overlap" xml:id="LEcon565_ol_106"> have milk </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_226"><seg n="3" synch="#LEcon565_ol_106" type="overlap" xml:id="LEcon565_ol_107"> shall i just buy </seg> a milk quickly<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_227"> no let's go out and buy everything right<c function="rise" type="intonation"/><pause dur="PT5S"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#LEcon565_s_78" feature="voice" new="laugh" xml:id="LEcon565_s_77"/> look at these <shift corresp="#LEcon565_s_77" feature="voice" new="neutral" xml:id="LEcon565_s_78"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><pause/> so funny <pause/> leek and potato soup recipe<c type="lengthening"/><c function="rise" type="intonation"/><vocal type="speaker_noise" voice:desc="smacks lips"/> hh <pause/> then you ha<c type="lengthening"/>ve a jamie oliver home cooking five tips you loose <emph> belly </emph><emph> fat </emph><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#LEcon565_s_80" feature="voice" new="laugh" xml:id="LEcon565_s_79"/> your belly is fat because <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> stop <shift corresp="#LEcon565_s_79" feature="voice" new="neutral" xml:id="LEcon565_s_80"/> making this one major mistake and you finally loose your <shift corresp="#LEcon565_s_82" feature="voice" new="laugh" xml:id="LEcon565_s_81"/> belly fat <shift corresp="#LEcon565_s_81" feature="voice" new="neutral" xml:id="LEcon565_s_82"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_228"> this doesn't look nice as well by the way<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_229"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_230"> i don't like that web page<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_231"> all right it says <emph> ten </emph><emph> min</emph>utes<c function="fall" type="intonation"/><emph> how </emph><emph> diff</emph>icult very easy<c function="fall" type="intonation"/><pause/> cooking time<c function="rise" type="intonation"/> twenty-five minutes<c function="fall" type="intonation"/><pause/> serving<c function="rise" type="intonation"/> two portions<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_84" feature="tempo" new="a" xml:id="LEcon565_s_83"/> let me see <shift corresp="#LEcon565_s_83" feature="tempo" new="neutral" xml:id="LEcon565_s_84"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_232"> and here you see what they <emph> have </emph><c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_233"><vocal type="speaker_noise" voice:desc="smacks lips"/> but yeah it's <emph> nice </emph> cos er they make <pause/> yeah they've got a <emph> pic</emph>ture <seg n="4" type="overlap" xml:id="LEcon565_ol_108"> of it </seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_234"><seg n="4" synch="#LEcon565_ol_108" type="overlap" xml:id="LEcon565_ol_109"> butter<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_235"> so it is<c function="fall" type="intonation"/> butter<c function="rise" type="intonation"/> garlic<c function="rise" type="intonation"/><pause/> leek<c function="rise" type="intonation"/><pause/> potato<c type="lengthening"/>es <voice:track medium="1" num="6" type="md"/><pause/> four cups of chicken broth<c function="rise" type="intonation"/> while we can have we have the<c type="lengthening"/> erm <pause/> vegetable one<c function="rise" type="intonation"/><pause/> hh salt<c function="rise" type="intonation"/><pause dur="PT3S"/></u>
+            <u who="#LEcon565_SS" xml:id="LEcon565_u_236"> pepper<c function="rise" type="intonation"/><pause/> milk or cream<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_237"><shift corresp="#LEcon565_s_86" feature="voice" new="yawning" xml:id="LEcon565_s_85"/> the milk or cream is important<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_85" feature="voice" new="neutral" xml:id="LEcon565_s_86"/> to get the <pause/><unclear> creaming </unclear> sort of <seg n="7" type="overlap" xml:id="LEcon565_ol_110"> thing<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_238"><seg n="7" synch="#LEcon565_ol_110" type="overlap" xml:id="LEcon565_ol_111"> yeah<c function="fall" type="intonation"/></seg><pause/> oh <emph> look </emph> they do <pause/> there's erm<c type="lengthening"/><pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> erm <pause dur="PT5S"/> how you do it as well<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_239"> okay <pause dur="PT3S"/> that's actually not too <emph> bad </emph><c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_240"> no it's very <emph> e</emph>asy </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_241"> it just doesn't look very ap<emph>pea</emph>ling <seg n="1" type="overlap" xml:id="LEcon565_ol_112"><shift corresp="#LEcon565_s_88" feature="loud" new="p" xml:id="LEcon565_s_87"/> how the pictures<c type="lengthening"/> it's not very <unclear> nice </unclear><shift corresp="#LEcon565_s_87" feature="loud" new="neutral" xml:id="LEcon565_s_88"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_242"><seg n="1" synch="#LEcon565_ol_112" type="overlap" xml:id="LEcon565_ol_113"> well i think the pictures are not very good<c function="fall" type="intonation"/></seg> but erm </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_243"> i mean they're <emph> prac</emph>tical but they don't make you want to eat it<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_244"> no <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="2" type="overlap" xml:id="LEcon565_ol_114"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_245"><seg n="2" synch="#LEcon565_ol_114" type="overlap" xml:id="LEcon565_ol_115"> at all </seg><pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_246"> all right we g- <unclear> yeah </unclear> have we got enough <emph> bu</emph>tter<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_247"> yeah </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_248"> yeah <seg n="3" type="overlap" xml:id="LEcon565_ol_116"> i think so<c function="fall" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_249"><seg n="3" synch="#LEcon565_ol_116" type="overlap" xml:id="LEcon565_ol_117"> we don't need a lot </seg> do we </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_250"> so we <seg n="8" type="overlap" xml:id="LEcon565_ol_118"> need </seg><emph> gar</emph>lic<c function="fall" type="intonation"/> erm potatoes we <shift corresp="#LEcon565_s_90" feature="voice" new="singing" xml:id="LEcon565_s_89"/> have <shift corresp="#LEcon565_s_89" feature="voice" new="neutral" xml:id="LEcon565_s_90"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_251"><seg n="8" synch="#LEcon565_ol_118" type="overlap" xml:id="LEcon565_ol_119"><unclear> hm </unclear></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_252"> we have <shift corresp="#LEcon565_s_92" feature="voice" new="singing" xml:id="LEcon565_s_91"/> leeks <shift corresp="#LEcon565_s_91" feature="voice" new="neutral" xml:id="LEcon565_s_92"/><pause dur="PT1S"/><shift corresp="#LEcon565_s_94" feature="loud" new="p" xml:id="LEcon565_s_93"/> four leeks<c function="fall" type="intonation"/><unclear> we have to </unclear><emph> that </emph><c function="fall" type="intonation"/><pause dur="PT1S"/> hh mhm<c function="rise" type="intonation"/> a<c type="lengthening"/>nd salt we have<c function="fall" type="intonation"/> butter we have<c function="fall" type="intonation"/> milk <pause/> we have<c function="fall" type="intonation"/> well we have to buy <pause/> hh okay <shift corresp="#LEcon565_s_93" feature="loud" new="neutral" xml:id="LEcon565_s_94"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_253"> okay now i look for the de<emph>ssert </emph> recipe<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_254"> er which one<c function="fall" type="intonation"/><pause/> the one with </u>
+            <u who="#LEcon565_SS" xml:id="LEcon565_u_255"><foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce de leche </foreign></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_256"><seg n="5" type="overlap" xml:id="LEcon565_ol_120"> but it's </seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_257"><seg n="5" synch="#LEcon565_ol_120" type="overlap" xml:id="LEcon565_ol_121"> but i don't know </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_258"> you don't need a <emph> re</emph>cipe for <seg n="6" type="overlap" xml:id="LEcon565_ol_122"> that </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_259"><seg n="6" synch="#LEcon565_ol_122" type="overlap" xml:id="LEcon565_ol_123"><shift corresp="#LEcon565_s_96" feature="loud" new="f" xml:id="LEcon565_s_95"/> ye<c type="lengthening"/>s <shift corresp="#LEcon565_s_95" feature="loud" new="neutral" xml:id="LEcon565_s_96"/></seg><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_260"> ah <pause dur="PT5S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_261"><seg n="7" type="overlap" xml:id="LEcon565_ol_124"> should i book</seg>mark this </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_262"><seg n="7" synch="#LEcon565_ol_124" type="overlap" xml:id="LEcon565_ol_125"> now can you </seg> no<c type="lengthening"/><c function="fall" type="intonation"/> can you just tell me <emph> quick</emph>ly<c function="fall" type="intonation"/><pause/> so you <pause/> e<c type="lengthening"/>r chop the cut the<c type="lengthening"/><pause/> leeks<c type="lengthening"/><c function="fall" type="intonation"/><pause dur="PT1S"/> no first you put the garlic <seg n="9" type="overlap" xml:id="LEcon565_ol_126"><supplied reason="unintelligible"> xxx </supplied></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_263"><seg n="9" synch="#LEcon565_ol_126" type="overlap" xml:id="LEcon565_ol_127"> first clean </seg> and chop the leeks<c function="fall" type="intonation"/> the easiest way to chop the leeks<c function="rise" type="intonation"/><seg n="1" type="overlap" xml:id="LEcon565_ol_128"> is to slice </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_264"><seg n="1" synch="#LEcon565_ol_128" type="overlap" xml:id="LEcon565_ol_129"> oh no just the </seg><emph> main </emph> points<c function="fall" type="intonation"/> it's too long </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_265"> erm i'll just copy and paste this<c function="rise" type="intonation"/><pause/> okay<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_266"> okay good<c function="fall" type="intonation"/><pause dur="PT2S"/> copy it on the<c type="lengthening"/> er word file<c function="fall" type="intonation"/><pause dur="PT13S"/><vocal type="speaker_noise" voice:desc="smacks lips"/> hh o<shift corresp="#LEcon565_s_98" feature="voice" new="yawning" xml:id="LEcon565_s_97"/>kay <pause/> well i think we can go <shift corresp="#LEcon565_s_97" feature="voice" new="neutral" xml:id="LEcon565_s_98"/><pause dur="PT1S"/> no<c function="rise" type="intonation"/><pause dur="PT5S"/> hh i think i need a coffee as well <pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_267"> just get some milk quickly before we <pause/> because i <emph> wasn't </emph><unclear> not </unclear> enjoying it<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_268"> hh we can get <emph> one </emph> on the <emph> way </emph><c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_269"> a coffee in a coffee <emph> place </emph><c function="fall" type="intonation"/><emph> yeah </emph><c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_270"><emph> wo</emph><c type="lengthening"/><emph>w </emph><pause/> what <seg n="2" type="overlap" xml:id="LEcon565_ol_130"> a <emph> nice </emph></seg><emph> idea </emph><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><anchor synch="#LEcon565_oc_17" type="other_continuation" xml:id="LEcon565_oc_16"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_271"><seg n="2" synch="#LEcon565_ol_130" type="overlap" xml:id="LEcon565_ol_131"><emph> wo</emph><c type="lengthening"/><emph>w </emph></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_272"><anchor synch="#LEcon565_oc_16" type="other_continuation" xml:id="LEcon565_oc_17"/><shift corresp="#LEcon565_s_100" feature="tempo" new="l" xml:id="LEcon565_s_99"/> but where is <shift corresp="#LEcon565_s_99" feature="tempo" new="neutral" xml:id="LEcon565_s_100"/> there's no starbucks anything on the way </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_273"> well i <emph> don't </emph> want a <emph> star</emph>bucks<c function="fall" type="intonation"/><pause/> does that <seg n="3" type="overlap" xml:id="LEcon565_ol_132"> erm </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_274"><seg n="3" synch="#LEcon565_ol_132" type="overlap" xml:id="LEcon565_ol_133"> but </seg> in the non-gentrified place is it's difficult to sit down<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_275"><vocal type="speaker_noise" voice:desc="smacks lips"/> there is er that one where we bought the<c type="lengthening"/> pastries last time <pause/> remember<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_276"> can you sit <emph> down </emph></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_277"> well they have er chairs on the <emph> side </emph><c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_278"> oh then we can have one of those nice <emph> pa</emph>stries<c function="fall" type="intonation"/><seg n="4" type="overlap" xml:id="LEcon565_ol_134"> but </seg> they don't do <emph> co</emph>ffees do they<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_279"><seg n="4" synch="#LEcon565_ol_134" type="overlap" xml:id="LEcon565_ol_135"> okay </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_280"><emph> that's </emph> what i'm <emph> tell</emph>ing you<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_281"> they <seg n="5" type="overlap" xml:id="LEcon565_ol_136"> do </seg> coffees </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_282"><seg n="5" synch="#LEcon565_ol_136" type="overlap" xml:id="LEcon565_ol_137"> they </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_283"><emph> yes </emph><c function="fall" type="intonation"/><voice:track medium="1" num="7" type="md"/><pause/> it's <emph> not </emph> a fantastic <emph> pla</emph><c type="lengthening"/>ce because they there it's mainly like to sell <pause/> fresh <pause/> pastries and <emph> bread </emph><c function="fall" type="intonation"/><pause/> but they've got a few chairs on the <shift corresp="#LEcon565_s_102" feature="loud" new="p" xml:id="LEcon565_s_101"/> side <shift corresp="#LEcon565_s_101" feature="loud" new="neutral" xml:id="LEcon565_s_102"/><pause dur="PT1S"/><emph> other</emph>wise there is a portuguese <emph> ca</emph>fe further <emph> down </emph><pause/><seg n="6" type="overlap" xml:id="LEcon565_ol_138"> but </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_284"><seg n="6" synch="#LEcon565_ol_138" type="overlap" xml:id="LEcon565_ol_139"> oh </seg> yeah portuguese </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_285"> we<c type="lengthening"/>ll but the point with that cafe is that they've got internet erm<c type="lengthening"/><pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> stations<c function="rise" type="intonation"/> hh so it's a bit ooph don't like because it has got <seg n="7" type="overlap" xml:id="LEcon565_ol_140"> the internet </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_286"><seg n="7" synch="#LEcon565_ol_140" type="overlap" xml:id="LEcon565_ol_141"> hh why </seg> don't we go <pause/> to<c type="lengthening"/> the portuguese place on the other side<c function="fall" type="intonation"/><pause dur="PT2S"/> and then we look for <foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce de leche </foreign></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_287"> okay <pause dur="PT6S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_288"><unclear> er and </unclear> i get all sorts of <emph> span</emph>ish <pause dur="PT2S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_289"> hh well<c function="fall" type="intonation"/> maybe because it's an argentinian<c type="lengthening"/><pause/> product<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_290"> banana layer cake<c function="rise" type="intonation"/> with white chocolate <shift corresp="#LEcon565_s_104" feature="voice" new="laugh" xml:id="LEcon565_s_103"/> cream cheese frosty <shift corresp="#LEcon565_s_103" feature="voice" new="neutral" xml:id="LEcon565_s_104"/><seg n="1" type="overlap" xml:id="LEcon565_ol_142"><shift corresp="#LEcon565_s_106" feature="voice" new="laugh" xml:id="LEcon565_s_105"/><unclear> walnuts </unclear><shift corresp="#LEcon565_s_105" feature="voice" new="neutral" xml:id="LEcon565_s_106"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_291"><seg n="1" synch="#LEcon565_ol_142" type="overlap" xml:id="LEcon565_ol_143"><shift corresp="#LEcon565_s_108" feature="voice" new="laugh" xml:id="LEcon565_s_107"/><supplied reason="unintelligible"> xx </supplied><unclear> walnuts </unclear><shift corresp="#LEcon565_s_107" feature="voice" new="neutral" xml:id="LEcon565_s_108"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><pause/> because <seg n="2" type="overlap" xml:id="LEcon565_ol_144"><foreign type="L1" voice:translation="little one" xml:lang="ita"> piccolino </foreign> you <emph> spell </emph></seg><foreign type="LN" voice:translation="milk" xml:lang="spa"> leche </foreign><pause/> like <pause/><seg n="3" type="overlap" xml:id="LEcon565_ol_145"> the town in italy<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_292"><seg n="2" synch="#LEcon565_ol_144" type="overlap" xml:id="LEcon565_ol_146"> o<c type="lengthening"/>h <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_293"><seg n="3" synch="#LEcon565_ol_145" type="overlap" xml:id="LEcon565_ol_147"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></seg><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_294"><foreign type="LN" voice:translation="milk" xml:lang="spa"> leche </foreign><pause/><emph> ah </emph><seg n="4" type="overlap" xml:id="LEcon565_ol_148"><supplied reason="unintelligible" voice:ipa="ˈlatʃe"> xx </supplied></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_295"><seg n="4" synch="#LEcon565_ol_148" type="overlap" xml:id="LEcon565_ol_149"> actually </seg> i get all confused with italian and spanish </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_296"><shift corresp="#LEcon565_s_110" feature="voice" new="laugh" xml:id="LEcon565_s_109"/> hm <shift corresp="#LEcon565_s_109" feature="voice" new="neutral" xml:id="LEcon565_s_110"/> yeah </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_297"> but <emph> this </emph> one wasn't too <emph> bad </emph></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_298"> well <emph> that'</emph>s what it is<c function="fall" type="intonation"/><foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce de leche </foreign> banana toffee<c function="fall" type="intonation"/><pause/><seg n="5" type="overlap" xml:id="LEcon565_ol_150"> that's what it is </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_299"><seg n="5" synch="#LEcon565_ol_150" type="overlap" xml:id="LEcon565_ol_151"> oh yeah yeah yeah </seg> yeah yeah </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_300"> ah but this is to <emph> buy </emph><c function="fall" type="intonation"/><pause/> this is not erm <anchor synch="#LEcon565_oc_19" type="other_continuation" xml:id="LEcon565_oc_18"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_301"><anchor synch="#LEcon565_oc_18" type="other_continuation" xml:id="LEcon565_oc_19"/><unclear> let's </unclear> see<c function="fall" type="intonation"/><pause dur="PT3S"/> here recipe <emph> lat</emph>est recipe </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_302"> where<c function="rise" type="intonation"/><pause/> banoffi pie<c function="fall" type="intonation"/> er <pause/> i <emph> think </emph> it's the banoffi pie in the end<c function="fall" type="intonation"/><pause dur="PT4S"/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause dur="PT1S"/> but you know it's m- <emph> si</emph>milar to the one that erm <vocal type="speaker_noise" voice:desc="smacks lips"/> erm your cousin made remember<c function="rise" type="intonation"/><pause dur="PT2S"/> hm<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_303"> cousin<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_304"> what's his <emph> name </emph><c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_305"><supplied reason="anonymization"> [first name3] </supplied></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_306"> yeah<c function="fall" type="intonation"/><pause dur="PT5S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_307"> easiest <pause/></u>
+            <u who="#LEcon565_SS" xml:id="LEcon565_u_308"> dessert </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_309"> yeah it doesn't involve <seg n="7" type="overlap" xml:id="LEcon565_ol_152"> any </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_310"><seg n="7" synch="#LEcon565_ol_152" type="overlap" xml:id="LEcon565_ol_153"> doesn't </seg> rea- in<seg n="8" type="overlap" xml:id="LEcon565_ol_154">volve </seg> cooking </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_311"><seg n="8" synch="#LEcon565_ol_154" type="overlap" xml:id="LEcon565_ol_155"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_312"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_313"> butter melting biscuits <emph> smash</emph>ing<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_314"> ah yeah no i don't like it<c function="fall" type="intonation"/> it's the heavy one that <supplied reason="anonymization"> [first name3] </supplied> made<c function="fall" type="intonation"/><pause/> erm <vocal type="speaker_noise" voice:desc="smacks lips"/> he had like all that biscui- well i d- i <emph> did </emph> like it but <pause/> it's a bit too heavy<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_112" feature="loud" new="p" xml:id="LEcon565_s_111"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#LEcon565_s_111" feature="loud" new="neutral" xml:id="LEcon565_s_112"/> he had the<c type="lengthening"/> erm <vocal type="speaker_noise" voice:desc="smacks lips"/> the<c type="lengthening"/><pause/> what's it called <pause/> those biscuits<c function="fall" type="intonation"/><pause/> british biscuits<c function="fall" type="intonation"/><pause/> wholemeal<c function="fall" type="intonation"/><pause/> di<emph>gest</emph>ives<c function="fall" type="intonation"/><seg n="1" type="overlap" xml:id="LEcon565_ol_156"> you know </seg><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_315"><seg n="1" synch="#LEcon565_ol_156" type="overlap" xml:id="LEcon565_ol_157"> o- </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_316"><seg n="2" type="overlap" xml:id="LEcon565_ol_158"> you have </seg> the digestives on top </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_317"><seg n="2" synch="#LEcon565_ol_158" type="overlap" xml:id="LEcon565_ol_159"> okay </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_318"> choc  banana fudge pie<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_319"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause/><seg n="8" type="overlap" xml:id="LEcon565_ol_160"><shift corresp="#LEcon565_s_114" feature="loud" new="p" xml:id="LEcon565_s_113"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#LEcon565_s_113" feature="loud" new="neutral" xml:id="LEcon565_s_114"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_320"><seg n="8" synch="#LEcon565_ol_160" type="overlap" xml:id="LEcon565_ol_161"> spread </seg> the <foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce de leche </foreign> over the biscuit base er biscuit base again<c function="fall" type="intonation"/> cover with sliced ba<emph>na</emph>na <pause/> and then the <pause/> cooled <emph> cust</emph>ard<c function="fall" type="intonation"/><pause dur="PT2S"/> it's a bit <unclear> full oh no </unclear></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_321"> no<c function="fall" type="intonation"/> just <pause/> be gorgeous<c function="fall" type="intonation"/> let's just go we do the one <pause/> we did last <emph> time </emph> we just <pause dur="PT1S"/><incident voice:desc="starts typing"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_322"> how did you <emph> do </emph> it<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_323"> i <pause/> jus- you just <pause/> chop a banana and put the <foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce de leche </foreign> on <emph> top </emph><pause/> and put it in the<c type="lengthening"/><pause/><emph> micro</emph>wave<c function="fall" type="intonation"/><pause dur="PT1S"/> come on let's go<c function="fall" type="intonation"/><voice:track medium="1" num="8" type="md"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_324"> they always add the <emph> bis</emph>cuits<c function="fall" type="intonation"/> every single recipe <seg n="3" type="overlap" xml:id="LEcon565_ol_162"> it's the biscuits<c function="fall" type="intonation"/></seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_325"><seg n="3" synch="#LEcon565_ol_162" type="overlap" xml:id="LEcon565_ol_163"> but of <emph> course </emph></seg> you're looking <seg n="8" type="overlap" xml:id="LEcon565_ol_164"> at </seg> banoffi pie<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_326"><seg n="8" synch="#LEcon565_ol_164" type="overlap" xml:id="LEcon565_ol_165"> but </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_327"> no i put <foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce de leche </foreign> banana recipe<c function="fall" type="intonation"/><pause/> i put in google<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_328"> hh yeah but the one with the b- <pause/> biscuits is like <pause/> too much<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_329"> here is one<c function="fall" type="intonation"/> banana toffee and pear crumble<c function="rise" type="intonation"/><pause dur="PT3S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_330"><shift corresp="#LEcon565_s_116" feature="loud" new="p" xml:id="LEcon565_s_115"/> no <shift corresp="#LEcon565_s_115" feature="loud" new="neutral" xml:id="LEcon565_s_116"/><pause dur="PT1S"/> hh <pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_331"> well if you're thinking of how to do it <pause dur="PT2S"/><seg n="4" type="overlap" xml:id="LEcon565_ol_166"> banana and passion fruit </seg> ginger banana with rum <pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_332"><seg n="4" synch="#LEcon565_ol_166" type="overlap" xml:id="LEcon565_ol_167"> well it wasn't <emph> my </emph> idea </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_333"> okay that's enough<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_334"> shall we go to the portuguese first to have a coffee haeh<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_335"> okay </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_336"> yeah<c function="rise" type="intonation"/><pause dur="PT2S"/> hh </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_337"> no<c function="fall" type="intonation"/> switch it off <unclear> for now </unclear><pause dur="PT5S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_338"> ah <emph> there'</emph>s one<c function="fall" type="intonation"/><pause/> i'm just checking this<c function="fall" type="intonation"/><pause dur="PT9S"/> original recipe<c function="fall" type="intonation"/><pause dur="PT7S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_339"><vocal type="speaker_noise" voice:desc="smacks lips"/><shift corresp="#LEcon565_s_118" feature="loud" new="p" xml:id="LEcon565_s_117"/> come on <shift corresp="#LEcon565_s_117" feature="loud" new="neutral" xml:id="LEcon565_s_118"/><pause dur="PT5S"/> oh you know what happened<c function="rise" type="intonation"/> yesterday<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_340"> no </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_341"> a<c type="lengthening"/>h these are the <foreign type="LN" voice:translation="milk-based syrup" xml:lang="spa"> dulce de leche </foreign> santa ignacio <pause/> the worl- the the one that i was <pause/><emph> buy</emph>ing<c type="lengthening"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_342"> shall we <pause/> you can buy those internet here<c function="fall" type="intonation"/> shall we do it<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_343"> no<c type="lengthening"/> it's the one we can find at the<c type="lengthening"/><pause/> argentinian restaurant<c function="fall" type="intonation"/><pause/> it's app<emph>ar</emph>ently the <emph> best </emph> one<c function="fall" type="intonation"/><pause/><seg n="5" type="overlap" xml:id="LEcon565_ol_168"> well that's </seg> what <seg n="6" type="overlap" xml:id="LEcon565_ol_169"><supplied reason="anonymization"> [first name4] </supplied> was saying<c function="fall" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_344"><seg n="5" synch="#LEcon565_ol_168" type="overlap" xml:id="LEcon565_ol_170"> well that </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_345"><seg n="6" synch="#LEcon565_ol_169" type="overlap" xml:id="LEcon565_ol_171"> okay then let's </seg> okay<c function="fall" type="intonation"/><pause/> you know the recipe let's go to try to find it at the <pause/> portuguese place<c function="fall" type="intonation"/> that's <pause/> like the <supplied reason="unintelligible"> xxx </supplied> like </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_346"> yeah did you <emph> save </emph> the recipe <pause dur="PT6S"/><incident dur="PT4S" voice:desc="typing "/> where is it <pause dur="PT3S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_347"> erm i <seg n="7" type="overlap" xml:id="LEcon565_ol_172"> saved it as </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_348"><seg n="7" synch="#LEcon565_ol_172" type="overlap" xml:id="LEcon565_ol_173"> this one<c function="fall" type="intonation"/></seg><pause/> maybe </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_349"> or i need to reopen word hm </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_350"><emph> no </emph><c function="fall" type="intonation"/><pause/> just <emph> click </emph> on it<c function="fall" type="intonation"/><pause/> that's it<c function="fall" type="intonation"/><emph> this </emph> is it<c function="fall" type="intonation"/><pause/> right<c function="fall" type="intonation"/><emph> close </emph> it </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_351"> you see it saved even the pictures<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_352"> yeah that's fine <seg n="1" type="overlap" xml:id="LEcon565_ol_174"> good </seg> close it<c function="fall" type="intonation"/> and let's go <pause dur="PT9S"/><incident dur="PT7S" voice:desc="typing "/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_353"><seg n="1" synch="#LEcon565_ol_174" type="overlap" xml:id="LEcon565_ol_175"> hm<c function="rise" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_354"> hh <pause dur="PT2S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_355"> well you know what <emph> happ</emph>ened when i <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> left i went to <pause/> put the <emph> pest</emph>o <pause/> to leave the pesto and i <pause/> to go to the e<c type="lengthening"/>rm to the restaurant<c function="rise" type="intonation"/> and <pause/> there is a <emph> mouse </emph> that came <emph> out </emph><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_356"> where<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_357"> in my office<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_358"> in in your office <anchor synch="#LEcon565_oc_21" type="other_continuation" xml:id="LEcon565_oc_20"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_359"><anchor synch="#LEcon565_oc_20" type="other_continuation" xml:id="LEcon565_oc_21"/> yeah </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_360"> eating with the <voice:pvc> pestos</voice:pvc><c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_361"> well i don't know <pause/> hh just i remembered right no<c type="lengthening"/>w when i put i left the <emph> pest</emph>o there <pause/><seg n="2" type="overlap" xml:id="LEcon565_ol_176"> i hope </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_362"><seg n="2" synch="#LEcon565_ol_176" type="overlap" xml:id="LEcon565_ol_177"><unclear> but you know </unclear></seg> but a <emph> mouse </emph> can't open a pesto can </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_363"> no<c function="fall" type="intonation"/><pause/> i hope so<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_364"><shift corresp="#LEcon565_s_120" feature="voice" new="whisp" xml:id="LEcon565_s_119"/> no<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_119" feature="voice" new="neutral" xml:id="LEcon565_s_120"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_365"> well apparently they eat the <emph> wir</emph>es<c function="fall" type="intonation"/><pause/><seg n="3" type="overlap" xml:id="LEcon565_ol_178"> they eat </seg> they <emph> chew </emph> the wires </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_366"><seg n="3" synch="#LEcon565_ol_178" type="overlap" xml:id="LEcon565_ol_179"> wires </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_367"> yeah but wires it's it's like <emph> pla</emph>stic<c function="fall" type="intonation"/><pause/><emph> this </emph> is gla<c type="lengthening"/>ss and <emph> met</emph>al<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_368"> yeah but anyway apart from the fact<c function="fall" type="intonation"/> e<c type="lengthening"/>r the pesto <voice:track medium="1" num="9" type="md"/> is another <emph> thing </emph><c function="fall" type="intonation"/> but <emph> i </emph> don't want a mouse in my office<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_369"> they are cute </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_370"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/> thank you very much<c function="fall" type="intonation"/> i don't want them<c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_371"> buy a couple of trap out<c function="fall" type="intonation"/><pause dur="PT3S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_372"> yeah but i don't want to to have to pick up a <emph> dead </emph> mouse from the <emph> trap </emph></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_373"> y- yeah you call a <emph> state </emph><c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_374"> well what they <emph> do </emph> is<c function="fall" type="intonation"/> they probably put like erm <pause/><emph> poi</emph>son <pause dur="PT1S"/><seg n="5" type="overlap" xml:id="LEcon565_ol_180"> all around </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_375"><seg n="5" synch="#LEcon565_ol_180" type="overlap" xml:id="LEcon565_ol_181"> you have a dead </seg> then you have a dead <pause/><emph> mouse </emph><c function="fall" type="intonation"/> er behind the <pause/><seg n="6" type="overlap" xml:id="LEcon565_ol_182"> furniture somewhere </seg><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_376"><seg n="6" synch="#LEcon565_ol_182" type="overlap" xml:id="LEcon565_ol_183"> ex<emph>actly </emph></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_377"><seg n="7" type="overlap" xml:id="LEcon565_ol_184"> rotting away </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_378"><seg n="7" synch="#LEcon565_ol_184" type="overlap" xml:id="LEcon565_ol_185"> and then it </seg> exactly<c function="fall" type="intonation"/> and then it starts smelling<c function="fall" type="intonation"/><pause dur="PT2S"/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause/> so that's the problem <pause dur="PT3S"/> anyway i i was so scared<c function="rise" type="intonation"/> and <unclear> started </unclear> because i i wasn't pre<emph>pared </emph><c function="fall" type="intonation"/> i was just like <pause/><voice:pvc> putted </voice:pvc> things in all the photocopies and stuff<c function="fall" type="intonation"/> and we order in a few things before <emph> lea</emph>ving<c function="fall" type="intonation"/> hh <pause/> and then<c type="lengthening"/><pause/> i was like in complete <emph> si</emph>lence<c function="fall" type="intonation"/> i was about <pause/> ten minutes to <emph> go </emph><c function="fall" type="intonation"/> put the last <pause/> books back to the shelf and stuff <pause/> and then <unclear> you know </unclear><seg type="onomatopoeia"> ɪk kwɪ </seg> and i go <shift corresp="#LEcon565_s_122" feature="voice" new="imitating" xml:id="LEcon565_s_121"/><emph> a</emph><c type="lengthening"/><emph>h </emph><shift corresp="#LEcon565_s_121" feature="voice" new="neutral" xml:id="LEcon565_s_122"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_379"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_380"><shift corresp="#LEcon565_s_124" feature="voice" new="laugh" xml:id="LEcon565_s_123"/> and i start <shift corresp="#LEcon565_s_123" feature="voice" new="neutral" xml:id="LEcon565_s_124"/><emph> scream</emph>ing<c function="fall" type="intonation"/> and the mouse i think was erm <vocal type="speaker_noise" voice:desc="smacks lips"/><pause dur="PT1S"/> was scared as <emph> well </emph><c function="rise" type="intonation"/> because <emph> he </emph> just <emph> ra</emph><c type="lengthening"/><emph>n </emph> back <shift corresp="#LEcon565_s_126" feature="voice" new="laugh" xml:id="LEcon565_s_125"/> from <seg n="1" type="overlap" xml:id="LEcon565_ol_186"> where he </seg> came from <shift corresp="#LEcon565_s_125" feature="voice" new="neutral" xml:id="LEcon565_s_126"/> and i couldn't <emph> find </emph> it <seg n="2" type="overlap" xml:id="LEcon565_ol_187"> any more<c function="fall" type="intonation"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_381"><seg n="1" synch="#LEcon565_ol_186" type="overlap" xml:id="LEcon565_ol_188"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_382"><seg n="2" synch="#LEcon565_ol_187" type="overlap" xml:id="LEcon565_ol_189"> of course </seg> the mouse was scared<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_383"> yeah <pause/> s<c type="lengthening"/>o er <vocal type="speaker_noise" voice:desc="smacks lips"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_384"> oh the poor thing <pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_385"> poor <emph> thing </emph><c function="fall" type="intonation"/> poor <emph> me </emph><c type="lengthening"/><c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_386"> poor you as well </u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_387"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_388"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_389"> well the point is now i don't wanna <emph> stay </emph> there with a mouse so <pause/> i<c type="lengthening"/> went away <pause/><shift corresp="#LEcon565_s_128" feature="voice" new="laugh" xml:id="LEcon565_s_127"/><shift corresp="#LEcon565_s_130" feature="tempo" new="a" xml:id="LEcon565_s_129"/> straight away <shift corresp="#LEcon565_s_129" feature="tempo" new="neutral" xml:id="LEcon565_s_130"/> and i <emph> left </emph> from there everything <shift corresp="#LEcon565_s_127" feature="voice" new="neutral" xml:id="LEcon565_s_128"/> as it is<c function="rise" type="intonation"/><pause/> and i put er a notice outside the door<c function="rise" type="intonation"/> saying there is a mouse in the office<c function="fall" type="intonation"/><pause dur="PT1S"/> so that if my co<emph>llea</emph>gues<c type="lengthening"/><c type="lengthening"/><anchor synch="#LEcon565_oc_23" type="other_continuation" xml:id="LEcon565_oc_22"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_390"><anchor synch="#LEcon565_oc_22" type="other_continuation" xml:id="LEcon565_oc_23"/> the <emph> nerdy </emph> guy<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_391"> yeah maybe the <emph> nerdy </emph> guy comes in on a <emph> mon</emph>day<c function="fall" type="intonation"/><pause dur="PT2S"/> before me<c function="rise" type="intonation"/><pause/> he can deal with <shift corresp="#LEcon565_s_132" feature="voice" new="laugh" xml:id="LEcon565_s_131"/> it <shift corresp="#LEcon565_s_131" feature="voice" new="neutral" xml:id="LEcon565_s_132"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_392"> but you don't know maybe he doesn't care<c function="fall" type="intonation"/><pause/> or maybe he's paranoid<c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_393"><vocal type="speaker_noise" voice:desc="smacks lips"/> maybe he doesn't get <unclear><emph> in</emph>terviewed </unclear></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_394"> i don't know what ner- nerdy people <unclear> act too nice </unclear><c function="fall" type="intonation"/><pause/> generally speaking<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_395"> oh<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_396"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/> that's probably no <supplied reason="unintelligible"> xxx </supplied></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_397"><shift corresp="#LEcon565_s_134" feature="loud" new="p" xml:id="LEcon565_s_133"/> no of course <emph> doesn't </emph><unclear> need </unclear><supplied reason="unintelligible"> xxx </supplied><shift corresp="#LEcon565_s_133" feature="loud" new="neutral" xml:id="LEcon565_s_134"/><pause/> right <unclear> we take </unclear> coffee<c type="lengthening"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_398"> or carry shall i carry<c function="rise" type="intonation"/><pause/> you know what <emph> i'</emph>ll take my <emph> ba</emph><c type="lengthening"/><emph>g </emph><c function="fall" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_399"> yeah good<c function="fall" type="intonation"/><pause/> and take some er plastic bags as well cos i don't want them to leave us with hundreds <seg n="2" type="overlap" xml:id="LEcon565_ol_190"> of plastic bags </seg></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_400"><seg n="2" synch="#LEcon565_ol_190" type="overlap" xml:id="LEcon565_ol_191"> i'll just take my </seg><supplied reason="unintelligible"> xx </supplied> gear upstairs<c function="rise" type="intonation"/><incident voice:desc="S2 goes upstairs"/><pause dur="PT39S"/><voice:track medium="1" num="10" type="md"/><pause dur="PT10S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_401"> shall we <emph> go </emph><c type="lengthening"/><c function="fall" type="intonation"/><pause dur="PT2S"/><shift corresp="#LEcon565_s_136" feature="loud" new="p" xml:id="LEcon565_s_135"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#LEcon565_s_135" feature="loud" new="neutral" xml:id="LEcon565_s_136"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_402"><shift corresp="#LEcon565_s_138" feature="loud" new="p" xml:id="LEcon565_s_137"/><supplied reason="unintelligible"> xxxx </supplied><shift corresp="#LEcon565_s_137" feature="loud" new="neutral" xml:id="LEcon565_s_138"/><pause dur="PT8S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_403"> well you <emph> know </emph><c function="fall" type="intonation"/><pause/> they also have this like erm <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> e<c type="lengthening"/>r <pause dur="PT1S"/> they hh <emph> traps </emph><c function="fall" type="intonation"/> that apparently don't kill the mouse<c function="rise" type="intonation"/><pause/> they just trap the mouse alive<c function="rise" type="intonation"/><pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_404"> yeah <pause/><seg n="3" type="overlap" xml:id="LEcon565_ol_192"> though </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_405"><seg n="3" synch="#LEcon565_ol_192" type="overlap" xml:id="LEcon565_ol_193"> but <emph> then </emph></seg> the problem is i i have to take the mouse<c function="rise" type="intonation"/> and take it out<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_406"> to the forest <seg n="8" type="overlap" xml:id="LEcon565_ol_194"> yeah </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_407"><seg n="8" synch="#LEcon565_ol_194" type="overlap" xml:id="LEcon565_ol_195"> hh </seg> exactly<c function="fall" type="intonation"/> to a place where it doesn't c- </u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_408"> hm<c function="fall" type="intonation"/><pause/> or we could do a weekend trip to the<c function="fall" type="intonation"/><pause/> er to <unclear> po- to potswoods </unclear> huh<c function="rise" type="intonation"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_409"> to take <shift corresp="#LEcon565_s_140" feature="voice" new="laugh" xml:id="LEcon565_s_139"/> the mouse <shift corresp="#LEcon565_s_139" feature="voice" new="neutral" xml:id="LEcon565_s_140"/></u>
+            <u who="#LEcon565_SS" xml:id="LEcon565_u_410"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_411"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><pause dur="PT1S"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_412"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_413"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_414"> or <unclear> birches park </unclear><c function="fall" type="intonation"/><pause/> hm<c function="rise" type="intonation"/><anchor synch="#LEcon565_oc_25" type="other_continuation" xml:id="LEcon565_oc_24"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_415"><anchor synch="#LEcon565_oc_24" type="other_continuation" xml:id="LEcon565_oc_25"/><shift corresp="#LEcon565_s_142" feature="voice" new="laugh" xml:id="LEcon565_s_141"/> mhm<c function="fall" type="intonation"/><shift corresp="#LEcon565_s_141" feature="voice" new="neutral" xml:id="LEcon565_s_142"/><pause/> yeah<c function="fall" type="intonation"/> so i'm not taking my bag<c function="rise" type="intonation"/> are you<c function="rise" type="intonation"/><pause/> taking<c function="rise" type="intonation"/><seg n="6" type="overlap" xml:id="LEcon565_ol_196"> your </seg> bag <pause/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_416"><seg n="6" synch="#LEcon565_ol_196" type="overlap" xml:id="LEcon565_ol_197"> yeah </seg></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_417"> okay<c function="fall" type="intonation"/><pause/><unclear> shall we just </unclear><incident voice:desc="S2 blows his nose"/><pause/> my mobile <pause/> do we have the <emph> keys </emph><c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_418"> i have everything<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#LEcon565_S1" xml:id="LEcon565_u_419"> can you check you have the <emph> keys </emph><c function="fall" type="intonation"/></u>
+            <u who="#LEcon565_S2" xml:id="LEcon565_u_420"> hh <pause dur="PT2S"/> yah<c function="fall" type="intonation"/></u>
+         </div>
+      </body>
+   </text>
+</TEI>

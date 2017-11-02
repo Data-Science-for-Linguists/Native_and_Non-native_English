@@ -1,0 +1,901 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="PRcon599" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>conversation about positions at universities in different countries</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>Austrian Science Foundation (FWF)</funder>
+            <sponsor/>
+            <respStmt>
+               <resp>Corpus Compilation</resp>
+               <orgName>VOICE Project</orgName>
+               <persName>Barbara Seidlhofer</persName>
+               <persName>Angelika Breiteneder</persName>
+               <persName>Marie-Luise Pitzl</persName>
+               <persName>Stefan Majewski</persName>
+               <persName>Theresa Klimpfinger</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+	  <edition>Version 1.1 XML, <date>May 2011</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Angelika Breiteneder</name> 
+		<name>Theresa Klimpfinger</name> 
+		<name>Stefan Majewski</name> 
+		<name>Marie-Luise Pitzl</name> 
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk,
+		Marie-Luise Pitzl</publisher>
+	  <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+		<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  		<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). Minor revisions and
+		  corrections were made by Ruth Osimk. VOICE 1.1 XML is
+		  available for download at the VOICE Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+	  	<p>
+          The recommended citation for VOICE 1.1 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.1
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Ruth Osimk, Marie-Luise Pitzl.</bibl>
+		</p>
+		<p>The short citation for VOICE 1.1 XML is:
+		</p>
+		<p>
+          <bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version 1.1 XML</edition>).</bibl>
+        </p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="PRcon599_wc">Words: 2482</note>
+            <note xml:id="PRcon599_tn_0">This conversation takes place at a reception at an international conference on distributed computing. S5, S6 and S7 are approached by S1. After S1 has asked for permission to record the conversation, S5, S6 and S7 continue their conversation. They talk about differences between national university systems as regards PhD positions and professorial positions. After a couple of minutes, S5 turns to S1 and asks her how she knew about the conference. S1 is now actively involved in the conversation with S5, S6 and S7. The topic shifts towards English as an international language, the language of immigrants in Germany and the (un)importance people's accents. </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H16M52S" type="audio">
+                  <date>2004-05-11</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R9</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="PRcon599_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="PRcon599_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="PRcon599_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="PRcon599_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="PRcon599_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="PRcon599_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="PRcon599_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="PRcon599_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="PRcon599_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="PRcon599_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="PRcon599_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="PRcon599_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="PRcon599_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="PRcon599_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="PRcon599_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="PRcon599_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="PRcon599_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="orgName" occurs="1"/>
+      <tagUsage gi="persName" occurs="5"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="name" occurs="8"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="83"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="17"/>
+      <tagUsage gi="list" occurs="12"/>
+      <tagUsage gi="label" occurs="22"/>
+      <tagUsage gi="val" occurs="44"/>
+      <tagUsage gi="item" occurs="42"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="2"/>
+      <tagUsage gi="person" occurs="9"/>
+      <tagUsage gi="age" occurs="4"/>
+      <tagUsage gi="sex" occurs="4"/>
+      <tagUsage gi="occupation" occurs="4"/>
+      <tagUsage gi="langKnowledge" occurs="4"/>
+      <tagUsage gi="langKnown" occurs="4"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="5"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="2"/>
+      <tagUsage gi="u" occurs="382">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+      <tagUsage gi="pause" occurs="499">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="c" occurs="115">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="emph" occurs="46">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="gap" occurs="1">Used to mark points where a short portion of
+		speech has not been recorded or has been left untranscribed,
+		whether for editorial reasons, as part of the sampling practice,
+		or because the material is inaudible or comprises sensitive
+		content. The following <att>reason</att> attributes are used to
+		mark:
+		<list>
+		  <label><val>not_recorded</val></label><item>Not recorded
+		  speech</item>
+		  <label><val>not_transcribed</val></label><item>Not transcribed
+		  speech</item>
+		</list>
+		Further information on the reason for a gap is provided within
+		the <att>voice:desc</att> attribute.
+		</tagUsage>
+      <tagUsage gi="shift" occurs="192">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="vocal" occurs="126">Used to mark laughter and other speaker
+        noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="seg" occurs="231">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="60">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="unclear" occurs="36">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="w" occurs="11">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage>
+      <tagUsage gi="supplied" occurs="17">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed
+		to be anonymized. The <att>reason</att> attribute is used to
+		mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="foreign" occurs="2">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the <att>voice:translation</att> attribute
+		provides a rough translation of the non-English speech into
+		English.
+		</tagUsage>
+      <tagUsage gi="incident" occurs="1">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:pvc" occurs="2">Used to mark a pronunciation
+		variation or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+		VOICE mark-up conventions [2.1].</ref>the
+		VOICE mark-up conventions [2.1]. An existing word
+		corresponding to the PVC may be provided within a
+		<att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc
+		element. Additional phonetic transcription may be provided
+		within a <att>voice:ipa</att>voice:ipa attribute within the
+		<gi>voice:pvc</gi>voice:pvc element.</tagUsage>
+      <tagUsage gi="voice:track" occurs="5">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in
+		length) and thus refers to the audio recording of the
+		transcribed speech event.
+		</tagUsage>
+      <tagUsage gi="voice:to" occurs="1">Used to mark speech directed towards a
+		particular speaker. The <att>who</att>who attribute indicates the
+		addressed speaker.</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#PRcon599_PR #PRcon599_con"/>
+            <catRef target="#PR #con"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">AT</name>
+               <name type="city">Vienna</name>
+               <locale>assembly hall at university</locale>
+               <activity>drinking coffee</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="4"/>
+                  <personGrp role="interactants" size="4"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="participant" sameAs="#P56" xml:id="PRcon599_S5">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <occupation>computer scientist</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="kor-KR"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P57" xml:id="PRcon599_S6">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>computer scientist</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-DE"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P58" xml:id="PRcon599_S7">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>computer scientist</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-DE"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P52" xml:id="PRcon599_S1">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-IT"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person corresp="#PRcon599_S7" sameAs="#SX" xml:id="PRcon599_SX-7"/>
+                  <person sameAs="#SX-f" xml:id="PRcon599_SX-f"/>
+                  <person sameAs="#SX-m" xml:id="PRcon599_SX-m"/>
+                  <person corresp="#PRcon599_S5" sameAs="#SX" xml:id="PRcon599_SX-5"/>
+                  <person sameAs="#SS" xml:id="PRcon599_SS"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#PRcon599_S1 #PRcon599_S5 #PRcon599_S6 #PRcon599_S7" name="fairly_symmetrical" type="power"/>
+                  <relation mutual="#PRcon599_S1 #PRcon599_S5 #PRcon599_S6 #PRcon599_S7" name="predominantly_unacquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-11" who="AB">finalized for publication</change>
+         <change when="2009-01-09" who="MLP">proof-reading</change>
+         <change when="2006-04-01" who="JH">transcription</change>
+         <change when="2004-05-04" who="AB">checking</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="00:17" voice:end_medium_number="1" voice:end_track="1" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_1"> hello excuse me i'm from <pause/> vienna university from the english department <pause/> and er we are doing a project on <voice:pvc> intercultural </voice:pvc> communication<c function="fall" type="intonation"/><pause/> and me and my colleague are here to collect data so i was wondering if i could record <emph> your </emph> conversation<c function="rise" type="intonation"/><pause/> for a project it's <emph> totally </emph> anonymous <pause dur="PT1S"/></u>
+         </div>
+         <gap dur="PT00H01M00S" reason="not_transcribed" voice:desc="voice; S1 explains the project and asks for permission to record the conversation"/>
+         <div type="medium" voice:end="01:52" voice:end_medium_number="1" voice:end_track="6" voice:medium_type="md" voice:start="01:17" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_2"> what's important is <pause/> the <emph> language </emph> which is used and we are going to analyze this language and how people talk <pause/> to each other <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_3"> a<c type="lengthening"/>h <pause dur="PT1S"/> yeah we have only one choice <pause/> english<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_4"><shift corresp="#PRcon599_s_2" feature="voice" new="laugh" xml:id="PRcon599_s_1"/> yes <shift corresp="#PRcon599_s_1" feature="voice" new="neutral" xml:id="PRcon599_s_2"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_5"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="7" type="overlap" xml:id="PRcon599_ol_0"><vocal type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_6"><seg n="7" synch="#PRcon599_ol_0" type="overlap" xml:id="PRcon599_ol_1"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_7"> i i can't speak german and the- they <seg n="1" type="overlap" xml:id="PRcon599_ol_2"> can't speak ko</seg>rean <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_8"><seg n="1" synch="#PRcon599_ol_2" type="overlap" xml:id="PRcon599_ol_3"> yes of course </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_9"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_10"> we are looking for <emph> english </emph><c function="fall" type="intonation"/><pause/><seg n="2" type="overlap" xml:id="PRcon599_ol_4"> er speak <pause/> speech </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_11"><seg n="2" synch="#PRcon599_ol_4" type="overlap" xml:id="PRcon599_ol_5"> a<c type="lengthening"/>h <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/><pause dur="PT2S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_12"> and er <pause/> may i ask you where you are from <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_13"> haeh<c function="rise" type="intonation"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_14"> may i ask you where you are from<c function="fall" type="intonation"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_15"><vocal type="speaker_noise" voice:desc="smacks lips"/><pause/> yeah <pause/><emph> i'</emph>m from michigan <pause dur="PT1S"/><seg n="3" type="overlap" xml:id="PRcon599_ol_6"> but or- </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_16"><shift corresp="#PRcon599_s_4" feature="tempo" new="a" xml:id="PRcon599_s_3"/><seg n="3" synch="#PRcon599_ol_6" type="overlap" xml:id="PRcon599_ol_7"> from </seg> michigan <shift corresp="#PRcon599_s_3" feature="tempo" new="neutral" xml:id="PRcon599_s_4"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_17"> ori<seg n="4" type="overlap" xml:id="PRcon599_ol_8">gina</seg>lly from korea <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_18"><seg n="4" synch="#PRcon599_ol_8" type="overlap" xml:id="PRcon599_ol_9"><shift corresp="#PRcon599_s_6" feature="loud" new="p" xml:id="PRcon599_s_5"/> mhm <shift corresp="#PRcon599_s_5" feature="loud" new="neutral" xml:id="PRcon599_s_6"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_19"> aha okay <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_20"><shift corresp="#PRcon599_s_8" feature="loud" new="p" xml:id="PRcon599_s_7"/> mhm <shift corresp="#PRcon599_s_7" feature="loud" new="neutral" xml:id="PRcon599_s_8"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_21"> and what about you<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_22"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="5" type="overlap" xml:id="PRcon599_ol_10"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="6" type="overlap" xml:id="PRcon599_ol_11"><vocal type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_23"><seg n="5" synch="#PRcon599_ol_10" type="overlap" xml:id="PRcon599_ol_12"><shift corresp="#PRcon599_s_10" feature="loud" new="p" xml:id="PRcon599_s_9"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRcon599_s_9" feature="loud" new="neutral" xml:id="PRcon599_s_10"/></seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_24"><seg n="6" synch="#PRcon599_ol_11" type="overlap" xml:id="PRcon599_ol_13"> in english<c function="rise" type="intonation"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_25"><shift corresp="#PRcon599_s_12" feature="voice" new="laugh" xml:id="PRcon599_s_11"/> yes <anchor synch="#PRcon599_oc_1" type="other_continuation" xml:id="PRcon599_oc_0"/><shift corresp="#PRcon599_s_11" feature="voice" new="neutral" xml:id="PRcon599_s_12"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_26"><anchor synch="#PRcon599_oc_0" type="other_continuation" xml:id="PRcon599_oc_1"/> i'm <pause/> i'm from germany <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_27"> you're from germany right <pause/> and what about you<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_28"> from germany <seg n="7" type="overlap" xml:id="PRcon599_ol_14"> too </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_29"><seg n="7" synch="#PRcon599_ol_14" type="overlap" xml:id="PRcon599_ol_15"> from </seg> germany <seg n="1" type="overlap" xml:id="PRcon599_ol_16"> too </seg><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_30"><seg n="1" synch="#PRcon599_ol_16" type="overlap" xml:id="PRcon599_ol_17"><shift corresp="#PRcon599_s_14" feature="loud" new="p" xml:id="PRcon599_s_13"/> hm <shift corresp="#PRcon599_s_13" feature="loud" new="neutral" xml:id="PRcon599_s_14"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_31"> okay <pause dur="PT1S"/> so <pause dur="PT1S"/> you can continue with your conversation if you don't mind <pause dur="PT1S"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRcon599_s_16" feature="loud" new="p" xml:id="PRcon599_s_15"/> and i'm going to record it <shift corresp="#PRcon599_s_15" feature="loud" new="neutral" xml:id="PRcon599_s_16"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_32"><vocal dur="PT2S" iterated="true" voice:desc="coughs"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_33"> so <emph> where </emph> did we stop <pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_34"> er we explained the german system er <pause/> compared <pause/> university <seg n="2" type="overlap" xml:id="PRcon599_ol_18"> system </seg> compared to <seg n="3" type="overlap" xml:id="PRcon599_ol_19"> the united states </seg></u>
+            <u who="#PRcon599_SX-5" xml:id="PRcon599_u_35"><seg n="2" synch="#PRcon599_ol_18" type="overlap" xml:id="PRcon599_ol_20"> yeah </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_36"><seg n="3" synch="#PRcon599_ol_19" type="overlap" xml:id="PRcon599_ol_21"> the<c type="lengthening"/><pause/> the </seg> profess<unclear>ori</unclear>al system <pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_37"> so <seg n="4" type="overlap" xml:id="PRcon599_ol_22"> there is no ten</seg>ure <seg n="8" type="overlap" xml:id="PRcon599_ol_23"> er track er </seg><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_38"><seg n="4" synch="#PRcon599_ol_22" type="overlap" xml:id="PRcon599_ol_24"> in the germany </seg></u>
+            <u who="#PRcon599_SX-f" xml:id="PRcon599_u_39"><seg n="8" synch="#PRcon599_ol_23" type="overlap" xml:id="PRcon599_ol_25"><shift corresp="#PRcon599_s_18" feature="loud" new="p" xml:id="PRcon599_s_17"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#PRcon599_s_17" feature="loud" new="neutral" xml:id="PRcon599_s_18"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_40"> er from er <pause/> the  <w voice:mode="spelt"> p h d  </w> er to er <pause/> an <unclear> associate </unclear> professorship <pause dur="PT1S"/> there is er still some <pause dur="PT1S"/> kind of er <pause dur="PT2S"/> erm restricted er <pause dur="PT1S"/> time at the university for <pause/> three of six years and er you have to finish your second er <pause dur="PT1S"/> erm <pause dur="PT1S"/><w voice:mode="spelt"> p h d  </w> you can say <pause/><voice:pvc> habilitation </voice:pvc> degree and then  </u>
+            <u who="#PRcon599_SX-m" xml:id="PRcon599_u_41"><shift corresp="#PRcon599_s_20" feature="loud" new="p" xml:id="PRcon599_s_19"/><unclear> aha </unclear><shift corresp="#PRcon599_s_19" feature="loud" new="neutral" xml:id="PRcon599_s_20"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_42"> then you can apply for er <pause/><unclear> associate </unclear> professorships or for full professorships <shift corresp="#PRcon599_s_22" feature="loud" new="p" xml:id="PRcon599_s_21"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#PRcon599_s_21" feature="loud" new="neutral" xml:id="PRcon599_s_22"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_43"><shift corresp="#PRcon599_s_24" feature="loud" new="p" xml:id="PRcon599_s_23"/> a<c type="lengthening"/>h <shift corresp="#PRcon599_s_23" feature="loud" new="neutral" xml:id="PRcon599_s_24"/><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_44"> typically you you apply for <unclear> associate </unclear> professorships <pause/> and only the <unclear> associate </unclear> professorships they are er <pause/> and the full professorships hh they're for a lifetime positions <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_45"><shift corresp="#PRcon599_s_26" feature="loud" new="p" xml:id="PRcon599_s_25"/> a<c type="lengthening"/>h <shift corresp="#PRcon599_s_25" feature="loud" new="neutral" xml:id="PRcon599_s_26"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_46"> so all the other are <pause dur="PT2S"/> only for some <pause/> how how do you call that in english<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_SX-m" xml:id="PRcon599_u_47"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><voice:track medium="1" num="2" type="md"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_48"><foreign type="L1" voice:translation="what do you mean" xml:lang="ger"> was meinen <unclear> sie </unclear><anchor synch="#PRcon599_oc_3" type="other_continuation" xml:id="PRcon599_oc_2"/></foreign></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_49"><foreign type="L1" voice:translation="fixed-term contracts" xml:lang="ger"><anchor synch="#PRcon599_oc_2" type="other_continuation" xml:id="PRcon599_oc_3"/> zeitvertraege<c function="rise" type="intonation"/></foreign><pause dur="PT2S"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_50"> erm <pause dur="PT2S"/> time-limited<c function="rise" type="intonation"/><anchor synch="#PRcon599_oc_5" type="other_continuation" xml:id="PRcon599_oc_4"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_51"><anchor synch="#PRcon599_oc_4" type="other_continuation" xml:id="PRcon599_oc_5"/> time-limited<c function="rise" type="intonation"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_52"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="5" type="overlap" xml:id="PRcon599_ol_26"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_53"><seg n="5" synch="#PRcon599_ol_26" type="overlap" xml:id="PRcon599_ol_27"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/>  okay <anchor synch="#PRcon599_oc_7" type="other_continuation" xml:id="PRcon599_oc_6"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_54"><anchor synch="#PRcon599_oc_6" type="other_continuation" xml:id="PRcon599_oc_7"/> so er are you <emph> have </emph> to opp- <pause/> the <seg n="6" type="overlap" xml:id="PRcon599_ol_28"><supplied reason="unintelligible"> xxx xx </supplied></seg><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_55"><seg n="6" synch="#PRcon599_ol_28" type="overlap" xml:id="PRcon599_ol_29"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_56"> by the deadline <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_57"> yes <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_58"> e<c type="lengthening"/>r <pause/> how long<c function="rise" type="intonation"/><pause dur="PT2S"/> the deadline <pause/> or <pause/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_59"> e<c type="lengthening"/>r <anchor synch="#PRcon599_oc_9" type="other_continuation" xml:id="PRcon599_oc_8"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_60"><anchor synch="#PRcon599_oc_8" type="other_continuation" xml:id="PRcon599_oc_9"/> th- <seg n="7" type="overlap" xml:id="PRcon599_ol_30"> the time </seg> period <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_61"><seg n="7" synch="#PRcon599_ol_30" type="overlap" xml:id="PRcon599_ol_31"> fo<c type="lengthening"/>r </seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_62"> for a <supplied reason="unintelligible"> x </supplied><pause/><w voice:mode="spelt"> p h d  </w> thesis the deadline is <pause/> five years <pause/> with the possibility of erm <pause/> getting <pause/> one <pause/> additional year<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_63"> a<c type="lengthening"/>h <pause dur="PT2S"/><unclear> i see </unclear><pause dur="PT3S"/><unclear> does  <w voice:mode="spelt"> u s  </w></unclear> have <pause dur="PT1S"/> have anything like that<c function="rise" type="intonation"/><pause dur="PT1S"/> the time limitation <pause/> to be a  <w voice:mode="spelt"> p h d<c function="rise" type="intonation"/></w><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_64"><shift corresp="#PRcon599_s_28" feature="loud" new="p" xml:id="PRcon599_s_27"/> i don't <seg n="8" type="overlap" xml:id="PRcon599_ol_32"> think </seg> so <shift corresp="#PRcon599_s_27" feature="loud" new="neutral" xml:id="PRcon599_s_28"/><pause/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_65"><seg n="8" synch="#PRcon599_ol_32" type="overlap" xml:id="PRcon599_ol_33"> no </seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_66"> but <seg n="9" type="overlap" xml:id="PRcon599_ol_34"> i </seg> know <anchor synch="#PRcon599_oc_11" type="other_continuation" xml:id="PRcon599_oc_10"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_67"><seg n="9" synch="#PRcon599_ol_34" type="overlap" xml:id="PRcon599_ol_35"> or<c function="rise" type="intonation"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_68"><shift corresp="#PRcon599_s_30" feature="loud" new="p" xml:id="PRcon599_s_29"/><anchor synch="#PRcon599_oc_10" type="other_continuation" xml:id="PRcon599_oc_11"/> yah <shift corresp="#PRcon599_s_29" feature="loud" new="neutral" xml:id="PRcon599_s_30"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_69"><seg n="1" type="overlap" xml:id="PRcon599_ol_36"> in </seg><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_70"><seg n="1" synch="#PRcon599_ol_36" type="overlap" xml:id="PRcon599_ol_37"><shift corresp="#PRcon599_s_32" feature="loud" new="p" xml:id="PRcon599_s_31"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#PRcon599_s_31" feature="loud" new="neutral" xml:id="PRcon599_s_32"/></seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_71"><emph> france </emph><pause dur="PT1S"/> they have even a shorter limit </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_72"> a shorter limit <pause dur="PT1S"/> a<c type="lengthening"/>h <pause/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_73"> i don't know <pause/> three years i think <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_74"> just three years<c function="rise" type="intonation"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_75"><vocal voice:desc="coughs"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_76"><shift corresp="#PRcon599_s_34" feature="loud" new="p" xml:id="PRcon599_s_33"/><seg n="7" type="overlap" xml:id="PRcon599_ol_38"> just three </seg><seg n="2" type="overlap" xml:id="PRcon599_ol_39"> years </seg><shift corresp="#PRcon599_s_33" feature="loud" new="neutral" xml:id="PRcon599_s_34"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_77"><seg n="7" synch="#PRcon599_ol_38" type="overlap" xml:id="PRcon599_ol_40"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_78"><seg n="2" synch="#PRcon599_ol_39" type="overlap" xml:id="PRcon599_ol_41"> o<c type="lengthening"/>h </seg> that that's too short <pause/><seg n="6" type="overlap" xml:id="PRcon599_ol_42"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><seg n="3" type="overlap" xml:id="PRcon599_ol_43"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_79"><seg n="6" synch="#PRcon599_ol_42" type="overlap" xml:id="PRcon599_ol_44"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_80"><seg n="3" synch="#PRcon599_ol_43" type="overlap" xml:id="PRcon599_ol_45"> three or </seg> four<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_81"> but it was shorter than in germany <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_82"> a<c type="lengthening"/>h <pause dur="PT2S"/> well <pause dur="PT1S"/> well i guess er more or less well we take <pause dur="PT1S"/> a- o- on average we take five years to <unclear> get </unclear><w voice:mode="spelt"> p h d<c function="fall" type="intonation"/></w><pause/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_83"> mhm </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_84"> so i i guess three years er <pause dur="PT1S"/> is <emph> not </emph> enough <pause dur="PT1S"/> is not enough <pause dur="PT2S"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_85"> erm <pause/> well yo- <pause dur="PT1S"/> you may take more time for the <unclear> for your </unclear><w voice:mode="spelt"> p h d  </w> thesis <pause/> but er in that case </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_86"> a<seg n="4" type="overlap" xml:id="PRcon599_ol_46">ha </seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_87"><seg n="4" synch="#PRcon599_ol_46" type="overlap" xml:id="PRcon599_ol_47"> you </seg> can't be <pause dur="PT1S"/> er<c type="lengthening"/>m <pause/> an assistant at the university <pause dur="PT1S"/><seg n="8" type="overlap" xml:id="PRcon599_ol_48"> the uni</seg>versity pays you only <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_88"><seg n="8" synch="#PRcon599_ol_48" type="overlap" xml:id="PRcon599_ol_49"> mhm </seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_89"> for <pause dur="PT1S"/> five or six years <pause/> and if you don't have your  <w voice:mode="spelt"> p h d  </w> th- degree <pause dur="PT1S"/> finished <pause/> or your  <w voice:mode="spelt"> p h d  </w> thesis finished <pause/> erm <pause/> you have to find another job<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_90"> a<c type="lengthening"/>h <anchor synch="#PRcon599_oc_13" type="other_continuation" xml:id="PRcon599_oc_12"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_91"><anchor synch="#PRcon599_oc_12" type="other_continuation" xml:id="PRcon599_oc_13"/> and <pause/><unclear> have you do </unclear> you have to finish the  <w voice:mode="spelt"> p h d  </w> thesis in your <pause dur="PT1S"/> erm <pause/> space time<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_92"><shift corresp="#PRcon599_s_36" feature="loud" new="p" xml:id="PRcon599_s_35"/> mhm <shift corresp="#PRcon599_s_35" feature="loud" new="neutral" xml:id="PRcon599_s_36"/><pause dur="PT2S"/> i see<c function="fall" type="intonation"/><pause dur="PT2S"/> and <unclear> yeah </unclear><vocal voice:desc="clears throat"/> er <pause/> d- does your country have the same <pause/> promotion system <pause/> meaning <pause/> assistant <emph> pro</emph>fessor <pause/> and associate <emph> pro</emph>fessor and full <emph> pro</emph>fessor <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_93"> e<c type="lengthening"/>r not really  </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_94"> not really <pause/> a<c type="lengthening"/>h <anchor synch="#PRcon599_oc_15" type="other_continuation" xml:id="PRcon599_oc_14"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_95"><anchor synch="#PRcon599_oc_14" type="other_continuation" xml:id="PRcon599_oc_15"/> for now i think <pause/> for one or two years  there is a junior professor <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_96"> junior professor <pause/><seg n="8" type="overlap" xml:id="PRcon599_ol_50"> and a </seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_97"><seg n="8" synch="#PRcon599_ol_50" type="overlap" xml:id="PRcon599_ol_51"> junior </seg> professor </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_98"> senior<c function="rise" type="intonation"/><pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="5" type="overlap" xml:id="PRcon599_ol_52"><vocal type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_99"><seg n="5" synch="#PRcon599_ol_52" type="overlap" xml:id="PRcon599_ol_53"> er n<c type="lengthening"/>ot </seg> senior <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_100"> just a professor </u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_101"> i don't know exactly <pause dur="PT1S"/> the details about it <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_102"> aha <pause dur="PT2S"/> yeah w- we have er three ranks er assistant professor <pause/> and associate <pause/> and full professor <pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_103"><shift corresp="#PRcon599_s_38" feature="loud" new="p" xml:id="PRcon599_s_37"/> hm <shift corresp="#PRcon599_s_37" feature="loud" new="neutral" xml:id="PRcon599_s_38"/><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_104"><unclear> and </unclear> usually we have <pause/><emph> six </emph> y- years <pause dur="PT1S"/> for <pause/> to be assistant professor meaning <pause dur="PT1S"/> after six years we have to either <pause dur="PT1S"/> promote it <pause/> or <pause dur="PT1S"/> go off for <unclear> somewhere </unclear><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="6" type="overlap" xml:id="PRcon599_ol_54"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="7" type="overlap" xml:id="PRcon599_ol_55"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_105"><seg n="6" synch="#PRcon599_ol_54" type="overlap" xml:id="PRcon599_ol_56"><shift corresp="#PRcon599_s_40" feature="loud" new="p" xml:id="PRcon599_s_39"/> hm <shift corresp="#PRcon599_s_39" feature="loud" new="neutral" xml:id="PRcon599_s_40"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_106"><seg n="7" synch="#PRcon599_ol_55" type="overlap" xml:id="PRcon599_ol_57"><shift corresp="#PRcon599_s_42" feature="loud" new="p" xml:id="PRcon599_s_41"/> hm <shift corresp="#PRcon599_s_41" feature="loud" new="neutral" xml:id="PRcon599_s_42"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_107"> so we have usually <pause/> six y- years of window <pause/> time window <pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_108"><shift corresp="#PRcon599_s_44" feature="loud" new="p" xml:id="PRcon599_s_43"/> hm <anchor synch="#PRcon599_oc_17" type="other_continuation" xml:id="PRcon599_oc_16"/><shift corresp="#PRcon599_s_43" feature="loud" new="neutral" xml:id="PRcon599_s_44"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_109"><anchor synch="#PRcon599_oc_16" type="other_continuation" xml:id="PRcon599_oc_17"/> and then we <emph> have </emph> to show <pause/> er we have to <emph> de</emph>monstrate <pause dur="PT1S"/> the research capab- research and teaching capability <pause dur="PT1S"/> er research meaning e<c type="lengthening"/>r <pause/> our papers <pause dur="PT1S"/> or <seg n="8" type="overlap" xml:id="PRcon599_ol_58"> usually </seg> papers <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_110"><seg n="8" synch="#PRcon599_ol_58" type="overlap" xml:id="PRcon599_ol_59"> mhm </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_111"> a<c type="lengthening"/>nd teaching <pause/> or teaching evaluation from students <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_112"> mhm mhm <pause/> m<seg n="1" type="overlap" xml:id="PRcon599_ol_60">hm </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_113"><seg n="1" synch="#PRcon599_ol_60" type="overlap" xml:id="PRcon599_ol_61"> and </seg> then <pause/> and the<c type="lengthening"/>n <pause dur="PT1S"/> and then we are <pause/> promoted to asso<seg n="9" type="overlap" xml:id="PRcon599_ol_62">ciate <supplied reason="unintelligible"> x </supplied></seg><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_114"><seg n="9" synch="#PRcon599_ol_62" type="overlap" xml:id="PRcon599_ol_63"> mhm </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_115"> the main difference is that we can never be a <pause/> professor at the same <voice:track medium="1" num="3" type="md"/> university they have <seg n="2" type="overlap" xml:id="PRcon599_ol_64"> er </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_116"><shift corresp="#PRcon599_s_46" feature="loud" new="p" xml:id="PRcon599_s_45"/><seg n="2" synch="#PRcon599_ol_64" type="overlap" xml:id="PRcon599_ol_65"> ah</seg>a <shift corresp="#PRcon599_s_45" feature="loud" new="neutral" xml:id="PRcon599_s_46"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_117"> that your assistants <shift corresp="#PRcon599_s_48" feature="loud" new="p" xml:id="PRcon599_s_47"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#PRcon599_s_47" feature="loud" new="neutral" xml:id="PRcon599_s_48"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_118"> aha <anchor synch="#PRcon599_oc_19" type="other_continuation" xml:id="PRcon599_oc_18"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_119"><anchor synch="#PRcon599_oc_18" type="other_continuation" xml:id="PRcon599_oc_19"/> and also as er <pause/> as i said you can <unclear> no- </unclear> you have to change <emph> again </emph> er to become a <emph> full </emph> professor <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_120"> aha </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_121"> you must <unclear> bu- </unclear> you must always change the university <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_122"> a<c type="lengthening"/><seg n="3" type="overlap" xml:id="PRcon599_ol_66">ha </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_123"><seg n="3" synch="#PRcon599_ol_66" type="overlap" xml:id="PRcon599_ol_67"> you can </seg> never stay in the same place <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_124"><shift corresp="#PRcon599_s_50" feature="loud" new="p" xml:id="PRcon599_s_49"/> aha <pause dur="PT2S"/> i see <pause dur="PT1S"/> i see <shift corresp="#PRcon599_s_49" feature="loud" new="neutral" xml:id="PRcon599_s_50"/><pause/> hh and how many e<c type="lengthening"/>r <pause dur="PT1S"/> faculty members do you have in your department<c function="rise" type="intonation"/><pause dur="PT2S"/> how many <emph> prof</emph>essors<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_125"><vocal voice:desc="coughs"/><seg n="8" type="overlap" xml:id="PRcon599_ol_68"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_126"><seg n="8" synch="#PRcon599_ol_68" type="overlap" xml:id="PRcon599_ol_69"> i'm sorry <pause/> i'm sorry </seg><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="9" type="overlap" xml:id="PRcon599_ol_70"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_127"><seg n="9" synch="#PRcon599_ol_70" type="overlap" xml:id="PRcon599_ol_71"><shift corresp="#PRcon599_s_52" feature="loud" new="p" xml:id="PRcon599_s_51"/><unclear> it's all right </unclear><shift corresp="#PRcon599_s_51" feature="loud" new="neutral" xml:id="PRcon599_s_52"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_128"> er we have only nine <pause dur="PT1S"/> nine in the <pause dur="PT1S"/><seg n="4" type="overlap" xml:id="PRcon599_ol_72"> de</seg>partment of computer science <shift corresp="#PRcon599_s_54" feature="loud" new="p" xml:id="PRcon599_s_53"/> so <shift corresp="#PRcon599_s_53" feature="loud" new="neutral" xml:id="PRcon599_s_54"/><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_129"><seg n="4" synch="#PRcon599_ol_72" type="overlap" xml:id="PRcon599_ol_73"> nine<c function="rise" type="intonation"/></seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_130"><shift corresp="#PRcon599_s_56" feature="loud" new="p" xml:id="PRcon599_s_55"/> m<seg n="5" type="overlap" xml:id="PRcon599_ol_74">hm </seg><shift corresp="#PRcon599_s_55" feature="loud" new="neutral" xml:id="PRcon599_s_56"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_131"><seg n="5" synch="#PRcon599_ol_74" type="overlap" xml:id="PRcon599_ol_75"> in com</seg>puter science <pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_132"><shift corresp="#PRcon599_s_58" feature="loud" new="p" xml:id="PRcon599_s_57"/> mhm <shift corresp="#PRcon599_s_57" feature="loud" new="neutral" xml:id="PRcon599_s_58"/><pause/> be<seg n="6" type="overlap" xml:id="PRcon599_ol_76">cause </seg> we don't count erm <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_133"><seg n="6" synch="#PRcon599_ol_76" type="overlap" xml:id="PRcon599_ol_77"> nine </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_134"> the assistant professors <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="7" type="overlap" xml:id="PRcon599_ol_78"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="1" type="overlap" xml:id="PRcon599_ol_79"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg> hh <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_135"><seg n="7" synch="#PRcon599_ol_78" type="overlap" xml:id="PRcon599_ol_80"><shift corresp="#PRcon599_s_60" feature="loud" new="p" xml:id="PRcon599_s_59"/> mhm <shift corresp="#PRcon599_s_59" feature="loud" new="neutral" xml:id="PRcon599_s_60"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_136"><seg n="1" synch="#PRcon599_ol_79" type="overlap" xml:id="PRcon599_ol_81"> i see </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_137"><shift corresp="#PRcon599_s_62" feature="loud" new="p" xml:id="PRcon599_s_61"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#PRcon599_s_61" feature="loud" new="neutral" xml:id="PRcon599_s_62"/><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_138"><shift corresp="#PRcon599_s_64" feature="loud" new="p" xml:id="PRcon599_s_63"/> i see <shift corresp="#PRcon599_s_63" feature="loud" new="neutral" xml:id="PRcon599_s_64"/><pause dur="PT5S"/><unclear> yeah </unclear><pause dur="PT1S"/><unclear> so </unclear> my department has er sixteen <pause/> e<c type="lengthening"/>r <pause/> faculty members <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_139"> mhm </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_140"> and <emph> two </emph> lecturers <pause dur="PT1S"/> e<c type="lengthening"/>r <pause/> but <pause dur="PT1S"/> it's not the same thing as w- as w- <pause/> with your department because <pause dur="PT1S"/><supplied reason="unintelligible"> x </supplied> you don't have <pause/> assistant <emph> pro</emph>fessors <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_141"><shift corresp="#PRcon599_s_66" feature="loud" new="p" xml:id="PRcon599_s_65"/> yeah <shift corresp="#PRcon599_s_65" feature="loud" new="neutral" xml:id="PRcon599_s_66"/><pause dur="PT2S"/></u>
+            <u who="#PRcon599_SX-m" xml:id="PRcon599_u_142"><shift corresp="#PRcon599_s_68" feature="loud" new="p" xml:id="PRcon599_s_67"/> mhm <shift corresp="#PRcon599_s_67" feature="loud" new="neutral" xml:id="PRcon599_s_68"/><pause/></u>
+            <u who="#PRcon599_SX-m" xml:id="PRcon599_u_143"><shift corresp="#PRcon599_s_70" feature="loud" new="p" xml:id="PRcon599_s_69"/> yah <shift corresp="#PRcon599_s_69" feature="loud" new="neutral" xml:id="PRcon599_s_70"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_144"> that that's interesting <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/><pause dur="PT10S"/><voice:to who="#PRcon599_S1"> okay an- an- and how did you know <pause dur="PT1S"/> w<c type="lengthening"/>e are gathering here <pause/> at <emph> this </emph> time </voice:to><pause dur="PT1S"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_145"> well erm <pause/> we have the information from <pause dur="PT1S"/> my colleagues because we are continually <pause/> researching <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_146"> m<seg n="2" type="overlap" xml:id="PRcon599_ol_82">hm </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_147"><seg n="2" synch="#PRcon599_ol_82" type="overlap" xml:id="PRcon599_ol_83"> and </seg> trying to find er meetings international meetings <seg n="3" type="overlap" xml:id="PRcon599_ol_84"> in vienna </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_148"><seg n="3" synch="#PRcon599_ol_84" type="overlap" xml:id="PRcon599_ol_85"> a<c type="lengthening"/></seg>h </u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_149"> where people from <pause dur="PT1S"/> different cultures and different first languages meet <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_150"> a<seg n="4" type="overlap" xml:id="PRcon599_ol_86">ha </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_151"><seg n="4" synch="#PRcon599_ol_86" type="overlap" xml:id="PRcon599_ol_87"> in </seg> professional settings <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_152"> aha <anchor synch="#PRcon599_oc_21" type="other_continuation" xml:id="PRcon599_oc_20"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_153"><anchor synch="#PRcon599_oc_20" type="other_continuation" xml:id="PRcon599_oc_21"/> and er so we came across your meeting <pause/><seg n="5" type="overlap" xml:id="PRcon599_ol_88"> and we con</seg>tacted the organizer and <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_154"><seg n="5" synch="#PRcon599_ol_88" type="overlap" xml:id="PRcon599_ol_89"> i see </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_155"> he <seg n="6" type="overlap" xml:id="PRcon599_ol_90"> said o</seg>kay you can come <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_156"><seg n="6" synch="#PRcon599_ol_90" type="overlap" xml:id="PRcon599_ol_91"><shift corresp="#PRcon599_s_72" feature="loud" new="p" xml:id="PRcon599_s_71"/> a<c type="lengthening"/>h <shift corresp="#PRcon599_s_71" feature="loud" new="neutral" xml:id="PRcon599_s_72"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_157"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="7" type="overlap" xml:id="PRcon599_ol_92"><vocal type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_158"><seg n="7" synch="#PRcon599_ol_92" type="overlap" xml:id="PRcon599_ol_93"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_159"><shift corresp="#PRcon599_s_74" feature="loud" new="p" xml:id="PRcon599_s_73"/> mhm <pause/> mhm <shift corresp="#PRcon599_s_73" feature="loud" new="neutral" xml:id="PRcon599_s_74"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_160"> have you registered <pause/> with the conference <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><seg n="1" type="overlap" xml:id="PRcon599_ol_94"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_161"><seg n="1" synch="#PRcon599_ol_94" type="overlap" xml:id="PRcon599_ol_95"> well </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_162"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_163"><seg n="2" type="overlap" xml:id="PRcon599_ol_96"> no i'm joking <pause/> don't worry don't worry <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="3" type="overlap" xml:id="PRcon599_ol_97"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_164"><seg n="2" synch="#PRcon599_ol_96" type="overlap" xml:id="PRcon599_ol_98"> i <unclear> do not </unclear><supplied reason="unintelligible"> xxx </supplied><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_165"><seg n="3" synch="#PRcon599_ol_97" type="overlap" xml:id="PRcon599_ol_99"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_166"> and erm er <pause dur="PT1S"/> er what <pause/> what factor are you looking for <pause/> in conversation <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_167"> well we are looking for linguistic factors it depends on on <pause/> actually <pause dur="PT1S"/> if er if somebody wants to do a project <pause/> on or wants to write a paper on <pause/> on er <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> on english as an international language <seg n="4" type="overlap" xml:id="PRcon599_ol_100"> then </seg><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_168"><seg n="4" synch="#PRcon599_ol_100" type="overlap" xml:id="PRcon599_ol_101"> mhm </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_169"> she or he will have certain factors to look for <pause/> i mean it depends on on which aspects but it it <pause/> it will be <pause dur="PT1S"/> er <emph> linguistic </emph> aspects so </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_170"> mhm <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_171"> it's about erm <pause dur="PT1S"/> which <pause/> language people use and how they use it and <pause dur="PT1S"/> the way they communicate with each other<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_172"> so </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_173"><shift corresp="#PRcon599_s_76" feature="loud" new="p" xml:id="PRcon599_s_75"/> m<seg n="5" type="overlap" xml:id="PRcon599_ol_102">hm </seg><shift corresp="#PRcon599_s_75" feature="loud" new="neutral" xml:id="PRcon599_s_76"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_174"><seg n="5" synch="#PRcon599_ol_102" type="overlap" xml:id="PRcon599_ol_103"> you're </seg> looking for his south korean as- er <pause dur="PT1S"/> er <pause dur="PT1S"/><seg n="6" type="overlap" xml:id="PRcon599_ol_104"> er </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_175"><seg n="6" synch="#PRcon599_ol_104" type="overlap" xml:id="PRcon599_ol_105"> ye</seg>s </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_176"> dia- <pause/> erm <pause dur="PT1S"/> dialect or <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_177"> we are looking for english <seg n="7" type="overlap" xml:id="PRcon599_ol_106"> e<c type="lengthening"/>r <pause/> from </seg><emph> non</emph>-native speakers <anchor synch="#PRcon599_oc_23" type="other_continuation" xml:id="PRcon599_oc_22"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_178"><seg n="7" synch="#PRcon599_ol_106" type="overlap" xml:id="PRcon599_ol_107"> and er <pause/> ger- </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_179"><anchor synch="#PRcon599_oc_22" type="other_continuation" xml:id="PRcon599_oc_23"/> from <pause/><seg n="1" type="overlap" xml:id="PRcon599_ol_108"> from o</seg>ther <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_180"><seg n="1" synch="#PRcon599_ol_108" type="overlap" xml:id="PRcon599_ol_109"> because </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_181"> yes </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_182"> speakers <anchor synch="#PRcon599_oc_25" type="other_continuation" xml:id="PRcon599_oc_24"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_183"><anchor synch="#PRcon599_oc_24" type="other_continuation" xml:id="PRcon599_oc_25"/> because <seg n="8" type="overlap" xml:id="PRcon599_ol_110"> we think </seg> it's <pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_184"><seg n="8" synch="#PRcon599_ol_110" type="overlap" xml:id="PRcon599_ol_111"> mhm </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_185"> the most important english nowadays because if you look at international communication on a global scale <anchor synch="#PRcon599_oc_27" type="other_continuation" xml:id="PRcon599_oc_26"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_186"><shift corresp="#PRcon599_s_78" feature="loud" new="p" xml:id="PRcon599_s_77"/><anchor synch="#PRcon599_oc_26" type="other_continuation" xml:id="PRcon599_oc_27"/> m<seg n="2" type="overlap" xml:id="PRcon599_ol_112">hm </seg><shift corresp="#PRcon599_s_77" feature="loud" new="neutral" xml:id="PRcon599_s_78"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_187"><seg n="2" synch="#PRcon599_ol_112" type="overlap" xml:id="PRcon599_ol_113"> then </seg> hh <pause/> you will find out that er most people who use english <voice:track medium="1" num="4" type="md"/><pause/><seg n="3" type="overlap" xml:id="PRcon599_ol_114"> use it </seg> as <pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_188"><seg n="3" synch="#PRcon599_ol_114" type="overlap" xml:id="PRcon599_ol_115"><shift corresp="#PRcon599_s_80" feature="loud" new="p" xml:id="PRcon599_s_79"/> mhm <shift corresp="#PRcon599_s_79" feature="loud" new="neutral" xml:id="PRcon599_s_80"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_189"> not as their mother tongue but as <pause/> er <pause/> a second or foreign language <pause dur="PT1S"/> and so this kind of english is very important<c function="rise" type="intonation"/><pause/> hh </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_190"> you won't believe it but i did a similar er study er <pause/> during er <pause/> whe- when i <emph> studied </emph><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_191"> really<c function="rise" type="intonation"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_192"><shift corresp="#PRcon599_s_82" feature="loud" new="p" xml:id="PRcon599_s_81"/> at <shift corresp="#PRcon599_s_81" feature="loud" new="neutral" xml:id="PRcon599_s_82"/> at first i st- i studied er <pause dur="PT1S"/> erm <pause/> mathematics and er <pause/> german er literature and german <pause/> literature and lingu<seg n="4" type="overlap" xml:id="PRcon599_ol_116">istics </seg><pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_193"><seg n="4" synch="#PRcon599_ol_116" type="overlap" xml:id="PRcon599_ol_117"> o<c type="lengthening"/>h </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_194"> and in linguistics er <pause/> i did a seminar on er <pause/> pidgin germans <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_195"> aha <anchor synch="#PRcon599_oc_29" type="other_continuation" xml:id="PRcon599_oc_28"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_196"><anchor synch="#PRcon599_oc_28" type="other_continuation" xml:id="PRcon599_oc_29"/> a<c type="lengthening"/>nd we went with a microphone er to erm <pause/> erm <pause/> some <pause/> some people <pause/> for instance turkish people that <seg n="5" type="overlap" xml:id="PRcon599_ol_118"> er </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_197"><seg n="5" synch="#PRcon599_ol_118" type="overlap" xml:id="PRcon599_ol_119"> o<c type="lengthening"/></seg>h  </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_198"> entered germany and tried to <seg n="6" type="overlap" xml:id="PRcon599_ol_120"> find out </seg><pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_199"><seg n="6" synch="#PRcon599_ol_120" type="overlap" xml:id="PRcon599_ol_121"><shift corresp="#PRcon599_s_84" feature="loud" new="p" xml:id="PRcon599_s_83"/><unclear> really </unclear><shift corresp="#PRcon599_s_83" feature="loud" new="neutral" xml:id="PRcon599_s_84"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_200"> how they speak <pause/> what kind <shift corresp="#PRcon599_s_86" feature="voice" new="laugh" xml:id="PRcon599_s_85"/> of lang<seg n="7" type="overlap" xml:id="PRcon599_ol_122">uage they speak what accent </seg><shift corresp="#PRcon599_s_85" feature="voice" new="neutral" xml:id="PRcon599_s_86"/><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_201"><seg n="7" synch="#PRcon599_ol_122" type="overlap" xml:id="PRcon599_ol_123"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_202"><shift corresp="#PRcon599_s_88" feature="voice" new="laugh" xml:id="PRcon599_s_87"/> what kind of words they know <seg n="1" type="overlap" xml:id="PRcon599_ol_124"> and what </seg><shift corresp="#PRcon599_s_87" feature="voice" new="neutral" xml:id="PRcon599_s_88"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_203"><seg n="1" synch="#PRcon599_ol_124" type="overlap" xml:id="PRcon599_ol_125"><shift corresp="#PRcon599_s_90" feature="loud" new="p" xml:id="PRcon599_s_89"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#PRcon599_s_89" feature="loud" new="neutral" xml:id="PRcon599_s_90"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_204"> aha <anchor synch="#PRcon599_oc_31" type="other_continuation" xml:id="PRcon599_oc_30"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_205"><shift corresp="#PRcon599_s_92" feature="voice" new="laugh" xml:id="PRcon599_s_91"/><anchor synch="#PRcon599_oc_30" type="other_continuation" xml:id="PRcon599_oc_31"/> and the grammar and so on <shift corresp="#PRcon599_s_91" feature="voice" new="neutral" xml:id="PRcon599_s_92"/> and then analyzed it er <pause dur="PT1S"/> er <seg n="2" type="overlap" xml:id="PRcon599_ol_126"> and er i </seg> think that's <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_206"><seg n="2" synch="#PRcon599_ol_126" type="overlap" xml:id="PRcon599_ol_127"> it's very interesting </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_207"> pretty similar <shift corresp="#PRcon599_s_94" feature="loud" new="p" xml:id="PRcon599_s_93"/><unclear> you know </unclear><shift corresp="#PRcon599_s_93" feature="loud" new="neutral" xml:id="PRcon599_s_94"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_208"> and and what were the outcomes of your study<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_209"> ooph <pause dur="PT3S"/> there wasn't real outcome  i think <unclear> in </unclear><pause dur="PT1S"/> that was just a seminar and wasn't ended <pause dur="PT1S"/> we didn't finish er <pause dur="PT1S"/> the study didn't finish er when the seminar finished so i don't know <pause dur="PT1S"/> if it er proceeded and there was an outcome <pause dur="PT1S"/><vocal dur="PT4S" iterated="true" voice:desc="coughs"/> but the idea was to find erm <pause/> some rules er <pause/> how to improve erm <pause dur="PT1S"/> the<c type="lengthening"/><pause dur="PT1S"/> erm <pause/> german-speaking of er let's say er turkish er <seg n="3" type="overlap" xml:id="PRcon599_ol_128"> people who </seg> live in germany <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_210"><seg n="3" synch="#PRcon599_ol_128" type="overlap" xml:id="PRcon599_ol_129"> immigrants </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_211"> mhm </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_212"> but i don't know if erm <pause/> they <pause/> did come as far <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_213"> okay <pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_214"> not in the seminar <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_215"><shift corresp="#PRcon599_s_96" feature="loud" new="p" xml:id="PRcon599_s_95"/> yes <shift corresp="#PRcon599_s_95" feature="loud" new="neutral" xml:id="PRcon599_s_96"/><pause dur="PT1S"/> cos we are trying to collect data english data from non-native speakers and <pause/><seg n="4" type="overlap" xml:id="PRcon599_ol_130"> we are co</seg>llecting it in a corpus<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_216"><seg n="4" synch="#PRcon599_ol_130" type="overlap" xml:id="PRcon599_ol_131"> mhm </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_217"> and e<c type="lengthening"/>r <pause/> the<c type="lengthening"/> aim is that one day <pause/> er perhaps textbooks will erm <pause dur="PT1S"/> well that we can <pause/> provide some useful in- information for english tex- english textbooks <pause dur="PT1S"/> because for example if<c type="lengthening"/> er<c type="lengthening"/>m <pause/> an italian speaker and a<c type="lengthening"/> swedish speaker meet and speak english then <pause dur="PT1S"/> e<c type="lengthening"/>r <pause/> it's not <pause/> necessarily correct that they use er <pause/> british english or american english <pause dur="PT1S"/> that they use a <seg n="5" type="overlap" xml:id="PRcon599_ol_132"><emph> native </emph></seg><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_218"><seg n="5" synch="#PRcon599_ol_132" type="overlap" xml:id="PRcon599_ol_133"><shift corresp="#PRcon599_s_98" feature="loud" new="p" xml:id="PRcon599_s_97"/> mhm <shift corresp="#PRcon599_s_97" feature="loud" new="neutral" xml:id="PRcon599_s_98"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_219"> speaker <emph> norm </emph><pause dur="PT1S"/> cos they construct their own norms <pause/> and they <pause/> successfully <pause/> communicate with each other so <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_220"><shift corresp="#PRcon599_s_100" feature="loud" new="p" xml:id="PRcon599_s_99"/> m<seg n="6" type="overlap" xml:id="PRcon599_ol_134">hm </seg><shift corresp="#PRcon599_s_99" feature="loud" new="neutral" xml:id="PRcon599_s_100"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_221"><seg n="6" synch="#PRcon599_ol_134" type="overlap" xml:id="PRcon599_ol_135"> i </seg> think it's more important to look at <emph> how </emph> people <pause/> manage to do so than at studying or <pause/> hh adapting the<c type="lengthening"/> er native <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_222"><vocal voice:desc="coughs"/><seg n="8" type="overlap" xml:id="PRcon599_ol_136"><vocal voice:desc="coughs"/></seg><vocal voice:desc="coughs"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_223"><seg n="8" synch="#PRcon599_ol_136" type="overlap" xml:id="PRcon599_ol_137"> norm </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_224"> native language <pause/><seg n="7" type="overlap" xml:id="PRcon599_ol_138"> native <supplied reason="unintelligible"> xx </supplied></seg><pause dur="PT2S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_225"><seg n="7" synch="#PRcon599_ol_138" type="overlap" xml:id="PRcon599_ol_139"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_226"> erm <pause dur="PT2S"/><shift corresp="#PRcon599_s_102" feature="loud" new="p" xml:id="PRcon599_s_101"/> or <shift corresp="#PRcon599_s_101" feature="loud" new="neutral" xml:id="PRcon599_s_102"/><pause/> the <emph> accent </emph><pause dur="PT1S"/> lives long  </u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_227"><shift corresp="#PRcon599_s_104" feature="loud" new="p" xml:id="PRcon599_s_103"/> yes <shift corresp="#PRcon599_s_103" feature="loud" new="neutral" xml:id="PRcon599_s_104"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_228"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="1" type="overlap" xml:id="PRcon599_ol_140"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_229"><seg n="1" synch="#PRcon599_ol_140" type="overlap" xml:id="PRcon599_ol_141"><shift corresp="#PRcon599_s_106" feature="loud" new="p" xml:id="PRcon599_s_105"/> mhm <shift corresp="#PRcon599_s_105" feature="loud" new="neutral" xml:id="PRcon599_s_106"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_230"><shift corresp="#PRcon599_s_108" feature="loud" new="p" xml:id="PRcon599_s_107"/><seg n="1" synch="#PRcon599_ol_140" type="overlap" xml:id="PRcon599_ol_142"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#PRcon599_s_107" feature="loud" new="neutral" xml:id="PRcon599_s_108"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_231"> e<c type="lengthening"/>r <pause/> that's my observation <pause dur="PT1S"/> e<c type="lengthening"/>rm <pause/> we have <pause/> well chinese faculty <pause dur="PT1S"/><unclear> yeah </unclear><supplied reason="unintelligible"> xx </supplied> faculty <pause/> and korean faculty <pause/> in  <w voice:mode="spelt"> c s  </w> department <pause dur="PT1S"/> a<c type="lengthening"/>nd the<c type="lengthening"/>y <pause dur="PT1S"/> wo- have worked there for long <pause/> twenty years <pause/> and still <pause/> have their strong <pause/> native la- <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#PRcon599_s_110" feature="voice" new="laugh" xml:id="PRcon599_s_109"/> accent <shift corresp="#PRcon599_s_109" feature="voice" new="neutral" xml:id="PRcon599_s_110"/><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_232"><shift corresp="#PRcon599_s_112" feature="loud" new="p" xml:id="PRcon599_s_111"/> mhm <shift corresp="#PRcon599_s_111" feature="loud" new="neutral" xml:id="PRcon599_s_112"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_233"> yes but <seg n="2" type="overlap" xml:id="PRcon599_ol_143"> do you </seg> think it's a <seg n="3" type="overlap" xml:id="PRcon599_ol_144"> problem<c function="rise" type="intonation"/></seg><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_234"><seg n="2" synch="#PRcon599_ol_143" type="overlap" xml:id="PRcon599_ol_145"><shift corresp="#PRcon599_s_114" feature="loud" new="p" xml:id="PRcon599_s_113"/> but <shift corresp="#PRcon599_s_113" feature="loud" new="neutral" xml:id="PRcon599_s_114"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_235"><seg n="3" synch="#PRcon599_ol_144" type="overlap" xml:id="PRcon599_ol_146"><shift corresp="#PRcon599_s_116" feature="loud" new="p" xml:id="PRcon599_s_115"/><supplied reason="unintelligible"> x </supplied><shift corresp="#PRcon599_s_115" feature="loud" new="neutral" xml:id="PRcon599_s_116"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_236"> i <pause/> surprisingly it's not a problem </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_237"><shift corresp="#PRcon599_s_118" feature="loud" new="p" xml:id="PRcon599_s_117"/> no <shift corresp="#PRcon599_s_117" feature="loud" new="neutral" xml:id="PRcon599_s_118"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_238"><emph> surprisingly </emph><pause/> meaning <seg n="5" type="overlap" xml:id="PRcon599_ol_147"> er </seg><pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_239"><seg n="5" synch="#PRcon599_ol_147" type="overlap" xml:id="PRcon599_ol_148"><shift corresp="#PRcon599_s_120" feature="loud" new="p" xml:id="PRcon599_s_119"/> yes <shift corresp="#PRcon599_s_119" feature="loud" new="neutral" xml:id="PRcon599_s_120"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_240"><unclear> a </unclear> student don't  complain  their accents <pause dur="PT1S"/><seg n="6" type="overlap" xml:id="PRcon599_ol_149"> don't com- </seg><pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_241"><seg n="6" synch="#PRcon599_ol_149" type="overlap" xml:id="PRcon599_ol_150"> that's right </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_242"> don't complain <voice:track medium="1" num="5" type="md"/> meaning <pause dur="PT1S"/> erm they<c type="lengthening"/><pause dur="PT3S"/> well <pause dur="PT1S"/> this is my understanding<c function="fall" type="intonation"/> they<c type="lengthening"/><pause/> just need <pause/> five minutes to understand <pause dur="PT1S"/> the<c type="lengthening"/><pause/> unique accent <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_243"> yes </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_244"> and after that <pause/><unclear> this this not </unclear> there's there's no problem </u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_245"> so there is no problem to<c type="lengthening"/> successful communication  </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_246"> no <anchor synch="#PRcon599_oc_33" type="other_continuation" xml:id="PRcon599_oc_32"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_247"><anchor synch="#PRcon599_oc_32" type="other_continuation" xml:id="PRcon599_oc_33"/> if people have <pause/><seg n="1" type="overlap" xml:id="PRcon599_ol_151"> different accents </seg><shift corresp="#PRcon599_s_122" feature="loud" new="p" xml:id="PRcon599_s_121"/> yes <shift corresp="#PRcon599_s_121" feature="loud" new="neutral" xml:id="PRcon599_s_122"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_248"><seg n="1" synch="#PRcon599_ol_151" type="overlap" xml:id="PRcon599_ol_152"> i don't think so </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_249"> even with a strong accent <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_250"> mhm <pause dur="PT1S"/> yes you t- it takes some time <shift corresp="#PRcon599_s_124" feature="tempo" new="l" xml:id="PRcon599_s_123"/> till peopl<c type="lengthening"/>e get to know <pause/> how they <seg n="2" type="overlap" xml:id="PRcon599_ol_153"> talk </seg><shift corresp="#PRcon599_s_123" feature="tempo" new="neutral" xml:id="PRcon599_s_124"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_251"><seg n="2" synch="#PRcon599_ol_153" type="overlap" xml:id="PRcon599_ol_154"> five </seg> minutes <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_252"> yes </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_253"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="3" type="overlap" xml:id="PRcon599_ol_155"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_254"><seg n="3" synch="#PRcon599_ol_155" type="overlap" xml:id="PRcon599_ol_156"> not ve</seg>ry long you <seg n="4" type="overlap" xml:id="PRcon599_ol_157"><unclear> think </unclear> so </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_255"><seg n="4" synch="#PRcon599_ol_157" type="overlap" xml:id="PRcon599_ol_158"> not very </seg> long <pause/> yeah <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_256"> it is <pause/> not such a big problem <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_257"><shift corresp="#PRcon599_s_126" feature="loud" new="p" xml:id="PRcon599_s_125"/> mhm<c function="rise" type="intonation"/><shift corresp="#PRcon599_s_125" feature="loud" new="neutral" xml:id="PRcon599_s_126"/><pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_258"> but er you know the the <supplied reason="unintelligible"> x </supplied> the <pause/><emph> british </emph> er or <emph> american </emph> standard is<c type="lengthening"/><pause/> of course <pause dur="PT1S"/> privileged and <unclear> yeah </unclear><pause dur="PT1S"/> people <seg n="5" type="overlap" xml:id="PRcon599_ol_159"> still </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_259"><seg n="5" synch="#PRcon599_ol_159" type="overlap" xml:id="PRcon599_ol_160"> privi</seg>leged  </u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_260"> s- <seg n="6" type="overlap" xml:id="PRcon599_ol_161"> some people </seg> still want to adopt it <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_261"><seg n="6" synch="#PRcon599_ol_161" type="overlap" xml:id="PRcon599_ol_162"> e<c type="lengthening"/>r </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_262"> and want to sound <seg n="7" type="overlap" xml:id="PRcon599_ol_163"> like </seg> a <seg n="1" type="overlap" xml:id="PRcon599_ol_164"> native </seg> speaker <anchor synch="#PRcon599_oc_35" type="other_continuation" xml:id="PRcon599_oc_34"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_263"><seg n="7" synch="#PRcon599_ol_163" type="overlap" xml:id="PRcon599_ol_165"> yeah </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_264"><seg n="1" synch="#PRcon599_ol_164" type="overlap" xml:id="PRcon599_ol_166"> o- o- </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_265"><anchor synch="#PRcon599_oc_34" type="other_continuation" xml:id="PRcon599_oc_35"/> yeah <emph> some </emph> people </u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_266"> yes <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_267"> but many of them <pause/> i don't think so <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="2" type="overlap" xml:id="PRcon599_ol_167"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> hh </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_268"><seg n="2" synch="#PRcon599_ol_167" type="overlap" xml:id="PRcon599_ol_168"> you <shift corresp="#PRcon599_s_128" feature="voice" new="laugh" xml:id="PRcon599_s_127"/> don't think so <shift corresp="#PRcon599_s_127" feature="voice" new="neutral" xml:id="PRcon599_s_128"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_269"> yeah i don't think so <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_270"> so you think people don't mind if they have an accent and speak english <pause dur="PT2S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_271"> e<c type="lengthening"/>r <pause dur="PT1S"/> no not that way erm <pause dur="PT1S"/><vocal type="speaker_noise" voice:desc="smacks lips"/> er <pause dur="PT1S"/><emph> my </emph><pause/> impression is <pause dur="PT1S"/> erm <pause/> my impression is <pause dur="PT1S"/> they know they have a strong accents </u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_272"> mhm <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_273"><unclear> a<c type="lengthening"/>nd </unclear><pause dur="PT1S"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/> they probably given up <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRcon599_s_130" feature="voice" new="laugh" xml:id="PRcon599_s_129"/> t- <pause/> to improve the accent <shift corresp="#PRcon599_s_129" feature="voice" new="neutral" xml:id="PRcon599_s_130"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_274"><shift corresp="#PRcon599_s_132" feature="loud" new="p" xml:id="PRcon599_s_131"/> mhm <shift corresp="#PRcon599_s_131" feature="loud" new="neutral" xml:id="PRcon599_s_132"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_275"> because th- <pause/> is <seg n="8" type="overlap" xml:id="PRcon599_ol_169"> still okay </seg><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_276"><seg n="8" synch="#PRcon599_ol_169" type="overlap" xml:id="PRcon599_ol_170"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_277"> the what  </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_278"><vocal voice:desc="coughs"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_279"> the<c type="lengthening"/><pause/> the the <emph> employer </emph><pause dur="PT1S"/> employers <unclear> career </unclear> is their research capability and teaching <seg n="3" type="overlap" xml:id="PRcon599_ol_171"> capa</seg>bility <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_280"><seg n="3" synch="#PRcon599_ol_171" type="overlap" xml:id="PRcon599_ol_172"> yes </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_281"><emph> not </emph> accent <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_282"> that's true  </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_283"><shift corresp="#PRcon599_s_134" feature="loud" new="p" xml:id="PRcon599_s_133"/> mhm <anchor synch="#PRcon599_oc_37" type="other_continuation" xml:id="PRcon599_oc_36"/><shift corresp="#PRcon599_s_133" feature="loud" new="neutral" xml:id="PRcon599_s_134"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_284"><anchor synch="#PRcon599_oc_36" type="other_continuation" xml:id="PRcon599_oc_37"/> so er <pause dur="PT1S"/> even h- even though they have a strong accents <pause/> they <pause/> write wonderfully <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_285"> mhm<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_286"> so th- the the <emph> writing </emph><pause/> is different from speaking<c function="fall" type="intonation"/><pause dur="PT2S"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="4" type="overlap" xml:id="PRcon599_ol_173"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_287"><seg n="4" synch="#PRcon599_ol_173" type="overlap" xml:id="PRcon599_ol_174"> but they can </seg> make themselves understood i think that's <pause/><seg n="5" type="overlap" xml:id="PRcon599_ol_175"> the main </seg> point <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_288"><seg n="5" synch="#PRcon599_ol_175" type="overlap" xml:id="PRcon599_ol_176"> mhm </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_289"> mhm <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_290"> not <pause/> what kind of<c type="lengthening"/> er <pause/> language you use but <emph> how </emph> you can express your ideas and <pause/> and erm <pause/> to ensure that others understand you <pause/><shift corresp="#PRcon599_s_136" feature="loud" new="p" xml:id="PRcon599_s_135"/> also <shift corresp="#PRcon599_s_135" feature="loud" new="neutral" xml:id="PRcon599_s_136"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_291"> yeah <pause dur="PT1S"/> yeah <unclear> he- </unclear><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><pause/> yeah i <pause/> i need to tell this <pause/> er <pause/> having accent <pause dur="PT1S"/> i<c type="lengthening"/>s completely <emph> different </emph> from <pause/> having wrong grammar <anchor synch="#PRcon599_oc_39" type="other_continuation" xml:id="PRcon599_oc_38"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_292"><anchor synch="#PRcon599_oc_38" type="other_continuation" xml:id="PRcon599_oc_39"/> yes<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_293"> right<c function="rise" type="intonation"/><pause/><seg n="7" type="overlap" xml:id="PRcon599_ol_177"> so the accent </seg> doesn't mean <pause/> e<c type="lengthening"/>r <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_294"><seg n="7" synch="#PRcon599_ol_177" type="overlap" xml:id="PRcon599_ol_178"> that's true </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_295"> a <seg n="1" type="overlap" xml:id="PRcon599_ol_179"> poor english </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_296"><seg n="1" synch="#PRcon599_ol_179" type="overlap" xml:id="PRcon599_ol_180"> that your grammar </seg> is wrong <anchor synch="#PRcon599_oc_41" type="other_continuation" xml:id="PRcon599_oc_40"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_297"><anchor synch="#PRcon599_oc_40" type="other_continuation" xml:id="PRcon599_oc_41"/> yes <anchor synch="#PRcon599_oc_43" type="other_continuation" xml:id="PRcon599_oc_42"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_298"><anchor synch="#PRcon599_oc_42" type="other_continuation" xml:id="PRcon599_oc_43"/> yes <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_299"><shift corresp="#PRcon599_s_138" feature="loud" new="p" xml:id="PRcon599_s_137"/> yes<c function="fall" type="intonation"/><shift corresp="#PRcon599_s_137" feature="loud" new="neutral" xml:id="PRcon599_s_138"/><pause dur="PT3S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_300"> and if if your grammar is wrong then <pause/> it's a bad thing<c function="fall" type="intonation"/><pause dur="PT1S"/> you think <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_301"> a <supplied reason="unintelligible"> x </supplied> problem <pause dur="PT1S"/> but <pause/> not a big problem <pause/> in my observation because <pause/> e<c type="lengthening"/>r <pause dur="PT1S"/> most american students <pause dur="PT1S"/> understand what the <pause/> the instructor tries to say </u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_302"> yes </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_303"> even if <unclear> there </unclear> are <pause/> they <pause/> they use wrong grammar or so or something <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_304"> mhm </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_305"> they <pause/> still know <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_306"> yes<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_307"> so knowledge matters <pause/> but accent <pause/> actually <pause/> doesn't <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_308"> true <pause/><seg n="2" type="overlap" xml:id="PRcon599_ol_181"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_309"><seg n="2" synch="#PRcon599_ol_181" type="overlap" xml:id="PRcon599_ol_182"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/><pause dur="PT1S"/><emph>  i </emph> may be wrong <unclear> about </unclear><pause/><shift corresp="#PRcon599_s_140" feature="loud" new="p" xml:id="PRcon599_s_139"/><supplied reason="unintelligible"> x<seg n="3" type="overlap" xml:id="PRcon599_ol_183">xx </seg></supplied><shift corresp="#PRcon599_s_139" feature="loud" new="neutral" xml:id="PRcon599_s_140"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_310"><seg n="3" synch="#PRcon599_ol_183" type="overlap" xml:id="PRcon599_ol_184"> no i </seg> think you are right <pause dur="PT1S"/> it's doesn't matter <pause dur="PT1S"/> how you speak <pause/><seg n="4" type="overlap" xml:id="PRcon599_ol_185"> i mean </seg> the accent is not very important <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_311"><seg n="4" synch="#PRcon599_ol_185" type="overlap" xml:id="PRcon599_ol_186"><shift corresp="#PRcon599_s_142" feature="loud" new="p" xml:id="PRcon599_s_141"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#PRcon599_s_141" feature="loud" new="neutral" xml:id="PRcon599_s_142"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_312"> because <pause dur="PT1S"/> you know <emph> very </emph><pause/> very few people <emph> can </emph><emph> speak </emph> like a native speaker <pause/><seg n="5" type="overlap" xml:id="PRcon599_ol_187"> when </seg> they are not <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_313"><seg n="5" synch="#PRcon599_ol_187" type="overlap" xml:id="PRcon599_ol_188"> right </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_314"> right <anchor synch="#PRcon599_oc_45" type="other_continuation" xml:id="PRcon599_oc_44"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_315"><anchor synch="#PRcon599_oc_44" type="other_continuation" xml:id="PRcon599_oc_45"/> ho- <seg n="8" type="overlap" xml:id="PRcon599_ol_189"> how </seg> many native americans  do you have <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_316"><seg n="8" synch="#PRcon599_ol_189" type="overlap" xml:id="PRcon599_ol_190"><shift corresp="#PRcon599_s_144" feature="loud" new="p" xml:id="PRcon599_s_143"/> yes <shift corresp="#PRcon599_s_143" feature="loud" new="neutral" xml:id="PRcon599_s_144"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_317"> in your faculty department<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_318"> in faculty<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_319"><shift corresp="#PRcon599_s_146" feature="loud" new="p" xml:id="PRcon599_s_145"/> faculty <shift corresp="#PRcon599_s_145" feature="loud" new="neutral" xml:id="PRcon599_s_146"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_320"> e<c type="lengthening"/>r <pause dur="PT1S"/> half <pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_321"> half<c function="rise" type="intonation"/><seg n="6" type="overlap" xml:id="PRcon599_ol_191"> oh </seg><pause/><voice:track medium="1" num="6" type="md"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_322"><seg n="6" synch="#PRcon599_ol_191" type="overlap" xml:id="PRcon599_ol_192"><shift corresp="#PRcon599_s_148" feature="loud" new="p" xml:id="PRcon599_s_147"/> yes <shift corresp="#PRcon599_s_147" feature="loud" new="neutral" xml:id="PRcon599_s_148"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_323"> that's a lot <pause/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_324"><shift corresp="#PRcon599_s_150" feature="loud" new="p" xml:id="PRcon599_s_149"/> mhm <shift corresp="#PRcon599_s_149" feature="loud" new="neutral" xml:id="PRcon599_s_150"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_325"> cos when i<unclear>'d </unclear> been in <pause/> er <supplied reason="unintelligible"> xx xx </supplied> erm <pause/> you did look  around and erm <pause/> then we did find  out that there're only two native <seg n="7" type="overlap" xml:id="PRcon599_ol_193"> americans <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="1" type="overlap" xml:id="PRcon599_ol_194"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_326"><seg n="7" synch="#PRcon599_ol_193" type="overlap" xml:id="PRcon599_ol_195"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/>  hh </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_327"><seg n="1" synch="#PRcon599_ol_194" type="overlap" xml:id="PRcon599_ol_196"> er </seg> that's what's happening in <pause/><emph> en</emph>gineering schools  </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_328"><vocal voice:desc="coughs"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_329"><shift corresp="#PRcon599_s_152" feature="loud" new="p" xml:id="PRcon599_s_151"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#PRcon599_s_151" feature="loud" new="neutral" xml:id="PRcon599_s_152"/><pause/> e<c type="lengthening"/>r <pause dur="PT1S"/> if you have any <pause dur="PT1S"/> open position </u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_330"> hm <anchor synch="#PRcon599_oc_47" type="other_continuation" xml:id="PRcon599_oc_46"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_331"><anchor synch="#PRcon599_oc_46" type="other_continuation" xml:id="PRcon599_oc_47"/> er receiving <pause/> the applicants <pause/> and there are only a few native americans <pause/> no- not <pause dur="PT1S"/> well <pause/> the <pause dur="PT1S"/><emph> native </emph> english americans <pause/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_332"><shift corresp="#PRcon599_s_154" feature="loud" new="p" xml:id="PRcon599_s_153"/> mhm <shift corresp="#PRcon599_s_153" feature="loud" new="neutral" xml:id="PRcon599_s_154"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_333"> e<c type="lengthening"/>r lots of <pause dur="PT1S"/> koreans chinese indians <pause dur="PT1S"/><seg n="3" type="overlap" xml:id="PRcon599_ol_197"> and <emph> all </emph> people from the </seg> world <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_334"><seg n="3" synch="#PRcon599_ol_197" type="overlap" xml:id="PRcon599_ol_198"> and what about <pause/> this </seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_335"> what about this meeting here are there more native speakers or mo<c type="lengthening"/>re er non-native speakers <pause dur="PT2S"/><seg n="8" type="overlap" xml:id="PRcon599_ol_199"><shift corresp="#PRcon599_s_156" feature="loud" new="p" xml:id="PRcon599_s_155"/> you think <shift corresp="#PRcon599_s_155" feature="loud" new="neutral" xml:id="PRcon599_s_156"/></seg><pause dur="PT2S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_336"><seg n="8" synch="#PRcon599_ol_199" type="overlap" xml:id="PRcon599_ol_200"> e<c type="lengthening"/>r </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_337"><shift corresp="#PRcon599_s_158" feature="loud" new="p" xml:id="PRcon599_s_157"/> extremely <seg n="4" type="overlap" xml:id="PRcon599_ol_201"> many </seg><seg n="9" type="overlap" xml:id="PRcon599_ol_202"> south koreans i think </seg><shift corresp="#PRcon599_s_157" feature="loud" new="neutral" xml:id="PRcon599_s_158"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_338"><shift corresp="#PRcon599_s_160" feature="loud" new="p" xml:id="PRcon599_s_159"/><seg n="4" synch="#PRcon599_ol_201" type="overlap" xml:id="PRcon599_ol_203"> i mean </seg><seg n="9" synch="#PRcon599_ol_202" type="overlap" xml:id="PRcon599_ol_204"> the whole <pause/> the whole </seg> meeting <shift corresp="#PRcon599_s_159" feature="loud" new="neutral" xml:id="PRcon599_s_160"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_339"><seg n="4" synch="#PRcon599_ol_201" type="overlap" xml:id="PRcon599_ol_205"><shift corresp="#PRcon599_s_162" feature="loud" new="p" xml:id="PRcon599_s_161"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#PRcon599_s_161" feature="loud" new="neutral" xml:id="PRcon599_s_162"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_340"><shift corresp="#PRcon599_s_164" feature="loud" new="p" xml:id="PRcon599_s_163"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="5" type="overlap" xml:id="PRcon599_ol_206"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><shift corresp="#PRcon599_s_163" feature="loud" new="neutral" xml:id="PRcon599_s_164"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_341"><seg n="5" synch="#PRcon599_ol_206" type="overlap" xml:id="PRcon599_ol_207"><shift corresp="#PRcon599_s_166" feature="loud" new="p" xml:id="PRcon599_s_165"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRcon599_s_165" feature="loud" new="neutral" xml:id="PRcon599_s_166"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_342"><seg n="5" synch="#PRcon599_ol_206" type="overlap" xml:id="PRcon599_ol_208"> i have </seg> never seen so many south <seg n="6" type="overlap" xml:id="PRcon599_ol_209"> koreans in one place </seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_343"><seg n="6" synch="#PRcon599_ol_209" type="overlap" xml:id="PRcon599_ol_210"> why so many koreans<c function="rise" type="intonation"/></seg></u>
+            <u who="#PRcon599_SS" xml:id="PRcon599_u_344"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="7" type="overlap" xml:id="PRcon599_ol_211"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="3"/><seg n="1" type="overlap" xml:id="PRcon599_ol_212"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_345"><seg n="7" synch="#PRcon599_ol_211" type="overlap" xml:id="PRcon599_ol_213"><shift corresp="#PRcon599_s_168" feature="loud" new="p" xml:id="PRcon599_s_167"/><shift corresp="#PRcon599_s_170" feature="voice" new="laugh" xml:id="PRcon599_s_169"/> that's right <shift corresp="#PRcon599_s_169" feature="voice" new="neutral" xml:id="PRcon599_s_170"/><shift corresp="#PRcon599_s_167" feature="loud" new="neutral" xml:id="PRcon599_s_168"/></seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_346"><seg n="1" synch="#PRcon599_ol_212" type="overlap" xml:id="PRcon599_ol_214"> you've </seg> never been to south korea <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#PRcon599_SS" xml:id="PRcon599_u_347"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="2" type="overlap" xml:id="PRcon599_ol_215"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="3"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_348"><seg n="2" synch="#PRcon599_ol_215" type="overlap" xml:id="PRcon599_ol_216"> no no </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_349"><vocal voice:desc="coughs"/><pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_350"> and are you presenters<c function="rise" type="intonation"/><pause/> of a subject or a topic at this conference <pause dur="PT1S"/><seg n="3" type="overlap" xml:id="PRcon599_ol_217"> or </seg> did you  </u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_351"><seg n="3" synch="#PRcon599_ol_217" type="overlap" xml:id="PRcon599_ol_218"> hm </seg></u>
+            <u who="#PRcon599_SX-m" xml:id="PRcon599_u_352"> mhm <anchor synch="#PRcon599_oc_49" type="other_continuation" xml:id="PRcon599_oc_48"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_353"><anchor synch="#PRcon599_oc_48" type="other_continuation" xml:id="PRcon599_oc_49"/> yes <anchor synch="#PRcon599_oc_51" type="other_continuation" xml:id="PRcon599_oc_50"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_354"><anchor synch="#PRcon599_oc_50" type="other_continuation" xml:id="PRcon599_oc_51"/> yes </u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_355"> all of you  </u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_356"><shift corresp="#PRcon599_s_172" feature="loud" new="p" xml:id="PRcon599_s_171"/> mhm <shift corresp="#PRcon599_s_171" feature="loud" new="neutral" xml:id="PRcon599_s_172"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_357"><shift corresp="#PRcon599_s_174" feature="loud" new="p" xml:id="PRcon599_s_173"/> mhm <shift corresp="#PRcon599_s_173" feature="loud" new="neutral" xml:id="PRcon599_s_174"/><pause dur="PT1S"/> and when is your presentation<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_358"> my presentation is tomorrow in the afternoon <pause/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_359"> oh <pause/> good luck <pause/></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_360"> thank <seg n="4" type="overlap" xml:id="PRcon599_ol_219"><shift corresp="#PRcon599_s_176" feature="voice" new="laugh" xml:id="PRcon599_s_175"/> you <shift corresp="#PRcon599_s_175" feature="voice" new="neutral" xml:id="PRcon599_s_176"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><seg n="9" type="overlap" xml:id="PRcon599_ol_220"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_361"><seg n="4" synch="#PRcon599_ol_219" type="overlap" xml:id="PRcon599_ol_221"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_362"><seg n="9" synch="#PRcon599_ol_220" type="overlap" xml:id="PRcon599_ol_222"><shift corresp="#PRcon599_s_178" feature="loud" new="p" xml:id="PRcon599_s_177"/> an- <shift corresp="#PRcon599_s_177" feature="loud" new="neutral" xml:id="PRcon599_s_178"/></seg><pause/> and yours<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_363"><unclear> we've </unclear><pause/> we have the same paper so he is presenting i'm sitting s- sitti- sitting quiet  and listening <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="5" type="overlap" xml:id="PRcon599_ol_223"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_364"><seg n="5" synch="#PRcon599_ol_223" type="overlap" xml:id="PRcon599_ol_224"><shift corresp="#PRcon599_s_180" feature="loud" new="p" xml:id="PRcon599_s_179"/> aha <shift corresp="#PRcon599_s_179" feature="loud" new="neutral" xml:id="PRcon599_s_180"/></seg></u>
+            <u who="#PRcon599_S7" xml:id="PRcon599_u_365"> and criti<seg n="8" type="overlap" xml:id="PRcon599_ol_225">cizing me </seg> afterwards </u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_366"><seg n="8" synch="#PRcon599_ol_225" type="overlap" xml:id="PRcon599_ol_226"> you are not </seg></u>
+            <u who="#PRcon599_SS" xml:id="PRcon599_u_367"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="6"/><anchor synch="#PRcon599_oc_53" type="other_continuation" xml:id="PRcon599_oc_52"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_368"><anchor synch="#PRcon599_oc_52" type="other_continuation" xml:id="PRcon599_oc_53"/> he came here as a <seg n="1" type="overlap" xml:id="PRcon599_ol_227"> supervisor </seg></u>
+            <u who="#PRcon599_S6" xml:id="PRcon599_u_369"><seg n="1" synch="#PRcon599_ol_227" type="overlap" xml:id="PRcon599_ol_228"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#PRcon599_SX-7" xml:id="PRcon599_u_370"><shift corresp="#PRcon599_s_182" feature="loud" new="p" xml:id="PRcon599_s_181"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRcon599_s_181" feature="loud" new="neutral" xml:id="PRcon599_s_182"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_371"><shift corresp="#PRcon599_s_184" feature="loud" new="p" xml:id="PRcon599_s_183"/> okay<c function="fall" type="intonation"/><shift corresp="#PRcon599_s_183" feature="loud" new="neutral" xml:id="PRcon599_s_184"/><pause/> and your presentation<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_372"> friday morning </u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_373"> friday so s- you have some time <pause dur="PT1S"/> to <pause dur="PT1S"/> re<emph>lax </emph> a little bit <shift corresp="#PRcon599_s_186" feature="loud" new="p" xml:id="PRcon599_s_185"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRcon599_s_185" feature="loud" new="neutral" xml:id="PRcon599_s_186"/> hh </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_374"> sure <anchor synch="#PRcon599_oc_55" type="other_continuation" xml:id="PRcon599_oc_54"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_375"><anchor synch="#PRcon599_oc_54" type="other_continuation" xml:id="PRcon599_oc_55"/> before your presentation </u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_376"> mhm<c function="rise" type="intonation"/><pause/> no problem <anchor synch="#PRcon599_oc_57" type="other_continuation" xml:id="PRcon599_oc_56"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_377"><anchor synch="#PRcon599_oc_56" type="other_continuation" xml:id="PRcon599_oc_57"/> but good luck to you <seg n="6" type="overlap" xml:id="PRcon599_ol_229"> too <shift corresp="#PRcon599_s_188" feature="loud" new="p" xml:id="PRcon599_s_187"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#PRcon599_s_187" feature="loud" new="neutral" xml:id="PRcon599_s_188"/></seg></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_378"><seg n="6" synch="#PRcon599_ol_229" type="overlap" xml:id="PRcon599_ol_230"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/>  thank you <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="3"/><pause dur="PT2S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_379"> okay so thank you for your conversation <shift corresp="#PRcon599_s_190" feature="loud" new="p" xml:id="PRcon599_s_189"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><anchor synch="#PRcon599_oc_59" type="other_continuation" xml:id="PRcon599_oc_58"/><shift corresp="#PRcon599_s_189" feature="loud" new="neutral" xml:id="PRcon599_s_190"/></u>
+            <u who="#PRcon599_S5" xml:id="PRcon599_u_380"><anchor synch="#PRcon599_oc_58" type="other_continuation" xml:id="PRcon599_oc_59"/> okay <pause dur="PT1S"/></u>
+            <u who="#PRcon599_S1" xml:id="PRcon599_u_381"> bye-bye  </u>
+            <u who="#PRcon599_SX-5" xml:id="PRcon599_u_382"><shift corresp="#PRcon599_s_192" feature="loud" new="p" xml:id="PRcon599_s_191"/> mhm <shift corresp="#PRcon599_s_191" feature="loud" new="neutral" xml:id="PRcon599_s_192"/><pause dur="PT2S"/><incident voice:desc="S1 leaves"/></u>
+         </div>
+      </body>
+   </text>
+</TEI>

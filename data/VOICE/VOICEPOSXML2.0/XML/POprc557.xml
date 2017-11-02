@@ -1,0 +1,2194 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:p="http://www.univie.ac.at/voice/pos" xmlns:t="http://www.tei-c.org/ns/1.0" xml:id="POprc557">
+  <teiHeader>
+    <fileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <titleStmt>
+        <title>press conference on illegal immigration in Spain</title>
+        <principal>Prof. Barbara Seidlhofer</principal>
+        <editor/>
+        <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+        <sponsor/>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name xml:id="SM">Stefan Majewski</name>
+          <name xml:id="RO">Ruth Osimk-Teasdale</name>
+          <name xml:id="MLP">Marie-Luise Pitzl</name>
+          <name xml:id="MR">Michael Radeka</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Version POS XML 2.0, <date>January 2013</date></edition>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name>Barbara Seidlhofer</name>
+          <name>Stefan Majewski</name>
+          <name>Ruth Osimk-Teasdale</name>
+          <name>Marie-Luise Pitzl</name>
+          <name>Michael Radeka</name>
+          <name>Nora Dorn</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+        <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+        <address>
+          <addrLine>Spitalgasse 2, AAKH Hof 8</addrLine>
+          <addrLine>1090 Vienna</addrLine>
+          <addrLine>Austria</addrLine>
+          <addrLine>Telephone: +43 1 427742446</addrLine>
+          <addrLine>Email: voice@univie.ac.at</addrLine>
+          <addrLine>Website: http://www.univie.ac.at/voice</addrLine>
+        </address>
+        <availability status="free">
+          <p> The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE POS XML 2.0 is the first part-of-speech tagged version of VOICE. It is based on the same data source as VOICE 2.0 XML. 
+		  VOICE 2.0 XML, which includes minor revisions with regard to previous versions, and VOICE POS XML 2.0, are available for download at the VOICE Project's website
+		  <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+          <p>
+          The recommended citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version POS XML 2.0
+		</edition>). Director: Barbara Seidlhofer; Researchers:
+		Stefan Majewski, Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka, Nora Dorn.</bibl>
+          </p>
+          <p>The short citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version POS XML 2.0</edition>).</bibl>
+          </p>
+          <p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note xml:id="POprc557_tc">Tokens: 1629</note>
+        <note xml:id="POprc557_wc">Words: 1448</note>
+        <note xml:id="POprc557_tn_0">This press conference of the European Union deals with illegal immigration in Spain. S2, an EU commissioner, is asked questions by journalists and answers them. S1 is the chairperson and invites journalists in the audience to pose their questions.   </note>
+      </notesStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording dur="PT00H09M30S" type="audio">
+            <date>2006-09-21</date>
+            <equipment>
+              <p>unknown</p>
+            </equipment>
+            <respStmt>
+              <resp>recording</resp>
+              <name>European Commission</name>
+              <name> Audiovisual Service</name>
+            </respStmt>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <classDecl>
+        <taxonomy>
+          <category xml:id="POprc557_domain">
+            <catDesc>Domain</catDesc>
+            <category sameAs="#ED" xml:id="POprc557_ED">
+              <catDesc>educational</catDesc>
+            </category>
+            <category sameAs="#LE" xml:id="POprc557_LE">
+              <catDesc>leisure</catDesc>
+            </category>
+            <category sameAs="#PB" xml:id="POprc557_PB">
+              <catDesc>professional business</catDesc>
+            </category>
+            <category sameAs="#PO" xml:id="POprc557_PO">
+              <catDesc>professional organizational</catDesc>
+            </category>
+            <category sameAs="#PR" xml:id="POprc557_PR">
+              <catDesc>professional research/science</catDesc>
+            </category>
+          </category>
+          <category xml:id="POprc557_spet">
+            <catDesc>Speech Event Type</catDesc>
+            <category sameAs="#int" xml:id="POprc557_int">
+              <catDesc>interview</catDesc>
+            </category>
+            <category sameAs="#prc" xml:id="POprc557_prc">
+              <catDesc>press conference</catDesc>
+            </category>
+            <category sameAs="#sve" xml:id="POprc557_sve">
+              <catDesc>service encounter</catDesc>
+            </category>
+            <category sameAs="#sed" xml:id="POprc557_sed">
+              <catDesc>seminar discussion</catDesc>
+            </category>
+            <category sameAs="#wgd" xml:id="POprc557_wgd">
+              <catDesc>working group discussion</catDesc>
+            </category>
+            <category sameAs="#wsd" xml:id="POprc557_wsd">
+              <catDesc>workshop discussion</catDesc>
+            </category>
+            <category sameAs="#mtg" xml:id="POprc557_mtg">
+              <catDesc>meeting</catDesc>
+            </category>
+            <category sameAs="#pan" xml:id="POprc557_pan">
+              <catDesc>panel</catDesc>
+            </category>
+            <category sameAs="#qas" xml:id="POprc557_qas">
+              <catDesc>question-answer session</catDesc>
+            </category>
+            <category sameAs="#con" xml:id="POprc557_con">
+              <catDesc>conversation</catDesc>
+            </category>
+          </category>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="TEI" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+          <tagUsage gi="title" occurs="5"/>
+          <tagUsage gi="principal" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="funder" occurs="1"/>
+          <tagUsage gi="sponsor" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="3"/>
+          <tagUsage gi="resp" occurs="3"/>
+          <tagUsage gi="name" occurs="14"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="edition" occurs="3"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="publisher" occurs="1"/>
+          <tagUsage gi="distributor" occurs="1"/>
+          <tagUsage gi="address" occurs="1"/>
+          <tagUsage gi="addrLine" occurs="6"/>
+          <tagUsage gi="availability" occurs="1"/>
+          <tagUsage gi="p" occurs="8"/>
+          <tagUsage gi="ref" occurs="4"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="notesStmt" occurs="1"/>
+          <tagUsage gi="note" occurs="3"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="recordingStmt" occurs="1"/>
+          <tagUsage gi="recording" occurs="1"/>
+          <tagUsage gi="equipment" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="classDecl" occurs="1"/>
+          <tagUsage gi="taxonomy" occurs="1"/>
+          <tagUsage gi="category" occurs="17"/>
+          <tagUsage gi="catDesc" occurs="17"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="tagUsage" occurs="72"/>
+          <tagUsage gi="gi" occurs="5"/>
+          <tagUsage gi="att" occurs="2"/>
+          <tagUsage gi="fLib" occurs="2"/>
+          <tagUsage gi="f" occurs="102"/>
+          <tagUsage gi="fvLib" occurs="1"/>
+          <tagUsage gi="fs" occurs="57"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="catRef" occurs="2"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="setting" occurs="1"/>
+          <tagUsage gi="locale" occurs="1"/>
+          <tagUsage gi="activity" occurs="1"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="listPerson" occurs="4"/>
+          <tagUsage gi="personGrp" occurs="3"/>
+          <tagUsage gi="person" occurs="8"/>
+          <tagUsage gi="age" occurs="6"/>
+          <tagUsage gi="sex" occurs="6"/>
+          <tagUsage gi="langKnowledge" occurs="6"/>
+          <tagUsage gi="langKnown" occurs="6"/>
+          <tagUsage gi="occupation" occurs="5"/>
+          <tagUsage gi="relationGrp" occurs="1"/>
+          <tagUsage gi="relation" occurs="2"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="change" occurs="10"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="u" occurs="23">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+          <tagUsage gi="w" occurs="1632">
+		Used to mark lexical forms (tokens), but also word fragments,
+		pauses, onomatopoeic noises, spelling, laughter and breathing.
+		<gi>w</gi> is used with <att>ana</att> and <att>lemma</att>
+		attributes to mark its part-of-speech and lemma. Note that for
+		tokens with ambiguous tags <gi>w</gi> may contain nested
+		<gi>w</gi> elements to express alternative interpretations.
+		</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <p>
+        <fLib>
+          <f xml:id="BR" name="BR">breathing</f>
+          <f xml:id="CC" name="CC">coordinating conjunction</f>
+          <f xml:id="CD" name="CD">cardinal number</f>
+          <f xml:id="DM" name="DM">discourse marker</f>
+          <f xml:id="DT" name="DT">determiner</f>
+          <f xml:id="EX" name="EX">existential there</f>
+          <f xml:id="FI" name="FI">formulaic items</f>
+          <f xml:id="FW" name="FW">foreign word (non-English speech)</f>
+          <f xml:id="IN" name="IN">preposition or subordinating conjunction</f>
+          <f xml:id="JJ" name="JJ">adjective, positive</f>
+          <f xml:id="JJR" name="JJR">adjective, comparative</f>
+          <f xml:id="JJS" name="JJS">adjective, superlative</f>
+          <f xml:id="LA" name="LA">laughter</f>
+          <f xml:id="MD" name="MD">modal verb</f>
+          <f xml:id="NN" name="NN">noun, singular or mass</f>
+          <f xml:id="NNS" name="NNS">noun, plural</f>
+          <f xml:id="NP" name="NP">proper noun, singular</f>
+          <f xml:id="NPS" name="NPS">proper noun, plural</f>
+          <f xml:id="PA" name="PA">pause</f>
+          <f xml:id="PDT" name="PDT">predeterminer</f>
+          <f xml:id="POS" name="POS">possessive ending</f>
+          <f xml:id="PP" name="PP">pronoun, personal</f>
+          <f xml:id="PPS" name="PP$">pronoun, possessive</f>
+          <f xml:id="PRE" name="PRE">pronoun, relative</f>
+          <f xml:id="PVC" name="PVC">pronunciation variations and coinages</f>
+          <f xml:id="RB" name="RB">adverb, positive</f>
+          <f xml:id="RBR" name="RBR">adverb, comparative</f>
+          <f xml:id="RBS" name="RBS">adverb, superlative</f>
+          <f xml:id="RE" name="RE">response particle</f>
+          <f xml:id="RP" name="RP">particle</f>
+          <f xml:id="TO" name="TO">to, infinitive use</f>
+          <f xml:id="UH" name="UH">interjection</f>
+          <f xml:id="UNI" name="UNI">unintelligible speech</f>
+          <f xml:id="V" name="V">generic verb tag</f>
+          <f xml:id="VB" name="VB">verb be, base form</f>
+          <f xml:id="VBD" name="VBD">verb be, past tense</f>
+          <f xml:id="VBN" name="VBN">verb be, past participle</f>
+          <f xml:id="VBP" name="VBP">verb be, present non-3rd person singular</f>
+          <f xml:id="VBS" name="VBS">verb be, contracted form</f>
+          <f xml:id="VBZ" name="VBZ">verb be, present 3rd person singular</f>
+          <f xml:id="VH" name="VH">verb have, base form</f>
+          <f xml:id="VHD" name="VHD">verb have, past tense</f>
+          <f xml:id="VHP" name="VHP">verb have, present non-3rd person singular</f>
+          <f xml:id="VV" name="VV">other verbs than be and have, base form</f>
+          <f xml:id="VVD" name="VVD">other verbs than be and have, past tense</f>
+          <f xml:id="VVG" name="VVG">other verbs than be and have, gerund or present participle</f>
+          <f xml:id="VVN" name="VVN">other verbs than be and have, past participle</f>
+          <f xml:id="VVP" name="VVP">other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="VVZ" name="VVZ">other verbs than be and have, present 3rd person singular</f>
+          <f xml:id="WP" name="WP">wh-pronoun</f>
+          <f xml:id="WRB" name="WRB">wh-adverb</f>
+          <f xml:id="XX" name="XX">partial word</f>
+        </fLib>
+        <fLib>
+          <f xml:id="fBR" name="fBR">function breathing</f>
+          <f xml:id="fCC" name="fCC">function coordinating conjunction</f>
+          <f xml:id="fCD" name="fCD">function cardinal number</f>
+          <f xml:id="fDM" name="fDM">function discourse marker</f>
+          <f xml:id="fDT" name="fDT">function determiner</f>
+          <f xml:id="fEX" name="fEX">function existential there</f>
+          <f xml:id="fFI" name="fFI">function formulaic items</f>
+          <f xml:id="fFW" name="fFW">function foreign word (non-English speech)</f>
+          <f xml:id="fIN" name="fIN">function preposition or subordinating conjunction</f>
+          <f xml:id="fJJ" name="fJJ">function adjective, positive</f>
+          <f xml:id="fJJR" name="fJJR">function adjective, comparative</f>
+          <f xml:id="fJJS" name="fJJS">function adjective, superlative</f>
+          <f xml:id="fLA" name="fLA">function laughter</f>
+          <f xml:id="fMD" name="fMD">function modal verb</f>
+          <f xml:id="fNN" name="fNN">function noun, singular or mass</f>
+          <f xml:id="fNNS" name="fNNS">function noun, plural</f>
+          <f xml:id="fNP" name="fNP">function proper noun, singular</f>
+          <f xml:id="fNPS" name="fNPS">function proper noun, plural</f>
+          <f xml:id="fPA" name="fPA">function pause</f>
+          <f xml:id="fPDT" name="fPDT">function predeterminer</f>
+          <f xml:id="fPOS" name="fPOS">function possessive ending</f>
+          <f xml:id="fPP" name="fPP">function pronoun, personal</f>
+          <f xml:id="fPPS" name="fPP$">function pronoun, possessive</f>
+          <f xml:id="fPRE" name="fPRE">function pronoun, relative</f>
+          <f xml:id="fRB" name="fRB">function adverb, positive</f>
+          <f xml:id="fRBR" name="fRBR">function adverb, comparative</f>
+          <f xml:id="fRBS" name="fRBS">function adverb, superlative</f>
+          <f xml:id="fRE" name="fRE">function response particle</f>
+          <f xml:id="fRP" name="fRP">function particle</f>
+          <f xml:id="fTO" name="fTO">function to, infinitive use</f>
+          <f xml:id="fUH" name="fUH">function interjection</f>
+          <f xml:id="fUNI" name="fUNI">function unintelligible speech</f>
+          <f xml:id="fVB" name="fVB">function verb be, base form</f>
+          <f xml:id="fVBD" name="fVBD">function verb be, past tense</f>
+          <f xml:id="fVBN" name="fVBN">function verb be, past participle</f>
+          <f xml:id="fVBP" name="fVBP">function verb be, present non-3rd person singular</f>
+          <f xml:id="fVBS" name="fVBS">function verb be, contracted form</f>
+          <f xml:id="fVBZ" name="fVBZ">function verb be, present 3rd person singular</f>
+          <f xml:id="fVH" name="fVH">function verb have, base form</f>
+          <f xml:id="fVHD" name="fVHD">function verb have, past tense</f>
+          <f xml:id="fVHP" name="fVHP">function verb have, present non-3rd person singular</f>
+          <f xml:id="fVV" name="fVV">function other verbs than be and have, base form</f>
+          <f xml:id="fVVD" name="fVVD">function other verbs than be and have, past tense</f>
+          <f xml:id="fVVG" name="fVVG">function other verbs than be and have, gerund or present participle</f>
+          <f xml:id="fVVN" name="fVVN">function other verbs than be and have, past participle</f>
+          <f xml:id="fVVP" name="fVVP">function other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="fVVZ" name="fVVZ">function other verbs than be and have, present 3rd person singular</f>
+          <f xml:id="fWP" name="fWP">function wh-pronoun</f>
+          <f xml:id="fWRB" name="fWRB">function wh-adverb</f>
+          <f xml:id="fXX" name="fXX">function partial word</f>
+        </fLib>
+        <fvLib>
+          <fs xml:id="FIfFI" feats="#FI #fFI"/>
+          <fs xml:id="RBfRB" feats="#RB #fRB"/>
+          <fs xml:id="FWfFW" feats="#FW #fFW"/>
+          <fs xml:id="NNfNN" feats="#NN #fNN"/>
+          <fs xml:id="UHfUH" feats="#UH #fUH"/>
+          <fs xml:id="PPfPP" feats="#PP #fPP"/>
+          <fs xml:id="MDfMD" feats="#MD #fMD"/>
+          <fs xml:id="VHfVH" feats="#VH #fVH"/>
+          <fs xml:id="PDTfPDT" feats="#PDT #fPDT"/>
+          <fs xml:id="DTfDT" feats="#DT #fDT"/>
+          <fs xml:id="NNSfNNS" feats="#NNS #fNNS"/>
+          <fs xml:id="JJfJJ" feats="#JJ #fJJ"/>
+          <fs xml:id="CCfCC" feats="#CC #fCC"/>
+          <fs xml:id="WRBfWRB" feats="#WRB #fWRB"/>
+          <fs xml:id="VVGfVVG" feats="#VVG #fVVG"/>
+          <fs xml:id="PPSfPPS" feats="#PP$ #fPP$"/>
+          <fs xml:id="BRfBR" feats="#BR #fBR"/>
+          <fs xml:id="VVPfVVP" feats="#VVP #fVVP"/>
+          <fs xml:id="CDfCD" feats="#CD #fCD"/>
+          <fs xml:id="INfIN" feats="#IN #fIN"/>
+          <fs xml:id="UNIfUNI" feats="#UNI #fUNI"/>
+          <fs xml:id="VVGfNN" feats="#VVG #fNN"/>
+          <fs xml:id="VVfVV" feats="#VV #fVV"/>
+          <fs xml:id="VBDfVBD" feats="#VBD #fVBD"/>
+          <fs xml:id="RBRfRBR" feats="#RBR #fRBR"/>
+          <fs xml:id="PAfPA" feats="#PA #fPA"/>
+          <fs xml:id="VBZfVBZ" feats="#VBZ #fVBZ"/>
+          <fs xml:id="NPfNP" feats="#NP #fNP"/>
+          <fs xml:id="VVDfVVD" feats="#VVD #fVVD"/>
+          <fs xml:id="TOfTO" feats="#TO #fTO"/>
+          <fs xml:id="JJRfJJR" feats="#JJR #fJJR"/>
+          <fs xml:id="PREfPRE" feats="#PRE #fPRE"/>
+          <fs xml:id="VVNfVVN" feats="#VVN #fVVN"/>
+          <fs xml:id="XXfXX" feats="#XX #fXX"/>
+          <fs xml:id="VfVVN" feats="#V #fVVN"/>
+          <fs xml:id="EXfEX" feats="#EX #fEX"/>
+          <fs xml:id="VBSfVBS" feats="#VBS #fVBS"/>
+          <fs xml:id="REfRE" feats="#RE #fRE"/>
+          <fs xml:id="VHPfVHP" feats="#VHP #fVHP"/>
+          <fs xml:id="VBNfVBN" feats="#VBN #fVBN"/>
+          <fs xml:id="POSfPOS" feats="#POS #fPOS"/>
+          <fs xml:id="WPfWP" feats="#WP #fWP"/>
+          <fs xml:id="VVZfVVZ" feats="#VVZ #fVVZ"/>
+          <fs xml:id="VBfVB" feats="#VB #fVB"/>
+          <fs xml:id="VBPfVBP" feats="#VBP #fVBP"/>
+          <fs xml:id="PVCfJJ" feats="#PVC #fJJ"/>
+          <fs xml:id="DMfDM" feats="#DM #fDM"/>
+          <fs xml:id="NPSfNPS" feats="#NPS #fNPS"/>
+          <fs xml:id="JJSfJJS" feats="#JJS #fJJS"/>
+          <fs xml:id="PVCfVVD" feats="#PVC #fVVD"/>
+          <fs xml:id="PVCfVVN" feats="#PVC #fVVN"/>
+          <fs xml:id="RBSfRBS" feats="#RBS #fRBS"/>
+          <fs xml:id="VHDfVHD" feats="#VHD #fVHD"/>
+          <fs xml:id="LAfLA" feats="#LA #fLA"/>
+          <fs xml:id="PPfDM" feats="#PP #fDM"/>
+          <fs xml:id="VVPfDM" feats="#VVP #fDM"/>
+          <fs xml:id="RPfRP" feats="#RP #fRP"/>
+        </fvLib>
+      </p>
+    </encodingDesc>
+    <profileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass>
+        <catRef target="#POprc557_PO #POprc557_prc"/>
+        <catRef target="#PO #prc"/>
+      </textClass>
+      <settingDesc>
+        <setting>
+          <name type="country">BE</name>
+          <name type="city">Brussels</name>
+          <locale>conference room</locale>
+          <activity>unknown</activity>
+        </setting>
+      </settingDesc>
+      <particDesc>
+        <listPerson type="main">
+          <listPerson type="groups">
+            <personGrp role="speakers" size="6"/>
+            <personGrp role="interactants" size="6"/>
+            <personGrp role="audience" size="unknown"/>
+          </listPerson>
+          <listPerson type="identified">
+            <person role="chair" sameAs="#P609" xml:id="POprc557_S1">
+              <age value="0">unknown</age>
+              <sex value="1">male</sex>
+              <langKnowledge>
+                <langKnown level="L1" tag="und"/>
+              </langKnowledge>
+            </person>
+            <person role="participant" sameAs="#P610" xml:id="POprc557_S2">
+              <age value="0">unknown</age>
+              <sex value="2">female</sex>
+              <occupation>EU politician</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="lit-LT"/>
+              </langKnowledge>
+            </person>
+            <person role="audience" sameAs="#P611" xml:id="POprc557_S3">
+              <age value="0">unknown</age>
+              <sex value="1">male</sex>
+              <occupation>journalist</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="spa"/>
+              </langKnowledge>
+            </person>
+            <person role="audience" sameAs="#P612" xml:id="POprc557_S4">
+              <age value="0">unknown</age>
+              <sex value="2">female</sex>
+              <occupation>journalist</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="dut"/>
+              </langKnowledge>
+            </person>
+            <person role="audience" sameAs="#P613" xml:id="POprc557_S5">
+              <age value="0">unknown</age>
+              <sex value="1">male</sex>
+              <occupation>journalist</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="pol-PL"/>
+              </langKnowledge>
+            </person>
+            <person role="audience" sameAs="#P614" xml:id="POprc557_S6">
+              <age value="0">unknown</age>
+              <sex value="1">male</sex>
+              <occupation>journalist</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="und"/>
+              </langKnowledge>
+            </person>
+          </listPerson>
+          <listPerson type="not_identified">
+            <person sameAs="#SX-m" xml:id="POprc557_SX-m"/>
+            <person corresp="#POprc557_S6" sameAs="#SX" xml:id="POprc557_SX-6"/>
+          </listPerson>
+          <relationGrp>
+            <relation mutual="#POprc557_S1 #POprc557_S2 #POprc557_S3 #POprc557_S4 #POprc557_S5 #POprc557_S6" name="fairly_asymmetrical" type="power"/>
+            <relation mutual="#POprc557_S1 #POprc557_S2 #POprc557_S3 #POprc557_S4 #POprc557_S5 #POprc557_S6" name="predominantly_unacquainted" type="acquaintedness"/>
+          </relationGrp>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <change when="2012-12-05" who="#BS #MR #RO #SM">Update of corpus
+      header for VOICE POS XML 2.0 release</change>
+      <change when="2012-12-05" who="#SM #MR #RO">Update of corpus
+      header for VOICE 2.0 XML release</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR">Lemmatisation</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR #RO #AW #CS       #IV #KM #LL #ND #VT">Part-of-speech tagging</change>
+      <change from="2010-09-01" to="2011-01-13" who="#SM       #MR">Extraction and tokenisation of VOICE 2.0 XML
+      utterances</change>
+      <change when="2009-05-19" who="SM">conversion to XML</change>
+      <change when="2009-05-12" who="TK">finalized for publication</change>
+      <change when="2008-02-18" who="MLP">proof-reading</change>
+      <change when="2007-11-27" who="HB">checking</change>
+      <change when="2007-10-06" who="JH">transcription</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="#POprc557_S1" xml:id="POprc557_u_1">
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#RBfRB" lemma="much">much</w>
+        <w ana="#FWfFW">f_madame</w>
+        <w ana="#NNfNN" lemma="commissioner">commissioner</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#PDTfPDT" lemma="all">all</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="material">materials</w>
+        <w ana="#JJfJJ" lemma="available">available</w>
+        <w ana="#NNfNN" lemma="outside">outside</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="report">report</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="slide">slide</w>
+        <w ana="#NNfNN" lemma="presentation">presentation</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#VVGfVVG" lemma="ask">asking</w>
+        <w ana="#NNfNN" lemma="question">question</w>
+        <w ana="#FIfFI" lemma="please">please</w>
+        <w ana="#NNfNN" lemma="state">state</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#NNfNN" lemma="organization">organization</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+      </u>
+      <u who="#POprc557_S2" xml:id="POprc557_u_2">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#JJfJJ" lemma="technical">technical</w>
+        <w ana="#VVGfNN" lemma="brief/briefing">briefing</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VVfVV" lemma="need">need</w>
+        <w ana="#JJfJJ" lemma="additional">additional</w>
+        <w ana="#NNfNN" lemma="information">information</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#JJfJJ" lemma="separate">separate</w>
+        <w ana="#NNfNN" lemma="country">country</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="file">file</w>
+        <w ana="#INfIN" lemma="as">as</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPSfPPS" lemma="i">my</w>
+        <w ana="#NNfNN" lemma="presentation">presentation</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBRfRBR" lemma="more">more</w>
+        <w ana="#JJfJJ" lemma="political">political</w>
+        <w ana="#NNfNN" lemma="one">one</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#POprc557_S1" xml:id="POprc557_u_3">
+        <w ana="#FIfFI" lemma="please">please</w>
+        <w ana="#PAfPA">_4</w>
+      </u>
+      <u who="#POprc557_S3" xml:id="POprc557_u_4">
+        <w ana="#PPSfPPS" lemma="i">my</w>
+        <w ana="#NNfNN" lemma="name">name</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#NPfNP">a_[S3]</w>
+        <w ana="#NPfNP">a_[S3/last]</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="spanish">spanish</w>
+        <w ana="#NPfNP">a_[org1]</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="want">wanted</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="money">money</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#NNfNN" lemma="migration">migration</w>
+        <w ana="#PREfPRE" lemma="that">that</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVNfVVN" lemma="spend">spent</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#CDfCD" lemma="five">five</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#RBfRB" lemma="exactly">exactly</w>
+        <w ana="#XXfXX">ho-</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#JJfJJ" lemma="much">much</w>
+        <w ana="#NNfNN" lemma="money">money</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#WRBfWRB" lemma="why">why</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VfVVN" lemma="spend">spend</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#CDfCD" lemma="six">six</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="want">wanted</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="ask">ask</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="still">still</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#NNfNN" lemma="money">money</w>
+        <w ana="#RBfRB" lemma="left">left</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="migration">migration</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="still">still</w>
+        <w ana="#NNfNN" lemma="money">money</w>
+        <w ana="#RBfRB" lemma="left">left</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="migration">migration</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="spend">spend</w>
+        <w ana="#XXfXX">bal-</w>
+        <w ana="#RBfRB" lemma="for">for</w>
+        <w ana="#RBfRB" lemma="instance">instance</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="crisis">crisis</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="spain">spain</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#POprc557_S2" xml:id="POprc557_u_5">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="politically">politically</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#JJfJJ" lemma="good">good</w>
+        <w ana="#NNfNN" lemma="question">question</w>
+        <w ana="#JJfJJ" lemma="important">important</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#NPfNP" lemma="spain">spain</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="pity">pity</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#PPfPP" lemma="we">ourselves</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="realize">realize</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#JJfJJ" lemma="internal">internal</w>
+        <w ana="#NNSfNNS" lemma="policy">policies</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="financial">financial</w>
+        <w ana="#NNSfNNS" lemma="resource">resources</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVNfVVN" lemma="devote">devoted</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVfVV" lemma="coordinate">coordinate</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVfVV" lemma="streamline">streamline</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#POSfPOS" lemma="'">'</w>
+        <w ana="#NNSfNNS" lemma="policy">policies</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#NNfNN" lemma="immigration">immigration</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#XXfXX">spa-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="five">five</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="fully">fully</w>
+        <w ana="#JJfJJ" lemma="utilized">utilized</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="start">started</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="look">look</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#WRBfWRB" lemma="why">why</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVDfVVD" lemma="happen">happened</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#NNfNN" lemma="time">time</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="preparation">preparation</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVZfVVZ" lemma="look">looks</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVGfVVG" lemma="go">going</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVNfVVN" lemma="do">done</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="four">four</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="five">five</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#RBfRB" lemma="clearly">clearly</w>
+        <w ana="#VVDfVVD" lemma="identify">identified</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="lack">lack</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="coordination">coordination</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#INfIN" lemma="between">between</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="money">money</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="mainly">mainly</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVNfVVN" lemma="suppose">supposed</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#VfVVN" lemma="spend">spend</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#NNfNN" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="spate">spates</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVNfVVN" lemma="coordinate">coordinated</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PPSfPPS" lemma="they">their</w>
+        <w ana="#JJfJJ" lemma="precise">precise</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNSfNNS" lemma="amount">amounts</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#JJfJJ" lemma="able">able</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="receive">receive</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="five">five</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#JJfJJ" lemma="much">much</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VfVVN" lemma="spend">spend</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#JJfJJ" lemma="much">much</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="already">already</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVDfVVD" lemma="introduce">introduced</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#VVDfVVD" lemma="propose">proposed</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="seven">seven</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="s_pdb">s_pdb</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="budget">budget</w>
+        <w ana="#NNfNN" lemma="draft">draft</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="receive">receive</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNSfNNS" lemma="detail">details</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="head">head</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="unit">unit</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="seven">seven</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="already">already</w>
+        <w ana="#RBfRB" lemma="today">today</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="same">same</w>
+        <w ana="#JJfJJ" lemma="political">political</w>
+        <w ana="#NNfNN" lemma="problem">problem</w>
+        <w ana="#VVZfVVZ" lemma="exist">exists</w>
+        <w ana="#RBfRB" lemma="everywhere">everywhere</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="first">first</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#RBfRB" lemma="finally">finally</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="coordinate">coordinate</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="effort">efforts</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="fight">fight</w>
+        <w ana="#JJfJJ" lemma="illegal">illegal</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="immigration">immigration</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="so-called">so-called</w>
+        <w ana="#NNfNN" lemma="black">black</w>
+        <w ana="#NNfNN" lemma="market">market</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="labor">labor</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="main">main</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNSfNNS" lemma="goal">goals</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="persuade">persuade</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="money">moneys</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#JJfJJ" lemma="available">available</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#PVCfJJ">p_fragmentated</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#NNfNN" lemma="budget">budget</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#JJfJJ" lemma="separate">separate</w>
+        <w ana="#NNSfNNS" lemma="policy">policies</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="separate">separate</w>
+        <w ana="#NNSfNNS" lemma="fund">funds</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNSfNNS" lemma="amount">amounts</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="annually">annually</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="neighborhood">neighborhood</w>
+        <w ana="#NNfNN" lemma="policy">policy</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#NNSfNNS" lemma="amount">amounts</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVfVV" lemma="interact">interact</w>
+        <w ana="#NNfNN" lemma="policy">policy</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="cohesion">cohesion</w>
+        <w ana="#NNfNN" lemma="envelope">envelope</w>
+        <w ana="#XXfXX">an-</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="lot">lot</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#NNfNN" lemma="kind">kind</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNSfNNS" lemma="piece">pieces</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#NNSfNNS" lemma="piece">pieces</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#NNfNN" lemma="everything">everything</w>
+        <w ana="#VVZfVVZ" lemma="start">starts</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="lack">lack</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="coordination">coordination</w>
+        <w ana="#INfIN" lemma="between">between</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#JJfJJ" lemma="separate">separate</w>
+        <w ana="#NNfNN" lemma="council">council</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#JJfJJ" lemma="separate">separate</w>
+        <w ana="#NNfNN" lemma="council">council</w>
+        <w ana="#VVZfVVZ" lemma="decide">decides</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#NNfNN" lemma="something">something</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+        <w ana="#NNfNN" lemma="commission">commission</w>
+        <w ana="#VVZfVVZ" lemma="reflect">reflects</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="separation">separation</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="look">looked</w>
+        <w ana="#INfIN" lemma="as">as</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="screen">screened</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="recently">recently</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="problem">problem</w>
+        <w ana="#VVZfVVZ" lemma="secure">secures</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="autumn">autumn</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#RBfRB" lemma="especially">especially</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#JJfJJ" lemma="south">south</w>
+        <w ana="#JJfJJ" lemma="european">european</w>
+        <w ana="#NNSfNNS" lemma="country">countries</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="screen">screened</w>
+        <w ana="#PPSfPPS" lemma="they">their</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNSfNNS" lemma="resource">resources</w>
+        <w ana="#JJfJJ" lemma="available">available</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVDfVVD" lemma="realize">realized</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#JJfJJ" lemma="available">available</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVNfVVN" lemma="streamline">streamlined</w>
+        <w ana="#RBfRB" lemma="sufficiently">sufficiently</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVNfVVN" lemma="coordinate">coordinated</w>
+        <w ana="#RBfRB" lemma="sufficiently">sufficiently</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="probably">probably</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVNfVVN" lemma="use">used</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBRfRBR" lemma="more">more</w>
+        <w ana="#RBfRB" lemma="efficiently">efficiently</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="up">up</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="take">take</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#RBfRB" lemma="seriously">seriously</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="immigration">immigration</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#RBfRB" lemma="away">away</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="neither">neither</w>
+        <w ana="#RBfRB" lemma="tomorrow">tomorrow</w>
+        <w ana="#CCfCC" lemma="neither">neither</w>
+        <w ana="#INfIN" lemma="after">after</w>
+        <w ana="#RBfRB" lemma="tomorrow">tomorrow</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="problem">problem</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VVfVV" lemma="face">face</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#NPfNP" lemma="europe">europe</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="long">long</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#NNfNN" lemma="time">time</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="political">political</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="social">social</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="economic">economic</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="financial">financial</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="problem">problem</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#WRBfWRB" lemma="why">why</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="immigration">immigration</w>
+        <w ana="#NNfNN" lemma="policy">policy</w>
+        <w ana="#VVZfVVZ" lemma="need">needs</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#VVNfVVN" lemma="take">taken</w>
+        <w ana="#NNfNN" lemma="care">care</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#JJfJJ" lemma="european">european</w>
+        <w ana="#NNfNN" lemma="level">level</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="help">help</w>
+        <w ana="#NPfNP" lemma="spain">spain</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#RBfRB" lemma="together">together</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NPfNP" lemma="spain">spain</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#JJfJJ" lemma="able">able</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="tackle">tackle</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#RBfRB" lemma="alone">alone</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#NNfNN" lemma="problem">problem</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#NPfNP" lemma="spain">spain</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="european">european</w>
+        <w ana="#NNfNN" lemma="problem">problem</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NPfNP" lemma="spain">spain</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="border">border</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NPfNP" lemma="europe">europe</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="figure">figures</w>
+        <w ana="#RBfRB" lemma="concretely">concretely</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVGfVVG" lemma="receive">receiving</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#NNfNN" lemma="budget">budget</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBRfRBR" lemma="late">later</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#POprc557_S1" xml:id="POprc557_u_6">
+        <w ana="#FIfFI" lemma="please">please</w>
+        <w ana="#PAfPA">_5</w>
+      </u>
+      <u who="#POprc557_S4" xml:id="POprc557_u_7">
+        <w ana="#NPfNP">a_[S4]</w>
+        <w ana="#NPfNP">a_[S4/last]</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="dutch">dutch</w>
+        <w ana="#NPfNP">a_[org2]</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#NNfNN" lemma="opinion">opinion</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="situation">situation</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPSfNPS" lemma="netherlands">netherlands</w>
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="benefit">benefits</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVPfVVP" lemma="outweigh">outweigh</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="cost">costs</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVDfVVD" lemma="mention">mentioned</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNSfNNS" lemma="problem">problems</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#PPSfPPS" lemma="they">their</w>
+        <w ana="#NNfNN" lemma="management">management</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#MDfMD" lemma="will">would</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#NNfNN" lemma="advice">advice</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="authority">authority</w>
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+      </u>
+      <u who="#POprc557_S2" xml:id="POprc557_u_8">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVPfVVP" lemma="want">want</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVfVV" lemma="inform">inform</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#RBfRB" lemma="quite">quite</w>
+        <w ana="#JJfJJ" lemma="satisfied">satisfied</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="problem">problems</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#JJSfJJS" lemma="large">largest</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNSfNNS" lemma="problem">problems</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVGfVVG" lemma="take">taking</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="place">place</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPSfNPS" lemma="netherlands">netherlands</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="sector">sector</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="agency">agency</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="five">five</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#PVCfVVD">
+          <w ana="#PVCfVVN">p_overgone</w>
+        </w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#VVNfVVN" lemma="go">gone</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVfVV" lemma="expect">expect</w>
+        <w ana="#DTfDT" lemma="such">such</w>
+        <w ana="#NNSfNNS" lemma="loss">losses</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="six">six</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="future">future</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#XXfXX">o-</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#NNSfNNS" lemma="benefit">benefits</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="recently">recently</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="study">study</w>
+        <w ana="#RBfRB" lemma="about">about</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="enlargement">enlargement</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#WPfWP" lemma="who">who</w>
+        <w ana="#VVDfVVD" lemma="benefit">benefited</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#RBSfRBS" lemma="most">most</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="interesting">interesting</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="see">see</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="economic">economic</w>
+        <w ana="#NNSfNNS" lemma="result">results</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#WPfWP" lemma="who">who</w>
+        <w ana="#VVDfVVD" lemma="benefit">benefited</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#RBSfRBS" lemma="most">most</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="country">countries</w>
+        <w ana="#PREfPRE" lemma="who">who</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#RBfRB" lemma="practically">practically</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#XXfXX">de-</w>
+        <w ana="#VVNfVVN" lemma="deny">denied</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#RBSfRBS" lemma="most">most</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJSfJJS" lemma="large">largest</w>
+        <w ana="#XXfXX">re-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">bene-</w>
+        <w ana="#NNSfNNS" lemma="beneficiary">beneficiaries</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="trade">trade</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#JJfJJ" lemma="economic">economic</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="comparatively">comparatively</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="good">good</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#JJfJJ" lemma="cheap">cheap</w>
+        <w ana="#NNfNN" lemma="labor">labor</w>
+        <w ana="#NNfNN" lemma="force">force</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NPfNP" lemma="germany">germany</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#NPfNP" lemma="austria">austria</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NPSfNPS" lemma="netherlands">netherlands</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="read">read</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#NNfNN" lemma="media">media</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#POprc557_SX-m" xml:id="POprc557_u_9">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#POprc557_S2" xml:id="POprc557_u_10">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#WRBfWRB" lemma="why">why</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="question">question</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="interesting">interesting</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="concrete">concrete</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="reality">reality</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="economic">economic</w>
+        <w ana="#NNSfNNS" lemma="result">results</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="enlargement">enlargement</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#RBfRB" lemma="mainly">mainly</w>
+        <w ana="#UNIfUNI">xxx</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="s_eu">s_eu</w>
+        <w ana="#CDfCD" lemma="fifteen">fifteen</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="neighboring">neighboring</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#POprc557_S1" xml:id="POprc557_u_11">
+        <w ana="#FIfFI" lemma="please">please</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NPfNP">a_[S5]</w>
+        <w ana="#PAfPA">_4</w>
+      </u>
+      <u who="#POprc557_S5" xml:id="POprc557_u_12">
+        <w ana="#NPfNP">a_[S5]</w>
+        <w ana="#NPfNP">a_[S5/last]</w>
+        <w ana="#JJfJJ" lemma="polish">polish</w>
+        <w ana="#NPfNP">a_[org3]</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="commissioner">commissioner</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBPfVBP" lemma="be">'m</w>
+        <w ana="#XXfXX">some-</w>
+        <w ana="#RBfRB" lemma="somewhat">somewhat</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="surprised">surprised</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJSfJJS" lemma="rich">richest</w>
+        <w ana="#NNSfNNS" lemma="country">countries</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="european">european</w>
+        <w ana="#NPfNP" lemma="union">union</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#RBfRB" lemma="namely">namely</w>
+        <w ana="#NPfNP" lemma="united">united</w>
+        <w ana="#NPfNP" lemma="kingdom">kingdom</w>
+        <w ana="#VVDfVVD" lemma="become">became</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#NNfNN" lemma="recipient">recipient</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#JJfJJ" lemma="structural">structural</w>
+        <w ana="#NNfNN" lemma="action">action</w>
+        <w ana="#MDfMD" lemma="can">could</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="comment">comment</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#MDfMD" lemma="will">would</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#JJfJJ" lemma="possible">possible</w>
+        <w ana="#XXfXX">th-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="six">six</w>
+        <w ana="#NNfNN" lemma="budget">budget</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#JJfJJ" lemma="second">second</w>
+        <w ana="#NNfNN" lemma="question">question</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="risk">risk</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#INfIN" lemma="such">such</w>
+        <w ana="#INfIN" lemma="as">as</w>
+        <w ana="#INfIN" lemma="as">as</w>
+        <w ana="#NPfNP" lemma="poland">poland</w>
+        <w ana="#MDfMD" lemma="will">would</w>
+        <w ana="#VVfVV" lemma="lose">lose</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="structural">structural</w>
+        <w ana="#NNfNN" lemma="money">money</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="s_n">s_n</w>
+        <w ana="#NPfNP" lemma="plus">plus</w>
+        <w ana="#NPfNP" lemma="two">two</w>
+        <w ana="#NPfNP" lemma="rule">rule</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="six">six</w>
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="mean">mean</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#MDfMD" lemma="will">would</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="first">first</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="s_n">s_n</w>
+        <w ana="#NPfNP" lemma="plus">plus</w>
+        <w ana="#NPfNP" lemma="two">two</w>
+        <w ana="#NPfNP" lemma="rule">rule</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVZfVVZ" lemma="get">gets</w>
+        <w ana="#INfIN" lemma="into">into</w>
+        <w ana="#NNfNN" lemma="action">action</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#POprc557_S2" xml:id="POprc557_u_13">
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="first">first</w>
+        <w ana="#NNfNN" lemma="question">question</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="figure">figures</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVDfVVD" lemma="see">saw</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="probably">probably</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="hope">hope</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVDfVVD" lemma="hear">heard</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VVDfVVD" lemma="say">said</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="maybe">maybe</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="between">between</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="line">lines</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJSfJJS" lemma="large">largest</w>
+        <w ana="#NNSfNNS" lemma="beneficiary">beneficiaries</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#NPfNP" lemma="s_eu">s_eu</w>
+        <w ana="#VVGfNN" lemma="finance/financing">financing</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="including">including</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="both">both</w>
+        <w ana="#JJfJJ" lemma="main">main</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNSfNNS" lemma="policy">policies</w>
+        <w ana="#NNfNN" lemma="agriculture">agriculture</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#JJfJJ" lemma="structural">structural</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJSfJJS" lemma="large">largest</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#RBfRB" lemma="altogether">altogether</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CDfCD" lemma="ten">ten</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#VVGfNN" lemma="fund/funding">funding</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNSfNNS" lemma="goal">goals</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVPfVVP" lemma="receive">receive</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#CDfCD" lemma="nine">nine</w>
+        <w ana="#NNfNN" lemma="point">point</w>
+        <w ana="#CDfCD" lemma="five">five</w>
+        <w ana="#NNfNN" lemma="per">per</w>
+        <w ana="#NNfNN" lemma="cent">cent</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#JJfJJ" lemma="european">european</w>
+        <w ana="#NNfNN" lemma="budget">budget</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJRfJJR" lemma="less">less</w>
+        <w ana="#INfIN" lemma="than">than</w>
+        <w ana="#CDfCD" lemma="ten">ten</w>
+        <w ana="#NNfNN" lemma="per">per</w>
+        <w ana="#NNfNN" lemma="cent">cent</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="both">both</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNSfNNS" lemma="policy">policies</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="main">main</w>
+        <w ana="#NNSfNNS" lemma="policy">policies</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="still">still</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#VVGfNN">
+          <w ana="#VVGfVVG">
+            <w lemma="phase/phasing">phasing</w>
+          </w>
+        </w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="situation">situation</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#RBfRB" lemma="still">still</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#JJfJJ" lemma="full">full</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="recipient">recipient</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#JJfJJ" lemma="full">full</w>
+        <w ana="#NNfNN" lemma="scale">scale</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="both">both</w>
+        <w ana="#NNSfNNS" lemma="policy">policies</w>
+        <w ana="#RBfRB" lemma="yet">yet</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VVfVV" lemma="come">come</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="seven">seven</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="practically">practically</w>
+        <w ana="#RBfRB" lemma="fully">fully</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="seven">seven</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#NNfNN" lemma="cohesion">cohesion</w>
+        <w ana="#NNfNN" lemma="policy">policy</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="relatively">relatively</w>
+        <w ana="#JJRfJJR" lemma="slow">slower</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#JJfJJ" lemma="agricultural">agricultural</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="status">status</w>
+        <w ana="#NNfNN" lemma="quo">quo</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="concrete">concrete</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#NPfNP" lemma="s_uk">s_uk</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="as">as</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="say">said</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="surprising">surprising</w>
+        <w ana="#NNfNN" lemma="figure">figure</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="expect">expect</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="plan">plan</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VVDfVVD" lemma="manage">managed</w>
+        <w ana="#RBRfRBR" lemma="good">better</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#NPfNP" lemma="s_eu">s_eu</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#XXfXX">di-</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVfVV" lemma="forget">forget</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="practically">practically</w>
+        <w ana="#XXfXX">pre-</w>
+        <w ana="#JJfJJ" lemma="last">last</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#JJfJJ" lemma="financial">financial</w>
+        <w ana="#NNfNN" lemma="perspective">perspective</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="s_eu">s_eu</w>
+        <w ana="#CDfCD" lemma="fifteen">fifteen</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="catch">catch</w>
+        <w ana="#RPfRP" lemma="up">up</w>
+        <w ana="#WPfWP" lemma="whatever">whatever</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="five">five</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="six">six</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#CDfCD" lemma="six">six</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="last">last</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#PPfPP" lemma="they">them</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#JJfJJ" lemma="financial">financial</w>
+        <w ana="#NNfNN" lemma="perspective">perspective</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#POSfPOS" lemma="'">'</w>
+        <w ana="#NNSfNNS" lemma="possibility">possibilities</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="lose">lose</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#NPfNP" lemma="s_n">s_n</w>
+        <w ana="#NPfNP" lemma="plus">plus</w>
+        <w ana="#NPfNP" lemma="two">two</w>
+        <w ana="#NPfNP" lemma="rule">rule</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VVfVV" lemma="start">start</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="work">work</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="seven">seven</w>
+        <w ana="#NPfNP" lemma="january">january</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="money">moneys</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VVPfVVP" lemma="suppose">suppose</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#VVNfVVN" lemma="spend">spent</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="four">four</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="four">four</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="membership">membership</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#CDfCD" lemma="eight">eight</w>
+        <w ana="#NNSfNNS" lemma="month">months</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="amount">amounts</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#JJfJJ" lemma="significant">significant</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#XXfXX">mo-</w>
+        <w ana="#RBfRB" lemma="mostly">mostly</w>
+        <w ana="#DTfDT" lemma="these">these</w>
+        <w ana="#NNSfNNS" lemma="amount">amounts</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#XXfXX">fron-</w>
+        <w ana="#PVCfVVN">p_frontloaded</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVfVV" lemma="expect">expect</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="large">large</w>
+        <w ana="#NNSfNNS" lemma="problem">problems</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="seven">seven</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="eight">eight</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#RBRfRBR" lemma="more">more</w>
+        <w ana="#JJfJJ" lemma="serious">serious</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#RBRfRBR" lemma="more">more</w>
+        <w ana="#JJfJJ" lemma="risky">risky</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#NNSfNNS" lemma="possibility">possibilities</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="loss">loss</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#POprc557_S1" xml:id="POprc557_u_14">
+        <w ana="#FIfFI" lemma="please">please</w>
+        <w ana="#PAfPA">_3</w>
+      </u>
+      <u who="#POprc557_S6" xml:id="POprc557_u_15">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#JJfJJ" lemma="much">much</w>
+        <w ana="#MDfMD" lemma="will">would</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#VVfVV" lemma="get">get</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#XXfXX">w-</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#VVNfVVN" lemma="phase">phased</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="a">an</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#NNSfNNS" lemma="policy">policies</w>
+        <w ana="#RBfRB" lemma="actually">actually</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#POprc557_S2" xml:id="POprc557_u_16">
+        <w ana="#BRfBR">hh</w>
+        <w ana="#XXfXX">t-</w>
+        <w ana="#XXfXX">d-</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">i-</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="thirteen">thirteen</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="thirteen">thirteen</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPSfPPS" lemma="they">their</w>
+        <w ana="#JJfJJ" lemma="full">full</w>
+        <w ana="#NNfNN" lemma="phase">phase</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="last">last</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#CDfCD" lemma="hundred">hundred</w>
+        <w ana="#NNfNN" lemma="per">per</w>
+        <w ana="#NNfNN" lemma="cent">cent</w>
+        <w ana="#JJfJJ" lemma="direct">direct</w>
+        <w ana="#NNSfNNS" lemma="payment">payments</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="already">already</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CDfCD" lemma="thousand">thousand</w>
+        <w ana="#CDfCD" lemma="seven">seven</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="see">see</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="cohesion">cohesion</w>
+        <w ana="#NNfNN" lemma="policy">policy</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="share">share</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#NNSfNNS" lemma="member">member</w>
+        <w ana="#NNSfNNS" lemma="state">states</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VVfVV" lemma="grow">grow</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="up">up</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#CDfCD" lemma="forty">forty</w>
+        <w ana="#NNfNN" lemma="per">per</w>
+        <w ana="#NNfNN" lemma="cent">cent</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNSfNNS" lemma="amount">amounts</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="another">another</w>
+        <w ana="#NNfNN" lemma="matter">matter</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="calculate">calculate</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#POprc557_SX-6" xml:id="POprc557_u_17">
+        <w ana="#CDfCD" lemma="forty">forty</w>
+        <w ana="#NNfNN" lemma="per">per</w>
+        <w ana="#NNfNN" lemma="cent">cent</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#POprc557_S2" xml:id="POprc557_u_18">
+        <w ana="#CDfCD" lemma="forty">forty</w>
+        <w ana="#NNfNN" lemma="per">per</w>
+        <w ana="#NNfNN" lemma="cent">cent</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NNfNN" lemma="cohesion">cohesion</w>
+        <w ana="#NNfNN" lemma="policy">policy</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#CDfCD" lemma="twenty-four">twenty-four</w>
+        <w ana="#PAfPA">_6</w>
+      </u>
+      <u who="#POprc557_S1" xml:id="POprc557_u_19">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="any">any</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#NNSfNNS" lemma="question">questions</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#POprc557_S2" xml:id="POprc557_u_20">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#POprc557_S1" xml:id="POprc557_u_21">
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#RBfRB" lemma="much">much</w>
+        <w ana="#FWfFW">f_madame</w>
+      </u>
+      <u who="#POprc557_S2" xml:id="POprc557_u_22">
+        <w ana="#JJfJJ" lemma="additional">additional</w>
+        <w ana="#NNfNN" lemma="information">information</w>
+        <w ana="#JJfJJ" lemma="available">available</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#POprc557_S1" xml:id="POprc557_u_23">
+        <w ana="#NNfNN" lemma="commissioner">commissioner</w>
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#RBfRB" lemma="much">much</w>
+      </u>
+    </body>
+  </text>
+</TEI>

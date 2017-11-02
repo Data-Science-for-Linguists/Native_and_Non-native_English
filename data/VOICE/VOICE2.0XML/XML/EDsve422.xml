@@ -1,0 +1,913 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="EDsve422" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>service encounter helping international students with practical information</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+            <sponsor/>
+            <respStmt>
+		<resp>Researchers</resp> 
+		<name xml:id="AB">Angelika Breiteneder</name> 
+		<name xml:id="TK">Theresa Klimpfinger</name> 
+		<name xml:id="SM">Stefan Majewski</name> 
+		<name xml:id="MLP">Marie-Luise Pitzl</name>
+	  </respStmt>
+         </titleStmt>
+         <editionStmt>
+	  <edition>Version 2.0 XML, <date>January 2013</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Stefan Majewski</name> 
+		<name>Ruth Osimk-Teasdale</name>
+		<name>Marie-Luise Pitzl</name>
+		<name>Michael Radeka</name>
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+	  <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+		<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  		<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). Minor revisions were gathered
+		  by Ruth Osimk-Teasdale and Michael Radeka and corrections were made by 
+		  Ruth Osimk-Teasdale. VOICE 2.0 XML is available for download at the VOICE 
+		  Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+	  	<p>
+          The recommended citation for VOICE 2.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 2.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka.</bibl>
+		</p>
+		<p>The short citation for VOICE 2.0 XML is:
+		</p>
+		<p>
+          <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version 2.0 XML</edition>).</bibl>
+        </p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="EDsve422_wc">Words: 1981</note>
+            <note xml:id="EDsve422_tn_0">This service encounter takes place between an advisor for international students and a number of exchange students from Italy, Spain and Hungary. The student advisor explains a few practicalities, e.g., where to pay the student fees, etc., and also goes through various lists with them. During the event, while the advisor is busy photocopying forms or writing down names, the students frequently talk to each other in their various first languages or German, i.e. the language of their host country.  </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H26M27S" type="audio">
+                  <date>2005-10-03</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R14</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="EDsve422_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="EDsve422_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="EDsve422_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="EDsve422_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="EDsve422_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="EDsve422_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="EDsve422_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="EDsve422_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="EDsve422_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="EDsve422_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="EDsve422_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="EDsve422_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="EDsve422_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="EDsve422_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="EDsve422_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="EDsve422_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="EDsve422_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="name" occurs="12"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="4"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="83"/>
+      <tagUsage gi="gi" occurs="3"/>
+      <tagUsage gi="att" occurs="15"/>
+      <tagUsage gi="list" occurs="12"/>
+      <tagUsage gi="label" occurs="22"/>
+      <tagUsage gi="val" occurs="44"/>
+      <tagUsage gi="item" occurs="42"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="2"/>
+      <tagUsage gi="person" occurs="16"/>
+      <tagUsage gi="age" occurs="8"/>
+      <tagUsage gi="sex" occurs="8"/>
+      <tagUsage gi="occupation" occurs="8"/>
+      <tagUsage gi="langKnowledge" occurs="8"/>
+      <tagUsage gi="langKnown" occurs="8"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="6"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="7"/>
+      <tagUsage gi="u" occurs="357">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+      <tagUsage gi="pause" occurs="363">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="emph" occurs="53">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="c" occurs="236">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="incident" occurs="56">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="unclear" occurs="20">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="foreign" occurs="76">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the <att>voice:translation</att> attribute
+		provides a rough translation of the non-English speech into
+		English.
+		</tagUsage>
+      <tagUsage gi="supplied" occurs="63">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed
+		to be anonymized. The <att>reason</att> attribute is used to
+		mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="shift" occurs="138">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="vocal" occurs="70">Used to mark laughter and other speaker
+        noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="seg" occurs="114">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="44">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="w" occurs="4">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage>
+      <tagUsage gi="gap" occurs="6">Used to mark points where a short portion of
+		speech has not been recorded or has been left untranscribed,
+		whether for editorial reasons, as part of the sampling practice,
+		or because the material is inaudible or comprises sensitive
+		content. The following <att>reason</att> attributes are used to
+		mark:
+		<list>
+		  <label><val>not_recorded</val></label><item>Not recorded
+		  speech</item>
+		  <label><val>not_transcribed</val></label><item>Not transcribed
+		  speech</item>
+		</list>
+		Further information on the reason for a gap is provided within
+		the <att>voice:desc</att> attribute.
+		</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:track" occurs="9">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in
+		length) and thus refers to the audio recording of the
+		transcribed speech event.
+		</tagUsage>
+      <tagUsage gi="voice:to" occurs="4">Used to mark speech directed towards a
+		particular speaker. The <att>who</att>who attribute indicates the
+		addressed speaker.</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#EDsve422_ED #EDsve422_sve"/>
+            <catRef target="#ED #sve"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">AT</name>
+               <name type="city">Vienna</name>
+               <locale>office room at university</locale>
+               <activity>photocopying, taking notes</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="8"/>
+                  <personGrp role="interactants" size="6"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="participant" sameAs="#P361" xml:id="EDsve422_S2">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ita-IT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P268" xml:id="EDsve422_S1">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student counsellor</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P362" xml:id="EDsve422_S3">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa-ES"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="researcher" sameAs="#P162" xml:id="EDsve422_S7">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P363" xml:id="EDsve422_S4">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ita-IT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P364" xml:id="EDsve422_S5">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ita-IT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P365" xml:id="EDsve422_S6">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="hun-HU"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="non-participant" sameAs="#P873" xml:id="EDsve422_S8">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person corresp="#EDsve422_S7" sameAs="#SX" xml:id="EDsve422_SX-7"/>
+                  <person corresp="#EDsve422_S1" sameAs="#SX" xml:id="EDsve422_SX-1"/>
+                  <person corresp="#EDsve422_S4" sameAs="#SX" xml:id="EDsve422_SX-4"/>
+                  <person corresp="#EDsve422_S3" sameAs="#SX" xml:id="EDsve422_SX-3"/>
+                  <person sameAs="#SX-f" xml:id="EDsve422_SX-f"/>
+                  <person corresp="#EDsve422_S6" sameAs="#SX" xml:id="EDsve422_SX-6"/>
+                  <person sameAs="#SS" xml:id="EDsve422_SS"/>
+                  <person corresp="#EDsve422_S2" sameAs="#SX" xml:id="EDsve422_SX-2"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#EDsve422_S1 #EDsve422_S2 #EDsve422_S3 #EDsve422_S4 #EDsve422_S5 #EDsve422_S6" name="fairly_symmetrical" type="power"/>
+                  <relation mutual="#EDsve422_S1 #EDsve422_S2 #EDsve422_S3 #EDsve422_S4 #EDsve422_S5 #EDsve422_S6" name="predominantly_unacquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-04-11" who="RO">changes for VOICE 1.1</change>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-11" who="MLP">finalized for publication</change>
+         <change when="2009-01-23" who="AB">proof-reading</change>
+         <change when="2008-11-10" who="RO">checking</change>
+         <change when="2005-11-04" who="CHu">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="01:07" voice:end_medium_number="1" voice:end_track="6" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1" voice:start_track="01">
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_1"><voice:track medium="1" num="1" type="md"/> erm <pause dur="PT1S"/> which documents did you re<emph>ceive </emph> from my colleague now<c function="rise" type="intonation"/><pause dur="PT1S"/> e<c type="lengthening"/>r <pause dur="PT2S"/><incident dur="PT2S" voice:desc="S2 shows sheets "/><unclear> we did </unclear></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_2"> this </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_3"> mhm <pause dur="PT2S"/> okay<c function="fall" type="intonation"/><pause/> and did you already get the erasmus confirmation<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_4"> no<unclear>t </unclear></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_5"> no<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_6"> no<c function="fall" type="intonation"/><pause dur="PT1S"/> okay <pause dur="PT1S"/> e<c type="lengthening"/>r <pause dur="PT1S"/> then first of all i will <pause dur="PT1S"/> er look for your <foreign type="L1" voice:translation="coordinator" xml:lang="ger"> koordinator </foreign></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_7"> mhm </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_8"> maybe she wrote <pause/> my colleague wrote it <emph> down </emph><c function="rise" type="intonation"/><pause dur="PT1S"/> and then i explain what you have to do <emph> with </emph> the payment form<c function="fall" type="intonation"/><pause dur="PT1S"/> and so on <pause dur="PT18S"/><incident dur="PT18S" voice:desc="S1 looks for individual coordinators, rustling of paper can be heard "/><supplied reason="anonymization"> [last name1] </supplied><c function="rise" type="intonation"/> e<c type="lengthening"/>r it's also <supplied reason="anonymization"> [last name1] </supplied><pause dur="PT1S"/> oh<c function="fall" type="intonation"/><pause dur="PT2S"/><shift corresp="#EDsve422_s_2" feature="loud" new="p" xml:id="EDsve422_s_1"/> okay <shift corresp="#EDsve422_s_1" feature="loud" new="neutral" xml:id="EDsve422_s_2"/> and for you </u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_9"><supplied reason="anonymization"> [last name2] </supplied><pause dur="PT2S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_10"><vocal voice:desc="clears throat"/><pause dur="PT2S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_11"><shift corresp="#EDsve422_s_4" feature="loud" new="p" xml:id="EDsve422_s_3"/><unclear> where did we put that </unclear><shift corresp="#EDsve422_s_3" feature="loud" new="neutral" xml:id="EDsve422_s_4"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause dur="PT2S"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_12"> thank you </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_13"> and for <emph> you </emph><c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_14"><supplied reason="anonymization"> [last name3] </supplied></u>
+            <u who="#EDsve422_SX-1" xml:id="EDsve422_u_15"><supplied reason="anonymization"> [last name3] </supplied></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_16"> yeah<c function="rise" type="intonation"/><pause dur="PT5S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_17"><vocal voice:desc="clears throat"/><pause dur="PT20S"/><incident dur="PT2S" voice:desc="rustling of paper "/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_18"> thank you<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_19"> and for you<c function="rise" type="intonation"/><supplied reason="unintelligible"> xx </supplied><pause dur="PT14S"/><incident dur="PT14S" voice:desc="rustling of paper, people are putting papers in bag "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_20"><shift corresp="#EDsve422_s_6" feature="loud" new="p" xml:id="EDsve422_s_5"/> okay<c function="rise" type="intonation"/><shift corresp="#EDsve422_s_5" feature="loud" new="neutral" xml:id="EDsve422_s_6"/><pause dur="PT7S"/><incident dur="PT7S" voice:desc="rustling of paper "/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_21"><vocal voice:desc="clears throat"/><pause dur="PT4S"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_22"> okay <pause dur="PT1S"/> er so <pause dur="PT1S"/> er with the <emph> pay</emph>ment form <pause/> er you should go to the next <emph> post </emph> office or to the next <emph> bank </emph><c function="rise" type="intonation"/><pause/> er maybe it's better to go to the <emph> post </emph> office because there the fee <pause/> is very <emph> low </emph><c function="rise" type="intonation"/><pause/> e<c type="lengthening"/>r <pause/> and you should pay the fifteen point thirty-six euros<c function="rise" type="intonation"/> as soon as possible<c function="rise" type="intonation"/><pause/> because then it's e<c type="lengthening"/>r gets quicker that you're getting your student's card and your <foreign type="L1" voice:translation="registration confirmation" xml:lang="ger"> inskriptionsbestaetigung </foreign><pause dur="PT1S"/> things like that <pause dur="PT1S"/> and i can show you where the next post office <emph> is </emph> on the map<c function="rise" type="intonation"/><pause dur="PT2S"/><incident dur="PT2S" voice:desc="S1 unfolds map "/> erm <pause dur="PT2S"/> er that's the<c type="lengthening"/><pause dur="PT2S"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_23"><shift corresp="#EDsve422_s_8" feature="voice" new="laugh" xml:id="EDsve422_s_7"/> okay i just <shift corresp="#EDsve422_s_7" feature="voice" new="neutral" xml:id="EDsve422_s_8"/></u>
+            <u who="#EDsve422_SX-1" xml:id="EDsve422_u_24"><shift corresp="#EDsve422_s_10" feature="loud" new="p" xml:id="EDsve422_s_9"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#EDsve422_s_9" feature="loud" new="neutral" xml:id="EDsve422_s_10"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_25"><shift corresp="#EDsve422_s_12" feature="loud" new="p" xml:id="EDsve422_s_11"/> i can also show you <shift corresp="#EDsve422_s_11" feature="loud" new="neutral" xml:id="EDsve422_s_12"/><pause/> e<c type="lengthening"/>r that's the main building of the university<c function="rise" type="intonation"/><pause/> e<c type="lengthening"/>r here is the main <emph> en</emph>trance <pause/> and you turn then left you go around the corner<c function="rise" type="intonation"/><pause/> go along <foreign type="L1" voice:translation="street name" xml:lang="ger"> universitaetsstrasse </foreign><voice:track medium="1" num="2" type="md"/> and then turn to the right and here is <foreign type="L1" voice:translation="street name" xml:lang="ger"> garnisongasse </foreign></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_26"> mhm <pause/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_27"> here </u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_28"><foreign type="LN" voice:translation="street name" xml:lang="ger"> garnison<seg n="1" type="overlap" xml:id="EDsve422_ol_0">gasse </seg></foreign></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_29"><seg n="1" synch="#EDsve422_ol_0" type="overlap" xml:id="EDsve422_ol_1"> mhm </seg><pause dur="PT1S"/> that's <pause/> er on the information sheet<c function="rise" type="intonation"/><pause/> on the top <pause/> there is the address<c function="fall" type="intonation"/><pause dur="PT3S"/><incident dur="PT3S" voice:desc="S1 folds map "/><foreign type="L1" voice:translation="street name" xml:lang="ger"> garnisongasse </foreign> seven <pause dur="PT3S"/></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_30"><foreign type="LN" voice:translation="excuse me what is called" xml:lang="ger"> entschuldigung wie heisst<c function="rise" type="intonation"/></foreign></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_31"> er <pause/> that's written down here<c function="rise" type="intonation"/><incident voice:desc="S1 points at sheet"/><pause/> er <pause dur="PT1S"/><foreign type="L1" voice:translation="street name" xml:lang="ger"> garnisongasse <seg n="2" type="overlap" xml:id="EDsve422_ol_2"> s- sieben <incident voice:desc="seven"/></seg></foreign></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_32"><seg n="2" synch="#EDsve422_ol_2" type="overlap" xml:id="EDsve422_ol_3"> a<c type="lengthening"/>h </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_33"><seg n="4" type="overlap" xml:id="EDsve422_ol_4"> ninth </seg> district<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_34"><seg n="4" synch="#EDsve422_ol_4" type="overlap" xml:id="EDsve422_ol_5"><shift corresp="#EDsve422_s_14" feature="loud" new="p" xml:id="EDsve422_s_13"/><unclear> yeah </unclear><shift corresp="#EDsve422_s_13" feature="loud" new="neutral" xml:id="EDsve422_s_14"/></seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_35"> okay <pause dur="PT3S"/><incident dur="PT2S" voice:desc="loud noise from microphone "/> hh e<c type="lengthening"/>r <pause dur="PT1S"/> and then you should take the confirm<emph>ation </emph> that you have <emph> paid </emph><c function="rise" type="intonation"/><pause/> you should take <emph> with </emph> you to the orien<emph>ta</emph>tion<c function="fall" type="intonation"/><pause dur="PT1S"/> er that's on the second sheet <pause/> i gave you<c function="rise" type="intonation"/><pause dur="PT1S"/> the<c type="lengthening"/><pause/> that's the <pause/><shift corresp="#EDsve422_s_16" feature="tempo" new="a" xml:id="EDsve422_s_15"/> this sheet<c function="rise" type="intonation"/><shift corresp="#EDsve422_s_15" feature="tempo" new="neutral" xml:id="EDsve422_s_16"/><pause dur="PT3S"/><incident dur="PT3S" voice:desc="S1 shows the sheet and SS look for it "/> e<c type="lengthening"/>r <pause/> the university of vienna is offering a <pause/> e<c type="lengthening"/>r an orientation<c function="rise" type="intonation"/> for all er<emph>as</emph>mus students<c function="rise" type="intonation"/><pause/> and there you get some general information <pause/> er about the university of vienna<c function="rise" type="intonation"/><pause/> and we will also prepare your student's card there <pause/> e<c type="lengthening"/>r so you should take a photo with you<c function="rise" type="intonation"/><pause/> tha<c type="lengthening"/>t's written down <emph> here </emph><pause dur="PT1S"/> er a photo and a <emph> pass</emph>port <pause/> and the confirmation that <seg n="5" type="overlap" xml:id="EDsve422_ol_6"> you </seg> have paid<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_36"><seg n="5" synch="#EDsve422_ol_6" type="overlap" xml:id="EDsve422_ol_7"> hh </seg></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_37"><foreign type="LN" voice:translation="the identity card" xml:lang="ger"> die personalausweis<c function="rise" type="intonation"/></foreign></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_38"> yes <pause/><seg n="10" type="overlap" xml:id="EDsve422_ol_8"> is al</seg>so okay <pause/></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_39"><seg n="10" synch="#EDsve422_ol_8" type="overlap" xml:id="EDsve422_ol_9"><shift corresp="#EDsve422_s_18" feature="loud" new="p" xml:id="EDsve422_s_17"/> okay <shift corresp="#EDsve422_s_17" feature="loud" new="neutral" xml:id="EDsve422_s_18"/></seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_40"> mhm<c function="rise" type="intonation"/><pause dur="PT1S"/> e<c type="lengthening"/>rm <pause/> and the next orientation is <emph> this </emph><emph> thurs</emph>day<c function="rise" type="intonation"/><pause dur="PT1S"/> from ten to twelve o'clock that <pause/> for tomorrow <pause/> er it's <emph> full </emph><c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_41"> mhm<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_42"> so<c type="lengthening"/><pause/> when you have time on thursday i can write your name down on a <emph> list </emph><c function="rise" type="intonation"/><pause/><shift corresp="#EDsve422_s_20" feature="loud" new="p" xml:id="EDsve422_s_19"/> just a moment<c function="rise" type="intonation"/><shift corresp="#EDsve422_s_19" feature="loud" new="neutral" xml:id="EDsve422_s_20"/><pause dur="PT3S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_43"><vocal voice:desc="clears throat"/><pause dur="PT5S"/><incident dur="PT5S" voice:desc="S1 goes to get the list "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_44"><voice:to who="#EDsve422_S2"> s- <pause/> is thursday for you okay from ten to twelve o'<seg n="2" type="overlap" xml:id="EDsve422_ol_10">clock </seg></voice:to></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_45"><seg n="2" synch="#EDsve422_ol_10" type="overlap" xml:id="EDsve422_ol_11"> o</seg>kay<c function="fall" type="intonation"/><pause dur="PT2S"/><incident dur="PT2S" voice:desc="S1 hands S2 the list "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_46"><shift corresp="#EDsve422_s_22" feature="loud" new="p" xml:id="EDsve422_s_21"/><supplied reason="unintelligible"> xx </supplied> here<c function="rise" type="intonation"/><shift corresp="#EDsve422_s_21" feature="loud" new="neutral" xml:id="EDsve422_s_22"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_47"> hh <pause dur="PT1S"/><foreign type="LN" voice:translation="surname" xml:lang="ger"> nachname </foreign></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_48"> mhm <anchor synch="#EDsve422_oc_1" type="other_continuation" xml:id="EDsve422_oc_0"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_49"><anchor synch="#EDsve422_oc_0" type="other_continuation" xml:id="EDsve422_oc_1"/><supplied reason="anonymization"> [S2/last] </supplied><pause dur="PT3S"/><incident dur="PT3S" voice:desc="S1 writes S2's name down "/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_50"><vocal voice:desc="clears throat"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_51"><w voice:mode="spelt"><supplied reason="anonymization">  [S2/last] </supplied></w></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_52"> a<c type="lengthening"/>h <pause/> okay<c function="fall" type="intonation"/><pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause dur="PT1S"/><shift corresp="#EDsve422_s_24" feature="loud" new="p" xml:id="EDsve422_s_23"/><unclear> can you do </unclear><shift corresp="#EDsve422_s_23" feature="loud" new="neutral" xml:id="EDsve422_s_24"/><seg n="4" type="overlap" xml:id="EDsve422_ol_12"><supplied reason="anonymization"> [S2] </supplied></seg><pause/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_53"><seg n="4" synch="#EDsve422_ol_12" type="overlap" xml:id="EDsve422_ol_13"><supplied reason="anonymization"> [S2] </supplied></seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_54"><foreign type="L1" voice:translation="and" xml:lang="ger"> und </foreign> i also need the <foreign type="L1" voice:translation="matriculation" xml:lang="ger"> matrikel </foreign> number<c function="rise" type="intonation"/><pause dur="PT1S"/> er you have the <foreign type="L1" voice:translation="matriculation" xml:lang="ger"> matrikel </foreign> number on your payment form <pause dur="PT1S"/><shift corresp="#EDsve422_s_26" feature="loud" new="p" xml:id="EDsve422_s_25"/><foreign type="L1" voice:translation="seven eight five okay" xml:lang="ger"> sieben acht fuenf okay </foreign><shift corresp="#EDsve422_s_25" feature="loud" new="neutral" xml:id="EDsve422_s_26"/><pause/> er and the orientation is also in this b- er that's from ten to twelve <seg n="8" type="overlap" xml:id="EDsve422_ol_14"> o'clock </seg><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_55"><seg n="8" synch="#EDsve422_ol_14" type="overlap" xml:id="EDsve422_ol_15"> mhm </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_56"> e<c type="lengthening"/>r the orientation is also in <emph> this </emph> building in <foreign type="L1" voice:translation="name of hall" xml:lang="ger"> else richter saal </foreign><pause/> hh e<c type="lengthening"/>r <pause/> and that's <pause/> er we will put signs i think so that you can find it more easily<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_57"><shift corresp="#EDsve422_s_28" feature="loud" new="p" xml:id="EDsve422_s_27"/> mhm <shift corresp="#EDsve422_s_27" feature="loud" new="neutral" xml:id="EDsve422_s_28"/><pause dur="PT3S"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_58"> okay <voice:to who="#EDsve422_S5"> a<c type="lengthening"/>nd for <emph> you </emph><c function="rise" type="intonation"/></voice:to></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_59"> erm <seg n="9" type="overlap" xml:id="EDsve422_ol_16"><supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#EDsve422_S5" xml:id="EDsve422_u_60"><seg n="9" synch="#EDsve422_ol_16" type="overlap" xml:id="EDsve422_ol_17"><supplied reason="anonymization"> [S5/last] </supplied><supplied reason="anonymization"> [S5] </supplied></seg><pause dur="PT4S"/><incident dur="PT4S" voice:desc="S1 writes down S5's name "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_61"><shift corresp="#EDsve422_s_30" feature="loud" new="p" xml:id="EDsve422_s_29"/><supplied reason="anonymization"> [S5] </supplied><shift corresp="#EDsve422_s_29" feature="loud" new="neutral" xml:id="EDsve422_s_30"/></u>
+            <u who="#EDsve422_S5" xml:id="EDsve422_u_62"> er <supplied reason="anonymization"> [S5] </supplied><c function="fall" type="intonation"/><pause dur="PT3S"/><incident dur="PT3S" voice:desc="S1 writes down the name "/> a<c type="lengthening"/>h it's the same name </u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_63"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_64"><shift corresp="#EDsve422_s_32" feature="loud" new="p" xml:id="EDsve422_s_31"/><supplied reason="unintelligible"> xx x x x xx </supplied> okay <shift corresp="#EDsve422_s_31" feature="loud" new="neutral" xml:id="EDsve422_s_32"/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_65"><supplied reason="anonymization"> [S6/last] </supplied><voice:track medium="1" num="3" type="md"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_66"> you can also give <seg n="11" type="overlap" xml:id="EDsve422_ol_18"> me the<c type="lengthening"/></seg><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#EDsve422_s_34" feature="voice" new="laugh" xml:id="EDsve422_s_33"/> it's <shift corresp="#EDsve422_s_33" feature="voice" new="neutral" xml:id="EDsve422_s_34"/> more easier <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause dur="PT2S"/><incident dur="PT2S" voice:desc="S6 hands S1 the payment form "/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_67"><seg n="11" synch="#EDsve422_ol_18" type="overlap" xml:id="EDsve422_ol_19"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_68"><vocal voice:desc="clears throat"/><pause dur="PT8S"/><incident dur="PT8S" voice:desc="S1 copies name to the list "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_69"> okay <pause dur="PT21S"/><incident dur="PT21S" voice:desc="S1 looks at S3 and S4, S3 and S4 hand S1 the payment form, S1 copies their names to the list "/> okay <pause dur="PT2S"/> so <pause/> that's then thursday from ten to twelve <pause dur="PT1S"/> so don't forget it <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause dur="PT1S"/> a<c type="lengthening"/>h <pause/> yeah and i you will receive then your student's card and the <foreign type="L1" voice:translation="registration confirmation" xml:lang="ger"> inskriptionsbestaetigung </foreign> in <pause/> in about one <emph> week </emph><c function="rise" type="intonation"/><pause dur="PT1S"/> e<c type="lengthening"/>r and you ca<c type="lengthening"/>n pick it up here in our office<c function="fall" type="intonation"/><pause/> so there we will just prepare it <pause/> so you should take the photo with you <pause/> and in about one week you can come to our office again <pause dur="PT2S"/><shift corresp="#EDsve422_s_36" feature="loud" new="p" xml:id="EDsve422_s_35"/> okay <unclear> mhm<c function="rise" type="intonation"/> mhm<c function="rise" type="intonation"/></unclear><shift corresp="#EDsve422_s_35" feature="loud" new="neutral" xml:id="EDsve422_s_36"/><pause dur="PT2S"/> erm <pause dur="PT2S"/> did i <pause dur="PT4S"/> do you already have the <foreign type="L1" voice:translation="registration form" xml:lang="ger"> meldezettel<c function="rise" type="intonation"/></foreign></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_70"><foreign type="LN" voice:translation="yes" xml:lang="ger"> ja </foreign></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_71"><foreign type="LN" voice:translation="no" xml:lang="ger"> j- nein </foreign><pause dur="PT1S"/></u>
+            <u who="#EDsve422_SX-1" xml:id="EDsve422_u_72"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_73"><foreign type="LN" voice:translation="thank you" xml:lang="ger"> danke </foreign></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_74"><foreign type="L1" voice:translation="you are welcome" xml:lang="ger"> bitte </foreign><pause dur="PT1S"/> and you know what you should <emph> do </emph> with it<c function="rise" type="intonation"/><pause/> e<c type="lengthening"/>r you should e<c type="lengthening"/>r <pause dur="PT1S"/> fill in<c function="rise" type="intonation"/> the paper and the owner of your flat has to sign it <pause/> and then you go to one of these <emph> off</emph>ices<c function="rise" type="intonation"/><pause/> and then you register <pause/> that you live here<c function="fall" type="intonation"/><pause dur="PT2S"/><shift corresp="#EDsve422_s_38" feature="loud" new="p" xml:id="EDsve422_s_37"/> okay <shift corresp="#EDsve422_s_37" feature="loud" new="neutral" xml:id="EDsve422_s_38"/><pause dur="PT5S"/> e<c type="lengthening"/>rm <pause dur="PT1S"/> and i also wanted to tell you about the <emph> stu</emph>dent's ticket <pause/> er it's possible to ge<c type="lengthening"/>t a cheape<c type="lengthening"/>r <pause dur="PT1S"/> the<c type="lengthening"/> ticket for the official transport for students<c function="rise" type="intonation"/><pause/> that's on the<c type="lengthening"/> sheet of paper <pause/> on the <pause dur="PT1S"/> at at the <emph> end </emph><c function="rise" type="intonation"/><pause dur="PT1S"/> e<c type="lengthening"/>r you can get it for hundred and seventeen euros<c function="rise" type="intonation"/><pause/> it's valid from october till the end of january<c function="rise" type="intonation"/><pause/> and without the <seg n="12" type="overlap" xml:id="EDsve422_ol_20"> stud- </seg></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_75"><seg n="12" synch="#EDsve422_ol_20" type="overlap" xml:id="EDsve422_ol_21"> the end </seg> of january </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_76"> m<seg n="13" type="overlap" xml:id="EDsve422_ol_22">hm </seg></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_77"><supplied reason="unintelligible"><seg n="13" synch="#EDsve422_ol_22" type="overlap" xml:id="EDsve422_ol_23"> xx</seg>xx </supplied><pause dur="PT2S"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_78"> so when you are here for <pause/> two semesters <pause/> er you<c type="lengthening"/> can get it then from march to the end of june again and for february there is a<c type="lengthening"/><pause/> a ticket for a month a reduction<c function="fall" type="intonation"/><pause dur="PT1S"/> e<c type="lengthening"/>r <pause dur="PT1S"/> you need an erasmus confirmation for that<c function="rise" type="intonation"/> which i can give to you because you don't have your student's card by now<c function="rise" type="intonation"/><pause/> and you also need some other documents <pause dur="PT1S"/><incident voice:desc="parallel conversation in the background starts"/> it's written down here <pause/> at the end of the sheet <pause/> you also need the blue part of your payment form<c function="rise" type="intonation"/><incident voice:desc="parallel conversation in the background ends"/><pause/> the <foreign type="L1" voice:translation="registration form" xml:lang="ger"> meldezettel </foreign> a photo your passport and the erasmus confirmation<c function="fall" type="intonation"/><pause dur="PT2S"/> and you get it at <foreign type="L1" voice:translation="name of underground station" xml:lang="ger"> erdberg </foreign><pause/> er that's a subway station <pause/> number three <pause/> you go there with subway number three <pause dur="PT1S"/> to <foreign type="L1" voice:translation="name of underground station" xml:lang="ger"> erdberg </foreign></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_79"> so <pause dur="PT5S"/><incident dur="PT5S" voice:desc="parallel conversation in background, in german "/><voice:track medium="1" num="4" type="md"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_80"><supplied reason="anonymization"> [S8] </supplied><pause/><supplied reason="anonymization"> [S8] </supplied> er <foreign type="L1" voice:translation="could you sign a form for me in advance again later because i think they are were xxxx" xml:lang="ger"> kannst du mir wieder ein vor-unterschreiben dann ich glaub weil die sind <supplied reason="unintelligible"> xxxx </supplied> war <seg n="14" type="overlap" xml:id="EDsve422_ol_24"> herinnen </seg></foreign></u>
+            <u who="#EDsve422_S8" xml:id="EDsve422_u_81"><foreign type="L1" xml:lang="ger"><seg n="14" synch="#EDsve422_ol_24" type="overlap" xml:id="EDsve422_ol_25"> ach so ja <incident voice:desc="oh i see yes"/></seg></foreign></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_82"><vocal voice:desc="clears throat"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_83"><foreign type="L1" voice:translation="please" xml:lang="ger"> bitte </foreign><pause dur="PT5S"/><shift corresp="#EDsve422_s_40" feature="loud" new="p" xml:id="EDsve422_s_39"/> okay <shift corresp="#EDsve422_s_39" feature="loud" new="neutral" xml:id="EDsve422_s_40"/><pause dur="PT8S"/> er <pause/><foreign type="L1" voice:translation="from which" xml:lang="ger"> von welch<unclear>er </unclear></foreign> from which university <seg n="1" type="overlap" xml:id="EDsve422_ol_26"> are you<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_84"><seg n="1" synch="#EDsve422_ol_26" type="overlap" xml:id="EDsve422_ol_27"> erm </seg><pause dur="PT1S"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_85"> er you can only <supplied reason="unintelligible"> xxx </supplied><pause dur="PT1S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_86"><foreign type="L1" xml:lang="ita"> xxx <unclear> scritto </unclear></foreign><shift corresp="#EDsve422_s_42" feature="loud" new="p" xml:id="EDsve422_s_41"/><supplied reason="unintelligible"> xx xx </supplied><shift corresp="#EDsve422_s_41" feature="loud" new="neutral" xml:id="EDsve422_s_42"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_87"> e<c type="lengthening"/>rm <pause/> er in which country is this<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_88"> e<c type="lengthening"/>r </u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_89"> i- i- <pause/> i- <foreign type="LN" voice:translation="italy" xml:lang="ger"> italien </foreign></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_90"> and what is the city<c function="rise" type="intonation"/><pause/> er <seg n="2" type="overlap" xml:id="EDsve422_ol_28"> where you study<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_91"><seg n="2" synch="#EDsve422_ol_28" type="overlap" xml:id="EDsve422_ol_29"> e<c type="lengthening"/>rm </seg></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_92"> e<c type="lengthening"/>r vercelli </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_93"> vercelli <incident voice:desc="S1 hands over the form to S2"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_94"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><pause dur="PT4S"/><incident dur="PT4S" voice:desc="S2 writes down the name of the city "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_95"> okay<c function="fall" type="intonation"/><pause/> and you are here for one semester<c function="rise" type="intonation"/><anchor synch="#EDsve422_oc_3" type="other_continuation" xml:id="EDsve422_oc_2"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_96"><anchor synch="#EDsve422_oc_2" type="other_continuation" xml:id="EDsve422_oc_3"/><foreign type="LN" voice:translation="yes" xml:lang="ger"> ja </foreign></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_97"><shift corresp="#EDsve422_s_44" feature="loud" new="p" xml:id="EDsve422_s_43"/> mhm<c function="rise" type="intonation"/><shift corresp="#EDsve422_s_43" feature="loud" new="neutral" xml:id="EDsve422_s_44"/><pause dur="PT10S"/><incident dur="PT10S" voice:desc="S1 fills in the form "/><seg n="3" type="overlap" xml:id="EDsve422_ol_30"><unclear> thank you </unclear></seg></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_98"><foreign type="LN" voice:translation="thank you" xml:lang="ger"><seg n="3" synch="#EDsve422_ol_30" type="overlap" xml:id="EDsve422_ol_31"> danke </seg></foreign></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_99"> hh <voice:to who="#EDsve422_S5"> and you are from the <emph> same </emph> university<c function="rise" type="intonation"/></voice:to></u>
+            <u who="#EDsve422_S5" xml:id="EDsve422_u_100"><shift corresp="#EDsve422_s_46" feature="voice" new="laugh" xml:id="EDsve422_s_45"/><unclear> yeah </unclear><shift corresp="#EDsve422_s_45" feature="voice" new="neutral" xml:id="EDsve422_s_46"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_101"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_102"> the <pause/> is this a  <w voice:mode="spelt"> c  </w> or<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_103"><foreign type="L1" voice:translation="yes" xml:lang="ita"> si </foreign><w voice:mode="spelt"><seg n="4" type="overlap" xml:id="EDsve422_ol_32"> c </seg></w></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_104"><seg n="4" synch="#EDsve422_ol_32" type="overlap" xml:id="EDsve422_ol_33"> m</seg>hm <pause dur="PT1S"/><shift corresp="#EDsve422_s_48" feature="tempo" new="l" xml:id="EDsve422_s_47"/> vercelli<c function="rise" type="intonation"/><shift corresp="#EDsve422_s_47" feature="tempo" new="neutral" xml:id="EDsve422_s_48"/><pause dur="PT9S"/><incident dur="PT9S" voice:desc="S1 fills in the form "/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_105"><vocal voice:desc="clears throat"/><pause dur="PT13S"/></u>
+            <u who="#EDsve422_SX-1" xml:id="EDsve422_u_106"><shift corresp="#EDsve422_s_50" feature="loud" new="p" xml:id="EDsve422_s_49"/> hm<c function="fall" type="intonation"/><shift corresp="#EDsve422_s_49" feature="loud" new="neutral" xml:id="EDsve422_s_50"/><pause dur="PT15S"/><incident dur="PT9S" voice:desc="soft, parallel conversation in background between another student and student advisor "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_107"><voice:to who="#EDsve422_S6"> from which <seg n="5" type="overlap" xml:id="EDsve422_ol_34"> uni- </seg></voice:to></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_108"><seg n="5" synch="#EDsve422_ol_34" type="overlap" xml:id="EDsve422_ol_35"> i'm from </seg> hungary <pause dur="PT1S"/> budapest<c function="fall" type="intonation"/><anchor synch="#EDsve422_oc_5" type="other_continuation" xml:id="EDsve422_oc_4"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_109"><anchor synch="#EDsve422_oc_4" type="other_continuation" xml:id="EDsve422_oc_5"/> mhm <pause dur="PT3S"/> hh <pause dur="PT2S"/><incident dur="PT2S" voice:desc="S1 fills in form "/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_110"> so and thi- <unclear> the the </unclear><pause/> with this paper we er <pause dur="PT1S"/> can get to<emph>day </emph><pause dur="PT1S"/> er this ticket </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_111"> yes <pause dur="PT1S"/> er before you have to go the<c type="lengthening"/><anchor synch="#EDsve422_oc_7" type="other_continuation" xml:id="EDsve422_oc_6"/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_112"><anchor synch="#EDsve422_oc_6" type="other_continuation" xml:id="EDsve422_oc_7"/> this erm <pause dur="PT1S"/> list<c function="fall" type="intonation"/><anchor synch="#EDsve422_oc_9" type="other_continuation" xml:id="EDsve422_oc_8"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_113"><anchor synch="#EDsve422_oc_8" type="other_continuation" xml:id="EDsve422_oc_9"/> with the <foreign type="L1" voice:translation="registration form" xml:lang="ger"> meldez- </foreign><pause/> er <seg n="6" type="overlap" xml:id="EDsve422_ol_36"> you have to </seg> pay this <pause/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_114"><seg n="6" synch="#EDsve422_ol_36" type="overlap" xml:id="EDsve422_ol_37"> this pay </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_115"><seg n="8" type="overlap" xml:id="EDsve422_ol_38"> and </seg> you have to go to the municipal district <seg n="3" type="overlap" xml:id="EDsve422_ol_39"> with the </seg><foreign type="L1" voice:translation="registration form" xml:lang="ger"> meldezettel </foreign></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_116"><seg n="8" synch="#EDsve422_ol_38" type="overlap" xml:id="EDsve422_ol_40"> okay </seg></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_117"><seg n="3" synch="#EDsve422_ol_39" type="overlap" xml:id="EDsve422_ol_41"> mhm bu- </seg></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_118"> but <pause/> erm <pause/> so i'm living in a<c type="lengthening"/> erm <pause/> student hostel <anchor synch="#EDsve422_oc_11" type="other_continuation" xml:id="EDsve422_oc_10"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_119"><anchor synch="#EDsve422_oc_10" type="other_continuation" xml:id="EDsve422_oc_11"/> mhm </u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_120"> and e<c type="lengthening"/>rm <pause/> they made <pause/> for me this <foreign type="LN" voice:translation="registration form" xml:lang="ger"> meldezettel </foreign> but it's <pause/> one week<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_121"> aha <pause dur="PT1S"/> it takes on one week <seg n="4" type="overlap" xml:id="EDsve422_ol_42"> maybe </seg></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_122"><seg n="4" synch="#EDsve422_ol_42" type="overlap" xml:id="EDsve422_ol_43"> so one </seg> week i don't have a <pause/> e<c type="lengthening"/>rm <pause/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_123"> er maybe you can tell them <pause/> that you are going <anchor synch="#EDsve422_oc_13" type="other_continuation" xml:id="EDsve422_oc_12"/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_124"><anchor synch="#EDsve422_oc_12" type="other_continuation" xml:id="EDsve422_oc_13"/> so i need </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_125"> on your own <pause dur="PT1S"/> to the<c type="lengthening"/><pause dur="PT1S"/> e<c type="lengthening"/>r <pause dur="PT1S"/> to the municipal district<c function="rise" type="intonation"/><pause dur="PT1S"/> becau- er maybe then it's </u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_126"> so i <seg n="5" type="overlap" xml:id="EDsve422_ol_44"> need </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_127"><seg n="5" synch="#EDsve422_ol_44" type="overlap" xml:id="EDsve422_ol_45"> goes </seg> quicker </u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_128"> o<seg n="9" type="overlap" xml:id="EDsve422_ol_46">kay </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_129"><seg n="9" synch="#EDsve422_ol_46" type="overlap" xml:id="EDsve422_ol_47"> so </seg><emph> you </emph> should tell them </u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_130"> okay <seg n="6" type="overlap" xml:id="EDsve422_ol_48"> okay </seg> okay thank you <pause dur="PT10S"/><incident dur="PT10S" voice:desc="S1 fills in form "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_131"><seg n="6" synch="#EDsve422_ol_48" type="overlap" xml:id="EDsve422_ol_49"> mhm </seg></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_132"><incident voice:desc="S1 hands S6 the form"/> thank you <pause dur="PT2S"/></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_133"> i have it <incident voice:desc="S3 hands S1 a form"/><voice:track medium="1" num="5" type="md"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_134"> okay <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><vocal voice:desc="clears throat"/><pause dur="PT5S"/><incident dur="PT5S" voice:desc="S1 fills in form "/><incident voice:desc="S1 looks at S4"/> erm <anchor synch="#EDsve422_oc_15" type="other_continuation" xml:id="EDsve422_oc_14"/></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_135"><anchor synch="#EDsve422_oc_14" type="other_continuation" xml:id="EDsve422_oc_15"/><foreign type="L1" xml:lang="ita"><supplied reason="unintelligible" voice:ipa="ˈtrendo"> xx </supplied></foreign><pause dur="PT2S"/><incident dur="PT2S" voice:desc="S1 hands S4 the form to fill it in "/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_136"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><incident voice:desc="S1 hands S4 a pen, it slips"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_137"> oops </u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_138"> excuse me <pause dur="PT4S"/><incident dur="PT4S" voice:desc="S4 fills in the form, then hands it back to S1 "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_139"> okay <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause dur="PT10S"/><incident dur="PT10S" voice:desc="S1 fills in form "/> hh <shift corresp="#EDsve422_s_52" feature="loud" new="p" xml:id="EDsve422_s_51"/> e<c type="lengthening"/>r <shift corresp="#EDsve422_s_51" feature="loud" new="neutral" xml:id="EDsve422_s_52"/><pause dur="PT8S"/> okay<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_140"><shift corresp="#EDsve422_s_54" feature="loud" new="p" xml:id="EDsve422_s_53"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#EDsve422_s_53" feature="loud" new="neutral" xml:id="EDsve422_s_54"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_141"> hh erm then i think that's all <pause/> do you have any <emph> quest</emph>ions<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_142"> erm what abou- <pause/> what about <seg n="7" type="overlap" xml:id="EDsve422_ol_50"> this </seg> confirmation </u>
+            <u who="#EDsve422_S5" xml:id="EDsve422_u_143"><seg n="7" synch="#EDsve422_ol_50" type="overlap" xml:id="EDsve422_ol_51"> yes </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_144"> e<c type="lengthening"/>rm<c function="rise" type="intonation"/><anchor synch="#EDsve422_oc_17" type="other_continuation" xml:id="EDsve422_oc_16"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_145"><anchor synch="#EDsve422_oc_16" type="other_continuation" xml:id="EDsve422_oc_17"/> we <pause/> have to<c type="lengthening"/> send it </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_146"> mhm </u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_147"> to our university </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_148"> i can <seg n="1" type="overlap" xml:id="EDsve422_ol_52"> do this for you </seg></u>
+            <u who="#EDsve422_S5" xml:id="EDsve422_u_149"><seg n="1" synch="#EDsve422_ol_52" type="overlap" xml:id="EDsve422_ol_53"> and someone<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_150"> mhm<c function="rise" type="intonation"/><pause dur="PT2S"/><shift corresp="#EDsve422_s_56" feature="voice" new="reading" xml:id="EDsve422_s_55"/> confirmation <shift corresp="#EDsve422_s_55" feature="voice" new="neutral" xml:id="EDsve422_s_56"/><pause dur="PT1S"/> receiving institution<c function="rise" type="intonation"/><pause dur="PT1S"/> e<c type="lengthening"/>r <pause dur="PT1S"/> is this <emph> our </emph> institution <anchor synch="#EDsve422_oc_19" type="other_continuation" xml:id="EDsve422_oc_18"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_151"><anchor synch="#EDsve422_oc_18" type="other_continuation" xml:id="EDsve422_oc_19"/> mhm </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_152"><shift corresp="#EDsve422_s_58" feature="loud" new="p" xml:id="EDsve422_s_57"/> okay <shift corresp="#EDsve422_s_57" feature="loud" new="neutral" xml:id="EDsve422_s_58"/><pause dur="PT2S"/><incident dur="PT2S" voice:desc="S1 fills in form "/><shift corresp="#EDsve422_s_60" feature="voice" new="reading" xml:id="EDsve422_s_59"/> we confirm m- <shift corresp="#EDsve422_s_59" feature="voice" new="neutral" xml:id="EDsve422_s_60"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_153"><shift corresp="#EDsve422_s_62" feature="loud" new="p" xml:id="EDsve422_s_61"/><unclear> it's all </unclear><shift corresp="#EDsve422_s_61" feature="loud" new="neutral" xml:id="EDsve422_s_62"/><pause dur="PT2S"/><incident dur="PT2S" voice:desc="S1 fills in form "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_154"><shift corresp="#EDsve422_s_64" feature="loud" new="p" xml:id="EDsve422_s_63"/> on the<c type="lengthening"/><shift corresp="#EDsve422_s_63" feature="loud" new="neutral" xml:id="EDsve422_s_64"/><pause dur="PT3S"/> maybe you already can fill it in<c function="rise" type="intonation"/><pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause dur="PT1S"/><incident dur="PT1S" voice:desc="S1 fills in form "/><shift corresp="#EDsve422_s_66" feature="loud" new="p" xml:id="EDsve422_s_65"/> the name<c function="rise" type="intonation"/><shift corresp="#EDsve422_s_65" feature="loud" new="neutral" xml:id="EDsve422_s_66"/><pause dur="PT1S"/><supplied reason="anonymization"> [S2] </supplied></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_155"><emph> er </emph> erm <pause/> i think that is <pause/><seg n="2" type="overlap" xml:id="EDsve422_ol_54"> her name </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_156"><seg n="2" synch="#EDsve422_ol_54" type="overlap" xml:id="EDsve422_ol_55"><emph> a</emph><c type="lengthening"/><emph>h </emph></seg> okay <pause dur="PT19S"/><incident dur="PT19S" voice:desc="S1 fills in form "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_157"> i also have to put a stamp on it <pause dur="PT5S"/><incident dur="PT5S" voice:desc="S1 collects forms "/><shift corresp="#EDsve422_s_68" feature="loud" new="p" xml:id="EDsve422_s_67"/> mhm <supplied reason="unintelligible"> xx </supplied><shift corresp="#EDsve422_s_67" feature="loud" new="neutral" xml:id="EDsve422_s_68"/> erm okay <pause dur="PT2S"/></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_158"><incident voice:desc="S4 hands S1 another sheet"/> but it's only<c type="lengthening"/><pause/> e<c type="lengthening"/>r <seg n="2" type="overlap" xml:id="EDsve422_ol_56"> this </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_159"><seg n="2" synch="#EDsve422_ol_56" type="overlap" xml:id="EDsve422_ol_57"><unclear> on </unclear></seg> the<c type="lengthening"/><pause/> certificate <seg n="3" type="overlap" xml:id="EDsve422_ol_58"> for </seg> the arrival <pause dur="PT1S"/></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_160"><seg n="3" synch="#EDsve422_ol_58" type="overlap" xml:id="EDsve422_ol_59"> mhm </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_161"> mhm<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_162"><seg n="8" type="overlap" xml:id="EDsve422_ol_60"> so i don't </seg> have it <pause dur="PT1S"/> i i have only this one </u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_163"><seg n="8" synch="#EDsve422_ol_60" type="overlap" xml:id="EDsve422_ol_61"><supplied reason="unintelligible"> xxx </supplied></seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_164"> erm <pause dur="PT2S"/> this is <emph> al</emph>so okay <pause dur="PT1S"/> yeah <anchor synch="#EDsve422_oc_21" type="other_continuation" xml:id="EDsve422_oc_20"/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_165"><anchor synch="#EDsve422_oc_20" type="other_continuation" xml:id="EDsve422_oc_21"/> okay <pause dur="PT4S"/><incident dur="PT4S" voice:desc="S1 leaves the room, something is dropped to the floor "/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_166"> oops </u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_167"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause dur="PT3S"/></u>
+            <u who="#EDsve422_S7" xml:id="EDsve422_u_168"> and <pause/> can you maybe <emph> sign </emph> this sheet <pause/> it's just er your agreement that i can use the data i just recorded<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_169"> hm<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_S7" xml:id="EDsve422_u_170"> so it's <pause/> anonymous nobody will know your name <pause/> but me<c function="rise" type="intonation"/> is it okay for <shift corresp="#EDsve422_s_70" feature="voice" new="laugh" xml:id="EDsve422_s_69"/> you <shift corresp="#EDsve422_s_69" feature="voice" new="neutral" xml:id="EDsve422_s_70"/><seg n="9" type="overlap" xml:id="EDsve422_ol_62"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_171"><seg n="9" synch="#EDsve422_ol_62" type="overlap" xml:id="EDsve422_ol_63"> yes<c function="fall" type="intonation"/></seg></u>
+            <u who="#EDsve422_S7" xml:id="EDsve422_u_172"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/>  thank you<c function="fall" type="intonation"/> hh <pause dur="PT5S"/><incident voice:desc="rustling of paper can be heard"/></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_173"> i had to put my name <seg n="10" type="overlap" xml:id="EDsve422_ol_64"> here </seg><shift corresp="#EDsve422_s_72" feature="loud" new="p" xml:id="EDsve422_s_71"/><unclear> of course </unclear><shift corresp="#EDsve422_s_71" feature="loud" new="neutral" xml:id="EDsve422_s_72"/><pause dur="PT10S"/></u>
+            <u who="#EDsve422_S7" xml:id="EDsve422_u_174"><seg n="10" synch="#EDsve422_ol_64" type="overlap" xml:id="EDsve422_ol_65"> yeah<c function="fall" type="intonation"/></seg></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_175"> stop<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_SX-7" xml:id="EDsve422_u_176"><shift corresp="#EDsve422_s_74" feature="loud" new="p" xml:id="EDsve422_s_73"/> thank you<c function="fall" type="intonation"/> thank you <shift corresp="#EDsve422_s_73" feature="loud" new="neutral" xml:id="EDsve422_s_74"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_177"> without signature<c function="rise" type="intonation"/><pause/><seg n="11" type="overlap" xml:id="EDsve422_ol_66"> okay </seg></u>
+            <u who="#EDsve422_S7" xml:id="EDsve422_u_178"><seg n="11" synch="#EDsve422_ol_66" type="overlap" xml:id="EDsve422_ol_67"> it's okay<c function="fall" type="intonation"/></seg></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_179"> okay </u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_180"> good <pause dur="PT2S"/></u>
+            <u who="#EDsve422_SX-7" xml:id="EDsve422_u_181"><shift corresp="#EDsve422_s_76" feature="loud" new="p" xml:id="EDsve422_s_75"/> thank you <shift corresp="#EDsve422_s_75" feature="loud" new="neutral" xml:id="EDsve422_s_76"/><voice:track medium="1" num="6" type="md"/><pause dur="PT9S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_182"> re- <pause/> s- <pause dur="PT8S"/><incident voice:desc="rustling of paper can be heard"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_183"><vocal voice:desc="clears throat"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_184"><foreign type="L1" xml:lang="ita"> xxx </foreign><pause dur="PT4S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_185"><foreign type="LQ" xml:lang="sp"> xxxxxxxxxxx </foreign></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_186"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_187"><vocal voice:desc="clears throat"/><pause dur="PT37S"/><incident dur="PT37S" voice:desc="rustling of paper, some sentences spoken softly in italian "/></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_188"><foreign type="LN" voice:translation="where do you stay here in student halls or" xml:lang="ger"> wo wohnt ihr hier wo wohnt ihr studentenheim oder </foreign></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_189"><foreign type="LN" voice:translation="yes in [place1] four and you" xml:lang="ger"> ja in <seg n="12" type="overlap" xml:id="EDsve422_ol_68"><supplied reason="anonymization"> [place1] </supplied></seg><supplied reason="anonymization"> [place1] </supplied><seg n="13" type="overlap" xml:id="EDsve422_ol_69"> vier </seg><pause/> du<c function="rise" type="intonation"/></foreign><pause dur="PT1S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_190"><foreign type="LN" voice:translation="ah i know" xml:lang="ger"><seg n="12" synch="#EDsve422_ol_68" type="overlap" xml:id="EDsve422_ol_70"><unclear> weiss schon </unclear></seg></foreign></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_191"><foreign type="LN" voice:translation="yes" xml:lang="ger"><seg n="13" synch="#EDsve422_ol_69" type="overlap" xml:id="EDsve422_ol_71"> ja </seg></foreign></u>
+         </div>
+         <gap dur="PT00H00M10S" reason="not_transcribed" voice:desc="non-e; SX-f and SX-6 talk in german about where they live and what they study"/>
+         <div type="medium" voice:end="01:50" voice:end_medium_number="1" voice:end_track="6" voice:medium_type="md" voice:start="01:17" voice:start_medium_number="1" voice:start_track="6">
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_192"><foreign type="LN" voice:translation="and what do you study" xml:lang="ger"> und was studierst du </foreign></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_193"><foreign type="LN" voice:translation="law" xml:lang="ger"> rechtswissenschaft </foreign></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_194"><shift corresp="#EDsve422_s_78" feature="loud" new="p" xml:id="EDsve422_s_77"/> ah <shift corresp="#EDsve422_s_77" feature="loud" new="neutral" xml:id="EDsve422_s_78"/><pause dur="PT1S"/><shift corresp="#EDsve422_s_80" feature="voice" new="laugh" xml:id="EDsve422_s_79"/> wow <shift corresp="#EDsve422_s_79" feature="voice" new="neutral" xml:id="EDsve422_s_80"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_195"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/>  hh <pause dur="PT21S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_196"> hh <foreign type="LQ" xml:lang="ita"> xxxxxxx </foreign><pause dur="PT1S"/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_197"><foreign type="L1" xml:lang="ita"> xx </foreign><pause dur="PT1S"/></u>
+         </div>
+         <gap dur="PT00H00M10S" reason="not_transcribed" voice:desc="non-e; SX-f and SX-f are talking in italian to each other"/>
+         <div type="medium" voice:end="00:27" voice:end_medium_number="1" voice:end_track="7" voice:medium_type="md" voice:start="02:00" voice:start_medium_number="1" voice:start_track="6">
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_198"> hm <pause dur="PT5S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_199"><shift corresp="#EDsve422_s_82" feature="loud" new="p" xml:id="EDsve422_s_81"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#EDsve422_s_81" feature="loud" new="neutral" xml:id="EDsve422_s_82"/><pause dur="PT3S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_200"><foreign type="LQ" xml:lang="ita"><supplied reason="unintelligible"> xxxxxx </supplied></foreign><pause dur="PT2S"/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_201"><foreign type="LN" voice:translation="house number block door" xml:lang="ger"> hausnummer stiege tuer </foreign><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><anchor synch="#EDsve422_oc_23" type="other_continuation" xml:id="EDsve422_oc_22"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_202"><anchor synch="#EDsve422_oc_22" type="other_continuation" xml:id="EDsve422_oc_23"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause dur="PT2S"/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_203"><foreign type="L1" xml:lang="ita"> xx xxx </foreign><pause dur="PT5S"/></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_204"><foreign type="L1" xml:lang="ita"> xx xx xxxx </foreign><pause dur="PT2S"/></u>
+            <u who="#EDsve422_SX-1" xml:id="EDsve422_u_205"><vocal voice:desc="clears throat"/><pause dur="PT5S"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_206"><foreign type="LN" voice:translation="your name is" xml:lang="ger"> du heisst </foreign><pause/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_207"><supplied reason="anonymization"> [S6] </supplied><c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_208"><supplied reason="anonymization"> [S2] </supplied><seg n="1" type="overlap" xml:id="EDsve422_ol_72"><foreign type="LN" voice:translation="nice to meet you" xml:lang="ger"> angenehm </foreign><shift corresp="#EDsve422_s_84" feature="loud" new="p" xml:id="EDsve422_s_83"/><supplied reason="unintelligible"> xxx </supplied><shift corresp="#EDsve422_s_83" feature="loud" new="neutral" xml:id="EDsve422_s_84"/></seg></u>
+            <u who="#EDsve422_SX-4" xml:id="EDsve422_u_209"><seg n="1" synch="#EDsve422_ol_72" type="overlap" xml:id="EDsve422_ol_73"><supplied reason="anonymization"> [S2] </supplied><c function="rise" type="intonation"/><pause/><supplied reason="anonymization"> [S6] </supplied></seg></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_210"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#EDsve422_s_86" feature="voice" new="laugh" xml:id="EDsve422_s_85"/>  okay <shift corresp="#EDsve422_s_85" feature="voice" new="neutral" xml:id="EDsve422_s_86"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_211"><supplied reason="anonymization"> [S2] </supplied></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_212"><supplied reason="anonymization"> [S3] </supplied></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_213"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_214"><supplied reason="anonymization"> [S6] </supplied></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_215"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_216"><seg n="2" type="overlap" xml:id="EDsve422_ol_74"><supplied reason="anonymization"> [S2] </supplied></seg></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_217"><seg n="2" synch="#EDsve422_ol_74" type="overlap" xml:id="EDsve422_ol_75"> okay<c function="fall" type="intonation"/></seg></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_218"><seg n="3" type="overlap" xml:id="EDsve422_ol_76"> il- </seg></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_219"><seg n="3" synch="#EDsve422_ol_76" type="overlap" xml:id="EDsve422_ol_77"><supplied reason="anonymization"> [S2] </supplied></seg></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_220"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_221"><supplied reason="anonymization"> [S4] </supplied></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_222"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_223"><seg n="8" type="overlap" xml:id="EDsve422_ol_78"><supplied reason="anonymization"> [S4] </supplied></seg></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_224"><seg n="8" synch="#EDsve422_ol_78" type="overlap" xml:id="EDsve422_ol_79"><supplied reason="anonymization"> [S6] </supplied></seg></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_225"> from spain<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_226"><shift corresp="#EDsve422_s_88" feature="voice" new="laugh" xml:id="EDsve422_s_87"/> yeah<c function="fall" type="intonation"/><shift corresp="#EDsve422_s_87" feature="voice" new="neutral" xml:id="EDsve422_s_88"/> from <supplied reason="anonymization"> [place2] </supplied><c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_227"><supplied reason="anonymization"> [place2] </supplied><c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_228"> yah<c function="rise" type="intonation"/><anchor synch="#EDsve422_oc_25" type="other_continuation" xml:id="EDsve422_oc_24"/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_229"><anchor synch="#EDsve422_oc_24" type="other_continuation" xml:id="EDsve422_oc_25"/> wow <pause/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_230"><seg n="9" type="overlap" xml:id="EDsve422_ol_80"> cool </seg></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_231"><seg n="9" synch="#EDsve422_ol_80" type="overlap" xml:id="EDsve422_ol_81"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_232"> what do you study </u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_233"> hh <foreign type="LN" voice:translation="history" xml:lang="ger"> geschichte </foreign></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_234"> aha </u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_235"> and you<c function="rise" type="intonation"/><pause/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_236"><foreign type="LN" voice:translation="german studies" xml:lang="ger"> germanistik </foreign><pause dur="PT2S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_237"><shift corresp="#EDsve422_s_90" feature="loud" new="p" xml:id="EDsve422_s_89"/> ah <shift corresp="#EDsve422_s_89" feature="loud" new="neutral" xml:id="EDsve422_s_90"/><voice:track medium="1" num="7" type="md"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_238"><foreign type="LN" voice:translation="law" xml:lang="ger"> rechtswissenschaft </foreign></u>
+            <u who="#EDsve422_SX-3" xml:id="EDsve422_u_239"> yah<c function="rise" type="intonation"/><pause dur="PT1S"/><foreign type="LN" voice:translation="me too law" xml:lang="ger"> auch ich jus </foreign><pause dur="PT1S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_240"><foreign type="LN" voice:translation="really" xml:lang="ger"> wirklich<c function="rise" type="intonation"/></foreign></u>
+            <u who="#EDsve422_SX-3" xml:id="EDsve422_u_241"><shift corresp="#EDsve422_s_92" feature="voice" new="laugh" xml:id="EDsve422_s_91"/> yah <shift corresp="#EDsve422_s_91" feature="voice" new="neutral" xml:id="EDsve422_s_92"/><anchor synch="#EDsve422_oc_27" type="other_continuation" xml:id="EDsve422_oc_26"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_242"><anchor synch="#EDsve422_oc_26" type="other_continuation" xml:id="EDsve422_oc_27"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></u>
+            <u who="#EDsve422_SX-3" xml:id="EDsve422_u_243"> and <emph> where </emph> are you from<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_244"><vocal type="speaker_noise" voice:desc="smacks lips"/> i- italy </u>
+            <u who="#EDsve422_SX-3" xml:id="EDsve422_u_245"> italy </u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_246"> are <unclear> they </unclear> together<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_247"> no </u>
+            <u who="#EDsve422_SX-3" xml:id="EDsve422_u_248"> no<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_249"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsve422_SX-3" xml:id="EDsve422_u_250"> and you<c function="rise" type="intonation"/><pause/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_251"><shift corresp="#EDsve422_s_94" feature="voice" new="laugh" xml:id="EDsve422_s_93"/> yes <shift corresp="#EDsve422_s_93" feature="voice" new="neutral" xml:id="EDsve422_s_94"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_252"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_253"> so </u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_254"> i'm alone <anchor synch="#EDsve422_oc_29" type="other_continuation" xml:id="EDsve422_oc_28"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_255"><anchor synch="#EDsve422_oc_28" type="other_continuation" xml:id="EDsve422_oc_29"/><shift corresp="#EDsve422_s_96" feature="loud" new="p" xml:id="EDsve422_s_95"/> mhm <shift corresp="#EDsve422_s_95" feature="loud" new="neutral" xml:id="EDsve422_s_96"/><pause dur="PT5S"/></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_256"><foreign type="LN" voice:translation="and where do you live" xml:lang="ger"> und wo wohnst du </foreign></u>
+            <u who="#EDsve422_SX-3" xml:id="EDsve422_u_257"> in <supplied reason="anonymization"> [place3] </supplied><pause dur="PT1S"/></u>
+         </div>
+         <gap dur="PT00H00M07S" reason="not_transcribed" voice:desc="non-e; talking about where they live and where that is situated"/>
+         <div type="medium" voice:end="01:24" voice:end_medium_number="1" voice:end_track="7" voice:medium_type="md" voice:start="00:34" voice:start_medium_number="1" voice:start_track="7">
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_258"><foreign type="LN" voice:translation="and" xml:lang="ger"> und </foreign> er and you<c type="lengthening"/><pause dur="PT1S"/> erm<c type="lengthening"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_259"> where do you live </u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_260"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/>  er in <supplied reason="anonymization"> [place4] </supplied><c function="rise" type="intonation"/> in <foreign type="LN" voice:translation="the/neut." xml:lang="ger"> das </foreign><supplied reason="anonymization"> [place5] </supplied></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_261"><seg n="14" type="overlap" xml:id="EDsve422_ol_82"> a<c type="lengthening"/>h </seg><foreign type="LN" voice:translation="we are also close to" xml:lang="ger"> wir auch in der naehe von </foreign><supplied reason="anonymization"> [place5] </supplied><pause/></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_262"><seg n="14" synch="#EDsve422_ol_82" type="overlap" xml:id="EDsve422_ol_83"> you know<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_263"><foreign type="LN" voice:translation="we are" xml:lang="ger"> wir sind </foreign> erm erm <unclear> we live </unclear><foreign type="L1" xml:lang="ita"><unclear> francese </unclear></foreign></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_264"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_265"> e<c type="lengthening"/>r we are in er <supplied reason="anonymization"> [place1] </supplied><foreign type="LN" voice:translation="four" xml:lang="ger"> vier </foreign> in e<c type="lengthening"/>rm <anchor synch="#EDsve422_oc_31" type="other_continuation" xml:id="EDsve422_oc_30"/></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_266"><anchor synch="#EDsve422_oc_30" type="other_continuation" xml:id="EDsve422_oc_31"/> mhm </u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_267"> near <supplied reason="anonymization"> [place6] </supplied></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_268"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_269"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/><pause dur="PT17S"/></u>
+            <u who="#EDsve422_SX-1" xml:id="EDsve422_u_270"> okay <pause/></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_271"><foreign type="LN" voice:translation="since then you are here" xml:lang="ger"> seitdem bist du hier<c function="rise" type="intonation"/></foreign></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_272"><vocal type="speaker_noise" voice:desc="smacks lips"/><foreign type="LN" voice:translation="yesterday" xml:lang="ger"> gestern </foreign></u>
+         </div>
+         <gap dur="PT00H01M16S" reason="not_transcribed" voice:desc="non-e; SX-2 and SX-6 continue to talk in german about which courses they visit as well as about their exchange coordinators"/>
+         <div type="medium" voice:end="00:11" voice:end_medium_number="1" voice:end_track="8" voice:medium_type="md" voice:start="02:40" voice:start_medium_number="1" voice:start_track="7">
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_273"> yah yah <pause/></u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_274"><shift corresp="#EDsve422_s_98" feature="loud" new="p" xml:id="EDsve422_s_97"/><supplied reason="anonymization"> [first name1] </supplied><shift corresp="#EDsve422_s_97" feature="loud" new="neutral" xml:id="EDsve422_s_98"/><pause dur="PT18S"/><voice:track medium="1" num="8" type="md"/><pause dur="PT8S"/><foreign type="LN" xml:lang="ger"> und wie lange bleibt ihr hier <pause/><seg n="1" type="overlap" xml:id="EDsve422_ol_84"> ein semester </seg> oder zwei </foreign></u>
+            <u who="#EDsve422_SX-2" xml:id="EDsve422_u_275"><seg n="1" synch="#EDsve422_ol_84" type="overlap" xml:id="EDsve422_ol_85"><shift corresp="#EDsve422_s_100" feature="loud" new="p" xml:id="EDsve422_s_99"/> ein semester <shift corresp="#EDsve422_s_99" feature="loud" new="neutral" xml:id="EDsve422_s_100"/></seg></u>
+         </div>
+         <gap dur="PT00H00M04S" reason="not_transcribed" voice:desc="non-e; talk about how long they are going to stay in austria"/>
+         <div type="medium" voice:end="00:10" voice:end_medium_number="1" voice:end_track="9" voice:medium_type="md" voice:start="00:15" voice:start_medium_number="1" voice:start_track="8">
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_276"><incident voice:desc="S1 returns"/><pause dur="PT9S"/> okay <pause dur="PT1S"/> er <pause/> some things are <emph> miss</emph>ing <pause dur="PT5S"/><incident dur="PT5S" voice:desc="rustling of paper "/> erm er from hh <pause dur="PT1S"/><supplied reason="anonymization"> [S3] </supplied><supplied reason="anonymization"> [S3/last] </supplied><pause dur="PT1S"/> from whom is this<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_277"> e<c type="lengthening"/>rm <anchor synch="#EDsve422_oc_33" type="other_continuation" xml:id="EDsve422_oc_32"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_278"><anchor synch="#EDsve422_oc_32" type="other_continuation" xml:id="EDsve422_oc_33"/> er that's <pause dur="PT1S"/><shift corresp="#EDsve422_s_102" feature="loud" new="p" xml:id="EDsve422_s_101"/> what is missing <shift corresp="#EDsve422_s_101" feature="loud" new="neutral" xml:id="EDsve422_s_102"/><pause/> department faculty of <pause dur="PT1S"/></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_279"> hh <anchor synch="#EDsve422_oc_35" type="other_continuation" xml:id="EDsve422_oc_34"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_280"><anchor synch="#EDsve422_oc_34" type="other_continuation" xml:id="EDsve422_oc_35"/> where which faculty do you <seg n="15" type="overlap" xml:id="EDsve422_ol_86"> study<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_281"><seg n="15" synch="#EDsve422_ol_86" type="overlap" xml:id="EDsve422_ol_87"> erm </seg> e<c type="lengthening"/><c type="lengthening"/>r <foreign type="L1" xml:lang="spa"> xxxx<c function="rise" type="intonation"/></foreign><pause dur="PT1S"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_282"> erm <anchor synch="#EDsve422_oc_37" type="other_continuation" xml:id="EDsve422_oc_36"/></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_283"><anchor synch="#EDsve422_oc_36" type="other_continuation" xml:id="EDsve422_oc_37"/> my university<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_284"> e<c type="lengthening"/>r the faculty<c function="fall" type="intonation"/><pause dur="PT1S"/> what <seg n="5" type="overlap" xml:id="EDsve422_ol_88"> do you </seg> study<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_285"><seg n="5" synch="#EDsve422_ol_88" type="overlap" xml:id="EDsve422_ol_89"> e<c type="lengthening"/>rm </seg></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_286"> mhm er <pause dur="PT1S"/> philosophy<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_287"> mhm <pause dur="PT2S"/><shift corresp="#EDsve422_s_104" feature="tempo" new="l" xml:id="EDsve422_s_103"/><shift corresp="#EDsve422_s_106" feature="voice" new="reading_aloud" xml:id="EDsve422_s_105"/> philosophy <shift corresp="#EDsve422_s_105" feature="voice" new="neutral" xml:id="EDsve422_s_106"/><shift corresp="#EDsve422_s_103" feature="tempo" new="neutral" xml:id="EDsve422_s_104"/><pause dur="PT1S"/> okay<c function="rise" type="intonation"/><pause dur="PT1S"/> e<c type="lengthening"/>r <pause dur="PT1S"/><supplied reason="anonymization"> [S6/last] </supplied><c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_288"><supplied reason="unintelligible"> xx xx </supplied></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_289"> er <shift corresp="#EDsve422_s_108" feature="voice" new="reading" xml:id="EDsve422_s_107"/> email at the host university and <emph> ad</emph>dress <shift corresp="#EDsve422_s_107" feature="voice" new="neutral" xml:id="EDsve422_s_108"/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_290"> is this my <pause dur="PT1S"/><seg n="6" type="overlap" xml:id="EDsve422_ol_90"> t- </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_291"><seg n="6" synch="#EDsve422_ol_90" type="overlap" xml:id="EDsve422_ol_91"> ye</seg>ah </u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_292"> yes </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_293"> er <pause/> you can fill it in </u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_294"> so erm </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_295"> and your address <pause dur="PT3S"/> so<c type="lengthening"/><pause dur="PT2S"/><shift corresp="#EDsve422_s_110" feature="loud" new="p" xml:id="EDsve422_s_109"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#EDsve422_s_109" feature="loud" new="neutral" xml:id="EDsve422_s_110"/> i think i all copy them <seg n="7" type="overlap" xml:id="EDsve422_ol_92"> and </seg> afterwards i <emph> fax </emph> them <pause dur="PT2S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_296"><seg n="7" synch="#EDsve422_ol_92" type="overlap" xml:id="EDsve422_ol_93"> mhm </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_297"><shift corresp="#EDsve422_s_112" feature="loud" new="p" xml:id="EDsve422_s_111"/> mhm<c function="rise" type="intonation"/><shift corresp="#EDsve422_s_111" feature="loud" new="neutral" xml:id="EDsve422_s_112"/><pause dur="PT2S"/><incident voice:desc="rustling of paper"/></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_298"> one more thing<c function="fall" type="intonation"/><pause dur="PT1S"/> this is <pause dur="PT1S"/> my <foreign type="LN" voice:translation="timetable" xml:lang="ger"> s- <pause/> stundenplan </foreign> no<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_299"> yeah </u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_300"> institutional coordinator<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_301"> er you have to go to your <foreign type="L1" voice:translation="coordinator" xml:lang="ger"> koordinator </foreign><pause/> of your field of study<c function="fall" type="intonation"/><pause dur="PT1S"/> from law </u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_302"> yes but departmental <pause/> and institutional<c function="rise" type="intonation"/><pause/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_303"> i think that's both<c type="lengthening"/> for him<c function="fall" type="intonation"/><pause dur="PT1S"/> from law <pause dur="PT2S"/> yeah <pause/></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_304"> because in italy<c function="rise" type="intonation"/><pause dur="PT1S"/> institutional was er <pause/> the erasmus er office <seg n="8" type="overlap" xml:id="EDsve422_ol_94"> er </seg></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_305"><seg n="8" synch="#EDsve422_ol_94" type="overlap" xml:id="EDsve422_ol_95"> er yeah </seg> yeah<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_306"> m<emph>hm </emph><c type="lengthening"/><c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_307"> i have the same problem<c function="fall" type="intonation"/><pause dur="PT2S"/><seg n="9" type="overlap" xml:id="EDsve422_ol_96"> department</seg>al is <supplied reason="anonymization"> [last name1] </supplied></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_308"><seg n="9" synch="#EDsve422_ol_96" type="overlap" xml:id="EDsve422_ol_97"><shift corresp="#EDsve422_s_114" feature="loud" new="p" xml:id="EDsve422_s_113"/> mhm <shift corresp="#EDsve422_s_113" feature="loud" new="neutral" xml:id="EDsve422_s_114"/></seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_309"> mhm<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_310"> but er institutional coordinator </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_311"> mhm <pause/> e<c type="lengthening"/>r <pause/> but i think maybe he has to check <emph> first </emph><pause/> and you come then <pause/> afterwards<c function="fall" type="intonation"/><pause/> if it is okay<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_312"><seg n="1" type="overlap" xml:id="EDsve422_ol_98"> mhm </seg></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_313"><seg n="1" synch="#EDsve422_ol_98" type="overlap" xml:id="EDsve422_ol_99"><shift corresp="#EDsve422_s_116" feature="loud" new="p" xml:id="EDsve422_s_115"/> oh <shift corresp="#EDsve422_s_115" feature="loud" new="neutral" xml:id="EDsve422_s_116"/> o</seg>kay </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_314"><seg n="2" type="overlap" xml:id="EDsve422_ol_100"> okay<c function="rise" type="intonation"/></seg><pause dur="PT17S"/><incident voice:desc="S1 leaves the room"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_315"><seg n="2" synch="#EDsve422_ol_100" type="overlap" xml:id="EDsve422_ol_101"><shift corresp="#EDsve422_s_118" feature="loud" new="p" xml:id="EDsve422_s_117"/> mhm <shift corresp="#EDsve422_s_117" feature="loud" new="neutral" xml:id="EDsve422_s_118"/></seg></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_316"><supplied reason="unintelligible"> xxx </supplied></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_317"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><foreign type="L1" voice:translation="a disaster" xml:lang="ita">  un <shift corresp="#EDsve422_s_120" feature="voice" new="laugh" xml:id="EDsve422_s_119"/> disastro <shift corresp="#EDsve422_s_119" feature="voice" new="neutral" xml:id="EDsve422_s_120"/></foreign><pause dur="PT4S"/><incident dur="PT4S" voice:desc="rustling of paper, something falls on the floor "/></u>
+            <u who="#EDsve422_SX-7" xml:id="EDsve422_u_318"><shift corresp="#EDsve422_s_122" feature="voice" new="whisp" xml:id="EDsve422_s_121"/> excuse me <shift corresp="#EDsve422_s_121" feature="voice" new="neutral" xml:id="EDsve422_s_122"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_319"> do you live here </u>
+            <u who="#EDsve422_SX-7" xml:id="EDsve422_u_320"><shift corresp="#EDsve422_s_124" feature="voice" new="whisp" xml:id="EDsve422_s_123"/> pardon <shift corresp="#EDsve422_s_123" feature="voice" new="neutral" xml:id="EDsve422_s_124"/></u>
+            <u who="#EDsve422_S5" xml:id="EDsve422_u_321"> do you live here in <anchor synch="#EDsve422_oc_39" type="other_continuation" xml:id="EDsve422_oc_38"/></u>
+            <u who="#EDsve422_S7" xml:id="EDsve422_u_322"><anchor synch="#EDsve422_oc_38" type="other_continuation" xml:id="EDsve422_oc_39"/> mhm mhm </u>
+            <u who="#EDsve422_S5" xml:id="EDsve422_u_323"> do you know where <pause/> i can take photos<c function="rise" type="intonation"/><pause/> for e<c type="lengthening"/>r <pause/><foreign type="LN" voice:translation="identity card" xml:lang="ger"> personalausweis </foreign> or </u>
+            <u who="#EDsve422_S7" xml:id="EDsve422_u_324"> hh i think there is erm <pause dur="PT2S"/> kind of <shift corresp="#EDsve422_s_126" feature="voice" new="laugh" xml:id="EDsve422_s_125"/> machine<c function="rise" type="intonation"/><shift corresp="#EDsve422_s_125" feature="voice" new="neutral" xml:id="EDsve422_s_126"/></u>
+            <u who="#EDsve422_S5" xml:id="EDsve422_u_325"><shift corresp="#EDsve422_s_128" feature="loud" new="p" xml:id="EDsve422_s_127"/> yeah<c function="rise" type="intonation"/><shift corresp="#EDsve422_s_127" feature="loud" new="neutral" xml:id="EDsve422_s_128"/></u>
+            <u who="#EDsve422_S7" xml:id="EDsve422_u_326"> er if you go to the<c type="lengthening"/> erm erm underground station a- at university<c function="rise" type="intonation"/><pause/> down<seg n="3" type="overlap" xml:id="EDsve422_ol_102">stairs i </seg> think there is a machine you can take some<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_S5" xml:id="EDsve422_u_327"><seg n="3" synch="#EDsve422_ol_102" type="overlap" xml:id="EDsve422_ol_103"> uhu er </seg></u>
+            <u who="#EDsve422_S5" xml:id="EDsve422_u_328"> thank you <voice:track medium="1" num="9" type="md"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_329"><foreign type="L1" xml:lang="ita"><seg n="4" type="overlap" xml:id="EDsve422_ol_104"> xxxxxxx </seg> xxx <pause/> xx x x xxxx xxx xxxx </foreign><pause dur="PT4S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_330"><seg n="4" synch="#EDsve422_ol_104" type="overlap" xml:id="EDsve422_ol_105"><shift corresp="#EDsve422_s_130" feature="loud" new="p" xml:id="EDsve422_s_129"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/>  okay <shift corresp="#EDsve422_s_129" feature="loud" new="neutral" xml:id="EDsve422_s_130"/></seg></u>
+         </div>
+         <gap dur="PT00H00M16S" reason="not_transcribed" voice:desc="non-e; S5 and SX-f talk in italian"/>
+         <div type="medium" voice:end="02:27" voice:end_medium_number="1" voice:end_track="09" voice:medium_type="md" voice:start="00:16" voice:start_medium_number="1" voice:start_track="9">
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_331"><pause dur="PT6S"/><incident dur="PT6S" voice:desc="students are waiting, no one talks "/><supplied reason="unintelligible"> xx </supplied><unclear> service </unclear></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_332"><foreign type="L1" xml:lang="ita"> xx x xx </foreign><pause dur="PT5S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_333"><shift corresp="#EDsve422_s_132" feature="loud" new="p" xml:id="EDsve422_s_131"/> ooph <shift corresp="#EDsve422_s_131" feature="loud" new="neutral" xml:id="EDsve422_s_132"/><pause dur="PT14S"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_334"><foreign type="L1" voice:translation="shall i also fax yours" xml:lang="ger"> soll ich deines auch faxen<c function="rise" type="intonation"/></foreign><pause/> should i also fax <pause dur="PT1S"/> it or <pause/> you <seg n="6" type="overlap" xml:id="EDsve422_ol_106"> send it <emph> your</emph>self </seg></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_335"><seg n="6" synch="#EDsve422_ol_106" type="overlap" xml:id="EDsve422_ol_107"> e<c type="lengthening"/>rm this one<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_336"> mhm </u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_337"> yes <pause/> but so <pause dur="PT1S"/> e<c type="lengthening"/>r she's my coordin<emph>a</emph>tor so i <emph> don't </emph> know the<c type="lengthening"/><pause dur="PT1S"/> the email <seg n="7" type="overlap" xml:id="EDsve422_ol_108"> from the </seg> university </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_338"><seg n="7" synch="#EDsve422_ol_108" type="overlap" xml:id="EDsve422_ol_109"> mhm </seg></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_339"> mhm <pause dur="PT2S"/> and from which de<emph>part</emph>ment are you<c function="rise" type="intonation"/><pause dur="PT1S"/> also law <seg n="8" type="overlap" xml:id="EDsve422_ol_110"> i </seg> think <anchor synch="#EDsve422_oc_41" type="other_continuation" xml:id="EDsve422_oc_40"/></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_340"><seg n="8" synch="#EDsve422_ol_110" type="overlap" xml:id="EDsve422_ol_111"> sub- </seg></u>
+            <u who="#EDsve422_S6" xml:id="EDsve422_u_341"><anchor synch="#EDsve422_oc_40" type="other_continuation" xml:id="EDsve422_oc_41"/> yes<c function="fall" type="intonation"/><pause/> yes yes </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_342"> mhm <pause dur="PT2S"/><shift corresp="#EDsve422_s_134" feature="loud" new="p" xml:id="EDsve422_s_133"/> i just <unclear> copy </unclear> some things <shift corresp="#EDsve422_s_133" feature="loud" new="neutral" xml:id="EDsve422_s_134"/><incident voice:desc="S1 leaves the room"/><pause dur="PT30S"/><shift corresp="#EDsve422_s_136" feature="loud" new="p" xml:id="EDsve422_s_135"/> so <pause/> okay <shift corresp="#EDsve422_s_135" feature="loud" new="neutral" xml:id="EDsve422_s_136"/><pause dur="PT1S"/> i fax it then <emph> la</emph>ter <pause/> i just give the original <emph> to </emph><emph> you </emph><pause/> e<c type="lengthening"/>r <pause dur="PT1S"/></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_343"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><anchor synch="#EDsve422_oc_43" type="other_continuation" xml:id="EDsve422_oc_42"/></u>
+            <u who="#EDsve422_S2" xml:id="EDsve422_u_344"><anchor synch="#EDsve422_oc_42" type="other_continuation" xml:id="EDsve422_oc_43"/> thank you<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#EDsve422_S4" xml:id="EDsve422_u_345"> mine<c function="fall" type="intonation"/><pause/> thank you <pause dur="PT2S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_346"><shift corresp="#EDsve422_s_138" feature="loud" new="p" xml:id="EDsve422_s_137"/> mine<c function="fall" type="intonation"/><shift corresp="#EDsve422_s_137" feature="loud" new="neutral" xml:id="EDsve422_s_138"/><pause dur="PT2S"/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_347"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/>  okay<c function="fall" type="intonation"/><pause dur="PT5S"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_348"><vocal voice:desc="clears throat"/><pause dur="PT6S"/><incident dur="PT6S" voice:desc="paper rustling "/></u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_349"> erm <pause/> do you have any <emph> quest</emph>ions<c function="rise" type="intonation"/></u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_350"> someone told me that er <pause/> er here er <pause/> this person had received  er a phonecard  </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_351"><pause dur="PT1S"/> er yes <pause/> you can get a telephone card at the  <w voice:mode="spelt"> e s n  </w> office that's also in our office <pause/> er door number two </u>
+            <u who="#EDsve422_S3" xml:id="EDsve422_u_352"> thank you </u>
+            <u who="#EDsve422_S1" xml:id="EDsve422_u_353"><seg n="9" type="overlap" xml:id="EDsve422_ol_112"> okay </seg><pause dur="PT3S"/> that's all<c function="fall" type="intonation"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_354"><seg n="9" synch="#EDsve422_ol_112" type="overlap" xml:id="EDsve422_ol_113"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#EDsve422_SS" xml:id="EDsve422_u_355"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></u>
+            <u who="#EDsve422_SX-f" xml:id="EDsve422_u_356"> thank you </u>
+            <u who="#EDsve422_SX-6" xml:id="EDsve422_u_357"> tha- </u>
+         </div>
+      </body>
+   </text>
+</TEI>

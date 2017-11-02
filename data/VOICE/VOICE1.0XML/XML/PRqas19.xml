@@ -1,0 +1,532 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="PRqas19" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>question-answer session on issues of multilingualism at a Korean university</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>Austrian Science Foundation (FWF)</funder>
+            <sponsor/>
+            <respStmt>
+               <resp>Corpus Compilation</resp>
+               <orgName>VOICE Project</orgName>
+               <persName>Barbara Seidlhofer</persName>
+               <persName>Angelika Breiteneder</persName>
+               <persName>Marie-Luise Pitzl</persName>
+               <persName>Stefan Majewski</persName>
+               <persName>Theresa Klimpfinger</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+		<edition>Version 1.0 XML, <date>May 2011</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Angelika Breiteneder</name> 
+		<name>Theresa Klimpfinger</name> 
+		<name>Stefan Majewski</name> 
+		<name>Marie-Luise Pitzl</name> 
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Marie-Luise Pitzl</publisher> 
+	  <distributor>VOICE Project, University of Vienna, Austria</distributor> 
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+	  	<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  	<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE 1.0 XML is
+		  available for download at the VOICE Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+		  http://creativecommons.org/licenses/by-nc-sa/3.0/
+		  </ref>). The original audio files are held at the Department
+		  of English, University of Vienna. 23 selected audio files
+		  are available as audio streams in the VOICE Online interface
+		  at the VOICE Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+		<p>
+		The recommended citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Marie-Luise Pitzl.</bibl>
+		</p>
+		<p>The short citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>).</bibl></p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="PRqas19_wc">Words: 1666</note>
+            <note xml:id="PRqas19_tn_0">This question-answer session takes place in the framework of a conference on bi- and multilingual universities. S2 finishes his presentation, then some people of the audience ask questions. S1 is the chair and directs the discussion. </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H16M52S" type="audio">
+                  <date>2005-09-02</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R8</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="PRqas19_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="PRqas19_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="PRqas19_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="PRqas19_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="PRqas19_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="PRqas19_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="PRqas19_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="PRqas19_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="PRqas19_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="PRqas19_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="PRqas19_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="PRqas19_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="PRqas19_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="PRqas19_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="PRqas19_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="PRqas19_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="PRqas19_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="orgName" occurs="1"/>
+      <tagUsage gi="persName" occurs="5"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="name" occurs="8"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="79"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="13"/>
+      <tagUsage gi="list" occurs="11"/>
+      <tagUsage gi="label" occurs="19"/>
+      <tagUsage gi="val" occurs="41"/>
+      <tagUsage gi="item" occurs="39"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="3"/>
+      <tagUsage gi="person" occurs="6"/>
+      <tagUsage gi="age" occurs="4"/>
+      <tagUsage gi="sex" occurs="4"/>
+      <tagUsage gi="langKnowledge" occurs="4"/>
+      <tagUsage gi="langKnown" occurs="4"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="5"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="2"/>
+      <tagUsage gi="u" occurs="53">Used to mark a stretch of speech commonly
+		preceded and followed by a pause or by a change of speaker. A
+		<gi>u</gi> is, however, not required to be bounded by a pause or
+		a change of speaker, nor does it represent a turn in a
+		conversation analytic sense. At a minimum, a <gi>u</gi> is some
+		phonetic production or noise made by a given speaker or a group of speakers.</tagUsage>
+      <tagUsage gi="pause" occurs="224">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="c" occurs="157">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="emph" occurs="22">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="unclear" occurs="28">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="supplied" occurs="24">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed to
+		be anonymized. The <att>reason</att> attribute is used to mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="shift" occurs="10">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		  </list>
+		</tagUsage>
+      <tagUsage gi="w" occurs="4">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage>
+      <tagUsage gi="gap" occurs="1">Used to mark points where a short portion of
+		speech has not been recorded or has been left untranscribed,
+		whether for editorial reasons, as part of the sampling practice,
+		or because the material is inaudible or comprises sensitive
+		content. The following <att>reason</att> attributes are used to
+		mark:
+		<list>
+		  <label><val>not_recorded</val></label><item>Not recorded
+		  speech</item>
+		  <label><val>not_transcribed</val></label><item>Not transcribed
+		  speech</item>
+		</list>
+		Further information on the reason for a gap is provided within
+		the <att>voice:desc</att> attribute.
+		</tagUsage>
+      <tagUsage gi="vocal" occurs="9">Used to mark laughter and other speaker
+		noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="seg" occurs="19">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="2">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:pvc" occurs="5">Used to mark a pronunciation variation
+		or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+			VOICE mark-up conventions [2.1].</ref>the
+			VOICE mark-up conventions [2.1]. An existing word corresponding to the PVC may be provided within a <att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc element. Additional phonetic
+			transcription may be provided within a <att>voice:ipa</att>voice:ipa attribute
+			within the <gi>voice:pvc</gi>voice:pvc element.</tagUsage>
+      <tagUsage gi="voice:track" occurs="4">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in length) and thus refers to the audio recording
+		of the transcribed speech event.
+		</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#PRqas19_PR #PRqas19_qas"/>
+            <catRef target="#PR #qas"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">FI</name>
+               <name type="city">Helsinki</name>
+               <locale>seminar room at university</locale>
+               <activity>none</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="4"/>
+                  <personGrp role="interactants" size="4"/>
+                  <personGrp role="audience" size="100"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="chair" sameAs="#P709" xml:id="PRqas19_S1">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa-ES"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P710" xml:id="PRqas19_S2">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="kor"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P711" xml:id="PRqas19_S3">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng-GB"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P712" xml:id="PRqas19_S4">
+                     <age value="4">50+</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="swe-SE"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person sameAs="#SX-f" xml:id="PRqas19_SX-f"/>
+                  <person sameAs="#SS" xml:id="PRqas19_SS"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#PRqas19_S1 #PRqas19_S2 #PRqas19_S3 #PRqas19_S4" name="power_relations_unknown" type="power"/>
+                  <relation mutual="#PRqas19_S1 #PRqas19_S2 #PRqas19_S3 #PRqas19_S4" name="acquaintedness_unknown" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-12" who="AB">finalized for publication</change>
+         <change when="2009-01-14" who="TK VO">proof-reading</change>
+         <change when="2009-01-13" who="TK">checking</change>
+         <change when="2008-01-06" who="AW">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="00:01" voice:end_medium_number="1" voice:end_track="2" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#PRqas19_S1" xml:id="PRqas19_u_1"> is the <pause/> director<c function="rise" type="intonation"/> of the institute of foreign language studies at <emph> korea </emph> university<c function="fall" type="intonation"/> and the title of this presentation<c function="rise" type="intonation"/><pause/> is diversity and higher education<c function="rise" type="intonation"/><pause/> driving multilingualism <pause/> in parts of east asia<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_2"> thanks so much<c function="rise" type="intonation"/><pause dur="PT1S"/> er lady gentlemen <pause/> and dear colleagues<c function="rise" type="intonation"/><pause/><unclear> i'm </unclear> here of korea university and president <supplied reason="unintelligible"> x x x </supplied><pause/> and let thank for <supplied reason="unintelligible"> xx x </supplied> for <supplied reason="unintelligible"> xx </supplied> of this <pause/> this respective <unclear> conference </unclear><pause/> for inviting<c function="rise" type="intonation"/> me <pause/> here today<c function="rise" type="intonation"/> and <shift corresp="#PRqas19_s_2" feature="tempo" new="a" xml:id="PRqas19_s_1"/> giving me the chance<c function="fall" type="intonation"/><shift corresp="#PRqas19_s_1" feature="tempo" new="neutral" xml:id="PRqas19_s_2"/> for the rest <pause/> all participants<c function="fall" type="intonation"/><pause/> this is such an honour and pleasure to be here<c function="rise" type="intonation"/><pause dur="PT1S"/> i would like talk about <pause/> the recent trends in korea<c function="rise" type="intonation"/> korean higher education <pause/> particularly<c function="rise" type="intonation"/><pause/> along with korean university models<c function="fall" type="intonation"/><pause dur="PT2S"/> the initiative that korean university adapt <unclear> you </unclear><pause/> found out to be very successful in <unclear> destiny </unclear><c function="rise" type="intonation"/><pause/> and i've let <pause/> share our experience with you<c function="fall" type="intonation"/><pause/> we'd let <pause/> also <unclear> present </unclear> asia for spe- for association for international education<c function="fall" type="intonation"/> as an alternative association for the regional international educators<c function="fall" type="intonation"/><pause dur="PT2S"/> globalization or internet- internationalization has been the boost- <unclear> birds work </unclear> of the late <pause/> last decades in many fields of society<c function="fall" type="intonation"/><pause/> you're the best one in transportation<c function="rise" type="intonation"/> and telecommunication<c function="rise" type="intonation"/><pause/> made all smaller than ever<c function="rise" type="intonation"/><pause/> an <unclear> explanations </unclear> to other country and culture became indeed <pause/> a necessity and <unclear> bigness </unclear><c function="fall" type="intonation"/><pause/> understanding of <pause/> and exposed to other cultures <pause/> is one of the most critical characteristics<c function="fall" type="intonation"/> or persons <pause/> with global scope<c function="fall" type="intonation"/><pause dur="PT1S"/> high higher education had to walk along <shift corresp="#PRqas19_s_4" feature="tempo" new="a" xml:id="PRqas19_s_3"/> with a <unclear> bit of </unclear><supplied reason="unintelligible"> xx </supplied><shift corresp="#PRqas19_s_3" feature="tempo" new="neutral" xml:id="PRqas19_s_4"/> this path<c function="fall" type="intonation"/><pause dur="PT1S"/> while university is <pause/><unclear> role </unclear><c function="rise" type="intonation"/> as on academic <pause/> power remains the same<c function="rise" type="intonation"/><pause/> the society improves<c function="fall" type="intonation"/> on that role of producing competent workers<c function="fall" type="intonation"/><pause/><shift corresp="#PRqas19_s_6" feature="tempo" new="a" xml:id="PRqas19_s_5"/> who can perform <shift corresp="#PRqas19_s_5" feature="tempo" new="neutral" xml:id="PRqas19_s_6"/> well in its challenging international environment<c function="fall" type="intonation"/><pause/> as the korean society <pause/> repeat changes along with the world<c function="rise" type="intonation"/><pause/> the universities indonesia had to adapt<c function="fall" type="intonation"/><pause dur="PT1S"/> korean universities considered <pause/> to be the leader<c function="rise" type="intonation"/> and <pause/><voice:pvc><unclear> epidemy </unclear></voice:pvc> in this <unclear> train </unclear><c function="rise" type="intonation"/><pause dur="PT1S"/> while this university <supplied reason="unintelligible"> xx </supplied> is one of the most pres- <pause/> -stigious universities in korea<c function="rise" type="intonation"/><pause/> the univic- <pause/> university's determination <pause/> and drive <pause/> for globalization is very strong<c function="fall" type="intonation"/><pause dur="PT2S"/> as meaning its <pause/> one hundredth <voice:pvc> anniversity<c function="rise" type="intonation"/></voice:pvc><pause/> korean university has prepared to take off <pause dur="PT3S"/> as then a <voice:pvc> foreform </voice:pvc> of the globalization<c function="fall" type="intonation"/> the university is <pause/> write a new chapter in the history of korea <pause/> higher education<c function="fall" type="intonation"/> of the <unclear> motor </unclear><c function="rise" type="intonation"/> the reverse of the university<c function="fall" type="intonation"/><pause/> internally the <pause/> desire was materialized at the global  <w voice:mode="spelt"> k u  </w><voice:track medium="1" num="2" type="md"/> project<c function="fall" type="intonation"/></u>
+         </div>
+         <gap dur="PT00H04M59S" reason="not_transcribed" voice:desc=""/>
+         <div type="medium" voice:end="01:52" voice:end_medium_number="1" voice:end_track="6" voice:medium_type="md" voice:start="02:00" voice:start_medium_number="1" voice:start_track="3">
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_3"> as every member of <pause/> international committee<c function="rise" type="intonation"/><pause/> we are sure there <pause/> you will agree that association for chess <pause/> nafsa and  <w voice:mode="spelt"> e a i e<c function="rise" type="intonation"/></w> play a crucial role in the advancement of <emph> our </emph> professional missions<c function="fall" type="intonation"/><pause/> these organizations promote communication<c function="fall" type="intonation"/> corporation<c function="rise" type="intonation"/><pause/> and develop- <pause/><emph> ex</emph>pertise<c function="rise" type="intonation"/><pause/> and provide various networking opportunities for bu- <pause/> pers- respective universities<c function="fall" type="intonation"/><pause dur="PT1S"/> while asia <supplied reason="unintelligible"> xx xx </supplied> remains most populous <pause/> and the most important education market<c function="rise" type="intonation"/> in the world<c function="rise" type="intonation"/><pause/> there is no one venue for <unclear> want me </unclear><pause/> for <pause/><unclear> fellow </unclear> in the national educators in the region<c function="fall" type="intonation"/><pause/> so<c function="rise" type="intonation"/><pause/> we call all of you <supplied reason="unintelligible"> xx </supplied> of support for this endeavour<c function="fall" type="intonation"/><pause/> many more suggest we could in more intere- <pause/> interest participants <pause dur="PT1S"/> is a need<c function="fall" type="intonation"/><pause/> while remain opened to the <unclear> grown </unclear> community<c function="rise" type="intonation"/><pause/> our utmost goal is to establish a really conference in asia <supplied reason="unintelligible"> xx xx<c function="fall" type="intonation"/></supplied><voice:track medium="1" num="4" type="md"/> however we understand there such an association <pause/> we <emph> only </emph> succeed through the <pause/> consorted efforts<c function="fall" type="intonation"/><pause/> of the light-minded  leaders across the higher education is due<c function="fall" type="intonation"/><pause dur="PT1S"/> so we call <supplied reason="unintelligible"> x x </supplied><pause/> the above mentioned conference is already in the planning stage with the target date of <pause/> march twenty-nine two  <w voice:mode="spelt"> o  </w> double  <w voice:mode="spelt"> o  </w> six<c function="fall" type="intonation"/> with <supplied reason="unintelligible"> xx xx </supplied> our invitation to this <supplied reason="unintelligible"> xxx </supplied><unclear> part </unclear> of our asso- association to this occasion<c function="fall" type="intonation"/><pause/> we're determined we will be communicate with all of you in the near future<c function="fall" type="intonation"/><pause/> we build there importance  international education and globalization i realized by <emph> all </emph> of <emph> you </emph><pause/> and we all have a keen  to have <pause/> close relationship with our utmost <pause/> precious partners <pause/> and to expand link to many parts of the world<c function="fall" type="intonation"/><pause/> we all need to work together<c function="rise" type="intonation"/><pause/> to achieve the true globalization <pause/> it'll not be so <unclear> forceful </unclear> if <emph> one </emph> university walks alone<c function="rise" type="intonation"/> without international partners<c function="fall" type="intonation"/><pause/> once again<c function="rise" type="intonation"/> i would like to s- <pause/> say <emph> how </emph> honoured i <emph> am </emph> to be here today<c function="rise" type="intonation"/><pause/> on behalf of president <supplied reason="unintelligible"> x x x </supplied> and will continue this dis- discussion in the session<c function="fall" type="intonation"/> and we love to share our <pause/> experience with <emph> you </emph> and to hear about your endeavours<c function="fall" type="intonation"/><pause/> thanks so much<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRqas19_SS" xml:id="PRqas19_u_4"><vocal voice:desc="applauds"/><seg n="9" type="overlap" xml:id="PRqas19_ol_0"><vocal voice:desc="applauds"/></seg><vocal voice:desc="applauds"/></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_5"><seg n="9" synch="#PRqas19_ol_0" type="overlap" xml:id="PRqas19_ol_1"> so i tried to </seg><pause dur="PT1S"/></u>
+            <u who="#PRqas19_SX-f" xml:id="PRqas19_u_6"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_7"> maybe if we need fifteen minutes<c function="rise" type="intonation"/><pause/> i'd like to read <pause/><seg n="1" type="overlap" xml:id="PRqas19_ol_2"> this er </seg></u>
+            <u who="#PRqas19_S1" xml:id="PRqas19_u_8"><seg n="1" synch="#PRqas19_ol_2" type="overlap" xml:id="PRqas19_ol_3"> thank you </seg> very much and thanks for <pause/> being <shift corresp="#PRqas19_s_8" feature="voice" new="laugh" xml:id="PRqas19_s_7"/> not too long with <shift corresp="#PRqas19_s_7" feature="voice" new="neutral" xml:id="PRqas19_s_8"/></u>
+            <u who="#PRqas19_SX-f" xml:id="PRqas19_u_9"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#PRqas19_S1" xml:id="PRqas19_u_10"> this e<c type="lengthening"/>r when we have four presentations<c function="rise" type="intonation"/><pause/> i find it er really interesting and quite impressive to have er exchanges and have er <supplied reason="unintelligible"> xxxx </supplied> er now there is plenty of time for er questions<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_11"> so when i was con- in conference visit the first time in european <pause/> so you just sit beside and i enjoyed <pause/> i by myself really enjoyed<c function="fall" type="intonation"/> but er bilingual er situation<c function="fall" type="intonation"/><pause/> or multilingual situation in europe is quite different from in asia<c function="fall" type="intonation"/><pause/> yes <pause dur="PT1S"/></u>
+            <u who="#PRqas19_S3" xml:id="PRqas19_u_12"> what are <pause/> erm sorry </u>
+            <u who="#PRqas19_S1" xml:id="PRqas19_u_13"> well go ahead <pause/> yeah </u>
+            <u who="#PRqas19_S3" xml:id="PRqas19_u_14"> i just wanted to ask what <pause/> what are the nationalities at the university<c function="rise" type="intonation"/> at the moment<c function="rise" type="intonation"/></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_15"> the nationalities<c function="rise" type="intonation"/><pause/> the<c type="lengthening"/></u>
+            <u who="#PRqas19_S3" xml:id="PRqas19_u_16"> of students </u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_17"> the international students<c function="rise" type="intonation"/> the <unclear> moderate korean students </unclear> but right now we do have al- <pause/> almost er <pause/> four hundred or five hundred international students<c function="fall" type="intonation"/><pause/> from almost forty-five countries<c function="fall" type="intonation"/><pause/> but <pause/> we would like to really <pause/> right now <pause/> for example the<c type="lengthening"/><pause/> foreign students<c function="fall" type="intonation"/><pause/><emph> they </emph> should go abroad for at least for one semester<c function="fall" type="intonation"/><pause/> to the language<c function="fall" type="intonation"/> if they finished <supplied reason="unintelligible"> xx x x </supplied><unclear> go abroad </unclear> or we would like to increase the number of <unclear><emph> un</emph>balanced </unclear> students<c function="fall" type="intonation"/> that's why we encourage our <unclear> fact </unclear> members teach <pause/> if <pause/> the course is in <emph> english </emph> so the <pause/> foreign <pause/> students <pause/> come <pause/> to <pause/> hear these things<c function="fall" type="intonation"/> so <pause/> one in the international <unclear> campus </unclear><c function="fall" type="intonation"/> we invite really distinct faculty members from the <supplied reason="anonymization"> [name1] </supplied> university<c function="rise" type="intonation"/> to come to teach <voice:track medium="1" num="5" type="md"/> so let other <pause/> students come <pause/> and then have a chance to <pause/> get courses <pause/> from other <pause/><unclear> fact </unclear> members in the foreign <pause/> countries<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRqas19_S1" xml:id="PRqas19_u_18"> yeah there is another question here<c function="rise" type="intonation"/></u>
+            <u who="#PRqas19_S4" xml:id="PRqas19_u_19"> er it was other <pause/> sort of related<c function="fall" type="intonation"/> e<c type="lengthening"/>r you have twenty-five per cent of the courses taught in english<c function="rise" type="intonation"/></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_20"> yes <anchor synch="#PRqas19_oc_1" type="other_continuation" xml:id="PRqas19_oc_0"/></u>
+            <u who="#PRqas19_S4" xml:id="PRqas19_u_21"><anchor synch="#PRqas19_oc_0" type="other_continuation" xml:id="PRqas19_oc_1"/> in what language are the others starting <seg n="2" type="overlap" xml:id="PRqas19_ol_4"> to </seg></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_22"><seg n="2" synch="#PRqas19_ol_4" type="overlap" xml:id="PRqas19_ol_5"> that's kor- </seg> korean  </u>
+            <u who="#PRqas19_SX-f" xml:id="PRqas19_u_23"> mhm </u>
+            <u who="#PRqas19_S4" xml:id="PRqas19_u_24"> so foreign students coming in<c function="rise" type="intonation"/> can they take a full university program <emph> in </emph> english<c function="rise" type="intonation"/> or they need to learn korean<c function="fall" type="intonation"/></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_25"> e<c type="lengthening"/>r <pause/> that de- depends on<c function="fall" type="intonation"/><pause/> so right now we increase at least one semester to take the <pause/> the korean languages<c function="rise" type="intonation"/><pause/> and then step by step<c function="fall" type="intonation"/> so<c function="fall" type="intonation"/><pause/> depends there are much of <pause/><voice:pvc> tailor-maded </voice:pvc> programs<c function="fall" type="intonation"/> that depends on the their language proper or pro- -ficiency<c function="fall" type="intonation"/> if they <pause/> are good at english <pause/> then they get direct<c function="fall" type="intonation"/> take the course<c function="fall" type="intonation"/> otherwise they have to take korean to be up to take some korean<c function="fall" type="intonation"/> courses taught in korean<c function="fall" type="intonation"/></u>
+            <u who="#PRqas19_S4" xml:id="PRqas19_u_26"> mhm i had another completely <emph> un</emph>related question<c function="fall" type="intonation"/><emph> where </emph> in korea is your university <seg n="3" type="overlap" xml:id="PRqas19_ol_6"> is a er </seg></u>
+            <u who="#PRqas19_SS" xml:id="PRqas19_u_27"><seg n="3" synch="#PRqas19_ol_6" type="overlap" xml:id="PRqas19_ol_7"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_28"><seg n="3" synch="#PRqas19_ol_6" type="overlap" xml:id="PRqas19_ol_8"> in the </seg> seoul <pause/><seg n="4" type="overlap" xml:id="PRqas19_ol_9"> the korean univ- </seg> yeah kor- there while there are three university in korea<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRqas19_S4" xml:id="PRqas19_u_29"><seg n="4" synch="#PRqas19_ol_9" type="overlap" xml:id="PRqas19_ol_10"><unclear> in the </unclear><supplied reason="unintelligible"> x </supplied></seg></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_30"> it's a but it's a private university<c function="fall" type="intonation"/><pause dur="PT3S"/></u>
+            <u who="#PRqas19_S1" xml:id="PRqas19_u_31"> any other questions<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRqas19_S3" xml:id="PRqas19_u_32"> how do <pause/> e<c type="lengthening"/>r <pause/> how do <emph> you </emph> relate to korean language and culture<c function="fall" type="intonation"/> at this particular time<c function="fall" type="intonation"/></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_33"> yeah </u>
+            <u who="#PRqas19_S3" xml:id="PRqas19_u_34"> do you see korean as in any way <pause/> thr- threatened or <pause/> becoming <emph> less </emph> important <pause/> in the life of korea<c function="rise" type="intonation"/><seg n="5" type="overlap" xml:id="PRqas19_ol_11"> because </seg> of this internationalization<c function="rise" type="intonation"/></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_35"><seg n="5" synch="#PRqas19_ol_11" type="overlap" xml:id="PRqas19_ol_12"> o<c type="lengthening"/>r </seg></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_36"> erm <voice:pvc> non-necessary<c function="fall" type="intonation"/></voice:pvc> i'm the director of the instit- <pause/> the institute of foreign language studies<c function="rise" type="intonation"/> and recover <pause/> the foreign language teachings <pause/> the majority are taking english courses<c function="fall" type="intonation"/> but still we <pause/> er provide courses french <pause/> german <pause/> japanese <pause/> and chinese <pause/> and russia and spanish<c function="fall" type="intonation"/><pause/> but <pause/> three <pause/> twenty or thirty years ago the most pre- preferred language it was french either french or german<c function="fall" type="intonation"/><pause/> but right now it changed<c function="fall" type="intonation"/> the chi- chinese and japanese are first and second and so are these so are the forces <pause/> the french and germ- <pause/> german<c function="fall" type="intonation"/><pause/> and also how we to teach the korean<c function="fall" type="intonation"/> so <pause/> we teach <supplied reason="unintelligible"> x </supplied> for it's against the korean<c function="fall" type="intonation"/> at <emph> this </emph> moment <pause/> there is a balance i think<c function="fall" type="intonation"/><pause/> and then the reason we are doing this kind of thing is the <pause/> major univ- major companies like samsung or <supplied reason="unintelligible"> xx </supplied><pause/> they<c function="rise" type="intonation"/> we haven't <pause/> taught english really a lot of time<c function="fall" type="intonation"/> since the third grade but <pause/> we can we had <unclear> digital </unclear><supplied reason="unintelligible"> xx </supplied><pause/> real communication<c function="fall" type="intonation"/> we have taught <pause/> e<c type="lengthening"/>r <pause/> not about english<c function="fall" type="intonation"/> not english itself<c function="fall" type="intonation"/> so we tried to provide a kind of <pause/> english competence <pause/> to increase <pause/> the english competence <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause dur="PT2S"/></u>
+            <u who="#PRqas19_S3" xml:id="PRqas19_u_37"> are you er well <voice:track medium="1" num="6" type="md"/> you said that the aim was also to go to fifty per cent of the courses </u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_38"> yeah </u>
+            <u who="#PRqas19_S3" xml:id="PRqas19_u_39"><supplied reason="unintelligible"> x x x </supplied> may have <supplied reason="unintelligible"> xx </supplied></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_40"> yeah<c function="fall" type="intonation"/><pause/> that's the president's <supplied reason="unintelligible"> xx </supplied> president's </u>
+            <u who="#PRqas19_SX-f" xml:id="PRqas19_u_41"> mhm </u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_42"><supplied reason="unintelligible"> x x x x </supplied></u>
+            <u who="#PRqas19_S3" xml:id="PRqas19_u_43"> yeah <seg n="6" type="overlap" xml:id="PRqas19_ol_13"> and </seg></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_44"><seg n="6" synch="#PRqas19_ol_13" type="overlap" xml:id="PRqas19_ol_14"> and </seg> then the way is the <pause/> when they recruit new <unclear> fact </unclear> members<c function="fall" type="intonation"/> the first condition is <pause/> they should all the courses in english<c function="fall" type="intonation"/> that's obligation<c function="fall" type="intonation"/> mandatory one<c function="fall" type="intonation"/> the new <unclear> careers </unclear><pause/> they should <pause/> teach <pause/> in <pause/> english<c function="fall" type="intonation"/><shift corresp="#PRqas19_s_10" feature="tempo" new="a" xml:id="PRqas19_s_9"/> should be able to teach <shift corresp="#PRqas19_s_9" feature="tempo" new="neutral" xml:id="PRqas19_s_10"/></u>
+            <u who="#PRqas19_S1" xml:id="PRqas19_u_45"> yeah </u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_46"> their course <seg n="9" type="overlap" xml:id="PRqas19_ol_15"> in english </seg></u>
+            <u who="#PRqas19_S1" xml:id="PRqas19_u_47"><seg n="9" synch="#PRqas19_ol_15" type="overlap" xml:id="PRqas19_ol_16"> i am not </seg> afraid that it's going to go further and further and become upon totally <seg n="7" type="overlap" xml:id="PRqas19_ol_17"> english-speaking the rest </seg></u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_48"><seg n="7" synch="#PRqas19_ol_17" type="overlap" xml:id="PRqas19_ol_18"> so <pause/> and </seg> for me <pause/> the i'm i'm also seen with the <pause/> in- <pause/> department in english and i'm teaching english ling- linguistics<c function="fall" type="intonation"/> and listen i got pressured <pause/> or it's time for me to fade er away from the stage<c function="fall" type="intonation"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/> because lots of <pause/> new generation<c function="fall" type="intonation"/> they speak english much better than <emph> i </emph> do<c function="fall" type="intonation"/><pause dur="PT1S"/> so <pause dur="PT2S"/> the young generation<c function="fall" type="intonation"/><pause/> they <pause/> they are really <pause/> comfortable to deliver their lectures in en- in english<c function="fall" type="intonation"/><pause/> sometimes i have <pause/> that kind of pressure<c function="fall" type="intonation"/> so how can i try to give my lecture in english<c function="fall" type="intonation"/> and <pause/> one month later <pause/> sometimes <pause/> if i'm good <pause/> my english is very good and i feel comfortable<c function="fall" type="intonation"/><pause/> but on other day <pause/> i feel really frustrated because <pause/> i could- i couldn't deliver what really wanted to deliver to them<c function="fall" type="intonation"/> and then <pause/> it makes me frustrated so <pause/> old generation is really <pause/> against that kind of <supplied reason="unintelligible"> xxxx </supplied><pause/> and young generation they <emph> have </emph> to <pause/> er they are <pause/><emph> forced </emph> to do of other things </u>
+            <u who="#PRqas19_SX-f" xml:id="PRqas19_u_49"> hm </u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_50"> thi this is this is now this korean situation <pause/></u>
+            <u who="#PRqas19_S1" xml:id="PRqas19_u_51"> any other questions<c function="rise" type="intonation"/><pause dur="PT1S"/> okay thank you very much </u>
+            <u who="#PRqas19_S2" xml:id="PRqas19_u_52"> thanks very much </u>
+            <u who="#PRqas19_SS" xml:id="PRqas19_u_53"><vocal dur="PT3S" iterated="true" voice:desc="applauds"/></u>
+         </div>
+      </body>
+   </text>
+</TEI>

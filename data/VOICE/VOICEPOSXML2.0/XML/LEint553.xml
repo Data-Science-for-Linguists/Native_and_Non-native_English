@@ -1,0 +1,1149 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:p="http://www.univie.ac.at/voice/pos" xmlns:t="http://www.tei-c.org/ns/1.0" xml:id="LEint553">
+  <teiHeader>
+    <fileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <titleStmt>
+        <title>interview with participants of a scout camp about a trip to Tyrol</title>
+        <principal>Prof. Barbara Seidlhofer</principal>
+        <editor/>
+        <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+        <sponsor/>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name xml:id="SM">Stefan Majewski</name>
+          <name xml:id="RO">Ruth Osimk-Teasdale</name>
+          <name xml:id="MLP">Marie-Luise Pitzl</name>
+          <name xml:id="MR">Michael Radeka</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Version POS XML 2.0, <date>January 2013</date></edition>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name>Barbara Seidlhofer</name>
+          <name>Stefan Majewski</name>
+          <name>Ruth Osimk-Teasdale</name>
+          <name>Marie-Luise Pitzl</name>
+          <name>Michael Radeka</name>
+          <name>Nora Dorn</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+        <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+        <address>
+          <addrLine>Spitalgasse 2, AAKH Hof 8</addrLine>
+          <addrLine>1090 Vienna</addrLine>
+          <addrLine>Austria</addrLine>
+          <addrLine>Telephone: +43 1 427742446</addrLine>
+          <addrLine>Email: voice@univie.ac.at</addrLine>
+          <addrLine>Website: http://www.univie.ac.at/voice</addrLine>
+        </address>
+        <availability status="free">
+          <p> The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE POS XML 2.0 is the first part-of-speech tagged version of VOICE. It is based on the same data source as VOICE 2.0 XML. 
+		  VOICE 2.0 XML, which includes minor revisions with regard to previous versions, and VOICE POS XML 2.0, are available for download at the VOICE Project's website
+		  <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+          <p>
+          The recommended citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version POS XML 2.0
+		</edition>). Director: Barbara Seidlhofer; Researchers:
+		Stefan Majewski, Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka, Nora Dorn.</bibl>
+          </p>
+          <p>The short citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version POS XML 2.0</edition>).</bibl>
+          </p>
+          <p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note xml:id="LEint553_tc">Tokens: 463</note>
+        <note xml:id="LEint553_wc">Words: 411</note>
+        <note xml:id="LEint553_tn_0">This interview takes place at an international scout camp. S2 and S3, who are group leaders, are interviewed by S1 about their trip to Tyrol prior to coming to the camp.  </note>
+      </notesStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording dur="PT00H02M31S" type="audio">
+            <date>2001-07-01</date>
+            <equipment>
+              <p>cassette recorder</p>
+            </equipment>
+            <respStmt>
+              <resp>recording</resp>
+              <name>R21</name>
+            </respStmt>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <classDecl>
+        <taxonomy>
+          <category xml:id="LEint553_domain">
+            <catDesc>Domain</catDesc>
+            <category sameAs="#ED" xml:id="LEint553_ED">
+              <catDesc>educational</catDesc>
+            </category>
+            <category sameAs="#LE" xml:id="LEint553_LE">
+              <catDesc>leisure</catDesc>
+            </category>
+            <category sameAs="#PB" xml:id="LEint553_PB">
+              <catDesc>professional business</catDesc>
+            </category>
+            <category sameAs="#PO" xml:id="LEint553_PO">
+              <catDesc>professional organizational</catDesc>
+            </category>
+            <category sameAs="#PR" xml:id="LEint553_PR">
+              <catDesc>professional research/science</catDesc>
+            </category>
+          </category>
+          <category xml:id="LEint553_spet">
+            <catDesc>Speech Event Type</catDesc>
+            <category sameAs="#int" xml:id="LEint553_int">
+              <catDesc>interview</catDesc>
+            </category>
+            <category sameAs="#prc" xml:id="LEint553_prc">
+              <catDesc>press conference</catDesc>
+            </category>
+            <category sameAs="#sve" xml:id="LEint553_sve">
+              <catDesc>service encounter</catDesc>
+            </category>
+            <category sameAs="#sed" xml:id="LEint553_sed">
+              <catDesc>seminar discussion</catDesc>
+            </category>
+            <category sameAs="#wgd" xml:id="LEint553_wgd">
+              <catDesc>working group discussion</catDesc>
+            </category>
+            <category sameAs="#wsd" xml:id="LEint553_wsd">
+              <catDesc>workshop discussion</catDesc>
+            </category>
+            <category sameAs="#mtg" xml:id="LEint553_mtg">
+              <catDesc>meeting</catDesc>
+            </category>
+            <category sameAs="#pan" xml:id="LEint553_pan">
+              <catDesc>panel</catDesc>
+            </category>
+            <category sameAs="#qas" xml:id="LEint553_qas">
+              <catDesc>question-answer session</catDesc>
+            </category>
+            <category sameAs="#con" xml:id="LEint553_con">
+              <catDesc>conversation</catDesc>
+            </category>
+          </category>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="TEI" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+          <tagUsage gi="title" occurs="5"/>
+          <tagUsage gi="principal" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="funder" occurs="1"/>
+          <tagUsage gi="sponsor" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="3"/>
+          <tagUsage gi="resp" occurs="3"/>
+          <tagUsage gi="name" occurs="13"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="edition" occurs="3"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="publisher" occurs="1"/>
+          <tagUsage gi="distributor" occurs="1"/>
+          <tagUsage gi="address" occurs="1"/>
+          <tagUsage gi="addrLine" occurs="6"/>
+          <tagUsage gi="availability" occurs="1"/>
+          <tagUsage gi="p" occurs="8"/>
+          <tagUsage gi="ref" occurs="4"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="notesStmt" occurs="1"/>
+          <tagUsage gi="note" occurs="3"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="recordingStmt" occurs="1"/>
+          <tagUsage gi="recording" occurs="1"/>
+          <tagUsage gi="equipment" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="classDecl" occurs="1"/>
+          <tagUsage gi="taxonomy" occurs="1"/>
+          <tagUsage gi="category" occurs="17"/>
+          <tagUsage gi="catDesc" occurs="17"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="tagUsage" occurs="72"/>
+          <tagUsage gi="gi" occurs="5"/>
+          <tagUsage gi="att" occurs="2"/>
+          <tagUsage gi="fLib" occurs="2"/>
+          <tagUsage gi="f" occurs="73"/>
+          <tagUsage gi="fvLib" occurs="1"/>
+          <tagUsage gi="fs" occurs="40"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="catRef" occurs="2"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="setting" occurs="1"/>
+          <tagUsage gi="locale" occurs="1"/>
+          <tagUsage gi="activity" occurs="1"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="listPerson" occurs="4"/>
+          <tagUsage gi="personGrp" occurs="2"/>
+          <tagUsage gi="person" occurs="5"/>
+          <tagUsage gi="age" occurs="3"/>
+          <tagUsage gi="sex" occurs="3"/>
+          <tagUsage gi="occupation" occurs="1"/>
+          <tagUsage gi="langKnowledge" occurs="3"/>
+          <tagUsage gi="langKnown" occurs="3"/>
+          <tagUsage gi="relationGrp" occurs="1"/>
+          <tagUsage gi="relation" occurs="2"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="change" occurs="10"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="u" occurs="113">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+          <tagUsage gi="w" occurs="473">
+		Used to mark lexical forms (tokens), but also word fragments,
+		pauses, onomatopoeic noises, spelling, laughter and breathing.
+		<gi>w</gi> is used with <att>ana</att> and <att>lemma</att>
+		attributes to mark its part-of-speech and lemma. Note that for
+		tokens with ambiguous tags <gi>w</gi> may contain nested
+		<gi>w</gi> elements to express alternative interpretations.
+		</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <p>
+        <fLib>
+          <f xml:id="CC" name="CC">coordinating conjunction</f>
+          <f xml:id="DM" name="DM">discourse marker</f>
+          <f xml:id="DT" name="DT">determiner</f>
+          <f xml:id="EX" name="EX">existential there</f>
+          <f xml:id="FI" name="FI">formulaic items</f>
+          <f xml:id="FW" name="FW">foreign word (non-English speech)</f>
+          <f xml:id="IN" name="IN">preposition or subordinating conjunction</f>
+          <f xml:id="JJ" name="JJ">adjective, positive</f>
+          <f xml:id="JJR" name="JJR">adjective, comparative</f>
+          <f xml:id="LA" name="LA">laughter</f>
+          <f xml:id="N" name="N">generic noun tag</f>
+          <f xml:id="NN" name="NN">noun, singular or mass</f>
+          <f xml:id="NNS" name="NNS">noun, plural</f>
+          <f xml:id="NP" name="NP">proper noun, singular</f>
+          <f xml:id="NPS" name="NPS">proper noun, plural</f>
+          <f xml:id="PA" name="PA">pause</f>
+          <f xml:id="PP" name="PP">pronoun, personal</f>
+          <f xml:id="PRE" name="PRE">pronoun, relative</f>
+          <f xml:id="RB" name="RB">adverb, positive</f>
+          <f xml:id="RBR" name="RBR">adverb, comparative</f>
+          <f xml:id="RE" name="RE">response particle</f>
+          <f xml:id="TO" name="TO">to, infinitive use</f>
+          <f xml:id="UH" name="UH">interjection</f>
+          <f xml:id="V" name="V">generic verb tag</f>
+          <f xml:id="VBD" name="VBD">verb be, past tense</f>
+          <f xml:id="VBP" name="VBP">verb be, present non-3rd person singular</f>
+          <f xml:id="VBZ" name="VBZ">verb be, present 3rd person singular</f>
+          <f xml:id="VHD" name="VHD">verb have, past tense</f>
+          <f xml:id="VHP" name="VHP">verb have, present non-3rd person singular</f>
+          <f xml:id="VHZ" name="VHZ">verb have, present 3rd person singular</f>
+          <f xml:id="VV" name="VV">other verbs than be and have, base form</f>
+          <f xml:id="VVD" name="VVD">other verbs than be and have, past tense</f>
+          <f xml:id="VVG" name="VVG">other verbs than be and have, gerund or present participle</f>
+          <f xml:id="VVN" name="VVN">other verbs than be and have, past participle</f>
+          <f xml:id="VVP" name="VVP">other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="WP" name="WP">wh-pronoun</f>
+          <f xml:id="XX" name="XX">partial word</f>
+        </fLib>
+        <fLib>
+          <f xml:id="fCC" name="fCC">function coordinating conjunction</f>
+          <f xml:id="fDM" name="fDM">function discourse marker</f>
+          <f xml:id="fDT" name="fDT">function determiner</f>
+          <f xml:id="fEX" name="fEX">function existential there</f>
+          <f xml:id="fFI" name="fFI">function formulaic items</f>
+          <f xml:id="fFW" name="fFW">function foreign word (non-English speech)</f>
+          <f xml:id="fIN" name="fIN">function preposition or subordinating conjunction</f>
+          <f xml:id="fJJ" name="fJJ">function adjective, positive</f>
+          <f xml:id="fJJR" name="fJJR">function adjective, comparative</f>
+          <f xml:id="fLA" name="fLA">function laughter</f>
+          <f xml:id="fN" name="fN">function generic noun tag</f>
+          <f xml:id="fNN" name="fNN">function noun, singular or mass</f>
+          <f xml:id="fNNS" name="fNNS">function noun, plural</f>
+          <f xml:id="fNP" name="fNP">function proper noun, singular</f>
+          <f xml:id="fNPS" name="fNPS">function proper noun, plural</f>
+          <f xml:id="fPA" name="fPA">function pause</f>
+          <f xml:id="fPP" name="fPP">function pronoun, personal</f>
+          <f xml:id="fPRE" name="fPRE">function pronoun, relative</f>
+          <f xml:id="fRB" name="fRB">function adverb, positive</f>
+          <f xml:id="fRBR" name="fRBR">function adverb, comparative</f>
+          <f xml:id="fRE" name="fRE">function response particle</f>
+          <f xml:id="fTO" name="fTO">function to, infinitive use</f>
+          <f xml:id="fUH" name="fUH">function interjection</f>
+          <f xml:id="fVBD" name="fVBD">function verb be, past tense</f>
+          <f xml:id="fVBP" name="fVBP">function verb be, present non-3rd person singular</f>
+          <f xml:id="fVBZ" name="fVBZ">function verb be, present 3rd person singular</f>
+          <f xml:id="fVHD" name="fVHD">function verb have, past tense</f>
+          <f xml:id="fVHP" name="fVHP">function verb have, present non-3rd person singular</f>
+          <f xml:id="fVHZ" name="fVHZ">function verb have, present 3rd person singular</f>
+          <f xml:id="fVV" name="fVV">function other verbs than be and have, base form</f>
+          <f xml:id="fVVD" name="fVVD">function other verbs than be and have, past tense</f>
+          <f xml:id="fVVG" name="fVVG">function other verbs than be and have, gerund or present participle</f>
+          <f xml:id="fVVN" name="fVVN">function other verbs than be and have, past participle</f>
+          <f xml:id="fVVP" name="fVVP">function other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="fWP" name="fWP">function wh-pronoun</f>
+          <f xml:id="fXX" name="fXX">function partial word</f>
+        </fLib>
+        <fvLib>
+          <fs xml:id="PPfPP" feats="#PP #fPP"/>
+          <fs xml:id="VVDfVVD" feats="#VVD #fVVD"/>
+          <fs xml:id="INfIN" feats="#IN #fIN"/>
+          <fs xml:id="NPfNP" feats="#NP #fNP"/>
+          <fs xml:id="REfRE" feats="#RE #fRE"/>
+          <fs xml:id="WPfWP" feats="#WP #fWP"/>
+          <fs xml:id="VVfVV" feats="#VV #fVV"/>
+          <fs xml:id="RBfRB" feats="#RB #fRB"/>
+          <fs xml:id="PAfPA" feats="#PA #fPA"/>
+          <fs xml:id="VVGfNN" feats="#VVG #fNN"/>
+          <fs xml:id="LAfLA" feats="#LA #fLA"/>
+          <fs xml:id="DMfDM" feats="#DM #fDM"/>
+          <fs xml:id="VHPfVHP" feats="#VHP #fVHP"/>
+          <fs xml:id="VVNfVVN" feats="#VVN #fVVN"/>
+          <fs xml:id="DTfDT" feats="#DT #fDT"/>
+          <fs xml:id="CCfCC" feats="#CC #fCC"/>
+          <fs xml:id="VBDfVBD" feats="#VBD #fVBD"/>
+          <fs xml:id="UHfUH" feats="#UH #fUH"/>
+          <fs xml:id="JJfJJ" feats="#JJ #fJJ"/>
+          <fs xml:id="XXfXX" feats="#XX #fXX"/>
+          <fs xml:id="NPSfNPS" feats="#NPS #fNPS"/>
+          <fs xml:id="NNfNN" feats="#NN #fNN"/>
+          <fs xml:id="TOfTO" feats="#TO #fTO"/>
+          <fs xml:id="NNSfNNS" feats="#NNS #fNNS"/>
+          <fs xml:id="FWfFW" feats="#FW #fFW"/>
+          <fs xml:id="PPfDM" feats="#PP #fDM"/>
+          <fs xml:id="VVPfVVP" feats="#VVP #fVVP"/>
+          <fs xml:id="VVPfDM" feats="#VVP #fDM"/>
+          <fs xml:id="VBZfVBZ" feats="#VBZ #fVBZ"/>
+          <fs xml:id="RBRfRBR" feats="#RBR #fRBR"/>
+          <fs xml:id="JJRfJJR" feats="#JJR #fJJR"/>
+          <fs xml:id="VBPfVBP" feats="#VBP #fVBP"/>
+          <fs xml:id="VHDfVHD" feats="#VHD #fVHD"/>
+          <fs xml:id="EXfEX" feats="#EX #fEX"/>
+          <fs xml:id="PREfPRE" feats="#PRE #fPRE"/>
+          <fs xml:id="VfVVD" feats="#V #fVVD"/>
+          <fs xml:id="NfN" feats="#N #fN"/>
+          <fs xml:id="VVGfVVG" feats="#VVG #fVVG"/>
+          <fs xml:id="VHZfVHZ" feats="#VHZ #fVHZ"/>
+          <fs xml:id="FIfFI" feats="#FI #fFI"/>
+        </fvLib>
+      </p>
+    </encodingDesc>
+    <profileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass>
+        <catRef target="#LEint553_LE #LEint553_int"/>
+        <catRef target="#LE #int"/>
+      </textClass>
+      <settingDesc>
+        <setting>
+          <name type="country">AT</name>
+          <name type="city">unknown</name>
+          <locale>unknown</locale>
+          <activity>none</activity>
+        </setting>
+      </settingDesc>
+      <particDesc>
+        <listPerson type="main">
+          <listPerson type="groups">
+            <personGrp role="speakers" size="3"/>
+            <personGrp role="interactants" size="3"/>
+          </listPerson>
+          <listPerson type="identified">
+            <person role="interviewer" sameAs="#P639" xml:id="LEint553_S1">
+              <age value="2">25-34</age>
+              <sex value="2">female</sex>
+              <occupation>student</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="ger-AT"/>
+              </langKnowledge>
+            </person>
+            <person role="interviewee" sameAs="#P642" xml:id="LEint553_S2">
+              <age value="3">35-49</age>
+              <sex value="2">female</sex>
+              <langKnowledge>
+                <langKnown level="L1" tag="swe-SE"/>
+              </langKnowledge>
+            </person>
+            <person role="interviewee" sameAs="#P643" xml:id="LEint553_S3">
+              <age value="3">35-49</age>
+              <sex value="2">female</sex>
+              <langKnowledge>
+                <langKnown level="L1" tag="swe-SE"/>
+              </langKnowledge>
+            </person>
+          </listPerson>
+          <listPerson type="not_identified">
+            <person sameAs="#SS" xml:id="LEint553_SS"/>
+            <person sameAs="#SX" xml:id="LEint553_SX"/>
+          </listPerson>
+          <relationGrp>
+            <relation mutual="#LEint553_S1 #LEint553_S2 #LEint553_S3" name="fairly_symmetrical" type="power"/>
+            <relation mutual="#LEint553_S1 #LEint553_S2 #LEint553_S3" name="predominantly_unacquainted" type="acquaintedness"/>
+          </relationGrp>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <change when="2012-12-05" who="#BS #MR #RO #SM">Update of corpus
+      header for VOICE POS XML 2.0 release</change>
+      <change when="2012-12-05" who="#SM #MR #RO">Update of corpus
+      header for VOICE 2.0 XML release</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR">Lemmatisation</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR #RO #AW #CS       #IV #KM #LL #ND #VT">Part-of-speech tagging</change>
+      <change from="2010-09-01" to="2011-01-13" who="#SM       #MR">Extraction and tokenisation of VOICE 2.0 XML
+      utterances</change>
+      <change when="2009-05-19" who="SM">conversion to XML</change>
+      <change when="2009-05-11" who="TK">finalized for publication</change>
+      <change when="2009-02-03" who="TK">proof-reading</change>
+      <change when="2007-10-29" who="MLP">checking</change>
+      <change when="2007-10-21" who="NL">transcription</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="#LEint553_S1" xml:id="LEint553_u_1">
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVDfVVD" lemma="come">came</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NPfNP" lemma="tyrol">tyrol</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_2">
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NPfNP" lemma="tyrol">tyrol</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_3">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_4">
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_5">
+        <w ana="#VVGfNN" lemma="canyon/canyoning">canyoning</w>
+        <w ana="#VVGfNN" lemma="canyon/canyoning">canyoning</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_6">
+        <w ana="#RBfRB" lemma="much">much</w>
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_7">
+        <w ana="#LAfLA">@@</w>
+        <w ana="#RBfRB" lemma="much">much</w>
+        <w ana="#LAfLA">@@</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#VVNfVVN" lemma="learn">learned</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="german">german</w>
+        <w ana="#RBfRB" lemma="already">already</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_8">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#VVGfNN" lemma="canyon/canyoning">canyoning</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_9">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_10">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="up">up</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="high">high</w>
+        <w ana="#XXfXX">alp-</w>
+        <w ana="#XXfXX">alp-</w>
+        <w ana="#NPSfNPS" lemma="alp">alps</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_11">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_12">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_13">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="hut">hut</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_14">
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#XXfXX">wa-</w>
+        <w ana="#VVDfVVD" lemma="walk">walked</w>
+        <w ana="#RBfRB" lemma="up">up</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_15">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_16">
+        <w ana="#CCfCC" lemma="and">and</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_17">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_18">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_19">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="military">military</w>
+        <w ana="#NNfNN" lemma="area">area</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_20">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_21">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="military">military</w>
+        <w ana="#NNfNN" lemma="area">area</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_22">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_23">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_24">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#JJfJJ" lemma="difficult">difficult</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">s-</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_25">
+        <w ana="#NNfNN" lemma="military">military</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_26">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_27">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_28">
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="get">get</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_29">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#INfIN" lemma="across">across</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="border">border</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="austria">austria</w>
+        <w ana="#PPfPP" lemma="it">itself</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_30">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="austria">austria</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_31">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_32">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_33">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="military">military</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_34">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_35">
+        <w ana="#NNfNN" lemma="area">area</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_36">
+        <w ana="#XXfXX">train-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">tr-</w>
+        <w ana="#VVGfNN" lemma="train/training">training</w>
+        <w ana="#NNfNN" lemma="area">area</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_37">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="mountain">mountains</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_38">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="mountain">mountain</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_39">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_40">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_41">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_42">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_43">
+        <w ana="#LAfLA">@@@@</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_44">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#FWfFW">f_stock</w>
+        <w ana="#FWfFW">f_schiessen</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_45">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_46">
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#VVGfNN" lemma="curl/curling">curling</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#NNfNN" lemma="asphalt">asphalt</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP">
+          <w ana="#PPfDM">
+            <w lemma="you">you</w>
+          </w>
+        </w>
+        <w ana="#VVPfVVP">
+          <w ana="#VVPfDM">
+            <w lemma="know">know</w>
+          </w>
+        </w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_47">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_48">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="austrian">austrian</w>
+        <w ana="#VVGfNN" lemma="cook/cooking">cooking</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_49">
+        <w ana="#JJfJJ" lemma="austrian">austrian</w>
+        <w ana="#VVGfNN" lemma="cook/cooking">cooking</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_50">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_51">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_52">
+        <w ana="#WPfWP" lemma="what">what</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_53">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#XXfXX">wa-</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#FWfFW">f_speckknoedel</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_54">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_55">
+        <w ana="#UHfUH" lemma="mm">mm</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="like">like</w>
+        <w ana="#PPfPP" lemma="they">them</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_56">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#FWfFW">f_apfelstrudel</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_57">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_58">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_59">
+        <w ana="#NNfNN" lemma="something">something</w>
+        <w ana="#FWfFW">f_a-</w>
+        <w ana="#FWfFW">f_apfel</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#VVNfVVN" lemma="fry">fried</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_60">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_61">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="fat">fat</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="name">name</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_62">
+        <w ana="#FWfFW">f_apfelspalten</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_63">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#RBfRB" lemma="maybe">maybe</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_64">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_65">
+        <w ana="#LAfLA">@@@@</w>
+        <w ana="#LAfLA">@</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBRfRBR">
+          <w ana="#JJRfJJR">
+            <w lemma="more">more</w>
+          </w>
+        </w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_66">
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="ranger">ranger</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NPfNP" lemma="rover">rover</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="camp">camp</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_67">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_68">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_69">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_70">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_71">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="lot">lot</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="fun">fun</w>
+        <w ana="#LAfLA">@@</w>
+        <w ana="#LAfLA">@</w>
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_72">
+        <w ana="#LAfLA">@@</w>
+        <w ana="#LAfLA">@@</w>
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_73">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#JJfJJ" lemma="helpful">helpful</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="only">only</w>
+        <w ana="#NNfNN" lemma="group">group</w>
+        <w ana="#PREfPRE" lemma="that">that</w>
+        <w ana="#VVPfVVP">
+          <w ana="#VfVVD">
+            <w lemma="speak">speak</w>
+          </w>
+        </w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#NPfNP" lemma="english">english</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NPfNP" lemma="swedish">swedish</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_74">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_75">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="other">other</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+        <w ana="#VVDfVVD" lemma="speak">spoke</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NPSfNPS">
+          <w ana="#NfN">
+            <w lemma="german">germans</w>
+          </w>
+        </w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NPfNP" lemma="germany">germany</w>
+        <w ana="#FWfFW">f_schweiz</w>
+        <w ana="#NPfNP" lemma="switzerland">switzerland</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_76">
+        <w ana="#NPfNP" lemma="german">german</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_77">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_78">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_79">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_80">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NPfNP" lemma="austria">austria</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#VVDfVVD" lemma="help">helped</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#RBfRB" lemma="well">well</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_81">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="only">only</w>
+        <w ana="#JJfJJ" lemma="swedish">swedish</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_82">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_83">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_SS" xml:id="LEint553_u_84">
+        <w ana="#LAfLA">@@@</w>
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_85">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="helpful">helpful</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_86">
+        <w ana="#LAfLA">@@@</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_87">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_88">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VfVVD" lemma="dance">dance</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="last">last</w>
+        <w ana="#NNfNN" lemma="night">night</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="tyrolean">tyrolean</w>
+        <w ana="#VVGfNN" lemma="dance/dancing">dancing</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_89">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_90">
+        <w ana="#XXfXX">t-</w>
+        <w ana="#XXfXX">tyro-</w>
+        <w ana="#JJfJJ" lemma="tyrolean">tyrolean</w>
+        <w ana="#NNfNN" lemma="music">music</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#JJfJJ" lemma="tyrolean">tyrolean</w>
+        <w ana="#VVGfNN" lemma="dance/dancing">dancing</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_91">
+        <w ana="#RBfRB" lemma="here">here</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_92">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_93">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="learn">learned</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_94">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_95">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_96">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_97">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVGfVVG" lemma="plan">planning</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="today">today</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_98">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#VVGfVVG" lemma="help">helping</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_99">
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBPfVBP" lemma="be">'m</w>
+        <w ana="#VVGfVVG" lemma="disturb">disturbing</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#LAfLA">@</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_100">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VHZfVHZ" lemma="have">has</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVNfVVN" lemma="start">started</w>
+        <w ana="#RBfRB" lemma="yet">yet</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="yesterday">yesterday</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="arrive">arrived</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="bus">bus</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_101">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_102">
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NPfNP" lemma="tyrol">tyrol</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_103">
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NPfNP" lemma="tyrol">tyrol</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_104">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_105">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#VVGfVVG" lemma="stay">staying</w>
+        <w ana="#INfIN" lemma="till">till</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="end">end</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_106">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_107">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_108">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="hope">hope</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="great">great</w>
+        <w ana="#NNfNN" lemma="time">time</w>
+      </u>
+      <u who="#LEint553_SX" xml:id="LEint553_u_109">
+        <w ana="#UHfUH" lemma="wow">wow</w>
+      </u>
+      <u who="#LEint553_S1" xml:id="LEint553_u_110">
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#RBfRB" lemma="much">much</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_111">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#LAfLA">@@</w>
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#LEint553_S2" xml:id="LEint553_u_112">
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+      </u>
+      <u who="#LEint553_S3" xml:id="LEint553_u_113">
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+      </u>
+    </body>
+  </text>
+</TEI>

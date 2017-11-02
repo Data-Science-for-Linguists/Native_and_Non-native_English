@@ -1,0 +1,2845 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:p="http://www.univie.ac.at/voice/pos" xmlns:t="http://www.tei-c.org/ns/1.0" xml:id="LEcon573">
+  <teiHeader>
+    <fileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <titleStmt>
+        <title>conversation between a couple about a trip to Liverpool</title>
+        <principal>Prof. Barbara Seidlhofer</principal>
+        <editor/>
+        <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+        <sponsor/>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name xml:id="SM">Stefan Majewski</name>
+          <name xml:id="RO">Ruth Osimk-Teasdale</name>
+          <name xml:id="MLP">Marie-Luise Pitzl</name>
+          <name xml:id="MR">Michael Radeka</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Version POS XML 2.0, <date>January 2013</date></edition>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name>Barbara Seidlhofer</name>
+          <name>Stefan Majewski</name>
+          <name>Ruth Osimk-Teasdale</name>
+          <name>Marie-Luise Pitzl</name>
+          <name>Michael Radeka</name>
+          <name>Nora Dorn</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+        <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+        <address>
+          <addrLine>Spitalgasse 2, AAKH Hof 8</addrLine>
+          <addrLine>1090 Vienna</addrLine>
+          <addrLine>Austria</addrLine>
+          <addrLine>Telephone: +43 1 427742446</addrLine>
+          <addrLine>Email: voice@univie.ac.at</addrLine>
+          <addrLine>Website: http://www.univie.ac.at/voice</addrLine>
+        </address>
+        <availability status="free">
+          <p> The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE POS XML 2.0 is the first part-of-speech tagged version of VOICE. It is based on the same data source as VOICE 2.0 XML. 
+		  VOICE 2.0 XML, which includes minor revisions with regard to previous versions, and VOICE POS XML 2.0, are available for download at the VOICE Project's website
+		  <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+          <p>
+          The recommended citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version POS XML 2.0
+		</edition>). Director: Barbara Seidlhofer; Researchers:
+		Stefan Majewski, Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka, Nora Dorn.</bibl>
+          </p>
+          <p>The short citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version POS XML 2.0</edition>).</bibl>
+          </p>
+          <p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note xml:id="LEcon573_tc">Tokens: 1917</note>
+        <note xml:id="LEcon573_wc">Words: 1731</note>
+        <note xml:id="LEcon573_tn_0">This conversation takes place in the morning, in the couple's flat. The style is very informal. The topics are S1's visits to Liverpool and Bristol in the past. S2 also talks about a number of times when she went to Bristol. The conversation ends when S1 has to leave.   </note>
+      </notesStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording dur="PT00H09M15S" type="audio">
+            <date>2007-11-05</date>
+            <equipment>
+              <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+            </equipment>
+            <respStmt>
+              <resp>recording</resp>
+              <name>R23</name>
+            </respStmt>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <classDecl>
+        <taxonomy>
+          <category xml:id="LEcon573_domain">
+            <catDesc>Domain</catDesc>
+            <category sameAs="#ED" xml:id="LEcon573_ED">
+              <catDesc>educational</catDesc>
+            </category>
+            <category sameAs="#LE" xml:id="LEcon573_LE">
+              <catDesc>leisure</catDesc>
+            </category>
+            <category sameAs="#PB" xml:id="LEcon573_PB">
+              <catDesc>professional business</catDesc>
+            </category>
+            <category sameAs="#PO" xml:id="LEcon573_PO">
+              <catDesc>professional organizational</catDesc>
+            </category>
+            <category sameAs="#PR" xml:id="LEcon573_PR">
+              <catDesc>professional research/science</catDesc>
+            </category>
+          </category>
+          <category xml:id="LEcon573_spet">
+            <catDesc>Speech Event Type</catDesc>
+            <category sameAs="#int" xml:id="LEcon573_int">
+              <catDesc>interview</catDesc>
+            </category>
+            <category sameAs="#prc" xml:id="LEcon573_prc">
+              <catDesc>press conference</catDesc>
+            </category>
+            <category sameAs="#sve" xml:id="LEcon573_sve">
+              <catDesc>service encounter</catDesc>
+            </category>
+            <category sameAs="#sed" xml:id="LEcon573_sed">
+              <catDesc>seminar discussion</catDesc>
+            </category>
+            <category sameAs="#wgd" xml:id="LEcon573_wgd">
+              <catDesc>working group discussion</catDesc>
+            </category>
+            <category sameAs="#wsd" xml:id="LEcon573_wsd">
+              <catDesc>workshop discussion</catDesc>
+            </category>
+            <category sameAs="#mtg" xml:id="LEcon573_mtg">
+              <catDesc>meeting</catDesc>
+            </category>
+            <category sameAs="#pan" xml:id="LEcon573_pan">
+              <catDesc>panel</catDesc>
+            </category>
+            <category sameAs="#qas" xml:id="LEcon573_qas">
+              <catDesc>question-answer session</catDesc>
+            </category>
+            <category sameAs="#con" xml:id="LEcon573_con">
+              <catDesc>conversation</catDesc>
+            </category>
+          </category>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="TEI" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+          <tagUsage gi="title" occurs="5"/>
+          <tagUsage gi="principal" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="funder" occurs="1"/>
+          <tagUsage gi="sponsor" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="3"/>
+          <tagUsage gi="resp" occurs="3"/>
+          <tagUsage gi="name" occurs="13"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="edition" occurs="3"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="publisher" occurs="1"/>
+          <tagUsage gi="distributor" occurs="1"/>
+          <tagUsage gi="address" occurs="1"/>
+          <tagUsage gi="addrLine" occurs="6"/>
+          <tagUsage gi="availability" occurs="1"/>
+          <tagUsage gi="p" occurs="8"/>
+          <tagUsage gi="ref" occurs="4"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="notesStmt" occurs="1"/>
+          <tagUsage gi="note" occurs="3"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="recordingStmt" occurs="1"/>
+          <tagUsage gi="recording" occurs="1"/>
+          <tagUsage gi="equipment" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="classDecl" occurs="1"/>
+          <tagUsage gi="taxonomy" occurs="1"/>
+          <tagUsage gi="category" occurs="17"/>
+          <tagUsage gi="catDesc" occurs="17"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="tagUsage" occurs="72"/>
+          <tagUsage gi="gi" occurs="5"/>
+          <tagUsage gi="att" occurs="2"/>
+          <tagUsage gi="fLib" occurs="2"/>
+          <tagUsage gi="f" occurs="100"/>
+          <tagUsage gi="fvLib" occurs="1"/>
+          <tagUsage gi="fs" occurs="58"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="catRef" occurs="2"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="setting" occurs="1"/>
+          <tagUsage gi="locale" occurs="1"/>
+          <tagUsage gi="activity" occurs="1"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="listPerson" occurs="4"/>
+          <tagUsage gi="personGrp" occurs="2"/>
+          <tagUsage gi="person" occurs="3"/>
+          <tagUsage gi="age" occurs="2"/>
+          <tagUsage gi="sex" occurs="2"/>
+          <tagUsage gi="occupation" occurs="1"/>
+          <tagUsage gi="langKnowledge" occurs="2"/>
+          <tagUsage gi="langKnown" occurs="2"/>
+          <tagUsage gi="relationGrp" occurs="1"/>
+          <tagUsage gi="relation" occurs="2"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="change" occurs="11"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="u" occurs="213">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+          <tagUsage gi="w" occurs="1929">
+		Used to mark lexical forms (tokens), but also word fragments,
+		pauses, onomatopoeic noises, spelling, laughter and breathing.
+		<gi>w</gi> is used with <att>ana</att> and <att>lemma</att>
+		attributes to mark its part-of-speech and lemma. Note that for
+		tokens with ambiguous tags <gi>w</gi> may contain nested
+		<gi>w</gi> elements to express alternative interpretations.
+		</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <p>
+        <fLib>
+          <f xml:id="BR" name="BR">breathing</f>
+          <f xml:id="CC" name="CC">coordinating conjunction</f>
+          <f xml:id="CD" name="CD">cardinal number</f>
+          <f xml:id="DM" name="DM">discourse marker</f>
+          <f xml:id="DT" name="DT">determiner</f>
+          <f xml:id="EX" name="EX">existential there</f>
+          <f xml:id="FI" name="FI">formulaic items</f>
+          <f xml:id="IN" name="IN">preposition or subordinating conjunction</f>
+          <f xml:id="JJ" name="JJ">adjective, positive</f>
+          <f xml:id="JJS" name="JJS">adjective, superlative</f>
+          <f xml:id="LA" name="LA">laughter</f>
+          <f xml:id="MD" name="MD">modal verb</f>
+          <f xml:id="NN" name="NN">noun, singular or mass</f>
+          <f xml:id="NNS" name="NNS">noun, plural</f>
+          <f xml:id="NP" name="NP">proper noun, singular</f>
+          <f xml:id="ONO" name="ONO">onomatopoeic noise</f>
+          <f xml:id="PA" name="PA">pause</f>
+          <f xml:id="PDT" name="PDT">predeterminer</f>
+          <f xml:id="PP" name="PP">pronoun, personal</f>
+          <f xml:id="PPS" name="PP$">pronoun, possessive</f>
+          <f xml:id="PRE" name="PRE">pronoun, relative</f>
+          <f xml:id="PVC" name="PVC">pronunciation variations and coinages</f>
+          <f xml:id="RB" name="RB">adverb, positive</f>
+          <f xml:id="RBR" name="RBR">adverb, comparative</f>
+          <f xml:id="RE" name="RE">response particle</f>
+          <f xml:id="RP" name="RP">particle</f>
+          <f xml:id="TO" name="TO">to, infinitive use</f>
+          <f xml:id="UH" name="UH">interjection</f>
+          <f xml:id="UNI" name="UNI">unintelligible speech</f>
+          <f xml:id="V" name="V">generic verb tag</f>
+          <f xml:id="VB" name="VB">verb be, base form</f>
+          <f xml:id="VBD" name="VBD">verb be, past tense</f>
+          <f xml:id="VBG" name="VBG">verb be, gerund or present participle</f>
+          <f xml:id="VBN" name="VBN">verb be, past participle</f>
+          <f xml:id="VBP" name="VBP">verb be, present non-3rd person singular</f>
+          <f xml:id="VBS" name="VBS">verb be, contracted form</f>
+          <f xml:id="VBZ" name="VBZ">verb be, present 3rd person singular</f>
+          <f xml:id="VH" name="VH">verb have, base form</f>
+          <f xml:id="VHD" name="VHD">verb have, past tense</f>
+          <f xml:id="VHP" name="VHP">verb have, present non-3rd person singular</f>
+          <f xml:id="VHS" name="VHS">verb have, contracted form</f>
+          <f xml:id="VHZ" name="VHZ">verb have, present 3rd person singular</f>
+          <f xml:id="VV" name="VV">other verbs than be and have, base form</f>
+          <f xml:id="VVD" name="VVD">other verbs than be and have, past tense</f>
+          <f xml:id="VVG" name="VVG">other verbs than be and have, gerund or present participle</f>
+          <f xml:id="VVN" name="VVN">other verbs than be and have, past participle</f>
+          <f xml:id="VVP" name="VVP">other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="VVZ" name="VVZ">other verbs than be and have, present 3rd person singular</f>
+          <f xml:id="WP" name="WP">wh-pronoun</f>
+          <f xml:id="WRB" name="WRB">wh-adverb</f>
+          <f xml:id="XX" name="XX">partial word</f>
+        </fLib>
+        <fLib>
+          <f xml:id="fBR" name="fBR">function breathing</f>
+          <f xml:id="fCC" name="fCC">function coordinating conjunction</f>
+          <f xml:id="fCD" name="fCD">function cardinal number</f>
+          <f xml:id="fDM" name="fDM">function discourse marker</f>
+          <f xml:id="fDT" name="fDT">function determiner</f>
+          <f xml:id="fEX" name="fEX">function existential there</f>
+          <f xml:id="fFI" name="fFI">function formulaic items</f>
+          <f xml:id="fIN" name="fIN">function preposition or subordinating conjunction</f>
+          <f xml:id="fJJ" name="fJJ">function adjective, positive</f>
+          <f xml:id="fJJS" name="fJJS">function adjective, superlative</f>
+          <f xml:id="fLA" name="fLA">function laughter</f>
+          <f xml:id="fMD" name="fMD">function modal verb</f>
+          <f xml:id="fNN" name="fNN">function noun, singular or mass</f>
+          <f xml:id="fNNS" name="fNNS">function noun, plural</f>
+          <f xml:id="fNP" name="fNP">function proper noun, singular</f>
+          <f xml:id="fONO" name="fONO">function onomatopoeic noise</f>
+          <f xml:id="fPA" name="fPA">function pause</f>
+          <f xml:id="fPDT" name="fPDT">function predeterminer</f>
+          <f xml:id="fPP" name="fPP">function pronoun, personal</f>
+          <f xml:id="fPPS" name="fPP$">function pronoun, possessive</f>
+          <f xml:id="fPRE" name="fPRE">function pronoun, relative</f>
+          <f xml:id="fRB" name="fRB">function adverb, positive</f>
+          <f xml:id="fRBR" name="fRBR">function adverb, comparative</f>
+          <f xml:id="fRE" name="fRE">function response particle</f>
+          <f xml:id="fRP" name="fRP">function particle</f>
+          <f xml:id="fTO" name="fTO">function to, infinitive use</f>
+          <f xml:id="fUH" name="fUH">function interjection</f>
+          <f xml:id="fUNI" name="fUNI">function unintelligible speech</f>
+          <f xml:id="fVB" name="fVB">function verb be, base form</f>
+          <f xml:id="fVBD" name="fVBD">function verb be, past tense</f>
+          <f xml:id="fVBG" name="fVBG">function verb be, gerund or present participle</f>
+          <f xml:id="fVBN" name="fVBN">function verb be, past participle</f>
+          <f xml:id="fVBP" name="fVBP">function verb be, present non-3rd person singular</f>
+          <f xml:id="fVBS" name="fVBS">function verb be, contracted form</f>
+          <f xml:id="fVBZ" name="fVBZ">function verb be, present 3rd person singular</f>
+          <f xml:id="fVH" name="fVH">function verb have, base form</f>
+          <f xml:id="fVHD" name="fVHD">function verb have, past tense</f>
+          <f xml:id="fVHP" name="fVHP">function verb have, present non-3rd person singular</f>
+          <f xml:id="fVHS" name="fVHS">function verb have, contracted form</f>
+          <f xml:id="fVHZ" name="fVHZ">function verb have, present 3rd person singular</f>
+          <f xml:id="fVV" name="fVV">function other verbs than be and have, base form</f>
+          <f xml:id="fVVD" name="fVVD">function other verbs than be and have, past tense</f>
+          <f xml:id="fVVG" name="fVVG">function other verbs than be and have, gerund or present participle</f>
+          <f xml:id="fVVN" name="fVVN">function other verbs than be and have, past participle</f>
+          <f xml:id="fVVP" name="fVVP">function other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="fVVZ" name="fVVZ">function other verbs than be and have, present 3rd person singular</f>
+          <f xml:id="fWP" name="fWP">function wh-pronoun</f>
+          <f xml:id="fWRB" name="fWRB">function wh-adverb</f>
+          <f xml:id="fXX" name="fXX">function partial word</f>
+        </fLib>
+        <fvLib>
+          <fs xml:id="DMfDM" feats="#DM #fDM"/>
+          <fs xml:id="DTfDT" feats="#DT #fDT"/>
+          <fs xml:id="VBZfVBZ" feats="#VBZ #fVBZ"/>
+          <fs xml:id="PAfPA" feats="#PA #fPA"/>
+          <fs xml:id="JJfJJ" feats="#JJ #fJJ"/>
+          <fs xml:id="VVGfNN" feats="#VVG #fNN"/>
+          <fs xml:id="INfIN" feats="#IN #fIN"/>
+          <fs xml:id="WPfWP" feats="#WP #fWP"/>
+          <fs xml:id="NNfNN" feats="#NN #fNN"/>
+          <fs xml:id="REfRE" feats="#RE #fRE"/>
+          <fs xml:id="PPfPP" feats="#PP #fPP"/>
+          <fs xml:id="VVDfVVD" feats="#VVD #fVVD"/>
+          <fs xml:id="NPfNP" feats="#NP #fNP"/>
+          <fs xml:id="VBDfVBD" feats="#VBD #fVBD"/>
+          <fs xml:id="CDfCD" feats="#CD #fCD"/>
+          <fs xml:id="CCfCC" feats="#CC #fCC"/>
+          <fs xml:id="RBfRB" feats="#RB #fRB"/>
+          <fs xml:id="VVfVV" feats="#VV #fVV"/>
+          <fs xml:id="WRBfWRB" feats="#WRB #fWRB"/>
+          <fs xml:id="VVGfVVG" feats="#VVG #fVVG"/>
+          <fs xml:id="UHfUH" feats="#UH #fUH"/>
+          <fs xml:id="NNSfNNS" feats="#NNS #fNNS"/>
+          <fs xml:id="BRfBR" feats="#BR #fBR"/>
+          <fs xml:id="PREfPRE" feats="#PRE #fPRE"/>
+          <fs xml:id="EXfEX" feats="#EX #fEX"/>
+          <fs xml:id="ONOfONO" feats="#ONO #fONO"/>
+          <fs xml:id="VVPfVVP" feats="#VVP #fVVP"/>
+          <fs xml:id="PPfDM" feats="#PP #fDM"/>
+          <fs xml:id="VVPfDM" feats="#VVP #fDM"/>
+          <fs xml:id="VBSfVBS" feats="#VBS #fVBS"/>
+          <fs xml:id="LAfLA" feats="#LA #fLA"/>
+          <fs xml:id="FIfFI" feats="#FI #fFI"/>
+          <fs xml:id="VBPfVBP" feats="#VBP #fVBP"/>
+          <fs xml:id="UNIfUNI" feats="#UNI #fUNI"/>
+          <fs xml:id="MDfMD" feats="#MD #fMD"/>
+          <fs xml:id="VHPfVHP" feats="#VHP #fVHP"/>
+          <fs xml:id="PPSfPPS" feats="#PP$ #fPP$"/>
+          <fs xml:id="VVZfVVZ" feats="#VVZ #fVVZ"/>
+          <fs xml:id="TOfTO" feats="#TO #fTO"/>
+          <fs xml:id="RPfRP" feats="#RP #fRP"/>
+          <fs xml:id="XXfXX" feats="#XX #fXX"/>
+          <fs xml:id="PDTfPDT" feats="#PDT #fPDT"/>
+          <fs xml:id="NPfJJ" feats="#NP #fJJ"/>
+          <fs xml:id="RBRfRBR" feats="#RBR #fRBR"/>
+          <fs xml:id="PVCfJJ" feats="#PVC #fJJ"/>
+          <fs xml:id="PVCfNN" feats="#PVC #fNN"/>
+          <fs xml:id="VVNfJJ" feats="#VVN #fJJ"/>
+          <fs xml:id="VHfVH" feats="#VH #fVH"/>
+          <fs xml:id="VBNfVBN" feats="#VBN #fVBN"/>
+          <fs xml:id="VHZfVHZ" feats="#VHZ #fVHZ"/>
+          <fs xml:id="VHDfVHD" feats="#VHD #fVHD"/>
+          <fs xml:id="VBfVB" feats="#VB #fVB"/>
+          <fs xml:id="VfNN" feats="#V #fNN"/>
+          <fs xml:id="VVGfNNS" feats="#VVG #fNNS"/>
+          <fs xml:id="JJSfJJS" feats="#JJS #fJJS"/>
+          <fs xml:id="VVNfVVN" feats="#VVN #fVVN"/>
+          <fs xml:id="VBGfVBG" feats="#VBG #fVBG"/>
+          <fs xml:id="VHSfVHS" feats="#VHS #fVHS"/>
+        </fvLib>
+      </p>
+    </encodingDesc>
+    <profileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass>
+        <catRef target="#LEcon573_LE #LEcon573_con"/>
+        <catRef target="#LE #con"/>
+      </textClass>
+      <settingDesc>
+        <setting>
+          <name type="country">GB</name>
+          <name type="city">London</name>
+          <locale>kitchen in private home</locale>
+          <activity>eating</activity>
+        </setting>
+      </settingDesc>
+      <particDesc>
+        <listPerson type="main">
+          <listPerson type="groups">
+            <personGrp role="speakers" size="2"/>
+            <personGrp role="interactants" size="2"/>
+          </listPerson>
+          <listPerson type="identified">
+            <person role="participant" sameAs="#P730" xml:id="LEcon573_S2">
+              <age value="2">25-34</age>
+              <sex value="2">female</sex>
+              <occupation>university lecturer</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="ita-IT"/>
+              </langKnowledge>
+            </person>
+            <person role="participant" sameAs="#P731" xml:id="LEcon573_S1">
+              <age value="3">35-49</age>
+              <sex value="1">male</sex>
+              <langKnowledge>
+                <langKnown level="L1" tag="ger-DE"/>
+              </langKnowledge>
+            </person>
+          </listPerson>
+          <listPerson type="not_identified">
+            <person sameAs="#SS" xml:id="LEcon573_SS"/>
+          </listPerson>
+          <relationGrp>
+            <relation mutual="#LEcon573_S1 #LEcon573_S2" name="fairly_symmetrical" type="power"/>
+            <relation mutual="#LEcon573_S1 #LEcon573_S2" name="acquainted" type="acquaintedness"/>
+          </relationGrp>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <change when="2012-12-05" who="#BS #MR #RO #SM">Update of corpus
+      header for VOICE POS XML 2.0 release</change>
+      <change when="2012-12-05" who="#SM #MR #RO">Update of corpus
+      header for VOICE 2.0 XML release</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR">Lemmatisation</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR #RO #AW #CS       #IV #KM #LL #ND #VT">Part-of-speech tagging</change>
+      <change from="2010-09-01" to="2011-01-13" who="#SM       #MR">Extraction and tokenisation of VOICE 2.0 XML
+      utterances</change>
+      <change when="2011-01-24" who="RO">changes for VOICE 1.1</change>
+      <change when="2009-05-19" who="SM">conversion to XML</change>
+      <change when="2009-05-11" who="TK">finalized for publication</change>
+      <change when="2008-07-24" who="TK">proof-reading</change>
+      <change when="2008-06-27" who="RO">checking</change>
+      <change when="2008-01-27" who="AW">transcription</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_1">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="a">an</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="a">an</w>
+        <w ana="#JJfJJ">
+          <w ana="#VVGfNN">
+            <w lemma="developing/develop">developing</w>
+          </w>
+        </w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_2">
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_3">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="head">head</w>
+        <w ana="#VVGfNN" lemma="bang/banging">banging</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_4">
+        <w ana="#NNfNN" lemma="head">head</w>
+        <w ana="#VVGfNN" lemma="bang/banging">banging</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_5">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#NPfNP" lemma="liverpool">liverpool</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CDfCD" lemma="nineteen">nineteen</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#NNfNN" lemma="something">something</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#VVDfVVD" lemma="drive">drove</w>
+        <w ana="#INfIN" lemma="into">into</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="city">city</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#VVGfVVG" lemma="go">going</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NPfNP" lemma="renault">renault</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_6">
+        <w ana="#WPfWP" lemma="who">who</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_7">
+        <w ana="#NNSfNNS" lemma="friend">friends</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NNfNN" lemma="school">school</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_8">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#BRfBR">hh</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_9">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_3</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="come">came</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#JJfJJ" lemma="first">first</w>
+        <w ana="#NNfNN" lemma="club">club</w>
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="a">an</w>
+        <w ana="#NNfNN" lemma="base">base</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="huge">huge</w>
+        <w ana="#NNfNN" lemma="basement">basement</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_10">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_11">
+        <w ana="#DMfDM">
+          <w ana="#INfIN">
+            <w lemma="like">like</w>
+          </w>
+        </w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="factory">factory</w>
+        <w ana="#NNSfNNS" lemma="type">types</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#RBfRB" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="corner">corner</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="somewhere">somewhere</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="quite">quite</w>
+        <w ana="#JJfJJ" lemma="dark">dark</w>
+        <w ana="#RBfRB" lemma="somewhere">somewhere</w>
+        <w ana="#RBfRB" lemma="else">else</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_12">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_13">
+        <w ana="#JJfJJ" lemma="huge">huge</w>
+        <w ana="#NNfNN" lemma="speaker">speaker</w>
+        <w ana="#NNSfNNS" lemma="system">systems</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_14">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_15">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="band">band</w>
+        <w ana="#VVGfVVG" lemma="play">playing</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#CDfCD" lemma="five">five</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="front">front</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="box">boxes</w>
+        <w ana="#RBfRB" lemma="directly">directly</w>
+        <w ana="#VVGfVVG" lemma="do">doing</w>
+        <w ana="#ONOfONO">o_b&#x26A;&#x14B;</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="thing">thing</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#JJfJJ" lemma="long">long</w>
+        <w ana="#NNfNN" lemma="hair">hair</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#RBfRB" lemma="non-stop">non-stop</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_16">
+        <w ana="#VVGfVVG" lemma="bang">banging</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="speaker">speakers</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_17">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#NNfNN" lemma="head">head</w>
+        <w ana="#VVGfVVG" lemma="bang">banging</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="go">go</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_18">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="see">see</w>
+        <w ana="#INfIN" lemma="while">while</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#VVGfVVG" lemma="play">playing</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_19">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="audience">audience</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="type">type</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="dance">dance</w>
+        <w ana="#INfIN" lemma="as">as</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_20">
+        <w ana="#BRfBR">hh</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_21">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_22">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="heavy">heavy</w>
+        <w ana="#NNfNN" lemma="metal">metal</w>
+        <w ana="#NNfNN" lemma="thing">thing</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_23">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#FIfFI" lemma="sorry">sorry</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBPfVBP" lemma="be">'m</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="exactly">exactly</w>
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_24">
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#UNIfUNI">x</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_25">
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="imagine">imagine</w>
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#JJfJJ" lemma="long">long</w>
+        <w ana="#NNfNN" lemma="hair">hair</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_26">
+        <w ana="#LAfLA">@</w>
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_27">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="go">go</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_28">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_29">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#NNfNN" lemma="hair">hair</w>
+        <w ana="#VVZfVVZ" lemma="fly">flies</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_30">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_31">
+        <w ana="#LAfLA">@</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#LAfLA">@</w>
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#FIfFI" lemma="i">my</w>
+        <w ana="#FIfFI" lemma="god">god</w>
+        <w ana="#LAfLA">@@</w>
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_32">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="back">back</w>
+        <w ana="#RBfRB" lemma="up">up</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="bit">bit</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#JJfJJ" lemma="funny">funny</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#RBfRB" lemma="back">back</w>
+        <w ana="#RBfRB" lemma="up">up</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVDfVVD" lemma="ask">asked</w>
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#NNfNN" lemma="something">something</w>
+        <w ana="#JJfJJ" lemma="nice">nice</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="see">see</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="liverpool">liverpool</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_33">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_34">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="guy">guy</w>
+        <w ana="#VVDfVVD" lemma="say">said</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_35">
+        <w ana="#NNfNN" lemma="nothing">nothing</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_36">
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="want">wan</w>
+        <w ana="#TOfTO" lemma="to">na</w>
+        <w ana="#VVfVV" lemma="see">see</w>
+        <w ana="#NNfNN" lemma="something">something</w>
+        <w ana="#JJfJJ" lemma="nice">nice</w>
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#NPfNP" lemma="france">france</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_37">
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_38">
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#LEcon573_SS" xml:id="LEcon573_u_39">
+        <w ana="#LAfLA">@@@@@</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_40">
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="so">so</w>
+        <w ana="#JJfJJ" lemma="sad">sad</w>
+        <w ana="#LAfLA">@@@</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_41">
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#RPfRP" lemma="up">up</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="road">road</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_42">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_43">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVDfVVD" lemma="look">looked</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="a">an</w>
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#NNfNN" lemma="hotel">hotel</w>
+        <w ana="#XXfXX">of-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="grand">grand</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#NNSfNNS" lemma="mirror">mirrors</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NNSfNNS" lemma="chandelier">chandeliers</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_44">
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#JJfJJ" lemma="interesting">interesting</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_45">
+        <w ana="#NNfNN" lemma="red">red</w>
+        <w ana="#NNfNN" lemma="carpet">carpet</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVDfVVD" lemma="look">looked</w>
+        <w ana="#RBfRB" lemma="sort">sort</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#JJfJJ" lemma="grand">grand</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#INfIN" lemma="whether">whether</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="hotel">hotel</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_46">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_47">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="loud">loud</w>
+        <w ana="#NNfNN" lemma="techno">techno</w>
+        <w ana="#NNfNN" lemma="music">music</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#MDfMD" lemma="can">could</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="communicate">communicate</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="word">word</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_48">
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_49">
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#PDTfPDT" lemma="all">all</w>
+        <w ana="#DTfDT" lemma="those">those</w>
+        <w ana="#NNSfNNS" lemma="woman">women</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#PPfDM" lemma="you">you</w>
+        <w ana="#VVPfDM" lemma="know">know</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="short">short</w>
+        <w ana="#NNfNN" lemma="skirt">skirt</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_SS" xml:id="LEcon573_u_50">
+        <w ana="#JJfJJ" lemma="skimpy">skimpy</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_51">
+        <w ana="#CCfCC" lemma="and">and</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_52">
+        <w ana="#LAfLA">@</w>
+        <w ana="#NPfJJ" lemma="topsy">topsy</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_53">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NNSfNNS" lemma="lot">lots</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="jewellery">jewellery</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#NNfNN" lemma="champagne">champagne</w>
+        <w ana="#NNSfNNS" lemma="glass">glasses</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVGfVVG" lemma="stand">standing</w>
+        <w ana="#RPfRP" lemma="around">around</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#XXfXX">cleep-</w>
+        <w ana="#RBfRB" lemma="completely">completely</w>
+        <w ana="#JJfJJ" lemma="surreal">surreal</w>
+        <w ana="#NNfNN" lemma="movie">movie</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_54">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_55">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#JJfJJ" lemma="dressed">dressed</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="costume">costume</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#JJfJJ" lemma="dressed">dressed</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="night">night</w>
+        <w ana="#RBfRB" lemma="normally">normally</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_56">
+        <w ana="#JJfJJ" lemma="dressed">dressed</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#NNSfNNS" lemma="kid">kids</w>
+        <w ana="#VVGfVVG" lemma="line">lining</w>
+        <w ana="#RPfRP" lemma="up">up</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="west">west</w>
+        <w ana="#NPfNP" lemma="end">end</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="club">club</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBRfRBR" lemma="more">more</w>
+        <w ana="#JJfJJ" lemma="tacky">tacky</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_57">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_58">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PVCfJJ">p_slutty</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_59">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#CDfCD" lemma="forty">forty</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#NNSfNNS" lemma="woman">women</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_60">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_61">
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#NNSfNNS" lemma="handbag">handbags</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="sort">sort</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#XXfXX">ho-</w>
+        <w ana="#NNfNN" lemma="hotel">hotel</w>
+        <w ana="#NNfNN" lemma="entrance">entrance</w>
+        <w ana="#NNfNN" lemma="foyer">foyer</w>
+        <w ana="#NNfNN" lemma="bar">bar</w>
+        <w ana="#JJfJJ" lemma="glamorous">glamorous</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="four-metre-high">four-metre-high</w>
+        <w ana="#NNfNN" lemma="ceiling">ceiling</w>
+        <w ana="#NNSfNNS" lemma="chandelier">chandeliers</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_62">
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#NNfNN" lemma="glamour">glamour</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_63">
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#NNfNN" lemma="glamour">glamour</w>
+        <w ana="#DMfDM">
+          <w ana="#INfIN">
+            <w lemma="like">like</w>
+          </w>
+        </w>
+        <w ana="#JJfJJ" lemma="victorian">victorian</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_64">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_65">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#NNfNN" lemma="red">red</w>
+        <w ana="#NNfNN" lemma="carpet">carpet</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_66">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_67">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="those">those</w>
+        <w ana="#PVCfJJ">p_slutty</w>
+        <w ana="#CDfCD" lemma="forty">forty</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#NNSfNNS" lemma="woman">women</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#NNSfNNS" lemma="handbag">handbags</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="all">all</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="faked">faked</w>
+        <w ana="#NNSfNNS" lemma="diamond">diamonds</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_68">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_69">
+        <w ana="#BRfBR">hh</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_70">
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#NNfNN" lemma="champagne">champagne</w>
+        <w ana="#NNSfNNS" lemma="glass">glasses</w>
+        <w ana="#VVGfVVG" lemma="stand">standing</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVGfVVG" lemma="speak">speaking</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="loud">loud</w>
+        <w ana="#NNfNN" lemma="techno">techno</w>
+        <w ana="#NNfNN" lemma="music">music</w>
+        <w ana="#ONOfONO">o_&#x259;</w>
+        <w ana="#ONOfONO">o_t&#x283;&#x259;</w>
+        <w ana="#ONOfONO">o_t&#x283;</w>
+        <w ana="#ONOfONO">o_t&#x283;</w>
+        <w ana="#ONOfONO">o_d&#x259;</w>
+        <w ana="#ONOfONO">o_t&#x283;&#x259;</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_71">
+        <w ana="#LAfLA">@</w>
+        <w ana="#LAfLA">@@@@@@@</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_72">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">could</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="communicate">communicate</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_73">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#VVGfVVG" lemma="stand">standing</w>
+        <w ana="#RPfRP" lemma="around">around</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="front">front</w>
+        <w ana="#INfIN" lemma="of">of</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_74">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#VVGfVVG" lemma="stand">standing</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_75">
+        <w ana="#BRfBR">hh</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="uhu">uhu</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_76">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="surreal">surreal</w>
+        <w ana="#PVCfNN">p_inscenation</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#NNfNN" lemma="something">something</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_77">
+        <w ana="#LAfLA">@@</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="join">join</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="as">as</w>
+        <w ana="#RBfRB" lemma="well">well</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_78">
+        <w ana="#DMfDM" lemma="well">well</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="stay">stayed</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="bit">bit</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#JJfJJ" lemma="other">other</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#UNIfUNI">xxx</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_79">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#JJfJJ" lemma="drunk">drunk</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVDfVVD" lemma="forget">forgot</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="you">yourself</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_80">
+        <w ana="#BRfBR">hh</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="mean">mean</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="normal">normal</w>
+        <w ana="#NNSfNNS" lemma="pub">pubs</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="every">every</w>
+        <w ana="#JJfJJ" lemma="other">other</w>
+        <w ana="#NNfNN" lemma="house">house</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#VVNfJJ" lemma="border">bordered</w>
+        <w ana="#RPfRP" lemma="up">up</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#JJfJJ" lemma="empty">empty</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_81">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_82">
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#JJfJJ" lemma="late">late</w>
+        <w ana="#NNSfNNS" lemma="eighty">eighties</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="early">early</w>
+        <w ana="#NNSfNNS" lemma="ninety">nineties</w>
+        <w ana="#WRBfWRB" lemma="when">when</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_83">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#MDfMD" lemma="must">must</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_84">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="north">north</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#JJfJJ" lemma="communist">communist</w>
+        <w ana="#NPfNP" lemma="europe">europe</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="completely">completely</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_85">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_86">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#RBfRB" lemma="exactly">exactly</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_87">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#WRBfWRB" lemma="why">why</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBPfVBP" lemma="be">'m</w>
+        <w ana="#VVGfVVG" lemma="think">thinking</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#MDfMD" lemma="must">must</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#RBfRB" lemma="really">really</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_88">
+        <w ana="#JJfJJ" lemma="novel">novel</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_89">
+        <w ana="#RBfRB" lemma="really">really</w>
+        <w ana="#JJfJJ" lemma="interesting">interesting</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#RBfRB" lemma="back">back</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#INfIN" lemma="cos">cos</w>
+        <w ana="#RBfRB" lemma="nowadays">nowadays</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PPfDM" lemma="you">you</w>
+        <w ana="#VVPfDM" lemma="know">know</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NPfNP" lemma="liverpool">liverpool</w>
+        <w ana="#VHZfVHZ" lemma="have">has</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="capital">capital</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_90">
+        <w ana="#RBfRB" lemma="exactly">exactly</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_92">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_93">
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="culture">culture</w>
+        <w ana="#INfIN" lemma="of">of</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_94">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="meantime">meantime</w>
+        <w ana="#NPfNP" lemma="britain">britain</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#CDfCD" lemma="ten">ten</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_95">
+        <w ana="#JJfJJ" lemma="exact">exact</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_96">
+        <w ana="#JJfJJ" lemma="economic">economic</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="boom">boom</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_97">
+        <w ana="#NNfNN" lemma="boom">boom</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_98">
+        <w ana="#RBfRB" lemma="exactly">exactly</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#MDfMD" lemma="must">must</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#XXfXX">q-</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_99">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_100">
+        <w ana="#RBfRB" lemma="quite">quite</w>
+        <w ana="#JJfJJ" lemma="different">different</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#JJfJJ" lemma="high">high</w>
+        <w ana="#NNfNN" lemma="street">street</w>
+        <w ana="#NNSfNNS" lemma="shop">shops</w>
+        <w ana="#RBfRB" lemma="probably">probably</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NNfNN" lemma="stuff">stuff</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_101">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_102">
+        <w ana="#BRfBR">hh</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_103">
+        <w ana="#NPfNP" lemma="bristol">bristol</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#JJfJJ" lemma="cool">cool</w>
+        <w ana="#RBfRB" lemma="too">too</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_104">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#NPfNP" lemma="bristol">bristol</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="still">still</w>
+        <w ana="#JJfJJ" lemma="cool">cool</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_105">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#NPfNP" lemma="bristol">bristol</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_106">
+        <w ana="#JJfJJ" lemma="last">last</w>
+        <w ana="#NNfNN" lemma="time">time</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#XXfXX">we-</w>
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_107">
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#NPfNP" lemma="renault">renault</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_108">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_109">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#XXfXX">peop-</w>
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="ask">asked</w>
+        <w ana="#NNfNN" lemma="somebody">somebody</w>
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="youth">youth</w>
+        <w ana="#NNfNN" lemma="hostel">hostel</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VVDfVVD" lemma="say">said</w>
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#JJfJJ" lemma="age">age</w>
+        <w ana="#NNSfNNS" lemma="traveler">travelers</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="hippie">hippie</w>
+        <w ana="#NNfNN" lemma="car">car</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="cool">cool</w>
+        <w ana="#VVfVV" lemma="come">come</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PPSfPPS" lemma="we">our</w>
+        <w ana="#NNfNN" lemma="place">place</w>
+        <w ana="#BRfBR">hh</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_110">
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="hippie">hippie</w>
+        <w ana="#NNfNN" lemma="car">car</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_111">
+        <w ana="#XXfXX">s-</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_112">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NPfNP" lemma="renault">renault</w>
+        <w ana="#NPfNP" lemma="four">four</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_113">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_114">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_115">
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="hippie">hippie</w>
+        <w ana="#NNfNN" lemma="car">car</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_116">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_117">
+        <w ana="#RBfRB" lemma="all">all</w>
+        <w ana="#RBfRB" lemma="right">right</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_118">
+        <w ana="#PREfPRE" lemma="which">which</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#DTfDT" lemma="no">no</w>
+        <w ana="#VfNN" lemma="understand">understand</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="back">back</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="understand">understand</w>
+        <w ana="#NPfNP" lemma="bristol">bristol</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="cool">cool</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_119">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_120">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VVDfVVD" lemma="take">took</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PPSfPPS" lemma="they">their</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="place">place</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVDfVVD" lemma="smoke">smoked</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="marijuana">marijuana</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#NNfNN" lemma="night">night</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVDfVVD" lemma="offer">offered</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#RBfRB" lemma="as">as</w>
+        <w ana="#RBfRB" lemma="well">well</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_121">
+        <w ana="#LAfLA">@@</w>
+        <w ana="#LAfLA">@@@@</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_122">
+        <w ana="#LAfLA">@@@</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="stay">stay</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_123">
+        <w ana="#LAfLA">@@</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="stay">stayed</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVDfVVD" lemma="sleep">slept</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="sofa">sofa</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="floor">floor</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#VVGfNN" lemma="live/living">living</w>
+        <w ana="#NNfNN" lemma="room">room</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#VVGfNNS" lemma="sleep/sleeping">sleeping</w>
+        <w ana="#NNSfNNS" lemma="bag">bags</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_124">
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="great">great</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_125">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="morning">morning</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="stay">stayed</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#NNfNN" lemma="everybody">everybody</w>
+        <w ana="#VVDfVVD" lemma="come">came</w>
+        <w ana="#RBfRB" lemma="round">round</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#VVGfVVG" lemma="hang">hanging</w>
+        <w ana="#RPfRP" lemma="out">out</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="flat">flat</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#JJfJJ" lemma="victorian">victorian</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="flat">flat</w>
+        <w ana="#JJfJJ" lemma="tiny">tiny</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_126">
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#LEcon573_SS" xml:id="LEcon573_u_127">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_128">
+        <w ana="#LAfLA">@</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#XXfXX">sti-</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#RBfRB" lemma="still">still</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NNfNN" lemma="contact">contact</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="these">these</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_129">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="guy">guy</w>
+        <w ana="#PREfPRE" lemma="who">who</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CDfCD" lemma="twenty-seven">twenty-seven</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#NNfNN" lemma="something">something</w>
+        <w ana="#RBfRB" lemma="quite">quite</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfDM" lemma="you">you</w>
+        <w ana="#VVPfDM" lemma="know">know</w>
+        <w ana="#JJfJJ" lemma="good-looking">good-looking</w>
+        <w ana="#JJfJJ" lemma="well">well</w>
+        <w ana="#JJfJJ" lemma="built">built</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PDTfPDT" lemma="all">all</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="rest">rest</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_130">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_131">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#MDfMD" lemma="can">could</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="walk">walk</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VVDfVVD" lemma="need">needed</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="knee">knee</w>
+        <w ana="#NNfNN" lemma="operation">operation</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_132">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_133">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#WRBfWRB" lemma="why">why</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#NNfNN" lemma="benefit">benefit</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#NNfNN" lemma="home">home</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#XXfXX">wait-</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#VVGfVVG" lemma="wait">waiting</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#CDfCD" lemma="five">five</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="knee">knee</w>
+        <w ana="#NNfNN" lemma="operation">operation</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_134">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_135">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_136">
+        <w ana="#XXfXX">an-</w>
+        <w ana="#PPfDM" lemma="you">you</w>
+        <w ana="#VVPfDM" lemma="know">know</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_137">
+        <w ana="#JJfJJ" lemma="strange">strange</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#CDfCD" lemma="twenty-seven">twenty-seven</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#JJfJJ" lemma="old">old</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_138">
+        <w ana="#VVGfVVG" lemma="come">coming</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NPfNP" lemma="germany">germany</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="think">thought</w>
+        <w ana="#DMfDM" lemma="well">well</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="waste">waste</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_139">
+        <w ana="#DMfDM" lemma="well">well</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#MDfMD" lemma="can">ca</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="walk">walk</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_140">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="thing">thing</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#VVGfNN" lemma="wait/waiting">waiting</w>
+        <w ana="#NNfNN" lemma="list">list</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="s_nhs">s_nhs</w>
+        <w ana="#VVGfVVG" lemma="waste">wasting</w>
+        <w ana="#PPSfPPS" lemma="he">his</w>
+        <w ana="#JJSfJJS" lemma="good">best</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_141">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_142">
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVGfVVG" lemma="work">working</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="knee">knee</w>
+        <w ana="#NNfNN" lemma="condition">condition</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_143">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_144">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#MDfMD" lemma="can">could</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#VVNfVVN" lemma="resolve">resolved</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="football">football</w>
+        <w ana="#NNfNN" lemma="star">star</w>
+        <w ana="#INfIN" lemma="as">as</w>
+        <w ana="#PREfPRE" lemma="that">that</w>
+        <w ana="#DTfDT" lemma="every">every</w>
+        <w ana="#NNfNN" lemma="week">week</w>
+        <w ana="#PREfPRE" lemma="that">that</w>
+        <w ana="#VVZfVVZ" lemma="go">goes</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="special">special</w>
+        <w ana="#NNfNN" lemma="hospital">hospital</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_145">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_146">
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="month">month</w>
+        <w ana="#RBRfRBR" lemma="late">later</w>
+        <w ana="#VVZfVVZ" lemma="play">plays</w>
+        <w ana="#RBfRB" lemma="again">again</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_147">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_148">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#RBfRB" lemma="exactly">exactly</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#NNfNN" lemma="something">something</w>
+        <w ana="#INfIN" lemma="along">along</w>
+        <w ana="#DTfDT" lemma="those">those</w>
+        <w ana="#NNSfNNS" lemma="line">lines</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#NNSfNNS" lemma="ligament">ligaments</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_149">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="sad">sad</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_150">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="probably">probably</w>
+        <w ana="#RBfRB" lemma="probably">probably</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="manual">manual</w>
+        <w ana="#NNfNN" lemma="job">job</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfDM" lemma="you">you</w>
+        <w ana="#VVPfDM" lemma="know">know</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_151">
+        <w ana="#BRfBR">hh</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="mean">mean</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#NNfNN" lemma="condition">condition</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#RBfRB" lemma="always">always</w>
+        <w ana="#VVfVV" lemma="work">work</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="a">an</w>
+        <w ana="#NNfNN" lemma="office">office</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#VVfVV" lemma="work">work</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NNfNN" lemma="home">home</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_152">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_153">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="computer">computer</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#RBfRB" lemma="else">else</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_154">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="maybe">maybe</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="carpenter">carpenter</w>
+        <w ana="#RBfRB" lemma="maybe">maybe</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VVDfVVD" lemma="work">worked</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#NNfNN" lemma="construction">construction</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_155">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_156">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_157">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">ca</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="walk">walk</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#NNfNN" lemma="knee">knee</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_158">
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#JJfJJ" lemma="possible">possible</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_159">
+        <w ana="#JJfJJ" lemma="ill">ill</w>
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">ca</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="do">do</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_160">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#XXfXX">whe-</w>
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="bristol">bristol</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="really">really</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="really">really</w>
+        <w ana="#JJfJJ" lemma="nice">nice</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+        <w ana="#RBfRB" lemma="ago">ago</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+        <w ana="#RBfRB" lemma="ago">ago</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="presentation">presentation</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="remember">remember</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="presentation">presentation</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="afternoon">afternoon</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#XXfXX">s-</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="university">university</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#RPfRP" lemma="up">up</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="hill">hill</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_161">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_162">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="morning">morning</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="want">wanted</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="walk">walk</w>
+        <w ana="#RBfRB" lemma="around">around</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="waterside">waterside</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVPfVVP" lemma="spend">spend</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="morning">morning</w>
+        <w ana="#RBfRB" lemma="around">around</w>
+        <w ana="#VVGfVVG" lemma="walk">walking</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="cafe">cafe</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="other">other</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#NNfNN" lemma="lunch">lunch</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VHDfVHD" lemma="have">had</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJSfJJS" lemma="good">best</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="morning">morning</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#RBfRB" lemma="really">really</w>
+        <w ana="#VVDfVVD" lemma="enjoy">enjoyed</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#RBfRB" lemma="so">so</w>
+        <w ana="#JJfJJ" lemma="much">much</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_163">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_164">
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="port">port</w>
+        <w ana="#NNfNN" lemma="area">area</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_165">
+        <w ana="#REfRE" lemma="no">no</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_166">
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="port">port</w>
+        <w ana="#NNfNN" lemma="area">area</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="nice">nice</w>
+        <w ana="#NNfNN" lemma="cafe">cafe</w>
+        <w ana="#INfIN" lemma="above">above</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="bike">bike</w>
+        <w ana="#NNfNN" lemma="shop">shop</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#RBfRB" lemma="always">always</w>
+        <w ana="#VVfVV" lemma="see">see</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="home">home</w>
+        <w ana="#NNfNN" lemma="port">port</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_167">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="waterside">waterside</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_168">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_169">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="really">really</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="port">port</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="mean">mean</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="see">see</w>
+        <w ana="#NNSfNNS" lemma="ship">ships</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NNfNN" lemma="stuff">stuff</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_170">
+        <w ana="#DMfDM" lemma="well">well</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#NNSfNNS" lemma="boat">boats</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_171">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_172">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">an</w>
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#JJfJJ" lemma="industrial">industrial</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#RBfRB" lemma="still">still</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_173">
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#VBGfVBG" lemma="be">being</w>
+        <w ana="#VVNfVVN" lemma="refurbish">refurbished</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PDTfPDT" lemma="all">all</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="building">buildings</w>
+        <w ana="#VBDfVBD" lemma="be">were</w>
+        <w ana="#RBfRB" lemma="quite">quite</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_174">
+        <w ana="#PPfDM" lemma="you">you</w>
+        <w ana="#VVPfDM" lemma="know">know</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="working">working</w>
+        <w ana="#NNfNN" lemma="port">port</w>
+        <w ana="#RBfRB" lemma="any">any</w>
+        <w ana="#RBfRB" lemma="more">more</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_175">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#JJfJJ" lemma="right">right</w>
+        <w ana="#RBfRB" lemma="all">all</w>
+        <w ana="#RBfRB" lemma="right">right</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_176">
+        <w ana="#CCfCC" lemma="but">but</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_177">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#NNSfNNS" lemma="ship">ships</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_178">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="crane">crane</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_179">
+        <w ana="#NNSfNNS" lemma="crane">cranes</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="still">still</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVGfVVG" lemma="function">functioning</w>
+        <w ana="#RBfRB" lemma="any">any</w>
+        <w ana="#RBfRB" lemma="more">more</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBRfRBR" lemma="more">more</w>
+        <w ana="#DMfDM">
+          <w ana="#INfIN">
+            <w lemma="like">like</w>
+          </w>
+        </w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_180">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_181">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBRfRBR" lemma="more">more</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#JJfJJ" lemma="decorative">decorative</w>
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_182">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#NNSfNNS" lemma="day">days</w>
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="working">working</w>
+        <w ana="#NNfNN" lemma="port">port</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_183">
+        <w ana="#REfRE" lemma="uhu">uhu</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_184">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="side">side</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#RBfRB" lemma="again">again</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="conference">conference</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="remember">remember</w>
+        <w ana="#VVGfVVG" lemma="walk">walking</w>
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="mean">mean</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#VVGfVVG" lemma="become">becoming</w>
+        <w ana="#RBfRB" lemma="quite">quite</w>
+        <w ana="#JJfJJ" lemma="posh">posh</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="remember">remember</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVGfVVG" lemma="sleep">sleeping</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="day">day</w>
+        <w ana="#INfIN" lemma="after">after</w>
+        <w ana="#PPSfPPS" lemma="i">my</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="talk">talk</w>
+        <w ana="#INfIN" lemma="after">after</w>
+        <w ana="#NNfNN" lemma="conference">conference</w>
+        <w ana="#INfIN" lemma="as">as</w>
+        <w ana="#JJfJJ" lemma="usual">usual</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="get">got</w>
+        <w ana="#RBfRB" lemma="up">up</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#CDfCD" lemma="six">six</w>
+        <w ana="#RBfRB" lemma="o'clock">o'clock</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="morning">morning</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="bright">bright</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#XXfXX">sat-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">se-</w>
+        <w ana="#NPfNP" lemma="september">september</w>
+        <w ana="#NPfNP" lemma="october">october</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="bright">bright</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="morning">morning</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="get">got</w>
+        <w ana="#RPfRP" lemma="up">up</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#CDfCD" lemma="six">six</w>
+        <w ana="#CDfCD" lemma="six">six</w>
+        <w ana="#CDfCD" lemma="thirty">thirty</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#VVGfVVG" lemma="run">running</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="think">thought</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="go">go</w>
+        <w ana="#VVGfVVG" lemma="jog">jogging</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="suspension">suspension</w>
+        <w ana="#NNfNN" lemma="bridge">bridge</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_185">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VHPfVHP" lemma="have">'ve</w>
+        <w ana="#RBfRB" lemma="never">never</w>
+        <w ana="#VVNfVVN" lemma="see">seen</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_186">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="famous">famous</w>
+        <w ana="#NNfNN" lemma="bridge">bridge</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="bristol">bristol</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">an</w>
+        <w ana="#JJfJJ" lemma="old">old</w>
+        <w ana="#NNfNN" lemma="bridge">bridge</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="cross">crossed</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="bridge">bridge</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="other">other</w>
+        <w ana="#NNfNN" lemma="side">side</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="side">side</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NPfNP" lemma="bristol">bristol</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#JJfJJ" lemma="amazing">amazing</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#XXfXX">b-</w>
+        <w ana="#JJfJJ" lemma="big">big</w>
+        <w ana="#NNSfNNS" lemma="house">houses</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="huge">huge</w>
+        <w ana="#NNSfNNS" lemma="garden">gardens</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVNfVVN" lemma="call">called</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#XXfXX">clift-</w>
+        <w ana="#NPfNP" lemma="clifton">clifton</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#NNfNN" lemma="something">something</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_187">
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_188">
+        <w ana="#JJfJJ" lemma="beautiful">beautiful</w>
+        <w ana="#UHfUH" lemma="oh">oh</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="so">so</w>
+        <w ana="#JJfJJ" lemma="posh">posh</w>
+        <w ana="#BRfBR">hh</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_189">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_190">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VHSfVHS" lemma="have">'s</w>
+        <w ana="#VVNfVVN" lemma="become">become</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="trendy">trendy</w>
+        <w ana="#RBfRB" lemma="kind">kind</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="cool">cool</w>
+        <w ana="#NNfNN" lemma="town">town</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_191">
+        <w ana="#XXfXX">reall-</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#DMfDM">
+          <w ana="#RBfRB">
+            <w lemma="so">so</w>
+          </w>
+        </w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VHSfVHS" lemma="have">'s</w>
+        <w ana="#RBfRB" lemma="always">always</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_192">
+        <w ana="#DTfDT" lemma="some">some</w>
+        <w ana="#NNSfNNS" lemma="area">areas</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#JJfJJ" lemma="quite">quite</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="really">really</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_193">
+        <w ana="#RBfRB" lemma="even">even</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="ninety">nineties</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#RBfRB" lemma="far">far</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#INfIN" lemma="as">as</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="depressing">depressing</w>
+        <w ana="#INfIN" lemma="as">as</w>
+        <w ana="#NPfNP" lemma="liverpool">liverpool</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_194">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_195">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+        <w ana="#JJfJJ" lemma="cool">cool</w>
+        <w ana="#NNfNN" lemma="hippie">hippie</w>
+        <w ana="#NNfNN" lemma="town">town</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_196">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_197">
+        <w ana="#RBfRB" lemma="back">back</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_198">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_199">
+        <w ana="#RBfRB" lemma="ever">ever</w>
+        <w ana="#INfIN" lemma="since">since</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_200">
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#NNfNN" lemma="sister">sister</w>
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_201">
+        <w ana="#RBfRB" lemma="recently">recently</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#RBfRB" lemma="recently">recently</w>
+        <w ana="#RBfRB" lemma="too">too</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_202">
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_203">
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+        <w ana="#RBfRB" lemma="ago">ago</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+        <w ana="#RBfRB" lemma="ago">ago</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_204">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_205">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#RBfRB" lemma="together">together</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_206">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#MDfMD" lemma="must">must</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#DTfDT">
+          <w ana="#INfIN">
+            <w lemma="that">that</w>
+          </w>
+        </w>
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="go">went</w>
+        <w ana="#PPfPP" lemma="i">myself</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_207">
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="continue">continued</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NPfNP" lemma="swansea">swansea</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NPfNP" lemma="swansea">swansea</w>
+        <w ana="#NNfNN" lemma="peninsula">peninsula</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_208">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVDfVVD" lemma="tell">told</w>
+        <w ana="#PPfPP" lemma="i">me</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_209">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NPfNP" lemma="swansea">swansea</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="long">long</w>
+        <w ana="#NNfNN" lemma="glance">glance</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#NPfNP" lemma="liverpool">liverpool</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_210">
+        <w ana="#LAfLA">@@@@</w>
+        <w ana="#LAfLA">@</w>
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_211">
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="even">even</w>
+        <w ana="#RBRfRBR" lemma="more">more</w>
+        <w ana="#JJfJJ" lemma="extreme">extreme</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_212">
+        <w ana="#LAfLA">@@@@</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_3</w>
+        <w ana="#NPfNP">a_[S1]</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#XXfXX">th-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CDfCD" lemma="three">three</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#CDfCD" lemma="nine">nine</w>
+      </u>
+      <u who="#LEcon573_S1" xml:id="LEcon573_u_213">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="need">need</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="go">go</w>
+      </u>
+      <u who="#LEcon573_S2" xml:id="LEcon573_u_214">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+    </body>
+  </text>
+</TEI>

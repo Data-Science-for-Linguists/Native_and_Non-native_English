@@ -1,0 +1,689 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="PRqas224" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>question-answer session on gender issues</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>Austrian Science Foundation (FWF)</funder>
+            <sponsor/>
+            <respStmt>
+               <resp>Corpus Compilation</resp>
+               <orgName>VOICE Project</orgName>
+               <persName>Barbara Seidlhofer</persName>
+               <persName>Angelika Breiteneder</persName>
+               <persName>Marie-Luise Pitzl</persName>
+               <persName>Stefan Majewski</persName>
+               <persName>Theresa Klimpfinger</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+	  <edition>Version 1.1 XML, <date>May 2011</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Angelika Breiteneder</name> 
+		<name>Theresa Klimpfinger</name> 
+		<name>Stefan Majewski</name> 
+		<name>Marie-Luise Pitzl</name> 
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk,
+		Marie-Luise Pitzl</publisher>
+	  <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+		<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  		<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). Minor revisions and
+		  corrections were made by Ruth Osimk. VOICE 1.1 XML is
+		  available for download at the VOICE Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+	  	<p>
+          The recommended citation for VOICE 1.1 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.1
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Ruth Osimk, Marie-Luise Pitzl.</bibl>
+		</p>
+		<p>The short citation for VOICE 1.1 XML is:
+		</p>
+		<p>
+          <bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version 1.1 XML</edition>).</bibl>
+        </p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="PRqas224_wc">Words: 5397</note>
+            <note xml:id="PRqas224_tn_0">This question-answer session follows a number of presentations. It is related to gender studies and takes place in a large conference room at the university. S2, S3, S4 and S5 are on the podium, facing the audience and answering questions. S1 functions as chair and generally leads through and directs the session. S8 hands the microphone to speakers in the audience who wish to ask questions. </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H31M01S" type="audio">
+                  <date>2005-11-28</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R10</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="PRqas224_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="PRqas224_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="PRqas224_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="PRqas224_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="PRqas224_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="PRqas224_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="PRqas224_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="PRqas224_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="PRqas224_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="PRqas224_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="PRqas224_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="PRqas224_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="PRqas224_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="PRqas224_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="PRqas224_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="PRqas224_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="PRqas224_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="orgName" occurs="1"/>
+      <tagUsage gi="persName" occurs="5"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="name" occurs="8"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="82"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="17"/>
+      <tagUsage gi="list" occurs="12"/>
+      <tagUsage gi="label" occurs="22"/>
+      <tagUsage gi="val" occurs="44"/>
+      <tagUsage gi="item" occurs="42"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="3"/>
+      <tagUsage gi="person" occurs="15"/>
+      <tagUsage gi="age" occurs="12"/>
+      <tagUsage gi="sex" occurs="12"/>
+      <tagUsage gi="langKnowledge" occurs="12"/>
+      <tagUsage gi="langKnown" occurs="12"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="6"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="2"/>
+      <tagUsage gi="u" occurs="119">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+      <tagUsage gi="pause" occurs="871">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="emph" occurs="273">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="seg" occurs="83">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="unclear" occurs="38">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="vocal" occurs="47">Used to mark laughter and other speaker
+        noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="shift" occurs="88">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="incident" occurs="8">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="c" occurs="260">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="16">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="supplied" occurs="35">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed
+		to be anonymized. The <att>reason</att> attribute is used to
+		mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="foreign" occurs="3">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the <att>voice:translation</att> attribute
+		provides a rough translation of the non-English speech into
+		English.
+		</tagUsage>
+      <tagUsage gi="gap" occurs="1">Used to mark points where a short portion of
+		speech has not been recorded or has been left untranscribed,
+		whether for editorial reasons, as part of the sampling practice,
+		or because the material is inaudible or comprises sensitive
+		content. The following <att>reason</att> attributes are used to
+		mark:
+		<list>
+		  <label><val>not_recorded</val></label><item>Not recorded
+		  speech</item>
+		  <label><val>not_transcribed</val></label><item>Not transcribed
+		  speech</item>
+		</list>
+		Further information on the reason for a gap is provided within
+		the <att>voice:desc</att> attribute.
+		</tagUsage>
+      <tagUsage gi="w" occurs="4">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:to" occurs="7">Used to mark speech directed towards a
+		particular speaker. The <att>who</att>who attribute indicates the
+		addressed speaker.</tagUsage>
+      <tagUsage gi="voice:track" occurs="10">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in
+		length) and thus refers to the audio recording of the
+		transcribed speech event.
+		</tagUsage>
+      <tagUsage gi="voice:pvc" occurs="27">Used to mark a pronunciation
+		variation or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+		VOICE mark-up conventions [2.1].</ref>the
+		VOICE mark-up conventions [2.1]. An existing word
+		corresponding to the PVC may be provided within a
+		<att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc
+		element. Additional phonetic transcription may be provided
+		within a <att>voice:ipa</att>voice:ipa attribute within the
+		<gi>voice:pvc</gi>voice:pvc element.</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#PRqas224_PR #PRqas224_qas"/>
+            <catRef target="#PR #qas"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">AT</name>
+               <name type="city">Vienna</name>
+               <locale>hall at university</locale>
+               <activity>none</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="12"/>
+                  <personGrp role="interactants" size="12"/>
+                  <personGrp role="audience" size="100"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="chair" sameAs="#P572" xml:id="PRqas224_S1">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P574" xml:id="PRqas224_S3">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ukr-UA"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P576" xml:id="PRqas224_S5">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="hun-HU"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P581" xml:id="PRqas224_S10">
+                     <age value="0">unknown</age>
+                     <sex value="0">unknown</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P582" xml:id="PRqas224_S11">
+                     <age value="0">unknown</age>
+                     <sex value="0">unknown</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="cze"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P674" xml:id="PRqas224_S2">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng-US"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P669" xml:id="PRqas224_S4">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="rus-RU"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P672" xml:id="PRqas224_S6">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P667" xml:id="PRqas224_S7">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="tur"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="coordinator" sameAs="#P661" xml:id="PRqas224_S8">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P665" xml:id="PRqas224_S9">
+                     <age value="0">unknown</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P670" xml:id="PRqas224_S12">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="cze"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person corresp="#PRqas224_S4" sameAs="#SX" xml:id="PRqas224_SX-4"/>
+                  <person sameAs="#SS" xml:id="PRqas224_SS"/>
+                  <person sameAs="#SX" xml:id="PRqas224_SX"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#PRqas224_S1 #PRqas224_S10 #PRqas224_S11 #PRqas224_S12 #PRqas224_S2 #PRqas224_S3 #PRqas224_S4 #PRqas224_S5 #PRqas224_S6 #PRqas224_S7 #PRqas224_S8 #PRqas224_S9" name="fairly_symmetrical" type="power"/>
+                  <relation mutual="#PRqas224_S1 #PRqas224_S10 #PRqas224_S11 #PRqas224_S12 #PRqas224_S2 #PRqas224_S3 #PRqas224_S4 #PRqas224_S5 #PRqas224_S6 #PRqas224_S7 #PRqas224_S8 #PRqas224_S9" name="acquaintedness_unknown" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-04-14" who="RO">changes for VOICE 1.1</change>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-12" who="AB">finalized for publication</change>
+         <change when="2008-12-16" who="TK">proof-reading</change>
+         <change when="2008-11-26" who="RO">checking</change>
+         <change when="2006-07-03" who="HB">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="00:09" voice:end_medium_number="1" voice:end_track="4" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1" voice:start_track="01">
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_1"> thank you very much for your <pause/> presentations <pause/> i must commence on it <pause/> erm there were <pause/> a <emph> couple </emph> of questions raised <seg n="8" type="overlap" xml:id="PRqas224_ol_0"><unclear> i would like </unclear></seg> first that we take er <pause dur="PT1S"/></u>
+            <u who="#PRqas224_SX" xml:id="PRqas224_u_2"><seg n="8" synch="#PRqas224_ol_0" type="overlap" xml:id="PRqas224_ol_1"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_3"><emph> ten </emph> minutes for <pause/> an <emph> op</emph>en discussion <pause/> erm <shift corresp="#PRqas224_s_2" feature="tempo" new="a" xml:id="PRqas224_s_1"/> in the audience <shift corresp="#PRqas224_s_1" feature="tempo" new="neutral" xml:id="PRqas224_s_2"/><pause dur="PT1S"/> erm <pause dur="PT1S"/> i i'm i'm <pause/> er of course i know that this <pause/> this won't be enough <shift corresp="#PRqas224_s_4" feature="loud" new="p" xml:id="PRqas224_s_3"/> for all the questions but <pause/> which is <pause dur="PT2S"/> erm t- erm <shift corresp="#PRqas224_s_3" feature="loud" new="neutral" xml:id="PRqas224_s_4"/><pause dur="PT7S"/><incident dur="PT7S" voice:desc="S8 hands microphone on to S6 "/></u>
+            <u who="#PRqas224_S6" xml:id="PRqas224_u_4"> yes er i wanted to <pause/> to ask you two in particular of the <pause dur="PT1S"/> last two </u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_5"> the last <seg n="1" type="overlap" xml:id="PRqas224_ol_2"> two </seg></u>
+            <u who="#PRqas224_S6" xml:id="PRqas224_u_6"><seg n="1" synch="#PRqas224_ol_2" type="overlap" xml:id="PRqas224_ol_3"> presen</seg>tations yeah how do you think <pause/> this problem of of translation <pause/> also applies to<c type="lengthening"/><pause/> interdisciplinary studies<c function="fall" type="intonation"/><pause dur="PT1S"/> were they said how you use this terminology and concepts <pause/> that arise in this <pause/> that come from one discipline <pause/> and yes are taken <pause/> and apply it into an<emph>other </emph><c function="fall" type="intonation"/><pause dur="PT2S"/> tha- that's the <emph> pro</emph>blem <pause/> i- in the <unclear> times </unclear> you have framed the problem<c function="fall" type="intonation"/> does it also apply <pause/> to these studies or do you <unclear> sense </unclear> any form of <pause/> i don't know s- erm<c type="lengthening"/><pause/> o- of n- of concept <pause/> b- breaking that is applied in <pause/> interdisciplinary studies<c function="fall" type="intonation"/><pause dur="PT3S"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_7"> er <pause/> it's a question to me as far as i understand yes<c function="rise" type="intonation"/></u>
+            <u who="#PRqas224_S6" xml:id="PRqas224_u_8"><vocal type="speaker_noise" voice:desc="nods"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_9"> yeah<c function="rise" type="intonation"/><pause dur="PT1S"/><voice:to who="#PRqas224_S1"> should i<c function="rise" type="intonation"/></voice:to></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_10"> yeah yeah yeah <anchor synch="#PRqas224_oc_1" type="other_continuation" xml:id="PRqas224_oc_0"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_11"><anchor synch="#PRqas224_oc_0" type="other_continuation" xml:id="PRqas224_oc_1"/> yeah<c function="fall" type="intonation"/><pause/> erm <pause dur="PT1S"/> yes<c type="lengthening"/><pause/> of course<c type="lengthening"/> you know <pause/> every <pause/> er <emph> shift </emph> from <pause/> every <pause/> every shift e<c type="lengthening"/>r of the concept from<c type="lengthening"/> every movement o- of the concept to the<c type="lengthening"/>- to the other discipline <pause/> of course you know changes the <unclear><emph> con</emph>tact </unclear><pause/> the concept<c function="fall" type="intonation"/><pause/> my erm <pause/> the<c type="lengthening"/> e<c type="lengthening"/>r the<c type="lengthening"/> the the the meaning of the concept<c function="fall" type="intonation"/><pause/> that was not my point<c function="fall" type="intonation"/><pause dur="PT1S"/> my my point <pause/> was that <pause/><shift corresp="#PRqas224_s_6" feature="tempo" new="a" xml:id="PRqas224_s_5"/> of course you know <shift corresp="#PRqas224_s_5" feature="tempo" new="neutral" xml:id="PRqas224_s_6"/> it's the <supplied reason="unintelligible"> xxx </supplied><anchor synch="#PRqas224_oc_3" type="other_continuation" xml:id="PRqas224_oc_2"/></u>
+            <u who="#PRqas224_S6" xml:id="PRqas224_u_12"><anchor synch="#PRqas224_oc_2" type="other_continuation" xml:id="PRqas224_oc_3"/> i know it wasn't you point but <pause/> the point was <pause/><seg n="2" type="overlap" xml:id="PRqas224_ol_4"> to see </seg> whether you can a- <pause/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_13"><seg n="2" synch="#PRqas224_ol_4" type="overlap" xml:id="PRqas224_ol_5"> yeah </seg></u>
+            <u who="#PRqas224_S6" xml:id="PRqas224_u_14"><seg n="3" type="overlap" xml:id="PRqas224_ol_6"> apply </seg></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_15"><seg n="3" synch="#PRqas224_ol_6" type="overlap" xml:id="PRqas224_ol_7"> can i </seg> give ex<emph>amples </emph> of this <anchor synch="#PRqas224_oc_5" type="other_continuation" xml:id="PRqas224_oc_4"/></u>
+            <u who="#PRqas224_S6" xml:id="PRqas224_u_16"><anchor synch="#PRqas224_oc_4" type="other_continuation" xml:id="PRqas224_oc_5"/> yeah whether you can translate your point into interdisciplinary studies as well<c function="fall" type="intonation"/><pause/> i know that wasn't the point you were making<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_17"><seg n="4" type="overlap" xml:id="PRqas224_ol_8"> yeah </seg></u>
+            <u who="#PRqas224_S6" xml:id="PRqas224_u_18"><seg n="4" synch="#PRqas224_ol_8" type="overlap" xml:id="PRqas224_ol_9"> my </seg> er my <pause/> my question was whether you can apply the same <pause dur="PT1S"/> erm <pause/> er er the same framework you use for <pause/> analyzing trans<emph>la</emph>tions<c function="fall" type="intonation"/><pause/> also to the context of interdisciplinary studies </u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_19"> yeah<c function="fall" type="intonation"/> so <pause/> if i understand your e<c type="lengthening"/>r again your your question <emph> pro</emph>perly then <pause/> do i believe in e<c type="lengthening"/>r like <pause dur="PT1S"/> in e<c type="lengthening"/>rm e- er that science i- is international<c function="rise" type="intonation"/><pause dur="PT1S"/> a- and er and the from this e<c type="lengthening"/>r i- i- if you if you are asking about <emph> that </emph><pause/> because then i'm not sure if we are understanding each other <seg n="5" type="overlap" xml:id="PRqas224_ol_10"> if yes </seg></u>
+            <u who="#PRqas224_S6" xml:id="PRqas224_u_20"><seg n="5" synch="#PRqas224_ol_10" type="overlap" xml:id="PRqas224_ol_11"> i- i know </seg> my questions are always a bit difficult to understand <seg n="6" type="overlap" xml:id="PRqas224_ol_12"> i <unclear> cannot cannot yeah i cannot </unclear> my que- </seg> yeah <pause/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_21"><seg n="6" synch="#PRqas224_ol_12" type="overlap" xml:id="PRqas224_ol_13"> yeah because because if that's the point </seg></u>
+            <u who="#PRqas224_S6" xml:id="PRqas224_u_22"> say it again<c function="rise" type="intonation"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_23"> yeah because if <emph> that'</emph>s the point i do believe that science is international<c function="fall" type="intonation"/><pause/> and i <unclear> join </unclear><supplied reason="anonymization"> [S3]</supplied>'s er criticism of this er <pause/> er interdisciplinary justification of gender studies especial <pause/> especial<c function="fall" type="intonation"/> i think that this is the <unclear> guide </unclear><c function="fall" type="intonation"/><pause/> and i agree with her<c function="fall" type="intonation"/> i believe that <pause/> e<c type="lengthening"/>r i believe that er er you know as latin used to be the <unclear> king </unclear> er of er <pause/> e<c type="lengthening"/>r of of science e<c type="lengthening"/>r for many years <pause/> we are now facing er the english <voice:track medium="1" num="2" type="md"/> language as a <supplied reason="unintelligible"> xx </supplied><pause/> we <pause/> have to face this<c function="fall" type="intonation"/><pause/> i mean we have to <emph> face </emph> this reality<c function="fall" type="intonation"/> we cannot er <pause/> of course you know <pause/> i'm very thankful to <pause/> e<c type="lengthening"/>rm <supplied reason="anonymization"> [S5] </supplied> that e<c type="lengthening"/>r she er made this erm <pause/> sophisticated comments e<c type="lengthening"/>r and i was not <emph> ho</emph>nest to her because in the<c type="lengthening"/><pause/> in the in <emph> my </emph> er <pause/> yeah in my original <emph> pa</emph>per that i sent to her <pause/> because i i have <pause/> compiled this <pause/> version of the paper just on my way <emph> here </emph><pause/> e<c type="lengthening"/>r i didn't have this e<c type="lengthening"/>rm er <emph> idea </emph> that this e<c type="lengthening"/>r translations can be somehow <emph> used </emph><c function="fall" type="intonation"/><pause/> can be very used pro<emph>duct</emph>ively<c function="fall" type="intonation"/><pause/> i mean not only as an object of <emph> cri</emph>ticism <pause/> they can be used <pause/> only er in a very productive <emph> way </emph><c function="fall" type="intonation"/><pause dur="PT1S"/> and er they can <pause/> be <emph> used </emph> as a erm as a com- as a as a <pause/> as a terrain for <pause/> er contacting the authors you know and so on<c function="fall" type="intonation"/> yeah <pause dur="PT2S"/></u>
+            <u who="#PRqas224_S5" xml:id="PRqas224_u_24"> do <pause/> do you want me <pause/> to com<emph>ment </emph> on it<c function="fall" type="intonation"/></u>
+            <u who="#PRqas224_S6" xml:id="PRqas224_u_25"><vocal type="speaker_noise" voice:desc="nods"/></u>
+            <u who="#PRqas224_S5" xml:id="PRqas224_u_26"> because <pause dur="PT1S"/> i've okay <pause/> i suppos<c type="lengthening"/>e <pause/> i <pause/> what you are trying to say is like whether the<c type="lengthening"/><pause/> the<c type="lengthening"/> i in in a <pause/><voice:pvc><emph> meta</emph>phoric </voice:pvc> sense of the word <pause/><voice:pvc> translatability </voice:pvc> or <pause/> translations apply to <pause/> the<c type="lengthening"/> different disciplines when <pause/><shift corresp="#PRqas224_s_8" feature="tempo" new="a" xml:id="PRqas224_s_7"/> we are talking about <voice:pvc> interdisciplinarity </voice:pvc><shift corresp="#PRqas224_s_7" feature="tempo" new="neutral" xml:id="PRqas224_s_8"/> right<c function="rise" type="intonation"/> okay<c function="fall" type="intonation"/><pause/> so<c type="lengthening"/> i would say above all that <pause/> and i have saved this comment on <shift corresp="#PRqas224_s_10" feature="voice" new="laugh" xml:id="PRqas224_s_9"/><supplied reason="unintelligible"> x </supplied> two <shift corresp="#PRqas224_s_9" feature="voice" new="neutral" xml:id="PRqas224_s_10"/> in the morning <pause/> i don't like the term personally <voice:pvc> interdisciplinarity </voice:pvc><pause dur="PT1S"/> what <pause/> what <emph> i </emph> prefer is pre<emph>cisely </emph> because of the <pause dur="PT1S"/> in my understanding this approach <pause/> what i was trying to <shift corresp="#PRqas224_s_12" feature="tempo" new="a" xml:id="PRqas224_s_11"/> sort of like <shift corresp="#PRqas224_s_11" feature="tempo" new="neutral" xml:id="PRqas224_s_12"/><pause/> put together in a nutshell here <pause dur="PT1S"/> er er concerning <pause/> trans<emph>lations </emph><pause/> applies to <pause/> to <emph> any </emph> concept when it sort of like <pause dur="PT1S"/> travel <unclear> lots of </unclear> borders <pause dur="PT1S"/> so travels across <emph> bor</emph>ders so i would rather talk about <voice:pvc> transdisciplinarity </voice:pvc><pause/> cos <voice:pvc> interdisciplinarity </voice:pvc><pause dur="PT1S"/> partly er erm <pause/> okay <emph> how </emph> it is used <emph> now </emph> at the very moment in hungary in the context of hh arguing for changing the education system <emph> in </emph><emph> line </emph> with the bologna treaty as if they were a patented version <emph> of </emph> it anyway <pause/> carved in stones <pause dur="PT1S"/> what <voice:pvc> interdisciplinarity </voice:pvc> has come to mean is like <pause/><shift corresp="#PRqas224_s_14" feature="loud" new="f" xml:id="PRqas224_s_13"/> how <shift corresp="#PRqas224_s_13" feature="loud" new="neutral" xml:id="PRqas224_s_14"/> to <pause/> save <pause dur="PT1S"/> the face if you wish <pause/> of the <emph> old </emph> disciplines <pause dur="PT1S"/> through <pause dur="PT1S"/> being an advocate of an interdisciplinary approach which constant- <pause/> -ly means like <shift corresp="#PRqas224_s_16" feature="voice" new="imitating" xml:id="PRqas224_s_15"/><shift corresp="#PRqas224_s_18" feature="loud" new="f" xml:id="PRqas224_s_17"/> oh <shift corresp="#PRqas224_s_17" feature="loud" new="neutral" xml:id="PRqas224_s_18"/> we still can do <shift corresp="#PRqas224_s_15" feature="voice" new="neutral" xml:id="PRqas224_s_16"/><pause dur="PT1S"/> sort of like <emph> close </emph> reading of literary texts as <emph> texts </emph> okay like er er er er a semiotic analysis of a <emph> text </emph> okay <pause/><emph> if </emph><emph> we </emph><pause/><emph> link </emph> it up with <pause dur="PT1S"/> well we could link it up with <emph> po</emph>pular culture we could link it up with e<c type="lengthening"/>r visual representations we can l- link it with er what<emph>ever </emph> okay<c function="rise" type="intonation"/><pause/> but <emph> always </emph><pause/> y- you you have got the literary texts <pause/> left <pause/> in the middle <pause/> and all the other <pause/><emph> poss</emph>ible er <pause/> scientific approaches comes to mean like <pause dur="PT1S"/> c- to be <voice:track medium="1" num="3" type="md"/> in a complimentary re<emph>lation</emph>ship <pause/><emph> with </emph> the literary <emph> text </emph><pause/><emph> add</emph>ing some <emph> fla</emph>vour to it so to speak but <pause/><emph> never </emph> actually <emph> chall</emph>enging <pause/> the identity if you wish <pause/> of the <emph> text </emph> and through that <pause/> that ap<emph>proach </emph><pause/> be<emph>cause </emph><emph> e</emph>verything is <pause/><emph> diff</emph>erence if you wish is <pause/> self-contained within its own own <emph> bor</emph>ders so therefore i would rather say <pause/><voice:pvc><emph> trans</emph>disciplin<emph>ar</emph>ity </voice:pvc><pause/> because <emph> that </emph> kind of <emph> leaves </emph> the whole thing <pause/> leaves <pause/> it open like <emph> which </emph> way e<emph>vent</emph>ually <pause/> some new field of s<c type="lengthening"/>cientific research is going to e<emph>merge </emph><pause/> so if you wish my<c type="lengthening"/> biggest <emph> dream </emph> at the moment as far as i <shift corresp="#PRqas224_s_20" feature="voice" new="laugh" xml:id="PRqas224_s_19"/> can see <shift corresp="#PRqas224_s_19" feature="voice" new="neutral" xml:id="PRqas224_s_20"/> now <pause/> would be like <pause/><emph> no </emph><c type="lengthening"/> separate l- literary text analysis <pause/><emph> no </emph><c type="lengthening"/> separate <pause/> er media s- m- m- media text analysis <pause/><emph> no </emph><c type="lengthening"/><pause/> no s- s<c type="lengthening"/>eparate like <pause dur="PT1S"/> institutionalized scientific field of <pause/> linguistic analysis of face-to-face inter<emph>action </emph><pause/> but rather <pause/> wha- what to do in the name of a <pause/> social semiotics way you are <pause/> er <pause/> your vested interests lie in <pause/> understanding the ideological investments of meaning pro<emph>duction </emph><pause dur="PT3S"/> t- t- t- to be an advocate of that is<c type="lengthening"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause/> i don't <seg n="1" type="overlap" xml:id="PRqas224_ol_14"> know </seg></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_27"><seg n="1" synch="#PRqas224_ol_14" type="overlap" xml:id="PRqas224_ol_15"> yeah </seg> thank you any other questions<c function="rise" type="intonation"/> erm <pause dur="PT5S"/><incident dur="PT5S" voice:desc="microphone is handed on to next speaker "/></u>
+            <u who="#PRqas224_S7" xml:id="PRqas224_u_28"> does this have power <pause/> okay my my question is again to the translation panel and to <supplied reason="anonymization"> [S4] </supplied> in particular it's more comment on the question <pause/> because you know i think er your ex<emph>amples </emph><pause/> are quite convincing <pause/> but <pause/> they are really <pause dur="PT1S"/><emph> cas</emph>es <pause/> which are <pause/> very difficult <pause/> and dangerous to generalize<c function="fall" type="intonation"/><pause/> because i <emph> think </emph><pause/> this would happen with any translation <pause/> from one discipline to an<emph>other </emph><c function="rise" type="intonation"/> to from one language to another<c function="fall" type="intonation"/><pause/> because for example i h- have my own experience when my text was translated into english<c function="fall" type="intonation"/><pause dur="PT1S"/> a <unclear> neutral </unclear> translator is a <emph> naive </emph> translator<c function="fall" type="intonation"/> and this is the term which you <emph> use </emph><pause/> and it think this is very <supplied reason="unintelligible"> xxxxx </supplied> you have these <pause/><supplied reason="unintelligible"> x </supplied> interpretations<c function="fall" type="intonation"/><pause/> these you know new meanings which <pause/> are <pause/> invented and these <pause/> sometimes <supplied reason="unintelligible"> xxxxx </supplied> of the argument <pause/> and misinterpreting <pause/> er which er i even cannot judge because <pause/> actually <pause/> e<c type="lengthening"/>r you don't look at the<c type="lengthening"/><pause/> you know er the <emph> words </emph> you look at the <emph> whole </emph> lexemes <pause/> er who<c type="lengthening"/>le semantic space yes a- and sometimes <pause/> your i believe <pause/> even that your ex<emph>amples </emph><pause/> cannot be <pause/> er read er adequately bec- because <emph> some</emph>times <pause/> in russian<c function="fall" type="intonation"/><pause/> the word <foreign type="L1" xml:lang="rus"><supplied reason="unintelligible"> xx </supplied></foreign><pause/><emph> could </emph> be translated as <pause/> reality<c function="fall" type="intonation"/><pause/> and it won't change the <emph> meaning </emph><pause/> of the phrase <pause/> i wouldn't i <pause/> i don't have <emph> con</emph>text we would have to look at the context <anchor synch="#PRqas224_oc_7" type="other_continuation" xml:id="PRqas224_oc_6"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_29"><anchor synch="#PRqas224_oc_6" type="other_continuation" xml:id="PRqas224_oc_7"/> yeah <seg n="2" type="overlap" xml:id="PRqas224_ol_16"> exactly </seg></u>
+            <u who="#PRqas224_S7" xml:id="PRqas224_u_30"><seg n="2" synch="#PRqas224_ol_16" type="overlap" xml:id="PRqas224_ol_17"> so it is </seg> very dangerous to <pause/> give this ex<emph>amples </emph><pause/> er because the erm erm from the <pause/> e<c type="lengthening"/>r text<c function="fall" type="intonation"/> it's one thing<c function="fall" type="intonation"/> and the second thing that each happens <pause dur="PT1S"/> both ways<c function="fall" type="intonation"/><pause dur="PT1S"/> yes<c function="rise" type="intonation"/> and not only <pause/> well <voice:track medium="1" num="4" type="md"/> russians translating westerners<c function="rise" type="intonation"/><pause/> westerners translating russians<c function="rise" type="intonation"/><pause/> and it's not about east and west<c function="fall" type="intonation"/><pause dur="PT2S"/> it's about <pause/> how to </u>
+         </div>
+         <gap dur="PT00H00M13S" reason="not_transcribed" voice:desc="un; bad quality of recording"/>
+         <div type="medium" voice:end="01:01" voice:end_medium_number="1" voice:end_track="11" voice:medium_type="md" voice:start="00:22" voice:start_medium_number="1" voice:start_track="4">
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_31"><voice:to who="#PRqas224_S1"> shall i respond to that<c function="rise" type="intonation"/> or <pause/> is there time to respond to that<c function="rise" type="intonation"/></voice:to></u>
+            <u who="#PRqas224_S8" xml:id="PRqas224_u_32"> sure <pause/> er what what you prefer <pause/> either we collect questions and you answer <seg n="3" type="overlap" xml:id="PRqas224_ol_18"> afterwards or </seg></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_33"><seg n="3" synch="#PRqas224_ol_18" type="overlap" xml:id="PRqas224_ol_19"> whatever </seg><pause/> whatever your decision is </u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_34"><seg n="4" type="overlap" xml:id="PRqas224_ol_20"> okay<c function="fall" type="intonation"/> yeah </seg><seg n="5" type="overlap" xml:id="PRqas224_ol_21"> cos to </seg></u>
+            <u who="#PRqas224_SX" xml:id="PRqas224_u_35"><seg n="4" synch="#PRqas224_ol_20" type="overlap" xml:id="PRqas224_ol_22"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_36"><seg n="5" synch="#PRqas224_ol_21" type="overlap" xml:id="PRqas224_ol_23"> i will collect </seg><pause/> you know i <seg n="6" type="overlap" xml:id="PRqas224_ol_24"> will write down </seg></u>
+            <u who="#PRqas224_S9" xml:id="PRqas224_u_37"><seg n="6" synch="#PRqas224_ol_24" type="overlap" xml:id="PRqas224_ol_25"> my question goes to <supplied reason="anonymization"> [S2] </supplied></seg></u>
+            <u who="#PRqas224_S8" xml:id="PRqas224_u_38"><seg n="6" synch="#PRqas224_ol_24" type="overlap" xml:id="PRqas224_ol_26"> okay then it's </seg> better to respond <seg n="7" type="overlap" xml:id="PRqas224_ol_27"> now </seg></u>
+            <u who="#PRqas224_S5" xml:id="PRqas224_u_39"><seg n="7" synch="#PRqas224_ol_27" type="overlap" xml:id="PRqas224_ol_28"> yeah </seg> mhm yeah <pause dur="PT2S"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_40"> yeah thank you very much<c function="fall" type="intonation"/><pause/> exactly<c function="fall" type="intonation"/><pause/> and this is why <pause/> i limited my <pause/> er like terms <pause/><unclear> just </unclear> only to each <unclear> other </unclear> just to show you how different <unclear> is </unclear><pause/> and i could not <pause/> give you the example why in this case <pause/> real is not er reali- reality<c function="fall" type="intonation"/><pause/> right<c function="rise" type="intonation"/><pause/> because she was <pause/> speaking about subject<supplied reason="unintelligible">x </supplied><pause/> not about reality<c function="fall" type="intonation"/><shift corresp="#PRqas224_s_22" feature="loud" new="p" xml:id="PRqas224_s_21"/> you know and er <shift corresp="#PRqas224_s_21" feature="loud" new="neutral" xml:id="PRqas224_s_22"/><pause/> and er therefore <pause/> every <pause/> every <pause/> e<c type="lengthening"/>r <pause/> every <pause/><emph> comm</emph>ent on trans<emph>lation </emph><pause/> for me it was very difficult to find ex<emph>amples </emph> to find <emph> good </emph> examples for this chart<c function="fall" type="intonation"/><pause dur="PT1S"/> simple <pause/> one-to-one correspondence<c function="fall" type="intonation"/><pause/> because of course you know you can say that <pause/> in some <pause/> in some cases agency <emph> can </emph><emph> be </emph> translated as freedom <pause/> of action<c function="fall" type="intonation"/><pause dur="PT1S"/> but basically <pause/> when e<c type="lengthening"/>rm <pause/> this is one of those <emph> terms </emph><pause/> that <pause/> are <emph> very </emph> er erm erm <pause/> oh<c function="fall" type="intonation"/> let me erm <pause/> start with this<c function="fall" type="intonation"/><pause/> there <pause/> i have identified because i'm analyzing <emph> not </emph> only gender studies translations<c function="fall" type="intonation"/><pause/> i'm <pause/> analyzing now <pause/> a <emph> load </emph> of translations <pause/> because i want to know <pause/> if it is the case in <pause/> er in if it is the state of the art <emph> only </emph> in gender studies or it is the case of the art <pause/> in er in any <pause/> sociology co- er literature<c function="fall" type="intonation"/><pause/> right now i have analyzed <pause/> like <pause/> word by word tran- <pause/> word by word <pause/> the translation of this famous book trust by <pause/><supplied reason="unintelligible" voice:ipa="dɒnka"> xxx </supplied></u>
+            <u who="#PRqas224_S7" xml:id="PRqas224_u_41"><seg n="1" type="overlap" xml:id="PRqas224_ol_29"> mhm </seg></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_42"><seg n="1" synch="#PRqas224_ol_29" type="overlap" xml:id="PRqas224_ol_30"> a </seg><pause/> classical text on the <pause/> on the trust issues<c function="fall" type="intonation"/><pause/> and er <pause/> er i have identified that the problems are the same<c function="fall" type="intonation"/><pause/> agency again <pause/> you know <pause/> o- of course i'm not speaking about <pause/> basic mistakes for instance he's speaking about <pause/> a religious <unclear> movement </unclear><pause/> armenians <pause/> and the n- <unclear> naive </unclear> translator translates this as armenians as an <voice:pvc> ethnical<c function="fall" type="intonation"/></voice:pvc><pause/> so it's not somebody who follow  this er <pause/> famous theologian protestant theologian but <pause/> er armenians are as <pause/><voice:pvc> ethnical </voice:pvc> so he doesn't see the <emph> diff</emph>erence<c function="fall" type="intonation"/><pause/> so this is what i mean by n- by naive translation hh <pause/> but of <emph> course </emph> you know the<c type="lengthening"/> er <pause/> er erm the<c type="lengthening"/> er <pause/> so he want  to say that er the<c type="lengthening"/> the<c type="lengthening"/> context a<emph>rises </emph> from the from the general per<emph>spec</emph>tive <pause dur="PT1S"/> not indeed<c function="fall" type="intonation"/><pause dur="PT1S"/> not indeed<c function="fall" type="intonation"/><pause/> for instance in many cases <pause/> people <pause/> er russian translators <pause/> translate <pause/> negoti<emph>a</emph>tion<c function="fall" type="intonation"/><pause/> there are some <emph> con</emph>cept <pause/> er there are some <emph> con</emph>cept that we don't understand completely<c function="fall" type="intonation"/><pause/> you know the <emph> con</emph>cept of negotiation <pause/> which is <pause/><emph> missing </emph><pause/> in our i mean <pause/> in our regular <emph> life </emph> it's it's the<c type="lengthening"/> er it's the<c type="lengthening"/><pause/> the society which is <pause/> not very <emph> used </emph> to negotiation<c function="fall" type="intonation"/> and there is a <pause/> an explan<emph>ation </emph> for that <pause/> very often <pause/> the concept of <voice:track medium="1" num="5" type="md"/> negotiation is <pause/> just <emph> mi</emph>ssed<c function="rise" type="intonation"/><pause/> or translated as negation<c function="rise" type="intonation"/><pause dur="PT1S"/> and er <pause/> er and of course you know there <emph> is </emph> some freedom <pause/> there is some freedom <pause/> there is some <emph> area </emph><pause/> within you can <pause/> move<c function="fall" type="intonation"/><pause/> but also this <pause/> area has limits<c function="fall" type="intonation"/><pause dur="PT1S"/> you can move within certain <emph> li</emph>mits <pause/> unless the text becomes com<emph>ple</emph>tely different<c function="fall" type="intonation"/><pause/> yeah <pause/> have you got my point<c function="fall" type="intonation"/><incident voice:desc="S7 nods"/><shift corresp="#PRqas224_s_24" feature="loud" new="p" xml:id="PRqas224_s_23"/> yeah<c function="fall" type="intonation"/> thank you <shift corresp="#PRqas224_s_23" feature="loud" new="neutral" xml:id="PRqas224_s_24"/></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_43"> thank you there was another question and <pause dur="PT1S"/><shift corresp="#PRqas224_s_26" feature="loud" new="p" xml:id="PRqas224_s_25"/> okay <shift corresp="#PRqas224_s_25" feature="loud" new="neutral" xml:id="PRqas224_s_26"/><incident voice:desc="microphone is passed on to S9"/></u>
+            <u who="#PRqas224_S9" xml:id="PRqas224_u_44"> my question goes to <supplied reason="anonymization"> [S2] </supplied><pause/> and er i'd like to ask about the <pause dur="PT1S"/> initial <pause/> part of your paper when you <pause/> spoke about the <pause/><unclear> problem </unclear><pause/> you said it was fieldwork-based research i mean <pause/><shift corresp="#PRqas224_s_28" feature="loud" new="f" xml:id="PRqas224_s_27"/> based on long-term <shift corresp="#PRqas224_s_27" feature="loud" new="neutral" xml:id="PRqas224_s_28"/><pause/> sorry <pause/> based on long-term <unclear> ideological </unclear> immersion in <pause/> daily lives of of your <unclear> inquiries </unclear><pause/> and so <pause dur="PT1S"/> i was er <pause dur="PT1S"/><shift corresp="#PRqas224_s_30" feature="tempo" new="a" xml:id="PRqas224_s_29"/> i was curious because it didn't really <shift corresp="#PRqas224_s_29" feature="tempo" new="neutral" xml:id="PRqas224_s_30"/><pause dur="PT1S"/><unclear> and </unclear> this <pause dur="PT1S"/> it was my impression it didn't come out in <emph> your </emph> presentation <pause/> what did you actually get out of this er <pause/> c- following the- them in their daily lives <shift corresp="#PRqas224_s_32" feature="tempo" new="a" xml:id="PRqas224_s_31"/> which is not <shift corresp="#PRqas224_s_31" feature="tempo" new="neutral" xml:id="PRqas224_s_32"/><pause dur="PT1S"/> as to my knowledge a common practice <pause dur="PT1S"/> when <pause/> dealing with research in this field  <w voice:mode="spelt"> n g o  </w> work and this <pause/> it is more like based on structures and structured interviews or <pause/> you know like sitting in a cafe or in a <supplied reason="unintelligible" voice:ipa="‘ɔːɡə"> xx </supplied> so <pause/> what did you get <emph> out </emph> of the <pause/> e<c type="lengthening"/>r the the the <emph> field</emph>work experience <pause/> as you say <pause/> being e<c type="lengthening"/>r present in their daily lives<c function="fall" type="intonation"/><shift corresp="#PRqas224_s_34" feature="tempo" new="a" xml:id="PRqas224_s_33"/> and interacting with them <shift corresp="#PRqas224_s_33" feature="tempo" new="neutral" xml:id="PRqas224_s_34"/> the second point <pause/> i would like to rai- <pause/> raise briefly <pause/> is the issue of e<c type="lengthening"/>r <voice:pvc> trans<emph>national</emph>ism<c function="fall" type="intonation"/></voice:pvc><pause/> and i have a <pause/> erm <pause/> a a few problems that <pause/> the way you use it <pause/> seems to me is more like crossing <pause/> borders <pause dur="PT1S"/> a<c function="fall" type="intonation"/>nd you know like crossing national borders but <pause/> that's <pause/> as far as i'm aware erm <pause/> of the the <pause/><voice:pvc> transnationalism </voice:pvc><emph> lit</emph>erature that's <pause/> that's not <pause/> the the <emph> point </emph> of it<c function="fall" type="intonation"/><pause/> t- t- <voice:pvc> trans<emph>na</emph>tionalism </voice:pvc><pause dur="PT1S"/> seems to be more e<c type="lengthening"/>r creating a a <pause/> i say new social field which is based on forging relationships <pause/> in two or more <pause/> national <emph> con</emph>texts <pause/> relationship of social economic political character<c function="fall" type="intonation"/><pause/> which i'm not really sure <pause/> if this is the case of <pause/> of your <pause/> erm <pause dur="PT1S"/> of b- the <unclear> distance </unclear> of your <pause/> of your research who <pause/> who going to buy <pause/><emph> books </emph> and then bring them back to the czech republic so <pause/> to<c type="lengthening"/> er summarize <pause/> the question what <pause/> kind of use you make of the <pause/> the concept of <voice:pvc> transnationalism </voice:pvc><pause/> a<c type="lengthening"/>nd what were you what were your reason <pause/> fo- for <emph> u</emph>sing this concept <pause/> in in in this particular context <pause dur="PT1S"/></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_45"><voice:to who="#PRqas224_S2"> are they short <pause dur="PT1S"/> answers <pause/> to this </voice:to></u>
+            <u who="#PRqas224_S2" xml:id="PRqas224_u_46"> well <pause/> no but i <pause/> i guess they could be <pause/> erm <pause dur="PT2S"/> tha- thank you very much for this question of what i got out of <pause/> being involved with daily life i mean i think that that's actually a pretty <pause dur="PT1S"/> no that's not a short answer <pause dur="PT1S"/> erm <pause dur="PT1S"/> because it has lots of really sort of <pause dur="PT1S"/> discussions about <pause/> w- what type of information you gain from <pause/> interviews versus <pause/> observation <pause/> also versus ex- <pause/> -periencing to some extent <pause dur="PT1S"/> the<c type="lengthening"/><pause/><unclear> tacit </unclear><pause dur="PT1S"/> sort of exi- existence i mean it's one thing to ask somebody what they do<c type="lengthening"/><voice:track medium="1" num="6" type="md"/> it's another thing to observe something that they do<c type="lengthening"/> it's another thing to <pause dur="PT1S"/> erm <pause dur="PT1S"/> involve yourself somehow <pause dur="PT1S"/> and none of these things i'm arguing he- i mean i'm not talking about objectivity but i'm talking about perspectives you know and like <pause/> each of those <pause/> things give you <pause dur="PT1S"/> a different angle to look at <pause dur="PT1S"/> the questions and so i guess that <pause dur="PT1S"/> i could talk about later but <pause dur="PT1S"/><shift corresp="#PRqas224_s_36" feature="loud" new="p" xml:id="PRqas224_s_35"/> cos i wanna <pause/> t- i wanna touch on the second one <shift corresp="#PRqas224_s_35" feature="loud" new="neutral" xml:id="PRqas224_s_36"/><pause/> but erm <pause dur="PT1S"/> in terms of transnational <pause/> i liked this point i thought that this was really good because i struggle with erm <vocal voice:desc="clears throat"/><pause/> terminologies<c function="fall" type="intonation"/> you know you've got international <pause/> we've got transnational <voice:pvc> supernational </voice:pvc><pause dur="PT1S"/><emph> a</emph><c type="lengthening"/><emph>nd </emph><pause/> for me it's always been <pause dur="PT1S"/> erm <pause/> and <pause/> you know a lot people use the word global right<c function="rise" type="intonation"/> it's just another one <pause/> because <pause/> got it's all it's issues <pause/> and i feel like each of these <emph> terms </emph><pause/> has its own kind of problems i mean i do- <pause/> i don't wanna say international cos i'm saying that that that in the process of m- m- of travel and <emph> mo</emph>ving <pause/> erm something gets changed in its hybrid space so you y- y- <pause/> international to me sounds like you've got bou- <emph> solid </emph> boundaries you know one <pause/> one country and another country they have these boundaries and somehow these two people can't communicate right <pause/> and then <pause/> and <shift corresp="#PRqas224_s_38" feature="tempo" new="a" xml:id="PRqas224_s_37"/> so that's <unclear> enough of it </unclear><c function="fall" type="intonation"/><shift corresp="#PRqas224_s_37" feature="tempo" new="neutral" xml:id="PRqas224_s_38"/><pause/><voice:pvc> supernational </voice:pvc> implies maybe perhaps and i mean i think that they're all proble<emph>ma</emph>tic but <pause/> it implies some kind of er <pause dur="PT3S"/> you know <pause/> moving up <pause/> moving beyond of sort of somehow creating something that <pause dur="PT1S"/> subsumes national boundaries and doesn't <pause/> necessarily isn't but isn't er <pause/> changed <pause/> and then there's <emph> trans</emph>national and i <pause/> i used think about tra- when i <pause/><emph> used </emph> to think about transnationals  and i thought about it like <pause dur="PT2S"/> more like a <voice:pvc> supernational </voice:pvc> sort of thing because somehow you're transcending <pause/> national boundaries <pause dur="PT1S"/> erm <pause dur="PT1S"/> but then i was thinking about it more in terms of <pause/> you got the <emph> move</emph>ment <pause/> and you're <emph> mo</emph>ving and <emph> in </emph> the movement you're <pause/><emph> chall</emph>enging boundaries<c function="fall" type="intonation"/> and this is sort of what i was trying to get out of the issue <pause/> of transnational <pause/> that it's not <pause dur="PT1S"/> it's not <pause/> because it's not a simple <pause dur="PT1S"/> a person is located <pause/> in <pause/> country  <w voice:mode="spelt"> x  </w><pause/> moves to country  <w voice:mode="spelt"> y  </w> picks up something and moves back <pause dur="PT1S"/> with no<c type="lengthening"/><pause dur="PT1S"/> affect <pause/> i mean i'm saying that there's a there's an <emph> affect </emph> in what i'm talking about <pause/> things are that people are changed i mean that things are changed so i <pause dur="PT1S"/> i guess i would say that that's <pause/> sort of the <pause/> rationale behind using transnational but <pause/><shift corresp="#PRqas224_s_40" feature="loud" new="p" xml:id="PRqas224_s_39"/> i'm certainly happy to keep thinking about the <pause dur="PT1S"/> implications of the terms <shift corresp="#PRqas224_s_39" feature="loud" new="neutral" xml:id="PRqas224_s_40"/></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_47"> mhm <pause/> another one<c function="rise" type="intonation"/><incident voice:desc="microphone is passed on to next speaker"/></u>
+            <u who="#PRqas224_S10" xml:id="PRqas224_u_48"> erm <pause dur="PT1S"/> i would just <pause/> like to ask e<c type="lengthening"/>r i saw <supplied reason="anonymization"> [S2] </supplied> you took notes after the commentary and we never actually got time to hear <supplied reason="anonymization"> [S2]</supplied>'s response to the commentary so if er <pause/> there's still time i would like to hear that <pause/> thanks<c function="fall" type="intonation"/></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_49"><seg n="2" type="overlap" xml:id="PRqas224_ol_31"><shift corresp="#PRqas224_s_42" feature="loud" new="p" xml:id="PRqas224_s_41"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRqas224_s_41" feature="loud" new="neutral" xml:id="PRqas224_s_42"/></seg></u>
+            <u who="#PRqas224_S2" xml:id="PRqas224_u_50"><seg n="2" synch="#PRqas224_ol_31" type="overlap" xml:id="PRqas224_ol_32"> okay </seg><pause/><voice:to who="#PRqas224_S1"><shift corresp="#PRqas224_s_44" feature="loud" new="p" xml:id="PRqas224_s_43"/> how much time do we have <shift corresp="#PRqas224_s_43" feature="loud" new="neutral" xml:id="PRqas224_s_44"/></voice:to></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_51"><shift corresp="#PRqas224_s_46" feature="loud" new="p" xml:id="PRqas224_s_45"/> i don't know <seg n="3" type="overlap" xml:id="PRqas224_ol_33"> erm </seg><shift corresp="#PRqas224_s_45" feature="loud" new="neutral" xml:id="PRqas224_s_46"/></u>
+            <u who="#PRqas224_S2" xml:id="PRqas224_u_52"><seg n="3" synch="#PRqas224_ol_33" type="overlap" xml:id="PRqas224_ol_34"> give </seg> me er <pause dur="PT1S"/> three minutes <pause dur="PT1S"/></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_53"> mhm <pause dur="PT1S"/></u>
+            <u who="#PRqas224_S2" xml:id="PRqas224_u_54"> okay <pause dur="PT3S"/> i'm looking at them and trying to decide which one <pause dur="PT2S"/> i i'll try to talk about <pause dur="PT1S"/> i mean i thought that so many of the questions i mean all the questions that <pause/> that you raised <supplied reason="anonymization"> [S3] </supplied> were really wonderful questions <pause dur="PT1S"/> that <pause/> need to be <voice:track medium="1" num="7" type="md"/><pause/> that i need to continue to consider that <pause/> erm <pause/> i don't have <pause/> beautiful <pause/><emph> ans</emph>wers for you know for exampl<c type="lengthening"/>e <pause dur="PT1S"/> why and how are eastern gender studies supposed to be different<c function="fall" type="intonation"/> i think this is a <emph> won</emph>derful question something that i want to look at in my work in terms of <emph> how </emph> for example <pause dur="PT1S"/> czech gender studies <pause/> scholars have <pause/><emph> posited </emph> this difference <pause/> in their own work in <emph> czech </emph><c function="rise" type="intonation"/> versus in english<c function="rise" type="intonation"/> there's some <pause/> er there's a couple there are a couple of interesting articles about the difference <supplied reason="unintelligible"> x </supplied> in some of which the scholars present their <pause/><emph> realities </emph><c function="fall" type="intonation"/> in the english text and in the cz- <emph> czech </emph> text you know and there <unclear> they </unclear><pause/> communicate to different audiences and something else comes out<c function="fall" type="intonation"/><pause/> erm <pause/> i wanna look at that a- also in terms of erm <pause/> re<emph>ports </emph> for the european <pause/> union<c function="fall" type="intonation"/> because then there's another sort of <pause/><emph> lay</emph>er in terms of <emph> how </emph> these things are presented <shift corresp="#PRqas224_s_48" feature="tempo" new="a" xml:id="PRqas224_s_47"/> and the similarities and the differences <shift corresp="#PRqas224_s_47" feature="tempo" new="neutral" xml:id="PRqas224_s_48"/> so <pause/> i don't have any answer for that but i really do think that that's a <pause/> wonderful aspect i hope that i can erm erm <pause/> do justice in my dissertation to some extent<c function="fall" type="intonation"/><pause dur="PT1S"/> erm <pause/> i like this question of who is authorized to speak in the name <pause dur="PT1S"/> of er <pause dur="PT1S"/> gender studies i think that this is a wonderful question as well right<c function="rise" type="intonation"/><pause/> who becomes <pause/> erm <pause/><voice:pvc comment="legitimized"> legitimated </voice:pvc> and who doesn't any wha- in what area- arenas are <unclear> you </unclear><voice:pvc comment="legitimized"> legitimated </voice:pvc> because i think that you can see that some people are <voice:pvc comment="legitimized"> legitimated </voice:pvc> only in certain <pause/> arenas<c function="fall" type="intonation"/><pause dur="PT1S"/><incident voice:desc="parallel conversation between SX-2 and SX-3 starts"/> so anyway again these are questions that i think <pause/><shift corresp="#PRqas224_s_50" feature="loud" new="p" xml:id="PRqas224_s_49"/> i need to keep working on <shift corresp="#PRqas224_s_49" feature="loud" new="neutral" xml:id="PRqas224_s_50"/> erm <pause dur="PT1S"/> but <pause dur="PT1S"/><shift corresp="#PRqas224_s_52" feature="loud" new="p" xml:id="PRqas224_s_51"/> what else <shift corresp="#PRqas224_s_51" feature="loud" new="neutral" xml:id="PRqas224_s_52"/><pause dur="PT4S"/> oh <pause/> yeah she had this great question that i'd been pondering <pause dur="PT1S"/> and i i feel really kind of <pause dur="PT1S"/> un- <pause/> -comfortable <emph> a</emph><c type="lengthening"/><emph>n</emph>swering it in some ways <pause/> this <pause/> what <unclear> practical </unclear> steps must be initiated<c function="rise" type="intonation"/> for the development <incident voice:desc="parallel conversation between SX-2 and SX-3 ends"/> of czech gender studies<c function="rise" type="intonation"/><pause dur="PT1S"/> erm <pause dur="PT2S"/> on the one hand i say <pause dur="PT1S"/> that one one part of me says <shift corresp="#PRqas224_s_54" feature="voice" new="imitating" xml:id="PRqas224_s_53"/> hh <pause/> oh <pause/> god now i'm an <pause/> now i'm an expert on czech gender studies <shift corresp="#PRqas224_s_53" feature="voice" new="neutral" xml:id="PRqas224_s_54"/><pause/> right<c function="rise" type="intonation"/><pause/> so like <unclear> here </unclear> now i have to say <shift corresp="#PRqas224_s_56" feature="tempo" new="a" xml:id="PRqas224_s_55"/> you know <shift corresp="#PRqas224_s_55" feature="tempo" new="neutral" xml:id="PRqas224_s_56"/> here now i'm compelled to make some <pause dur="PT1S"/> proclamation about what i as an expert see as what <pause/> czech gender studies <emph> needs </emph><c function="fall" type="intonation"/><pause/> right<c function="rise" type="intonation"/> and so that makes me feel funny<c function="fall" type="intonation"/> erm <pause dur="PT1S"/> but on the other hand <pause/> i <pause/> i know that there are some <pause dur="PT1S"/> things that could be done to reinforce people's positions in the academy <pause dur="PT1S"/> even in on a practical level things like pa<c type="lengthening"/>y and certain structures that would allow people to <pause/> erm <pause/> more freedom to think <pause dur="PT1S"/> as er <pause dur="PT1S"/><supplied reason="anonymization"> [S4] </supplied> says <pause/> erm <pause/> and er <pause/> and i think that this is really important<c function="fall" type="intonation"/><pause/> fo<c type="lengthening"/>r er <pause dur="PT1S"/> for building and building and building czech gender studies<c function="fall" type="intonation"/> so i mean you know and i think that there are <emph> things </emph> that i would say that definitely <pause/> can be <pause dur="PT1S"/> done but i don't <pause/> feel comfortable necessarily <pause/><emph> jum</emph>ping home hurriedly into this you know and <pause/> i have done this project and so now i can speak about what gender studies what <emph> czech </emph> gender studies me<c type="lengthening"/>ans<c function="fall" type="intonation"/> you know </u>
+            <u who="#PRqas224_S10" xml:id="PRqas224_u_55"> mhm </u>
+            <u who="#PRqas224_S2" xml:id="PRqas224_u_56"> so it was really kind of i <pause/> i felt really kind o- <pause/> i was thinking about it for a while<c function="fall" type="intonation"/><pause dur="PT1S"/> but i don't think i have any more time to talk about anything else <pause dur="PT1S"/><w voice:mode="spelt"> e u  </w> expansion is also a wonderful question that i hope i'll deal with <incident voice:desc="S2 looks at S1"/><shift corresp="#PRqas224_s_58" feature="voice" new="laugh" xml:id="PRqas224_s_57"/> right <shift corresp="#PRqas224_s_57" feature="voice" new="neutral" xml:id="PRqas224_s_58"/></u>
+            <u who="#PRqas224_SS" xml:id="PRqas224_u_57"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_58"> thank you very much <pause dur="PT1S"/><seg n="4" type="overlap" xml:id="PRqas224_ol_35"> e<c type="lengthening"/>r </seg></u>
+            <u who="#PRqas224_S8" xml:id="PRqas224_u_59"><seg n="4" synch="#PRqas224_ol_35" type="overlap" xml:id="PRqas224_ol_36"> there </seg><pause/> there are two <voice:track medium="1" num="8" type="md"/> more <seg n="5" type="overlap" xml:id="PRqas224_ol_37"> questions<c function="fall" type="intonation"/><supplied reason="anonymization"> [S11] </supplied></seg><pause/></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_60"><seg n="5" synch="#PRqas224_ol_37" type="overlap" xml:id="PRqas224_ol_38"> two more questions<c function="rise" type="intonation"/></seg></u>
+            <u who="#PRqas224_S8" xml:id="PRqas224_u_61"> and <supplied reason="anonymization"> [S12] </supplied></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_62"> okay<c function="fall" type="intonation"/><pause/> okay<c function="rise" type="intonation"/></u>
+            <u who="#PRqas224_S8" xml:id="PRqas224_u_63"> but maybe we collect them and you try to keep it short <pause/><shift corresp="#PRqas224_s_60" feature="loud" new="p" xml:id="PRqas224_s_59"/> and <shift corresp="#PRqas224_s_59" feature="loud" new="neutral" xml:id="PRqas224_s_60"/></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_64"> it depends on <pause/> what <pause/><seg n="6" type="overlap" xml:id="PRqas224_ol_39"><supplied reason="unintelligible"> xxxx </supplied></seg></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_65"><seg n="6" synch="#PRqas224_ol_39" type="overlap" xml:id="PRqas224_ol_40"> yes there are </seg><pause/> two m- <pause/> more questions short questions and short <seg n="7" type="overlap" xml:id="PRqas224_ol_41"> answers </seg> if that's possible <anchor synch="#PRqas224_oc_9" type="other_continuation" xml:id="PRqas224_oc_8"/></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_66"><seg n="7" synch="#PRqas224_ol_41" type="overlap" xml:id="PRqas224_ol_42"> okay<c function="fall" type="intonation"/></seg></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_67"><anchor synch="#PRqas224_oc_8" type="other_continuation" xml:id="PRqas224_oc_9"/> maybe <pause/> just <pause/> a very short comment <pause/><voice:to who="#PRqas224_S4"> to you<c function="rise" type="intonation"/></voice:to><pause dur="PT1S"/> erm <pause/> i wondered why you were <pause/> so pessimistic<c function="fall" type="intonation"/><pause/> i remember twenty years ago when we started to read <pause/> sandra harding's <pause/> erm book <pause/> i i forgot the title it's about feminist philosophy of science <pause/> and it was a <pause/><emph> terr</emph>ible german translation<c function="fall" type="intonation"/><pause/><seg n="1" type="overlap" xml:id="PRqas224_ol_43"> and we were </seg> really struggling with the <emph> sen</emph>tences but in a way that's kind of following up <pause/></u>
+            <u who="#PRqas224_S2" xml:id="PRqas224_u_68"><seg n="1" synch="#PRqas224_ol_43" type="overlap" xml:id="PRqas224_ol_44"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_69"> what er- <supplied reason="anonymization"> [S5] </supplied> was saying <pause/> erm <pause/> it had a very productive outcome<c function="fall" type="intonation"/><emph> first </emph> of all <emph> many </emph> people started <pause/> er they improved their <emph> english </emph> because it was <emph> ob</emph>vious that the text was <emph> terr</emph>ible and that you need to understand english <pause/> to really <pause dur="PT1S"/> get the i<emph>deas </emph><pause/> and on the <emph> other </emph> hand we started discussing<c function="fall" type="intonation"/> and you came up with new <emph> mean</emph>ings<c function="fall" type="intonation"/><pause/> i mean <pause/> making up <pause/> your own th- kind of <pause/><emph> more </emph> or less o- own <pause/> your own ideas<c function="fall" type="intonation"/><pause/> about certain topics<c function="fall" type="intonation"/> so <pause/> it's <pause/> a bit <pause/> i mean i <emph> can </emph><pause/> understand as a translator it's hard to read such a text and to see <pause/> what's going on in the translation <pause/> but it's also saying <seg n="2" type="overlap" xml:id="PRqas224_ol_45"> so </seg><pause/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_70"><seg n="2" synch="#PRqas224_ol_45" type="overlap" xml:id="PRqas224_ol_46"> yeah </seg></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_71"> what about the productive <emph> part </emph><pause/> of a of a <emph> bad </emph><pause/> translation<c function="fall" type="intonation"/><anchor synch="#PRqas224_oc_11" type="other_continuation" xml:id="PRqas224_oc_10"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_72"><anchor synch="#PRqas224_oc_10" type="other_continuation" xml:id="PRqas224_oc_11"/> yeah <anchor synch="#PRqas224_oc_13" type="other_continuation" xml:id="PRqas224_oc_12"/></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_73"><anchor synch="#PRqas224_oc_12" type="other_continuation" xml:id="PRqas224_oc_13"/> and maybe <pause/> o- <pause/> only a short <emph> second </emph><pause/> and maybe that's more <pause/> in direction of <supplied reason="anonymization"> [S5] </supplied><pause/> when i was listening to the discussion of on <voice:pvc> interdisciplinarity </voice:pvc><pause/><seg n="3" type="overlap" xml:id="PRqas224_ol_47"> i </seg> was really thinking <pause dur="PT1S"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_74"><seg n="3" synch="#PRqas224_ol_47" type="overlap" xml:id="PRqas224_ol_48"> mhm </seg></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_75"> about <pause dur="PT1S"/> or maybe it's <pause/> as well for <emph> you </emph><pause/> erm if you look <pause/> i'm working in the field of science and technology studies<c function="fall" type="intonation"/> and you're handling terms like <pause/> autonomy<c function="fall" type="intonation"/><pause/> autonomy<c function="rise" type="intonation"/><pause/> in th- the field of philosophy <pause/> and in the field of robotics<c function="fall" type="intonation"/><pause dur="PT1S"/> er i mean <pause/> engineering<c function="fall" type="intonation"/><pause/> people <seg n="4" type="overlap" xml:id="PRqas224_ol_49"> who </seg><pause/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_76"><seg n="4" synch="#PRqas224_ol_49" type="overlap" xml:id="PRqas224_ol_50"> mhm </seg></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_77"> make <pause/> autonomous systems<c function="fall" type="intonation"/><pause/> they have the <emph> same </emph> word and if i would translate english text from philosophy <pause/> or <pause/> er from engineering <pause/> i would <pause/> use the same term in german<c function="fall" type="intonation"/><pause/> and it has very different connotations<c function="fall" type="intonation"/><pause/> so <pause/> there's always this traveling and this <pause/> this kind of <emph> shift</emph>ing of meaning which is also very interesting<c function="fall" type="intonation"/><pause/> i'm not sure how this fits together but this was something<c function="fall" type="intonation"/><pause/><shift corresp="#PRqas224_s_62" feature="loud" new="p" xml:id="PRqas224_s_61"/> which came to my mind<c function="fall" type="intonation"/><pause/> thank you <shift corresp="#PRqas224_s_61" feature="loud" new="neutral" xml:id="PRqas224_s_62"/><pause dur="PT2S"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_78"> thank you very much for the <emph> quest</emph>ion <pause/> and er <pause/> e<c type="lengthening"/>r i will tell you about <pause/> e<c type="lengthening"/>r one <emph> as</emph>pect of er <pause/> this <pause/><emph> re</emph>search that i haven't mentioned and i ex<emph>pect</emph>ed this question <pause/> basically <anchor synch="#PRqas224_oc_15" type="other_continuation" xml:id="PRqas224_oc_14"/></u>
+            <u who="#PRqas224_SS" xml:id="PRqas224_u_79"><anchor synch="#PRqas224_oc_14" type="other_continuation" xml:id="PRqas224_oc_15"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="6"/><seg n="5" type="overlap" xml:id="PRqas224_ol_51"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_80"><seg n="5" synch="#PRqas224_ol_51" type="overlap" xml:id="PRqas224_ol_52"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><pause/>  why i'm so pessimistic<c function="fall" type="intonation"/><pause dur="PT1S"/><emph> because </emph><pause dur="PT1S"/> when <pause/> e<c type="lengthening"/>r <emph> i </emph><pause/> am trying to <pause/> expose my colleagues who are <pause/> out of the area of gender studies<c function="fall" type="intonation"/><pause/> to <pause/> er <pause/> what i'm <emph> doing </emph><pause/> and <pause/> when i <pause/> want to <pause/> show them good examples of what has been done for instance in the <emph> west </emph><pause/> i ha- i hav- i'm having very tough times to find good examples of this <pause/> work in russian<c function="fall" type="intonation"/><pause/> and er <pause/> i'm not speaking about <voice:track medium="1" num="9" type="md"/> regular mistakes in <emph> russian </emph><pause dur="PT1S"/> i i have not had time <pause/> to speak about <emph> style </emph> to speak about russian <emph> grammar </emph> which is sometimes completely perverted <pause/><seg n="6" type="overlap" xml:id="PRqas224_ol_53"> i mean </seg><pause/></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_81"><seg n="6" synch="#PRqas224_ol_53" type="overlap" xml:id="PRqas224_ol_54"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_82"> which er <pause/> which is <emph> diff</emph>icult i <seg n="7" type="overlap" xml:id="PRqas224_ol_55"> mean </seg><pause/></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_83"><seg n="7" synch="#PRqas224_ol_55" type="overlap" xml:id="PRqas224_ol_56"> yeah </seg></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_84"> er <pause/> russian grammar is difficult and sometimes you know the <pause/> the russian translators don't know just <pause/> basic <pause/><emph> russ</emph>- <emph> russ</emph>ian grammar <pause/> i am very much afraid <pause/> that this discriminates gender studies as an area of <emph> re</emph>search <pause/> in the eyes of somebody who does not belong to this area<c function="fall" type="intonation"/><pause/> so i- it is the <pause/> it is the <emph> issue </emph> of trustworthiness <pause/> i understand perfectly well <pause/><emph> that </emph><pause/> the context is is su<emph>gge</emph>sting the meaning<c function="fall" type="intonation"/><pause dur="PT1S"/> i'm er <pause/> basically <pause/> i'm <emph> not </emph> on the side of this you know there was a discussion between <pause/><foreign type="LN" xml:lang="fre"> sourcist </foreign> and <foreign type="LN" xml:lang="fre"> civiliste </foreign> you know er er the <emph> french </emph> terms again you know people who are <emph> more </emph><pause/> concentrated on the <emph> ade</emph>quacy of the original <pause/> e<c type="lengthening"/>rm er term and the people who are <emph> more </emph> on the side of the <pause/> of the translations<c function="fall" type="intonation"/><pause/> i i'm out of this discussion because <pause/><emph> i </emph> as a translator <pause/> i i am i mean <pause/> thirty years of translation show me that even a very bad trans<emph>lation </emph><pause/> you you h- you somehow understand what in <pause/> what it <pause/> m- means<c function="fall" type="intonation"/><pause/> if i- <pause/> if it is <emph> not </emph> an excerpt of seven pages<c function="fall" type="intonation"/><pause/> but i- but if it is <pause/> an excerpt of seven pages <pause/> bad grammar <pause/> bad style <pause/> bad phonetics <pause/> and sometimes <pause dur="PT1S"/> very familiar <emph> na</emph>mes for instances <unclear> roles </unclear><pause/> would be misspelled<c function="fall" type="intonation"/><pause/> you know this very familiar names from the people from other disciplina- <pause/> di- <pause/> disciplines <unclear> we'll </unclear> see you know darwin <pause/> is er <pause/> erm misspelled or something else you know this crazy <pause/> crazy stuff <pause/><emph> then </emph> it is the <pause/> the the issue of <shift corresp="#PRqas224_s_64" feature="tempo" new="l" xml:id="PRqas224_s_63"/> trustworthiness <shift corresp="#PRqas224_s_63" feature="tempo" new="neutral" xml:id="PRqas224_s_64"/> of gender studies as an area </u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_85"> mhm </u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_86"> and <emph> then </emph><pause/> i- it produces a lot of sceptics <pause dur="PT1S"/> you know <pause/> listen <pause/> a- as as one of my colleagues said <pause/> i and i said to him <shift corresp="#PRqas224_s_66" feature="voice" new="imitating" xml:id="PRqas224_s_65"/> oh <pause/> it's a very bad sample of research <shift corresp="#PRqas224_s_65" feature="voice" new="neutral" xml:id="PRqas224_s_66"/> and he said to me <pause/><shift corresp="#PRqas224_s_68" feature="voice" new="imitating" xml:id="PRqas224_s_67"/> oh i thought that that's your <emph> stan</emph>dard <shift corresp="#PRqas224_s_67" feature="voice" new="neutral" xml:id="PRqas224_s_68"/><pause dur="PT1S"/></u>
+            <u who="#PRqas224_SS" xml:id="PRqas224_u_87"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="5" type="overlap" xml:id="PRqas224_ol_57"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_88"><seg n="5" synch="#PRqas224_ol_57" type="overlap" xml:id="PRqas224_ol_58"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="4"/>  it will improve <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><seg n="1" type="overlap" xml:id="PRqas224_ol_59"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_89"><seg n="1" synch="#PRqas224_ol_59" type="overlap" xml:id="PRqas224_ol_60"> it will improve er i believe that er thi- this is why i'm involved in this </seg><pause/> erm <pause/> in this er guilt er er <pause/> my<emph>self </emph><c function="fall" type="intonation"/><pause/> i'm the member of the <emph> guilt </emph> and i'm also vulnerable to <emph> criti</emph>cism and er <pause/> erm <pause/> i am expecting all kind of criticism of the <pause/> the text that i translated my<emph>self </emph><pause dur="PT1S"/> and er also my translation of <emph> po</emph>etics <shift corresp="#PRqas224_s_70" feature="tempo" new="a" xml:id="PRqas224_s_69"/> i'm not speaking about the translation of <emph> po</emph>etics but <shift corresp="#PRqas224_s_69" feature="tempo" new="neutral" xml:id="PRqas224_s_70"/><shift corresp="#PRqas224_s_72" feature="loud" new="f" xml:id="PRqas224_s_71"/> i <emph> wo</emph>rry<c function="fall" type="intonation"/><pause/> about the reputation<c function="fall" type="intonation"/><shift corresp="#PRqas224_s_71" feature="loud" new="neutral" xml:id="PRqas224_s_72"/><pause dur="PT1S"/></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_90"><shift corresp="#PRqas224_s_74" feature="loud" new="p" xml:id="PRqas224_s_73"/> mhm <shift corresp="#PRqas224_s_73" feature="loud" new="neutral" xml:id="PRqas224_s_74"/><pause dur="PT1S"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_91"> if <pause/> we are <pause/> proliferating <pause/> bad <pause/> samples<c function="fall" type="intonation"/><pause/> then we are <pause/> undermining ourselves<c function="fall" type="intonation"/><pause/><shift corresp="#PRqas224_s_76" feature="loud" new="p" xml:id="PRqas224_s_75"/> yes <pause/> that's enough <shift corresp="#PRqas224_s_75" feature="loud" new="neutral" xml:id="PRqas224_s_76"/><pause/> and thank you for the <shift corresp="#PRqas224_s_78" feature="voice" new="laugh" xml:id="PRqas224_s_77"/> question <shift corresp="#PRqas224_s_77" feature="voice" new="neutral" xml:id="PRqas224_s_78"/><pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="2" type="overlap" xml:id="PRqas224_ol_61"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas224_S11" xml:id="PRqas224_u_92"><seg n="2" synch="#PRqas224_ol_61" type="overlap" xml:id="PRqas224_ol_62"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><seg n="3" type="overlap" xml:id="PRqas224_ol_63"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_93"><seg n="3" synch="#PRqas224_ol_63" type="overlap" xml:id="PRqas224_ol_64"> okay<c function="rise" type="intonation"/></seg></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_94"> yes <pause dur="PT1S"/></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_95"> erm<c type="lengthening"/><pause/> the last question<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRqas224_S12" xml:id="PRqas224_u_96"> well if i have time <pause/> i have <seg n="4" type="overlap" xml:id="PRqas224_ol_65"> e<c type="lengthening"/>r </seg></u>
+            <u who="#PRqas224_S8" xml:id="PRqas224_u_97"><seg n="4" synch="#PRqas224_ol_65" type="overlap" xml:id="PRqas224_ol_66"> just </seg> make it short </u>
+            <u who="#PRqas224_SS" xml:id="PRqas224_u_98"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="7"/><seg n="5" type="overlap" xml:id="PRqas224_ol_67"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas224_S12" xml:id="PRqas224_u_99"><seg n="5" synch="#PRqas224_ol_67" type="overlap" xml:id="PRqas224_ol_68"> okay </seg> but <pause/><supplied reason="anonymization"> [S2] </supplied> e<c type="lengthening"/>r <pause/> my <pause/> first thing <pause/> would be this problem with location of czech republic because it <emph> is </emph> in european union and i think that the exa- <pause/><seg n="6" type="overlap" xml:id="PRqas224_ol_69"> example </seg> that you <emph> men</emph>tioned that <pause/></u>
+            <u who="#PRqas224_SX-4" xml:id="PRqas224_u_100"><seg n="6" synch="#PRqas224_ol_69" type="overlap" xml:id="PRqas224_ol_70"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas224_S12" xml:id="PRqas224_u_101"> two years ago some things have changed and <supplied reason="anonymization"> [S4] </supplied> i think it is <emph> rea</emph>lly connected with the location <pause/> so it's <emph> not </emph> er <pause/><emph> east </emph> any more <pause dur="PT1S"/> how to put it it's <emph> not </emph> periphery<c function="fall" type="intonation"/> it could be <pause/> at the best <voice:pvc><emph> semi</emph>-periphery </voice:pvc> or some kind er <pause/> but i mean it's <emph> not </emph> east any more <voice:track medium="1" num="10" type="md"/> so this really makes the difference<c function="fall" type="intonation"/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_102"> uhu </u>
+            <u who="#PRqas224_S12" xml:id="PRqas224_u_103"><unclear> at least </unclear> we are <pause/> we <pause/> who are outside we understand <pause/> the difference very <emph> well </emph></u>
+            <u who="#PRqas224_SS" xml:id="PRqas224_u_104"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="7" type="overlap" xml:id="PRqas224_ol_71"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRqas224_S12" xml:id="PRqas224_u_105"><seg n="7" synch="#PRqas224_ol_71" type="overlap" xml:id="PRqas224_ol_72"> and e<c type="lengthening"/>r </seg><pause dur="PT1S"/> second thing <pause/> again <pause/><supplied reason="anonymization"> [S2] </supplied> e<c type="lengthening"/>r would be this <pause/><supplied reason="unintelligible" voice:ipa="‘fɑːðəs"> xx </supplied> comments and <unclear> her </unclear> expectations which really <pause dur="PT1S"/> tha- <pause/> it was really sur<emph>prising </emph> for me <pause dur="PT1S"/> e<c type="lengthening"/>r <pause/> in a way this very prag<emph>matic </emph> approach to<c type="lengthening"/> substa- er to <pause/> to study to <pause/> to car<emph>eer </emph> et <pause/> et cetera and this i think <pause dur="PT1S"/> er <pause dur="PT1S"/> i would like to hear your under<emph>standing </emph> of tha- of that <pause dur="PT1S"/> and <emph> then </emph> i would like to go to this <pause/> e- ess- <pause/> essential thing <pause/> which is what people come to <emph> do </emph> with a text since er <supplied reason="unintelligible"> xxxx </supplied><unclear> mentioned </unclear><c function="fall" type="intonation"/><pause dur="PT1S"/> and e<c type="lengthening"/>r with an<emph>other </emph> thing that <supplied reason="anonymization"> [S3] </supplied> was saying <pause/> e<c type="lengthening"/>r <pause/> that there is some kind and you were giving the same ex<emph>ample </emph> that there is some kinds of <pause/> i would <pause/> er say systematic dis<emph>to</emph><c type="lengthening"/>rtions <pause/> which <pause/><emph> can </emph> be <pause/><emph> ve</emph>ry useful places and this <seg n="1" type="overlap" xml:id="PRqas224_ol_73"> was </seg><pause/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_106"><seg n="1" synch="#PRqas224_ol_73" type="overlap" xml:id="PRqas224_ol_74"> uhu </seg></u>
+            <u who="#PRqas224_S12" xml:id="PRqas224_u_107"><shift corresp="#PRqas224_s_80" feature="tempo" new="a" xml:id="PRqas224_s_79"/> v- very similar to what was <shift corresp="#PRqas224_s_79" feature="tempo" new="neutral" xml:id="PRqas224_s_80"/><emph> i </emph> saying in the morning <pause/></u>
+            <u who="#PRqas224_S12" xml:id="PRqas224_u_108"> that we should explore distortions to understand <pause/> what really comes <emph> out </emph> that <pause dur="PT1S"/> and i <emph> wouldn't </emph> say it's about men<emph>tality </emph> of people<c function="fall" type="intonation"/> i would go to this <pause/> contextual an<emph>alysis </emph><pause/> to understand <emph> why </emph> for example <pause/> for me this is striking<c function="fall" type="intonation"/><pause/> that <emph> agency </emph><emph> is </emph><pause/> translated as freedom of <emph> action </emph> as kind of systematic <emph> error </emph><pause dur="PT1S"/> because <emph> free</emph>dom <pause/> is an <emph> issue </emph><pause/> in russia<c function="fall" type="intonation"/><pause/> and i mean if we don't er was<c function="fall" type="intonation"/><pause dur="PT1S"/> er or <emph> is </emph><c function="fall" type="intonation"/><pause/><seg n="2" type="overlap" xml:id="PRqas224_ol_75"> e<c type="lengthening"/>r <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><pause/></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_109"><seg n="2" synch="#PRqas224_ol_75" type="overlap" xml:id="PRqas224_ol_76"> still <emph> is </emph></seg></u>
+            <u who="#PRqas224_S12" xml:id="PRqas224_u_110"> and if we don't under<emph>stand </emph><pause/><emph> why </emph> translators really <emph> ma</emph>ke these kinds in this kinds of systemic <pause/> distortions <pause/> then we are lacking the opportunity <pause/> to <pause/> to really get to <emph> know </emph> something<c function="fall" type="intonation"/><pause/> and then what people really <emph> do </emph> with that i mean if you go to other <unclear> locals </unclear><pause/> as i do and er <pause/> understand how people trans<emph>late </emph><pause/> different <pause/> e<c type="lengthening"/>r <pause/> er different expressions relating to gender mainstreaming and gender er and whatever </u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_111"><voice:to who="#PRqas224_S5"><shift corresp="#PRqas224_s_82" feature="voice" new="whisp" xml:id="PRqas224_s_81"/> gender mainstreaming <seg n="3" type="overlap" xml:id="PRqas224_ol_77"> is <emph> su</emph>per </seg><shift corresp="#PRqas224_s_81" feature="voice" new="neutral" xml:id="PRqas224_s_82"/></voice:to></u>
+            <u who="#PRqas224_S12" xml:id="PRqas224_u_112"><seg n="3" synch="#PRqas224_ol_77" type="overlap" xml:id="PRqas224_ol_78"> and how they em</seg>ploy these things in their practices <pause dur="PT1S"/> you start to understand that it's really <emph> not </emph> about purity<c function="fall" type="intonation"/><pause dur="PT1S"/> it <emph> is </emph> about <pause/> the action it is about <emph> their </emph> understanding<c function="fall" type="intonation"/> it is about <emph> their </emph><pause/> agency <pause/> which really comes the most important<c function="fall" type="intonation"/> and i could give hundreds of examples but <pause dur="PT1S"/> i don't know <pause dur="PT1S"/><supplied reason="unintelligible"> xx </supplied></u>
+            <u who="#PRqas224_SS" xml:id="PRqas224_u_113"><seg n="4" type="overlap" xml:id="PRqas224_ol_79"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="6"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#PRqas224_S4" xml:id="PRqas224_u_114"><seg n="4" synch="#PRqas224_ol_79" type="overlap" xml:id="PRqas224_ol_80"> yeah yeah yeah me too <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#PRqas224_S3" xml:id="PRqas224_u_115"><unclear> most important problem </unclear> you know it's about <pause dur="PT1S"/> it seems to me <pause/> discussing translation of gender studies <pause/> it seems to me it's also <pause/> not only er the disaster of gender studies in russia or <voice:pvc> post-soviet </voice:pvc><emph> space </emph> it is also <unclear> that it is a mess of </unclear> great russian school of translation at <emph> all </emph><pause/> and i it's erm <unclear> current trends so </unclear> to say in <emph> our </emph><pause/> linguistics <voice:pvc><unclear> literaries </unclear></voice:pvc><pause/> erm studies and so to <emph> say </emph><c function="fall" type="intonation"/> it's very <emph> pity </emph> to say <pause/><emph> but </emph> e<c type="lengthening"/>r now there is <emph> no </emph> russian great school of <pause/> e<c type="lengthening"/>r translators like <supplied reason="unintelligible"> xx xxxx x </supplied> and so to say<c function="fall" type="intonation"/><pause dur="PT1S"/><shift corresp="#PRqas224_s_84" feature="loud" new="p" xml:id="PRqas224_s_83"/> it's <unclear> all so </unclear> difficult <shift corresp="#PRqas224_s_83" feature="loud" new="neutral" xml:id="PRqas224_s_84"/></u>
+            <u who="#PRqas224_S2" xml:id="PRqas224_u_116"> and then i need to say really i think i'll try to <pause/><supplied reason="anonymization"> [S12] </supplied><pause/> one thing i wanna say <pause/> before they cut me off <pause dur="PT1S"/> okay<c function="fall" type="intonation"/> so <voice:track medium="1" num="11" type="md"/> this is <pause/> it is a good <emph> point </emph> right<c function="rise" type="intonation"/> this location issue and of the relationship <shift corresp="#PRqas224_s_86" feature="tempo" new="a" xml:id="PRqas224_s_85"/> of the european union<c function="fall" type="intonation"/> i mean it's something <unclear> i should say that </unclear><supplied reason="anonymization"> [S3] </supplied><pause/> bro- brought up and it's something <pause/> that i wanna deal with <shift corresp="#PRqas224_s_85" feature="tempo" new="neutral" xml:id="PRqas224_s_86"/><pause dur="PT1S"/> if it's <emph> not </emph> east any more <pause/> and it's not west <pause/> what is it<c function="rise" type="intonation"/></u>
+            <u who="#PRqas224_S12" xml:id="PRqas224_u_117"><voice:pvc> semi-periphery<c function="rise" type="intonation"/></voice:pvc><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="5" type="overlap" xml:id="PRqas224_ol_81"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#PRqas224_S2" xml:id="PRqas224_u_118"><seg n="5" synch="#PRqas224_ol_81" type="overlap" xml:id="PRqas224_ol_82"> exactly you </seg> said <pause/> at <emph> best </emph><voice:pvc> semi-periphery </voice:pvc> as if you were sort of moving the czech republic out of the <voice:pvc> semi-<emph>peri</emph>phery </voice:pvc><pause dur="PT1S"/> and so this is an interesting <emph> quest</emph>ion right like what do we <emph> do </emph> with all this stuff and how do we <pause/> you know has it you can't i i'm not gonna say that it it <pause/> that all <pause dur="PT1S"/> that <pause/> everything has <pause/> that the czech republic by joining the european union has somehow become <pause/><emph> just </emph> like <emph> france </emph><pause dur="PT1S"/> for example<c function="fall" type="intonation"/><pause dur="PT1S"/> i'm not comfortable <emph> saying </emph> that<c function="fall" type="intonation"/> you know what i mean<c function="rise" type="intonation"/> people still ex<emph>press </emph> things <pause/> in a way that suggests <pause/> important <pause/> erm <pause/> differences and nuances <emph> power </emph> struggles and <emph> so </emph> on <pause/> so it's an interesting question <pause/><voice:to who="#PRqas224_S1"><shift corresp="#PRqas224_s_88" feature="loud" new="p" xml:id="PRqas224_s_87"/> and i wanna talk about it <pause/> but <shift corresp="#PRqas224_s_87" feature="loud" new="neutral" xml:id="PRqas224_s_88"/></voice:to><pause dur="PT1S"/> thanks <pause dur="PT1S"/></u>
+            <u who="#PRqas224_S1" xml:id="PRqas224_u_119"> thank you very much <pause/> thank you for all the infos an<c type="lengthening"/>d <pause/> your patience and <emph> i </emph> e<c type="lengthening"/>r would shu- <pause/> suggest that <pause/> er further discussions <pause/> may go on in <pause/> in e<c type="lengthening"/>r coffee break we'll have now for about ten minutes<c function="rise" type="intonation"/></u>
+         </div>
+      </body>
+   </text>
+</TEI>

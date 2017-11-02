@@ -1,0 +1,610 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="PRqas407" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>question-answer session on development of stock markets in Central and Eastern European countries</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>Austrian Science Foundation (FWF)</funder>
+            <sponsor/>
+            <respStmt>
+               <resp>Corpus Compilation</resp>
+               <orgName>VOICE Project</orgName>
+               <persName>Barbara Seidlhofer</persName>
+               <persName>Angelika Breiteneder</persName>
+               <persName>Marie-Luise Pitzl</persName>
+               <persName>Stefan Majewski</persName>
+               <persName>Theresa Klimpfinger</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+		<edition>Version 1.0 XML, <date>May 2011</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Angelika Breiteneder</name> 
+		<name>Theresa Klimpfinger</name> 
+		<name>Stefan Majewski</name> 
+		<name>Marie-Luise Pitzl</name> 
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Marie-Luise Pitzl</publisher> 
+	  <distributor>VOICE Project, University of Vienna, Austria</distributor> 
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+	  	<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  	<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE 1.0 XML is
+		  available for download at the VOICE Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+		  http://creativecommons.org/licenses/by-nc-sa/3.0/
+		  </ref>). The original audio files are held at the Department
+		  of English, University of Vienna. 23 selected audio files
+		  are available as audio streams in the VOICE Online interface
+		  at the VOICE Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+		<p>
+		The recommended citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Marie-Luise Pitzl.</bibl>
+		</p>
+		<p>The short citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>).</bibl></p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="PRqas407_wc">Words: 4548</note>
+            <note xml:id="PRqas407_tn_0">This question-answer session addresses the development of stock markets and pension reforms in Central and Eastern European countries, particularly in the new member states of the European Union. Speakers also talk about the changing and challenging international economic standards applied to these regions. The session is chaired by S1, who mostly assigns turns to panellists and audience members.  </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H27M51S" type="audio">
+                  <date>2004-11-19</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R3</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="PRqas407_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="PRqas407_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="PRqas407_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="PRqas407_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="PRqas407_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="PRqas407_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="PRqas407_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="PRqas407_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="PRqas407_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="PRqas407_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="PRqas407_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="PRqas407_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="PRqas407_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="PRqas407_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="PRqas407_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="PRqas407_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="PRqas407_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="orgName" occurs="1"/>
+      <tagUsage gi="persName" occurs="5"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="name" occurs="8"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="81"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="14"/>
+      <tagUsage gi="list" occurs="11"/>
+      <tagUsage gi="label" occurs="20"/>
+      <tagUsage gi="val" occurs="42"/>
+      <tagUsage gi="item" occurs="40"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="3"/>
+      <tagUsage gi="person" occurs="11"/>
+      <tagUsage gi="age" occurs="8"/>
+      <tagUsage gi="sex" occurs="8"/>
+      <tagUsage gi="occupation" occurs="4"/>
+      <tagUsage gi="langKnowledge" occurs="8"/>
+      <tagUsage gi="langKnown" occurs="8"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="5"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="1"/>
+      <tagUsage gi="u" occurs="94">Used to mark a stretch of speech commonly
+		preceded and followed by a pause or by a change of speaker. A
+		<gi>u</gi> is, however, not required to be bounded by a pause or
+		a change of speaker, nor does it represent a turn in a
+		conversation analytic sense. At a minimum, a <gi>u</gi> is some
+		phonetic production or noise made by a given speaker or a group of speakers.</tagUsage>
+      <tagUsage gi="pause" occurs="615">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="c" occurs="270">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="emph" occurs="99">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="unclear" occurs="82">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="supplied" occurs="51">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed to
+		be anonymized. The <att>reason</att> attribute is used to mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="shift" occurs="84">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		  </list>
+		</tagUsage>
+      <tagUsage gi="seg" occurs="44">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="33">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="foreign" occurs="1">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the 
+		<att>voice:translation</att> attribute provides a rough translation of the
+		non-English speech into English.
+		</tagUsage>
+      <tagUsage gi="vocal" occurs="4">Used to mark laughter and other speaker
+		noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="w" occurs="12">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage>
+      <tagUsage gi="incident" occurs="1">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:pvc" occurs="15">Used to mark a pronunciation variation
+		or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+			VOICE mark-up conventions [2.1].</ref>the
+			VOICE mark-up conventions [2.1]. An existing word corresponding to the PVC may be provided within a <att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc element. Additional phonetic
+			transcription may be provided within a <att>voice:ipa</att>voice:ipa attribute
+			within the <gi>voice:pvc</gi>voice:pvc element.</tagUsage>
+      <tagUsage gi="voice:track" occurs="9">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in length) and thus refers to the audio recording
+		of the transcribed speech event.
+		</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#PRqas407_PR #PRqas407_qas"/>
+            <catRef target="#PR #qas"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">AT</name>
+               <name type="city">Vienna</name>
+               <locale>seminar room at university campus</locale>
+               <activity>none</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="8"/>
+                  <personGrp role="interactants" size="8"/>
+                  <personGrp role="audience" size="30"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="chair" sameAs="#P395" xml:id="PRqas407_S1">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <occupation>journalist</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P398" xml:id="PRqas407_S3">
+                     <age value="4">50+</age>
+                     <sex value="1">male</sex>
+                     <occupation>professor of economics</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="slv-SI"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P403" xml:id="PRqas407_S5">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <occupation>chief economist of bank</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="cze-CZ"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P518" xml:id="PRqas407_S2">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="und"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P519" xml:id="PRqas407_S4">
+                     <age value="4">50+</age>
+                     <sex value="1">male</sex>
+                     <occupation>board member of insurance company</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P520" xml:id="PRqas407_S6">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="und"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P521" xml:id="PRqas407_S7">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="und"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P522" xml:id="PRqas407_S8">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="und"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person corresp="#PRqas407_S1" sameAs="#SX" xml:id="PRqas407_SX-1"/>
+                  <person sameAs="#SX-m" xml:id="PRqas407_SX-m"/>
+                  <person sameAs="#SS" xml:id="PRqas407_SS"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#PRqas407_S1 #PRqas407_S2 #PRqas407_S3 #PRqas407_S4 #PRqas407_S5 #PRqas407_S6 #PRqas407_S7 #PRqas407_S8" name="fairly_asymmetrical" type="power"/>
+                  <relation mutual="#PRqas407_S1 #PRqas407_S2 #PRqas407_S3 #PRqas407_S4 #PRqas407_S5 #PRqas407_S6 #PRqas407_S7 #PRqas407_S8" name="predominantly_unacquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-12" who="AB">finalized for publication</change>
+         <change when="2009-01-16" who="MLP">proof-reading</change>
+         <change when="2008-11-15" who="HB">checking</change>
+         <change when="2007-03-30" who="BB">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="00:51" voice:end_medium_number="1" voice:end_track="10" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_1"> er <pause/> we will have ladies and gentlemen we will have time now<c function="rise" type="intonation"/> for a er open discussion<c function="fall" type="intonation"/><pause/> erm <pause/> for er about half an hour<c function="rise" type="intonation"/> until er twenty past ten<c function="rise" type="intonation"/><pause/> and then we'll have a break of twenty minutes afterwards<c function="fall" type="intonation"/> so it's now half an hour<c function="rise" type="intonation"/><pause/> er <pause/> e<c type="lengthening"/>r the opportunity for <emph> you </emph><c type="lengthening"/> to<c type="lengthening"/> ask questions to the er experts on the panel here<c function="rise" type="intonation"/><pause dur="PT1S"/> and er <pause/> yeah i'm open for <pause/><emph> please </emph> sir <pause dur="PT1S"/></u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_2"> yeah<c function="fall" type="intonation"/><pause/> i i want to er ask all the <voice:pvc comment="gentlemen"> gentlemens </voice:pvc> er <pause/> if you expect that the boom we have had er at er from the beginning of the year on the stock markets<c function="fall" type="intonation"/><pause/> in the <pause/> central european country <pause/><emph> can </emph> go on in <unclear> the </unclear> future in the future <unclear> months </unclear><supplied reason="unintelligible"> x<c function="rise" type="intonation"/></supplied><pause/> and er er <pause/> if er i may add<c function="rise" type="intonation"/><pause/> a- -nother question <pause/> what<c function="rise" type="intonation"/><pause/> do you expect are <pause/> the main <emph> reasons </emph> for that er <pause/> er really interesting er development we have had<c function="fall" type="intonation"/><shift corresp="#PRqas407_s_2" feature="loud" new="p" xml:id="PRqas407_s_1"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#PRqas407_s_1" feature="loud" new="neutral" xml:id="PRqas407_s_2"/><pause/> go back to you<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_3"> who wants to answer that<c function="rise" type="intonation"/><pause dur="PT6S"/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_4"> okay maybe i just keep <seg n="1" type="overlap" xml:id="PRqas407_ol_0"><unclear> calling </unclear></seg> okay <pause/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_5"><seg n="1" synch="#PRqas407_ol_0" type="overlap" xml:id="PRqas407_ol_1"><supplied reason="unintelligible"> xxx </supplied></seg></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_6"> erm <pause dur="PT1S"/> but this boom in all markets was the was the <pause/> er the case actually<c function="fall" type="intonation"/><pause/> if you look at er some countries which were <pause/> entered european union let's say nineteen eighty-six portugal spain <pause/> er greece and so on<c function="fall" type="intonation"/><pause/> even greece lately when they entered eu- <emph> europe </emph><c function="rise" type="intonation"/><pause/> you know<c function="fall" type="intonation"/><pause/> they had boom  on their markets<c function="fall" type="intonation"/><pause/> so it is kind of <pause/> er <voice:pvc comment="convergent"> converguous </voice:pvc><pause/> convergence issue<c function="fall" type="intonation"/><pause/> point one point two<c function="rise" type="intonation"/><pause/> er<c type="lengthening"/>m <pause/> regarding some countries for example slovenia er in our case interest rates went down<c function="fall" type="intonation"/><pause/> and er the colleague  here also mentioned what was happen- happening in czechoslovakia and in czech republic <pause/> how inflation was going down as a consequent  interest rates going down and so on and so <pause/> er you have some <pause/> er i would say restructuring of sa<seg n="2" type="overlap" xml:id="PRqas407_ol_2">vings </seg><pause/></u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_7"><seg n="2" synch="#PRqas407_ol_2" type="overlap" xml:id="PRqas407_ol_3"> yeah i have </seg> also the same development in in in in er hungary for example and in the in in <emph> poland </emph><pause/> with another er kind of interest <pause/> er er <pause/> development<c function="fall" type="intonation"/><pause dur="PT2S"/><seg n="3" type="overlap" xml:id="PRqas407_ol_4"> even <emph> stro</emph></seg><emph>nger </emph> than in slovenian <pause/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_8"><seg n="3" synch="#PRqas407_ol_4" type="overlap" xml:id="PRqas407_ol_5"> yah i mean </seg></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_9"> i i think this  countries er have their interest rates going down earlier than let's say slovenia<c function="fall" type="intonation"/> concretely if you ask that <anchor synch="#PRqas407_oc_1" type="other_continuation" xml:id="PRqas407_oc_0"/></u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_10"><anchor synch="#PRqas407_oc_0" type="other_continuation" xml:id="PRqas407_oc_1"/> mhm <anchor synch="#PRqas407_oc_3" type="other_continuation" xml:id="PRqas407_oc_2"/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_11"><anchor synch="#PRqas407_oc_2" type="other_continuation" xml:id="PRqas407_oc_3"/> er <pause/> but generally i think we are <unclear> witnessing </unclear> er i would say <pause/> restructuring of savings <pause/> also within this  countries so savings are moving from <pause/> classical banking products to <pause/> er more interesting and maybe <pause/> of course <emph> riskier </emph> products<c function="fall" type="intonation"/> so <pause/> equities and so on<c function="fall" type="intonation"/><pause/> and <pause/> some other product there was a colleague  from <pause/> er insurance sector they're mentioned for example<c function="fall" type="intonation"/><pause/> so er this  er investments are getting its  importance <pause/> so i think this  er factors are quite important<c function="fall" type="intonation"/> i mean we could go er in elaboration more in details  but er <pause/> maybe colleagues <unclear> from mine might add </unclear> something<c function="fall" type="intonation"/><pause/> so i think this i- this convergence <pause/> and plus e<c type="lengthening"/>r <emph> local </emph> factors to this  markets<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_12"> mhm <pause/> certainly go <unclear> a</unclear>round <pause/> in future </u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_13"> to a <seg n="8" type="overlap" xml:id="PRqas407_ol_6"> certain extent </seg> er <pause/></u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_14"><seg n="8" synch="#PRqas407_ol_6" type="overlap" xml:id="PRqas407_ol_7"> you expect </seg></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_15"><emph> well </emph> it is difficult to say this you know<c function="rise" type="intonation"/><voice:track medium="1" num="2" type="md"/><pause/></u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_16"> mhm </u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_17"> erm <pause/> ooph i think the markets now <unclear> when you </unclear> more and more moving <pause/> in the same direction as <pause/> i would say <emph> all </emph> european markets </u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_18"> mhm <pause dur="PT1S"/></u>
+            <u who="#PRqas407_S4" xml:id="PRqas407_u_19"> i w- er <shift corresp="#PRqas407_s_4" feature="loud" new="p" xml:id="PRqas407_s_3"/><unclear> particularly </unclear> let me add something <shift corresp="#PRqas407_s_3" feature="loud" new="neutral" xml:id="PRqas407_s_4"/><pause dur="PT2S"/> i basically agree with you on on on the on the <pause/> environment and the circumstances for this development<c function="rise" type="intonation"/><pause/> er <pause dur="PT1S"/> but i think we <pause/> should <emph> not </emph> forget that also part of the<c type="lengthening"/><pause/> the strong <supplied reason="unintelligible"> xxxx </supplied> of markets was  liquidity <supplied reason="unintelligible"> xx </supplied> er <pause/> institutional investors are sitting on a lot of cash<c function="fall" type="intonation"/><pause/> and er they were <shift corresp="#PRqas407_s_6" feature="tempo" new="a" xml:id="PRqas407_s_5"/> investing in central eastern europe<c function="rise" type="intonation"/><pause/> they were investing in a in a future of those countries and in in the future economic development of those countries<c function="fall" type="intonation"/><shift corresp="#PRqas407_s_5" feature="tempo" new="neutral" xml:id="PRqas407_s_6"/><pause/> of those countries and i think the <pause/> the <pause/> important<c function="rise" type="intonation"/> thing is<c function="rise" type="intonation"/><pause/> er <pause/> if <pause/> if the economies of of of the new countries in europe<c function="rise" type="intonation"/><pause/> can really <pause/> show sustainable growth <pause/> er <unclear> in the </unclear><supplied reason="unintelligible"> xx </supplied> years <pause/> yah<c function="rise" type="intonation"/><pause dur="PT1S"/> we will see a <pause/> continuous growth on the stock markets<c function="fall" type="intonation"/> we will not see <unclear> the </unclear> forty fifty  sixty per cent er <pause/> er <unclear> step </unclear><unclear> ups </unclear> every year <unclear> yeah<c function="rise" type="intonation"/></unclear><pause/> but we will see a sustainable growth <pause/> if if <pause/> if the eco- the econo- e- -conomists do <emph> not </emph> succeed <pause/> to  achieve <unclear> a </unclear> sustainable growth we will have <pause/> erm <pause/> a <voice:pvc> backfall </voice:pvc> on on the stock markets <pause dur="PT1S"/> which <pause/><emph> can </emph> be significant<c function="rise" type="intonation"/><pause/> huh<c function="rise" type="intonation"/><pause/> but er <pause/> then <pause/> that's a new place to invest again so <pause/> it's not always bad <pause/> if the stock markets go <emph> down </emph> a little bit <pause/> yeah<c function="rise" type="intonation"/> but you cannot expect and this is valid for every stock market you have the forty fifty per cent step up <unclear> a year </unclear><pause dur="PT2S"/></u>
+            <u who="#PRqas407_S5" xml:id="PRqas407_u_20"><shift corresp="#PRqas407_s_8" feature="loud" new="p" xml:id="PRqas407_s_7"/> mhm hm <shift corresp="#PRqas407_s_7" feature="loud" new="neutral" xml:id="PRqas407_s_8"/><pause/> er <supplied reason="anonymization"> [place1] </supplied> stock is is<c type="lengthening"/><pause/> these days enjoying the <pause/><unclear> decade </unclear> records <pause dur="PT1S"/> which is <supplied reason="unintelligible"> x </supplied><unclear> on a </unclear><pause/> er <pause/> i i s- i agree with the er <unclear> bidi</unclear>- er nominal<c function="rise" type="intonation"/><pause/> and <voice:pvc> reconvergence<c function="rise" type="intonation"/></voice:pvc><pause/> of the economists <shift corresp="#PRqas407_s_10" feature="tempo" new="a" xml:id="PRqas407_s_9"/> specifically in the czech republic by the high <shift corresp="#PRqas407_s_9" feature="tempo" new="neutral" xml:id="PRqas407_s_10"/><pause/> er rate<c function="rise" type="intonation"/><pause/><emph> growth </emph> rates <pause/> in the in<emph>du</emph>stry and the whole economy <pause/> so we we we are enjoying er <pause/> double digit er growth rates in in<emph>du</emph>stry  for ins- for instance <emph> plus </emph> it's supported by the <pause/> positive company figures<c function="fall" type="intonation"/><pause/> company by so i er definitely<c function="rise" type="intonation"/><pause/> it will <pause/> continue next year <pause/> as well <pause/> definitely the s<c type="lengthening"/>peed <pause/><supplied reason="unintelligible"> xxxxx </supplied> e<c type="lengthening"/>r o- o- erm of the <pause/> increases price increases on the <supplied reason="anonymization"> [place1] </supplied> stock exchange <pause/> the the the speed can be a little bit <pause/> er lower<c function="rise" type="intonation"/> but definitely the growth will will continue according to our <pause/> predictions so i- it should be driven by it<c function="rise" type="intonation"/><pause/> the <emph> risk </emph> is on the side again <pause/> on the er economic cycle </u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_21"> uhu </u>
+            <u who="#PRqas407_SX-m" xml:id="PRqas407_u_22"> mhm </u>
+            <u who="#PRqas407_S5" xml:id="PRqas407_u_23"> you know that the czech economy is <pause/> er externally vulnerable<c function="rise" type="intonation"/><pause/> because it is a  extremely open one <pause/> of the most open <pause/> er economies in the world<c function="rise" type="intonation"/><pause/> and heavily dependent <pause/> er <pause/> on the <pause/> er exports and foreign <voice:track medium="1" num="3" type="md"/> trade so so if if certain slow down<c function="rise" type="intonation"/> occurs <pause/> in the west european countries and we see <unclear> the spiral will </unclear> to the czech <supplied reason="unintelligible"> x </supplied><unclear> come </unclear> so definitely the <pause/> er e<c type="lengthening"/>r the er stock market <seg n="5" type="overlap" xml:id="PRqas407_ol_8"> will </seg> be <pause/></u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_24"><seg n="5" synch="#PRqas407_ol_8" type="overlap" xml:id="PRqas407_ol_9"> mhm </seg></u>
+            <u who="#PRqas407_S5" xml:id="PRqas407_u_25"> ne- negatively influenced <pause/> as well but it it <anchor synch="#PRqas407_oc_5" type="other_continuation" xml:id="PRqas407_oc_4"/></u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_26"><anchor synch="#PRqas407_oc_4" type="other_continuation" xml:id="PRqas407_oc_5"/><shift corresp="#PRqas407_s_12" feature="loud" new="p" xml:id="PRqas407_s_11"/> mhm <shift corresp="#PRqas407_s_11" feature="loud" new="neutral" xml:id="PRqas407_s_12"/><anchor synch="#PRqas407_oc_7" type="other_continuation" xml:id="PRqas407_oc_6"/></u>
+            <u who="#PRqas407_S5" xml:id="PRqas407_u_27"><anchor synch="#PRqas407_oc_6" type="other_continuation" xml:id="PRqas407_oc_7"/> it shouldn't come earlier than in <pause/> in two years period<c function="fall" type="intonation"/><pause dur="PT1S"/> er regarding this<c type="lengthening"/> er s- new structure <supplied reason="unintelligible" voice:ipa="ɪm'pɑːrsɪs"> xxx </supplied> er i mentioned the pension reform and the e<c type="lengthening"/>r er euro introduction  but  euro introduction is if <pause/> is the event for two thousand eleven<c function="fall" type="intonation"/><pause/> in the czech republic <shift corresp="#PRqas407_s_14" feature="loud" new="p" xml:id="PRqas407_s_13"/> two thousand twelve or so<c function="fall" type="intonation"/><pause/> so we are here we <unclear> a</unclear>wait for  it <shift corresp="#PRqas407_s_13" feature="loud" new="neutral" xml:id="PRqas407_s_14"/> so <shift corresp="#PRqas407_s_16" feature="tempo" new="a" xml:id="PRqas407_s_15"/> so definitely now it's macroeconomically and <shift corresp="#PRqas407_s_15" feature="tempo" new="neutral" xml:id="PRqas407_s_16"/><voice:pvc><emph> micro</emph>economically </voice:pvc><pause/> driven <pause/> growth<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRqas407_S2" xml:id="PRqas407_u_28"><shift corresp="#PRqas407_s_18" feature="loud" new="p" xml:id="PRqas407_s_17"/> mhm <pause/> thank you <shift corresp="#PRqas407_s_17" feature="loud" new="neutral" xml:id="PRqas407_s_18"/><pause/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_29"> mhm <pause/> any further questions<c function="rise" type="intonation"/><pause dur="PT2S"/> please <pause/></u>
+            <u who="#PRqas407_S6" xml:id="PRqas407_u_30"> hm<c type="lengthening"/> good morning <pause/> i'm <unclear><supplied reason="anonymization"> [S6] </supplied><supplied reason="anonymization"> [S6/last] </supplied></unclear><unclear><foreign type="LQ" voice:translation="good day" xml:lang="ger"> guten tag </foreign></unclear> er and i <emph> would </emph> like to ask you about er all all of you have mentioned that growth is the most important factor for for the investors maybe <pause dur="PT1S"/> er <emph> what </emph> other advantages can<c type="lengthening"/> er central eastern europe <pause/> er give to<c type="lengthening"/> the international investors <pause/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_31"><shift corresp="#PRqas407_s_20" feature="loud" new="p" xml:id="PRqas407_s_19"/> mhm <shift corresp="#PRqas407_s_19" feature="loud" new="neutral" xml:id="PRqas407_s_20"/><pause/> is that a question to the whole panel<c function="rise" type="intonation"/> okay<c function="rise" type="intonation"/><anchor synch="#PRqas407_oc_9" type="other_continuation" xml:id="PRqas407_oc_8"/></u>
+            <u who="#PRqas407_S6" xml:id="PRqas407_u_32"><anchor synch="#PRqas407_oc_8" type="other_continuation" xml:id="PRqas407_oc_9"/> yeah </u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_33"> okay<c function="rise" type="intonation"/><pause/> so er <pause/> we start in the same direction again<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_34"><shift corresp="#PRqas407_s_22" feature="loud" new="p" xml:id="PRqas407_s_21"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#PRqas407_s_21" feature="loud" new="neutral" xml:id="PRqas407_s_22"/><pause/><unclear>  you give it to me the first </unclear> i would say always <anchor synch="#PRqas407_oc_11" type="other_continuation" xml:id="PRqas407_oc_10"/></u>
+            <u who="#PRqas407_SX-m" xml:id="PRqas407_u_35"><anchor synch="#PRqas407_oc_10" type="other_continuation" xml:id="PRqas407_oc_11"/><shift corresp="#PRqas407_s_24" feature="loud" new="p" xml:id="PRqas407_s_23"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PRqas407_s_23" feature="loud" new="neutral" xml:id="PRqas407_s_24"/><anchor synch="#PRqas407_oc_13" type="other_continuation" xml:id="PRqas407_oc_12"/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_36"><anchor synch="#PRqas407_oc_12" type="other_continuation" xml:id="PRqas407_oc_13"/><seg n="6" type="overlap" xml:id="PRqas407_ol_10"> anyway yeah </seg></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_37"><anchor synch="#PRqas407_oc_13" type="other_continuation" xml:id="PRqas407_oc_14"/><seg n="6" synch="#PRqas407_ol_10" type="overlap" xml:id="PRqas407_ol_11"> or we </seg> can also switch if you want to but <anchor synch="#PRqas407_oc_16" type="other_continuation" xml:id="PRqas407_oc_15"/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_38"><anchor synch="#PRqas407_oc_15" type="other_continuation" xml:id="PRqas407_oc_16"/> anyway er <pause dur="PT1S"/> i i quite agree is what erm what er colleagues  added to to to my er first remarks  before <pause/> er <pause dur="PT1S"/> i mean <pause/><emph> besides </emph> that i mean er w- <emph> we </emph> mentioned already i think<c function="rise" type="intonation"/><pause dur="PT1S"/> also this  countries can offer in certain sectors i would say <pause/> interesting companies <pause/> er which might be later on let's say taken over by strategic investor<c function="fall" type="intonation"/><pause/> er maybe first er first <supplied reason="unintelligible"> xxxx </supplied> th- through some financial investment but also strategic investors<c function="fall" type="intonation"/><pause/> this may be <emph> another </emph> opportunity for investors<c function="fall" type="intonation"/><pause/> and then to gain this <pause/> er takeover premium<c function="rise" type="intonation"/><pause dur="PT1S"/> when <pause/> takeover happens <pause/> cos i'm sure er quite a <pause/> few interesting companies will be in er very next future  taken over by <pause dur="PT1S"/> i would say some international <pause/> companies <pause dur="PT3S"/></u>
+            <u who="#PRqas407_S5" xml:id="PRqas407_u_39"> so if i may s<c type="lengthening"/>o <pause/> er economic growth definitely but <supplied reason="unintelligible"> xxx </supplied><unclear> that </unclear> economic stability<c function="fall" type="intonation"/><pause/> macroeconomic stability hh er <pause/> political stability<c function="rise" type="intonation"/><pause/> hh <pause/> definitely something <pause/> wh- whi- whi- which er is influencing  very positively <pause/> e<c type="lengthening"/>r er market<c function="rise" type="intonation"/><pause/> nominal convergence and stability which <pause/> which which can er can er e<c type="lengthening"/>r minimize the<c type="lengthening"/> fluctuations <supplied reason="unintelligible"> xxxx </supplied><emph> answer </emph> to this <unclear> and the risks </unclear> er <pause/><emph> regulation </emph> in general<c function="fall" type="intonation"/><pause/> regulation and transparency<c function="fall" type="intonation"/><pause/><emph> optimal </emph> regulation<c function="fall" type="intonation"/><pause/> you you you shouldn't <voice:pvc> overregulate </voice:pvc> you sh<c type="lengthening"/>ouldn't <voice:pvc> underregulate<c function="fall" type="intonation"/></voice:pvc><pause/> we have n<c type="lengthening"/>egative<c function="rise" type="intonation"/> and <unclear> set </unclear> experience from <emph> both </emph><pause/> both e<c type="lengthening"/><c type="lengthening"/>r <pause/> er <emph> ex</emph>tremes<c function="fall" type="intonation"/><pause/> from low regulation in nineties and <voice:pvc> overregulation </voice:pvc> now <pause/> in in <unclear> this </unclear><voice:track medium="1" num="4" type="md"/> decades <pause/> a<c type="lengthening"/>nd definitely taxation and and er er is is is very very important <pause dur="PT1S"/> factor<c function="fall" type="intonation"/> and <pause/> it's it's more or less very not only for the<c type="lengthening"/><pause/> financial markets or or er investors er on the<c type="lengthening"/> financial markets <supplied reason="unintelligible"> xx </supplied> for the foreign direct investors as as as well<c function="fall" type="intonation"/><pause/> on the other hand for the  <w voice:mode="spelt"> f d i  </w> er <pause/> some incentives <pause/> are nice to have but are not definitely <pause/> the the crucial factor <pause/> despite the<c type="lengthening"/><pause/> general <pause/> er <shift corresp="#PRqas407_s_26" feature="voice" new="laugh" xml:id="PRqas407_s_25"/> understanding <shift corresp="#PRqas407_s_25" feature="voice" new="neutral" xml:id="PRqas407_s_26"/> of the <pause/> of the <pause/> er issue <pause dur="PT1S"/></u>
+            <u who="#PRqas407_S4" xml:id="PRqas407_u_40"> e<c type="lengthening"/>rm <pause/> i think <pause/> fro- from an investor <pause/> perspective and and <supplied reason="unintelligible"> xx </supplied><unclear> i'm sure </unclear><emph> are </emph> investors <pause/> i think the question where to to invest your money is not only to look back at <pause/> the highest return <pause/> but it is also a question of er return and risk offer you are taking and <pause/> i think er that develo- -ping market <pause/> in central and eastern europe allow us to versify our investment resources<c function="fall" type="intonation"/><pause/> yeah<c function="rise" type="intonation"/><pause/> actually you get more opportunities to invest<c function="rise" type="intonation"/><pause/> and this helps to diversify the risk <pause dur="PT3S"/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_41"> mhm<c function="rise" type="intonation"/><pause/> any further questions<c function="rise" type="intonation"/><pause dur="PT3S"/> you got a question please<c function="rise" type="intonation"/><anchor synch="#PRqas407_oc_18" type="other_continuation" xml:id="PRqas407_oc_17"/></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_42"><anchor synch="#PRqas407_oc_17" type="other_continuation" xml:id="PRqas407_oc_18"/> o- okay so <pause/> good morning<c function="rise" type="intonation"/><pause/> erm i'm<c type="lengthening"/> i'm not talking now about international <unclear> law </unclear> finance <pause/> i'm talking about international accounting because they're somehow related to <pause/> the <emph> market </emph> the development of the financial market<c function="fall" type="intonation"/><pause/> so <supplied reason="unintelligible"> xxx </supplied> to ensure transparency <pause/> of the financial statement for the <unclear> company that </unclear> with the list <unclear> of </unclear><supplied reason="unintelligible"> xxx </supplied><pause/><unclear> provisional </unclear><pause/> european market <pause/> e<c type="lengthening"/>r what do you think are the chances of success of the <unclear> country </unclear> convergence at <pause/> er the european <emph> level </emph><pause/> considering that er <pause/> e<c type="lengthening"/>r the manager statements o<c type="lengthening"/>f for two thousand and four are will be<c type="lengthening"/> e<c type="lengthening"/>r will be made according to the <unclear> international banking </unclear> standards <pause/> for this  companies are several thousand companies <supplied reason="unintelligible"> xxxxx </supplied><pause/> so <pause/> what do you think the chance for success for this <pause/> process <pause/> that <emph> is </emph><emph> essential </emph> for the development on the international financial market <pause/> in european market at least<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_43"><shift corresp="#PRqas407_s_28" feature="loud" new="p" xml:id="PRqas407_s_27"/> hm <shift corresp="#PRqas407_s_27" feature="loud" new="neutral" xml:id="PRqas407_s_28"/><pause/> er and <emph> who'</emph>s the question to<c function="rise" type="intonation"/><pause/> wh- who do you want to ask the question <shift corresp="#PRqas407_s_30" feature="loud" new="p" xml:id="PRqas407_s_29"/> of<c function="rise" type="intonation"/><shift corresp="#PRqas407_s_29" feature="loud" new="neutral" xml:id="PRqas407_s_30"/><pause/></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_44"><supplied reason="unintelligible"> x </supplied><pause/> do you think that <seg n="7" type="overlap" xml:id="PRqas407_ol_12"> that this <shift corresp="#PRqas407_s_32" feature="loud" new="p" xml:id="PRqas407_s_31"/><supplied reason="unintelligible"> xxx </supplied> is <shift corresp="#PRqas407_s_31" feature="loud" new="neutral" xml:id="PRqas407_s_32"/></seg><pause/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_45"><seg n="7" synch="#PRqas407_ol_12" type="overlap" xml:id="PRqas407_ol_13"> to the panel in general or </seg></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_46"><emph> no </emph><pause/> to<c type="lengthening"/> all of them <pause/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_47"> okay <pause dur="PT1S"/> erm <pause/> do you want to start<c function="rise" type="intonation"/><anchor synch="#PRqas407_oc_20" type="other_continuation" xml:id="PRqas407_oc_19"/></u>
+            <u who="#PRqas407_S4" xml:id="PRqas407_u_48"><anchor synch="#PRqas407_oc_19" type="other_continuation" xml:id="PRqas407_oc_20"/> i <pause/> i i <emph> i </emph> think the<c type="lengthening"/> the the accounting issue is o- is one of the<c type="lengthening"/> of the most important issues for for capital markets and development of capital markets<c function="rise" type="intonation"/><seg n="8" type="overlap" xml:id="PRqas407_ol_14"> and </seg><pause/></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_49"><seg n="8" synch="#PRqas407_ol_14" type="overlap" xml:id="PRqas407_ol_15"> mhm </seg></u>
+            <u who="#PRqas407_S4" xml:id="PRqas407_u_50"> and er <pause/> europ- -ean community is of course erm <pause dur="PT1S"/> of course we could <unclear> write </unclear> this and this be- er because we <unclear> have </unclear> the developments on<c type="lengthening"/> the international financial agendas to be applied<c function="rise" type="intonation"/><pause/> for  all <pause/> listed companies <pause/> er <unclear> from </unclear> two thousand five <pause/><emph> now </emph><pause/> the point is<c type="lengthening"/><pause/> from my perspective <pause/> one should not think <pause/> even if you have an international accounting <voice:pvc comment="standardized"> standarded<c function="rise" type="intonation"/></voice:pvc><pause/> financials will become completely comparable <pause dur="PT1S"/> that's <voice:track medium="1" num="5" type="md"/><pause dur="PT1S"/> erm well we now er <unclear> a group has er </unclear> we are preparing our group accounts on er on  <w voice:mode="spelt"> i a s  </w> basis since  nineteen ninety-nine <pause/> and er <pause dur="PT2S"/> this  standards allow <emph> so </emph><pause dur="PT2S"/> significant  differen<c type="lengthening"/>t interpretations yeah<c function="rise" type="intonation"/> and er everybody interpr<emph>e</emph>ts er <anchor synch="#PRqas407_oc_22" type="other_continuation" xml:id="PRqas407_oc_21"/></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_51"><anchor synch="#PRqas407_oc_21" type="other_continuation" xml:id="PRqas407_oc_22"/> depending on inter<seg n="9" type="overlap" xml:id="PRqas407_ol_16">national level </seg></u>
+            <u who="#PRqas407_S4" xml:id="PRqas407_u_52"><seg n="9" synch="#PRqas407_ol_16" type="overlap" xml:id="PRqas407_ol_17"> to a certain ex</seg>tent so <pause/> compara<unclear>ability </unclear><pause/> i think er er still is an issue <pause/> huh<c function="rise" type="intonation"/><pause dur="PT1S"/> but er <pause/> nevertheless it is of of immense importance to have at <emph> least </emph> a common standard<c function="rise" type="intonation"/><pause/> and even if it is in  the beginning maybe not a perfect standard it will <pause/> become better every year because we will have <pause/> er<c type="lengthening"/>m <shift corresp="#PRqas407_s_34" feature="loud" new="p" xml:id="PRqas407_s_33"/><unclear> i don't know </unclear><shift corresp="#PRqas407_s_33" feature="loud" new="neutral" xml:id="PRqas407_s_34"/><pause/> discussions on it every year but it is <pause/> is important to have <pause/> a common standard <pause/> erm but it's not also the question how you how you set up your <pause/> your  <w voice:mode="spelt"> p n r  </w> how you set up you- your balance sheet it's also a question how performance reporting <pause/> will be made <pause/> yeah<c function="rise" type="intonation"/><pause/> how <pause/> performance of companies is measured<c function="fall" type="intonation"/><pause/> yeah<c function="rise" type="intonation"/><pause/> this is also a project undergoing  on a european level so this is very very important for all <shift corresp="#PRqas407_s_36" feature="loud" new="p" xml:id="PRqas407_s_35"/><unclear> european countries </unclear><shift corresp="#PRqas407_s_35" feature="loud" new="neutral" xml:id="PRqas407_s_36"/><pause dur="PT5S"/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_53"> erm <pause/><shift corresp="#PRqas407_s_38" feature="loud" new="p" xml:id="PRqas407_s_37"/><supplied reason="unintelligible"> xx<c function="rise" type="intonation"/></supplied> i think so <shift corresp="#PRqas407_s_37" feature="loud" new="neutral" xml:id="PRqas407_s_38"/><pause/> do you want to add something<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_54"> well nothing special to add maybe but er <pause/> is your question regarding let's say that you're afraid that <pause/><emph> after </emph><pause/> let's say in two thousand five <emph> all </emph><pause/> risk companies in this  countries <pause/> will switch to <pause dur="PT1S"/> e<c type="lengthening"/>rm <pause/><w voice:mode="spelt"> e i s  </w><pause/> the profits will go <emph> down </emph> or something like that <anchor synch="#PRqas407_oc_24" type="other_continuation" xml:id="PRqas407_oc_23"/></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_55"><anchor synch="#PRqas407_oc_23" type="other_continuation" xml:id="PRqas407_oc_24"/> no i don't say i'm afraid of this<c function="fall" type="intonation"/><pause/> i know that er<c type="lengthening"/>m <pause/> er the changes in the european e<c type="lengthening"/>r <pause/> european accounting let's say <pause/> are <voice:pvc comment="slowing down"> slowering </voice:pvc> in the <supplied reason="unintelligible"> xx </supplied> countries considering <supplied reason="unintelligible"> xxxxx </supplied> for example that it's not willing to go <seg n="1" type="overlap" xml:id="PRqas407_ol_18"><supplied reason="unintelligible"> xxx </supplied></seg><shift corresp="#PRqas407_s_40" feature="loud" new="f" xml:id="PRqas407_s_39"/> change so quickly <shift corresp="#PRqas407_s_39" feature="loud" new="neutral" xml:id="PRqas407_s_40"/><pause/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_56"><seg n="1" synch="#PRqas407_ol_18" type="overlap" xml:id="PRqas407_ol_19"> er speak a little bit louder please </seg></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_57"><shift corresp="#PRqas407_s_42" feature="loud" new="f" xml:id="PRqas407_s_41"/> so<c type="lengthening"/> erm <shift corresp="#PRqas407_s_41" feature="loud" new="neutral" xml:id="PRqas407_s_42"/><pause dur="PT1S"/> i think that er it's a bit <unclear> usual </unclear> this one <pause/> because it's important for for comparable  later at least the financial analysts <pause/> should m- make their decision <pause/> on for this er <pause/> er financial market er decision er related decision<c function="rise" type="intonation"/><pause/> on on er <pause/> certain data that are comparable <pause/> at least at  european level including the <pause/> financial markets of the developing countries no developing like <shift corresp="#PRqas407_s_44" feature="loud" new="f" xml:id="PRqas407_s_43"/> the countries that are not <pause/> yet a<c type="lengthening"/> part of the european union or only will be part in a few years <shift corresp="#PRqas407_s_43" feature="loud" new="neutral" xml:id="PRqas407_s_44"/><pause/><seg n="8" type="overlap" xml:id="PRqas407_ol_20"> er i'm </seg> talking about <supplied reason="unintelligible"> xxx </supplied><pause/></u>
+            <u who="#PRqas407_S4" xml:id="PRqas407_u_58"><seg n="8" synch="#PRqas407_ol_20" type="overlap" xml:id="PRqas407_ol_21"> mhm </seg></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_59"> it's it's a question with a big er <pause/> question mark <seg n="2" type="overlap" xml:id="PRqas407_ol_22"> regarding </seg><pause/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_60"><seg n="2" synch="#PRqas407_ol_22" type="overlap" xml:id="PRqas407_ol_23"> yeah </seg></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_61"> i mean er what er will it happen  to <unclear> clean up </unclear> or <pause/> okay <pause/> it will be a good start er because it has to be a a legal <emph> base </emph> from the beginning <pause/> talking about the <unclear> convergence of course </unclear> it's not er within the european union and e<c type="lengthening"/>r but w- at the er international level between er the  <w voice:mode="spelt"> u s p i  </w> and er i'm talking about <pause/> financial <unclear> public standard </unclear> for decisions and international <supplied reason="unintelligible"> xxx </supplied> bond decision <pause/> in er in london <voice:track medium="1" num="6" type="md"/><pause/><shift corresp="#PRqas407_s_46" feature="loud" new="p" xml:id="PRqas407_s_45"/> so <pause/> about the financial<unclear>ly </unclear> important issue <shift corresp="#PRqas407_s_45" feature="loud" new="neutral" xml:id="PRqas407_s_46"/><pause/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_62"> i mean sure but i think <pause/> i mean you are right <pause/> er er i mean in some countries which are not members of  <w voice:mode="spelt"> e u  </w> this is still quite a problem <pause/></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_63"> and <seg n="3" type="overlap" xml:id="PRqas407_ol_24"> also <supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_64"><seg n="3" synch="#PRqas407_ol_24" type="overlap" xml:id="PRqas407_ol_25"> i mean no doubt about it </seg> you know <seg n="9" type="overlap" xml:id="PRqas407_ol_26"> you should be very careful about you know </seg></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_65"><seg n="9" synch="#PRqas407_ol_26" type="overlap" xml:id="PRqas407_ol_27"> and also <unclear> there are </unclear> problems <unclear> in </unclear> the </seg><w voice:mode="spelt"> e u  </w><shift corresp="#PRqas407_s_48" feature="loud" new="p" xml:id="PRqas407_s_47"/><w voice:mode="spelt"> e u  </w><shift corresp="#PRqas407_s_47" feature="loud" new="neutral" xml:id="PRqas407_s_48"/><anchor synch="#PRqas407_oc_26" type="other_continuation" xml:id="PRqas407_oc_25"/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_66"><anchor synch="#PRqas407_oc_25" type="other_continuation" xml:id="PRqas407_oc_26"/> how they <pause/> show this data and you know <pause/> what are the standards and so on<c function="rise" type="intonation"/><pause/> which can be standards they use their own ones with <pause/> the companies which are maybe <pause/> more international <unclear> i mean if they use </unclear> international accounting standards in some countries and so on <pause/> but i think eur- european union solved this question quite e<c type="lengthening"/>r efficiently really <pause/> because you know they were all companies with different <unclear> ex</unclear>changes <unclear> which </unclear> have to use international accounting standards with two thousand and five so <pause/> this <seg n="4" type="overlap" xml:id="PRqas407_ol_28"> is i think very good very good solution </seg></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_67"><seg n="4" synch="#PRqas407_ol_28" type="overlap" xml:id="PRqas407_ol_29"> yeah but if the company <supplied reason="unintelligible"> xx </supplied></seg><unclear> protection </unclear><pause/><shift corresp="#PRqas407_s_50" feature="loud" new="p" xml:id="PRqas407_s_49"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#PRqas407_s_49" feature="loud" new="neutral" xml:id="PRqas407_s_50"/> it's <emph> still </emph> open to interpretation <unclear> to </unclear> national <pause/> er at the national level <pause/> let's see about  the companies in er switzerland and germany that <pause/> will er <pause/><emph> their </emph> erm that are given two <pause/> more years to<c type="lengthening"/> to change their reporting s- er system from the  <w voice:mode="spelt"> u s  </w> er er from the american <unclear> last month </unclear> to<c type="lengthening"/> to <pause/><shift corresp="#PRqas407_s_52" feature="loud" new="p" xml:id="PRqas407_s_51"/><unclear> er yes </unclear><shift corresp="#PRqas407_s_51" feature="loud" new="neutral" xml:id="PRqas407_s_52"/><pause dur="PT1S"/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_68"> er <seg n="10" type="overlap" xml:id="PRqas407_ol_30"> yeah </seg> but on the other hand i mean <pause/></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_69"><seg n="10" synch="#PRqas407_ol_30" type="overlap" xml:id="PRqas407_ol_31"><supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_70"> would you say you don't trust the german and swiss system now<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_71"> what<c function="rise" type="intonation"/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_72"><shift corresp="#PRqas407_s_54" feature="loud" new="f" xml:id="PRqas407_s_53"/><seg n="11" type="overlap" xml:id="PRqas407_ol_32"> on the </seg> other hand <shift corresp="#PRqas407_s_53" feature="loud" new="neutral" xml:id="PRqas407_s_54"/> would you say that you don't trust <pause/><seg n="12" type="overlap" xml:id="PRqas407_ol_33"> the german and the swiss system right now<c function="rise" type="intonation"/></seg></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_73"><seg n="11" synch="#PRqas407_ol_32" type="overlap" xml:id="PRqas407_ol_34"><supplied reason="unintelligible"> xx<c function="rise" type="intonation"/></supplied></seg></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_74"><seg n="12" synch="#PRqas407_ol_33" type="overlap" xml:id="PRqas407_ol_35"><shift corresp="#PRqas407_s_56" feature="loud" new="f" xml:id="PRqas407_s_55"/><emph> no </emph> it's not the <pause/> i'm not talking about the <shift corresp="#PRqas407_s_55" feature="loud" new="neutral" xml:id="PRqas407_s_56"/></seg> systems i'm the national system i'm talking about if we <emph> want </emph> to reach convergence at all the levels <pause/> be- -cause we are talking about convergence also <pause/> er as a key to<c type="lengthening"/> er developed <pause/> financial markets<c function="rise" type="intonation"/><pause/> as this would be an issue <pause/> how to surpass the national differences <shift corresp="#PRqas407_s_58" feature="loud" new="p" xml:id="PRqas407_s_57"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#PRqas407_s_57" feature="loud" new="neutral" xml:id="PRqas407_s_58"/><unclear> on the </unclear> same level <pause/> thanks </u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_75"> yeah but it's common standards <shift corresp="#PRqas407_s_60" feature="loud" new="p" xml:id="PRqas407_s_59"/><supplied reason="unintelligible"> xxx </supplied><shift corresp="#PRqas407_s_59" feature="loud" new="neutral" xml:id="PRqas407_s_60"/><anchor synch="#PRqas407_oc_28" type="other_continuation" xml:id="PRqas407_oc_27"/></u>
+            <u who="#PRqas407_S7" xml:id="PRqas407_u_76"><anchor synch="#PRqas407_oc_27" type="other_continuation" xml:id="PRqas407_oc_28"/><shift corresp="#PRqas407_s_62" feature="loud" new="p" xml:id="PRqas407_s_61"/> mhm <shift corresp="#PRqas407_s_61" feature="loud" new="neutral" xml:id="PRqas407_s_62"/><anchor synch="#PRqas407_oc_30" type="other_continuation" xml:id="PRqas407_oc_29"/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_77"><anchor synch="#PRqas407_oc_29" type="other_continuation" xml:id="PRqas407_oc_30"/> may- <pause/> maybe we can <pause/> sort of settle this er <pause/> this er issue in the break afterwards erm <pause dur="PT1S"/> i would i would er add one personal question now erm <pause/> mister <supplied reason="anonymization"> [S4/last] </supplied> you mentioned the<c type="lengthening"/> er rising importance of the life insurance sector <pause/> since the eighties and the nineties<c function="rise" type="intonation"/><pause/> and you also mentioned the demograph- demographic situation in europe<c function="fall" type="intonation"/><pause/> societies growing older and that certainly extends also <pause/> to societies in central and eastern europe<c function="rise" type="intonation"/><pause/> whereas you mister <supplied reason="anonymization"> [S5/last] </supplied> mentioned erm <pause/> your <emph> hope </emph><pause/> that there is gonna be some <pause/> erm <emph> fair </emph> and balanced and intelligent settlement of the pensions' reform <pause/> in the czech republic <pause/> so <emph> my </emph> question now would be<c function="rise" type="intonation"/> er <pause/> to all three of you <pause/> e<c type="lengthening"/>r <pause dur="PT1S"/> do you think that the<c type="lengthening"/> financial markets in the reform countries or the central eastern european countries <pause/> erm <pause/> er er can play some role within the settlement of er of er of <pause/> sort of providing security for for the elderly<c function="rise" type="intonation"/><pause/> er off- off- offering some sort of erm erm <pause/> products or schemes that people can use to sort of er <pause/> provide a <pause/> private <unclear> banking </unclear> for their for the for their retirement age <pause dur="PT2S"/></u>
+            <u who="#PRqas407_S4" xml:id="PRqas407_u_78"> er <pause/> my point of view for the answer is definitely <emph> yes </emph> of course because i'm sure i am and and on of <supplied reason="unintelligible"> xx </supplied><voice:track medium="1" num="7" type="md"/> but er <pause/> i think <pause/><shift corresp="#PRqas407_s_64" feature="tempo" new="a" xml:id="PRqas407_s_63"/> one has to bear in mind <shift corresp="#PRqas407_s_63" feature="tempo" new="neutral" xml:id="PRqas407_s_64"/> that the<c type="lengthening"/><pause/> the situation<c function="rise" type="intonation"/><pause/> in <pause/> in the various countries can be very different<c function="fall" type="intonation"/><pause/> yeah<c function="rise" type="intonation"/> if you look for instance at poland yeah<c function="rise" type="intonation"/><pause/> in poland pension system <pause/> is <pause/> in a much <pause dur="PT1S"/> less difficult situation than austria <pause dur="PT1S"/> they have <pause/><shift corresp="#PRqas407_s_66" feature="loud" new="p" xml:id="PRqas407_s_65"/> completely different levels of taxes <unclear> schemes </unclear> different levels of pensions a complete  different scheme <shift corresp="#PRqas407_s_65" feature="loud" new="neutral" xml:id="PRqas407_s_66"/><pause/> i remember very well <pause/> when we acquired an insurance company in poland<c function="rise" type="intonation"/><pause/> this was ni- is now seven or six years ago <pause/> i was in <supplied reason="anonymization"> [place2] </supplied> in the pedestrian zone<c function="fall" type="intonation"/><pause/> and <unclear> there were </unclear> the people sitting of <supplied reason="anonymization"> [org1] </supplied> and <supplied reason="anonymization"> [org2] </supplied> er the  <w voice:mode="spelt"> u k  </w> insurance companies<c function="rise" type="intonation"/><pause/> selling pension funds <pause/> on on camping tables <pause/> yeah<c function="rise" type="intonation"/> in the pedestrian zone<c function="fall" type="intonation"/><pause/> this is in austria in austria <pause/><emph> unimaginable </emph><pause/> yeah<c function="rise" type="intonation"/><emph> so </emph><pause/> the may- <pause dur="PT1S"/> ma- maybe it's <emph> easier </emph><pause/> and and it was easier at that stage to make a radical <pause/> change<c function="fall" type="intonation"/> in the pension system <pause/> it was very very painful for the people in poland yah<c function="rise" type="intonation"/><pause/> cos now the <supplied reason="unintelligible"> xxx </supplied> for <pause/> what <emph> i </emph> want to say is <pause/> the situation in the countries <pause/> can be very diff- different <pause/> yeah<c function="rise" type="intonation"/><pause/> the demographic situation in central europe is <emph> not </emph> very good<c function="fall" type="intonation"/><pause dur="PT1S"/> huh<c function="rise" type="intonation"/><pause/> but er <pause/> i i strongly believe that <pause/> er in in the <unclear> cities in </unclear><emph> all </emph> countries where we have this <pause/> pension discussions that er <pause/> one tries to set up a second pillar a third pillar for the pension systems<c function="fall" type="intonation"/> yeah<c function="rise" type="intonation"/><pause/> and there will be <unclear> a </unclear> pension <pause/> pension schemes by the by the companies where the people are employed at the end of the day and we have developed a third pillar <pause/> which will be the private pension scheme<c function="fall" type="intonation"/><pause/> yeah<c function="rise" type="intonation"/> where everybody has the opportunity to to <pause/> take care for  his own pension <unclear> who are </unclear><emph> part </emph> of his own pension<c function="fall" type="intonation"/><pause/> yeah<c function="rise" type="intonation"/><pause/><unclear> and </unclear> that is the role of the insurance company<c function="fall" type="intonation"/><pause dur="PT3S"/></u>
+            <u who="#PRqas407_SX-1" xml:id="PRqas407_u_79"><shift corresp="#PRqas407_s_68" feature="loud" new="p" xml:id="PRqas407_s_67"/> hm mhm <shift corresp="#PRqas407_s_67" feature="loud" new="neutral" xml:id="PRqas407_s_68"/><anchor synch="#PRqas407_oc_32" type="other_continuation" xml:id="PRqas407_oc_31"/></u>
+            <u who="#PRqas407_S5" xml:id="PRqas407_u_80"><anchor synch="#PRqas407_oc_31" type="other_continuation" xml:id="PRqas407_oc_32"/> i th- erm <pause/> first of all the <pause/> the issue is very <emph> pressing </emph> in in not only in my country but <unclear> developing </unclear> in many other <pause/> er central eastern european countries <pause/> in most of them i would say that er <pause/> institutionally technically <unclear> organized the </unclear> stru- the structures are <pause/> available<c function="fall" type="intonation"/><pause/> huh<c function="rise" type="intonation"/><pause/> for the for the invest<emph>ments </emph><pause/> hh the institutions are regulated they are er supervised so <pause/> definitely the in- the the infrastructure is there<c function="rise" type="intonation"/><pause/> what we need is the <pause/> erm s- someth- something something quite else er the<c type="lengthening"/> e<c type="lengthening"/>r <pause/> political <unclear> willingness </unclear><c function="rise" type="intonation"/><pause/> to to do it and and <pause/> the <supplied reason="unintelligible"> xx </supplied><unclear> that </unclear> are <pause/> not <emph> bold </emph> enough<c function="rise" type="intonation"/> or brave enough to do it<c function="rise" type="intonation"/><pause/> plus definitely a lot of money to <emph> bridge </emph><pause/> the gap <pause/> towards the<c type="lengthening"/><pause/> towards the er creating  of the private pe- pension schemes<c function="fall" type="intonation"/> so it's i- it's certainly <unclear> frustrating </unclear><pause/> it takes de<emph>cades </emph><pause/> and billions of of of euros<c function="fall" type="intonation"/><shift corresp="#PRqas407_s_70" feature="loud" new="p" xml:id="PRqas407_s_69"/><unclear> yeah </unclear> definitely <shift corresp="#PRqas407_s_69" feature="loud" new="neutral" xml:id="PRqas407_s_70"/> so <pause/> that's the issue<c function="fall" type="intonation"/> i i suppose the infrastructure is there<c function="rise" type="intonation"/><pause/> er on the financial market<c function="rise" type="intonation"/><pause/><emph> plus </emph> what i what i stress that the er pension reform er <pause/> as the <unclear> secondary effect building </unclear><voice:track medium="1" num="8" type="md"/><supplied reason="unintelligible"> xx </supplied> past the development of the <pause/> financial <seg n="8" type="overlap" xml:id="PRqas407_ol_36"> markets </seg> yeah<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_81"><seg n="8" synch="#PRqas407_ol_36" type="overlap" xml:id="PRqas407_ol_37"> mhm </seg></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_82"> mhm <pause/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_83"> yeah maybe <pause/> i think er in this area we have a lot of potential <pause/> er in all this countries <pause/> because <unclear> the </unclear> population is getting older and older<c function="rise" type="intonation"/><pause/> in all this er <pause/> erm this countries we are talking about<c function="rise" type="intonation"/><pause/> and er so this is a general answer and concretely maybe for slovenia <pause/> erm <pause/> we do have of course er <emph> go</emph>vernmental pension scheme <pause/> and er fund<c function="rise" type="intonation"/><pause/> and we have also already private er pension funds already and they are acting on the market<c function="rise" type="intonation"/> collecting the <pause/> savings for <pause/> for the <pause/> e<c type="lengthening"/>r you know old age<c function="rise" type="intonation"/><pause/> and er this has impact on the capital market <emph> already </emph><pause/> and this impact will <emph> grow </emph><pause/> and this er <emph> go</emph>vernmental <emph> and </emph> private pension funds in our country we already invest in local<c function="rise" type="intonation"/><pause/> capital market but also in international capital markets<c function="fall" type="intonation"/><pause/> and this will also or is already the case for other countries<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_84"> mhm<c function="rise" type="intonation"/><pause/> thank you<c function="fall" type="intonation"/><pause/> are there any other questions <pause dur="PT1S"/> please <pause/></u>
+            <u who="#PRqas407_S8" xml:id="PRqas407_u_85"> i would maybe have just one really short question er for mister <supplied reason="anonymization"> [S3/last] </supplied><c function="rise" type="intonation"/><pause/> er in your presentation er you mentioned that <emph> merging </emph> of stock markets will probably take place<c function="fall" type="intonation"/><pause/> so now recently we are erm <pause/> witnessing that there are already some very concrete ideas and some ne- negotiations in process<c function="rise" type="intonation"/><pause/> about creating like a regional or <unclear> you were going to </unclear> say <voice:pvc> overregional </voice:pvc> central europ- er east european stock market<c function="rise" type="intonation"/><pause/> by merging as far as i know er by budapest stock exchange and vienna stock exchange and warsaw stock exchange<c function="fall" type="intonation"/><pause/> so now my question would be er what's your personal opinion er as an expert in which time frame do you see this project<c function="rise" type="intonation"/><pause/> so what do you <emph> beli</emph><c type="lengthening"/><emph>eve </emph> when is it realistic to expect to to get it realized <pause/> er the second would be which level of <emph> success </emph> in erm let's say short-term run or <pause/> l<c type="lengthening"/>ong-term run do you er would you erm <pause/> say <unclear> this question might have </unclear><pause/> and where in this project do you see the er young <supplied reason="unintelligible"> xxx </supplied><pause dur="PT1S"/> thank you <pause/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_86"><shift corresp="#PRqas407_s_72" feature="voice" new="laugh" xml:id="PRqas407_s_71"/> yeah <shift corresp="#PRqas407_s_71" feature="voice" new="neutral" xml:id="PRqas407_s_72"/> thank you for <unclear> a </unclear> very good questions <pause dur="PT1S"/> when you look at european stock exchange map you know <pause/> it looks er <pause/> it it's very interesting and er you know one looking at this map can you can see some <pause/> er historical backgrounds you know<c function="fall" type="intonation"/><pause/> er it's quite interesting to me to er to watch this<c function="fall" type="intonation"/> if you look for example <pause/> i just give you some examples really <pause/> er <pause dur="PT1S"/> so if you look let's say at  <w voice:mode="spelt"> u k  </w><pause/> they are still in the <unclear> abandon </unclear><pause/> not intervening with any <pause/> er they don't have any really strategy to do some <pause/> er alliances or mergers in europe you know <pause/> they're still quite active with their <pause/><voice:pvc> ex-commonwealth </voice:pvc> er or still commonwealth countries<c function="rise" type="intonation"/><pause/> and that's their typical strategy<c function="fall" type="intonation"/> so the german strategy er for example is that <pause/> er <pause/> they want <pause/> as much as possible or as many as possible <pause/> different countries <unclear> of </unclear> exchanges to use their <pause/> their system <supplied reason="anonymization"> [name1] </supplied><pause/> so it's kind of technological- <pause/> -ly oriented you know er er strategy really<c function="fall" type="intonation"/><pause/> then er you have <pause/> er on the other h- er hand <unclear> you have </unclear><voice:track medium="1" num="9" type="md"/> the scandinavians which  have this <supplied reason="anonymization"> [name2] </supplied> thing going on<c function="rise" type="intonation"/><pause/> which is actually already the <emph> merger </emph> of of <pause/> quite few exchanges there<c function="rise" type="intonation"/><pause/> we just read that copenhagen er you know <pause/> finally completely joined <supplied reason="anonymization"> [name2] </supplied><pause/> so you have it iceland <pause/> norway <pause/> er finland er denmark <pause/> and of course er sweden<c function="fall" type="intonation"/><pause/> which are <emph> all </emph> in this package <emph> plus </emph><pause/> three baltic countries <pause/> so the t- we have one i would say <pause/> getting <emph> very </emph> important regional market there <pause dur="PT1S"/> er then of course you have french w- er which are always er kind of <voice:pvc> pan-european </voice:pvc> you kno<c type="lengthening"/>w <pause/> trying to lead this <voice:pvc> pan-european </voice:pvc><pause/> thing going on<c function="rise" type="intonation"/> so they are actually i would say leading partners in this euro-next <pause/> connection<c function="rise" type="intonation"/><pause/> together with the belgians<c function="rise" type="intonation"/> er and er <pause dur="PT1S"/> er er dutch and and er portuguese<c function="rise" type="intonation"/><pause/> and then you have italians of course waiting what will happen in europe like in always in history and then they will be the first who will join the leading combination<c function="rise" type="intonation"/><pause dur="PT1S"/> e<c type="lengthening"/>r then you also have spaniards waiting er what will happen in europe and they have also a lot of er activities in the <pause/> er latin countries<c function="rise" type="intonation"/> you know <pause/> especially south africa and so on and so forth <pause/> and some <voice:pvc> ex-colonies </voice:pvc> also<c function="rise" type="intonation"/><pause/><shift corresp="#PRqas407_s_74" feature="loud" new="f" xml:id="PRqas407_s_73"/> and then of course <shift corresp="#PRqas407_s_73" feature="loud" new="neutral" xml:id="PRqas407_s_74"/> you have all this er this now ten new members of european union they have all the problem of the size they're relatively small<c function="rise" type="intonation"/><pause/> and maybe in this package <emph> i </emph> could maybe also er include er austria<c function="rise" type="intonation"/><pause dur="PT1S"/> in a way because austria is giving some <emph> incentives </emph> how to <pause/> er let's have place in regional role<c function="rise" type="intonation"/><pause/> regarding this  countries and how to maybe <pause/> try to <pause/> er find some <emph> synergies </emph> here<c function="fall" type="intonation"/><pause/> er<c type="lengthening"/>m <pause dur="PT1S"/> i think er <pause/> this projects er regarding this small er er er markets <pause/> can be interesting<c function="rise" type="intonation"/><pause/> but just maybe to have this point what i <unclear> early </unclear> to read in my <emph> my </emph> presentation <pause/> even if you put all this ten <pause dur="PT1S"/> er countries together <pause/> er and compare <emph> their </emph> volume of trading their <pause/> let's say <pause/> listing volume and everything to get one per cent of european union so even if all this ten countries will be would be together<c function="rise" type="intonation"/><pause dur="PT1S"/> er you have very small market<c function="fall" type="intonation"/><pause/> so then is the question whether it's for small market better to join as <emph> another </emph> small market<c function="rise" type="intonation"/><pause/> and you there is still then small market even the <pause/> you know <pause/> er <emph> merged </emph><emph> one </emph><c function="rise" type="intonation"/><pause/> or to join maybe <pause/> any of this <pause/> er activities <pause/> happening already<c function="fall" type="intonation"/><pause dur="PT2S"/> but <emph> i </emph> think that er regionally could be done something<c function="fall" type="intonation"/><pause/> that's my opinion<c function="fall" type="intonation"/><pause dur="PT1S"/> but not getting rid completely of the problem of the size <pause dur="PT1S"/></u>
+            <u who="#PRqas407_S8" xml:id="PRqas407_u_87"> mhm <pause/> thank you <pause/></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_88"><shift corresp="#PRqas407_s_76" feature="voice" new="laugh" xml:id="PRqas407_s_75"/> and <shift corresp="#PRqas407_s_75" feature="voice" new="neutral" xml:id="PRqas407_s_76"/> last <pause/> for the la- <unclear> into </unclear> the last of your <seg n="5" type="overlap" xml:id="PRqas407_ol_38"> que</seg>stion is actually in this direction too<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRqas407_S8" xml:id="PRqas407_u_89"><seg n="5" synch="#PRqas407_ol_38" type="overlap" xml:id="PRqas407_ol_39"> yes </seg></u>
+            <u who="#PRqas407_S8" xml:id="PRqas407_u_90"><seg n="6" type="overlap" xml:id="PRqas407_ol_40"> also </seg></u>
+            <u who="#PRqas407_S3" xml:id="PRqas407_u_91"><seg n="6" synch="#PRqas407_ol_40" type="overlap" xml:id="PRqas407_ol_41"> whether </seg> to join this maybe <emph> regional </emph><pause/> er you know incentives<c function="rise" type="intonation"/><pause dur="PT1S"/> er although we er although in slovenia we did some regional incentives regarding former yugoslavia<c function="rise" type="intonation"/><pause/> er which is of course not yet member any of those countries not yet member of  <w voice:mode="spelt"> e u<c function="rise" type="intonation"/></w><pause/> or to join any of other er incentives <shift corresp="#PRqas407_s_78" feature="loud" new="p" xml:id="PRqas407_s_77"/> in in <pause/> in <pause/> europe<c function="fall" type="intonation"/><shift corresp="#PRqas407_s_77" feature="loud" new="neutral" xml:id="PRqas407_s_78"/><pause/></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_92"><shift corresp="#PRqas407_s_80" feature="loud" new="p" xml:id="PRqas407_s_79"/> mhm <shift corresp="#PRqas407_s_79" feature="loud" new="neutral" xml:id="PRqas407_s_80"/><pause dur="PT1S"/> okay gentlemen <voice:track medium="1" num="10" type="md"/><pause/> i thank <emph> you </emph><c function="rise" type="intonation"/><pause/> for your erm <pause/> very insightful presentations<c function="rise" type="intonation"/><pause/> er i thank you also for your tolerance of any technical erm er <pause/> er problems we had <pause/> and for your discipline in in time er <pause/> matters<c function="rise" type="intonation"/><pause/> we'll now enter into the<c type="lengthening"/> er break<c function="rise" type="intonation"/><pause/> which i think most of you have been waiting for some time already erm <pause/> the break is twenty minutes i <emph> really </emph><emph> really </emph> erm <pause/> ask you <emph> very </emph><emph> very </emph> erm <pause dur="PT1S"/> very er actually <shift corresp="#PRqas407_s_82" feature="voice" new="laugh" xml:id="PRqas407_s_81"/> on my knees <shift corresp="#PRqas407_s_81" feature="voice" new="neutral" xml:id="PRqas407_s_82"/> er to be back at <seg n="7" type="overlap" xml:id="PRqas407_ol_42"> ten forty <pause/> because if we </seg> pick up five or ten minutes of delay <unclear> at </unclear> each er presentation there's gonna be no lunch break and <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><pause/></u>
+            <u who="#PRqas407_SS" xml:id="PRqas407_u_93"><seg n="7" synch="#PRqas407_ol_42" type="overlap" xml:id="PRqas407_ol_43"><shift corresp="#PRqas407_s_84" feature="loud" new="p" xml:id="PRqas407_s_83"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><shift corresp="#PRqas407_s_83" feature="loud" new="neutral" xml:id="PRqas407_s_84"/></seg></u>
+            <u who="#PRqas407_S1" xml:id="PRqas407_u_94"><emph> no </emph><incident voice:desc="conversations in the audience start"/> there's gonna be a lunch break but it's gonna be short<unclear>er </unclear> and then the events in the afternoon are gonna be delayed as well <pause/> so <emph> please </emph> be back at ten forty<c function="rise" type="intonation"/><pause/> er <pause/> in the same place<c function="fall" type="intonation"/> yeah<c function="rise" type="intonation"/> thanks a lot </u>
+         </div>
+      </body>
+   </text>
+</TEI>

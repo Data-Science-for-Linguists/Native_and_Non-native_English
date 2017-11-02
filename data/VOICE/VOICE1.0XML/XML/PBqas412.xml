@@ -1,0 +1,706 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="PBqas412" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>question-answer session on technology used in steel production</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>Austrian Science Foundation (FWF)</funder>
+            <sponsor/>
+            <respStmt>
+               <resp>Corpus Compilation</resp>
+               <orgName>VOICE Project</orgName>
+               <persName>Barbara Seidlhofer</persName>
+               <persName>Angelika Breiteneder</persName>
+               <persName>Marie-Luise Pitzl</persName>
+               <persName>Stefan Majewski</persName>
+               <persName>Theresa Klimpfinger</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+		<edition>Version 1.0 XML, <date>May 2011</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Angelika Breiteneder</name> 
+		<name>Theresa Klimpfinger</name> 
+		<name>Stefan Majewski</name> 
+		<name>Marie-Luise Pitzl</name> 
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Marie-Luise Pitzl</publisher> 
+	  <distributor>VOICE Project, University of Vienna, Austria</distributor> 
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+	  	<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  	<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE 1.0 XML is
+		  available for download at the VOICE Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+		  http://creativecommons.org/licenses/by-nc-sa/3.0/
+		  </ref>). The original audio files are held at the Department
+		  of English, University of Vienna. 23 selected audio files
+		  are available as audio streams in the VOICE Online interface
+		  at the VOICE Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+		<p>
+		The recommended citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Marie-Luise Pitzl.</bibl>
+		</p>
+		<p>The short citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>).</bibl></p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="PBqas412_wc">Words: 2341</note>
+            <note xml:id="PBqas412_tn_0">This question-answer session is part of a conference on steel technology. The participants are professionals involved in steel production and technology. The panel of presenters (S3, S5, S9, S12, S13) answer questions from the audience about technical details concerning methods of steel production that the speakers have introduced. The session is chaired by S1.  </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H16M30S" type="audio">
+                  <date>2004-06-15</date>
+                  <equipment>
+                     <p>video recording</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>private company</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="PBqas412_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="PBqas412_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="PBqas412_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="PBqas412_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="PBqas412_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="PBqas412_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="PBqas412_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="PBqas412_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="PBqas412_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="PBqas412_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="PBqas412_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="PBqas412_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="PBqas412_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="PBqas412_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="PBqas412_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="PBqas412_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="PBqas412_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="orgName" occurs="1"/>
+      <tagUsage gi="persName" occurs="5"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="name" occurs="8"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="82"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="15"/>
+      <tagUsage gi="list" occurs="11"/>
+      <tagUsage gi="label" occurs="20"/>
+      <tagUsage gi="val" occurs="42"/>
+      <tagUsage gi="item" occurs="40"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="3"/>
+      <tagUsage gi="person" occurs="17"/>
+      <tagUsage gi="age" occurs="16"/>
+      <tagUsage gi="sex" occurs="16"/>
+      <tagUsage gi="occupation" occurs="16"/>
+      <tagUsage gi="langKnowledge" occurs="16"/>
+      <tagUsage gi="langKnown" occurs="16"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="5"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="1"/>
+      <tagUsage gi="u" occurs="121">Used to mark a stretch of speech commonly
+		preceded and followed by a pause or by a change of speaker. A
+		<gi>u</gi> is, however, not required to be bounded by a pause or
+		a change of speaker, nor does it represent a turn in a
+		conversation analytic sense. At a minimum, a <gi>u</gi> is some
+		phonetic production or noise made by a given speaker or a group of speakers.</tagUsage>
+      <tagUsage gi="supplied" occurs="76">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed to
+		be anonymized. The <att>reason</att> attribute is used to mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="c" occurs="272">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="pause" occurs="298">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="unclear" occurs="45">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="shift" occurs="30">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		  </list>
+		</tagUsage>
+      <tagUsage gi="seg" occurs="54">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="emph" occurs="10">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="anchor" occurs="36">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="w" occurs="5">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage>
+      <tagUsage gi="foreign" occurs="2">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the 
+		<att>voice:translation</att> attribute provides a rough translation of the
+		non-English speech into English.
+		</tagUsage>
+      <tagUsage gi="vocal" occurs="11">Used to mark laughter and other speaker
+		noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="incident" occurs="4">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:track" occurs="5">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in length) and thus refers to the audio recording
+		of the transcribed speech event.
+		</tagUsage>
+      <tagUsage gi="voice:pvc" occurs="4">Used to mark a pronunciation variation
+		or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+			VOICE mark-up conventions [2.1].</ref>the
+			VOICE mark-up conventions [2.1]. An existing word corresponding to the PVC may be provided within a <att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc element. Additional phonetic
+			transcription may be provided within a <att>voice:ipa</att>voice:ipa attribute
+			within the <gi>voice:pvc</gi>voice:pvc element.</tagUsage>
+      <tagUsage gi="voice:to" occurs="1">Used to mark speech directed towards a
+		particular speaker. The <att>who</att>who attribute indicates the
+		addressed speaker.</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#PBqas412_PB #PBqas412_qas"/>
+            <catRef target="#PB #qas"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">AT</name>
+               <name type="city">Linz</name>
+               <locale>seminar room</locale>
+               <activity>unknown</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="16"/>
+                  <personGrp role="interactants" size="16"/>
+                  <personGrp role="audience" size="unknown"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="audience" sameAs="#P244" xml:id="PBqas412_S4">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <occupation>engineer at steel company</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="per-IR"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="chair" sameAs="#P750" xml:id="PBqas412_S1">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P751" xml:id="PBqas412_S2">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="por-BR"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P752" xml:id="PBqas412_S3">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="fre"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P754" xml:id="PBqas412_S5">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P755" xml:id="PBqas412_S6">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng-GB"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P757" xml:id="PBqas412_S7">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="hin-IN"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P758" xml:id="PBqas412_S8">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="por-BR"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P759" xml:id="PBqas412_S9">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="dut"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P760" xml:id="PBqas412_S10">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="swe-SE"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P761" xml:id="PBqas412_S11">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="fre"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P762" xml:id="PBqas412_S12">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="chi-CN"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="presenter" sameAs="#P763" xml:id="PBqas412_S13">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P764" xml:id="PBqas412_S14">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="fre"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="audience" sameAs="#P765" xml:id="PBqas412_S15">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="fre"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="coordinator" sameAs="#P766" xml:id="PBqas412_S16">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <occupation>professional working in steel technology</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person sameAs="#SX-m" xml:id="PBqas412_SX-m"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#PBqas412_S1 #PBqas412_S10 #PBqas412_S11 #PBqas412_S12 #PBqas412_S13 #PBqas412_S14 #PBqas412_S15 #PBqas412_S16 #PBqas412_S2 #PBqas412_S3 #PBqas412_S4 #PBqas412_S5 #PBqas412_S6 #PBqas412_S7 #PBqas412_S8 #PBqas412_S9" name="fairly_asymmetrical" type="power"/>
+                  <relation mutual="#PBqas412_S1 #PBqas412_S10 #PBqas412_S11 #PBqas412_S12 #PBqas412_S13 #PBqas412_S14 #PBqas412_S15 #PBqas412_S16 #PBqas412_S2 #PBqas412_S3 #PBqas412_S4 #PBqas412_S5 #PBqas412_S6 #PBqas412_S7 #PBqas412_S8 #PBqas412_S9" name="predominantly_unacquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-11" who="TK">finalized for publication</change>
+         <change when="2009-01-13" who="MLP">proof-reading</change>
+         <change when="2008-11-29" who="LL">checking</change>
+         <change when="2008-03-28" who="JH">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="01:30" voice:end_medium_number="1" voice:end_track="6" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_1"> thank you very much mister <supplied reason="anonymization"> [S13/last] </supplied> for your presentation<c function="rise" type="intonation"/><pause/> hh e<c type="lengthening"/>r we have now reached the point of discussion<c function="fall" type="intonation"/> hh e<c type="lengthening"/>r first of all i would like to thank all the speakers for <unclear> their </unclear> presentation  excellent ones <pause/> hh an<c type="lengthening"/>d e<c type="lengthening"/>r <pause dur="PT1S"/> i would like to a- er ask you to<c type="lengthening"/> mention your name and affiliation and to whom you like to address <pause/> your question<c function="fall" type="intonation"/> hh now the discussion is open for you<c function="fall" type="intonation"/><pause dur="PT1S"/> hh please er <pause dur="PT3S"/><unclear> here </unclear><pause dur="PT8S"/></u>
+            <u who="#PBqas412_S2" xml:id="PBqas412_u_2"> e<c type="lengthening"/>r <supplied reason="anonymization"> [S2] </supplied><supplied reason="anonymization"> [S2/last] </supplied><supplied reason="anonymization"> [org1] </supplied> brazil <pause dur="PT1S"/> to <supplied reason="anonymization"> [S3] </supplied><pause dur="PT2S"/> e<c type="lengthening"/>r congratulation  for  your presentation <pause/></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_3"><shift corresp="#PBqas412_s_2" feature="loud" new="p" xml:id="PBqas412_s_1"/> thank <seg n="1" type="overlap" xml:id="PBqas412_ol_0"> you </seg><shift corresp="#PBqas412_s_1" feature="loud" new="neutral" xml:id="PBqas412_s_2"/></u>
+            <u who="#PBqas412_S2" xml:id="PBqas412_u_4"><seg n="1" synch="#PBqas412_ol_0" type="overlap" xml:id="PBqas412_ol_1"> the </seg> question is <pause/> can the wave of the strip interfere <pause/> hh in the<c type="lengthening"/> performance of the<c type="lengthening"/><pause/> special system<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_5"> you're talking e<c type="lengthening"/>r the wave <seg n="2" type="overlap" xml:id="PBqas412_ol_2"> er </seg></u>
+            <u who="#PBqas412_S2" xml:id="PBqas412_u_6"><seg n="2" synch="#PBqas412_ol_2" type="overlap" xml:id="PBqas412_ol_3"> the </seg> wave </u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_7"> wave <unclear><emph> de</emph>fect </unclear> or <seg n="3" type="overlap" xml:id="PBqas412_ol_4"> at </seg> the <shift corresp="#PBqas412_s_4" feature="tempo" new="a" xml:id="PBqas412_s_3"/> beginning of <shift corresp="#PBqas412_s_3" feature="tempo" new="neutral" xml:id="PBqas412_s_4"/> the<c type="lengthening"/><pause dur="PT1S"/></u>
+            <u who="#PBqas412_S2" xml:id="PBqas412_u_8"><seg n="3" synch="#PBqas412_ol_4" type="overlap" xml:id="PBqas412_ol_5"> yeah </seg></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_9"> er er at the head end of the <supplied reason="unintelligible"> xxx xxxx </supplied> is not <unclear> on </unclear> atten<seg n="4" type="overlap" xml:id="PBqas412_ol_6">tion </seg></u>
+            <u who="#PBqas412_S2" xml:id="PBqas412_u_10"><seg n="4" synch="#PBqas412_ol_6" type="overlap" xml:id="PBqas412_ol_7"> the </seg> end of the <pause/> th- the the en- the end <pause/> of the <supplied reason="unintelligible"> xx </supplied> of <seg n="5" type="overlap" xml:id="PBqas412_ol_8"> the <supplied reason="unintelligible"> x </supplied></seg> strip <pause/></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_11"><seg n="5" synch="#PBqas412_ol_8" type="overlap" xml:id="PBqas412_ol_9"> okay </seg></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_12"> e<c type="lengthening"/>r <pause dur="PT1S"/> so<c type="lengthening"/> we realize that there was a<c type="lengthening"/> this potential problem actually what we hh e<c type="lengthening"/>r did to address that is adapt electronically the <emph> res</emph>ponse time of the<c type="lengthening"/><pause/> came<emph>ras </emph> hh to e<c type="lengthening"/>r maintain a constant <pause/> er <unclear> grey </unclear> level signal <pause/> so we have greatly reduced this e<c type="lengthening"/>r <emph> physical </emph> effect <pause dur="PT1S"/> by e<c type="lengthening"/>r electronic <supplied reason="unintelligible"> xx </supplied><pause dur="PT1S"/></u>
+            <u who="#PBqas412_S2" xml:id="PBqas412_u_13"> great <seg n="6" type="overlap" xml:id="PBqas412_ol_10"> thank you </seg></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_14"><seg n="6" synch="#PBqas412_ol_10" type="overlap" xml:id="PBqas412_ol_11"><supplied reason="unintelligible"> x </supplied></seg> e<c type="lengthening"/>r to m<c type="lengthening"/>- say er hh if you have a problem of er flatness<c function="rise" type="intonation"/><pause/> while you are <unclear> rolling </unclear> then it will be perceived <seg n="7" type="overlap" xml:id="PBqas412_ol_12"> by the </seg> system <anchor synch="#PBqas412_oc_1" type="other_continuation" xml:id="PBqas412_oc_0"/></u>
+            <u who="#PBqas412_S2" xml:id="PBqas412_u_15"><seg n="7" synch="#PBqas412_ol_12" type="overlap" xml:id="PBqas412_ol_13"> yes </seg></u>
+            <u who="#PBqas412_S2" xml:id="PBqas412_u_16"><anchor synch="#PBqas412_oc_0" type="other_continuation" xml:id="PBqas412_oc_1"/> but <emph> if </emph><pause/> we have any <pause/> defect <pause/> in this part of the strip <pause/> where we<c type="lengthening"/> have e<c type="lengthening"/>r a small wave <pause/></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_17"> yes<c function="rise" type="intonation"/><pause/> no you will find it yah <pause/></u>
+            <u who="#PBqas412_S2" xml:id="PBqas412_u_18"> okay <pause/> thank you <pause/></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_19"> okay <pause dur="PT14S"/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_20"> okay <supplied reason="anonymization"> [S4/last] </supplied> from iran <supplied reason="anonymization"> [org2] </supplied> company <pause/> hh mister <supplied reason="anonymization"> [S5/last] </supplied><c function="rise" type="intonation"/> you were talking about this e<c type="lengthening"/>rm<c type="lengthening"/> thermal crown calculation <pause dur="PT1S"/> e<c type="lengthening"/>r what is the effect of e<c type="lengthening"/>r <pause/> hh temperature water of e<c type="lengthening"/>r cooling water temperature<c function="rise" type="intonation"/><pause dur="PT1S"/> and also the material <pause dur="PT1S"/><unclear> that you're </unclear> rolling <supplied reason="unintelligible"> xx </supplied> its thickness <pause/> on this e<c type="lengthening"/>r er<c type="lengthening"/>m<c type="lengthening"/> your hh er pattern that you just mentioned here <pause dur="PT2S"/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_21"> e<c type="lengthening"/>r <pause dur="PT2S"/> i'm not quite sure if i have c- understand  you correctly but the effect of the cooling water hh e<c type="lengthening"/>r <anchor synch="#PBqas412_oc_3" type="other_continuation" xml:id="PBqas412_oc_2"/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_22"><anchor synch="#PBqas412_oc_2" type="other_continuation" xml:id="PBqas412_oc_3"/> cooling water temperature <pause/> you see you have made a crown e<c type="lengthening"/>r e<c type="lengthening"/>r you have made a e<c type="lengthening"/>r hh e<c type="lengthening"/><c type="lengthening"/>r <pause/> c- crown calculation </u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_23"> yes <anchor synch="#PBqas412_oc_5" type="other_continuation" xml:id="PBqas412_oc_4"/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_24"><anchor synch="#PBqas412_oc_4" type="other_continuation" xml:id="PBqas412_oc_5"/> you see er e<c type="lengthening"/>r hh thermal er expansion calculation <anchor synch="#PBqas412_oc_7" type="other_continuation" xml:id="PBqas412_oc_6"/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_25"><anchor synch="#PBqas412_oc_6" type="other_continuation" xml:id="PBqas412_oc_7"/> yes <pause/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_26"> what is i want to <voice:track medium="1" num="2" type="md"/> know <supplied reason="unintelligible"> x </supplied> what is the effect of<c type="lengthening"/> parameter  like water cooling temperature that ro- cools the rolls<c function="rise" type="intonation"/><pause/> hh and w- er width of the<c type="lengthening"/> erm<c type="lengthening"/> strip or thickness of the strip hh or the material of the strip in this <pause/> your calculation <pause/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_27"> e<c type="lengthening"/>r the temperature of the cooling water is is part of the model <pause/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_28"> mhm <anchor synch="#PBqas412_oc_9" type="other_continuation" xml:id="PBqas412_oc_8"/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_29"><anchor synch="#PBqas412_oc_8" type="other_continuation" xml:id="PBqas412_oc_9"/> er the model knows the temperature of the cooling water </u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_30"> mhm </u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_31"> hh e<c type="lengthening"/>r <pause dur="PT1S"/> the other<c type="lengthening"/> er question the thickness of the material <anchor synch="#PBqas412_oc_11" type="other_continuation" xml:id="PBqas412_oc_10"/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_32"><anchor synch="#PBqas412_oc_10" type="other_continuation" xml:id="PBqas412_oc_11"/> yes yes thickness <unclear> of </unclear> material <pause dur="PT1S"/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_33"> e<c type="lengthening"/>r <pause/> p- the thickness of the material e<c type="lengthening"/>rm <pause/> i <seg n="1" type="overlap" xml:id="PBqas412_ol_14"> think </seg></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_34"><seg n="1" synch="#PBqas412_ol_14" type="overlap" xml:id="PBqas412_ol_15"><unclear> does </unclear></seg> the temperature of material is depend to  the thickness of <seg n="2" type="overlap" xml:id="PBqas412_ol_16"> the </seg></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_35"><seg n="2" synch="#PBqas412_ol_16" type="overlap" xml:id="PBqas412_ol_17"> the </seg><pause/> yah th- the temperature of the material hh is known by the<c type="lengthening"/> er level two <pause/> model <pause/> it's a <seg n="3" type="overlap" xml:id="PBqas412_ol_18"> it's a </seg> calculation <pause/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_36"><seg n="3" synch="#PBqas412_ol_18" type="overlap" xml:id="PBqas412_ol_19"><shift corresp="#PBqas412_s_6" feature="loud" new="p" xml:id="PBqas412_s_5"/> mhm <shift corresp="#PBqas412_s_5" feature="loud" new="neutral" xml:id="PBqas412_s_6"/></seg></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_37"> hh e<c type="lengthening"/>r for the <voice:pvc> interstand </voice:pvc> hh and an- and a final er stand for we have a measured temperature <pause/> hh and with th- this temperature is used hh e<c type="lengthening"/>r to calc- er calculate the heat transfer from hh from strip <pause/> to roll <pause dur="PT1S"/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_38"><shift corresp="#PBqas412_s_8" feature="loud" new="p" xml:id="PBqas412_s_7"/> mhm <shift corresp="#PBqas412_s_7" feature="loud" new="neutral" xml:id="PBqas412_s_8"/> hh do you mean that <pause/> this er crown that you have calculated here is for for all the<c type="lengthening"/><pause/> length is the same<c function="rise" type="intonation"/><unclear> it is </unclear> all the widths<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_39"> er er this p- e<c type="lengthening"/>r <pause/> e<c type="lengthening"/>r picture i have shown hh e<c type="lengthening"/>r you have seen on the  <w voice:mode="spelt"> x  </w> er <foreign type="L1" xml:lang="ger"><w voice:mode="spelt"> x  </w></foreign> ax- ax- <pause dur="PT1S"/></u>
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_40"><shift corresp="#PBqas412_s_10" feature="loud" new="p" xml:id="PBqas412_s_9"/><foreign type="L1" xml:lang="ger"><w voice:mode="spelt">  x  </w></foreign> axis <shift corresp="#PBqas412_s_9" feature="loud" new="neutral" xml:id="PBqas412_s_10"/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_41"><shift corresp="#PBqas412_s_12" feature="voice" new="laugh" xml:id="PBqas412_s_11"/><w voice:mode="spelt">  x  </w> axis <shift corresp="#PBqas412_s_11" feature="voice" new="neutral" xml:id="PBqas412_s_12"/> hh e<c type="lengthening"/>r the width <pause/> and on the<c type="lengthening"/><pause/><w voice:mode="spelt"> y  </w> axis hh e<c type="lengthening"/>r the<c type="lengthening"/> thermal expansion<c function="fall" type="intonation"/> and e<c type="lengthening"/>r we had two <pause/> two curves the calculated curve and the<c type="lengthening"/> the measured <pause/> curve <pause/> and they ha- er <pause dur="PT1S"/><shift corresp="#PBqas412_s_14" feature="tempo" new="l" xml:id="PBqas412_s_13"/> have a <shift corresp="#PBqas412_s_13" feature="tempo" new="neutral" xml:id="PBqas412_s_14"/> high coincidence <pause/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_42"> no i mean that you have calculated you measured for o- one type of a strip or different type  of a strip <pause/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_43"> this is a<c type="lengthening"/> we have measured at the end of the rolling <unclear> campaign </unclear><pause dur="PT1S"/> we had <pause/> let's say er <pause dur="PT1S"/> one hundred strips <anchor synch="#PBqas412_oc_13" type="other_continuation" xml:id="PBqas412_oc_12"/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_44"><anchor synch="#PBqas412_oc_12" type="other_continuation" xml:id="PBqas412_oc_13"/> aha <anchor synch="#PBqas412_oc_15" type="other_continuation" xml:id="PBqas412_oc_14"/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_45"><anchor synch="#PBqas412_oc_14" type="other_continuation" xml:id="PBqas412_oc_15"/> and at the end of the rolling <unclear> campaign </unclear> we did our measurement <pause/></u>
+            <u who="#PBqas412_S4" xml:id="PBqas412_u_46"> okay <pause/> thank you </u>
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_47"><shift corresp="#PBqas412_s_16" feature="loud" new="p" xml:id="PBqas412_s_15"/> there was another question behind you <shift corresp="#PBqas412_s_15" feature="loud" new="neutral" xml:id="PBqas412_s_16"/><pause dur="PT2S"/></u>
+            <u who="#PBqas412_S6" xml:id="PBqas412_u_48"> thank you er <supplied reason="anonymization"> [S6] </supplied><supplied reason="anonymization"> [S6/last] </supplied><supplied reason="anonymization"> [org3] </supplied> international <pause/> erm question for mister <supplied reason="anonymization"> [S3/last] </supplied> on<c type="lengthening"/> the surface inspection system <pause/> can you say a little bit about how <pause/> you actually identify the defects is it for example a <unclear> neural </unclear> network system hh and also o- once defects are identified can you transfer that information from <pause/> one system to another so hh defects identified on the <supplied reason="unintelligible"> xx x </supplied><pause/> can those be <pause/></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_49"> m<seg n="4" type="overlap" xml:id="PBqas412_ol_20">hm </seg></u>
+            <u who="#PBqas412_S6" xml:id="PBqas412_u_50"><seg n="4" synch="#PBqas412_ol_20" type="overlap" xml:id="PBqas412_ol_21"> cla</seg>ssified on a new system on another hot <unclear> strip </unclear><supplied reason="unintelligible"> x </supplied><pause/></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_51"> e<c type="lengthening"/>r <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> so e<c type="lengthening"/>r <pause/> two questions here so the first<c function="rise" type="intonation"/> hh e<c type="lengthening"/>r to<c type="lengthening"/> identify defects we work after a set of <pause/> e<c type="lengthening"/>r examples that are told <pause/> er to the system<c function="rise" type="intonation"/> hh that are collected on the line and told to the system we use a statistical method hh e<c type="lengthening"/>r which is a<c type="lengthening"/><pause/> quite elaborate called er <supplied reason="unintelligible"> xx </supplied> spheres <pause/> hh e<c type="lengthening"/>r method <pause/> which er seems to provide the best results <pause/> for this application and now to er answer your second question<c function="rise" type="intonation"/> hh <emph> yes </emph> e<c type="lengthening"/>r the e<c type="lengthening"/>r <emph> re</emph>sults <pause/> er the parameters acquired <pause/> e<c type="lengthening"/>r from one application can be reused er <pause/> for another application <pause dur="PT6S"/><voice:track medium="1" num="3" type="md"/></u>
+            <u who="#PBqas412_S7" xml:id="PBqas412_u_52"> i'm from <supplied reason="anonymization"> [S7] </supplied><supplied reason="anonymization"> [S7/last] </supplied> from <supplied reason="anonymization"> [org4] </supplied> hh e<c type="lengthening"/>r my question is to to <supplied reason="anonymization"> [S3] </supplied><pause/> i just wanted to know what is the minimum size of the defect which the system can <unclear> detect </unclear><pause/></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_53"> e<c type="lengthening"/>rm <pause/></u>
+            <u who="#PBqas412_S7" xml:id="PBqas412_u_54"> thank you <anchor synch="#PBqas412_oc_17" type="other_continuation" xml:id="PBqas412_oc_16"/></u>
+            <u who="#PBqas412_S3" xml:id="PBqas412_u_55"><anchor synch="#PBqas412_oc_16" type="other_continuation" xml:id="PBqas412_oc_17"/> it's a good question <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/> hh <pause/> it depends on the texture of your product so if you have a very noisy background texture and very er hh er bad conditions then e<c type="lengthening"/>r of course <pause/> we will be less sensitive but e<c type="lengthening"/>r hh typically on e<c type="lengthening"/>r high-quality products we detect as<c type="lengthening"/> as small defects as a hh salt and pepper scale  so hh e<c type="lengthening"/>r e<c type="lengthening"/>r i would say the size of the <supplied reason="unintelligible"> xxx </supplied><pause/> for this type of defects <pause dur="PT5S"/></u>
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_56"> here's next <pause dur="PT2S"/></u>
+            <u who="#PBqas412_S8" xml:id="PBqas412_u_57"><supplied reason="anonymization"> [S8] </supplied><supplied reason="anonymization"> [S8/last] </supplied> from <supplied reason="anonymization"> [org5] </supplied> brazil <pause/> mister <supplied reason="anonymization"> [S9/last]</supplied>- <supplied reason="anonymization"> [S9/last] </supplied><pause/></u>
+            <u who="#PBqas412_S9" xml:id="PBqas412_u_58"> yah <pause/> that's me <pause/></u>
+            <u who="#PBqas412_S8" xml:id="PBqas412_u_59"> e<c type="lengthening"/>r i'd like to know <pause/> er how many times <pause/> do you do you need<c function="rise" type="intonation"/><pause/> to<c type="lengthening"/> get the<c type="lengthening"/> the<c type="lengthening"/><pause dur="PT1S"/> position <pause/> of the<c type="lengthening"/> the shift th- the shift position <pause dur="PT2S"/><seg n="5" type="overlap" xml:id="PBqas412_ol_22"> before </seg> yes yes <shift corresp="#PBqas412_s_18" feature="tempo" new="a" xml:id="PBqas412_s_17"/> th- th- <shift corresp="#PBqas412_s_17" feature="tempo" new="neutral" xml:id="PBqas412_s_18"/><pause/></u>
+            <u who="#PBqas412_S9" xml:id="PBqas412_u_60"><seg n="5" synch="#PBqas412_ol_22" type="overlap" xml:id="PBqas412_ol_23"><supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#PBqas412_S8" xml:id="PBqas412_u_61"> ho- ho- how long er ho- how many  time<c function="rise" type="intonation"/><pause dur="PT1S"/><seg n="6" type="overlap" xml:id="PBqas412_ol_24"><supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#PBqas412_S9" xml:id="PBqas412_u_62"><seg n="6" synch="#PBqas412_ol_24" type="overlap" xml:id="PBqas412_ol_25"> er we </seg> shift between between <supplied reason="unintelligible"> xx </supplied><pause/></u>
+            <u who="#PBqas412_S8" xml:id="PBqas412_u_63"> er between <supplied reason="unintelligible"> xx </supplied><seg n="7" type="overlap" xml:id="PBqas412_ol_26"> or er </seg><unclear> case </unclear> between <pause/></u>
+            <u who="#PBqas412_S9" xml:id="PBqas412_u_64"><seg n="7" synch="#PBqas412_ol_26" type="overlap" xml:id="PBqas412_ol_27"> yah </seg></u>
+            <u who="#PBqas412_S8" xml:id="PBqas412_u_65"> passes <pause/><supplied reason="unintelligible"> xxxx </supplied><pause dur="PT1S"/></u>
+            <u who="#PBqas412_S9" xml:id="PBqas412_u_66"> you could <pause/> yah <pause dur="PT1S"/> you could between <pause/> passes it's done with an empty <unclear> stand </unclear><pause dur="PT1S"/> let's say in <unclear> cold mills </unclear> you can shift with e<c type="lengthening"/>r material ro- in in<c type="lengthening"/> the middle<c function="rise" type="intonation"/><pause/> and for a hot hot rolling <pause/> hh let's say it's easier to do it e<c type="lengthening"/>r between between passes <pause/></u>
+            <u who="#PBqas412_S8" xml:id="PBqas412_u_67"> yes but how lo- er ho- how many  time do you <seg n="8" type="overlap" xml:id="PBqas412_ol_28"> spend <pause/> to do it </seg></u>
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_68"><shift corresp="#PBqas412_s_20" feature="loud" new="p" xml:id="PBqas412_s_19"/><shift corresp="#PBqas412_s_22" feature="tempo" new="a" xml:id="PBqas412_s_21"/><voice:to who="#PBqas412_S9"><seg n="8" synch="#PBqas412_ol_28" type="overlap" xml:id="PBqas412_ol_29"><supplied reason="unintelligible"> xxx </supplied> how fast </seg> how fast you can shift that's <supplied reason="unintelligible"> xx </supplied> the question </voice:to><shift corresp="#PBqas412_s_21" feature="tempo" new="neutral" xml:id="PBqas412_s_22"/><shift corresp="#PBqas412_s_19" feature="loud" new="neutral" xml:id="PBqas412_s_20"/></u>
+            <u who="#PBqas412_S9" xml:id="PBqas412_u_69"> how fast or what <seg n="1" type="overlap" xml:id="PBqas412_ol_30"> how many </seg> times <anchor synch="#PBqas412_oc_19" type="other_continuation" xml:id="PBqas412_oc_18"/></u>
+            <u who="#PBqas412_S8" xml:id="PBqas412_u_70"><seg n="1" synch="#PBqas412_ol_30" type="overlap" xml:id="PBqas412_ol_31"> yeah yes </seg></u>
+            <u who="#PBqas412_S8" xml:id="PBqas412_u_71"><anchor synch="#PBqas412_oc_18" type="other_continuation" xml:id="PBqas412_oc_19"/> how fast yes <pause dur="PT1S"/></u>
+            <u who="#PBqas412_S9" xml:id="PBqas412_u_72"> pf <pause/> i don't know <pause/> e<c type="lengthening"/>rm <pause/> it's a typical value for shifting <shift corresp="#PBqas412_s_24" feature="tempo" new="a" xml:id="PBqas412_s_23"/> i don't know <shift corresp="#PBqas412_s_23" feature="tempo" new="neutral" xml:id="PBqas412_s_24"/> who who has <pause dur="PT1S"/> anybody here an idea<c function="rise" type="intonation"/><pause dur="PT1S"/> it it takes time it takes time obviously <pause/> let's say if you need to shift from very f- e<c type="lengthening"/>r from one outer position to the next it it takes a lot of time so then hh let's say small corrections you can do between passes and and l- <pause/> large corrections <pause/> only between <supplied reason="unintelligible"> xx </supplied><pause/></u>
+            <u who="#PBqas412_S8" xml:id="PBqas412_u_73"> i make th- this question because <supplied reason="unintelligible"> xxxxx </supplied> the <unclear> reversing </unclear> time <pause/><seg n="2" type="overlap" xml:id="PBqas412_ol_32"> is </seg> between to five to six se<seg n="3" type="overlap" xml:id="PBqas412_ol_33">conds </seg></u>
+            <u who="#PBqas412_S9" xml:id="PBqas412_u_74"><seg n="2" synch="#PBqas412_ol_32" type="overlap" xml:id="PBqas412_ol_34"> yah </seg></u>
+            <u who="#PBqas412_S9" xml:id="PBqas412_u_75"><seg n="3" synch="#PBqas412_ol_33" type="overlap" xml:id="PBqas412_ol_35"> yah </seg> you <pause/> cannot shift very much <pause dur="PT1S"/></u>
+            <u who="#PBqas412_S8" xml:id="PBqas412_u_76"> so i don't know if there is enough time <pause/></u>
+            <u who="#PBqas412_S9" xml:id="PBqas412_u_77"> yah <pause dur="PT2S"/><unclear> otherwise </unclear> you lose extra time <pause dur="PT11S"/></u>
+            <u who="#PBqas412_S10" xml:id="PBqas412_u_78"> my name is <supplied reason="anonymization"> [S10] </supplied><supplied reason="anonymization"> [S10/last] </supplied> from <supplied reason="anonymization"> [org6] </supplied> hh and in the <unclear> heavy plate mill </unclear><pause/> we do the shift between each pass <pause/> and we don't lose any time <pause dur="PT6S"/></u>
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_79"><vocal voice:desc="clears throat"/> okay <pause/> thank you<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PBqas412_S11" xml:id="PBqas412_u_80"> hh okay e<c type="lengthening"/>r <supplied reason="anonymization"> [S11] </supplied><supplied reason="anonymization"> [S11/last] </supplied> from er <supplied reason="anonymization"> [org7] </supplied> hh my question is for mister <supplied reason="anonymization"> [S12/last] </supplied><pause dur="PT1S"/> hh and e<c type="lengthening"/>r two question  if you allow <pause/> e<c type="lengthening"/>r the first one is hh er especially fo<c type="lengthening"/>r very e<c type="lengthening"/>r high er cooling <voice:track medium="1" num="4" type="md"/> rate hh it's very difficult to er know and calibrate hh the prediction of temperature hh an<c type="lengthening"/>d let me say the<c type="lengthening"/> e<c type="lengthening"/>r <pause dur="PT1S"/> the heat flux <pause/> e<c type="lengthening"/>r <pause/> on the product <vocal type="speaker_noise" voice:desc="smacks lips"/> hh and e<c type="lengthening"/>r the question is e<c type="lengthening"/>r to that point er hh if you have some methods some e<c type="lengthening"/>r hh measurement method <pause/> to calibrate e<c type="lengthening"/>r hh the<c type="lengthening"/> heat flux for each machine or for certain condition <incident dur="PT12S" voice:desc="parallel conversation between S1 and SX-m starts; they talk softly, or, without microphone "/><pause/> hh in order to er calibrate <pause/> offline or even if <pause/> online models <pause dur="PT3S"/></u>
+            <u who="#PBqas412_S12" xml:id="PBqas412_u_81"> e<c type="lengthening"/>r <supplied reason="unintelligible"> xx </supplied> we<c type="lengthening"/><incident voice:desc="parallel conversation stops"/><pause/> er only get e<c type="lengthening"/>r <pause/> er information er <pause/> before and after the <pause/> cooling <pause/> section <pause dur="PT1S"/> so <incident dur="PT6S" voice:desc="parallel conversation between SX-m and SX-m starts "/> e<c type="lengthening"/>rm we can<c type="lengthening"/> calibrate it e<c type="lengthening"/>r <pause/> er through e<c type="lengthening"/>r <pause dur="PT1S"/><incident voice:desc="parallel conversation stops"/> a lot of<c type="lengthening"/> e<c type="lengthening"/>r example <pause/> and e<c type="lengthening"/>r <pause/> we get er <pause/> e<c type="lengthening"/>r <pause/> mean <pause/> e<c type="lengthening"/>rm <pause/> heat flux or heat transfer coefficient hh and e<c type="lengthening"/>r <pause/> we considered a lot of <pause/> e<c type="lengthening"/>rm influence factors and er hh e<c type="lengthening"/>r <pause dur="PT1S"/> e<c type="lengthening"/>r er information of e<c type="lengthening"/>r this <pause/> er long-time <pause/> adaptation <pause/> an<c type="lengthening"/>d correct <pause/><unclear> it's a </unclear> parameter <pause/> but er it's <pause/> perhaps <unclear> inclusive the<c type="lengthening"/></unclear><pause/><supplied reason="unintelligible"> xx </supplied> of the model <pause dur="PT1S"/> so it's er this<c type="lengthening"/> is<c type="lengthening"/> e<c type="lengthening"/>rm <pause/> not a general <pause/> hh perhaps er not a general <pause/> er <unclear> rear </unclear><pause/> er heat flux but this heat flux model <pause/> is specially for this e<c type="lengthening"/>r <pause/> level two <supplied reason="unintelligible"> xx xxxx </supplied><pause/> it's <supplied reason="unintelligible"> xxx </supplied> together <pause dur="PT1S"/><seg n="4" type="overlap" xml:id="PBqas412_ol_36"> mhm </seg></u>
+            <u who="#PBqas412_S11" xml:id="PBqas412_u_82"><seg n="4" synch="#PBqas412_ol_36" type="overlap" xml:id="PBqas412_ol_37"> okay i </seg> understand you<c type="lengthening"/><pause/> you consider the entry and the<c type="lengthening"/> er exit temperature and <supplied reason="unintelligible"> xx </supplied> integrated er calibration <pause/></u>
+            <u who="#PBqas412_S12" xml:id="PBqas412_u_83"> mhm <pause/></u>
+            <u who="#PBqas412_S11" xml:id="PBqas412_u_84"> th- the second question is e<c type="lengthening"/>r on the figure number fourteen e<c type="lengthening"/>rm hh you have shown it it's e<c type="lengthening"/>rm <vocal type="speaker_noise" voice:desc="smacks lips"/> hh y- you mentioned <supplied reason="unintelligible"> xxx </supplied> control for cooling devices <pause/></u>
+            <u who="#PBqas412_S12" xml:id="PBqas412_u_85"> mhm <anchor synch="#PBqas412_oc_21" type="other_continuation" xml:id="PBqas412_oc_20"/></u>
+            <u who="#PBqas412_S11" xml:id="PBqas412_u_86"><anchor synch="#PBqas412_oc_20" type="other_continuation" xml:id="PBqas412_oc_21"/> and e<c type="lengthening"/>r <pause/> w<c type="lengthening"/>- what are the<c type="lengthening"/> the output or the input and output e<c type="lengthening"/>r <pause/> hh er i mean e<c type="lengthening"/>r do you consider e<c type="lengthening"/>r temperature profile or hh top bottom temperature <pause/> or even if<c type="lengthening"/> f- flatness measurement<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PBqas412_S12" xml:id="PBqas412_u_87"> mhm <anchor synch="#PBqas412_oc_23" type="other_continuation" xml:id="PBqas412_oc_22"/></u>
+            <u who="#PBqas412_S11" xml:id="PBqas412_u_88"><anchor synch="#PBqas412_oc_22" type="other_continuation" xml:id="PBqas412_oc_23"/> and e<c type="lengthening"/>r what are the<c type="lengthening"/> e<c type="lengthening"/>r <pause/> the <emph> con</emph>trol val<emph>ues </emph> on the device itself <pause dur="PT2S"/></u>
+            <u who="#PBqas412_S12" xml:id="PBqas412_u_89"> e<c type="lengthening"/>r <pause/> we got an <pause/> it's a  entry <pause/> e<c type="lengthening"/>r it's it's a <supplied reason="unintelligible"> xxx </supplied> of the entry temperature and e<c type="lengthening"/>r er sometimes <supplied reason="unintelligible"> x </supplied> e<c type="lengthening"/>r er intermediate <pause/> er temperature <pause/> e<c type="lengthening"/>r <pause/><unclear> we tend </unclear> to do<c type="lengthening"/> er cooling section <pause/> and e<c type="lengthening"/>r e<c type="lengthening"/>r if <unclear> that's </unclear><pause/> er <pause/><supplied reason="unintelligible"> xxxx </supplied> it's e<c type="lengthening"/>r <pause/> e<c type="lengthening"/>r <pause/> e<c type="lengthening"/>r <pause/> the<c type="lengthening"/> e<c type="lengthening"/>r <voice:track medium="1" num="5" type="md"/> shut condition of the next <pause/> e<c type="lengthening"/>r <pause/> er er cooling section hh that means the<c type="lengthening"/> e<c type="lengthening"/>r <unclear> feed forward </unclear> control <pause/> in the target <pause/> er temperature <pause/> e<c type="lengthening"/>rm <pause/> are calculate <pause/> er through the<c type="lengthening"/> model <pause/> and the<c type="lengthening"/> e<c type="lengthening"/>r through the long-time adaptation we <unclear> collected </unclear><pause/> er feedback <pause/> e<c type="lengthening"/>rm <pause/> e<c type="lengthening"/>r er <unclear> o<c type="lengthening"/>f </unclear> model parameter and the<c type="lengthening"/><unclear> feed forward </unclear><pause/> e<c type="lengthening"/>rm <pause/> have e<c type="lengthening"/>r profited <pause/> e<c type="lengthening"/>r from this <pause/> long-time <pause/> adaptation <pause/> so <anchor synch="#PBqas412_oc_25" type="other_continuation" xml:id="PBqas412_oc_24"/></u>
+            <u who="#PBqas412_S13" xml:id="PBqas412_u_90"><anchor synch="#PBqas412_oc_24" type="other_continuation" xml:id="PBqas412_oc_25"/> but <anchor synch="#PBqas412_oc_27" type="other_continuation" xml:id="PBqas412_oc_26"/></u>
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_91"><anchor synch="#PBqas412_oc_26" type="other_continuation" xml:id="PBqas412_oc_27"/> mister <supplied reason="anonymization"> [S13/last] </supplied><seg n="5" type="overlap" xml:id="PBqas412_ol_38"> would like to </seg></u>
+            <u who="#PBqas412_S13" xml:id="PBqas412_u_92"><seg n="5" synch="#PBqas412_ol_38" type="overlap" xml:id="PBqas412_ol_39"> er er er er </seg> may i add something huh<c function="rise" type="intonation"/><pause/> mister <supplied reason="anonymization"> [S12/last] </supplied> i mean er it's mainly two parameters huh<c function="rise" type="intonation"/> this <unclear> feed forward </unclear> control we are talking about huh<c function="rise" type="intonation"/> hh it's erm<c type="lengthening"/> because it's a <supplied reason="unintelligible"> xx </supplied><unclear> tracking </unclear><pause/> for each strip segment during the hh cooling line huh<c function="rise" type="intonation"/> hh and if there's a change of speed for example hh a change of thickness huh<c function="rise" type="intonation"/> hh and a change of erm er temperature at the e- entry side of the of the erm hh of the <unclear> mill </unclear> then the system thinks about how to correct during th- er <unclear> run-through </unclear> because hh the feedback loop e<c type="lengthening"/>r if you take the temperature <unclear> which </unclear> fast e<c type="lengthening"/>rm er i- is er too l- slow hh you cannot correct any more because the strip hh segment is already gone huh<c function="rise" type="intonation"/><pause/> this is the <pause/> basic concept huh<c function="rise" type="intonation"/> hh and all <unclear> what </unclear> mister <supplied reason="anonymization"> [S12/last] </supplied> said for the adaptation and so on huh<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PBqas412_S11" xml:id="PBqas412_u_93"> okay thank you<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_94"> is there another question<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PBqas412_S14" xml:id="PBqas412_u_95"> ma- ma- may i pro<seg n="6" type="overlap" xml:id="PBqas412_ol_40">fit </seg></u>
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_96"><seg n="6" synch="#PBqas412_ol_40" type="overlap" xml:id="PBqas412_ol_41"> over </seg> there </u>
+            <u who="#PBqas412_S14" xml:id="PBqas412_u_97"> er <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/> two <supplied reason="unintelligible"> xxx </supplied> questions <pause/> for the same company<c function="rise" type="intonation"/><pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> hh e<c type="lengthening"/>rm <pause dur="PT1S"/><vocal type="speaker_noise" voice:desc="smacks lips"/> e<c type="lengthening"/>r about the <supplied reason="unintelligible"> x </supplied> to mister e<c type="lengthening"/>r <supplied reason="anonymization"> [S5/last] </supplied> hh about the m- e<c type="lengthening"/>r <supplied reason="unintelligible"> x </supplied> model <pause/> do you notice<c function="rise" type="intonation"/> e<c type="lengthening"/>r an effect<c function="rise" type="intonation"/><pause/> on the<c type="lengthening"/> of the <unclear> grade o<c type="lengthening"/>r </unclear> the water flow<c function="rise" type="intonation"/><pause/> of the<c type="lengthening"/> roll cooling<c function="rise" type="intonation"/><pause/> hh e<c type="lengthening"/>r on the <unclear> ware </unclear> and if yes er do you adapt the coefficient <pause/><seg n="7" type="overlap" xml:id="PBqas412_ol_42"> e<c type="lengthening"/>r </seg> to this e<c type="lengthening"/>r different condition of a<c type="lengthening"/> a water flow<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_98"><seg n="7" synch="#PBqas412_ol_42" type="overlap" xml:id="PBqas412_ol_43"> n-n </seg></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_99"> e<c type="lengthening"/>r <pause dur="PT1S"/> the main er parameters which we have er in our model are the roll <supplied reason="unintelligible"> x </supplied> hh and er the speed but er the water cooling is is not integrated it is a minor effect <pause dur="PT1S"/></u>
+            <u who="#PBqas412_S14" xml:id="PBqas412_u_100"> and the the effect er of the<c type="lengthening"/> the <unclear> grade </unclear> of the <unclear> campaign </unclear> which er e<c type="lengthening"/>r is roll<c function="rise" type="intonation"/><pause/> e<c type="lengthening"/>r e<c type="lengthening"/>r er er do you<c type="lengthening"/> did you notice<c function="rise" type="intonation"/> a<c type="lengthening"/> c<c type="lengthening"/>ertain effect <pause/> and do you <pause/> e<c type="lengthening"/>r d- do you take into er account this effect<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_101"> er i didn't understand you <supplied reason="unintelligible"> x </supplied></u>
+            <u who="#PBqas412_S14" xml:id="PBqas412_u_102"><vocal voice:desc="clears throat"/> the effect of the grade<c function="rise" type="intonation"/><pause/> of the<c type="lengthening"/> e<c type="lengthening"/>r erm<c type="lengthening"/> er the <supplied reason="unintelligible"> x </supplied> that you are rolling <pause/> e<c type="lengthening"/>r <anchor synch="#PBqas412_oc_29" type="other_continuation" xml:id="PBqas412_oc_28"/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_103"><anchor synch="#PBqas412_oc_28" type="other_continuation" xml:id="PBqas412_oc_29"/> a<c type="lengthening"/>h <seg n="8" type="overlap" xml:id="PBqas412_ol_44"><shift corresp="#PBqas412_s_26" feature="loud" new="p" xml:id="PBqas412_s_25"/> okay the <shift corresp="#PBqas412_s_25" feature="loud" new="neutral" xml:id="PBqas412_s_26"/> the <unclear> steel </unclear> grade<c function="rise" type="intonation"/></seg><pause/></u>
+            <u who="#PBqas412_S14" xml:id="PBqas412_u_104"><seg n="8" synch="#PBqas412_ol_44" type="overlap" xml:id="PBqas412_ol_45"> have you noticed an effect<c function="rise" type="intonation"/></seg></u>
+            <u who="#PBqas412_S14" xml:id="PBqas412_u_105"> the <unclear> steel </unclear> grade <seg n="1" type="overlap" xml:id="PBqas412_ol_46"> yeah </seg></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_106"><seg n="1" synch="#PBqas412_ol_46" type="overlap" xml:id="PBqas412_ol_47"> yes </seg> e<c type="lengthening"/>r <pause/> e<c type="lengthening"/>r it's e<c type="lengthening"/>r <pause/> there are coefficients with e<c type="lengthening"/>r hh e<c type="lengthening"/>r <shift corresp="#PBqas412_s_28" feature="loud" new="p" xml:id="PBqas412_s_27"/> which which <shift corresp="#PBqas412_s_27" feature="loud" new="neutral" xml:id="PBqas412_s_28"/> concern <pause/> the special <pause/><unclear> steel </unclear> quality<c function="fall" type="intonation"/><pause dur="PT3S"/></u>
+            <u who="#PBqas412_S14" xml:id="PBqas412_u_107"> thank you <pause dur="PT8S"/></u>
+            <u who="#PBqas412_S15" xml:id="PBqas412_u_108"> hello e<c type="lengthening"/>r my name is <supplied reason="anonymization"> [S15] </supplied><supplied reason="anonymization"> [S15/last] </supplied> from <supplied reason="anonymization"> [org8] </supplied> in belgium<c function="rise" type="intonation"/> e<c type="lengthening"/>r mister <supplied reason="anonymization"> [S5/last] </supplied><c function="rise" type="intonation"/> e<c type="lengthening"/>r if i make no mistake you said to us that the thermal model hh was <voice:track medium="1" num="6" type="md"/> adapt <pause/> in the center line <pause dur="PT1S"/> and e<c type="lengthening"/>r my question is <pause/> i- is it an<c type="lengthening"/> online adaptation and in this case <pause/> what e<c type="lengthening"/>r do you <emph> use </emph> to<c type="lengthening"/><anchor synch="#PBqas412_oc_31" type="other_continuation" xml:id="PBqas412_oc_30"/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_109"><anchor synch="#PBqas412_oc_30" type="other_continuation" xml:id="PBqas412_oc_31"/> yah <anchor synch="#PBqas412_oc_33" type="other_continuation" xml:id="PBqas412_oc_32"/></u>
+            <u who="#PBqas412_S15" xml:id="PBqas412_u_110"><anchor synch="#PBqas412_oc_32" type="other_continuation" xml:id="PBqas412_oc_33"/> to measure it </u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_111"> no it's no online <pause/> adaptation it's a<c type="lengthening"/><pause/> adaptation by<c type="lengthening"/> means of measurement which we do at the end of the rolling <unclear> campaigns </unclear><pause dur="PT1S"/> an<c type="lengthening"/>d e<c type="lengthening"/>r we check w- we<c type="lengthening"/><vocal type="speaker_noise" voice:desc="smacks lips"/> hh we e<c type="lengthening"/>r er have all the measurement values <pause/> and we <pause/> hh er have a a<c type="lengthening"/> a<c type="lengthening"/><pause dur="PT1S"/> a program hh to <pause/> e<c type="lengthening"/>rm <pause/> to <voice:pvc> recalculate </voice:pvc> hh e<c type="lengthening"/>r the<c type="lengthening"/> thermal ground with a different heat transfer rate and and do the calcu- calculation as long as we have found the hh the correct <pause/> e<c type="lengthening"/>r heat transfer ratios <pause/> from strip to <pause/> to roll and from <pause/> roll to <pause/> to the cooling water <pause/></u>
+            <u who="#PBqas412_S15" xml:id="PBqas412_u_112"> so it <seg n="2" type="overlap" xml:id="PBqas412_ol_48"> is </seg><pause/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_113"><seg n="2" synch="#PBqas412_ol_48" type="overlap" xml:id="PBqas412_ol_49"><supplied reason="unintelligible"> x </supplied></seg></u>
+            <u who="#PBqas412_S15" xml:id="PBqas412_u_114"> it is an <voice:pvc> optimization </voice:pvc> of <seg n="3" type="overlap" xml:id="PBqas412_ol_50"> the<c type="lengthening"/></seg></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_115"><seg n="3" synch="#PBqas412_ol_50" type="overlap" xml:id="PBqas412_ol_51"> an </seg><voice:pvc> optimization </voice:pvc><anchor synch="#PBqas412_oc_35" type="other_continuation" xml:id="PBqas412_oc_34"/></u>
+            <u who="#PBqas412_S15" xml:id="PBqas412_u_116"><anchor synch="#PBqas412_oc_34" type="other_continuation" xml:id="PBqas412_oc_35"/> a tuning of the model <pause/></u>
+            <u who="#PBqas412_S5" xml:id="PBqas412_u_117"> a tuning yes not online <pause dur="PT1S"/></u>
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_118"> maybe one more <pause/> last question please <pause dur="PT4S"/> it's it's <seg n="4" type="overlap" xml:id="PBqas412_ol_52"> not the case </seg><pause/></u>
+            <u who="#PBqas412_SX-m" xml:id="PBqas412_u_119"><seg n="4" synch="#PBqas412_ol_52" type="overlap" xml:id="PBqas412_ol_53"><shift corresp="#PBqas412_s_30" feature="loud" new="p" xml:id="PBqas412_s_29"/><supplied reason="unintelligible"> xxx </supplied><shift corresp="#PBqas412_s_29" feature="loud" new="neutral" xml:id="PBqas412_s_30"/></seg></u>
+            <u who="#PBqas412_S1" xml:id="PBqas412_u_120"> th- then i would like to thank <pause/> you <pause/> once again <pause/> for your excellent presentations <pause/> and i'd like to ask mister erm <supplied reason="anonymization"> [S16/last] </supplied> for some announcement <pause/></u>
+            <u who="#PBqas412_S16" xml:id="PBqas412_u_121"> er <vocal voice:desc="clears throat"/> er if you're interested tomorrow there will be a few shuttle tours on er the s- f- <supplied reason="anonymization"> [org9] </supplied><unclear> site </unclear><pause/> i don't know if you're already<c type="lengthening"/> registered for one <pause/> there's a possibility to register at the front desk <pause/> thank you <pause/></u>
+         </div>
+      </body>
+   </text>
+</TEI>

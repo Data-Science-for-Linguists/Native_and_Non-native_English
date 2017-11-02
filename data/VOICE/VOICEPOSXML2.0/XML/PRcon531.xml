@@ -1,0 +1,1455 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:p="http://www.univie.ac.at/voice/pos" xmlns:t="http://www.tei-c.org/ns/1.0" xml:id="PRcon531">
+  <teiHeader>
+    <fileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <titleStmt>
+        <title>conversation about solving a mathematical problem</title>
+        <principal>Prof. Barbara Seidlhofer</principal>
+        <editor/>
+        <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+        <sponsor/>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name xml:id="SM">Stefan Majewski</name>
+          <name xml:id="RO">Ruth Osimk-Teasdale</name>
+          <name xml:id="MLP">Marie-Luise Pitzl</name>
+          <name xml:id="MR">Michael Radeka</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Version POS XML 2.0, <date>January 2013</date></edition>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name>Barbara Seidlhofer</name>
+          <name>Stefan Majewski</name>
+          <name>Ruth Osimk-Teasdale</name>
+          <name>Marie-Luise Pitzl</name>
+          <name>Michael Radeka</name>
+          <name>Nora Dorn</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+        <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+        <address>
+          <addrLine>Spitalgasse 2, AAKH Hof 8</addrLine>
+          <addrLine>1090 Vienna</addrLine>
+          <addrLine>Austria</addrLine>
+          <addrLine>Telephone: +43 1 427742446</addrLine>
+          <addrLine>Email: voice@univie.ac.at</addrLine>
+          <addrLine>Website: http://www.univie.ac.at/voice</addrLine>
+        </address>
+        <availability status="free">
+          <p> The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE POS XML 2.0 is the first part-of-speech tagged version of VOICE. It is based on the same data source as VOICE 2.0 XML. 
+		  VOICE 2.0 XML, which includes minor revisions with regard to previous versions, and VOICE POS XML 2.0, are available for download at the VOICE Project's website
+		  <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+          <p>
+          The recommended citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version POS XML 2.0
+		</edition>). Director: Barbara Seidlhofer; Researchers:
+		Stefan Majewski, Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka, Nora Dorn.</bibl>
+          </p>
+          <p>The short citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version POS XML 2.0</edition>).</bibl>
+          </p>
+          <p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note xml:id="PRcon531_tc">Tokens: 799</note>
+        <note xml:id="PRcon531_wc">Words: 680</note>
+        <note xml:id="PRcon531_tn_0">This conversation takes place during a break of a mathematics conference. The speakers discuss a mathematical theorem. The speakers are acquainted. </note>
+      </notesStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording dur="PT00H04M30S" type="audio">
+            <date>2005-10-27</date>
+            <equipment>
+              <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+            </equipment>
+            <respStmt>
+              <resp>recording</resp>
+              <name>R19</name>
+            </respStmt>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <classDecl>
+        <taxonomy>
+          <category xml:id="PRcon531_domain">
+            <catDesc>Domain</catDesc>
+            <category sameAs="#ED" xml:id="PRcon531_ED">
+              <catDesc>educational</catDesc>
+            </category>
+            <category sameAs="#LE" xml:id="PRcon531_LE">
+              <catDesc>leisure</catDesc>
+            </category>
+            <category sameAs="#PB" xml:id="PRcon531_PB">
+              <catDesc>professional business</catDesc>
+            </category>
+            <category sameAs="#PO" xml:id="PRcon531_PO">
+              <catDesc>professional organizational</catDesc>
+            </category>
+            <category sameAs="#PR" xml:id="PRcon531_PR">
+              <catDesc>professional research/science</catDesc>
+            </category>
+          </category>
+          <category xml:id="PRcon531_spet">
+            <catDesc>Speech Event Type</catDesc>
+            <category sameAs="#int" xml:id="PRcon531_int">
+              <catDesc>interview</catDesc>
+            </category>
+            <category sameAs="#prc" xml:id="PRcon531_prc">
+              <catDesc>press conference</catDesc>
+            </category>
+            <category sameAs="#sve" xml:id="PRcon531_sve">
+              <catDesc>service encounter</catDesc>
+            </category>
+            <category sameAs="#sed" xml:id="PRcon531_sed">
+              <catDesc>seminar discussion</catDesc>
+            </category>
+            <category sameAs="#wgd" xml:id="PRcon531_wgd">
+              <catDesc>working group discussion</catDesc>
+            </category>
+            <category sameAs="#wsd" xml:id="PRcon531_wsd">
+              <catDesc>workshop discussion</catDesc>
+            </category>
+            <category sameAs="#mtg" xml:id="PRcon531_mtg">
+              <catDesc>meeting</catDesc>
+            </category>
+            <category sameAs="#pan" xml:id="PRcon531_pan">
+              <catDesc>panel</catDesc>
+            </category>
+            <category sameAs="#qas" xml:id="PRcon531_qas">
+              <catDesc>question-answer session</catDesc>
+            </category>
+            <category sameAs="#con" xml:id="PRcon531_con">
+              <catDesc>conversation</catDesc>
+            </category>
+          </category>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="TEI" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+          <tagUsage gi="title" occurs="5"/>
+          <tagUsage gi="principal" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="funder" occurs="1"/>
+          <tagUsage gi="sponsor" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="3"/>
+          <tagUsage gi="resp" occurs="3"/>
+          <tagUsage gi="name" occurs="13"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="edition" occurs="3"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="publisher" occurs="1"/>
+          <tagUsage gi="distributor" occurs="1"/>
+          <tagUsage gi="address" occurs="1"/>
+          <tagUsage gi="addrLine" occurs="6"/>
+          <tagUsage gi="availability" occurs="1"/>
+          <tagUsage gi="p" occurs="8"/>
+          <tagUsage gi="ref" occurs="4"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="notesStmt" occurs="1"/>
+          <tagUsage gi="note" occurs="3"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="recordingStmt" occurs="1"/>
+          <tagUsage gi="recording" occurs="1"/>
+          <tagUsage gi="equipment" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="classDecl" occurs="1"/>
+          <tagUsage gi="taxonomy" occurs="1"/>
+          <tagUsage gi="category" occurs="17"/>
+          <tagUsage gi="catDesc" occurs="17"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="tagUsage" occurs="72"/>
+          <tagUsage gi="gi" occurs="5"/>
+          <tagUsage gi="att" occurs="2"/>
+          <tagUsage gi="fLib" occurs="2"/>
+          <tagUsage gi="f" occurs="83"/>
+          <tagUsage gi="fvLib" occurs="1"/>
+          <tagUsage gi="fs" occurs="46"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="catRef" occurs="2"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="setting" occurs="1"/>
+          <tagUsage gi="locale" occurs="1"/>
+          <tagUsage gi="activity" occurs="1"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="listPerson" occurs="4"/>
+          <tagUsage gi="personGrp" occurs="2"/>
+          <tagUsage gi="person" occurs="5"/>
+          <tagUsage gi="age" occurs="3"/>
+          <tagUsage gi="sex" occurs="3"/>
+          <tagUsage gi="occupation" occurs="3"/>
+          <tagUsage gi="langKnowledge" occurs="3"/>
+          <tagUsage gi="langKnown" occurs="3"/>
+          <tagUsage gi="relationGrp" occurs="1"/>
+          <tagUsage gi="relation" occurs="2"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="change" occurs="10"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="u" occurs="94">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+          <tagUsage gi="w" occurs="804">
+		Used to mark lexical forms (tokens), but also word fragments,
+		pauses, onomatopoeic noises, spelling, laughter and breathing.
+		<gi>w</gi> is used with <att>ana</att> and <att>lemma</att>
+		attributes to mark its part-of-speech and lemma. Note that for
+		tokens with ambiguous tags <gi>w</gi> may contain nested
+		<gi>w</gi> elements to express alternative interpretations.
+		</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <p>
+        <fLib>
+          <f xml:id="BR" name="BR">breathing</f>
+          <f xml:id="CC" name="CC">coordinating conjunction</f>
+          <f xml:id="CD" name="CD">cardinal number</f>
+          <f xml:id="DM" name="DM">discourse marker</f>
+          <f xml:id="DT" name="DT">determiner</f>
+          <f xml:id="EX" name="EX">existential there</f>
+          <f xml:id="IN" name="IN">preposition or subordinating conjunction</f>
+          <f xml:id="JJ" name="JJ">adjective, positive</f>
+          <f xml:id="JJR" name="JJR">adjective, comparative</f>
+          <f xml:id="JJS" name="JJS">adjective, superlative</f>
+          <f xml:id="LA" name="LA">laughter</f>
+          <f xml:id="MD" name="MD">modal verb</f>
+          <f xml:id="NN" name="NN">noun, singular or mass</f>
+          <f xml:id="NNS" name="NNS">noun, plural</f>
+          <f xml:id="PA" name="PA">pause</f>
+          <f xml:id="PDT" name="PDT">predeterminer</f>
+          <f xml:id="PP" name="PP">pronoun, personal</f>
+          <f xml:id="PPS" name="PP$">pronoun, possessive</f>
+          <f xml:id="PVC" name="PVC">pronunciation variations and coinages</f>
+          <f xml:id="RB" name="RB">adverb, positive</f>
+          <f xml:id="RBR" name="RBR">adverb, comparative</f>
+          <f xml:id="RE" name="RE">response particle</f>
+          <f xml:id="SYM" name="SYM">symbol</f>
+          <f xml:id="TO" name="TO">to, infinitive use</f>
+          <f xml:id="UH" name="UH">interjection</f>
+          <f xml:id="UNI" name="UNI">unintelligible speech</f>
+          <f xml:id="VB" name="VB">verb be, base form</f>
+          <f xml:id="VBD" name="VBD">verb be, past tense</f>
+          <f xml:id="VBP" name="VBP">verb be, present non-3rd person singular</f>
+          <f xml:id="VBS" name="VBS">verb be, contracted form</f>
+          <f xml:id="VBZ" name="VBZ">verb be, present 3rd person singular</f>
+          <f xml:id="VH" name="VH">verb have, base form</f>
+          <f xml:id="VHP" name="VHP">verb have, present non-3rd person singular</f>
+          <f xml:id="VHZ" name="VHZ">verb have, present 3rd person singular</f>
+          <f xml:id="VV" name="VV">other verbs than be and have, base form</f>
+          <f xml:id="VVG" name="VVG">other verbs than be and have, gerund or present participle</f>
+          <f xml:id="VVN" name="VVN">other verbs than be and have, past participle</f>
+          <f xml:id="VVP" name="VVP">other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="VVZ" name="VVZ">other verbs than be and have, present 3rd person singular</f>
+          <f xml:id="WP" name="WP">wh-pronoun</f>
+          <f xml:id="WRB" name="WRB">wh-adverb</f>
+          <f xml:id="XX" name="XX">partial word</f>
+        </fLib>
+        <fLib>
+          <f xml:id="fBR" name="fBR">function breathing</f>
+          <f xml:id="fCC" name="fCC">function coordinating conjunction</f>
+          <f xml:id="fCD" name="fCD">function cardinal number</f>
+          <f xml:id="fDM" name="fDM">function discourse marker</f>
+          <f xml:id="fDT" name="fDT">function determiner</f>
+          <f xml:id="fEX" name="fEX">function existential there</f>
+          <f xml:id="fIN" name="fIN">function preposition or subordinating conjunction</f>
+          <f xml:id="fJJ" name="fJJ">function adjective, positive</f>
+          <f xml:id="fJJR" name="fJJR">function adjective, comparative</f>
+          <f xml:id="fJJS" name="fJJS">function adjective, superlative</f>
+          <f xml:id="fLA" name="fLA">function laughter</f>
+          <f xml:id="fMD" name="fMD">function modal verb</f>
+          <f xml:id="fNN" name="fNN">function noun, singular or mass</f>
+          <f xml:id="fNNS" name="fNNS">function noun, plural</f>
+          <f xml:id="fPA" name="fPA">function pause</f>
+          <f xml:id="fPDT" name="fPDT">function predeterminer</f>
+          <f xml:id="fPP" name="fPP">function pronoun, personal</f>
+          <f xml:id="fPPS" name="fPP$">function pronoun, possessive</f>
+          <f xml:id="fRB" name="fRB">function adverb, positive</f>
+          <f xml:id="fRBR" name="fRBR">function adverb, comparative</f>
+          <f xml:id="fRE" name="fRE">function response particle</f>
+          <f xml:id="fSYM" name="fSYM">function symbol</f>
+          <f xml:id="fTO" name="fTO">function to, infinitive use</f>
+          <f xml:id="fUH" name="fUH">function interjection</f>
+          <f xml:id="fUNI" name="fUNI">function unintelligible speech</f>
+          <f xml:id="fVB" name="fVB">function verb be, base form</f>
+          <f xml:id="fVBD" name="fVBD">function verb be, past tense</f>
+          <f xml:id="fVBP" name="fVBP">function verb be, present non-3rd person singular</f>
+          <f xml:id="fVBS" name="fVBS">function verb be, contracted form</f>
+          <f xml:id="fVBZ" name="fVBZ">function verb be, present 3rd person singular</f>
+          <f xml:id="fVH" name="fVH">function verb have, base form</f>
+          <f xml:id="fVHP" name="fVHP">function verb have, present non-3rd person singular</f>
+          <f xml:id="fVHZ" name="fVHZ">function verb have, present 3rd person singular</f>
+          <f xml:id="fVV" name="fVV">function other verbs than be and have, base form</f>
+          <f xml:id="fVVG" name="fVVG">function other verbs than be and have, gerund or present participle</f>
+          <f xml:id="fVVN" name="fVVN">function other verbs than be and have, past participle</f>
+          <f xml:id="fVVP" name="fVVP">function other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="fVVZ" name="fVVZ">function other verbs than be and have, present 3rd person singular</f>
+          <f xml:id="fWP" name="fWP">function wh-pronoun</f>
+          <f xml:id="fWRB" name="fWRB">function wh-adverb</f>
+          <f xml:id="fXX" name="fXX">function partial word</f>
+        </fLib>
+        <fvLib>
+          <fs xml:id="PPfPP" feats="#PP #fPP"/>
+          <fs xml:id="VHZfVHZ" feats="#VHZ #fVHZ"/>
+          <fs xml:id="DTfDT" feats="#DT #fDT"/>
+          <fs xml:id="NNfNN" feats="#NN #fNN"/>
+          <fs xml:id="UHfUH" feats="#UH #fUH"/>
+          <fs xml:id="INfIN" feats="#IN #fIN"/>
+          <fs xml:id="PVCfJJ" feats="#PVC #fJJ"/>
+          <fs xml:id="NNSfNNS" feats="#NNS #fNNS"/>
+          <fs xml:id="REfRE" feats="#RE #fRE"/>
+          <fs xml:id="PAfPA" feats="#PA #fPA"/>
+          <fs xml:id="UNIfUNI" feats="#UNI #fUNI"/>
+          <fs xml:id="LAfLA" feats="#LA #fLA"/>
+          <fs xml:id="VVPfVVP" feats="#VVP #fVVP"/>
+          <fs xml:id="TOfTO" feats="#TO #fTO"/>
+          <fs xml:id="RBfRB" feats="#RB #fRB"/>
+          <fs xml:id="VVfVV" feats="#VV #fVV"/>
+          <fs xml:id="DMfDM" feats="#DM #fDM"/>
+          <fs xml:id="VVZfVVZ" feats="#VVZ #fVVZ"/>
+          <fs xml:id="VBZfVBZ" feats="#VBZ #fVBZ"/>
+          <fs xml:id="JJfJJ" feats="#JJ #fJJ"/>
+          <fs xml:id="VHfVH" feats="#VH #fVH"/>
+          <fs xml:id="BRfBR" feats="#BR #fBR"/>
+          <fs xml:id="VVGfVVG" feats="#VVG #fVVG"/>
+          <fs xml:id="XXfXX" feats="#XX #fXX"/>
+          <fs xml:id="PVCfNN" feats="#PVC #fNN"/>
+          <fs xml:id="CCfCC" feats="#CC #fCC"/>
+          <fs xml:id="MDfMD" feats="#MD #fMD"/>
+          <fs xml:id="WPfWP" feats="#WP #fWP"/>
+          <fs xml:id="VBDfVBD" feats="#VBD #fVBD"/>
+          <fs xml:id="SYMfSYM" feats="#SYM #fSYM"/>
+          <fs xml:id="EXfEX" feats="#EX #fEX"/>
+          <fs xml:id="WRBfWRB" feats="#WRB #fWRB"/>
+          <fs xml:id="JJSfJJS" feats="#JJS #fJJS"/>
+          <fs xml:id="VBPfVBP" feats="#VBP #fVBP"/>
+          <fs xml:id="VBSfVBS" feats="#VBS #fVBS"/>
+          <fs xml:id="PPSfPPS" feats="#PP$ #fPP$"/>
+          <fs xml:id="RBRfRBR" feats="#RBR #fRBR"/>
+          <fs xml:id="PVCfRB" feats="#PVC #fRB"/>
+          <fs xml:id="JJRfJJR" feats="#JJR #fJJR"/>
+          <fs xml:id="VVNfVVN" feats="#VVN #fVVN"/>
+          <fs xml:id="VVGfNN" feats="#VVG #fNN"/>
+          <fs xml:id="PDTfPDT" feats="#PDT #fPDT"/>
+          <fs xml:id="CDfCD" feats="#CD #fCD"/>
+          <fs xml:id="VBfVB" feats="#VB #fVB"/>
+          <fs xml:id="JJfRB" feats="#JJ #fRB"/>
+          <fs xml:id="VHPfVHP" feats="#VHP #fVHP"/>
+        </fvLib>
+      </p>
+    </encodingDesc>
+    <profileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass>
+        <catRef target="#PRcon531_PR #PRcon531_con"/>
+        <catRef target="#PR #con"/>
+      </textClass>
+      <settingDesc>
+        <setting>
+          <name type="country">AT</name>
+          <name type="city">Vienna</name>
+          <locale>room at Vienna University of Technology</locale>
+          <activity>drinking coffee</activity>
+        </setting>
+      </settingDesc>
+      <particDesc>
+        <listPerson type="main">
+          <listPerson type="groups">
+            <personGrp role="speakers" size="3"/>
+            <personGrp role="interactants" size="2"/>
+          </listPerson>
+          <listPerson type="identified">
+            <person role="participant" sameAs="#P509" xml:id="PRcon531_S2">
+              <age value="2">25-34</age>
+              <sex value="1">male</sex>
+              <occupation>mathematician</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="tur-TR"/>
+              </langKnowledge>
+            </person>
+            <person role="participant" sameAs="#P510" xml:id="PRcon531_S8">
+              <age value="3">35-49</age>
+              <sex value="1">male</sex>
+              <occupation>mathematician</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="ice-IS"/>
+              </langKnowledge>
+            </person>
+            <person role="researcher" sameAs="#P511" xml:id="PRcon531_S9">
+              <age value="1">17-24</age>
+              <sex value="2">female</sex>
+              <occupation>student</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="ger-AT"/>
+              </langKnowledge>
+            </person>
+          </listPerson>
+          <listPerson type="not_identified">
+            <person corresp="#PRcon531_S8" sameAs="#SX" xml:id="PRcon531_SX-8"/>
+            <person corresp="#PRcon531_S2" sameAs="#SX" xml:id="PRcon531_SX-2"/>
+          </listPerson>
+          <relationGrp>
+            <relation mutual="#PRcon531_S2 #PRcon531_S8" name="power_relations_unknown" type="power"/>
+            <relation mutual="#PRcon531_S2 #PRcon531_S8" name="acquainted" type="acquaintedness"/>
+          </relationGrp>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <change when="2012-12-05" who="#BS #MR #RO #SM">Update of corpus
+      header for VOICE POS XML 2.0 release</change>
+      <change when="2012-12-05" who="#SM #MR #RO">Update of corpus
+      header for VOICE 2.0 XML release</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR">Lemmatisation</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR #RO #AW #CS       #IV #KM #LL #ND #VT">Part-of-speech tagging</change>
+      <change from="2010-09-01" to="2011-01-13" who="#SM       #MR">Extraction and tokenisation of VOICE 2.0 XML
+      utterances</change>
+      <change when="2009-05-19" who="SM">conversion to XML</change>
+      <change when="2009-05-11" who="AB">finalized for publication</change>
+      <change when="2009-02-12" who="TK">proof-reading</change>
+      <change when="2008-12-10" who="RO">checking</change>
+      <change when="2006-02-03" who="UF">transcription</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_1">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VHZfVHZ" lemma="have">has</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VHZfVHZ" lemma="have">has</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="application">application</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PVCfJJ">p_plurisubharmonic</w>
+        <w ana="#NNSfNNS" lemma="hole">holes</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_2">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S9" xml:id="PRcon531_u_3">
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRcon531_SX-2" xml:id="PRcon531_u_4">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_5">
+        <w ana="#VVPfVVP" lemma="want">wan</w>
+        <w ana="#TOfTO" lemma="to">na</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#VVfVV" lemma="sit">sit</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_SX-8" xml:id="PRcon531_u_6">
+        <w ana="#LAfLA">@@@@@</w>
+      </u>
+      <u who="#PRcon531_S9" xml:id="PRcon531_u_7">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_8">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VVZfVVZ" lemma="show">shows</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="hull">hull</w>
+        <w ana="#NNfNN" lemma="condition">condition</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="actually">actually</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="equivalent">equivalent</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="sequence">sequence</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#NNSfNNS" lemma="disk">disks</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_9">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_10">
+        <w ana="#VVGfVVG" lemma="go">going</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#XXfXX">c-</w>
+        <w ana="#JJfJJ" lemma="certain">certain</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#JJfJJ" lemma="certain">certain</w>
+        <w ana="#PVCfNN">p_topology</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_11">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_12">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_13">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_14">
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="remember">remember</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_15">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="remember">remember</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="paper">paper</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#XXfXX">re-</w>
+        <w ana="#VVfVV" lemma="recall">recall</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="result">results</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_16">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#VVGfVVG" lemma="go">gon</w>
+        <w ana="#TOfTO" lemma="to">na</w>
+        <w ana="#VVfVV" lemma="ask">ask</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PPfPP" lemma="he">he</w>
+        <w ana="#VVZfVVZ" lemma="say">says</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#SYMfSYM" lemma="s_c">s_c</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#SYMfSYM" lemma="s_k">s_k</w>
+        <w ana="#NNfNN" lemma="hat">hat</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_17">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_18">
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="sequence">sequence</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNSfNNS" lemma="disk">disks</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_19">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_20">
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="center">center</w>
+        <w ana="#VVZfVVZ" lemma="go">goes</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_c">s_c</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_21">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_22">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="disk">disks</w>
+        <w ana="#NNfNN" lemma="converge">converge</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#XXfXX">con-</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="bound">bound</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="disk">disk</w>
+        <w ana="#NNfNN" lemma="converge">converge</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_k">s_k</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_23">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_24">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="sense">sense</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#XXfXX">y-</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="choose">choose</w>
+        <w ana="#DTfDT" lemma="any">any</w>
+        <w ana="#NNfNN" lemma="neighborhood">neighborhood</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#SYMfSYM" lemma="s_k">s_k</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJSfJJS" lemma="most">most</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#VVGfVVG" lemma="go">gon</w>
+        <w ana="#TOfTO" lemma="to">na</w>
+        <w ana="#XXfXX">s-</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#VVGfVVG" lemma="go">gon</w>
+        <w ana="#TOfTO" lemma="to">na</w>
+        <w ana="#VVfVV" lemma="get">get</w>
+        <w ana="#INfIN" lemma="into">into</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="open">open</w>
+        <w ana="#NNfNN" lemma="set">set</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_25">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#VVGfVVG" lemma="think">thinking</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="result">result</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_26">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBPfVBP" lemma="be">'m</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_27">
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="true">true</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_28">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPSfPPS" lemma="i">my</w>
+        <w ana="#NNfNN" lemma="question">question</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="disk">disk</w>
+        <w ana="#XXfXX">s-</w>
+        <w ana="#VVZfVVZ" lemma="go">goes</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVZfVVZ" lemma="get">gets</w>
+        <w ana="#RBRfRBR" lemma="close">closer</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBRfRBR" lemma="close">closer</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#PVCfJJ">
+          <w ana="#PVCfRB">p_pointwise</w>
+        </w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_29">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_30">
+        <w ana="#RBfRB" lemma="inside">inside</w>
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_31">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_32">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#XXfXX">d-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#RBfRB" lemma="sort">sort</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#VVfVV" lemma="measure">measure</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#XXfXX">ho-</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="portion">portion</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="disk">disk</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVfVV" lemma="let">let</w>
+        <w ana="#PPfPP" lemma="we">'s</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#VVGfVVG" lemma="get">getting</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#RBfRB" lemma="close">close</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#PAfPA">_4</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_33">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="doubt">doubt</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="much">much</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="doubt">doubt</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="much">much</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_34">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_35">
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="method">method</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="so">so</w>
+        <w ana="#JJfJJ" lemma="general">general</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_36">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="probably">probably</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#XXfXX">gen-</w>
+        <w ana="#JJfJJ" lemma="general">general</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_37">
+        <w ana="#REfRE" lemma="no">no</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_38">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_39">
+        <w ana="#UHfUH" lemma="oow">oow</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_40">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_3</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_41">
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#BRfBR">hhh</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJRfJJR" lemma="less">less</w>
+        <w ana="#NNfNN" lemma="existence">existence</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="disk">disk</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#VVZfVVZ" lemma="do">does</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_42">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_43">
+        <w ana="#NNfNN" lemma="something">something</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_44">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">becau-</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="size">size</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="disk">disk</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="part">part</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="disk">disk</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_45">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_46">
+        <w ana="#NNfNN" lemma="circle">circle</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_47">
+        <w ana="#DMfDM" lemma="right">right</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_48">
+        <w ana="#RBfRB" lemma="actually">actually</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_49">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_50">
+        <w ana="#VVNfVVN" lemma="map">mapped</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="into">into</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="domain">domain</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_51">
+        <w ana="#BRfBR">hh</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="circle">circle</w>
+        <w ana="#VVZfVVZ" lemma="get">gets</w>
+        <w ana="#RBRfRBR" lemma="close">closer</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBRfRBR" lemma="close">closer</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_K">s_K</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_52">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="each">each</w>
+        <w ana="#NNfNN" lemma="neighborhood">neighborhood</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="each">each</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="epsilon">epsilon</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_53">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PPfPP" lemma="they">them</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_54">
+        <w ana="#NNfNN" lemma="epsilon">epsilon</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_55">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_56">
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="find">find</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="disk">disk</w>
+        <w ana="#VVGfNN" lemma="map/mapping">mapping</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="point">point</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="hull">hull</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_57">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_58">
+        <w ana="#XXfXX">map-</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VVGfNN" lemma="map/mapping">mapping</w>
+        <w ana="#NNfNN" lemma="center">center</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="point">point</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_59">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="center">center</w>
+        <w ana="#VVZfVVZ" lemma="go">goes</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_c">s_c</w>
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_60">
+        <w ana="#XXfXX">bu-</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_61">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#XXfXX">m-</w>
+        <w ana="#RBfRB" lemma="almost">almost</w>
+        <w ana="#PDTfPDT" lemma="all">all</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="circle">circle</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_62">
+        <w ana="#RBfRB" lemma="almost">almost</w>
+        <w ana="#PDTfPDT" lemma="all">all</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="circle">circle</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#INfIN" lemma="term">terms</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="measure">measure</w>
+        <w ana="#DMfDM" lemma="like">like</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_63">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#INfIN" lemma="in">in</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_64">
+        <w ana="#NNfNN" lemma="measure">measure</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#INfIN" lemma="minus">minus</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#SYMfSYM" lemma="s_y">s_y</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_65">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_66">
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVZfVVZ" lemma="go">goes</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#INfIN" lemma="inside">inside</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="open">open</w>
+        <w ana="#NNfNN" lemma="set">set</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_67">
+        <w ana="#INfIN" lemma="into">into</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_68">
+        <w ana="#XXfXX">i-</w>
+        <w ana="#INfIN" lemma="into">into</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="open">open</w>
+        <w ana="#NNfNN" lemma="set">set</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_69">
+        <w ana="#XXfXX">y-</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#JJfJJ" lemma="right">right</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_70">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="completely">completely</w>
+        <w ana="#JJfJJ" lemma="impossible">impossible</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="expect">expect</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_71">
+        <w ana="#UHfUH" lemma="oow">oow</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_72">
+        <w ana="#NNfNN" lemma="anything">anything</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVGfNN">
+          <w ana="#VVGfVVG">
+            <w lemma="measure/measuring">measuring</w>
+          </w>
+        </w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#VVGfVVG" lemma="think">thinking</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="distance">distance</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_73">
+        <w ana="#DMfDM" lemma="right">right</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="want">wan</w>
+        <w ana="#TOfTO" lemma="to">na</w>
+        <w ana="#VVfVV" lemma="see">see</w>
+        <w ana="#VVfVV" lemma="let">let</w>
+        <w ana="#PPfPP" lemma="we">'s</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="put">put</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="band">band</w>
+        <w ana="#INfIN" lemma="round">round</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#INfIN" lemma="around">around</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_74">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_75">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="want">wan</w>
+        <w ana="#TOfTO" lemma="to">na</w>
+        <w ana="#VVfVV" lemma="see">see</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#JJfJJ" lemma="much">much</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="disk">disk</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#INfIN" lemma="inside">inside</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#NNfNN" lemma="band">band</w>
+        <w ana="#PAfPA">_11</w>
+        <w ana="#PAfPA">_5</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_76">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="doubt">doubt</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="much">much</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">could</w>
+        <w ana="#VVfVV" lemma="do">do</w>
+        <w ana="#NNfNN" lemma="anything">anything</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_77">
+        <w ana="#REfRE" lemma="hm">hm</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_78">
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#XXfXX">s-</w>
+        <w ana="#RBfRB" lemma="somehow">somehow</w>
+        <w ana="#VVGfVVG" lemma="try">trying</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#VVfVV" lemma="give">give</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="relation">relation</w>
+        <w ana="#INfIN" lemma="between">between</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="epsilon">epsilon</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="neighborhood">neighborhood</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#NNfNN" lemma="point">point</w>
+        <w ana="#NNfNN" lemma="hull">hull</w>
+        <w ana="#NNfNN" lemma="condition">condition</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_79">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#DMfDM" lemma="well">well</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="really">really</w>
+        <w ana="#NNfNN" lemma="epsilon">epsilon</w>
+        <w ana="#NNfNN" lemma="epsilon">epsilon</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJfJJ" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="care">care</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="epsilon">epsilon</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="want">want</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#SYMfSYM" lemma="s_c">s_c</w>
+        <w ana="#SYMfSYM" lemma="s_c">s_c</w>
+        <w ana="#VVZfVVZ" lemma="go">goes</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_80">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_81">
+        <w ana="#SYMfSYM" lemma="s_c">s_c</w>
+        <w ana="#XXfXX">go-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="center">center</w>
+        <w ana="#VVZfVVZ" lemma="go">goes</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_C">s_C</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_82">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_83">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVZfVVZ" lemma="get">gets</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#RBfRB" lemma="close">close</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="want">want</w>
+        <w ana="#JJfJJ" lemma="other">other</w>
+        <w ana="#NNSfNNS" lemma="point">points</w>
+        <w ana="#INfIN" lemma="round">round</w>
+        <w ana="#CDfCD" lemma="zero">zero</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#JJfJJ" lemma="much">much</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="those">those</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#MDfMD" lemma="will">will</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#RBfRB" lemma="still">still</w>
+        <w ana="#RBfRB" lemma="close">close</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#SYMfSYM" lemma="s_c">s_c</w>
+        <w ana="#XXfXX">ne-</w>
+        <w ana="#JJfJJ">
+          <w ana="#JJfRB">
+            <w lemma="necessary">necessary</w>
+          </w>
+        </w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#PAfPA">_3</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VVZfVVZ" lemma="mean">means</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#VVfVV" lemma="let">let</w>
+        <w ana="#PPfPP" lemma="we">'s</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="strong">strong</w>
+        <w ana="#PVCfJJ">p_pseudo-convex</w>
+        <w ana="#NNfNN" lemma="domain">domain</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_84">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_85">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="know">know</w>
+        <w ana="#INfIN" lemma="that">that</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="no">no</w>
+        <w ana="#JJfJJ" lemma="discontinued">discontinued</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="get">get</w>
+        <w ana="#RBRfRBR" lemma="close">closer</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="disk">disk</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#JJfJJ" lemma="certain">certain</w>
+        <w ana="#NNfNN" lemma="size">size</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_86">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_87">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBPfVBP" lemma="be">'m</w>
+        <w ana="#VVGfVVG" lemma="try">trying</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="find">find</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="relation">relation</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="between">between</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#XXfXX">ge-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="geometry">geometry</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="disk">disks</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="best">best</w>
+        <w ana="#MDfMD" lemma="will">would</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="see">see</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#XXfXX">th-</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#NNfNN" lemma="disk">disk</w>
+        <w ana="#RBfRB" lemma="actually">actually</w>
+        <w ana="#VVZfVVZ" lemma="sit">sits</w>
+        <w ana="#INfIN" lemma="inside">inside</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="boundary">boundary</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="sometimes">sometimes</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_88">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_89">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="term">term</w>
+        <w ana="#VVZfVVZ" lemma="say">says</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="get">get</w>
+        <w ana="#RBfRB" lemma="close">close</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_90">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_91">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="want">wan</w>
+        <w ana="#TOfTO" lemma="to">na</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#RBfRB" lemma="close">close</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#VVfVV" lemma="get">get</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_92">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVfVV" lemma="let">let</w>
+        <w ana="#PPfPP" lemma="we">'s</w>
+        <w ana="#VVfVV" lemma="stop">stop</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRcon531_S2" xml:id="PRcon531_u_93">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRcon531_S8" xml:id="PRcon531_u_94">
+        <w ana="#UHfUH" lemma="ooph">ooph</w>
+      </u>
+    </body>
+  </text>
+</TEI>

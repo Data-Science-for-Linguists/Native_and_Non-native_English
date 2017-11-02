@@ -1,0 +1,888 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="PBmtg280" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>business meeting on the status of a project</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+            <sponsor/>
+            <respStmt>
+		<resp>Researchers</resp> 
+		<name xml:id="AB">Angelika Breiteneder</name> 
+		<name xml:id="TK">Theresa Klimpfinger</name> 
+		<name xml:id="SM">Stefan Majewski</name> 
+		<name xml:id="MLP">Marie-Luise Pitzl</name>
+	  </respStmt>
+         </titleStmt>
+         <editionStmt>
+	  <edition>Version 2.0 XML, <date>January 2013</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Stefan Majewski</name> 
+		<name>Ruth Osimk-Teasdale</name>
+		<name>Marie-Luise Pitzl</name>
+		<name>Michael Radeka</name>
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+	  <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+		<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  		<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). Minor revisions were gathered
+		  by Ruth Osimk-Teasdale and Michael Radeka and corrections were made by 
+		  Ruth Osimk-Teasdale. VOICE 2.0 XML is available for download at the VOICE 
+		  Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+	  	<p>
+          The recommended citation for VOICE 2.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 2.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka.</bibl>
+		</p>
+		<p>The short citation for VOICE 2.0 XML is:
+		</p>
+		<p>
+          <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version 2.0 XML</edition>).</bibl>
+        </p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="PBmtg280_wc">Words: 4768</note>
+            <note xml:id="PBmtg280_tn_0">This business meeting takes place at a company involved in
+               software development. S1, who is the project manager, discusses the project status
+               with the team members. All speakers are colleagues, except S7, the researcher, who
+               actually gets a few questions about the purpose her recording is to serve. At the
+               beginning of the meeting, S1 draws and writes some points on a flipchart to outline
+               project developments. </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H27M22S" type="audio">
+                  <date>2006-02-13</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R10</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="PBmtg280_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="PBmtg280_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="PBmtg280_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="PBmtg280_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="PBmtg280_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="PBmtg280_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="PBmtg280_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="PBmtg280_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="PBmtg280_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="PBmtg280_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="PBmtg280_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="PBmtg280_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="PBmtg280_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="PBmtg280_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="PBmtg280_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="PBmtg280_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="PBmtg280_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="name" occurs="12"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="83"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="15"/>
+      <tagUsage gi="list" occurs="11"/>
+      <tagUsage gi="label" occurs="20"/>
+      <tagUsage gi="val" occurs="42"/>
+      <tagUsage gi="item" occurs="40"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="2"/>
+      <tagUsage gi="person" occurs="9"/>
+      <tagUsage gi="age" occurs="6"/>
+      <tagUsage gi="sex" occurs="6"/>
+      <tagUsage gi="occupation" occurs="6"/>
+      <tagUsage gi="langKnowledge" occurs="6"/>
+      <tagUsage gi="langKnown" occurs="6"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="6"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="1"/>
+      <tagUsage gi="u" occurs="372">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+      <tagUsage gi="incident" occurs="11">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="supplied" occurs="82">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed
+		to be anonymized. The <att>reason</att> attribute is used to
+		mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="pause" occurs="547">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="c" occurs="261">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="seg" occurs="232">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="vocal" occurs="80">Used to mark laughter and other speaker
+        noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="anchor" occurs="32">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="w" occurs="46">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage>
+      <tagUsage gi="shift" occurs="122">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="emph" occurs="15">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="unclear" occurs="46">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="foreign" occurs="8">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the <att>voice:translation</att> attribute
+		provides a rough translation of the non-English speech into
+		English.
+		</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:track" occurs="9">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in
+		length) and thus refers to the audio recording of the
+		transcribed speech event.
+		</tagUsage>
+      <tagUsage gi="voice:pvc" occurs="14">Used to mark a pronunciation
+		variation or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+		VOICE mark-up conventions [2.1].</ref>the
+		VOICE mark-up conventions [2.1]. An existing word
+		corresponding to the PVC may be provided within a
+		<att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc
+		element. Additional phonetic transcription may be provided
+		within a <att>voice:ipa</att>voice:ipa attribute within the
+		<gi>voice:pvc</gi>voice:pvc element.</tagUsage>
+      <tagUsage gi="voice:to" occurs="1">Used to mark speech directed towards a
+		particular speaker. The <att>who</att>who attribute indicates the
+		addressed speaker.</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#PBmtg280_PB #PBmtg280_mtg"/>
+            <catRef target="#PB #mtg"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">AT</name>
+               <name type="city">Vienna</name>
+               <locale>meeting room at company</locale>
+               <activity>preparing of flipchart, writing on flipchart</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="6"/>
+                  <personGrp role="interactants" size="6"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="participant" sameAs="#P169" xml:id="PBmtg280_S1">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <occupation>project manager</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P170" xml:id="PBmtg280_S2">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <occupation>software engineer</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="pol"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P171" xml:id="PBmtg280_S3">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <occupation>software engineer</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P172" xml:id="PBmtg280_S4">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <occupation>software engineer</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P173" xml:id="PBmtg280_S5">
+                     <age value="3">35-49</age>
+                     <sex value="1">male</sex>
+                     <occupation>software engineer</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="swe"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="researcher" sameAs="#P175" xml:id="PBmtg280_S7">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person sameAs="#SX-m" xml:id="PBmtg280_SX-m"/>
+                  <person sameAs="#SS" xml:id="PBmtg280_SS"/>
+                  <person sameAs="#SX" xml:id="PBmtg280_SX"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#PBmtg280_S1 #PBmtg280_S2 #PBmtg280_S3 #PBmtg280_S4 #PBmtg280_S5" name="fairly_symmetrical" type="power"/>
+                  <relation mutual="#PBmtg280_S1 #PBmtg280_S2 #PBmtg280_S3 #PBmtg280_S4 #PBmtg280_S5" name="acquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2012-07-02" who="RO">changes for VOICE 2.0</change>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-11" who="TK">finalized for publication</change>
+         <change when="2007-12-04" who="MLP">proof-reading</change>
+         <change when="2006-10-02" who="JL">checking</change>
+         <change when="2006-07-02" who="HB">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="00:22" voice:end_medium_number="1" voice:end_track="10" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_1"><incident voice:desc="S1 is writing on flipchart"/><supplied reason="unintelligible"> x </supplied> here <pause/> and fifty per cent here<c function="fall" type="intonation"/><pause/> so <seg n="1" type="overlap" xml:id="PBmtg280_ol_0"> basically </seg> what you have to do <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_2"><seg n="1" synch="#PBmtg280_ol_0" type="overlap" xml:id="PBmtg280_ol_1"><vocal voice:desc="clears throat"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_3"> for a quarter <pause/> you take this number and multiply it with that yeah <pause/> so <pause/> you have <incident voice:desc="S1 starts writing"/><pause dur="PT1S"/> twenty-five per cent <pause dur="PT1S"/> multiplied with one point zero five eight for example <pause/> for october </u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_4"><vocal voice:desc="clears throat"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_5"> and then you multiply it with one point one four six <pause/> for november <pause dur="PT1S"/><incident voice:desc="S1 stops writing"/> and the same for december <pause dur="PT1S"/> so<c type="lengthening"/> e<c type="lengthening"/>rm overall <pause/> the achievements for <supplied reason="anonymization"> [org1] </supplied> and <supplied reason="anonymization"> [org2] </supplied> are <pause/> somewhere in the range between <incident voice:desc="S1 starts writing"/> one hundred five and one hundred fifteen per cent <pause dur="PT1S"/> for the period <pause dur="PT1S"/><incident voice:desc="S1 stops writing"/> october to december <pause dur="PT2S"/> erm <pause/> this means <pause dur="PT1S"/> e<c type="lengthening"/>rm okay <pause/> if you <incident voice:desc="S1 encircles figure on flipchart"/> take that together it's fifty per cent <pause/> you multiply it with that <pause/> so finally <pause/> a<c type="lengthening"/>h no sorry that was wrong<c function="fall" type="intonation"/> it was erm <pause dur="PT2S"/> yeah that's that's right <supplied reason="unintelligible"> xx<c function="fall" type="intonation"/></supplied> so hh erm so <pause/> you exceed this fifty per cent <pause dur="PT1S"/> yeah <anchor synch="#PBmtg280_oc_1" type="other_continuation" xml:id="PBmtg280_oc_0"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_6"><anchor synch="#PBmtg280_oc_0" type="other_continuation" xml:id="PBmtg280_oc_1"/> mhm </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_7"> twenty-five plus twenty-five but it's not the limit<c function="fall" type="intonation"/> you can go beyond that and this is what happens<c function="fall" type="intonation"/><pause dur="PT1S"/> so basically<c type="lengthening"/> erm <pause dur="PT1S"/> the the whole <w voice:mode="spelt"> q p s e </w> is one hundred per cent <pause/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_8"><vocal voice:desc="clears throat"/><seg n="2" type="overlap" xml:id="PBmtg280_ol_2"><vocal voice:desc="clears throat"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_9"><seg n="2" synch="#PBmtg280_ol_2" type="overlap" xml:id="PBmtg280_ol_3"> and </seg> you would get <shift corresp="#PBmtg280_s_2" feature="tempo" new="a" xml:id="PBmtg280_s_1"/> not considering the <supplied reason="anonymization"> [org3] </supplied> part <shift corresp="#PBmtg280_s_1" feature="tempo" new="neutral" xml:id="PBmtg280_s_2"/> something between fifty and fifty-five per cent for october to december<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_10"> so we will get it<c function="rise" type="intonation"/><pause/> in march<c function="rise" type="intonation"/> it will be for <seg n="3" type="overlap" xml:id="PBmtg280_ol_4"> the </seg><pause/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_11"><seg n="3" synch="#PBmtg280_ol_4" type="overlap" xml:id="PBmtg280_ol_5"> no </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_12"> last quarter<c function="rise" type="intonation"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_13"><seg n="4" type="overlap" xml:id="PBmtg280_ol_6"> we won't get it </seg><pause/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_14"><seg n="4" synch="#PBmtg280_ol_6" type="overlap" xml:id="PBmtg280_ol_7"> we won't get it </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_15"> okay there is one important explanation and this is here it's mentioned that <pause/> these are the numbers for <pause/><w voice:mode="spelt"> q </w><emph> three </emph><pause/> yeah<c function="fall" type="intonation"/> hh e<c type="lengthening"/>r you have to understand the business here of <pause/><supplied reason="anonymization"> [org2] </supplied><pause/> starts in april <pause/> which means <w voice:mode="spelt"> q </w><emph> three </emph> is our <w voice:mode="spelt"> q </w> four<c function="fall" type="intonation"/><pause/> or is let's say the<c type="lengthening"/><pause/><w voice:mode="spelt"> q </w> four of a <pause/> calendar year<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_16"><vocal voice:desc="clears throat"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_17"> that's <w voice:mode="spelt"> q </w> three of the business year of <supplied reason="anonymization"> [org2] </supplied><c function="fall" type="intonation"/> hh this means it means <seg n="5" type="overlap" xml:id="PBmtg280_ol_8"> these </seg> are the numbers <pause/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_18"><seg n="5" synch="#PBmtg280_ol_8" type="overlap" xml:id="PBmtg280_ol_9"><vocal voice:desc="clears throat"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_19"> yeah<c function="fall" type="intonation"/> from october to december<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_20"> so first time we will see our name in these <pause/> statistics is <pause/> january february march </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_21"> exactly yeah<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_22"><shift corresp="#PBmtg280_s_4" feature="loud" new="p" xml:id="PBmtg280_s_3"/> which is <seg n="6" type="overlap" xml:id="PBmtg280_ol_10"> not <supplied reason="unintelligible"> xx </supplied></seg><shift corresp="#PBmtg280_s_3" feature="loud" new="neutral" xml:id="PBmtg280_s_4"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_23"><seg n="6" synch="#PBmtg280_ol_10" type="overlap" xml:id="PBmtg280_ol_11"> so<c type="lengthening"/></seg> we should get the numbers like <pause/> mid or end of april something like that and then we should see the first time this <shift corresp="#PBmtg280_s_6" feature="loud" new="p" xml:id="PBmtg280_s_5"/><supplied reason="unintelligible"> xx </supplied><unclear> for a year </unclear><shift corresp="#PBmtg280_s_5" feature="loud" new="neutral" xml:id="PBmtg280_s_6"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_24"><vocal voice:desc="clears throat"/><pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_25"> and basically <pause dur="PT3S"/> i guess we should here <pause/> crop up  at one of these categories mhm<c function="fall" type="intonation"/><pause dur="PT2S"/> and then <pause/> when you have this email you can<c type="lengthening"/><pause/> directly calculate how much <supplied reason="unintelligible"> xxx </supplied> you will see<c function="fall" type="intonation"/> and of course i mean you have to <pause/> e<c type="lengthening"/>rm <pause dur="PT1S"/> you have to take your overall <w voice:mode="spelt"> q p l c </w> amount <pause/> divided by four <pause/> yeah<c function="fall" type="intonation"/><pause/> cos it's <pause/> concerning one quarter<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_26"><shift corresp="#PBmtg280_s_8" feature="loud" new="p" xml:id="PBmtg280_s_7"/> okay <shift corresp="#PBmtg280_s_7" feature="loud" new="neutral" xml:id="PBmtg280_s_8"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_27"> mhm <pause dur="PT6S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_28"> is this <pause/> clear<c function="rise" type="intonation"/><pause/> so far<c function="rise" type="intonation"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_29"> mhm <pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_30"><shift corresp="#PBmtg280_s_10" feature="loud" new="p" xml:id="PBmtg280_s_9"/> okay <shift corresp="#PBmtg280_s_9" feature="loud" new="neutral" xml:id="PBmtg280_s_10"/><pause dur="PT2S"/> erm<c type="lengthening"/><pause dur="PT3S"/><voice:track medium="1" num="02" type="md"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_31"> h- how is the bonus taxed<c function="rise" type="intonation"/><pause dur="PT1S"/> we pay full tax for it or </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_32"> it's just normal payment yeah </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_33"> okay <anchor synch="#PBmtg280_oc_3" type="other_continuation" xml:id="PBmtg280_oc_2"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_34"><anchor synch="#PBmtg280_oc_2" type="other_continuation" xml:id="PBmtg280_oc_3"/> there's no <seg n="7" type="overlap" xml:id="PBmtg280_ol_12"> difference </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_35"><seg n="7" synch="#PBmtg280_ol_12" type="overlap" xml:id="PBmtg280_ol_13"> so we </seg> also it's also covers som<c type="lengthening"/>e social insurance and other stuff <pause/><seg n="8" type="overlap" xml:id="PBmtg280_ol_14"> or it's only the </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_36"><seg n="8" synch="#PBmtg280_ol_14" type="overlap" xml:id="PBmtg280_ol_15"> don't the </seg> social <foreign type="LN" voice:translation="insurance" xml:lang="ger"> versicherung </foreign> taken off for bonus of extra pays <pause/> it's just tax<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_37"> it depends how <pause/> they <pause/> they do <unclear> and the tax low </unclear><c function="fall" type="intonation"/> yeah </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_38"><unclear> it's </unclear> it's just just a <unclear> regular </unclear><pause/> part of the salary so i gue<seg n="1" type="overlap" xml:id="PBmtg280_ol_16">ss it's </seg> exactly the same <seg n="2" type="overlap" xml:id="PBmtg280_ol_17"> as </seg> as salary<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_39"><seg n="1" synch="#PBmtg280_ol_16" type="overlap" xml:id="PBmtg280_ol_18"> yeah </seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_40"><seg n="2" synch="#PBmtg280_ol_17" type="overlap" xml:id="PBmtg280_ol_19"> yeah </seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_41"> because it's part <supplied reason="unintelligible"> xx </supplied> yeah <pause/> yeah<c function="fall" type="intonation"/> so </u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_42"><unclear> so but </unclear> you <seg n="3" type="overlap" xml:id="PBmtg280_ol_20"> don't pay soci</seg>al <foreign type="LN" voice:translation="insurance" xml:lang="ger"> versicherung </foreign> for bonuses<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_43"><seg n="3" synch="#PBmtg280_ol_20" type="overlap" xml:id="PBmtg280_ol_21"> so the </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_44"> hm<c function="rise" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_45"> but it's <seg n="4" type="overlap" xml:id="PBmtg280_ol_22"> pa- part of the salary </seg> though<c function="fall" type="intonation"/> isn't it<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_46"><seg n="4" synch="#PBmtg280_ol_22" type="overlap" xml:id="PBmtg280_ol_23"><shift corresp="#PBmtg280_s_12" feature="tempo" new="a" xml:id="PBmtg280_s_11"/> i don't know <supplied reason="unintelligible"> xx </supplied> we have to ask for it <shift corresp="#PBmtg280_s_11" feature="tempo" new="neutral" xml:id="PBmtg280_s_12"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_47"> yeah<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_48"> it's it's part you know <seg n="5" type="overlap" xml:id="PBmtg280_ol_24"> it's taken </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_49"><seg n="5" synch="#PBmtg280_ol_24" type="overlap" xml:id="PBmtg280_ol_25"><supplied reason="unintelligible"> xxxxxx </supplied></seg> payment is part of the salary <pause/> but bonus is something extra </u>
+            <u who="#PBmtg280_S5" xml:id="PBmtg280_u_50"> yeah <anchor synch="#PBmtg280_oc_5" type="other_continuation" xml:id="PBmtg280_oc_4"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_51"><anchor synch="#PBmtg280_oc_4" type="other_continuation" xml:id="PBmtg280_oc_5"/> no<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S5" xml:id="PBmtg280_u_52"> so it's not <seg n="6" type="overlap" xml:id="PBmtg280_ol_26"> trea</seg>ted as a <seg n="7" type="overlap" xml:id="PBmtg280_ol_27"> special </seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_53"><seg n="6" synch="#PBmtg280_ol_26" type="overlap" xml:id="PBmtg280_ol_28"> in </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_54"><seg n="7" synch="#PBmtg280_ol_27" type="overlap" xml:id="PBmtg280_ol_29"><unclear> as much it is </unclear></seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_55"> i- in the contract <unclear> there </unclear> is part of the salary<c function="fall" type="intonation"/> so <pause/> what you <unclear> get is </unclear><pause dur="PT2S"/> well we'll see <pause/> i guess <pause dur="PT5S"/><vocal voice:desc="clears throat"/><pause dur="PT3S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_56"> okay are there any other questions<c function="rise" type="intonation"/><pause dur="PT2S"/> today <pause dur="PT1S"/> no<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S5" xml:id="PBmtg280_u_57"> i heard some rumours that the <supplied reason="anonymization"> [org4] </supplied> group has <pause/><seg n="8" type="overlap" xml:id="PBmtg280_ol_30"> floated </seg> around  in the organizational ma- matrix <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_58"><seg n="8" synch="#PBmtg280_ol_30" type="overlap" xml:id="PBmtg280_ol_31"><vocal voice:desc="clears throat"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_59"> hh yeah that's er under discussion erm <pause dur="PT1S"/> basically what is the direct report line and what's the dotted report line<c function="fall" type="intonation"/> so basically<c type="lengthening"/> who's the boss of the <pause/> of the <pause/> the team hh e<c type="lengthening"/>rm<c type="lengthening"/><pause dur="PT1S"/> what is clear is <pause dur="PT1S"/> where will the boss will be in the end <pause/> that people will most probably work for both <pause/> business units <pause/> yeah for both <supplied reason="anonymization"> [org5] </supplied> and <supplied reason="anonymization"> [org4] </supplied><c function="fall" type="intonation"/> hh but it's not yet <pause/> really clear who's the boss<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_60"> yeah </u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_61"><shift corresp="#PBmtg280_s_14" feature="loud" new="p" xml:id="PBmtg280_s_13"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#PBmtg280_s_13" feature="loud" new="neutral" xml:id="PBmtg280_s_14"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_62"><shift corresp="#PBmtg280_s_16" feature="loud" new="p" xml:id="PBmtg280_s_15"/> erm okay <shift corresp="#PBmtg280_s_15" feature="loud" new="neutral" xml:id="PBmtg280_s_16"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_63"><vocal voice:desc="clears throat"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_64"> hhh well i guess that's quite normal when you <pause/> when you change <pause/> or when you're <pause/> acquired by another <pause/> company <pause dur="PT2S"/> that it takes some time until the organization is is clear </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_65"> yeah that's true and i<c type="lengthening"/>'ve seen that recently we've been sent a email <pause dur="PT1S"/> with a questionnaire about <pause/> the integration progress </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_66"> mhm </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_67"> and okay and i didn't read personally because i forgot my password <pause dur="PT1S"/> but <seg n="9" type="overlap" xml:id="PBmtg280_ol_32"> er <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><pause/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_68"><seg n="9" synch="#PBmtg280_ol_32" type="overlap" xml:id="PBmtg280_ol_33"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_69"> er <supplied reason="anonymization"> [first name1] </supplied> has shown it to me <pause/> and <pause/> okay for most of the questions the answer would be negative<c function="fall" type="intonation"/><pause/> i don't know if it was the case for other guys </u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_70"> same here <anchor synch="#PBmtg280_oc_7" type="other_continuation" xml:id="PBmtg280_oc_6"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_71"><anchor synch="#PBmtg280_oc_6" type="other_continuation" xml:id="PBmtg280_oc_7"/> but yeah we don't feel inte<seg n="1" type="overlap" xml:id="PBmtg280_ol_34">grated </seg> at all i'd say<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_72"><seg n="1" synch="#PBmtg280_ol_34" type="overlap" xml:id="PBmtg280_ol_35"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_73"> the only thing which wasn't already <unclear> this </unclear><w voice:mode="spelt"> q p l c </w> thing <pause dur="PT2S"/> and <unclear> most </unclear> that's it<c function="fall" type="intonation"/> i <seg n="2" type="overlap" xml:id="PBmtg280_ol_36"> don't feel </seg> the integration going on<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_74"><seg n="2" synch="#PBmtg280_ol_36" type="overlap" xml:id="PBmtg280_ol_37"> mhm </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_75"> m<seg n="3" type="overlap" xml:id="PBmtg280_ol_38">hm </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_76"><seg n="3" synch="#PBmtg280_ol_38" type="overlap" xml:id="PBmtg280_ol_39"> i mean </seg> i feel it because the computer's not working <shift corresp="#PBmtg280_s_18" feature="voice" new="laugh" xml:id="PBmtg280_s_17"/> or what<c function="rise" type="intonation"/><shift corresp="#PBmtg280_s_17" feature="voice" new="neutral" xml:id="PBmtg280_s_18"/><seg n="4" type="overlap" xml:id="PBmtg280_ol_40"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><seg n="5" type="overlap" xml:id="PBmtg280_ol_41"> it's not a thing we should </seg> worry <unclear> we </unclear> guess <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_77"><seg n="4" synch="#PBmtg280_ol_40" type="overlap" xml:id="PBmtg280_ol_42"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_78"><seg n="5" synch="#PBmtg280_ol_41" type="overlap" xml:id="PBmtg280_ol_43"> and we get more spam mails  as well yeah </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_79"> so may- i i'm afraid that they have sent this email a a little too early and they may be really a- astonished by the result <pause/> if <seg n="6" type="overlap" xml:id="PBmtg280_ol_44"> they </seg> were all honest<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_80"><seg n="6" synch="#PBmtg280_ol_44" type="overlap" xml:id="PBmtg280_ol_45"> yeah </seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_81"> but <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_82"> hhh yeah it depends erm <pause/> obviously in <pause/> er in such integration phases many<c type="lengthening"/> companies see the integration more taking place in the area of er administration <voice:track medium="1" num="03" type="md"/> and finance and so on hh so erm you know there are plans fo<c type="lengthening"/>r introducing <w voice:mode="spelt"> s a p </w> and things like that yeah erm so maybe<c type="lengthening"/><pause/> maybe we are not aware that there is not much integration going on <emph> yet </emph> in the engineering <pause/><vocal voice:desc="clears throat"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_83"> mhm </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_84"> that might very well be <pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_85"> okay but these questions were actually addressed <pause/> to us so <pause/><seg n="7" type="overlap" xml:id="PBmtg280_ol_46"> i<c type="lengthening"/></seg> i'm just think th- w- they should really get feedback that <pause/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_86"><seg n="7" synch="#PBmtg280_ol_46" type="overlap" xml:id="PBmtg280_ol_47"> okay </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_87"><seg n="8" type="overlap" xml:id="PBmtg280_ol_48"> maybe they </seg> should <voice:pvc> resend </voice:pvc> it in <pause/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_88"><seg n="8" synch="#PBmtg280_ol_48" type="overlap" xml:id="PBmtg280_ol_49"> at least <unclear> they </unclear></seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_89"> three months <seg n="9" type="overlap" xml:id="PBmtg280_ol_50"> or something <unclear> like that </unclear></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_90"><seg n="9" synch="#PBmtg280_ol_50" type="overlap" xml:id="PBmtg280_ol_51"> no but maybe </seg> that's exactly <seg n="1" type="overlap" xml:id="PBmtg280_ol_52"> what they want </seg> to see <seg n="2" type="overlap" xml:id="PBmtg280_ol_53"> because </seg> maybe <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_91"><seg n="1" synch="#PBmtg280_ol_52" type="overlap" xml:id="PBmtg280_ol_54"> what they want </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_92"><seg n="2" synch="#PBmtg280_ol_53" type="overlap" xml:id="PBmtg280_ol_55"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_93"> at least <seg n="3" type="overlap" xml:id="PBmtg280_ol_56"> we <unclear> got </unclear> a </seg> highlight <unclear> there </unclear><seg n="4" type="overlap" xml:id="PBmtg280_ol_57"> you know<c function="rise" type="intonation"/> yeah </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_94"><seg n="3" synch="#PBmtg280_ol_56" type="overlap" xml:id="PBmtg280_ol_58"> you know may- </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_95"><seg n="4" synch="#PBmtg280_ol_57" type="overlap" xml:id="PBmtg280_ol_59"> yeah maybe </seg> the management has the <pause/> has the feeling the integration should have erm<c type="lengthening"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_96"> finished by now </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_97"> er not finished <seg n="5" type="overlap" xml:id="PBmtg280_ol_60"> but </seg> should have progressed <pause/> further <pause/> hh and it hasn't <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_98"><seg n="5" synch="#PBmtg280_ol_60" type="overlap" xml:id="PBmtg280_ol_61"> o<c type="lengthening"/>h </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_99"><shift corresp="#PBmtg280_s_20" feature="loud" new="p" xml:id="PBmtg280_s_19"/> okay <shift corresp="#PBmtg280_s_19" feature="loud" new="neutral" xml:id="PBmtg280_s_20"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_100"> so i think it's <pause/> it's the right thing to just er honestly answer these questions <pause/> instead of saying ye<c type="lengthening"/>ah okay it's <shift corresp="#PBmtg280_s_22" feature="voice" new="laugh" xml:id="PBmtg280_s_21"/> too early <shift corresp="#PBmtg280_s_21" feature="voice" new="neutral" xml:id="PBmtg280_s_22"/> send it again in two months<c function="fall" type="intonation"/> hh <pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_101"><shift corresp="#PBmtg280_s_24" feature="loud" new="p" xml:id="PBmtg280_s_23"/> okay <shift corresp="#PBmtg280_s_23" feature="loud" new="neutral" xml:id="PBmtg280_s_24"/> yeah that's maybe <pause/> maybe it will be sent by <unclear> default </unclear> in two months </u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_102"> mhm <pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_103"> hh erm yeah i don't know <pause/> erm<c type="lengthening"/><pause/> if you are aware about what's going on in the <w voice:mode="spelt"> i t </w> currently <pause/> so on the weekend obviously they have changed all the <w voice:mode="spelt"> i p </w> addresses of all computers in the <pause/> in the company hh so this does not apply only to here this also applies to <supplied reason="anonymization"> [place1] </supplied> and <pause/> and <supplied reason="anonymization"> [place2] </supplied><pause dur="PT1S"/> and erm<c type="lengthening"/> yeah people are wondering why this is so difficult you just change the address and that's it<c function="fall" type="intonation"/> but it's actually not that <pause/> easy <pause/> yeah we have erm <pause/> we have many servers running we have many ser<emph>vices </emph> running <pause/> and all that has to be updated at the same time so i think it's <pause/> although it's painful it's normal that some things do not work at the moment<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_104"> was there any plan behind it before it started<c function="fall" type="intonation"/><pause/> because i have a feeling <pause/><shift corresp="#PBmtg280_s_26" feature="tempo" new="a" xml:id="PBmtg280_s_25"/> okay i don't know how complicated it is of course <shift corresp="#PBmtg280_s_25" feature="tempo" new="neutral" xml:id="PBmtg280_s_26"/><pause/> but er <pause dur="PT1S"/> in a well-organized  company it would be first <pause dur="PT1S"/> f- er four weeks of preparations <pause/> and then <pause/> switch over during weekend<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_105"><vocal voice:desc="clears throat"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_106"> and a lot of <pause/> risk should be already foreseen before </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_107"> mhm </u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_108"><unclear> yeah </unclear><anchor synch="#PBmtg280_oc_9" type="other_continuation" xml:id="PBmtg280_oc_8"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_109"><anchor synch="#PBmtg280_oc_8" type="other_continuation" xml:id="PBmtg280_oc_9"/> and you know in well-organized companies it's exactly the same and anyway it does not work <seg n="6" type="overlap" xml:id="PBmtg280_ol_62"> after the </seg> weekend <anchor synch="#PBmtg280_oc_11" type="other_continuation" xml:id="PBmtg280_oc_10"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_110"><seg n="6" synch="#PBmtg280_ol_62" type="overlap" xml:id="PBmtg280_ol_63"><unclear> no -o </unclear></seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_111"><anchor synch="#PBmtg280_oc_10" type="other_continuation" xml:id="PBmtg280_oc_11"/> yeah </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_112"> no <emph> ser</emph><seg n="7" type="overlap" xml:id="PBmtg280_ol_64">iously </seg> it <emph> does </emph><pause/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_113"><seg n="7" synch="#PBmtg280_ol_64" type="overlap" xml:id="PBmtg280_ol_65"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_114"> i mean at <supplied reason="anonymization"> [org6] </supplied> they have these regular checks and blah blah blah things like this they moved to <supplied reason="anonymization"> [org7] </supplied> and i have not really <pause/> felt that something didn't work <pause dur="PT1S"/> i mean from <w voice:mode="spelt"> i t </w> side<c function="fall" type="intonation"/><pause/> i was just wondering if we <pause/><seg n="8" type="overlap" xml:id="PBmtg280_ol_66"> if somebody </seg> took care of organizational <unclear> this </unclear> beforehand <unclear> be- </unclear> because now we are losing a lot of money because <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_115"><seg n="8" synch="#PBmtg280_ol_66" type="overlap" xml:id="PBmtg280_ol_67"> yeah okay </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_116"><shift corresp="#PBmtg280_s_28" feature="tempo" new="a" xml:id="PBmtg280_s_27"/><unclear> i </unclear> know fifty per cent of <unclear> people </unclear> can't work <shift corresp="#PBmtg280_s_27" feature="tempo" new="neutral" xml:id="PBmtg280_s_28"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_117"> okay e<c type="lengthening"/>r if you just addressed the move to <supplied reason="anonymization"> [org7] </supplied> that's quite easy because er they don't have the <w voice:mode="spelt"> i t </w> any more in <supplied reason="anonymization"> [place1] </supplied> it's in <supplied reason="anonymization"> [place3] </supplied> and they anyway <seg n="9" type="overlap" xml:id="PBmtg280_ol_68"> just er </seg> connect er remotely so you know that's much easier than moving servers and services and so on </u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_118"><seg n="9" synch="#PBmtg280_ol_68" type="overlap" xml:id="PBmtg280_ol_69"><vocal voice:desc="clears throat"/></seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_119"> no <pause dur="PT1S"/> okay this we can't really decide because we don't know <pause/> what's behind it but <anchor synch="#PBmtg280_oc_13" type="other_continuation" xml:id="PBmtg280_oc_12"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_120"><anchor synch="#PBmtg280_oc_12" type="other_continuation" xml:id="PBmtg280_oc_13"/> yeah </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_121"> what i mean is just a question <pause dur="PT1S"/> was anybody taking care of <pause dur="PT1S"/> organizing this <pause/> switch-over <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_122"> i mean we were not involved in that that's er <pause/> that's the task of <w voice:mode="spelt"> i t </w> and erm i have not <pause/> discussed that i just know that erm <supplied reason="anonymization"> [first name2] </supplied> has proposed <pause/> hh e<c type="lengthening"/>rm at least once <pause/> to move <voice:track medium="1" num="04" type="md"/> that <pause/> so it should have been done earlier <pause dur="PT1S"/> and he said we are not yet prepared <pause/><shift corresp="#PBmtg280_s_30" feature="loud" new="p" xml:id="PBmtg280_s_29"/> yeah <shift corresp="#PBmtg280_s_29" feature="loud" new="neutral" xml:id="PBmtg280_s_30"/><pause/> erm so i guess there was <seg n="1" type="overlap" xml:id="PBmtg280_ol_70"> some </seg> planning yeah <pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_123"><seg n="1" synch="#PBmtg280_ol_70" type="overlap" xml:id="PBmtg280_ol_71"> okay </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_124"> were the changes just <w voice:mode="spelt"> i p </w> address switch-overs <pause/> or is it structural cha- changes also<c function="rise" type="intonation"/><pause dur="PT1S"/> so will we see any benefit in network performance </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_125"> n<c type="lengthening"/><c type="lengthening"/>- no no it's just <w voice:mode="spelt"> i p </w> addresses at the moment<c function="fall" type="intonation"/><pause/> hh but in general we had a good discussion last week with the <pause/><w voice:mode="spelt"> i t </w> integration manager<c function="rise" type="intonation"/><pause dur="PT1S"/> he came here from <supplied reason="anonymization"> [place4] </supplied><pause dur="PT1S"/> hh and er basically they <pause/> er they plan <pause/> erm for a period of three months to<c type="lengthening"/><pause/> to look at all the<c type="lengthening"/> services all the hardware servers and so on <pause/> and and update that or replace it if necessary <pause dur="PT1S"/> so<c type="lengthening"/> erm in in like three months we should see <pause/> erm <pause dur="PT1S"/> new desktops probably new servers new services so this should be<c type="lengthening"/><pause/> done roughly in in three months <pause/> something like that yeah<c function="fall" type="intonation"/> hh and we said </u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_126"><vocal voice:desc="clears throat"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_127"> yeah we appreciate that they take some time to do all that <pause/> erm instead of just changing everything from one day to the next without you know <pause/> because the the goal is that it's <supplied reason="unintelligible" voice:ipa="'geɪdəbl"> xxx<c function="fall" type="intonation"/></supplied><pause dur="PT2S"/> if we have this new structure er it should be easy to just add fifty people <pause/><shift corresp="#PBmtg280_s_32" feature="loud" new="p" xml:id="PBmtg280_s_31"/> to it hm<c function="fall" type="intonation"/><pause/> that's the major goal <shift corresp="#PBmtg280_s_31" feature="loud" new="neutral" xml:id="PBmtg280_s_32"/><pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_128"> and <pause/> is that true that we will all get <w voice:mode="spelt"> p cs<c function="rise" type="intonation"/></w><pause/> at s- at some point<c function="rise" type="intonation"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_129"> er that's the<c type="lengthening"/><pause/> standard <supplied reason="anonymization"> [org2] </supplied> solution yeah<c function="fall" type="intonation"/> the <pause/> er <supplied reason="anonymization"> [org2] </supplied> normally has a <w voice:mode="spelt"> p c </w><pause dur="PT1S"/> so<c type="lengthening"/> erm documentation<c type="lengthening"/> mail  web all that is done on a <w voice:mode="spelt"> p c </w> hh and then you just have a citrix  login <pause/> for the design work<c function="fall" type="intonation"/><pause/> erm<c type="lengthening"/> it's not finally decided yet but e<c type="lengthening"/>rm it looks like the most likely solution because erm probably we have the best support if we do that <pause dur="PT1S"/> because <pause dur="PT1S"/> erm <supplied reason="anonymization"> [org2] </supplied> has only <w voice:mode="spelt"> p cs </w> with a maintenance erm contract <pause/> or support contract <pause/> erm they have e<c type="lengthening"/>rm <pause/> what's the english word <pause dur="PT1S"/> erm you know remote administration software installed on each <w voice:mode="spelt"> p c </w><pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_130"> mhm </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_131"> erm so <pause/> basically the <w voice:mode="spelt"> p cs </w> wouldn't <pause dur="PT1S"/> be necessarily maintained any more from here but from<c type="lengthening"/> er from <pause/> probably the <supplied reason="anonymization"> [place5] </supplied><pause dur="PT1S"/> erm but that's also an advantage because <vocal voice:desc="clears throat"/> then we have twenty-four seven support <pause/> we have a standard installation each <w voice:mode="spelt"> p c </w> has the same installation we have all programs on the <w voice:mode="spelt"> p c </w> and so on<c function="fall" type="intonation"/> so we probably have the best support and these <seg n="2" type="overlap" xml:id="PBmtg280_ol_72"> standard </seg> tasks could be taken away from our local <w voice:mode="spelt"> i t </w> hh to the central <w voice:mode="spelt"> i t </w> and then the local guys here can concentrate on the supporting the <pause/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_132"><seg n="2" synch="#PBmtg280_ol_72" type="overlap" xml:id="PBmtg280_ol_73"><vocal voice:desc="clears throat"/></seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_133"> the people with special <pause dur="PT1S"/> erm <seg n="3" type="overlap" xml:id="PBmtg280_ol_74"> topics </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_134"><seg n="3" synch="#PBmtg280_ol_74" type="overlap" xml:id="PBmtg280_ol_75"><shift corresp="#PBmtg280_s_34" feature="loud" new="p" xml:id="PBmtg280_s_33"/><unclear> special </unclear><shift corresp="#PBmtg280_s_33" feature="loud" new="neutral" xml:id="PBmtg280_s_34"/></seg> okay<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_135"> and what happens with all the licences we already have for <unclear><supplied reason="anonymization"> [org8] </supplied></unclear> are these directly transferable to <w voice:mode="spelt"> p c </w> or <pause/> were they bought <supplied reason="unintelligible"> xx </supplied> unix in mind<c function="rise" type="intonation"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_136"> no we we wouldn't work on <w voice:mode="spelt"> p c </w> yeah <pause/> we still have the citrix login to unix to solaris<c function="fall" type="intonation"/><voice:track medium="1" num="05" type="md"/> so<c type="lengthening"/> this <pause/> this doesn't change<c function="fall" type="intonation"/> we won't do the <pause/> i mean you don't get the design work on er the design software on <w voice:mode="spelt"> p c </w></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_137"><shift corresp="#PBmtg280_s_36" feature="loud" new="p" xml:id="PBmtg280_s_35"/> mhm <shift corresp="#PBmtg280_s_35" feature="loud" new="neutral" xml:id="PBmtg280_s_36"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_138"><shift corresp="#PBmtg280_s_38" feature="loud" new="p" xml:id="PBmtg280_s_37"/> so this we stay on <pause/> solaris or linux or so <shift corresp="#PBmtg280_s_37" feature="loud" new="neutral" xml:id="PBmtg280_s_38"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S5" xml:id="PBmtg280_u_139"> where <pause/> where will we have the servers here<c function="rise" type="intonation"/><pause/><supplied reason="anonymization"> [place5] </supplied><supplied reason="anonymization"> [place6] </supplied> or <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_140"> e<c type="lengthening"/>r which <seg n="4" type="overlap" xml:id="PBmtg280_ol_76"> servers<c function="rise" type="intonation"/></seg></u>
+            <u who="#PBmtg280_S5" xml:id="PBmtg280_u_141"><seg n="4" synch="#PBmtg280_ol_76" type="overlap" xml:id="PBmtg280_ol_77"><supplied reason="anonymization"> [place7] </supplied></seg><pause dur="PT2S"/> the servers we are going to work on<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_142"> what do you mean with servers<c function="rise" type="intonation"/></u>
+            <u who="#PBmtg280_S5" xml:id="PBmtg280_u_143"> big machines to run the tasks on<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_144"> they will be here<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_S5" xml:id="PBmtg280_u_145"> a<c type="lengthening"/>h <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_146"> there is a strategy at <supplied reason="anonymization"> [org2] </supplied> to centralize the <w voice:mode="spelt"> i t </w> but that's more mid- or long-term <pause/> strategy so for the moment <pause/> the machines would be here<c function="fall" type="intonation"/><pause/> e<c type="lengthening"/>rm som<c type="lengthening"/>e services or servers will also move away <pause/> so for example finally we probably won't have mail  servers any more here <pause dur="PT1S"/> erm so currently we still have the <supplied reason="anonymization"> [org3] </supplied> mail server and <pause/> erm the <supplied reason="anonymization"> [org2] </supplied> mails  are forwarded to the <supplied reason="anonymization"> [org3] </supplied> mail server but this will change so finally we will directly <pause/> get the mails <pause/> or use the mail servers of <supplied reason="anonymization"> [org2] </supplied> in the <supplied reason="anonymization"> [place5] </supplied><c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_147"> when is it planned<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_148"> don't know what's the <pause/> schedule<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_149"><shift corresp="#PBmtg280_s_40" feature="loud" new="p" xml:id="PBmtg280_s_39"/> okay <shift corresp="#PBmtg280_s_39" feature="loud" new="neutral" xml:id="PBmtg280_s_40"/><pause dur="PT1S"/> it's a very good idea actually <pause dur="PT1S"/> er i was thinking if i had to stay let's say in <supplied reason="anonymization"> [place1] </supplied> for a couple of days i would not have access to my emails because <seg n="5" type="overlap" xml:id="PBmtg280_ol_78"><supplied reason="anonymization"> [org3] </supplied></seg><seg n="6" type="overlap" xml:id="PBmtg280_ol_79"> doesn't </seg> offer the web access and <pause/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_150"><seg n="5" synch="#PBmtg280_ol_78" type="overlap" xml:id="PBmtg280_ol_80"> mhm </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_151"><seg n="6" synch="#PBmtg280_ol_79" type="overlap" xml:id="PBmtg280_ol_81"> mhm </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_152"><seg n="7" type="overlap" xml:id="PBmtg280_ol_82"><supplied reason="anonymization"> [org2] </supplied></seg> does<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_153"><seg n="7" synch="#PBmtg280_ol_82" type="overlap" xml:id="PBmtg280_ol_83"> yeah </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_154"> yeah the web access currently is <pause/> more or less disabled because the mails are forwarded to <supplied reason="anonymization"> [org3] </supplied><c function="fall" type="intonation"/><pause/> yeah as soon as erm the <supplied reason="anonymization"> [org3] </supplied> servers do not exist any more we can also use the <voice:pvc> webmail </voice:pvc><unclear> then </unclear><c function="fall" type="intonation"/><pause dur="PT3S"/> additionally yeah i think everybody who gets a laptop erm<c type="lengthening"/> so that's currently mainly the project managers <pause dur="PT1S"/> will have a <w voice:mode="spelt"> v p n </w> installed and then e<c type="lengthening"/>r wherever you can <pause dur="PT1S"/> access the internet you can download your emails also<c function="fall" type="intonation"/><pause dur="PT3S"/> but only with the standard <supplied reason="anonymization"> [org2] </supplied> installation not the <pause dur="PT1S"/> the old <pause/><supplied reason="anonymization"> [org3] </supplied> installation<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_155"> so you you use we know with that <pause/> erm scenario you can't <pause/> erm <pause/> access the development <pause/> area then <pause dur="PT1S"/><seg n="8" type="overlap" xml:id="PBmtg280_ol_84"> from from our <w voice:mode="spelt"> v p n </w></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_156"><seg n="8" synch="#PBmtg280_ol_84" type="overlap" xml:id="PBmtg280_ol_85"> that's not yet set out by <supplied reason="anonymization"> [org2] </supplied><c function="fall" type="intonation"/></seg><pause/> they <seg n="1" type="overlap" xml:id="PBmtg280_ol_86"> are </seg> currently working on that on a<c type="lengthening"/> on a<c type="lengthening"/> solution like <pause/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_157"><seg n="1" synch="#PBmtg280_ol_86" type="overlap" xml:id="PBmtg280_ol_87"> o<c type="lengthening"/>kay </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_158"> probably tarantella  or so </u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_159"> okay<c function="fall" type="intonation"/> yeah <seg n="2" type="overlap" xml:id="PBmtg280_ol_88"><shift corresp="#PBmtg280_s_42" feature="loud" new="p" xml:id="PBmtg280_s_41"/><unclear> whatever </unclear><shift corresp="#PBmtg280_s_41" feature="loud" new="neutral" xml:id="PBmtg280_s_42"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_160"><seg n="2" synch="#PBmtg280_ol_88" type="overlap" xml:id="PBmtg280_ol_89"> e<c type="lengthening"/>rm </seg><shift corresp="#PBmtg280_s_44" feature="loud" new="p" xml:id="PBmtg280_s_43"/> but that's ongoing that's not yet <pause/> solved <shift corresp="#PBmtg280_s_43" feature="loud" new="neutral" xml:id="PBmtg280_s_44"/><pause dur="PT1S"/> erm<c type="lengthening"/> what is important to understand is they distinguish the <w voice:mode="spelt"> i t </w> into  two parts <pause/> one is <pause/> what they call erm <pause dur="PT1S"/> i think backbone <pause dur="PT1S"/><seg n="3" type="overlap" xml:id="PBmtg280_ol_90"> yeah </seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_161"><seg n="3" synch="#PBmtg280_ol_90" type="overlap" xml:id="PBmtg280_ol_91"><shift corresp="#PBmtg280_s_46" feature="loud" new="p" xml:id="PBmtg280_s_45"/> infrastructure <shift corresp="#PBmtg280_s_45" feature="loud" new="neutral" xml:id="PBmtg280_s_46"/></seg><supplied reason="unintelligible"> x </supplied></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_162"> and then <pause/> the second part is project<c function="fall" type="intonation"/><pause dur="PT1S"/> so the backbone is like the standard installation everybody needs<c function="fall" type="intonation"/><pause dur="PT1S"/> email documentation and so on and that's normally <w voice:mode="spelt"> p c </w><pause dur="PT1S"/> and the project then might be <pause/> for a software project that we need <pause dur="PT1S"/> erm a compiler or whatever hh e<c type="lengthening"/>r it might be for a <w voice:mode="spelt"> i c </w> design project that you need a complete infrastructure like a unix network licences and so on <pause dur="PT1S"/> so that's split yeah so the guys we currently talk to in <supplied reason="anonymization"> [place4] </supplied><pause/> they are backbone<c function="fall" type="intonation"/><pause dur="PT1S"/> yeah and er they will now involve somebody from<c type="lengthening"/><supplied reason="anonymization"> [place8] </supplied> for <pause/> for the project yeah and they involve also us <pause/> for the project requirements </u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_163"> mhm </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_164"> so that's <pause/> that's split<c function="fall" type="intonation"/><voice:track medium="1" num="06" type="md"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_165"> does that mean that we can then share licences as well then <pause/> across sites or or is that nothing for <pause/> future </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_166"> i think that's <pause/> that's certainly the future plan but currently we cannot because </u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_167"><shift corresp="#PBmtg280_s_48" feature="loud" new="p" xml:id="PBmtg280_s_47"/> mhm <shift corresp="#PBmtg280_s_47" feature="loud" new="neutral" xml:id="PBmtg280_s_48"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_168"> our licences or our our erm <pause/> licence contracts <pause/> do not allow that at the moment <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_169"><supplied reason="unintelligible"> x <seg n="4" type="overlap" xml:id="PBmtg280_ol_92"> x </seg></supplied></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_170"><seg n="4" synch="#PBmtg280_ol_92" type="overlap" xml:id="PBmtg280_ol_93"> and the </seg><supplied reason="anonymization"> [org2] </supplied> ones also do not allow it<c function="fall" type="intonation"/><pause/> yeah </u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_171"> we don't have <voice:pvc> multi-site </voice:pvc> licences </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_172"> well yeah erm er i mean we have <voice:pvc> multi-site </voice:pvc> licences but just for our three sites <pause/> yeah </u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_173"> a<c type="lengthening"/>h <pause/> okay<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_174"> and e<c type="lengthening"/>r <supplied reason="anonymization"> [org2] </supplied> probably has also <pause/> i think they have <voice:pvc> multi-site </voice:pvc> licences but only for <supplied reason="anonymization"> [place7] </supplied><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_175"> m<seg n="5" type="overlap" xml:id="PBmtg280_ol_94">hm </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_176"><seg n="5" synch="#PBmtg280_ol_94" type="overlap" xml:id="PBmtg280_ol_95"> because </seg> all the the <w voice:mode="spelt"> i c </w> design so far is done in <supplied reason="anonymization"> [place7] </supplied><c function="fall" type="intonation"/> hh so the contracts have to be<c type="lengthening"/> changed and erm<c type="lengthening"/> i don't know if you can just <pause/> change them somewhere in the middle <pause/> maybe they run till the end and they are changed then <pause/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_177"> ev- <pause/> everything negotiable i think yeah </u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_178"> es<seg n="6" type="overlap" xml:id="PBmtg280_ol_96">pecially for <supplied reason="anonymization"> [org2] </supplied></seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_179"><seg n="6" synch="#PBmtg280_ol_96" type="overlap" xml:id="PBmtg280_ol_97"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><seg n="8" type="overlap" xml:id="PBmtg280_ol_98"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_180"><seg n="8" synch="#PBmtg280_ol_98" type="overlap" xml:id="PBmtg280_ol_99"> just a matter of money </seg><pause/> yeah </u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_181"> yeah <pause/> exactly </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_182"> and yeah you know <pause/> the<c type="lengthening"/> the who<c type="lengthening"/>le <pause/><w voice:mode="spelt"> b l s i </w> team <pause/> is very big that's <pause dur="PT1S"/> i think more than thousand people <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_183"> m<seg n="7" type="overlap" xml:id="PBmtg280_ol_100">hm </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_184"><seg n="7" synch="#PBmtg280_ol_100" type="overlap" xml:id="PBmtg280_ol_101"> but </seg><pause/> most of them are in the <w voice:mode="spelt"> o d cs </w> in the offshore design centers <pause/> and there they get the licences the infrastructure and everything from the customer <pause dur="PT1S"/> e<c type="lengthening"/>rm so the <pause/> the the <emph> re</emph><seg n="1" type="overlap" xml:id="PBmtg280_ol_102"><emph>al </emph> erm </seg><pause dur="PT2S"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_185"><seg n="1" synch="#PBmtg280_ol_102" type="overlap" xml:id="PBmtg280_ol_103"><vocal voice:desc="clears throat"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_186"> yeah how to call it <pause/> design service team <pause dur="PT1S"/> which is available for any customer <pause/> is much much smaller so it's e<c type="lengthening"/>rm they are <pause dur="PT1S"/> in a similar situation as we are in terms of licences and <seg n="2" type="overlap" xml:id="PBmtg280_ol_104"> infra</seg>structure and so on yeah <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_187"><seg n="2" synch="#PBmtg280_ol_104" type="overlap" xml:id="PBmtg280_ol_105"> mhm </seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_188"> okay<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_189"> so it's not that  we suddenly have a <pause/> a partner with fifteen hundred engineers and e<c type="lengthening"/>rm <pause/> er ten times more licences than we have that's <pause/> not the case<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_190"> mhm okay <pause dur="PT3S"/> i- is <unclear> has there </unclear> any discussion <pause/> regarding the lab <pause dur="PT1S"/> network internet <shift corresp="#PBmtg280_s_50" feature="loud" new="p" xml:id="PBmtg280_s_49"/> a<c type="lengthening"/>nd <seg n="3" type="overlap" xml:id="PBmtg280_ol_106"> so on </seg><shift corresp="#PBmtg280_s_49" feature="loud" new="neutral" xml:id="PBmtg280_s_50"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_191"><seg n="3" synch="#PBmtg280_ol_106" type="overlap" xml:id="PBmtg280_ol_107"> erm<c type="lengthening"/></seg><pause dur="PT2S"/> i have er kicked that off  e<c type="lengthening"/>rm <pause dur="PT1S"/> after <pause/> the discussion with you </u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_192"><shift corresp="#PBmtg280_s_52" feature="loud" new="p" xml:id="PBmtg280_s_51"/> mhm <shift corresp="#PBmtg280_s_51" feature="loud" new="neutral" xml:id="PBmtg280_s_52"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_193"> er we have been discussing that in the <w voice:mode="spelt"> r n d </w> management team <pause dur="PT1S"/> there is one thing which is also not yet clear erm this <pause/> business unit <supplied reason="anonymization"> [org4] </supplied> er will do<c type="lengthening"/> analogue mixed signal <pause/><w voice:mode="spelt"> i p </w> design and then the <w voice:mode="spelt"> i ps </w> probably would have to be characterized and so on and that would be done in the lab so there is still a long list of equipment hhh erm <pause/> er which is probably bought <pause/> for the lab which is then <pause dur="PT1S"/> erm probably financed by <supplied reason="anonymization"> [org4] </supplied> and not <pause/> you know by <supplied reason="anonymization"> [org5] </supplied><pause/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_194"> mhm </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_195"> so it's not <pause/> er let's say the <pause/> lab responsibility is also not yet clear that's linked to the <pause/> e<c type="lengthening"/>r to your question <pause/> that's the<c type="lengthening"/> e<c type="lengthening"/>rm location of the <pause dur="PT1S"/> team downstairs is not yet <pause/> fully clear in the organization hhh e<c type="lengthening"/>rm <seg n="4" type="overlap" xml:id="PBmtg280_ol_108"> but in </seg> general yeah we<c type="lengthening"/> e<c type="lengthening"/>r erm<c type="lengthening"/> we are discussing that<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_196"><seg n="4" synch="#PBmtg280_ol_108" type="overlap" xml:id="PBmtg280_ol_109"> okay </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_197"> who could be responsible for it<c function="fall" type="intonation"/> erm i think the <pause/> im- <pause/> the most important input from your side was <pause dur="PT1S"/> erm the<c type="lengthening"/> the safety <pause/> in the lab <pause/> ye<c type="lengthening"/>ah i mean this made us e<c type="lengthening"/>rm <pause dur="PT2S"/> y- yeah <pause/> think about it <pause dur="PT1S"/> erm be<shift corresp="#PBmtg280_s_54" feature="voice" new="laugh" xml:id="PBmtg280_s_53"/>cause <shift corresp="#PBmtg280_s_53" feature="voice" new="neutral" xml:id="PBmtg280_s_54"/><pause/> this should <voice:track medium="1" num="07" type="md"/> be<c type="lengthening"/><pause dur="PT1S"/> i mean this should be clear if you go into the lab that somebody gives you an introduction and <pause/> and so on<c function="fall" type="intonation"/> hh <shift corresp="#PBmtg280_s_56" feature="loud" new="f" xml:id="PBmtg280_s_55"/> and there is also <shift corresp="#PBmtg280_s_55" feature="loud" new="neutral" xml:id="PBmtg280_s_56"/> this discussion with <pause/> with the <w voice:mode="spelt"> i t </w> in the lab yeah <pause/> i mean you brought up a good point that it might be <pause dur="PT1S"/> might be good to lock the lab <pause/> and then only certain people have access <pause/> and then er we put the <w voice:mode="spelt"> p cs </w> in our normal network and not in this <pause/> separated network<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_198"> yeah <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_199"> so <pause/> there are actually many topics to discuss and <pause/> we have started that but <pause/> i don't know how long it takes especially the <w voice:mode="spelt"> i t </w> because <pause/> yeah the time <seg n="5" type="overlap" xml:id="PBmtg280_ol_110"> frame </seg> is<c type="lengthening"/><pause/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_200"><seg n="5" synch="#PBmtg280_ol_110" type="overlap" xml:id="PBmtg280_ol_111"> yeah </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_201"> three months <pause/> at least <anchor synch="#PBmtg280_oc_15" type="other_continuation" xml:id="PBmtg280_oc_14"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_202"><anchor synch="#PBmtg280_oc_14" type="other_continuation" xml:id="PBmtg280_oc_15"/> yeah<c function="fall" type="intonation"/> okay <seg n="6" type="overlap" xml:id="PBmtg280_ol_112"> mhm </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_203"><seg n="6" synch="#PBmtg280_ol_112" type="overlap" xml:id="PBmtg280_ol_113"> are there </seg> any plans <pause/> to utilize the floor space upstairs<c function="fall" type="intonation"/><pause/> because if you are going to bring more work into the lab <pause/> other groups <pause/> you don't have enough space there<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_204"> that's a good <seg n="7" type="overlap" xml:id="PBmtg280_ol_114"> point yeah <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg> you need to make it bigger<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_205"><seg n="7" synch="#PBmtg280_ol_114" type="overlap" xml:id="PBmtg280_ol_115"><unclear> probably so </unclear></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_206"><seg n="7" synch="#PBmtg280_ol_114" type="overlap" xml:id="PBmtg280_ol_116"> mhm </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_207"> is that spoken about </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_208"> no there are no concrete clan- er plans to do that but as the <pause/> the <pause/> erm third floor second floor is not used otherwise we can do that any time <pause dur="PT1S"/><shift corresp="#PBmtg280_s_58" feature="loud" new="p" xml:id="PBmtg280_s_57"/> yeah <shift corresp="#PBmtg280_s_57" feature="loud" new="neutral" xml:id="PBmtg280_s_58"/> so it's basically no problem <seg n="8" type="overlap" xml:id="PBmtg280_ol_117"> in terms of in</seg>frastructure <seg n="9" type="overlap" xml:id="PBmtg280_ol_118"> and so on </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_209"><seg n="8" synch="#PBmtg280_ol_117" type="overlap" xml:id="PBmtg280_ol_119"> cos that is </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_210"><seg n="9" synch="#PBmtg280_ol_118" type="overlap" xml:id="PBmtg280_ol_120"> controlled </seg> access <unclear> yeah </unclear><c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_211"> a<c type="lengthening"/>h you mean the third floor <seg n="1" type="overlap" xml:id="PBmtg280_ol_121"> just for </seg> the lab </u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_212"><seg n="1" synch="#PBmtg280_ol_121" type="overlap" xml:id="PBmtg280_ol_122"><unclear> just for </unclear></seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_213"> yeah </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_214"> o<seg n="2" type="overlap" xml:id="PBmtg280_ol_123">kay<c function="fall" type="intonation"/></seg><pause/> no that's </u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_215"><seg n="2" synch="#PBmtg280_ol_123" type="overlap" xml:id="PBmtg280_ol_124"><supplied reason="unintelligible"> x </supplied></seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_216"><seg n="2" synch="#PBmtg280_ol_123" type="overlap" xml:id="PBmtg280_ol_125"><vocal type="speaker_noise" voice:desc="whistles"/></seg></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_217"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_218"> that <seg n="3" type="overlap" xml:id="PBmtg280_ol_126"> room you can make with controlled access as well </seg> yeah <pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_219"><seg n="3" synch="#PBmtg280_ol_126" type="overlap" xml:id="PBmtg280_ol_127"> twenty per cent of the company only is a lab <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_220"><unclear> then </unclear> you <pause/> deter- <pause/> that that <pause/> e<c type="lengthening"/>r room there<c function="rise" type="intonation"/><pause/> you can make it controlled access as well <pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_221"><seg n="4" type="overlap" xml:id="PBmtg280_ol_128"> okay<c function="fall" type="intonation"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_222"><seg n="4" synch="#PBmtg280_ol_128" type="overlap" xml:id="PBmtg280_ol_129"> mhm </seg><pause/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_223"> you just put your <pause dur="PT1S"/> e<c type="lengthening"/>r <w voice:mode="spelt"> i d </w><pause dur="PT1S"/> chip in <pause/> and then it <pause/> you know <pause/> locks in and locks in <anchor synch="#PBmtg280_oc_17" type="other_continuation" xml:id="PBmtg280_oc_16"/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_224"><anchor synch="#PBmtg280_oc_16" type="other_continuation" xml:id="PBmtg280_oc_17"/> mhm </u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_225"><shift corresp="#PBmtg280_s_60" feature="loud" new="p" xml:id="PBmtg280_s_59"/> yeah <pause dur="PT1S"/> we can try that <pause dur="PT1S"/> yeah <pause dur="PT2S"/> erm but it seems to work okay <shift corresp="#PBmtg280_s_59" feature="loud" new="neutral" xml:id="PBmtg280_s_60"/><pause/><unclear> but </unclear><pause/> it just <unclear> need </unclear> to be like a<c type="lengthening"/> chip card <pause dur="PT1S"/> used to be<c function="fall" type="intonation"/><pause/> but you can <pause dur="PT2S"/> e<c type="lengthening"/>r automatically lock in <pause/> when you go out so <pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_226"> i mean e<c type="lengthening"/>r it de<seg n="5" type="overlap" xml:id="PBmtg280_ol_130">pends </seg> on how much we do in the end in the lab<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_227"><seg n="5" synch="#PBmtg280_ol_130" type="overlap" xml:id="PBmtg280_ol_131"><vocal voice:desc="clears throat"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_228"> e<c type="lengthening"/>rm you know we also have this wafer <voice:pvc> prober </voice:pvc> for example <seg n="6" type="overlap" xml:id="PBmtg280_ol_132"> so we </seg> are <pause/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_229"><seg n="6" synch="#PBmtg280_ol_132" type="overlap" xml:id="PBmtg280_ol_133"> mhm </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_230"> we are thinking about utilizing that to<c type="lengthening"/> to offer that as a service<c function="fall" type="intonation"/><pause/> no- not for <pause dur="PT1S"/> i mean obviously we cannot <pause/> do it for <pause/> for production <pause/> e<c type="lengthening"/>r like testing <pause dur="PT1S"/> production testing <pause/> er but we could do <pause dur="PT1S"/> a<c type="lengthening"/> characterization qualification e<c type="lengthening"/>r such things <shift corresp="#PBmtg280_s_62" feature="tempo" new="a" xml:id="PBmtg280_s_61"/> on the wafer <voice:pvc> prober </voice:pvc><shift corresp="#PBmtg280_s_61" feature="tempo" new="neutral" xml:id="PBmtg280_s_62"/><pause dur="PT1S"/> and <pause/> we <emph> had </emph> requests from other companies where they were asking <pause/> whether we can do that for them or not </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_231"><shift corresp="#PBmtg280_s_64" feature="loud" new="p" xml:id="PBmtg280_s_63"/> wafer <voice:pvc> prober<c function="rise" type="intonation"/></voice:pvc> we have wafer <seg n="7" type="overlap" xml:id="PBmtg280_ol_134"><voice:pvc> prober<c function="rise" type="intonation"/></voice:pvc></seg><shift corresp="#PBmtg280_s_63" feature="loud" new="neutral" xml:id="PBmtg280_s_64"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_232"><seg n="7" synch="#PBmtg280_ol_134" type="overlap" xml:id="PBmtg280_ol_135"> we have a </seg> wafer <voice:pvc> prober </voice:pvc> yeah <anchor synch="#PBmtg280_oc_19" type="other_continuation" xml:id="PBmtg280_oc_18"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_233"><anchor synch="#PBmtg280_oc_18" type="other_continuation" xml:id="PBmtg280_oc_19"/> is this already installed there <seg n="8" type="overlap" xml:id="PBmtg280_ol_136"> some</seg>where<c function="rise" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_234"><seg n="8" synch="#PBmtg280_ol_136" type="overlap" xml:id="PBmtg280_ol_137"> yeah </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_235"> no<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_236"><unclear> yeah </unclear> no </u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_237"> still wrapped up<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_238"><seg n="1" type="overlap" xml:id="PBmtg280_ol_138"> but it seems to be a quite </seg> good one actually <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_239"><seg n="1" synch="#PBmtg280_ol_138" type="overlap" xml:id="PBmtg280_ol_139"><supplied reason="unintelligible"> xxxx </supplied></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_240"> e<c type="lengthening"/>r <shift corresp="#PBmtg280_s_66" feature="loud" new="p" xml:id="PBmtg280_s_65"/> for the <shift corresp="#PBmtg280_s_65" feature="loud" new="neutral" xml:id="PBmtg280_s_66"/><pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_241"> we just can make sure that you put in a basement<c function="fall" type="intonation"/><pause/> e<c type="lengthening"/>r <supplied reason="unintelligible"> xxxxxx </supplied> floor <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="2" type="overlap" xml:id="PBmtg280_ol_140"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_242"><seg n="2" synch="#PBmtg280_ol_140" type="overlap" xml:id="PBmtg280_ol_141"> yeah </seg><pause dur="PT2S"/> basically we have to take the floor out <pause/> and put it on the <pause/> concrete <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_243"> well okay yeah that's very <pause/> vibration-sensitive<c function="fall" type="intonation"/><pause dur="PT3S"/> but it is a tester<c function="rise" type="intonation"/> or just a <voice:pvc> prober<c function="fall" type="intonation"/></voice:pvc></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_244"> it's e<c type="lengthening"/>r <pause dur="PT1S"/> ooph </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_245"> because that's a <seg n="3" type="overlap" xml:id="PBmtg280_ol_142"> huge difference </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_246"><seg n="3" synch="#PBmtg280_ol_142" type="overlap" xml:id="PBmtg280_ol_143"> i<c type="lengthening"/> don't know </seg> i think it's <seg n="4" type="overlap" xml:id="PBmtg280_ol_144"> a <voice:pvc> prober </voice:pvc></seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_247"><seg n="4" synch="#PBmtg280_ol_144" type="overlap" xml:id="PBmtg280_ol_145"> of tens of </seg> millions <shift corresp="#PBmtg280_s_68" feature="voice" new="laugh" xml:id="PBmtg280_s_67"/> dollars <shift corresp="#PBmtg280_s_67" feature="voice" new="neutral" xml:id="PBmtg280_s_68"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><anchor synch="#PBmtg280_oc_21" type="other_continuation" xml:id="PBmtg280_oc_20"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_248"><anchor synch="#PBmtg280_oc_20" type="other_continuation" xml:id="PBmtg280_oc_21"/> ye<c type="lengthening"/>ah i think it's just a <voice:pvc> prober </voice:pvc><anchor synch="#PBmtg280_oc_23" type="other_continuation" xml:id="PBmtg280_oc_22"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_249"><anchor synch="#PBmtg280_oc_22" type="other_continuation" xml:id="PBmtg280_oc_23"/> so it's just a <voice:pvc> prober </voice:pvc><seg n="5" type="overlap" xml:id="PBmtg280_ol_146"><unclear> bound </unclear></seg> to do analysis of <seg n="6" type="overlap" xml:id="PBmtg280_ol_147"><supplied reason="unintelligible"> xxxx </supplied> but not character</seg>ization <seg n="1" type="overlap" xml:id="PBmtg280_ol_148"> and <supplied reason="unintelligible"> xxxx </supplied> yeah </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_250"><seg n="5" synch="#PBmtg280_ol_146" type="overlap" xml:id="PBmtg280_ol_149"> but </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_251"><seg n="6" synch="#PBmtg280_ol_147" type="overlap" xml:id="PBmtg280_ol_150"> we can do e- exactly </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_252"><seg n="1" synch="#PBmtg280_ol_148" type="overlap" xml:id="PBmtg280_ol_151"> yeah but we can do </seg> that <pause/> er of <pause/> of <supplied reason="unintelligible" voice:ipa="daɪs"> x </supplied><pause/> yeah<c function="fall" type="intonation"/><pause/> we don't need a <pause dur="PT1S"/> or <pause/> on a on a wafer yeah we don't need a packaged <supplied reason="unintelligible" voice:ipa="daɪ"> x<c function="fall" type="intonation"/></supplied><shift corresp="#PBmtg280_s_70" feature="loud" new="p" xml:id="PBmtg280_s_69"/> yeah <shift corresp="#PBmtg280_s_69" feature="loud" new="neutral" xml:id="PBmtg280_s_70"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_253"> mhm <pause dur="PT3S"/><shift corresp="#PBmtg280_s_72" feature="loud" new="p" xml:id="PBmtg280_s_71"/> okay <pause dur="PT2S"/> yeah but <shift corresp="#PBmtg280_s_71" feature="loud" new="neutral" xml:id="PBmtg280_s_72"/><anchor synch="#PBmtg280_oc_25" type="other_continuation" xml:id="PBmtg280_oc_24"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_254"><anchor synch="#PBmtg280_oc_24" type="other_continuation" xml:id="PBmtg280_oc_25"/> and obviously erm there is even a possibility to have <pause dur="PT1S"/> e<c type="lengthening"/>rm like pad <voice:track medium="1" num="08" type="md"/> holes<c function="rise" type="intonation"/><pause dur="PT1S"/> somewhere in the middle of the design <pause dur="PT1S"/> i mean of <pause/> obviously not real pads but <seg n="2" type="overlap" xml:id="PBmtg280_ol_152"> you </seg> know like <pause/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_255"><seg n="2" synch="#PBmtg280_ol_152" type="overlap" xml:id="PBmtg280_ol_153"> mhm </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_256"><seg n="3" type="overlap" xml:id="PBmtg280_ol_154"> holes </seg> yeah <pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_257"><seg n="3" synch="#PBmtg280_ol_154" type="overlap" xml:id="PBmtg280_ol_155"><supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_258"> and then you can <pause/> even contact signals <emph> in </emph> the design<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_259"> mhm mhm </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_260"><shift corresp="#PBmtg280_s_74" feature="loud" new="p" xml:id="PBmtg280_s_73"/> yeah <shift corresp="#PBmtg280_s_73" feature="loud" new="neutral" xml:id="PBmtg280_s_74"/><pause/> but they must be <pause/> explicitly <pause/> designed<c function="fall" type="intonation"/><unclear> there aren't even there </unclear> quite big<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_261"> hh yeah <unclear> and for longer </unclear> you probably need er proper drivers and so on<c function="fall" type="intonation"/> if you take analogue design and we put the <unclear> needles </unclear><seg n="4" type="overlap" xml:id="PBmtg280_ol_156"> only in </seg> middle of the design it most probably doesn't work any more <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_262"><seg n="4" synch="#PBmtg280_ol_156" type="overlap" xml:id="PBmtg280_ol_157"> yeah </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_263"><shift corresp="#PBmtg280_s_76" feature="loud" new="p" xml:id="PBmtg280_s_75"/> that can be <shift corresp="#PBmtg280_s_75" feature="loud" new="neutral" xml:id="PBmtg280_s_76"/><pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_264"> so we got some <pause/> quite good equipment there from <supplied reason="anonymization"> [place9] </supplied> a<c type="lengthening"/>nd have to set all that up and <pause dur="PT1S"/> so <pause/> this discussion in ongoing but honestly i don't know how long it takes<c function="fall" type="intonation"/><pause dur="PT5S"/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause dur="PT4S"/> any other questions<c function="rise" type="intonation"/><pause dur="PT6S"/><incident voice:desc="S2 smiles back at S1"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_265"><vocal voice:desc="clears throat"/><pause dur="PT4S"/></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_266"> hm <pause/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_267"> okay <pause/> then i have a question<c function="fall" type="intonation"/><voice:to who="#PBmtg280_S7"> what are the first results<c function="rise" type="intonation"/></voice:to><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="5" type="overlap" xml:id="PBmtg280_ol_158"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_268"><seg n="5" synch="#PBmtg280_ol_158" type="overlap" xml:id="PBmtg280_ol_159"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_269"> the first what<c function="rise" type="intonation"/> results<c function="rise" type="intonation"/><anchor synch="#PBmtg280_oc_27" type="other_continuation" xml:id="PBmtg280_oc_26"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_270"><anchor synch="#PBmtg280_oc_26" type="other_continuation" xml:id="PBmtg280_oc_27"/> the first results <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_271"> no results yet i mean i'm gonna <pause/> analyze <pause/><shift corresp="#PBmtg280_s_78" feature="loud" new="p" xml:id="PBmtg280_s_77"/> this stuff <pause/> at home <shift corresp="#PBmtg280_s_77" feature="loud" new="neutral" xml:id="PBmtg280_s_78"/><pause/> at first i have to transcribe it <pause dur="PT1S"/> which is quite a <shift corresp="#PBmtg280_s_80" feature="tempo" new="l" xml:id="PBmtg280_s_79"/> time-consuming <shift corresp="#PBmtg280_s_79" feature="tempo" new="neutral" xml:id="PBmtg280_s_80"/> er process <pause dur="PT2S"/> then we'll see<c function="rise" type="intonation"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_272"><shift corresp="#PBmtg280_s_82" feature="loud" new="p" xml:id="PBmtg280_s_81"/> okay <shift corresp="#PBmtg280_s_81" feature="loud" new="neutral" xml:id="PBmtg280_s_82"/><pause dur="PT1S"/><seg n="6" type="overlap" xml:id="PBmtg280_ol_160"> do </seg> we get the results<c function="rise" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_273"><seg n="6" synch="#PBmtg280_ol_160" type="overlap" xml:id="PBmtg280_ol_161"> wha- </seg></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_274"> yeah sure <pause/><seg n="7" type="overlap" xml:id="PBmtg280_ol_162"><unclear><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></unclear></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_275"><seg n="7" synch="#PBmtg280_ol_162" type="overlap" xml:id="PBmtg280_ol_163"><unclear><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></unclear></seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_276"><seg n="7" synch="#PBmtg280_ol_162" type="overlap" xml:id="PBmtg280_ol_164"> what's </seg> the results then<c function="rise" type="intonation"/><pause/> it's<c type="lengthening"/></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_277"> hm<c function="rise" type="intonation"/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_278"> what's the results it's er </u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_279"> e<c type="lengthening"/>r actually i'm not <pause/> i don't know yet what i'm going to analyze which <pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_280"><shift corresp="#PBmtg280_s_84" feature="loud" new="p" xml:id="PBmtg280_s_83"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="8" type="overlap" xml:id="PBmtg280_ol_165"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><shift corresp="#PBmtg280_s_83" feature="loud" new="neutral" xml:id="PBmtg280_s_84"/></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_281"><seg n="8" synch="#PBmtg280_ol_165" type="overlap" xml:id="PBmtg280_ol_166"> aspect </seg><seg n="9" type="overlap" xml:id="PBmtg280_ol_167"> it can be </seg> maybe<c type="lengthening"/> it's<c type="lengthening"/> some tiny little lexical grammatical thin<c type="lengthening"/>g or it's a pragmatic <pause/></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_282"><seg n="9" synch="#PBmtg280_ol_167" type="overlap" xml:id="PBmtg280_ol_168"> a<c type="lengthening"/>h okay </seg></u>
+            <u who="#PBmtg280_SX-m" xml:id="PBmtg280_u_283"><seg n="9" synch="#PBmtg280_ol_167" type="overlap" xml:id="PBmtg280_ol_169"><supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_284"> thing how <pause/> how you <pause dur="PT1S"/> e<c type="lengthening"/>r take turns in speaking <pause/> some kind of discourse analytical stuff so <pause dur="PT1S"/> ooph <pause dur="PT3S"/><incident dur="PT3S" voice:desc="SS murmuring in background "/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_285"> or maybe she's just selling this <pause dur="PT1S"/><seg n="1" type="overlap" xml:id="PBmtg280_ol_170"> records to <supplied reason="anonymization"> [org9] </supplied></seg> or </u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_286"><seg n="1" synch="#PBmtg280_ol_170" type="overlap" xml:id="PBmtg280_ol_171"> this information </seg></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_287"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="6"/></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_288"> no <seg n="2" type="overlap" xml:id="PBmtg280_ol_172"> no </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_289"><seg n="2" synch="#PBmtg280_ol_172" type="overlap" xml:id="PBmtg280_ol_173"> that </seg> would be probably most profitable <seg n="3" type="overlap" xml:id="PBmtg280_ol_174"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_290"><seg n="3" synch="#PBmtg280_ol_174" type="overlap" xml:id="PBmtg280_ol_175"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_291"> do you find that there is mistakes  made specific to people from the different countries like maybe <pause/> swedish people <pause/><seg n="4" type="overlap" xml:id="PBmtg280_ol_176"> say something in </seg><pause/></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_292"><seg n="4" synch="#PBmtg280_ol_176" type="overlap" xml:id="PBmtg280_ol_177"> mhm </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_293"><incident voice:desc="SS start laughing"/> some way in english <pause/> and <pause/> there are german people who say it in a<emph>nother </emph> way <incident voice:desc="SS stop laughing"/></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_294"> yeah no er this is not our aim<c function="fall" type="intonation"/><pause/><seg n="5" type="overlap" xml:id="PBmtg280_ol_178"> to describe </seg><pause/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_295"><seg n="5" synch="#PBmtg280_ol_178" type="overlap" xml:id="PBmtg280_ol_179"> okay </seg></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_296"> which mother tongue has <pause/> this e<c type="lengthening"/>rm specifics in english <pause/> it's only about english as ling- lingua franca in <emph> general </emph><pause/> er what it looks like and we think that it has its <emph> own </emph> regularities <pause dur="PT1S"/> and it's an <emph> own </emph> language <pause/> erm different from english which is spoken by native speakers of english<c function="fall" type="intonation"/><pause dur="PT1S"/> and since there are so many people around the world nowadays <pause/> who speak english but don't have it as a mother tongue <pause dur="PT1S"/> it's yeah <pause dur="PT2S"/> ooph <shift corresp="#PBmtg280_s_86" feature="loud" new="p" xml:id="PBmtg280_s_85"/> quite a project <shift corresp="#PBmtg280_s_85" feature="loud" new="neutral" xml:id="PBmtg280_s_86"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_297"> mhm <pause dur="PT3S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_298"><shift corresp="#PBmtg280_s_88" feature="loud" new="p" xml:id="PBmtg280_s_87"/> i <shift corresp="#PBmtg280_s_87" feature="loud" new="neutral" xml:id="PBmtg280_s_88"/> i think we are also <pause/> i mean <pause/> here it's probably difficult because people like <supplied reason="anonymization"> [first name3] </supplied><pause/> he's here since a couple of years and <pause/> i i think the<c type="lengthening"/> even the <pause/> e<c type="lengthening"/>rm <shift corresp="#PBmtg280_s_90" feature="loud" new="p" xml:id="PBmtg280_s_89"/> the <shift corresp="#PBmtg280_s_89" feature="loud" new="neutral" xml:id="PBmtg280_s_90"/><pause/> the native speakers <pause/> get messed up  after some time with <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_299"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="6"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_300"> with <seg n="6" type="overlap" xml:id="PBmtg280_ol_180"> not not native </seg> english <voice:track medium="1" num="09" type="md"/><pause/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_301"><seg n="6" synch="#PBmtg280_ol_180" type="overlap" xml:id="PBmtg280_ol_181"><shift corresp="#PBmtg280_s_92" feature="voice" new="laugh" xml:id="PBmtg280_s_91"/> maybe yeah <shift corresp="#PBmtg280_s_91" feature="voice" new="neutral" xml:id="PBmtg280_s_92"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_302"><supplied reason="unintelligible"> x </supplied> that's what <supplied reason="anonymization"> [first name4] </supplied> told me all the time yeah<c function="rise" type="intonation"/> he was also <seg n="7" type="overlap" xml:id="PBmtg280_ol_182"> from from </seg><supplied reason="anonymization"> [place10] </supplied> but he left us some time ago <anchor synch="#PBmtg280_oc_29" type="other_continuation" xml:id="PBmtg280_oc_28"/></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_303"><seg n="7" synch="#PBmtg280_ol_182" type="overlap" xml:id="PBmtg280_ol_183"> mhm </seg></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_304"><anchor synch="#PBmtg280_oc_28" type="other_continuation" xml:id="PBmtg280_oc_29"/> scot<seg n="1" type="overlap" xml:id="PBmtg280_ol_184">land </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_305"><seg n="1" synch="#PBmtg280_ol_184" type="overlap" xml:id="PBmtg280_ol_185"> eng</seg>land </u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_306"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_307"> sorry yeah <pause/> scotland<c function="fall" type="intonation"/><pause dur="PT1S"/> and he always said when he <pause/> when he went home <pause dur="PT1S"/> people looked at him and said <pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_308"><shift corresp="#PBmtg280_s_94" feature="loud" new="p" xml:id="PBmtg280_s_93"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="2" type="overlap" xml:id="PBmtg280_ol_186"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><shift corresp="#PBmtg280_s_93" feature="loud" new="neutral" xml:id="PBmtg280_s_94"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_309"><shift corresp="#PBmtg280_s_96" feature="voice" new="laugh" xml:id="PBmtg280_s_95"/><seg n="2" synch="#PBmtg280_ol_186" type="overlap" xml:id="PBmtg280_ol_187"> what's up </seg> with you <shift corresp="#PBmtg280_s_95" feature="voice" new="neutral" xml:id="PBmtg280_s_96"/><pause/> aren't you <pause dur="PT1S"/> how do you speak i mean <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_310"><seg n="3" type="overlap" xml:id="PBmtg280_ol_188"> mhm </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_311"><seg n="3" synch="#PBmtg280_ol_188" type="overlap" xml:id="PBmtg280_ol_189"> he was </seg> talking slowly </u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_312"> yeah </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_313"> so <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_314"><shift corresp="#PBmtg280_s_98" feature="loud" new="p" xml:id="PBmtg280_s_97"/> but <seg n="4" type="overlap" xml:id="PBmtg280_ol_190"> still </seg><shift corresp="#PBmtg280_s_97" feature="loud" new="neutral" xml:id="PBmtg280_s_98"/> it's <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_315"><seg n="4" synch="#PBmtg280_ol_190" type="overlap" xml:id="PBmtg280_ol_191"> but </seg></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_316"> it's not about making mistakes i mean you still <seg n="5" type="overlap" xml:id="PBmtg280_ol_192"> communicate </seg> although <pause/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_317"><seg n="5" synch="#PBmtg280_ol_192" type="overlap" xml:id="PBmtg280_ol_193"> mhm </seg></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_318"> there are some <pause dur="PT1S"/> errors or mistakes but you still get your message- messages across and that's what we're trying to <pause dur="PT1S"/><shift corresp="#PBmtg280_s_100" feature="tempo" new="a" xml:id="PBmtg280_s_99"/> describe that it's not <shift corresp="#PBmtg280_s_99" feature="tempo" new="neutral" xml:id="PBmtg280_s_100"/> important to speak <pause/> erm perfect english <pause/><unclear> when you wanted </unclear> to <pause/> communicate with other nations and other other languages </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_319"> actually speaking perfect english really makes communication diff<seg n="6" type="overlap" xml:id="PBmtg280_ol_194">icul</seg>t </u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_320"><seg n="6" synch="#PBmtg280_ol_194" type="overlap" xml:id="PBmtg280_ol_195"> diff- </seg></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_321"> yeah </u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_322"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="12"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_323"> yeah <pause dur="PT3S"/> okay <seg n="7" type="overlap" xml:id="PBmtg280_ol_196"> there </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_324"><seg n="7" synch="#PBmtg280_ol_196" type="overlap" xml:id="PBmtg280_ol_197"> i've </seg> one quick question <unclear> it's got </unclear> absolutely nothing to do with anything erm <pause/> what with the company ski day <pause dur="PT1S"/> there should be one towards the end of march for the french guys <pause/> are gonna come up<c function="rise" type="intonation"/><pause dur="PT1S"/> during the last two weekends <pause dur="PT1S"/> and </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_325"> i get <seg n="8" type="overlap" xml:id="PBmtg280_ol_198"> these questions </seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_326"><seg n="8" synch="#PBmtg280_ol_198" type="overlap" xml:id="PBmtg280_ol_199"> everybody down there </seg> knows that <pause/> but nobody here knows that </u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_327"> exactly i had a discussion with somebody from <supplied reason="anonymization"> [place1] </supplied> on friday and <pause/> he also asked me about the ski day and i said <pause dur="PT1S"/> i don't know i have no information <pause dur="PT1S"/> e<c type="lengthening"/>rm <pause dur="PT1S"/> just call <supplied reason="anonymization"> [first name5] </supplied><c function="fall" type="intonation"/><pause dur="PT1S"/> he knows it certainly <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_328"><shift corresp="#PBmtg280_s_102" feature="loud" new="p" xml:id="PBmtg280_s_101"/> okay <shift corresp="#PBmtg280_s_101" feature="loud" new="neutral" xml:id="PBmtg280_s_102"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_329"> but i<c type="lengthening"/> don't know anything about it at the moment<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_330"> i've heard some rumours that it would be on<c type="lengthening"/><pause dur="PT1S"/> between tenth and twentieth of march </u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_331"> the last two weekends of march i think they put up the possibilities in france <seg n="1" type="overlap" xml:id="PBmtg280_ol_200"><unclear> and </unclear></seg> people would say whether they could attend or not </u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_332"><seg n="1" synch="#PBmtg280_ol_200" type="overlap" xml:id="PBmtg280_ol_201"> that's <unclear> when's </unclear> sain- </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_333"> i've heard it's saint patrick's day is on friday<c function="rise" type="intonation"/><pause/> and then the next saturday is skiing day and some <seg n="2" type="overlap" xml:id="PBmtg280_ol_202"> people <pause/> i will not mention the names </seg> say that they will be completely drunk on friday so <seg n="3" type="overlap" xml:id="PBmtg280_ol_203"> cannot <shift corresp="#PBmtg280_s_104" feature="voice" new="laugh" xml:id="PBmtg280_s_103"/> participate on saturday <shift corresp="#PBmtg280_s_103" feature="voice" new="neutral" xml:id="PBmtg280_s_104"/></seg><seg n="4" type="overlap" xml:id="PBmtg280_ol_204"> i mean it's funny </seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_334"><seg n="2" synch="#PBmtg280_ol_202" type="overlap" xml:id="PBmtg280_ol_205"><shift corresp="#PBmtg280_s_106" feature="loud" new="p" xml:id="PBmtg280_s_105"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="7"/><shift corresp="#PBmtg280_s_105" feature="loud" new="neutral" xml:id="PBmtg280_s_106"/></seg></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_335"><seg n="3" synch="#PBmtg280_ol_203" type="overlap" xml:id="PBmtg280_ol_206"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="10"/></seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_336"><seg n="4" synch="#PBmtg280_ol_204" type="overlap" xml:id="PBmtg280_ol_207"> that won't be the irish people </seg> huh<c function="rise" type="intonation"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_337"><seg n="5" type="overlap" xml:id="PBmtg280_ol_208"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PBmtg280_s_108" feature="voice" new="laugh" xml:id="PBmtg280_s_107"/> no no i'm not saying anything <shift corresp="#PBmtg280_s_107" feature="voice" new="neutral" xml:id="PBmtg280_s_108"/></seg></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_338"><seg n="5" synch="#PBmtg280_ol_208" type="overlap" xml:id="PBmtg280_ol_209"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="11"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="14"/></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_339"> could be very funny <pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_340"><seg n="6" type="overlap" xml:id="PBmtg280_ol_210"> i- i just don't know </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_341"><seg n="6" synch="#PBmtg280_ol_210" type="overlap" xml:id="PBmtg280_ol_211"> it's also i've heard the ru</seg>mour that e<c type="lengthening"/>r maybe we will go skiing <pause/> somewhere <pause/><foreign type="LN" voice:translation="brandner valley" xml:lang="ger"> brandnertal </foreign><pause/><seg n="7" type="overlap" xml:id="PBmtg280_ol_212"> or some</seg>thing like this and then go to sing bar <pause/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_342"><seg n="7" synch="#PBmtg280_ol_212" type="overlap" xml:id="PBmtg280_ol_213"> mhm </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_343"> for night </u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_344"> okay<c function="fall" type="intonation"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_345"> but this is just a rumour<c function="fall" type="intonation"/><pause dur="PT1S"/> also heard in cafeteria <pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_346"> yeah and <pause/></u>
+            <u who="#PBmtg280_SX" xml:id="PBmtg280_u_347"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_348"><seg n="8" type="overlap" xml:id="PBmtg280_ol_214"><supplied reason="anonymization"> [first name5] </supplied></seg></u>
+            <u who="#PBmtg280_S3" xml:id="PBmtg280_u_349"><seg n="8" synch="#PBmtg280_ol_214" type="overlap" xml:id="PBmtg280_ol_215"> should </seg><unclear> put a </unclear> microphone into the cafeteria you'd hear really <seg n="9" type="overlap" xml:id="PBmtg280_ol_216"> interesting things <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></seg><pause dur="PT1S"/></u>
+            <u who="#PBmtg280_S7" xml:id="PBmtg280_u_350"><seg n="9" synch="#PBmtg280_ol_216" type="overlap" xml:id="PBmtg280_ol_217"> mhm <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_351"><seg n="9" synch="#PBmtg280_ol_216" type="overlap" xml:id="PBmtg280_ol_218"> exactly you know <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_352"><seg n="9" synch="#PBmtg280_ol_216" type="overlap" xml:id="PBmtg280_ol_219"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="7"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_353"> er i spoke with <supplied reason="anonymization"> [first name5] </supplied> once and he was thinking about organizing a <pause/> a <emph> race </emph><pause/> not just a normal ski day <pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_354"><shift corresp="#PBmtg280_s_110" feature="voice" new="laugh" xml:id="PBmtg280_s_109"/> oh <seg n="1" type="overlap" xml:id="PBmtg280_ol_220"> fuck </seg><shift corresp="#PBmtg280_s_109" feature="voice" new="neutral" xml:id="PBmtg280_s_110"/><pause/></u>
+            <u who="#PBmtg280_SX" xml:id="PBmtg280_u_355"><seg n="1" synch="#PBmtg280_ol_220" type="overlap" xml:id="PBmtg280_ol_221"> no </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_356"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#PBmtg280_s_112" feature="voice" new="laugh" xml:id="PBmtg280_s_111"/><unclear> that's killing </unclear> for the schedule of all projects <shift corresp="#PBmtg280_s_111" feature="voice" new="neutral" xml:id="PBmtg280_s_112"/><seg n="2" type="overlap" xml:id="PBmtg280_ol_222"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_357"><seg n="2" synch="#PBmtg280_ol_222" type="overlap" xml:id="PBmtg280_ol_223"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></seg></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_358"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_359"> so if we go to <foreign type="L1" voice:translation="brandner valley" xml:lang="ger"> brandnertal </foreign> then i think it's quite likely that he organizes a race because he has talked about <pause/><foreign type="L1" voice:translation="brandner valley" xml:lang="ger"> brandnertal </foreign> and <pause/> and the race <pause dur="PT2S"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_360"><seg n="3" type="overlap" xml:id="PBmtg280_ol_224"><shift corresp="#PBmtg280_s_114" feature="loud" new="p" xml:id="PBmtg280_s_113"/> okay <shift corresp="#PBmtg280_s_113" feature="loud" new="neutral" xml:id="PBmtg280_s_114"/></seg></u>
+            <u who="#PBmtg280_S4" xml:id="PBmtg280_u_361"><seg n="3" synch="#PBmtg280_ol_224" type="overlap" xml:id="PBmtg280_ol_225"><shift corresp="#PBmtg280_s_116" feature="loud" new="p" xml:id="PBmtg280_s_115"/> okay <shift corresp="#PBmtg280_s_115" feature="loud" new="neutral" xml:id="PBmtg280_s_116"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_362"> because i mean we always went to <pause dur="PT2S"/><foreign type="L1" xml:lang="ger"> stenten </foreign><shift corresp="#PBmtg280_s_118" feature="loud" new="p" xml:id="PBmtg280_s_117"/> normally <shift corresp="#PBmtg280_s_117" feature="loud" new="neutral" xml:id="PBmtg280_s_118"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_363"><foreign type="LN" xml:lang="ger"> stenten </foreign> or also <foreign type="LN" voice:translation="brandner valley" xml:lang="ger"> brandnertal </foreign> i think a couple of years ago <anchor synch="#PBmtg280_oc_31" type="other_continuation" xml:id="PBmtg280_oc_30"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_364"><anchor synch="#PBmtg280_oc_30" type="other_continuation" xml:id="PBmtg280_oc_31"/> yeah only once <seg n="4" type="overlap" xml:id="PBmtg280_ol_226"> yeah </seg></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_365"><seg n="4" synch="#PBmtg280_ol_226" type="overlap" xml:id="PBmtg280_ol_227"> mhm </seg><pause dur="PT4S"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_366"><vocal type="speaker_noise" voice:desc="smacks lips"/><pause dur="PT1S"/> okay <pause dur="PT1S"/> then<c type="lengthening"/><pause dur="PT1S"/> thank you er<voice:track medium="1" num="10" type="md"/>m<c type="lengthening"/><c type="lengthening"/> our next team meeting would actually be on friday but i'm skiing on friday so <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="5" type="overlap" xml:id="PBmtg280_ol_228"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="6"/></seg> now i'm out er wednesday till friday <pause dur="PT1S"/></u>
+            <u who="#PBmtg280_SS" xml:id="PBmtg280_u_367"><seg n="5" synch="#PBmtg280_ol_228" type="overlap" xml:id="PBmtg280_ol_229"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="6"/></seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_368"> so<c type="lengthening"/><shift corresp="#PBmtg280_s_120" feature="loud" new="p" xml:id="PBmtg280_s_119"/> we have the next one next week then <shift corresp="#PBmtg280_s_119" feature="loud" new="neutral" xml:id="PBmtg280_s_120"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_369"><seg n="6" type="overlap" xml:id="PBmtg280_ol_230"> mhm </seg></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_370"><seg n="6" synch="#PBmtg280_ol_230" type="overlap" xml:id="PBmtg280_ol_231"> or </seg> we can do one tomorrow if you want but it's maybe <supplied reason="unintelligible"> xxxx </supplied><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#PBmtg280_S2" xml:id="PBmtg280_u_371"><shift corresp="#PBmtg280_s_122" feature="voice" new="laugh" xml:id="PBmtg280_s_121"/> okay thanks <shift corresp="#PBmtg280_s_121" feature="voice" new="neutral" xml:id="PBmtg280_s_122"/></u>
+            <u who="#PBmtg280_S1" xml:id="PBmtg280_u_372"> okay<c function="fall" type="intonation"/> thank you <pause dur="PT2S"/><incident dur="PT2S" voice:desc="people starting to leave "/></u>
+         </div>
+      </body>
+   </text>
+</TEI>

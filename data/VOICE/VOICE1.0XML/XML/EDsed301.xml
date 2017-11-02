@@ -1,0 +1,954 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="EDsed301" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>seminar discussion about agriculture in the European Union</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>Austrian Science Foundation (FWF)</funder>
+            <sponsor/>
+            <respStmt>
+               <resp>Corpus Compilation</resp>
+               <orgName>VOICE Project</orgName>
+               <persName>Barbara Seidlhofer</persName>
+               <persName>Angelika Breiteneder</persName>
+               <persName>Marie-Luise Pitzl</persName>
+               <persName>Stefan Majewski</persName>
+               <persName>Theresa Klimpfinger</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+		<edition>Version 1.0 XML, <date>May 2011</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Angelika Breiteneder</name> 
+		<name>Theresa Klimpfinger</name> 
+		<name>Stefan Majewski</name> 
+		<name>Marie-Luise Pitzl</name> 
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Marie-Luise Pitzl</publisher> 
+	  <distributor>VOICE Project, University of Vienna, Austria</distributor> 
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+	  	<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  	<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE 1.0 XML is
+		  available for download at the VOICE Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+		  http://creativecommons.org/licenses/by-nc-sa/3.0/
+		  </ref>). The original audio files are held at the Department
+		  of English, University of Vienna. 23 selected audio files
+		  are available as audio streams in the VOICE Online interface
+		  at the VOICE Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+		<p>
+		The recommended citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Marie-Luise Pitzl.</bibl>
+		</p>
+		<p>The short citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>).</bibl></p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="EDsed301_wc">Words: 8292</note>
+            <note xml:id="EDsed301_tn_0">This seminar discussion takes place during a course on European policy at an international summer school. S2, the teacher, and her students discuss European agricultural policy as the main topic in this session. They talk about the common agriculture policy (acronym: cap), subsidization and problems of overproduction. S2 guides the discussion and takes most of the speaking time. She is the one who assigns turns most of the time and asks questions. S8 is the student who seems to be most interested in the topic and is most active in the discussion, but several other students also participate. There are 19 people present altogether (excluding the two researchers). Occasionally there are noises of chairs moving about and background coughs, but unless these were uttered by the speakers or caused the speakers to pause, they have not been transcribed.  </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H50M28S" type="audio">
+                  <date>2005-08-09</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R5</name>
+                     <name> R3</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="EDsed301_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="EDsed301_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="EDsed301_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="EDsed301_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="EDsed301_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="EDsed301_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="EDsed301_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="EDsed301_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="EDsed301_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="EDsed301_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="EDsed301_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="EDsed301_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="EDsed301_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="EDsed301_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="EDsed301_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="EDsed301_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="EDsed301_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="orgName" occurs="1"/>
+      <tagUsage gi="persName" occurs="5"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="name" occurs="9"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="82"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="15"/>
+      <tagUsage gi="list" occurs="11"/>
+      <tagUsage gi="label" occurs="20"/>
+      <tagUsage gi="val" occurs="42"/>
+      <tagUsage gi="item" occurs="40"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="2"/>
+      <tagUsage gi="person" occurs="17"/>
+      <tagUsage gi="age" occurs="8"/>
+      <tagUsage gi="sex" occurs="8"/>
+      <tagUsage gi="occupation" occurs="8"/>
+      <tagUsage gi="langKnowledge" occurs="8"/>
+      <tagUsage gi="langKnown" occurs="8"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="5"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="1"/>
+      <tagUsage gi="u" occurs="425">Used to mark a stretch of speech commonly
+		preceded and followed by a pause or by a change of speaker. A
+		<gi>u</gi> is, however, not required to be bounded by a pause or
+		a change of speaker, nor does it represent a turn in a
+		conversation analytic sense. At a minimum, a <gi>u</gi> is some
+		phonetic production or noise made by a given speaker or a group of speakers.</tagUsage>
+      <tagUsage gi="unclear" occurs="38">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="c" occurs="434">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="pause" occurs="581">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="incident" occurs="4">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="vocal" occurs="89">Used to mark laughter and other speaker
+		noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="shift" occurs="226">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		  </list>
+		</tagUsage>
+      <tagUsage gi="seg" occurs="266">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="supplied" occurs="27">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed to
+		be anonymized. The <att>reason</att> attribute is used to mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="emph" occurs="207">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="w" occurs="21">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="94">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="foreign" occurs="4">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the 
+		<att>voice:translation</att> attribute provides a rough translation of the
+		non-English speech into English.
+		</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:track" occurs="16">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in length) and thus refers to the audio recording
+		of the transcribed speech event.
+		</tagUsage>
+      <tagUsage gi="voice:pvc" occurs="13">Used to mark a pronunciation variation
+		or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+			VOICE mark-up conventions [2.1].</ref>the
+			VOICE mark-up conventions [2.1]. An existing word corresponding to the PVC may be provided within a <att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc element. Additional phonetic
+			transcription may be provided within a <att>voice:ipa</att>voice:ipa attribute
+			within the <gi>voice:pvc</gi>voice:pvc element.</tagUsage>
+      <tagUsage gi="voice:to" occurs="1">Used to mark speech directed towards a
+		particular speaker. The <att>who</att>who attribute indicates the
+		addressed speaker.</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#EDsed301_ED #EDsed301_sed"/>
+            <catRef target="#ED #sed"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">AT</name>
+               <name type="city">Strobl/Wolfgangsee</name>
+               <locale>seminar room at country hotel</locale>
+               <activity>taking notes, looking at graph on powerpoint slide</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="8"/>
+                  <personGrp role="interactants" size="8"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="student" sameAs="#P131" xml:id="EDsed301_S1">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="teacher" sameAs="#P132" xml:id="EDsed301_S2">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <occupation>lecturer at university</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-DE"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="student" sameAs="#P133" xml:id="EDsed301_S3">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="student" sameAs="#P134" xml:id="EDsed301_S4">
+                     <age value="1">17-24</age>
+                     <sex value="1">male</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="chi-CN"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="student" sameAs="#P135" xml:id="EDsed301_S5">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="lit-LT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="student" sameAs="#P136" xml:id="EDsed301_S6">
+                     <age value="1">17-24</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng-US"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="student" sameAs="#P137" xml:id="EDsed301_S7">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="rum-RO"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="student" sameAs="#P138" xml:id="EDsed301_S8">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <occupation>student</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="mac-MK"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person corresp="#EDsed301_S3" sameAs="#SX" xml:id="EDsed301_SX-3"/>
+                  <person sameAs="#SS" xml:id="EDsed301_SS"/>
+                  <person corresp="#EDsed301_S2" sameAs="#SX" xml:id="EDsed301_SX-2"/>
+                  <person corresp="#EDsed301_S8" sameAs="#SX" xml:id="EDsed301_SX-8"/>
+                  <person corresp="#EDsed301_S1" sameAs="#SX" xml:id="EDsed301_SX-1"/>
+                  <person sameAs="#SX-f" xml:id="EDsed301_SX-f"/>
+                  <person sameAs="#SX-m" xml:id="EDsed301_SX-m"/>
+                  <person corresp="#EDsed301_S6" sameAs="#SX" xml:id="EDsed301_SX-6"/>
+                  <person sameAs="#SX" xml:id="EDsed301_SX"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#EDsed301_S1 #EDsed301_S2 #EDsed301_S3 #EDsed301_S4 #EDsed301_S5 #EDsed301_S6 #EDsed301_S7 #EDsed301_S8" name="fairly_asymmetrical" type="power"/>
+                  <relation mutual="#EDsed301_S1 #EDsed301_S2 #EDsed301_S3 #EDsed301_S4 #EDsed301_S5 #EDsed301_S6 #EDsed301_S7 #EDsed301_S8" name="acquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-08" who="MLP">finalized for publication</change>
+         <change when="2008-05-02" who="MLP">proof-reading</change>
+         <change when="2007-01-12" who="AB">checking</change>
+         <change when="2006-05-31" who="NL">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="02:28" voice:end_medium_number="1(a)" voice:end_track="17" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1(a)" voice:start_track="01">
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_1"><unclear> excuse me </unclear> cou- could we talk about the tests<c function="rise" type="intonation"/><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_2"> can we do that tomorrow<c function="rise" type="intonation"/><pause/></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_3"> tomorrow <pause/> okay yeah <pause/> erm <pause dur="PT3S"/><incident dur="PT3S" voice:desc="students are settling into the classroom, there is a lot of moving around of chairs and paper rustling "/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_4"> erm <pause dur="PT2S"/> there're two reasons for that <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/> er one reason is that that i don't wanna keep spo- er speaking now all the time because we have our two <pause/> linguistic visitors who are more interested in you speaking <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_5"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_6"> er <pause/> a<c type="lengthening"/>nd er they they may also be interested in me speaking because i'm also a non-native speaker but erm <pause dur="PT2S"/> the the other point is that er i <pause/><shift corresp="#EDsed301_s_2" feature="tempo" new="a" xml:id="EDsed301_s_1"/> want to <shift corresp="#EDsed301_s_1" feature="tempo" new="neutral" xml:id="EDsed301_s_2"/> want to finish with agriculture today<c function="fall" type="intonation"/> and er <pause dur="PT2S"/> by tomorrow i will have an idea of how you've sort of dealt with the questions or what th- wh- what the problems are and then i can sort of erm <vocal type="speaker_noise" voice:desc="smacks lips"/> give you a better idea of what i expected and what's fine and er <pause/> where i may <pause/> have misled you by <pause/> using functional t- functional too many times </u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_7"> hh </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_8"> e<c type="lengthening"/>r </u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_9"><shift corresp="#EDsed301_s_4" feature="loud" new="p" xml:id="EDsed301_s_3"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#EDsed301_s_3" feature="loud" new="neutral" xml:id="EDsed301_s_4"/><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_10"> all right <pause dur="PT1S"/> er we<c type="lengthening"/><pause/> spoke about <pause dur="PT1S"/> the cap<c function="fall" type="intonation"/><shift corresp="#EDsed301_s_6" feature="tempo" new="a" xml:id="EDsed301_s_5"/> the common agriculture policy yesterday <shift corresp="#EDsed301_s_5" feature="tempo" new="neutral" xml:id="EDsed301_s_6"/><pause/> and <pause/> we<c type="lengthening"/> started off by<c type="lengthening"/> first of all getting a- an idea a- about the<c type="lengthening"/> the original structure of this policy <pause dur="PT2S"/><incident dur="PT2S" voice:desc="students are still settling down in the background "/> and about the budgetary situation<c function="fall" type="intonation"/><pause dur="PT1S"/> so what's the money available for this kind of policy that seem to cost quite a bit of <unclear> them </unclear><pause dur="PT1S"/> er <pause/> if i would now turn the question to you of where you see the problems with this policy <pause dur="PT1S"/> what are some of some of the <pause/> ideas<c type="lengthening"/> that <pause/> you come up with <pause/><seg n="1" type="overlap" xml:id="EDsed301_ol_0"><unclear> when </unclear></seg><supplied reason="unintelligible"> x </supplied> where there's really <shift corresp="#EDsed301_s_8" feature="tempo" new="l" xml:id="EDsed301_s_7"/> some need <shift corresp="#EDsed301_s_7" feature="tempo" new="neutral" xml:id="EDsed301_s_8"/> for <pause/><shift corresp="#EDsed301_s_10" feature="tempo" new="a" xml:id="EDsed301_s_9"/><supplied reason="anonymization"> [S3] </supplied><shift corresp="#EDsed301_s_9" feature="tempo" new="neutral" xml:id="EDsed301_s_10"/></u>
+            <u who="#EDsed301_SX-3" xml:id="EDsed301_u_11"><seg n="1" synch="#EDsed301_ol_0" type="overlap" xml:id="EDsed301_ol_1"><shift corresp="#EDsed301_s_12" feature="loud" new="p" xml:id="EDsed301_s_11"/> okay <shift corresp="#EDsed301_s_11" feature="loud" new="neutral" xml:id="EDsed301_s_12"/></seg></u>
+            <u who="#EDsed301_S3" xml:id="EDsed301_u_12"> but after the enlargement there are even more countries <pause/> erm that de<emph>pend </emph> strongly on agriculture <pause/> a<c type="lengthening"/>nd e<c type="lengthening"/>rm to compete with the other  <w voice:mode="spelt"> e u  </w> countries  <w voice:mode="spelt"> e u  </w> member countries e<c type="lengthening"/>rm the  <w voice:mode="spelt"> e u  </w> has to subsidize these countries<c function="fall" type="intonation"/><pause/> and so<c type="lengthening"/> the budget therefore <pause/> erm<c type="lengthening"/> we don't have <shift corresp="#EDsed301_s_14" feature="voice" new="laugh" xml:id="EDsed301_s_13"/> enough money <shift corresp="#EDsed301_s_13" feature="voice" new="neutral" xml:id="EDsed301_s_14"/><pause dur="PT1S"/> and that's the reason why they <pause/> first of all they get <pause/> they don't get as much as all the other  <w voice:mode="spelt"> e u  </w> members got when they first joined the  <w voice:mode="spelt"> e u<c function="fall" type="intonation"/></w><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_13"> right<c function="fall" type="intonation"/> so<c type="lengthening"/> bu- <shift corresp="#EDsed301_s_16" feature="loud" new="p" xml:id="EDsed301_s_15"/> er <shift corresp="#EDsed301_s_15" feature="loud" new="neutral" xml:id="EDsed301_s_16"/> the<c type="lengthening"/> the old structure seems unsustainable  </u>
+            <u who="#EDsed301_S3" xml:id="EDsed301_u_14"> mhm <anchor synch="#EDsed301_oc_1" type="other_continuation" xml:id="EDsed301_oc_0"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_15"><anchor synch="#EDsed301_oc_0" type="other_continuation" xml:id="EDsed301_oc_1"/> er after enlargement<c function="fall" type="intonation"/><pause/> are there other problems that you see <pause/></u>
+            <u who="#EDsed301_S4" xml:id="EDsed301_u_16"> yes<c function="fall" type="intonation"/> the<unclear>y </unclear> guarantee the price level will encourage overproduction because no matter how much you produce <pause/> you'll get the same and <shift corresp="#EDsed301_s_18" feature="tempo" new="a" xml:id="EDsed301_s_17"/> minimum <shift corresp="#EDsed301_s_17" feature="tempo" new="neutral" xml:id="EDsed301_s_18"/><shift corresp="#EDsed301_s_20" feature="tempo" new="l" xml:id="EDsed301_s_19"/> minimum <shift corresp="#EDsed301_s_19" feature="tempo" new="neutral" xml:id="EDsed301_s_20"/> guarantee the price<c function="fall" type="intonation"/> so the farmers will overproduce <pause/> the products<c function="fall" type="intonation"/><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_17"> right<c function="fall" type="intonation"/><pause/> di- did you all <pause/> understand this mechanism </u>
+            <u who="#EDsed301_S5" xml:id="EDsed301_u_18"> mhm <pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_19"> th- the link between policy and overproduction<c function="fall" type="intonation"/> is is is that clear to everybody <pause dur="PT1S"/></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_20"> no i'm sorry will you repeat it <pause dur="PT1S"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_21"><unclear> i mean </unclear> s- <supplied reason="anonymization"> [S4] </supplied> was pointing out if if you<c type="lengthening"/> ensure prices </u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_22"> m<seg n="2" type="overlap" xml:id="EDsed301_ol_2">hm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_23"><seg n="2" synch="#EDsed301_ol_2" type="overlap" xml:id="EDsed301_ol_3"> for </seg> products <pause dur="PT1S"/> witho<c type="lengthening"/>ut saying well but we only support this many products  and after e<c type="lengthening"/>r <shift corresp="#EDsed301_s_22" feature="tempo" new="l" xml:id="EDsed301_s_21"/> that much <shift corresp="#EDsed301_s_21" feature="tempo" new="neutral" xml:id="EDsed301_s_22"/><pause/><voice:track medium="1(a)" num="2" type="md"/> has been produced we stop <pause/> subsidizing<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_24"> mhm </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_25"> so without this ceiling <pause/> without this<c type="lengthening"/> er sort of limit <pause/> er you encourage farmers to to produce as much as they <emph> can </emph> because <pause/> er quite regardless of whether they <emph> sell </emph> their products on the market <pause/><unclear> whether </unclear> there's a de<emph>mand </emph> for the products <anchor synch="#EDsed301_oc_3" type="other_continuation" xml:id="EDsed301_oc_2"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_26"><anchor synch="#EDsed301_oc_2" type="other_continuation" xml:id="EDsed301_oc_3"/> they will receive the <seg n="8" type="overlap" xml:id="EDsed301_ol_4"> mon</seg>ey </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_27"><seg n="8" synch="#EDsed301_ol_4" type="overlap" xml:id="EDsed301_ol_5"> th- </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_28"> they will receive the money<c function="fall" type="intonation"/><pause dur="PT1S"/> er so<c type="lengthening"/> in the nineteen eighties and nineties er we had all kinds of<c type="lengthening"/> er funny er phenomena <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/> hh in in europe er which were called er but<seg n="3" type="overlap" xml:id="EDsed301_ol_6">ter mountains </seg> milk lake<seg n="9" type="overlap" xml:id="EDsed301_ol_7">s<c type="lengthening"/></seg> er <pause/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_29"><seg n="3" synch="#EDsed301_ol_6" type="overlap" xml:id="EDsed301_ol_8"> -ter mountain </seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_30"><seg n="9" synch="#EDsed301_ol_7" type="overlap" xml:id="EDsed301_ol_9"><shift corresp="#EDsed301_s_24" feature="loud" new="p" xml:id="EDsed301_s_23"/> yah <shift corresp="#EDsed301_s_23" feature="loud" new="neutral" xml:id="EDsed301_s_24"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_31"> so those were sort of metaphors  to to indicate that <shift corresp="#EDsed301_s_26" feature="tempo" new="a" xml:id="EDsed301_s_25"/> there was just too much of it and nobody wanted it<c function="fall" type="intonation"/><shift corresp="#EDsed301_s_25" feature="tempo" new="neutral" xml:id="EDsed301_s_26"/> er so there were sort of mountains of butter er and nobody was<c type="lengthening"/> was consuming that stuff<c function="fall" type="intonation"/> right<c function="rise" type="intonation"/></u>
+            <u who="#EDsed301_S4" xml:id="EDsed301_u_32"><shift corresp="#EDsed301_s_28" feature="loud" new="p" xml:id="EDsed301_s_27"/> mhm <anchor synch="#EDsed301_oc_5" type="other_continuation" xml:id="EDsed301_oc_4"/><shift corresp="#EDsed301_s_27" feature="loud" new="neutral" xml:id="EDsed301_s_28"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_33"><anchor synch="#EDsed301_oc_4" type="other_continuation" xml:id="EDsed301_oc_5"/> erm <pause/> there's a related problem to that<c function="fall" type="intonation"/><pause/> if you produce butter mountains and milk lakes <pause dur="PT1S"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_34"> you have to dump them somewhere <anchor synch="#EDsed301_oc_7" type="other_continuation" xml:id="EDsed301_oc_6"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_35"><anchor synch="#EDsed301_oc_6" type="other_continuation" xml:id="EDsed301_oc_7"/> right<c function="fall" type="intonation"/><pause dur="PT1S"/> so wha- <shift corresp="#EDsed301_s_30" feature="loud" new="p" xml:id="EDsed301_s_29"/> wh- wh- <anchor synch="#EDsed301_oc_9" type="other_continuation" xml:id="EDsed301_oc_8"/><shift corresp="#EDsed301_s_29" feature="loud" new="neutral" xml:id="EDsed301_s_30"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_36"><anchor synch="#EDsed301_oc_8" type="other_continuation" xml:id="EDsed301_oc_9"/> so<c type="lengthening"/> er the  <w voice:mode="spelt"> e u  </w> had many  dumping <voice:pvc> anti-dumping </voice:pvc> policy <pause dur="PT1S"/> with the<c type="lengthening"/> for example countries that are now members </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_37"> mhm </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_38"> which were e<c type="lengthening"/>r <pause dur="PT1S"/> er how to say established within the accession agreements<c function="fall" type="intonation"/> but in fact<c type="lengthening"/><pause/> er <pause/> erm <pause/> how to say  the <voice:pvc> anti-<emph>dum</emph>ping </voice:pvc> policies were more <pause/> of<c type="lengthening"/> er <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> er were more suitable for <emph> pro</emph>ducts from the<c type="lengthening"/> accession countries not coming into the  <w voice:mode="spelt"> E U<c function="fall" type="intonation"/></w></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_39"> right </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_40"> but <pause/> products from the  <w voice:mode="spelt"> E u  </w> going into this countries  were practically e<c type="lengthening"/>r <pause dur="PT1S"/> poured out </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_41"> mhm  </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_42"> so <anchor synch="#EDsed301_oc_11" type="other_continuation" xml:id="EDsed301_oc_10"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_43"><anchor synch="#EDsed301_oc_10" type="other_continuation" xml:id="EDsed301_oc_11"/> som- som- sometimes they were poured out  on their own markets<c function="fall" type="intonation"/> er because i think er in some conversation <pause/> forget where whether it was in this class or some other conversation that i <seg n="5" type="overlap" xml:id="EDsed301_ol_10"> overheard </seg><seg n="6" type="overlap" xml:id="EDsed301_ol_11"> erm </seg><pause/></u>
+            <u who="#EDsed301_SX-m" xml:id="EDsed301_u_44"><seg n="5" synch="#EDsed301_ol_10" type="overlap" xml:id="EDsed301_ol_12"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_45"><seg n="6" synch="#EDsed301_ol_11" type="overlap" xml:id="EDsed301_ol_13"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_46"> there was reference made er to a let's say a christmas butter<c function="fall" type="intonation"/><pause/></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_47"><shift corresp="#EDsed301_s_32" feature="loud" new="p" xml:id="EDsed301_s_31"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#EDsed301_s_31" feature="loud" new="neutral" xml:id="EDsed301_s_32"/><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_48"> erm o<c type="lengthening"/>r er butter given to needy people<c function="fall" type="intonation"/> e<c type="lengthening"/>r so it was <shift corresp="#EDsed301_s_34" feature="tempo" new="a" xml:id="EDsed301_s_33"/> sort of li- like a like a <shift corresp="#EDsed301_s_33" feature="tempo" new="neutral" xml:id="EDsed301_s_34"/> social benefit kind <seg n="1" type="overlap" xml:id="EDsed301_ol_14"> of thing<c function="fall" type="intonation"/></seg><pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_49"><seg n="1" synch="#EDsed301_ol_14" type="overlap" xml:id="EDsed301_ol_15"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_50"><vocal type="speaker_noise" voice:desc="smacks lips"/> a<c type="lengthening"/>nd er <pause/> obviously these these people would then no longer purchase the butter on the normal market<c function="fall" type="intonation"/> er they would get them er for <emph> very </emph> special conditions or <seg n="4" type="overlap" xml:id="EDsed301_ol_16"> under very </seg> special er conditions <pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_51"><seg n="4" synch="#EDsed301_ol_16" type="overlap" xml:id="EDsed301_ol_17"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_52"> and would no longer go out and buy polish butter<c function="fall" type="intonation"/> er they may not have done so in the first place er but er <pause/> in in in a way the market was restricted er to foreign <pause/> foreign butter<c function="fall" type="intonation"/><seg n="2" type="overlap" xml:id="EDsed301_ol_18"> er </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_53"><seg n="2" synch="#EDsed301_ol_18" type="overlap" xml:id="EDsed301_ol_19"> and </seg> also for example in another e<c type="lengthening"/>r another problem <pause/> for example i know that this<c type="lengthening"/> this was specific to macedonia because <vocal voice:desc="clears throat"/> there were lots of agricultural products imported from the  <w voice:mode="spelt"> E u  </w> countries </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_54"> mhm </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_55"> and e<c type="lengthening"/>r since these products were subsidized and e<c type="lengthening"/>r it was not <emph> so </emph> much how much they will get on the market for these products but <pause/> er just it was even mo- much more important for those products to be sold<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_56"><seg n="3" type="overlap" xml:id="EDsed301_ol_20"> mhm </seg><pause/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_57"><seg n="3" synch="#EDsed301_ol_20" type="overlap" xml:id="EDsed301_ol_21"> mhm </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_58"> when even <emph> if </emph> imported <voice:track medium="1(a)" num="3" type="md"/><seg n="8" type="overlap" xml:id="EDsed301_ol_22"><emph> their </emph></seg> price was much lower than the domestic products </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_59"><seg n="8" synch="#EDsed301_ol_22" type="overlap" xml:id="EDsed301_ol_23"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_60"> right </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_61"> so practically<c type="lengthening"/> because the agricultural products in  let's say macedonia<c function="rise" type="intonation"/><seg n="9" type="overlap" xml:id="EDsed301_ol_24"> were not </seg> subsidized  </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_62"><seg n="9" synch="#EDsed301_ol_24" type="overlap" xml:id="EDsed301_ol_25"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_63"> mhm </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_64"> and people were trying to get the best of it <pause/> a<c type="lengthening"/>nd<c type="lengthening"/> then you woke up with e<c type="lengthening"/>r tons of tomatoes or potatoes or whatever <pause/><emph> half </emph> of them very <pause/> cheap and the other half very expen<seg n="1" type="overlap" xml:id="EDsed301_ol_26">sive </seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_65"><seg n="1" synch="#EDsed301_ol_26" type="overlap" xml:id="EDsed301_ol_27"> -sive </seg><seg n="2" type="overlap" xml:id="EDsed301_ol_28"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_66"><seg n="2" synch="#EDsed301_ol_28" type="overlap" xml:id="EDsed301_ol_29"> mhm </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_67"> and of course the cheaper half er sold out <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#EDsed301_s_36" feature="voice" new="laugh" xml:id="EDsed301_s_35"/> and the more expensive half <shift corresp="#EDsed301_s_35" feature="voice" new="neutral" xml:id="EDsed301_s_36"/><pause/> half was left out<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_68"><shift corresp="#EDsed301_s_38" feature="loud" new="p" xml:id="EDsed301_s_37"/> exactly <shift corresp="#EDsed301_s_37" feature="loud" new="neutral" xml:id="EDsed301_s_38"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_69"> so er it is er also er very<c type="lengthening"/> detrimental to<c type="lengthening"/> competition policy in these countries <pause/> so<c type="lengthening"/><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_70"><emph> yes </emph><c function="fall" type="intonation"/> yes<c function="fall" type="intonation"/> er so it was<c type="lengthening"/> relevant for <pause/> east european  countries  </u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_71"> mhm </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_72"> it was also relevant for third world countries erm <pause/> third world countries that were producing quite a bit of agricultural <seg n="6" type="overlap" xml:id="EDsed301_ol_30"> products </seg> right<c function="rise" type="intonation"/><pause/></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_73"><seg n="6" synch="#EDsed301_ol_30" type="overlap" xml:id="EDsed301_ol_31"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_74"> erm and <emph> they </emph> had trouble er selling them on the world market because in a in a way <emph> in</emph>directly the <shift corresp="#EDsed301_s_40" feature="tempo" new="l" xml:id="EDsed301_s_39"/> world market prices <shift corresp="#EDsed301_s_39" feature="tempo" new="neutral" xml:id="EDsed301_s_40"/><pause/> er were <emph> lowered </emph> by this policy of the <shift corresp="#EDsed301_s_42" feature="loud" new="p" xml:id="EDsed301_s_41"/> european <shift corresp="#EDsed301_s_41" feature="loud" new="neutral" xml:id="EDsed301_s_42"/></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_75"> hm  </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_76"><shift corresp="#EDsed301_s_44" feature="loud" new="p" xml:id="EDsed301_s_43"/> yes <shift corresp="#EDsed301_s_43" feature="loud" new="neutral" xml:id="EDsed301_s_44"/><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_77"> erm <vocal type="speaker_noise" voice:desc="smacks lips"/> any other problems with this policy <pause dur="PT3S"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_78"> erm the the strictly economic aspect the fact that er <emph> financial </emph> aspect actually the fact that it is detrimental for the budget<c function="fall" type="intonation"/><pause/> because it it doesn't bring revenues to the  <w voice:mode="spelt"> e u  </w> budget<c function="fall" type="intonation"/><pause/> it just <pause/><emph> takes </emph><emph> a</emph>way from the  <w voice:mode="spelt"> e u  </w> budget<c function="fall" type="intonation"/><pause/> and <seg n="3" type="overlap" xml:id="EDsed301_ol_32"> on  the </seg> long </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_79"><seg n="3" synch="#EDsed301_ol_32" type="overlap" xml:id="EDsed301_ol_33"><emph> yes </emph></seg></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_80"><shift corresp="#EDsed301_s_46" feature="loud" new="p" xml:id="EDsed301_s_45"/><unclear> mhm </unclear><shift corresp="#EDsed301_s_45" feature="loud" new="neutral" xml:id="EDsed301_s_46"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_81"> run maybe this is one of the causes for the economic recession <pause/> in the countries like france for example </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_82"> mhm <anchor synch="#EDsed301_oc_13" type="other_continuation" xml:id="EDsed301_oc_12"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_83"><anchor synch="#EDsed301_oc_12" type="other_continuation" xml:id="EDsed301_oc_13"/> because these heavy subsidies don't bring any benefits back <pause dur="PT2S"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_84"><emph> yes </emph><c function="fall" type="intonation"/> w- w- we see this on this graph right<c function="rise" type="intonation"/> er that the <emph> white </emph><pause dur="PT1S"/> area there <pause/> is <pause/> er going down<c function="fall" type="intonation"/> is is decreasing er over the years and there' there's very little that's been earned <pause dur="PT2S"/><incident dur="PT2S" voice:desc="participants look at graph "/><shift corresp="#EDsed301_s_48" feature="loud" new="p" xml:id="EDsed301_s_47"/><unclear> something </unclear> of the<c type="lengthening"/> quality which is not on this slide <shift corresp="#EDsed301_s_47" feature="loud" new="neutral" xml:id="EDsed301_s_48"/></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_85"> mhm  </u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_86"> hm  </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_87"><shift corresp="#EDsed301_s_50" feature="loud" new="p" xml:id="EDsed301_s_49"/> yes <shift corresp="#EDsed301_s_49" feature="loud" new="neutral" xml:id="EDsed301_s_50"/><pause dur="PT1S"/> we'll have to find a <emph> com</emph>promise without with it being being sharp <pause dur="PT1S"/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_88"> mhm </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_89"><shift corresp="#EDsed301_s_52" feature="loud" new="p" xml:id="EDsed301_s_51"/> the top <unclear> elliptical </unclear><supplied reason="unintelligible"> xx </supplied><shift corresp="#EDsed301_s_51" feature="loud" new="neutral" xml:id="EDsed301_s_52"/> erm </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_90"> and then er with<emph>in </emph> the  <w voice:mode="spelt"> e u  </w> it's<c type="lengthening"/> creat- it doesn't create any competition <pause dur="PT1S"/> because <pause/> the<c type="lengthening"/><anchor synch="#EDsed301_oc_15" type="other_continuation" xml:id="EDsed301_oc_14"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_91"><anchor synch="#EDsed301_oc_14" type="other_continuation" xml:id="EDsed301_oc_15"/> mhm <pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_92"> the <emph> farmers </emph> are not interested in innovating<c function="rise" type="intonation"/><seg n="5" type="overlap" xml:id="EDsed301_ol_34"> because </seg> no matter what they produce and how much they produce </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_93"><seg n="5" synch="#EDsed301_ol_34" type="overlap" xml:id="EDsed301_ol_35"> yeah </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_94"><seg n="4" type="overlap" xml:id="EDsed301_ol_36"> mhm </seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_95"><shift corresp="#EDsed301_s_54" feature="loud" new="p" xml:id="EDsed301_s_53"/><seg n="4" synch="#EDsed301_ol_36" type="overlap" xml:id="EDsed301_ol_37"> they still </seg> receive the <seg n="6" type="overlap" xml:id="EDsed301_ol_38"> money </seg><shift corresp="#EDsed301_s_53" feature="loud" new="neutral" xml:id="EDsed301_s_54"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_96"><seg n="6" synch="#EDsed301_ol_38" type="overlap" xml:id="EDsed301_ol_39"> and </seg> h- how mu- how e<c type="lengthening"/>r erm how high is the quality of their product they will still get the money </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_97"> right<c function="fall" type="intonation"/><seg n="7" type="overlap" xml:id="EDsed301_ol_40"> so </seg> there is no incentive for <seg n="1" type="overlap" xml:id="EDsed301_ol_41"> modernization </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_98"><seg n="7" synch="#EDsed301_ol_40" type="overlap" xml:id="EDsed301_ol_42"> so </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_99"><seg n="1" synch="#EDsed301_ol_41" type="overlap" xml:id="EDsed301_ol_43"> no incent</seg>ive for mo<c type="lengthening"/>re <pause dur="PT1S"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_100"> right<c function="fall" type="intonation"/><pause/> erm <pause/> and <emph> mo</emph>dernization was actually one of the<c type="lengthening"/> er the <emph> aims </emph><seg n="2" type="overlap" xml:id="EDsed301_ol_44"> of this </seg> policy<c function="fall" type="intonation"/> so it it's one the aims that certainly wasn't met<c function="fall" type="intonation"/> at least not to the extent that it was hh er hoped for<c function="fall" type="intonation"/><pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_101"><seg n="2" synch="#EDsed301_ol_44" type="overlap" xml:id="EDsed301_ol_45"><emph> ye</emph><c type="lengthening"/><emph>s </emph></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_102"> er <supplied reason="anonymization"> [S6] </supplied><c function="fall" type="intonation"/><pause/></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_103"> i'm not sure that <voice:track medium="1(a)" num="4" type="md"/> it's fair to say that we're not getting a- or the  <w voice:mode="spelt"> e u  </w> is not getting any benefit out of <pause/><emph> agri</emph>culture because people are actually being fed <pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_104"><seg n="8" type="overlap" xml:id="EDsed301_ol_46"> mhm </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_105"><seg n="8" synch="#EDsed301_ol_46" type="overlap" xml:id="EDsed301_ol_47"> yes </seg><seg n="3" type="overlap" xml:id="EDsed301_ol_48"> but </seg> the problem is that they're producing <emph> much </emph> more than it is needed to <emph> feed </emph> the european union<c function="fall" type="intonation"/><pause/></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_106"><seg n="3" synch="#EDsed301_ol_48" type="overlap" xml:id="EDsed301_ol_49"> you know<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_107"> so<c type="lengthening"/><pause dur="PT1S"/> better coordination needs to<c type="lengthening"/><pause/> occur between <pause/> the ideals of a welfare state a<c type="lengthening"/>nd <pause/> supporting an agriculture <supplied reason="unintelligible"> xxx </supplied><pause/> is one solution </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_108"><emph> yes </emph><c function="fall" type="intonation"/> er i mean what we have to keep in mind is the historical context in which this<c type="lengthening"/> this policy was created<c function="fall" type="intonation"/><pause/> erm was a post-war con- context where er food security was a big issue<c function="fall" type="intonation"/> erm where political stability was a was a big issue and and the farmers' er population <pause/> was considered <emph> crucial </emph> for political and social stability<c function="fall" type="intonation"/> erm and it was it was a an era where er there was there or or there were enormous er price fluctuations<c function="fall" type="intonation"/> in agricultar- er agricultural er production<c function="fall" type="intonation"/> so therefore er price flu- fluctuation re<emph>main</emph>s a problem<c function="fall" type="intonation"/> for for farmers<c function="fall" type="intonation"/> right<c function="rise" type="intonation"/> because then there might be <emph> good </emph> weather or bad weather<c function="fall" type="intonation"/> e<c type="lengthening"/>r there might be hh er <pause/> other countries er for with <emph> better </emph> weather weather er producing cheaper for for one year and e<c type="lengthening"/>r th- the opposite being true the next year<c function="fall" type="intonation"/><pause/> so therefore er the idea behind this policy was to create <emph> some </emph> stability for the farming c- er population<c function="fall" type="intonation"/> a<c type="lengthening"/>nd <pause/> erm one or two of you may have read er the the article that i put in the in<c type="lengthening"/> in the library i <pause/> don't know but possibly you all e<c type="lengthening"/>r studied for the exam today but <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><anchor synch="#EDsed301_oc_17" type="other_continuation" xml:id="EDsed301_oc_16"/></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_109"><shift corresp="#EDsed301_s_56" feature="loud" new="p" xml:id="EDsed301_s_55"/><anchor synch="#EDsed301_oc_16" type="other_continuation" xml:id="EDsed301_oc_17"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><anchor synch="#EDsed301_oc_19" type="other_continuation" xml:id="EDsed301_oc_18"/><shift corresp="#EDsed301_s_55" feature="loud" new="neutral" xml:id="EDsed301_s_56"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_110"><shift corresp="#EDsed301_s_58" feature="voice" new="laugh" xml:id="EDsed301_s_57"/><anchor synch="#EDsed301_oc_18" type="other_continuation" xml:id="EDsed301_oc_19"/> anyway<c function="fall" type="intonation"/><shift corresp="#EDsed301_s_57" feature="voice" new="neutral" xml:id="EDsed301_s_58"/> er one main <emph> ar</emph>gument that's being made by the author of this <pause/> of this article <pause/> is that agricultural policy the common agricultural policy of the  <w voice:mode="spelt"> e u  </w> was actually a social policy<c function="fall" type="intonation"/> a <seg n="9" type="overlap" xml:id="EDsed301_ol_50"> social </seg> policy fo<c type="lengthening"/>r er a particular segment of the population<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_111"><seg n="9" synch="#EDsed301_ol_50" type="overlap" xml:id="EDsed301_ol_51"> mhm </seg></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_112"><shift corresp="#EDsed301_s_60" feature="loud" new="p" xml:id="EDsed301_s_59"/> mhm <shift corresp="#EDsed301_s_59" feature="loud" new="neutral" xml:id="EDsed301_s_60"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_113"> er the <pause/> farming <pause/> segment <seg n="4" type="overlap" xml:id="EDsed301_ol_52"> er </seg></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_114"><seg n="4" synch="#EDsed301_ol_52" type="overlap" xml:id="EDsed301_ol_53"> yeah </seg> but in a way it's discriminating then because we are just <anchor synch="#EDsed301_oc_21" type="other_continuation" xml:id="EDsed301_oc_20"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_115"><anchor synch="#EDsed301_oc_20" type="other_continuation" xml:id="EDsed301_oc_21"/> yes </u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_116"> subsidi- <pause/> gave subsidi- <pause/><seg n="5" type="overlap" xml:id="EDsed301_ol_54"> -dies to <pause/> comp- </seg></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_117"><seg n="5" synch="#EDsed301_ol_54" type="overlap" xml:id="EDsed301_ol_55"> but they're producing <emph> food </emph></seg> for you <pause/></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_118"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/><seg n="6" type="overlap" xml:id="EDsed301_ol_56"><vocal type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_119"><seg n="6" synch="#EDsed301_ol_56" type="overlap" xml:id="EDsed301_ol_57"><supplied reason="unintelligible"> x </supplied> that you </seg> need to eat <anchor synch="#EDsed301_oc_23" type="other_continuation" xml:id="EDsed301_oc_22"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_120"><anchor synch="#EDsed301_oc_22" type="other_continuation" xml:id="EDsed301_oc_23"/> yes <seg n="7" type="overlap" xml:id="EDsed301_ol_58"> but that </seg><seg n="1" type="overlap" xml:id="EDsed301_ol_59"> doesn't mean that e<c type="lengthening"/>r </seg><seg n="3" type="overlap" xml:id="EDsed301_ol_60"> we have a </seg></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_121"><supplied reason="unintelligible"><seg n="7" synch="#EDsed301_ol_58" type="overlap" xml:id="EDsed301_ol_61"> xxx </seg><seg n="1" synch="#EDsed301_ol_59" type="overlap" xml:id="EDsed301_ol_62"> xx </seg></supplied></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_122"><seg n="1" synch="#EDsed301_ol_59" type="overlap" xml:id="EDsed301_ol_63"> yeah but you would also so- </seg><seg n="3" synch="#EDsed301_ol_60" type="overlap" xml:id="EDsed301_ol_64"> give some things to </seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_123"><seg n="3" synch="#EDsed301_ol_60" type="overlap" xml:id="EDsed301_ol_65"> we have a certain </seg> so<seg n="4" type="overlap" xml:id="EDsed301_ol_66">cial </seg><seg n="5" type="overlap" xml:id="EDsed301_ol_67"> class that </seg><seg n="2" type="overlap" xml:id="EDsed301_ol_68"> is being </seg> privileged <pause/></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_124"><seg n="4" synch="#EDsed301_ol_66" type="overlap" xml:id="EDsed301_ol_69"> little </seg><seg n="5" synch="#EDsed301_ol_67" type="overlap" xml:id="EDsed301_ol_70"> companies </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_125"><seg n="4" synch="#EDsed301_ol_66" type="overlap" xml:id="EDsed301_ol_71"> yeah </seg></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_126"><seg n="2" synch="#EDsed301_ol_68" type="overlap" xml:id="EDsed301_ol_72"> okay </seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_127"> in <seg n="6" type="overlap" xml:id="EDsed301_ol_73"> a way </seg> that others aren't </u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_128"><seg n="6" synch="#EDsed301_ol_73" type="overlap" xml:id="EDsed301_ol_74"> yeah but </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_129"> and <seg n="7" type="overlap" xml:id="EDsed301_ol_75"> also </seg> that doesn't mean that e<c type="lengthening"/>r if e<c type="lengthening"/>r okay<c type="lengthening"/> they're producing food for you <pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_130"><seg n="7" synch="#EDsed301_ol_75" type="overlap" xml:id="EDsed301_ol_76"><voice:to who="#EDsed301_S7"> mhm </voice:to></seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_131"> but e<c type="lengthening"/>r <pause/> that doesn't mean that the other sectors of the economy are not are much less important </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_132"><shift corresp="#EDsed301_s_62" feature="loud" new="p" xml:id="EDsed301_s_61"/> mhm <shift corresp="#EDsed301_s_61" feature="loud" new="neutral" xml:id="EDsed301_s_62"/></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_133"> well <pause/><seg n="8" type="overlap" xml:id="EDsed301_ol_77"> other sectors </seg><pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_134"><seg n="8" synch="#EDsed301_ol_77" type="overlap" xml:id="EDsed301_ol_78"> so if you </seg></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_135"><seg n="9" type="overlap" xml:id="EDsed301_ol_79"> produce superflu</seg>ous good<seg n="1" type="overlap" xml:id="EDsed301_ol_80">s like <emph> cars </emph></seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_136"><seg n="9" synch="#EDsed301_ol_79" type="overlap" xml:id="EDsed301_ol_81"> if you have </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_137"><seg n="1" synch="#EDsed301_ol_80" type="overlap" xml:id="EDsed301_ol_82"> if you have a </seg> farmer <seg n="2" type="overlap" xml:id="EDsed301_ol_83"> and you don't have like a </seg> e<c type="lengthening"/>r a <emph> fa</emph>ctory where to<c type="lengthening"/> er i don't know produce all kinds of other food stuff <pause/></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_138"><seg n="2" synch="#EDsed301_ol_83" type="overlap" xml:id="EDsed301_ol_84"><shift corresp="#EDsed301_s_64" feature="loud" new="p" xml:id="EDsed301_s_63"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><shift corresp="#EDsed301_s_63" feature="loud" new="neutral" xml:id="EDsed301_s_64"/></seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_139"> what does that get you <pause/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_140"><shift corresp="#EDsed301_s_66" feature="loud" new="p" xml:id="EDsed301_s_65"/> hm <shift corresp="#EDsed301_s_65" feature="loud" new="neutral" xml:id="EDsed301_s_66"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_141"> but there is another argument that er i i read in an article there were several interviews er taken to  french farmers </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_142"> mhm </u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_143"> a<c type="lengthening"/>nd er they were saying you know <voice:track medium="1(a)" num="5" type="md"/> we're <emph> not </emph> only just producing food but we're al- we're also supporting the <voice:pvc> touristic </voice:pvc> industry in france <seg n="3" type="overlap" xml:id="EDsed301_ol_85"> because </seg><seg n="6" type="overlap" xml:id="EDsed301_ol_86"><emph> rural </emph> tourism </seg> is based on visiting our beautiful farms with our with our beautiful cows and so on <seg n="4" type="overlap" xml:id="EDsed301_ol_87"> and people have fun </seg> and <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/> if you <emph> take </emph> our subsidies away from us we won't be able to sur<emph>vive </emph> and therefore <emph> tourism </emph> in france will be severely affected  </u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_144"><seg n="3" synch="#EDsed301_ol_85" type="overlap" xml:id="EDsed301_ol_88"><shift corresp="#EDsed301_s_68" feature="loud" new="p" xml:id="EDsed301_s_67"/> hm <shift corresp="#EDsed301_s_67" feature="loud" new="neutral" xml:id="EDsed301_s_68"/></seg></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_145"><seg n="6" synch="#EDsed301_ol_86" type="overlap" xml:id="EDsed301_ol_89"><shift corresp="#EDsed301_s_70" feature="loud" new="p" xml:id="EDsed301_s_69"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#EDsed301_s_69" feature="loud" new="neutral" xml:id="EDsed301_s_70"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_146"><seg n="4" synch="#EDsed301_ol_87" type="overlap" xml:id="EDsed301_ol_90"> right right right </seg></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_147"><shift corresp="#EDsed301_s_72" feature="loud" new="p" xml:id="EDsed301_s_71"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><anchor synch="#EDsed301_oc_25" type="other_continuation" xml:id="EDsed301_oc_24"/><shift corresp="#EDsed301_s_71" feature="loud" new="neutral" xml:id="EDsed301_s_72"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_148"><anchor synch="#EDsed301_oc_24" type="other_continuation" xml:id="EDsed301_oc_25"/> yes </u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_149"><seg n="5" type="overlap" xml:id="EDsed301_ol_91"><shift corresp="#EDsed301_s_74" feature="loud" new="p" xml:id="EDsed301_s_73"/> for sure <shift corresp="#EDsed301_s_73" feature="loud" new="neutral" xml:id="EDsed301_s_74"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_150"><seg n="5" synch="#EDsed301_ol_91" type="overlap" xml:id="EDsed301_ol_92"> it's </seg> it's a <emph> mo</emph>dern argument i i- it wouldn't have been made in the nineteen sixties <anchor synch="#EDsed301_oc_27" type="other_continuation" xml:id="EDsed301_oc_26"/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_151"><shift corresp="#EDsed301_s_76" feature="loud" new="p" xml:id="EDsed301_s_75"/><anchor synch="#EDsed301_oc_26" type="other_continuation" xml:id="EDsed301_oc_27"/> hm <anchor synch="#EDsed301_oc_29" type="other_continuation" xml:id="EDsed301_oc_28"/><shift corresp="#EDsed301_s_75" feature="loud" new="neutral" xml:id="EDsed301_s_76"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_152"><anchor synch="#EDsed301_oc_28" type="other_continuation" xml:id="EDsed301_oc_29"/> erm it er shows some sort of <emph> le</emph><c type="lengthening"/><emph>ar</emph>ning er on the part of french farmers er <seg n="7" type="overlap" xml:id="EDsed301_ol_93"> and i and </seg><seg n="8" type="overlap" xml:id="EDsed301_ol_94"> i we we </seg> we sort of we we <emph> turn </emph> to this er <pause/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_153"><seg n="7" synch="#EDsed301_ol_93" type="overlap" xml:id="EDsed301_ol_95"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_154"><seg n="8" synch="#EDsed301_ol_94" type="overlap" xml:id="EDsed301_ol_96"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_155"> in ten minutes or so <pause/> er because er we all know that the <emph> cap </emph><pause/> er was re<emph>for</emph>med over the years<c function="fall" type="intonation"/> and er was reformed in such a way that <emph> other </emph> functions of<c type="lengthening"/> the countryside <pause/> er were taken into account er and were <emph> sub</emph>sidized were still <emph> sub</emph>sidized i mean hh the the whole policy is er subsidization<c function="fall" type="intonation"/> policy<c function="fall" type="intonation"/> right<c function="rise" type="intonation"/><pause/> and and <supplied reason="anonymization"> [S1] </supplied> is right when when he says it's i- it's sort of <emph> pi</emph>cking<c type="lengthening"/> er <pause/> a segment of the population er and you wonder <emph> why </emph> the farmers and er <pause dur="PT1S"/></u>
+            <u who="#EDsed301_SX-8" xml:id="EDsed301_u_156"> is <seg n="9" type="overlap" xml:id="EDsed301_ol_97"> that making ideology </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_157"><seg n="9" synch="#EDsed301_ol_97" type="overlap" xml:id="EDsed301_ol_98"> not not a- and an- </seg> and not the car workers and and and er whatever not not any other er sort of segment of the popula- not the unemployed<c function="fall" type="intonation"/> why why isn't the european <pause/><emph> union </emph> er <shift corresp="#EDsed301_s_78" feature="loud" new="p" xml:id="EDsed301_s_77"/> erm erm <shift corresp="#EDsed301_s_77" feature="loud" new="neutral" xml:id="EDsed301_s_78"/> giving <emph> as </emph> much money to<c type="lengthening"/> to the unemployed<c function="fall" type="intonation"/> they may be more needy than the average farmer<c function="fall" type="intonation"/> er <pause/> a<c type="lengthening"/>nd <pause/> so therefore there's of course a <emph> choic</emph><c type="lengthening"/><emph>e </emph><c function="fall" type="intonation"/> er a choic<c type="lengthening"/>e of of who<c type="lengthening"/><pause/> ought to be subsidized and and and this choice was made in in the post-war era <pause/> and <pause/> er incr<emph>ea</emph>singly people wonder about er <shift corresp="#EDsed301_s_80" feature="loud" new="p" xml:id="EDsed301_s_79"/> erm <shift corresp="#EDsed301_s_79" feature="loud" new="neutral" xml:id="EDsed301_s_80"/> the<c type="lengthening"/><emph> va</emph>lidity of this choic<c type="lengthening"/>e today<c function="fall" type="intonation"/> er <pause/> whether it's still  </u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_158"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_159"> of the same relevance<c function="fall" type="intonation"/> er the same erm <pause/> sign<emph>if</emph>icance for today's society <seg n="1" type="overlap" xml:id="EDsed301_ol_99"><supplied reason="anonymization"> [S5] </supplied></seg></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_160"><seg n="1" synch="#EDsed301_ol_99" type="overlap" xml:id="EDsed301_ol_100"> mhm </seg></u>
+            <u who="#EDsed301_S5" xml:id="EDsed301_u_161"> hh er yes i wanted to ask about these<c type="lengthening"/> subsidies for <voice:pvc><emph> non</emph>-production<c function="fall" type="intonation"/></voice:pvc> production <supplied reason="unintelligible"> x<c function="fall" type="intonation"/></supplied> if i can say  because there also <pause/><seg n="2" type="overlap" xml:id="EDsed301_ol_101"> if you </seg> don't or if you don't produce you still get money <pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_162"><seg n="2" synch="#EDsed301_ol_101" type="overlap" xml:id="EDsed301_ol_102"> mhm </seg></u>
+            <u who="#EDsed301_S5" xml:id="EDsed301_u_163"> for that that you don't prod<emph>uce </emph> and <pause/> what about this que<seg n="3" type="overlap" xml:id="EDsed301_ol_103">stion then </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_164"><seg n="3" synch="#EDsed301_ol_103" type="overlap" xml:id="EDsed301_ol_104"> we we </seg> we are coming to the reforms <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/> erm </u>
+            <u who="#EDsed301_S5" xml:id="EDsed301_u_165"><unclear> does that </unclear> it doesn't make sense like <supplied reason="anonymization"> [S6] </supplied> said it's it's <pause/> it's not making <pause/> food for you <seg n="4" type="overlap" xml:id="EDsed301_ol_105"> but just </seg><pause/></u>
+            <u who="#EDsed301_SX-6" xml:id="EDsed301_u_166"><seg n="4" synch="#EDsed301_ol_105" type="overlap" xml:id="EDsed301_ol_106"><supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#EDsed301_SX-1" xml:id="EDsed301_u_167"><unclear> wage </unclear><anchor synch="#EDsed301_oc_31" type="other_continuation" xml:id="EDsed301_oc_30"/></u>
+            <u who="#EDsed301_S5" xml:id="EDsed301_u_168"><anchor synch="#EDsed301_oc_30" type="other_continuation" xml:id="EDsed301_oc_31"/> paying for you just you exist as a farmer but you don't produce <emph> any</emph>thing <pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_169"> erm i i have this one slide here that summarizes some of the reasons that <emph> i </emph> came up with e<c type="lengthening"/>r that <pause dur="PT1S"/> e<c type="lengthening"/>r <pause/> indicate problems of the old <pause/> cap<c function="fall" type="intonation"/> right and and many of these points were were already mentioned er overproduction er dumping of products on on e<c type="lengthening"/>r <seg n="1" type="overlap" xml:id="EDsed301_ol_107"> other </seg><pause/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_170"><seg n="1" synch="#EDsed301_ol_107" type="overlap" xml:id="EDsed301_ol_108"><shift corresp="#EDsed301_s_82" feature="loud" new="p" xml:id="EDsed301_s_81"/><supplied reason="unintelligible"> xx </supplied><shift corresp="#EDsed301_s_81" feature="loud" new="neutral" xml:id="EDsed301_s_82"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_171"> other countries er either in eastern europe or in the third world <pause/> erm the budgetary question er that was absolutely crucial right<c function="rise" type="intonation"/> because <unclear> you have </unclear> some- somebody had to afford this kind of policy hh erm <pause/> going back to what we discussed earlier environmental destruction was another problem because e<c type="lengthening"/>r <pause/> if everybody was sort of er <pause dur="PT2S"/><voice:track medium="1(a)" num="6" type="md"/><emph> see</emph>ing incentives to produce a lot er you would have er very intensive production<c function="fall" type="intonation"/> er and if you have very intensive pro<emph>du</emph>ction you sometimes <pause/> have environmental de- destruction because er in order to er <pause/> produce as much as you can <pause/> you may use all kinds of harmful <pause/><emph> sub</emph>stances whatever pesticides et cetera<c function="fall" type="intonation"/> hh er to <pause dur="PT1S"/> er <pause dur="PT1S"/><emph> pro</emph>duce<c function="fall" type="intonation"/><anchor synch="#EDsed301_oc_33" type="other_continuation" xml:id="EDsed301_oc_32"/></u>
+            <u who="#EDsed301_S4" xml:id="EDsed301_u_172"><shift corresp="#EDsed301_s_84" feature="loud" new="p" xml:id="EDsed301_s_83"/><anchor synch="#EDsed301_oc_32" type="other_continuation" xml:id="EDsed301_oc_33"/> mhm <anchor synch="#EDsed301_oc_35" type="other_continuation" xml:id="EDsed301_oc_34"/><shift corresp="#EDsed301_s_83" feature="loud" new="neutral" xml:id="EDsed301_s_84"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_173"><anchor synch="#EDsed301_oc_34" type="other_continuation" xml:id="EDsed301_oc_35"/> and and and therefore <pause/> er the the countryside may <emph> look </emph> nice  </u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_174"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_175"> er but but sometimes it was heavily polluted<c function="fall" type="intonation"/> er <pause/> in in europe<c function="fall" type="intonation"/><pause/> so <pause dur="PT1S"/><vocal type="speaker_noise" voice:desc="smacks lips"/> another thing that er one could mention here is the bias towar- to<c type="lengthening"/> for for large farming<c function="fall" type="intonation"/> er <pause/> large <pause/> almost sort of <pause/> er farming <voice:pvc comment="manufacturers" voice:ipa="ˌmʌnʊˈfæktʃəs"> manufacters </voice:pvc> e<c type="lengthening"/>r <pause/> because <pause/> er it would be the <emph> large </emph> farms that would really be be capable of of<c type="lengthening"/> er of<c type="lengthening"/> sort of responding to the incentives of er producing a lot<c function="fall" type="intonation"/> er small or medium size farmers <pause/> wouldn't have the <shift corresp="#EDsed301_s_86" feature="loud" new="f" xml:id="EDsed301_s_85"/> same <shift corresp="#EDsed301_s_85" feature="loud" new="neutral" xml:id="EDsed301_s_86"/><pause/> er opportunities to <unclear> have </unclear> er overproduce<c function="fall" type="intonation"/> as as large large farmers typically do </u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_176"> and this has changed now or<c function="rise" type="intonation"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_177"> yes<c function="fall" type="intonation"/> we're coming to the reforms<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_178"> but <seg n="2" type="overlap" xml:id="EDsed301_ol_109"> i think </seg> i- i've read that in <emph> en</emph>gland it's still the same that the large farmers are getting the money and not <pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_179"><seg n="2" synch="#EDsed301_ol_109" type="overlap" xml:id="EDsed301_ol_110"><shift corresp="#EDsed301_s_88" feature="loud" new="p" xml:id="EDsed301_s_87"/><unclear> yah </unclear><shift corresp="#EDsed301_s_87" feature="loud" new="neutral" xml:id="EDsed301_s_88"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_180"><vocal type="speaker_noise" voice:desc="smacks lips"/> er <pause/> well the the the story with england and <supplied reason="anonymization"> [first name1] </supplied> is missing today so <unclear> but </unclear> she she may er may or may not be able to tell us something about british farming <pause/> er in <pause/> in britain the average <pause/> farming <pause/> er or or the average size of the farm <pause/> is is larger than er in most other european countries<c function="fall" type="intonation"/> certainly much larger than in austria<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_SX-1" xml:id="EDsed301_u_181"><shift corresp="#EDsed301_s_90" feature="loud" new="p" xml:id="EDsed301_s_89"/> mhm <anchor synch="#EDsed301_oc_37" type="other_continuation" xml:id="EDsed301_oc_36"/><shift corresp="#EDsed301_s_89" feature="loud" new="neutral" xml:id="EDsed301_s_90"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_182"><anchor synch="#EDsed301_oc_36" type="other_continuation" xml:id="EDsed301_oc_37"/> er in in austria yo- you have er predominantly small and medium size farm  right<c function="rise" type="intonation"/> you don't have sort of <emph> big </emph><pause dur="PT1S"/> haciendas or something <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> erm you would you would have er <pause/><emph> large </emph> size farming in britain<c function="fall" type="intonation"/> er that was <pause/> erm <pause dur="PT1S"/> but but but logically you wouldn't have as much farming<c function="fall" type="intonation"/> in britain<c function="fall" type="intonation"/> that was sort of the british problem<c function="fall" type="intonation"/> er the <emph> stru</emph>cture of the farms <pause/> er were actually <pause/> er <emph> fa</emph>vorable for for britain er if<c type="lengthening"/> sort of benefitting from this system was the main question<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_183"> and how is it in <seg n="7" type="overlap" xml:id="EDsed301_ol_111"> france<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_184"><seg n="7" synch="#EDsed301_ol_111" type="overlap" xml:id="EDsed301_ol_112"> but </seg> er but there were not enough farms to really sort of er er <shift corresp="#EDsed301_s_92" feature="loud" new="p" xml:id="EDsed301_s_91"/> erm <shift corresp="#EDsed301_s_91" feature="loud" new="neutral" xml:id="EDsed301_s_92"/> get money out of  this system for britain<c function="fall" type="intonation"/> and that that's sort of the whole budgetary question with britain that we <pause/> mentioned earlier<c function="fall" type="intonation"/> er where britain was sort of er getting upset about <pause/> er <emph> so </emph> much money <pause/> up to <pause/> three quarters of of the of the budget being spent <shift corresp="#EDsed301_s_94" feature="loud" new="p" xml:id="EDsed301_s_93"/> for agriculture<c function="fall" type="intonation"/><shift corresp="#EDsed301_s_93" feature="loud" new="neutral" xml:id="EDsed301_s_94"/> because they felt <pause/> they're not benefiting er as much as for instance france<c function="fall" type="intonation"/><pause/> er france with a much <emph> larger </emph> agricultural sector and many more farmers benefited<c function="fall" type="intonation"/><pause dur="PT1S"/><shift corresp="#EDsed301_s_96" feature="loud" new="p" xml:id="EDsed301_s_95"/> erm <shift corresp="#EDsed301_s_95" feature="loud" new="neutral" xml:id="EDsed301_s_96"/><pause dur="PT1S"/> but th- but but the structure's favorable to to large farms<c function="fall" type="intonation"/> erm <pause/> so that was realized<c function="fall" type="intonation"/> it was realized that overproduction's not a good idea erm <emph> and </emph><pause/> it was realized that the whole policy was getting too expensive <pause/> er <emph> and </emph> er in in the eighties and late eighties early nineties er there was the international trade<c function="fall" type="intonation"/><voice:track medium="1(a)" num="7" type="md"/> environment er sort of kicking into  this process because <pause/> er it was the other members of the general general agreement for tariffs and trade er that were getting <emph> really </emph> upset with the european union subsidi- sus- subsidizing their farming<c function="fall" type="intonation"/> erm <pause/><emph> and </emph><pause dur="PT2S"/><emph> pu</emph>shed  the european union to consider reforms<c function="fall" type="intonation"/><pause dur="PT1S"/> erm <pause dur="PT1S"/> another problem is how do you reform<c function="fall" type="intonation"/> e- how do you reform a big policy like this<c function="fall" type="intonation"/> where er there would be sort of in <emph> all </emph> countries<c function="fall" type="intonation"/><pause/> segments of society that have benefited<c function="fall" type="intonation"/><pause dur="PT1S"/> erm <pause/> and <pause/> er where <pause dur="PT1S"/> just <pause/> looking at <emph> bru</emph>ssels <pause/> er <pause/> you would have the largest er <pause/> directorate general in<c type="lengthening"/> in in the commission dealing with agriculture <shift corresp="#EDsed301_s_98" feature="loud" new="p" xml:id="EDsed301_s_97"/> so lots of bureaucrats sort of dealing with agriculture <shift corresp="#EDsed301_s_97" feature="loud" new="neutral" xml:id="EDsed301_s_98"/><pause/> er you would have <pause/> national <emph> mi</emph>nistries er does anybody know anything about er agricultural ministries<c function="rise" type="intonation"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_185"> yes<c type="lengthening"/><shift corresp="#EDsed301_s_100" feature="voice" new="laugh" xml:id="EDsed301_s_99"/> we have them <shift corresp="#EDsed301_s_99" feature="voice" new="neutral" xml:id="EDsed301_s_100"/><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_186"> you <seg n="1" type="overlap" xml:id="EDsed301_ol_113"><shift corresp="#EDsed301_s_102" feature="voice" new="laugh" xml:id="EDsed301_s_101"/> have them<c function="fall" type="intonation"/><shift corresp="#EDsed301_s_101" feature="voice" new="neutral" xml:id="EDsed301_s_102"/></seg><seg n="8" type="overlap" xml:id="EDsed301_ol_114"><shift corresp="#EDsed301_s_104" feature="voice" new="laugh" xml:id="EDsed301_s_103"/><emph> yes </emph><shift corresp="#EDsed301_s_103" feature="voice" new="neutral" xml:id="EDsed301_s_104"/></seg><seg n="2" type="overlap" xml:id="EDsed301_ol_115"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> er </seg> er you make a face  so so therefore you have an idea of how they work <seg n="3" type="overlap" xml:id="EDsed301_ol_116"> erm </seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_187"><seg n="1" synch="#EDsed301_ol_113" type="overlap" xml:id="EDsed301_ol_117"> plenty </seg></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_188"><seg n="8" synch="#EDsed301_ol_114" type="overlap" xml:id="EDsed301_ol_118"><shift corresp="#EDsed301_s_106" feature="loud" new="p" xml:id="EDsed301_s_105"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#EDsed301_s_105" feature="loud" new="neutral" xml:id="EDsed301_s_106"/></seg></u>
+            <u who="#EDsed301_SX-8" xml:id="EDsed301_u_189"><seg n="2" synch="#EDsed301_ol_115" type="overlap" xml:id="EDsed301_ol_119"><shift corresp="#EDsed301_s_108" feature="voice" new="laugh" xml:id="EDsed301_s_107"/> we have them <emph> yes </emph><shift corresp="#EDsed301_s_107" feature="voice" new="neutral" xml:id="EDsed301_s_108"/></seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_190"><seg n="3" synch="#EDsed301_ol_116" type="overlap" xml:id="EDsed301_ol_120"> erm </seg><pause/> the the <pause/> the problem with countries like romania <anchor synch="#EDsed301_oc_39" type="other_continuation" xml:id="EDsed301_oc_38"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_191"><anchor synch="#EDsed301_oc_38" type="other_continuation" xml:id="EDsed301_oc_39"/> mhm <anchor synch="#EDsed301_oc_41" type="other_continuation" xml:id="EDsed301_oc_40"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_192"><anchor synch="#EDsed301_oc_40" type="other_continuation" xml:id="EDsed301_oc_41"/> is tha<c type="lengthening"/>t they receive funds from the  <w voice:mode="spelt"> e u  </w> for for e<c type="lengthening"/>r development in agriculture <anchor synch="#EDsed301_oc_43" type="other_continuation" xml:id="EDsed301_oc_42"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_193"><anchor synch="#EDsed301_oc_42" type="other_continuation" xml:id="EDsed301_oc_43"/> mhm <anchor synch="#EDsed301_oc_45" type="other_continuation" xml:id="EDsed301_oc_44"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_194"><anchor synch="#EDsed301_oc_44" type="other_continuation" xml:id="EDsed301_oc_45"/> and they are <emph> un</emph>able to absorb these funds </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_195"> okay </u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_196"> they just ca<c type="lengthening"/>n't <pause/> er the the structure is not developed enough<c function="fall" type="intonation"/> to<c type="lengthening"/> to<c type="lengthening"/> absorb <voice:pvc><unclear> subpart </unclear></voice:pvc> funds and things like that and <seg n="5" type="overlap" xml:id="EDsed301_ol_121"> to </seg> to put them to good use<c function="fall" type="intonation"/><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_197"><seg n="5" synch="#EDsed301_ol_121" type="overlap" xml:id="EDsed301_ol_122"> okay </seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_198"> so er mostly people just er erm erm fields just lie bare<c function="fall" type="intonation"/><pause dur="PT1S"/> which is very <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_199"> it's <seg n="6" type="overlap" xml:id="EDsed301_ol_123"> a problem </seg> yes <anchor synch="#EDsed301_oc_47" type="other_continuation" xml:id="EDsed301_oc_46"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_200"><seg n="6" synch="#EDsed301_ol_123" type="overlap" xml:id="EDsed301_ol_124"> unfortunate<c function="fall" type="intonation"/></seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_201"><anchor synch="#EDsed301_oc_46" type="other_continuation" xml:id="EDsed301_oc_47"/> yeah <anchor synch="#EDsed301_oc_49" type="other_continuation" xml:id="EDsed301_oc_48"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_202"><anchor synch="#EDsed301_oc_48" type="other_continuation" xml:id="EDsed301_oc_49"/> yes <pause/> er what what about our austrians<c function="fall" type="intonation"/> er do you know anything about agriculture<c function="rise" type="intonation"/><pause dur="PT1S"/> the <pause dur="PT1S"/><emph> ty</emph>pically in<c type="lengthening"/> at least west-european  countries agricultural ministries have a have a rather specific structure<c function="fall" type="intonation"/> er or <emph> na</emph>ture <pause/> maybe<c function="fall" type="intonation"/> er <pause dur="PT1S"/> that <pause dur="PT1S"/> they're <pause/><emph> ty</emph>pically agricultural ministries have have c- closer relationship -ship er a closer relationship to their clientele<c function="fall" type="intonation"/><pause/><seg n="7" type="overlap" xml:id="EDsed301_ol_125"> er </seg> than other ministries<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_203"><seg n="7" synch="#EDsed301_ol_125" type="overlap" xml:id="EDsed301_ol_126"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_204"> erm <pause/> clientele being the farming population<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_SX-8" xml:id="EDsed301_u_205"><shift corresp="#EDsed301_s_110" feature="loud" new="p" xml:id="EDsed301_s_109"/> mhm <shift corresp="#EDsed301_s_109" feature="loud" new="neutral" xml:id="EDsed301_s_110"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_206"> erm <pause/> there's<c type="lengthening"/> er yah <pause dur="PT1S"/> a very close linkage usu- usually er f- farming mini- ministers er or <emph> of</emph>ten farming ministers come from <pause/> the agricultural sector <shift corresp="#EDsed301_s_112" feature="loud" new="p" xml:id="EDsed301_s_111"/> themselves<c function="fall" type="intonation"/><pause/> they've <shift corresp="#EDsed301_s_111" feature="loud" new="neutral" xml:id="EDsed301_s_112"/><emph> very </emph> close contacts with farmers<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_SX-m" xml:id="EDsed301_u_207"><shift corresp="#EDsed301_s_114" feature="loud" new="p" xml:id="EDsed301_s_113"/> mhm <shift corresp="#EDsed301_s_113" feature="loud" new="neutral" xml:id="EDsed301_s_114"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_208"> the agricultural <emph> lo</emph>bby <pause/> is a <seg n="4" type="overlap" xml:id="EDsed301_ol_127"> very very strong </seg> lo- lobby er <pause/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_209"><seg n="4" synch="#EDsed301_ol_127" type="overlap" xml:id="EDsed301_ol_128"><shift corresp="#EDsed301_s_116" feature="loud" new="p" xml:id="EDsed301_s_115"/> is very strong <shift corresp="#EDsed301_s_115" feature="loud" new="neutral" xml:id="EDsed301_s_116"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_210"> which is which may surprise  because er the<c type="lengthening"/> the <emph> se</emph>ctor is not that big<c function="fall" type="intonation"/> right<c function="rise" type="intonation"/> so the the economic er significance of this sector is not that <emph> la</emph>rge <pause/> er the farming population <pause/> compared to other <pause/> er <pause/> employment sectors <pause/> is not that large and yet <pause/> er the<c type="lengthening"/> the lobby the the interest group formation in this sector is very very <pause/> er strong<c function="fall" type="intonation"/><pause/> a<c type="lengthening"/>nd er <voice:track medium="1(a)" num="8" type="md"/> that really impacts on on the <emph> po</emph>wer of farming ministers<c function="fall" type="intonation"/> er <pause/><emph> again </emph> they would argue with se- food security on the one hand e<c type="lengthening"/>r and and the social needs <pause/> er of the farming population on the other <pause/><emph> and </emph> of course with the beauty of the countryside <pause/> erm you don't wanna lose that<c function="fall" type="intonation"/> er and say well everybody's enjoying it er when you go out er on<c type="lengthening"/> a weekend <pause/> trip<c function="fall" type="intonation"/> or something<c function="fall" type="intonation"/> erm and walk around and say well this is all nice and green<c function="fall" type="intonation"/><vocal type="speaker_noise" voice:desc="sniffs"/> er somebody has to sort of take care of it<c function="fall" type="intonation"/> er so a combination of arguments is is is er <pause/> i guess em<emph>pow</emph>ering really<c function="fall" type="intonation"/> agricultural ministers<c function="fall" type="intonation"/> therefore reforms <pause/> tend to be very very difficult<c function="fall" type="intonation"/> er in <pause/> agricultural policy<c function="fall" type="intonation"/><pause/> erm in the  <w voice:mode="spelt"> e u  </w><emph> ca</emph>se we had a situation where for for the reasons already mentioned there was not a <emph> lot </emph> of pressure to reform<c function="fall" type="intonation"/><pause/> and it was the commissioner mc<emph>she</emph>rry  er in the early nineties<c function="fall" type="intonation"/> who <pause/> sort of<c type="lengthening"/> er i guess <emph> first </emph> lived up to that challenge<c function="fall" type="intonation"/><pause/> er mcsh- mcsherry  was an irish er commissioner<c function="fall" type="intonation"/><pause dur="PT1S"/> ireland being certainly an agricultural country er mcsherry  i think coming from the agricultural <pause/> community er so <emph> he </emph> was as typical as anybody else er to represent farming<c function="fall" type="intonation"/> erm <pause/><emph> ne</emph>ver<emph>the</emph>less er he was<c type="lengthening"/> i- in a way responsible for for now thinking about a reform er because the  <w voice:mode="spelt"> e u  </w> didn't have any more money <pause dur="PT1S"/> to do what they always did <pause/> er and the international community was really pushing<c function="fall" type="intonation"/><pause dur="PT1S"/> er and threatening with er all kinds of sort of international <pause/><emph> san</emph>ctions boycotts er of of european products<c function="fall" type="intonation"/><pause dur="PT1S"/><emph> and </emph> now we come to the comment that that that <supplied reason="anonymization"> [S5] </supplied> made earlier er that it's not only production that's been subsidized it's also <voice:pvc><emph> non</emph>-production </voice:pvc> that's been subsidized<c function="fall" type="intonation"/><pause/> and that came after the mcsherry  re- reform<c function="fall" type="intonation"/> er <pause/> what this reform implied <pause/> is er that there were price cuts so the the the <emph> pri</emph>ce support er was cut<c function="fall" type="intonation"/><pause/> erm <pause/> in certain sectors<c function="fall" type="intonation"/><pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> and er then there was a ne- new system er put in place er a new system which er considered consisted of <emph> di</emph>rect payments for farmers<c function="fall" type="intonation"/><pause/></u>
+            <u who="#EDsed301_SX-1" xml:id="EDsed301_u_211"><shift corresp="#EDsed301_s_118" feature="loud" new="p" xml:id="EDsed301_s_117"/> hm <shift corresp="#EDsed301_s_117" feature="loud" new="neutral" xml:id="EDsed301_s_118"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_212"> so <emph> pre</emph>viously it was<c type="lengthening"/> er price support<c function="fall" type="intonation"/> er price support has er one advantage er you don't have to have to negotiate with individual farmers<c function="fall" type="intonation"/><pause/> you just set prices<c function="fall" type="intonation"/><pause/> and everybody has the right to these prices<c function="fall" type="intonation"/><pause/> and <pause/> er in the ea- sort of <emph> ea</emph>rly europe er where there were still quite a number of larger a lot of of smaller farmers you didn't want to negotiate with each farmer of how much money he or she should get<c function="fall" type="intonation"/> er so therefore the price support was ef<emph>fi</emph>cient <pause/> er <pause/> indirect no er direct payments are not as efficient<c function="fall" type="intonation"/> er because somehow you have to <pause/> er find criteria <pause/> er <pause/> for these direct payments and you may actually have to sort of er monitor individual farmers of whether they met these criteria<c function="fall" type="intonation"/><pause dur="PT1S"/> erm <voice:track medium="1(a)" num="9" type="md"/><pause dur="PT1S"/> what's what's the advantage of of direct payments <shift corresp="#EDsed301_s_120" feature="loud" new="p" xml:id="EDsed301_s_119"/> though <shift corresp="#EDsed301_s_119" feature="loud" new="neutral" xml:id="EDsed301_s_120"/><pause dur="PT3S"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_213"> erm maybe that e<c type="lengthening"/>r the the prices on the market will not get e<c type="lengthening"/>r <pause dur="PT1S"/> wi<c type="lengthening"/>ll er not be fixed so there sh- there can be <emph> if </emph> there is too much e<c type="lengthening"/>r too many products <seg n="5" type="overlap" xml:id="EDsed301_ol_129"> on the </seg> market so the price will er fluctuate <pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_214"><seg n="5" synch="#EDsed301_ol_129" type="overlap" xml:id="EDsed301_ol_130"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_215"><seg n="3" type="overlap" xml:id="EDsed301_ol_131"> right </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_216"><seg n="3" synch="#EDsed301_ol_131" type="overlap" xml:id="EDsed301_ol_132"> in a sense </seg> that er </u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_217"><shift corresp="#EDsed301_s_122" feature="loud" new="p" xml:id="EDsed301_s_121"/> it will drop <shift corresp="#EDsed301_s_121" feature="loud" new="neutral" xml:id="EDsed301_s_122"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_218"> it will drop so there will be no e<c type="lengthening"/>r n<c type="lengthening"/>- not too many expensive products but there will be lots of<c type="lengthening"/> er let's say more cheaper  products </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_219"> right <pause/> so the interference in world market prices er <pause/> would be<c type="lengthening"/> withdrawn<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_220"> yes<c function="fall" type="intonation"/><anchor synch="#EDsed301_oc_51" type="other_continuation" xml:id="EDsed301_oc_50"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_221"><anchor synch="#EDsed301_oc_50" type="other_continuation" xml:id="EDsed301_oc_51"/> erm a<c type="lengthening"/>nd <pause/> er <pause dur="PT1S"/> if your interest was in<c type="lengthening"/> protecting farmers and securing their livelihood erm <pause/> then<c type="lengthening"/> er this was sort of another means of getting there<c function="fall" type="intonation"/> er you would er give them <pause dur="PT1S"/> social benefits<c function="fall" type="intonation"/><seg n="6" type="overlap" xml:id="EDsed301_ol_133"> i suppose </seg> direct payments without e<c type="lengthening"/>r er sort of telling them <emph> what </emph> they should produce and and at wha- what prices </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_222"><seg n="6" synch="#EDsed301_ol_133" type="overlap" xml:id="EDsed301_ol_134"> mhm </seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_223"> but according to <emph> what </emph> were <shift corresp="#EDsed301_s_124" feature="tempo" new="l" xml:id="EDsed301_s_123"/> these payments made <shift corresp="#EDsed301_s_123" feature="tempo" new="neutral" xml:id="EDsed301_s_124"/> i mean <pause/> what were the criteria </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_224"> that's a good point<c function="fall" type="intonation"/><pause/> anybody <shift corresp="#EDsed301_s_126" feature="tempo" new="a" xml:id="EDsed301_s_125"/> does anybody <shift corresp="#EDsed301_s_125" feature="tempo" new="neutral" xml:id="EDsed301_s_126"/> have any idea<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_225"> i think that there <seg n="7" type="overlap" xml:id="EDsed301_ol_135"> were some </seg></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_226"><shift corresp="#EDsed301_s_128" feature="loud" new="p" xml:id="EDsed301_s_127"/><seg n="7" synch="#EDsed301_ol_135" type="overlap" xml:id="EDsed301_ol_136"><unclear> were they </unclear></seg> producing <anchor synch="#EDsed301_oc_53" type="other_continuation" xml:id="EDsed301_oc_52"/><shift corresp="#EDsed301_s_127" feature="loud" new="neutral" xml:id="EDsed301_s_128"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_227"><anchor synch="#EDsed301_oc_52" type="other_continuation" xml:id="EDsed301_oc_53"/> or any any sophisticated guess given given that this this is er a <emph> se</emph>ctor <pause/> er where reform is difficult <pause dur="PT1S"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_228"> er i think that there was some e<c type="lengthening"/>r limitation on <emph> what </emph> they are producing  </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_229"> mhm <anchor synch="#EDsed301_oc_55" type="other_continuation" xml:id="EDsed301_oc_54"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_230"><anchor synch="#EDsed301_oc_54" type="other_continuation" xml:id="EDsed301_oc_55"/> because at a certain moment there was too much <emph> grain </emph> i think on the market and they said they will not <pause/> support <emph> grain </emph> production <seg n="8" type="overlap" xml:id="EDsed301_ol_137"> but </seg> they will support i don't know<c type="lengthening"/> er <pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_231"><seg n="8" synch="#EDsed301_ol_137" type="overlap" xml:id="EDsed301_ol_138"> right </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_232"> tomato production for <seg n="1" type="overlap" xml:id="EDsed301_ol_139"> example </seg><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_233"><seg n="1" synch="#EDsed301_ol_139" type="overlap" xml:id="EDsed301_ol_140"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_234"> hh <vocal type="speaker_noise" voice:desc="smacks lips"/> so this system of of of direct payments consisted in part erm of <pause dur="PT1S"/> the attempt to<c type="lengthening"/> to keep this the the payment levels or the support levels for farming more or less constant <pause/> erm <pause/> without interfering in prices so whatever was was sort of er <pause/> disappearing on the price level <pause/> in terms of support <pause/> er was <emph> a</emph>dded on the direct payment <pause/> level<c function="fall" type="intonation"/><pause/> er that was sort of the transitional <pause/> way of dealing with this<c function="fall" type="intonation"/> er which was sort of a very er cumbersome <pause/> kind of thing <shift corresp="#EDsed301_s_130" feature="tempo" new="a" xml:id="EDsed301_s_129"/> right<c function="rise" type="intonation"/> because you kind of ha- had to go to the farmers and they were how much y- y- did you get <shift corresp="#EDsed301_s_129" feature="tempo" new="neutral" xml:id="EDsed301_s_130"/> before in order to somehow sustain their income<c function="fall" type="intonation"/><pause/> er <emph> then </emph> there was something <pause/> erm <pause/> that <pause/> it was<c type="lengthening"/><pause dur="PT2S"/><shift corresp="#EDsed301_s_132" feature="voice" new="whisp" xml:id="EDsed301_s_131"/><unclear> a sort of </unclear><shift corresp="#EDsed301_s_131" feature="voice" new="neutral" xml:id="EDsed301_s_132"/><pause dur="PT1S"/> so looki- looking at at a farm with <pause dur="PT2S"/> cows<c function="fall" type="intonation"/> a cow farm<c function="fall" type="intonation"/> let's let's let's pick a cow farm<c function="fall" type="intonation"/> of a certain <pause/> er of a certain size<c function="fall" type="intonation"/><pause/> er <pause/> the european union would sort of set indicators of how many cows should be on a on a on a farm of of this certain size with so many hectare<c function="fall" type="intonation"/> er <pause/> and they would er provide income <pause/><voice:track medium="1(a)" num="10" type="md"/> direct income support for farmers <pause/> on the basis of er the maximum number of cows that would live on a farm of that size </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_235"> mhm </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_236"> er <pause dur="PT1S"/></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_237"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_238"> but <anchor synch="#EDsed301_oc_57" type="other_continuation" xml:id="EDsed301_oc_56"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_239"><anchor synch="#EDsed301_oc_56" type="other_continuation" xml:id="EDsed301_oc_57"/> erm </u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_240"> h- he was allowed to have more or<c function="rise" type="intonation"/><pause/> but </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_241"> they were allowed to have more <seg n="3" type="overlap" xml:id="EDsed301_ol_141"> but but but </seg><seg n="4" type="overlap" xml:id="EDsed301_ol_142"> they wouldn't they </seg><seg n="5" type="overlap" xml:id="EDsed301_ol_143"> they wouldn't get </seg> support for more <pause/></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_242"><seg n="3" synch="#EDsed301_ol_141" type="overlap" xml:id="EDsed301_ol_144"> but they just get </seg><seg n="4" synch="#EDsed301_ol_142" type="overlap" xml:id="EDsed301_ol_145"> the money for </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_243"><seg n="4" synch="#EDsed301_ol_142" type="overlap" xml:id="EDsed301_ol_146"> but they wouldn't </seg><seg n="5" synch="#EDsed301_ol_143" type="overlap" xml:id="EDsed301_ol_147"> get the money </seg></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_244"> ok<seg n="2" type="overlap" xml:id="EDsed301_ol_148">ay </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_245"><seg n="2" synch="#EDsed301_ol_148" type="overlap" xml:id="EDsed301_ol_149"> so </seg> it was also a <emph> way </emph> of somehow to dea- er of somehow dealing with <pause/> with the problem of overproduction<c function="fall" type="intonation"/><pause/> er that whatever extra cow they had on their land <pause/> wouldn't get them more money<c function="fall" type="intonation"/> erm other than the prices that they would achieve on the world market for this extra cow<c function="fall" type="intonation"/><pause dur="PT1S"/> erm <seg n="6" type="overlap" xml:id="EDsed301_ol_150"> so therefore this </seg> this this in<emph>ce</emph>ntive to overproduce <pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_246"><seg n="6" synch="#EDsed301_ol_150" type="overlap" xml:id="EDsed301_ol_151"> but they <unclear> then tried </unclear></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_247"> er was <anchor synch="#EDsed301_oc_59" type="other_continuation" xml:id="EDsed301_oc_58"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_248"><shift corresp="#EDsed301_s_134" feature="loud" new="p" xml:id="EDsed301_s_133"/><anchor synch="#EDsed301_oc_58" type="other_continuation" xml:id="EDsed301_oc_59"/> limited <anchor synch="#EDsed301_oc_61" type="other_continuation" xml:id="EDsed301_oc_60"/><shift corresp="#EDsed301_s_133" feature="loud" new="neutral" xml:id="EDsed301_s_134"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_249"><seg n="8" type="overlap" xml:id="EDsed301_ol_152"><anchor synch="#EDsed301_oc_60" type="other_continuation" xml:id="EDsed301_oc_61"/> limited </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_250"><seg n="8" synch="#EDsed301_ol_152" type="overlap" xml:id="EDsed301_ol_153"><anchor synch="#EDsed301_oc_61" type="other_continuation" xml:id="EDsed301_oc_62"/> er </seg> was limited<c function="fall" type="intonation"/><pause dur="PT1S"/> erm <pause dur="PT1S"/> in terms of sort of <emph> ma</emph>naging a system like that it's it's very difficult <seg n="9" type="overlap" xml:id="EDsed301_ol_154"> er <pause/> it er </seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_251"><seg n="9" synch="#EDsed301_ol_154" type="overlap" xml:id="EDsed301_ol_155"> you have to know how big </seg> each farm is a<c type="lengthening"/>nd how many<c type="lengthening"/><seg n="7" type="overlap" xml:id="EDsed301_ol_156"> you have to say </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_252"><seg n="7" synch="#EDsed301_ol_156" type="overlap" xml:id="EDsed301_ol_157"> it has has </seg> been abused many times er <pause/> i mean <shift corresp="#EDsed301_s_136" feature="loud" new="p" xml:id="EDsed301_s_135"/> er <shift corresp="#EDsed301_s_135" feature="loud" new="neutral" xml:id="EDsed301_s_136"/> all a farmer has to do is lie<c function="fall" type="intonation"/> really<c function="fall" type="intonation"/> because there there're no commissioned officials sort of traveling the countryside<c function="fall" type="intonation"/><pause/> erm <pause/> and <pause dur="PT1S"/> and and yet it would would deal with with <emph> some </emph> of the problems without er sort of er <pause/> in er upsetting the farming population too much<c function="fall" type="intonation"/><shift corresp="#EDsed301_s_138" feature="loud" new="p" xml:id="EDsed301_s_137"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#EDsed301_s_137" feature="loud" new="neutral" xml:id="EDsed301_s_138"/> because the level of income that they would achieve in the end er was w- w- <unclear> pretty </unclear> much stable<c function="fall" type="intonation"/><pause/> it was<c type="lengthening"/> the level of support would would go<c type="lengthening"/> down slowly<c function="fall" type="intonation"/> very <seg n="1" type="overlap" xml:id="EDsed301_ol_158"> slowly </seg> erm <pause dur="PT1S"/></u>
+            <u who="#EDsed301_SX-m" xml:id="EDsed301_u_253"><seg n="1" synch="#EDsed301_ol_158" type="overlap" xml:id="EDsed301_ol_159"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_254"> and <pause/> another thing another sort of scheme that was er developed in the er- in the early nineties it's it's now finally <unclear> in the </unclear> scheme which is the set-aside -side  scheme<c function="fall" type="intonation"/> so there er there was an in<emph>centive </emph> for farmers <pause/> to<c type="lengthening"/> set aside <pause/> parts of their land for <voice:pvc> non-production<c function="fall" type="intonation"/></voice:pvc><pause/></u>
+            <u who="#EDsed301_S4" xml:id="EDsed301_u_255"><shift corresp="#EDsed301_s_140" feature="loud" new="p" xml:id="EDsed301_s_139"/> mhm <shift corresp="#EDsed301_s_139" feature="loud" new="neutral" xml:id="EDsed301_s_140"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_256"> so just not do anything with it<c function="fall" type="intonation"/> not er <pause/> er grow <pause dur="PT1S"/> wheat or <shift corresp="#EDsed301_s_142" feature="loud" new="p" xml:id="EDsed301_s_141"/> w- er w- er w- <shift corresp="#EDsed301_s_141" feature="loud" new="neutral" xml:id="EDsed301_s_142"/> have have <pause dur="PT1S"/> cows grazing on on on on on this land or whatever they would otherwise do<c function="fall" type="intonation"/> erm so that was <pause/> in in a way very crude way er of dealing with the problem of of overproduction<c function="fall" type="intonation"/> by just telling farmers er you are supposed to set aside <pause/> a certain percentage of your land<c function="fall" type="intonation"/><pause dur="PT1S"/> each time<c function="fall" type="intonation"/> that you may sort of rotate<c function="fall" type="intonation"/> e<c type="lengthening"/>r the set-aside land<c function="fall" type="intonation"/> er those of you who know anything well <supplied reason="anonymization"> [S6] </supplied> might erm er about <pause/> er agriculture and <pause/> er <pause/> sort of <emph> grow</emph>ing things <anchor synch="#EDsed301_oc_64" type="other_continuation" xml:id="EDsed301_oc_63"/></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_257"><anchor synch="#EDsed301_oc_63" type="other_continuation" xml:id="EDsed301_oc_64"/><supplied reason="unintelligible"> xx </supplied><anchor synch="#EDsed301_oc_64" type="other_continuation" xml:id="EDsed301_oc_65"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_258"><anchor synch="#EDsed301_oc_65" type="other_continuation" xml:id="EDsed301_oc_66"/> er <anchor synch="#EDsed301_oc_68" type="other_continuation" xml:id="EDsed301_oc_67"/></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_259"><anchor synch="#EDsed301_oc_67" type="other_continuation" xml:id="EDsed301_oc_68"/> that the <supplied reason="unintelligible"> xxx </supplied><unclear> a new </unclear> chance <unclear> in </unclear> the <seg n="2" type="overlap" xml:id="EDsed301_ol_160"> soil<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_260"><seg n="2" synch="#EDsed301_ol_160" type="overlap" xml:id="EDsed301_ol_161"> the </seg> the set-aside er scheme is is is not entirely ridiculous<c function="fall" type="intonation"/><seg n="3" type="overlap" xml:id="EDsed301_ol_162"> er it it it it it </seg> it may be a little bit <emph> crude </emph> in in dealing with this with this one problem but er it helps the soil to recover </u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_261"><seg n="3" synch="#EDsed301_ol_162" type="overlap" xml:id="EDsed301_ol_163"> you're right yeah yeah </seg></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_262"> mhm <anchor synch="#EDsed301_oc_70" type="other_continuation" xml:id="EDsed301_oc_69"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_263"><anchor synch="#EDsed301_oc_69" type="other_continuation" xml:id="EDsed301_oc_70"/> erm and an- and <emph> there</emph>fore there was sort of an environ<emph>men</emph>tal er subtext to this er but it wasn't it wasn't more than a subtext er the the the the <emph> real </emph> issue was <pause/> to deal with the problem of <shift corresp="#EDsed301_s_144" feature="loud" new="p" xml:id="EDsed301_s_143"/> overproduction<c function="fall" type="intonation"/><shift corresp="#EDsed301_s_143" feature="loud" new="neutral" xml:id="EDsed301_s_144"/> and the farmers were supported for their set-aside<c function="fall" type="intonation"/> so they would get money <voice:track medium="1(a)" num="11" type="md"/> for the area that they had set aside er saved from production<c function="fall" type="intonation"/><pause dur="PT1S"/> erm <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> and <pause dur="PT1S"/><emph> then </emph> and now we are coming to i think <supplied reason="anonymization"> [S7]</supplied>'s or <pause/> somebody's comment earlier e<c type="lengthening"/>r there are other things<c type="lengthening"/> the tour<seg n="4" type="overlap" xml:id="EDsed301_ol_164">ism thing </seg> er there are other things that you can do<c type="lengthening"/><pause/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_264"><seg n="4" synch="#EDsed301_ol_164" type="overlap" xml:id="EDsed301_ol_165"><shift corresp="#EDsed301_s_146" feature="loud" new="p" xml:id="EDsed301_s_145"/> tourism <shift corresp="#EDsed301_s_145" feature="loud" new="neutral" xml:id="EDsed301_s_146"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_265"> in the countryside<c function="fall" type="intonation"/> other than growing wheat and er </u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_266"><shift corresp="#EDsed301_s_148" feature="loud" new="p" xml:id="EDsed301_s_147"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#EDsed301_s_147" feature="loud" new="neutral" xml:id="EDsed301_s_148"/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_267"><seg n="5" type="overlap" xml:id="EDsed301_ol_166"><shift corresp="#EDsed301_s_150" feature="loud" new="p" xml:id="EDsed301_s_149"/> hm <shift corresp="#EDsed301_s_149" feature="loud" new="neutral" xml:id="EDsed301_s_150"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_268"><seg n="5" synch="#EDsed301_ol_166" type="overlap" xml:id="EDsed301_ol_167"> er </seg> pigs and </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_269"> m<seg n="6" type="overlap" xml:id="EDsed301_ol_168">hm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_270"><seg n="6" synch="#EDsed301_ol_168" type="overlap" xml:id="EDsed301_ol_169"> cows </seg><pause/> whatever<c function="fall" type="intonation"/> erm <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/> which is to <shift corresp="#EDsed301_s_152" feature="loud" new="p" xml:id="EDsed301_s_151"/> er <shift corresp="#EDsed301_s_151" feature="loud" new="neutral" xml:id="EDsed301_s_152"/> in a way sort of <pause dur="PT1S"/> yeah <pause dur="PT2S"/> the the erm the theme is is rural development<c function="fall" type="intonation"/> er to develop other means of income<c function="fall" type="intonation"/> er in in the countryside<c function="fall" type="intonation"/> er i've i've trouble pronouncing rural  so therefore i'm i'm hoping to avoid it as much as i can<c function="fall" type="intonation"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg type="onomatopoeia"> ˈrʊrə </seg><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="7" type="overlap" xml:id="EDsed301_ol_170"> er </seg> it's a very american word for me <seg type="onomatopoeia"> ˈrʊr </seg></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_271"><seg n="7" synch="#EDsed301_ol_170" type="overlap" xml:id="EDsed301_ol_171"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_272"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_273"> hh erm <pause dur="PT1S"/> so er er what what <emph> are </emph> the other things that you that you can do on the countryside er under the theme of rural development <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_274"> have a <foreign type="LN" voice:translation="traditional austrian party in a marquee" xml:lang="ger"> zeltfest<c function="rise" type="intonation"/></foreign><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_275"><seg n="8" type="overlap" xml:id="EDsed301_ol_172"> say it again </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_276"><seg n="8" synch="#EDsed301_ol_172" type="overlap" xml:id="EDsed301_ol_173"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="9" type="overlap" xml:id="EDsed301_ol_174"><vocal type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_277"><supplied reason="unintelligible"><seg n="9" synch="#EDsed301_ol_174" type="overlap" xml:id="EDsed301_ol_175"> xx xx </seg><seg n="1" type="overlap" xml:id="EDsed301_ol_176"> x <anchor synch="#EDsed301_oc_72" type="other_continuation" xml:id="EDsed301_oc_71"/></seg></supplied></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_278"><seg n="1" synch="#EDsed301_ol_176" type="overlap" xml:id="EDsed301_ol_177"> have </seg> a <foreign type="LN" voice:translation="traditional austrian party in a marquee" xml:lang="ger"> zeltfest<c function="rise" type="intonation"/></foreign><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><anchor synch="#EDsed301_oc_73" type="other_continuation" xml:id="EDsed301_oc_72"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_279"><anchor synch="#EDsed301_oc_72" type="other_continuation" xml:id="EDsed301_oc_73"/> if<c type="lengthening"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_280"><foreign type="LN" voice:translation="traditional austrian party in a marquee" xml:lang="ger"> zeltfest </foreign></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_281"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_282"><seg n="2" type="overlap" xml:id="EDsed301_ol_178"><foreign type="L1" voice:translation="traditional austrian party in a marquee" xml:lang="ger"> zeltfest </foreign></seg></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_283"><seg n="2" synch="#EDsed301_ol_178" type="overlap" xml:id="EDsed301_ol_179"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><seg n="3" type="overlap" xml:id="EDsed301_ol_180"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_284"><seg n="3" synch="#EDsed301_ol_180" type="overlap" xml:id="EDsed301_ol_181"><unclear> well </unclear></seg> but tha- that's an idea you <seg n="4" type="overlap" xml:id="EDsed301_ol_182"> may </seg> you may i mean you wouldn't believe of of how many er funny things are actually supported er <pause dur="PT1S"/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_285"><seg n="4" synch="#EDsed301_ol_182" type="overlap" xml:id="EDsed301_ol_183"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_286"> under under the header  of er rural development er from the europ- european union er there might there might be whatever <voice:pvc> fests </voice:pvc> er <seg n="5" type="overlap" xml:id="EDsed301_ol_184"> being </seg> er er supported<c function="fall" type="intonation"/><pause/> i i know of one example in northern germany er there's there's a the area where i live is erm <pause dur="PT1S"/></u>
+            <u who="#EDsed301_S6" xml:id="EDsed301_u_287"><seg n="5" synch="#EDsed301_ol_184" type="overlap" xml:id="EDsed301_ol_185"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_288"> sort of a pig area <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_289"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_290"> er so they've th- there there are places there where er there would be very intensive pig production<c function="fall" type="intonation"/> erm  </u>
+            <u who="#EDsed301_S4" xml:id="EDsed301_u_291"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_292"> and it it <seg n="6" type="overlap" xml:id="EDsed301_ol_186"> it's </seg> it doesn't smell very good  </u>
+            <u who="#EDsed301_S4" xml:id="EDsed301_u_293"><seg n="6" synch="#EDsed301_ol_186" type="overlap" xml:id="EDsed301_ol_187"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_294"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_295"> erm and er there would be some areas that er sort of have these er these <emph> an</emph>nual or biannual e<c type="lengthening"/>r celebrations whatever er what they then do but e<c type="lengthening"/>r they wou- o- w- one one little village that i know of they sort of er er run all their pigs through town and whatever there's something <seg n="7" type="overlap" xml:id="EDsed301_ol_188"> about </seg> this and <pause/></u>
+            <u who="#EDsed301_S4" xml:id="EDsed301_u_296"><seg n="7" synch="#EDsed301_ol_188" type="overlap" xml:id="EDsed301_ol_189"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_297"> er it's supposed to be sort of a tourist attraction er to sort of <emph> go </emph> there this er one weekend when <pause/> a sort of <shift corresp="#EDsed301_s_154" feature="loud" new="p" xml:id="EDsed301_s_153"/> er er <shift corresp="#EDsed301_s_153" feature="loud" new="neutral" xml:id="EDsed301_s_154"/> the entire <emph> pig </emph> population <seg n="8" type="overlap" xml:id="EDsed301_ol_190"> is sort of </seg> er <pause/></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_298"><seg n="8" synch="#EDsed301_ol_190" type="overlap" xml:id="EDsed301_ol_191"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_299"> er rushed through this <emph> vil</emph>lage er it's supposed to be somehow funny or interesting <pause/> erm it's it's something that's actually been <shift corresp="#EDsed301_s_156" feature="tempo" new="l" xml:id="EDsed301_s_155"/> supported er by european union funds <shift corresp="#EDsed301_s_155" feature="tempo" new="neutral" xml:id="EDsed301_s_156"/> er under the measure of rural development because er it it's sort of er <pause/> er makes everybody sort of at least in the greater vicinity <emph> know </emph> of this place and people would actually <emph> go </emph> there for the weekend spend <emph> mo</emph>ney on this weekend and <shift corresp="#EDsed301_s_158" feature="tempo" new="l" xml:id="EDsed301_s_157"/> support er <shift corresp="#EDsed301_s_157" feature="tempo" new="neutral" xml:id="EDsed301_s_158"/> i guess the village beyond just pig farming er and and sort of <unclear> have </unclear><supplied reason="unintelligible"> x </supplied> the touristy <pause/> element to it<c function="fall" type="intonation"/><pause/><unclear><emph> good </emph></unclear> they are very very curious and and and er <pause/> well you may say ridiculous<c function="fall" type="intonation"/><voice:track medium="1(a)" num="12" type="md"/> sort of things <pause/><emph> fi</emph>nanced under under the header  of <pause/> rural development er you may think of smarter things to do and i'm i'm sure there <emph> are </emph> smarter projects er that are funded under this under this header <pause/> but er the the m- mcsherry  reform was was er im<emph>po</emph>rtant er because it was the first reform that actually sort of opened er this option<c function="fall" type="intonation"/> er that is was not only <emph> far</emph>ming but also other activities <pause/> er <pause/> er in <pause/><emph> f</emph><c type="lengthening"/><emph>or</emph>merly farming areas that are supported<c function="fall" type="intonation"/><shift corresp="#EDsed301_s_160" feature="loud" new="p" xml:id="EDsed301_s_159"/> er <shift corresp="#EDsed301_s_159" feature="loud" new="neutral" xml:id="EDsed301_s_160"/><pause/> and again they were supported through direct payments to those who did it<c function="fall" type="intonation"/><pause/> er <pause dur="PT1S"/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause/> er <pause/> one one other area that that i may o- of or that one <emph> may </emph> er mention is is the<c type="lengthening"/> er reforestra- <shift corresp="#EDsed301_s_162" feature="tempo" new="l" xml:id="EDsed301_s_161"/> reforestation <shift corresp="#EDsed301_s_161" feature="tempo" new="neutral" xml:id="EDsed301_s_162"/> in in some of these areas so er <pause/> rather than than er having pigs you may plant wood <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_300"><shift corresp="#EDsed301_s_164" feature="loud" new="p" xml:id="EDsed301_s_163"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#EDsed301_s_163" feature="loud" new="neutral" xml:id="EDsed301_s_164"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_301"> and and and and and hope that there's sort of a a a forest er developing which is considered er environ<emph>me</emph>ntally advantageous <pause/> erm <shift corresp="#EDsed301_s_166" feature="tempo" new="a" xml:id="EDsed301_s_165"/> so there were sort of er <shift corresp="#EDsed301_s_165" feature="tempo" new="neutral" xml:id="EDsed301_s_166"/> lots of new measures er that were built <pause/> around <pause/> the agricultural policy  without hurting the farmers <pause/> too much<c function="fall" type="intonation"/> the only thing that some the farmers wa- were expected to do is hh they would er <pause/> supposed to <pause/><emph> li</emph>mit their farming er and sometimes do different things er like er most farmers wouldn't particularly like the idea of of planting wood if they can't er cut the wood eventually but they're not supposed to cut the wood <pause/> eventually <pause/> so it's it's in a way you're you're sort of wo- w- <pause/><emph> cha</emph>llenging the the er the identity of the average farmer<c function="fall" type="intonation"/> er and therefore there was <emph> a </emph><emph> lot </emph> of opposition against this reform er from the pa- farming population <pause/> erm <pause/> but neverthe- nevertheless it came through<c function="fall" type="intonation"/> now what <pause/> what what might be the problems with <emph> this </emph> policy <pause dur="PT4S"/> i mean do you like <seg n="5" type="overlap" xml:id="EDsed301_ol_192"> it </seg> i- <seg n="6" type="overlap" xml:id="EDsed301_ol_193"> is it a good reform </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_302"><seg n="5" synch="#EDsed301_ol_192" type="overlap" xml:id="EDsed301_ol_194"> with </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_303"><seg n="6" synch="#EDsed301_ol_193" type="overlap" xml:id="EDsed301_ol_195"> you mean with the </seg> reforms  </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_304"> yeah <pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_305"> too many direct payments  </u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_306"><shift corresp="#EDsed301_s_168" feature="loud" new="p" xml:id="EDsed301_s_167"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#EDsed301_s_167" feature="loud" new="neutral" xml:id="EDsed301_s_168"/><pause dur="PT1S"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_307"> i mean they're <pause/> they're receiving direct payments for what they produce they're receiving direct payments for what they set asides </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_308"> mhm </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_309"> they're receiving direct payments if they do something <emph> else </emph> than farming </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_310"> mhm </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_311"> i mean<c type="lengthening"/> e<c type="lengthening"/>r <anchor synch="#EDsed301_oc_75" type="other_continuation" xml:id="EDsed301_oc_74"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_312"><anchor synch="#EDsed301_oc_74" type="other_continuation" xml:id="EDsed301_oc_75"/> it still doesn't solve the problem of <voice:pvc> rentability </voice:pvc><anchor synch="#EDsed301_oc_77" type="other_continuation" xml:id="EDsed301_oc_76"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_313"><anchor synch="#EDsed301_oc_76" type="other_continuation" xml:id="EDsed301_oc_77"/><emph> yes </emph><anchor synch="#EDsed301_oc_79" type="other_continuation" xml:id="EDsed301_oc_78"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_314"><shift corresp="#EDsed301_s_170" feature="loud" new="p" xml:id="EDsed301_s_169"/><anchor synch="#EDsed301_oc_78" type="other_continuation" xml:id="EDsed301_oc_79"/> mhm <shift corresp="#EDsed301_s_169" feature="loud" new="neutral" xml:id="EDsed301_s_170"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_315"><seg n="8" type="overlap" xml:id="EDsed301_ol_196"><shift corresp="#EDsed301_s_172" feature="loud" new="p" xml:id="EDsed301_s_171"/> it's <shift corresp="#EDsed301_s_171" feature="loud" new="neutral" xml:id="EDsed301_s_172"/></seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_316"><seg n="8" synch="#EDsed301_ol_196" type="overlap" xml:id="EDsed301_ol_197"> that's </seg> one thing and then <pause/> they <emph> are </emph> getting lots of money aren't they<c function="fall" type="intonation"/> if they do lots of things </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_317"> er some of them do some of them don't<c function="fall" type="intonation"/> er i mean one one problem that er that remains is that it would er put farmers at an at an advantage <pause/> who own big farms <pause dur="PT1S"/> who can <seg n="7" type="overlap" xml:id="EDsed301_ol_198"> set </seg> aside lots of land er  </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_318"><seg n="7" synch="#EDsed301_ol_198" type="overlap" xml:id="EDsed301_ol_199"> yes </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_319"> yeah </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_320"> who er have sort a level of income from the <emph> pre</emph>vious system <pause/> that is more or less maintained through this new system <pause/> erm so therefore er <pause dur="PT1S"/> whatever the the the <emph> au</emph>strian mountain farmers <pause/> for instance er wouldn't benefit particularly from this kind of er kind of system er because er <voice:track medium="1(a)" num="13" type="md"/> they they would <pause/><emph> us</emph>ually not er <shift corresp="#EDsed301_s_174" feature="loud" new="p" xml:id="EDsed301_s_173"/> er er <shift corresp="#EDsed301_s_173" feature="loud" new="neutral" xml:id="EDsed301_s_174"/> sort of achieve the number of of of of cows that er could possibly be er be held <pause/> er on on an <emph> ar</emph>ea er that they would own <pause/> er because the areas are particularly er <emph> hos</emph>pitable <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_321"><shift corresp="#EDsed301_s_176" feature="loud" new="p" xml:id="EDsed301_s_175"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#EDsed301_s_175" feature="loud" new="neutral" xml:id="EDsed301_s_176"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_322"> erm <pause/> if you have sort of a hilly area or even mountainous area of of course you would have less er <pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_323"><shift corresp="#EDsed301_s_178" feature="loud" new="p" xml:id="EDsed301_s_177"/> land <anchor synch="#EDsed301_oc_81" type="other_continuation" xml:id="EDsed301_oc_80"/><shift corresp="#EDsed301_s_177" feature="loud" new="neutral" xml:id="EDsed301_s_178"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_324"><anchor synch="#EDsed301_oc_80" type="other_continuation" xml:id="EDsed301_oc_81"/> of <pause/> er </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_325"> land <anchor synch="#EDsed301_oc_83" type="other_continuation" xml:id="EDsed301_oc_82"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_326"><anchor synch="#EDsed301_oc_82" type="other_continuation" xml:id="EDsed301_oc_83"/> or you <unclear> w- </unclear> less <emph> us</emph>able land <seg n="9" type="overlap" xml:id="EDsed301_ol_200"> right </seg> you you may have as much land but less usa- usable land for farming hh <shift corresp="#EDsed301_s_180" feature="loud" new="p" xml:id="EDsed301_s_179"/> erm <shift corresp="#EDsed301_s_179" feature="loud" new="neutral" xml:id="EDsed301_s_180"/> so therefore er this this system still wouldn't account for problems of of smaller er of smaller farmers or or farmers in difficult areas<c function="fall" type="intonation"/><pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_327"><seg n="9" synch="#EDsed301_ol_200" type="overlap" xml:id="EDsed301_ol_201"><shift corresp="#EDsed301_s_182" feature="loud" new="p" xml:id="EDsed301_s_181"/> mhm <shift corresp="#EDsed301_s_181" feature="loud" new="neutral" xml:id="EDsed301_s_182"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_328"> erm of course there was now er a spe- special system set up er for farmers in <pause dur="PT1S"/> somehow problematic areas<c function="fall" type="intonation"/><pause/> so there was er <pause/> mountain farmers <pause/> fund <seg n="1" type="overlap" xml:id="EDsed301_ol_202"> er or </seg> part of the fund er there was a a particular fund er for <pause dur="PT1S"/></u>
+            <u who="#EDsed301_SX-1" xml:id="EDsed301_u_329"><seg n="1" synch="#EDsed301_ol_202" type="overlap" xml:id="EDsed301_ol_203"><shift corresp="#EDsed301_s_184" feature="loud" new="p" xml:id="EDsed301_s_183"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#EDsed301_s_183" feature="loud" new="neutral" xml:id="EDsed301_s_184"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_330"> farmers in <pause/> on islands <pause dur="PT1S"/><shift corresp="#EDsed301_s_186" feature="tempo" new="a" xml:id="EDsed301_s_185"/> i don't know what the wh- what the story is with islands <shift corresp="#EDsed301_s_185" feature="tempo" new="neutral" xml:id="EDsed301_s_186"/> but <unclear> there </unclear> but but but nevertheless with er problematic climatic er situations<c function="fall" type="intonation"/> so there were all kinds of sort of  different support schemes for all kinds of different kinds of farmers<c function="fall" type="intonation"/><pause/> er so again it wasn't <pause/> particularly <unclear> in</unclear>efficient policy the <pause/> the price support was much more effis- efficient y- you didn't need much to run <emph> that </emph> kind of system<c function="fall" type="intonation"/> if you have a have a system of of e<c type="lengthening"/>r direct payments er you really are in trouble  </u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_331"><shift corresp="#EDsed301_s_188" feature="loud" new="p" xml:id="EDsed301_s_187"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#EDsed301_s_187" feature="loud" new="neutral" xml:id="EDsed301_s_188"/></u>
+            <u who="#EDsed301_SX-1" xml:id="EDsed301_u_332"><shift corresp="#EDsed301_s_190" feature="loud" new="p" xml:id="EDsed301_s_189"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#EDsed301_s_189" feature="loud" new="neutral" xml:id="EDsed301_s_190"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_333"> erm <pause dur="PT1S"/> so<c type="lengthening"/><pause/> the the issue of <voice:pvc> rentability </voice:pvc> of of competitiveness er wasn't particularly dealt with er the farming population was <pause dur="PT1S"/> on the whole still protected <pause/> er the inequalities within the pa- farming population  were not dealt with <pause/> erm <pause dur="PT1S"/> big small farmers <pause/> erm <pause/> you had the issue of inefficiency <pause/> any other problems<c function="rise" type="intonation"/><pause dur="PT7S"/><unclear> from </unclear> i guess <supplied reason="anonymization"> [S1]</supplied>'s problem still still holds right that you still sort of look at farmers and forget about other needy people in <seg n="2" type="overlap" xml:id="EDsed301_ol_204"> the in </seg> the population<c function="fall" type="intonation"/><pause/></u>
+            <u who="#EDsed301_S1" xml:id="EDsed301_u_334"><seg n="2" synch="#EDsed301_ol_204" type="overlap" xml:id="EDsed301_ol_205"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_335"> erm <pause dur="PT1S"/> yeah  </u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_336"> shouldn't the focus of such reform  be<c type="lengthening"/> to er lower the number of farmers to decrease the dimension of the the the agricultural sector <anchor synch="#EDsed301_oc_85" type="other_continuation" xml:id="EDsed301_oc_84"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_337"><anchor synch="#EDsed301_oc_84" type="other_continuation" xml:id="EDsed301_oc_85"/> yeah <anchor synch="#EDsed301_oc_87" type="other_continuation" xml:id="EDsed301_oc_86"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_338"><anchor synch="#EDsed301_oc_86" type="other_continuation" xml:id="EDsed301_oc_87"/> because in fact this is the problem the fact that agriculture doesn't pay off </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_339"> mhm <anchor synch="#EDsed301_oc_89" type="other_continuation" xml:id="EDsed301_oc_88"/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_340"><anchor synch="#EDsed301_oc_88" type="other_continuation" xml:id="EDsed301_oc_89"/> to the extent <seg n="3" type="overlap" xml:id="EDsed301_ol_206"> that </seg> it is now<c type="lengthening"/> er occupying the workforce </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_341"><seg n="3" synch="#EDsed301_ol_206" type="overlap" xml:id="EDsed301_ol_207"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_342"> yeah </u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_343"> so the interest would be<c type="lengthening"/> er er tony blair's idea for example of re-educating of<c type="lengthening"/> financing education programs in order to help er some of these farmers <voice:pvc> reorient </voice:pvc></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_344"> mhm </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_345"> yeah <seg n="6" type="overlap" xml:id="EDsed301_ol_208"> but that's<c type="lengthening"/><c type="lengthening"/></seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_346"><seg n="6" synch="#EDsed301_ol_208" type="overlap" xml:id="EDsed301_ol_209"> towards other fields </seg> because there are too many of them and <seg n="4" type="overlap" xml:id="EDsed301_ol_210"> it's not </seg> worthwhile <pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_347"><seg n="4" synch="#EDsed301_ol_210" type="overlap" xml:id="EDsed301_ol_211"> mhm </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_348"> but then you come to the problem of er er viability of such project<c function="fall" type="intonation"/> because <pause/> i mean if you take what happens in our <voice:track medium="1(a)" num="14" type="md"/> countries it's easy to<c type="lengthening"/><voice:pvc> reorientate </voice:pvc> a person who has twenty thirty years  </u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_349"> yes but <seg n="7" type="overlap" xml:id="EDsed301_ol_212"> this is </seg> a long-term project it doesn't refer to fifty year old farmers it refers <seg n="2" type="overlap" xml:id="EDsed301_ol_213"> to their </seg> children <pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_350"><seg n="7" synch="#EDsed301_ol_212" type="overlap" xml:id="EDsed301_ol_214"> yes<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_351"><seg n="2" synch="#EDsed301_ol_213" type="overlap" xml:id="EDsed301_ol_215"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_352"> and their grandchildren so er the- the- they avoid er doing what their parents do <pause/><seg n="8" type="overlap" xml:id="EDsed301_ol_216"> and </seg> are helped to to go to a certain to a different  </u>
+            <u who="#EDsed301_SX-2" xml:id="EDsed301_u_353"><seg n="8" synch="#EDsed301_ol_216" type="overlap" xml:id="EDsed301_ol_217"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_354"> mhm </u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_355"> field of activity  that that <seg n="9" type="overlap" xml:id="EDsed301_ol_218"><unclear> isn't well </unclear></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_356"><seg n="9" synch="#EDsed301_ol_218" type="overlap" xml:id="EDsed301_ol_219"><vocal type="speaker_noise" voice:desc="smacks lips"/> to </seg> to a large extent that that was happening anyway<c function="fall" type="intonation"/><pause/> right er that er the<c type="lengthening"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_357"> yeah </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_358"> children of of of the farmers would er not go to a farming school but er but do something else and and er find a job in the cities <pause/> erm typically in the cities<c function="fall" type="intonation"/><pause/> er which w- <pause/> in a way returns us  to to another <pause/> initial objective namely keeping some peop- some people at least on the land<c function="fall" type="intonation"/> in the countryside<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_359"> mhm </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_360"> and not sort of causing a great <pause dur="PT1S"/> deal of of of of depopulat- de<c type="lengthening"/>- depopulation in the countryside and and <emph> over</emph>population in in <seg n="1" type="overlap" xml:id="EDsed301_ol_220"> the cities </seg><pause/></u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_361"><seg n="1" synch="#EDsed301_ol_220" type="overlap" xml:id="EDsed301_ol_221"><shift corresp="#EDsed301_s_192" feature="loud" new="p" xml:id="EDsed301_s_191"/> cities <shift corresp="#EDsed301_s_191" feature="loud" new="neutral" xml:id="EDsed301_s_192"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_362"> erm in the cities where we have er still the prob- -le- er <emph> again </emph> i guess the problem of er of unem<emph>ploy</emph>ment so what do you do with all these er farmers' <seg n="2" type="overlap" xml:id="EDsed301_ol_222"> kids </seg> er erm certainly highly educated er but j- just as another segment of the population w- er looking for jobs<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_363"><seg n="2" synch="#EDsed301_ol_222" type="overlap" xml:id="EDsed301_ol_223"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_364"> so therefore you may just sort of shift <pause/> the problem and and sort of <emph> in</emph>crease social needs somewhere else<c function="fall" type="intonation"/> erm <pause/> er <pause/> nevertheless<c type="lengthening"/> er that that was certainly something that was also encouraged by by this policy er one of the other <pause/> er measures er within the mcsherry  reform was to encourage early retirement<c function="fall" type="intonation"/><pause/> er early retirement <pause/> in in order to in way <emph> free </emph> the land for whatever new purposes <pause/> er which could be agricultural purposes if there we- was somebody who has an idea of of er who wanted to modernize <pause dur="PT1S"/> possibly <pause/> erm but also for other activities er under the rubric  of er rural development <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_365"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_366"> er <pause dur="PT1S"/> it could be <emph> agri</emph>tourism <pause/><seg n="3" type="overlap" xml:id="EDsed301_ol_224"> er </seg> which would be sort of another means of of sort of using the land er and er <pause/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_367"><seg n="3" synch="#EDsed301_ol_224" type="overlap" xml:id="EDsed301_ol_225"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_368"> m- making an in- an income<c function="fall" type="intonation"/><pause/> erm <vocal type="speaker_noise" voice:desc="smacks lips"/><pause dur="PT1S"/> the the agenda er twenty-two <pause dur="PT1S"/> and the berlin agreement for for the <emph> next </emph> round of reforms er which was<c type="lengthening"/> sort of<c type="lengthening"/><pause dur="PT1S"/> er made in light of the enlargement <pause dur="PT1S"/> so <unclear> w- </unclear> at that point <pause/> decision-makers in the european union knew that er <pause/> er sooner or later there would be er quite a number of new members and they <unclear> were </unclear> er <pause dur="PT3S"/> they had a heavy agriculture erm er they had er certainly they they would come with with heavy demands <pause/> on this agricultural <pause/> policy and er where there er where there would be price support or e- or or direct payments <pause/> er in a way direct payments were even even more <emph> dan</emph>gerous er from the perspective of the budget because there were more people <pause/><seg n="4" type="overlap" xml:id="EDsed301_ol_226"> that </seg> were asking for direct payments <voice:track medium="1(a)" num="15" type="md"/> erm <pause dur="PT1S"/></u>
+            <u who="#EDsed301_SX-1" xml:id="EDsed301_u_369"><seg n="4" synch="#EDsed301_ol_226" type="overlap" xml:id="EDsed301_ol_227"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_370"><emph> and </emph> and therefore s- s- some some sort of a <emph> next </emph> reform had to happen quite quite regard<seg n="5" type="overlap" xml:id="EDsed301_ol_228">less </seg> er of the fact that the international community was still not entirely happy with the  <w voice:mode="spelt"> e u  </w><pause/></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_371"><seg n="5" synch="#EDsed301_ol_228" type="overlap" xml:id="EDsed301_ol_229"> hm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_372"> despite these reforms <pause dur="PT1S"/> a<c type="lengthening"/>nd what we saw first was more of the same <pause dur="PT1S"/> so er another round of price cuts <pause dur="PT1S"/> erm <pause dur="PT1S"/> another er or or an extension of these er <shift corresp="#EDsed301_s_194" feature="tempo" new="l" xml:id="EDsed301_s_193"/> pric<c type="lengthening"/>e-independent ways <shift corresp="#EDsed301_s_193" feature="tempo" new="neutral" xml:id="EDsed301_s_194"/> of supporting farmers <seg n="6" type="overlap" xml:id="EDsed301_ol_230"> er </seg> and <pause/></u>
+            <u who="#EDsed301_SX-m" xml:id="EDsed301_u_373"><seg n="6" synch="#EDsed301_ol_230" type="overlap" xml:id="EDsed301_ol_231"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_374"> er another way of of sort of pushing  farmers to do something else but farming <pause/></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_375"><shift corresp="#EDsed301_s_196" feature="loud" new="p" xml:id="EDsed301_s_195"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#EDsed301_s_195" feature="loud" new="neutral" xml:id="EDsed301_s_196"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_376"> erm <pause dur="PT1S"/> by er <shift corresp="#EDsed301_s_198" feature="loud" new="p" xml:id="EDsed301_s_197"/> f- w- w- <shift corresp="#EDsed301_s_197" feature="loud" new="neutral" xml:id="EDsed301_s_198"/><pause dur="PT1S"/> growing forests er by er er getting into <unclear> of </unclear> er agri- er agri- <shift corresp="#EDsed301_s_200" feature="tempo" new="l" xml:id="EDsed301_s_199"/><emph> agri</emph>tourism <shift corresp="#EDsed301_s_199" feature="tempo" new="neutral" xml:id="EDsed301_s_200"/> or <shift corresp="#EDsed301_s_202" feature="tempo" new="a" xml:id="EDsed301_s_201"/> by simply setting aside land and hoping to get money for that <shift corresp="#EDsed301_s_201" feature="tempo" new="neutral" xml:id="EDsed301_s_202"/><shift corresp="#EDsed301_s_204" feature="loud" new="p" xml:id="EDsed301_s_203"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#EDsed301_s_203" feature="loud" new="neutral" xml:id="EDsed301_s_204"/> erm <pause/> and <pause dur="PT1S"/> er i mean tha- er in a way that was a <emph> mi</emph>nor reform i- it was it was not a systemic  reform it was just sort of <unclear> in </unclear> try- trying to deal with budgetary constraints er but with ten new members er with a with a large agricultural population that wouldn't really solve the <shift corresp="#EDsed301_s_206" feature="loud" new="p" xml:id="EDsed301_s_205"/> problem<c function="fall" type="intonation"/><shift corresp="#EDsed301_s_205" feature="loud" new="neutral" xml:id="EDsed301_s_206"/><pause/> erm <pause dur="PT1S"/> as these were new members <pause/> er you could always try to make special deals with the with the new <emph> mem</emph>bers and what was er <emph> late</emph>ly er discussed and i think agreed is <pause/> that the new members wouldn't take <pause/> er or wouldn't get the full advantage of of the direct payments but would er get only the twenty-five per cent i think or i i was mentioning that yesterday<c function="fall" type="intonation"/> only only twenty-five per cent of what the <emph> for</emph>mer members or the <emph> ear</emph>lier member states would would receive from the agricultural <pause/> er policy<c function="fall" type="intonation"/> now that that again of course is not a sustainable policy<c function="fall" type="intonation"/> you you can't run er a  <w voice:mode="spelt"> e u  </w> policy under the name of <emph> common </emph> agricultural policy <pause/> a<c type="lengthening"/>nd discriminate against some of the members <pause/> right i mean you may do that er <pause/> as a trandi- as f- as a tra- tr- transition er or for a transition er period but <pause dur="PT1S"/> but you can't possibly sort of sustain the system say well these these are ten ten countries that are for some reason different er they came later er <pause/> and er they they only get a quarter of the funds <pause/> erm so that's er that's certainly not <pause/> not something that you can can do forever<c function="fall" type="intonation"/> so therefore the the er <pause/><emph> ul</emph>timate question of how to reform the cap  i gu- i guess is still out <pause dur="PT1S"/> so if you were now to advise the european union <pause dur="PT1S"/> in the last <pause/> two or three minutes  </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_377"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="7" type="overlap" xml:id="EDsed301_ol_232"><vocal type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_378"><seg n="7" synch="#EDsed301_ol_232" type="overlap" xml:id="EDsed301_ol_233"> er of </seg> of what to do with this policy what what would you tell<c type="lengthening"/><pause/> the commissioner <pause/> the <pause/><shift corresp="#EDsed301_s_208" feature="tempo" new="a" xml:id="EDsed301_s_207"/> commissioner who's this <emph> danish </emph> lady <shift corresp="#EDsed301_s_207" feature="tempo" new="neutral" xml:id="EDsed301_s_208"/> right e<c type="lengthening"/>r er to  </u>
+            <u who="#EDsed301_S4" xml:id="EDsed301_u_379"><shift corresp="#EDsed301_s_210" feature="loud" new="p" xml:id="EDsed301_s_209"/><shift corresp="#EDsed301_s_212" feature="voice" new="laugh" xml:id="EDsed301_s_211"/> who is it <anchor synch="#EDsed301_oc_91" type="other_continuation" xml:id="EDsed301_oc_90"/><shift corresp="#EDsed301_s_211" feature="voice" new="neutral" xml:id="EDsed301_s_212"/><shift corresp="#EDsed301_s_209" feature="loud" new="neutral" xml:id="EDsed301_s_210"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_380"><anchor synch="#EDsed301_oc_90" type="other_continuation" xml:id="EDsed301_oc_91"/> to do <pause dur="PT1S"/> in agriculture <pause dur="PT1S"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_381"> lower income support <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></u>
+            <u who="#EDsed301_SX-m" xml:id="EDsed301_u_382"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_383"><seg n="8" type="overlap" xml:id="EDsed301_ol_234"> okay </seg></u>
+            <u who="#EDsed301_S5" xml:id="EDsed301_u_384"><seg n="8" synch="#EDsed301_ol_234" type="overlap" xml:id="EDsed301_ol_235"> try to </seg><unclear> pay </unclear> it for france </u>
+            <u who="#EDsed301_S7" xml:id="EDsed301_u_385"><shift corresp="#EDsed301_s_214" feature="voice" new="laugh" xml:id="EDsed301_s_213"/> oh yeah <shift corresp="#EDsed301_s_213" feature="voice" new="neutral" xml:id="EDsed301_s_214"/></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_386"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><voice:track medium="1(a)" num="16" type="md"/><pause dur="PT1S"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_387"> well france is the problem ob<seg n="9" type="overlap" xml:id="EDsed301_ol_236">viously </seg><seg n="2" type="overlap" xml:id="EDsed301_ol_237"> yes </seg></u>
+            <u who="#EDsed301_SX" xml:id="EDsed301_u_388"><seg n="9" synch="#EDsed301_ol_236" type="overlap" xml:id="EDsed301_ol_238"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_389"><seg n="2" synch="#EDsed301_ol_237" type="overlap" xml:id="EDsed301_ol_239"><shift corresp="#EDsed301_s_216" feature="loud" new="p" xml:id="EDsed301_s_215"/> yeah <shift corresp="#EDsed301_s_215" feature="loud" new="neutral" xml:id="EDsed301_s_216"/></seg></u>
+            <u who="#EDsed301_S5" xml:id="EDsed301_u_390"> yes let's get rid <seg n="1" type="overlap" xml:id="EDsed301_ol_240"> of the france <unclear> in </unclear><supplied reason="unintelligible"> x </supplied></seg><seg n="3" type="overlap" xml:id="EDsed301_ol_241"><supplied reason="unintelligible"> xx </supplied></seg></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_391"><seg n="1" synch="#EDsed301_ol_240" type="overlap" xml:id="EDsed301_ol_242"> fra- oh yes </seg></u>
+            <u who="#EDsed301_SX-8" xml:id="EDsed301_u_392"><seg n="3" synch="#EDsed301_ol_241" type="overlap" xml:id="EDsed301_ol_243"><shift corresp="#EDsed301_s_218" feature="voice" new="laugh" xml:id="EDsed301_s_217"/> yeah <shift corresp="#EDsed301_s_217" feature="voice" new="neutral" xml:id="EDsed301_s_218"/></seg></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_393"> i guess france is still <supplied reason="unintelligible"> xx </supplied><pause dur="PT1S"/></u>
+            <u who="#EDsed301_SX-f" xml:id="EDsed301_u_394"><shift corresp="#EDsed301_s_220" feature="loud" new="p" xml:id="EDsed301_s_219"/> mhm <shift corresp="#EDsed301_s_219" feature="loud" new="neutral" xml:id="EDsed301_s_220"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_395"> erm <pause dur="PT1S"/> i mean <unclear> wh</unclear>- on- one thing er and that was initiated by the <emph> fo</emph>rmer commissioner fischler from austria <pause/> er is is something that you see on this graph er is sort of <pause/> the <pause dur="PT1S"/> market measures<c function="fall" type="intonation"/> so those are the price re- er price supports <pause/> you see that they dra<emph>ma</emph>tically went up erm <pause/> so this was following the mc- the the mcsherry  reform already and that was sort of er pushed a <emph> little </emph> bit further <pause/> by er <pause/> commissioner fi- er fischler <pause/> er what was <emph> also </emph> happening is that these these direct payments <pause dur="PT1S"/> increased <pause dur="PT1S"/> i- if if you sort of er er <emph> add </emph> these two columns you probably er end up with er at the at the same height<c function="fall" type="intonation"/> right it was just sort of er another way of of spending the money e<c type="lengthening"/>r so that <pause/> so this <pause/> reversal er that's mcsherry<c function="fall" type="intonation"/><pause/> what fischler did <pause dur="PT1S"/> is is this white column<c function="fall" type="intonation"/><pause/> the white column that's called rural development erm so this one <pause/> has been constantly rising and that's in a way really just to to to shift <pause/> activities in the countryside to something else er <pause/> some other activities <pause/> er but farming <pause/> and er that of course is a very sort of gradual process <pause/> y- you don't do that overnight and tell a farmer to to think of something else to do <pause/> with his land <pause/> erm </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_396"> yes but if they have this security they don't have any incentives to do something else <pause dur="PT1S"/> i mean <emph> if </emph> i if i know this i will erm get the money anyway i mean what why bother to do something else<c function="rise" type="intonation"/><pause/> no<c function="rise" type="intonation"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_397"> yeah </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_398"> isn't it like that but if <emph> know </emph> that <pause dur="PT1S"/> er they cut my funds and that i<c type="lengthening"/>'ll probably next month <seg n="4" type="overlap" xml:id="EDsed301_ol_244"> receive </seg><emph> half </emph> of what i'm supposed to get <pause dur="PT1S"/> then i'll <emph> have </emph> to think of a way to<c type="lengthening"/> to get more income<c function="rise" type="intonation"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_399"><seg n="4" synch="#EDsed301_ol_244" type="overlap" xml:id="EDsed301_ol_245"> mhm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_400"> mhm <pause/><vocal type="speaker_noise" voice:desc="smacks lips"/><seg n="5" type="overlap" xml:id="EDsed301_ol_246"> it's </seg> true <pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_401"><seg n="5" synch="#EDsed301_ol_246" type="overlap" xml:id="EDsed301_ol_247"> no<c function="rise" type="intonation"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_402"> it's <seg n="6" type="overlap" xml:id="EDsed301_ol_248"> true<c function="fall" type="intonation"/></seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_403"><seg n="6" synch="#EDsed301_ol_248" type="overlap" xml:id="EDsed301_ol_249"> it's </seg> it's a simple logic of survival it's<c type="lengthening"/> it's normal no<c function="rise" type="intonation"/><pause dur="PT1S"/> i <seg n="7" type="overlap" xml:id="EDsed301_ol_250"> mean </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_404"><seg n="7" synch="#EDsed301_ol_250" type="overlap" xml:id="EDsed301_ol_251"> yes </seg> yes i i mean if i i guess the critical thing er is this<c type="lengthening"/> er this this column which will continue for a number of years at least if the agreement er between france and germany is is go- going to be maintained i mean tha- that was sort of the crucial issue with these budgetary negotiations that took place <pause/> a few weeks ago <pause/> er er france and germany had er m- made a deal<c function="fall" type="intonation"/> between themselves er and had somehow convinced the rest er that <pause/> that direct payment <pause/> er would be <pause/> maintained at at a <pause/> s<c type="lengthening"/>omewhat similar level fo- er un- until two thousand and thirteen <pause/> and that sort of the the <voice:track medium="1(a)" num="17" type="md"/> the <emph> next </emph><pause dur="PT1S"/> grand reform of of the agricultural policy would have to wait until then </u>
+            <u who="#EDsed301_SX-m" xml:id="EDsed301_u_405"><shift corresp="#EDsed301_s_222" feature="loud" new="p" xml:id="EDsed301_s_221"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><shift corresp="#EDsed301_s_221" feature="loud" new="neutral" xml:id="EDsed301_s_222"/></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_406"> er that was<c type="lengthening"/> a very french <pause dur="PT1S"/> decision<c function="fall" type="intonation"/> right<c function="rise" type="intonation"/> er and and that was what was upsetting tony blair back then but but he had agreed to it er he had actually agreed to it<c function="fall" type="intonation"/> and he sort of w- er changed his mind during the budgetary negotiations a few weeks ago<c function="fall" type="intonation"/> and said er well this this this is not a good idea and it does exactly what you were saying it it sort of s- <shift corresp="#EDsed301_s_224" feature="loud" new="p" xml:id="EDsed301_s_223"/> erm <shift corresp="#EDsed301_s_223" feature="loud" new="neutral" xml:id="EDsed301_s_224"/> provides so mu- too much security for er <pause/> er not changing <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/> erm <anchor synch="#EDsed301_oc_93" type="other_continuation" xml:id="EDsed301_oc_92"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_407"><anchor synch="#EDsed301_oc_92" type="other_continuation" xml:id="EDsed301_oc_93"/> and then if one compares this to what is happening for example in the<c type="lengthening"/> entrepreneurship or the services sector  </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_408"> right </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_409"> where the competition is <emph> so </emph><c type="lengthening"/> harsh that people have to work and have to invent everyth- every single day something new so that they can <emph> stay </emph> on the market  </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_410"> mhm  </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_411"> and have some profit i mean <emph> this </emph> is really <pause/> not fair as opposed to other er sectors of the economy  </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_412"> no it's not </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_413"> because <emph> yes </emph> they are giving m- they us food i agree with you <supplied reason="anonymization"> [S6] </supplied> but <pause dur="PT1S"/> agriculture is not the only e<c type="lengthening"/>r e<c type="lengthening"/>r <pause dur="PT1S"/> sector on which the economy is based </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_414"> so i guess that that there would be two ways to deal with this<c function="fall" type="intonation"/> o- one is to get rid of this system <pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/> erm or possibly to sort of focus on the white column  </u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_415"> or may<seg n="2" type="overlap" xml:id="EDsed301_ol_252">be not </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_416"><seg n="2" synch="#EDsed301_ol_252" type="overlap" xml:id="EDsed301_ol_253"> because that </seg> would be sort <seg n="3" type="overlap" xml:id="EDsed301_ol_254"> of a mod</seg>ernization column <seg n="5" type="overlap" xml:id="EDsed301_ol_255"> right<c function="rise" type="intonation"/></seg><pause/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_417"><seg n="3" synch="#EDsed301_ol_254" type="overlap" xml:id="EDsed301_ol_256"> yes<c type="lengthening"/></seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_418"><seg n="5" synch="#EDsed301_ol_255" type="overlap" xml:id="EDsed301_ol_257"> hm </seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_419"> er the other thing is er to increase the budget and do something else as well<c function="fall" type="intonation"/></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_420"> and that is im<seg n="4" type="overlap" xml:id="EDsed301_ol_258">possible and we all know <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_421"><seg n="4" synch="#EDsed301_ol_258" type="overlap" xml:id="EDsed301_ol_259"> and and that's impossible that's </seg><seg n="6" type="overlap" xml:id="EDsed301_ol_260"> exactly the </seg> problem<c function="fall" type="intonation"/> er wi- with this sort of note er <pause dur="PT1S"/></u>
+            <u who="#EDsed301_SS" xml:id="EDsed301_u_422"><seg n="6" synch="#EDsed301_ol_260" type="overlap" xml:id="EDsed301_ol_261"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_423"> i think i have to leave you today erm the the er the the agricultural policy is really a problematic policy has <emph> always </emph> been a problematic policy of of the european union<c function="fall" type="intonation"/><pause/> one shouldn't <emph> over</emph>estimate the the amount of money that goes in there i- it's it's the largest portion of the  <w voice:mode="spelt"> e u  </w> funds but the  <w voice:mode="spelt"> e u  </w> budget is not all that big<c function="fall" type="intonation"/> er and that's going to become even more visible with twenty-fi- -five members but nevertheless the- there might be better ways of spending <shift corresp="#EDsed301_s_226" feature="loud" new="p" xml:id="EDsed301_s_225"/> this money <shift corresp="#EDsed301_s_225" feature="loud" new="neutral" xml:id="EDsed301_s_226"/> erm and <emph> fairer </emph> ways er of spending this money and and i guess that er if if you would ask me er on the policy level that's the biggest reform that's that's need<seg n="7" type="overlap" xml:id="EDsed301_ol_262">ed </seg></u>
+            <u who="#EDsed301_S8" xml:id="EDsed301_u_424"><seg n="7" synch="#EDsed301_ol_262" type="overlap" xml:id="EDsed301_ol_263"> mh</seg>m </u>
+            <u who="#EDsed301_S2" xml:id="EDsed301_u_425"> still<c function="fall" type="intonation"/><pause dur="PT1S"/> okay with this note finally <pause/> i let you go and see you tomorrow <pause dur="PT5S"/><incident dur="PT5S" voice:desc="students get up and take their things to leave the room "/></u>
+         </div>
+      </body>
+   </text>
+</TEI>

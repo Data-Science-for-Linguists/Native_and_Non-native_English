@@ -1,0 +1,646 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="PRcon534" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>conversation about the solution of functions in the Hartogs domain</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>Austrian Science Foundation (FWF)</funder>
+            <sponsor/>
+            <respStmt>
+               <resp>Corpus Compilation</resp>
+               <orgName>VOICE Project</orgName>
+               <persName>Barbara Seidlhofer</persName>
+               <persName>Angelika Breiteneder</persName>
+               <persName>Marie-Luise Pitzl</persName>
+               <persName>Stefan Majewski</persName>
+               <persName>Theresa Klimpfinger</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+		<edition>Version 1.0 XML, <date>May 2011</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Angelika Breiteneder</name> 
+		<name>Theresa Klimpfinger</name> 
+		<name>Stefan Majewski</name> 
+		<name>Marie-Luise Pitzl</name> 
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Marie-Luise Pitzl</publisher> 
+	  <distributor>VOICE Project, University of Vienna, Austria</distributor> 
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+	  	<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  	<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE 1.0 XML is
+		  available for download at the VOICE Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+		  http://creativecommons.org/licenses/by-nc-sa/3.0/
+		  </ref>). The original audio files are held at the Department
+		  of English, University of Vienna. 23 selected audio files
+		  are available as audio streams in the VOICE Online interface
+		  at the VOICE Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+		<p>
+		The recommended citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Marie-Luise Pitzl.</bibl>
+		</p>
+		<p>The short citation for VOICE 1.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2011</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 1.0
+		XML</edition>).</bibl></p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="PRcon534_wc">Words: 2116</note>
+            <note xml:id="PRcon534_tn_0">This conversation takes place during a break of a mathematics conference. The two participants S1 and S2 discuss the solution of certain functions in relation to the Hartogs domain. They seem to be acquainted. S2 evidently has a cold. </note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H12M26S" type="audio">
+                  <date>2005-10-27</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R19</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="PRcon534_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="PRcon534_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="PRcon534_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="PRcon534_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="PRcon534_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="PRcon534_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="PRcon534_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="PRcon534_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="PRcon534_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="PRcon534_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="PRcon534_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="PRcon534_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="PRcon534_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="PRcon534_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="PRcon534_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="PRcon534_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="PRcon534_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="orgName" occurs="1"/>
+      <tagUsage gi="persName" occurs="5"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="name" occurs="8"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="5"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="80"/>
+      <tagUsage gi="gi" occurs="5"/>
+      <tagUsage gi="att" occurs="12"/>
+      <tagUsage gi="list" occurs="10"/>
+      <tagUsage gi="label" occurs="17"/>
+      <tagUsage gi="val" occurs="39"/>
+      <tagUsage gi="item" occurs="37"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="2"/>
+      <tagUsage gi="person" occurs="3"/>
+      <tagUsage gi="age" occurs="2"/>
+      <tagUsage gi="sex" occurs="2"/>
+      <tagUsage gi="occupation" occurs="2"/>
+      <tagUsage gi="langKnowledge" occurs="2"/>
+      <tagUsage gi="langKnown" occurs="2"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="5"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="1"/>
+      <tagUsage gi="u" occurs="193">Used to mark a stretch of speech commonly
+		preceded and followed by a pause or by a change of speaker. A
+		<gi>u</gi> is, however, not required to be bounded by a pause or
+		a change of speaker, nor does it represent a turn in a
+		conversation analytic sense. At a minimum, a <gi>u</gi> is some
+		phonetic production or noise made by a given speaker or a group of speakers.</tagUsage>
+      <tagUsage gi="incident" occurs="23">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="unclear" occurs="46">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="emph" occurs="84">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="supplied" occurs="11">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed to
+		be anonymized. The <att>reason</att> attribute is used to mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="pause" occurs="263">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="seg" occurs="100">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="w" occurs="45">
+		  Used with the <att>type</att> attribute set to
+		  <val>spelt</val> to mark words or word fragments which are
+		  spelt out, i.e. words whose constituents are pronounced as
+		  individual letters.
+		</tagUsage>
+      <tagUsage gi="c" occurs="138">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="vocal" occurs="33">Used to mark laughter and other speaker
+		noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="shift" occurs="68">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		  </list>
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="36">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:track" occurs="4">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in length) and thus refers to the audio recording
+		of the transcribed speech event.
+		</tagUsage>
+      <tagUsage gi="voice:pvc" occurs="15">Used to mark a pronunciation variation
+		or coinage as described in <ref target="http://www.univie.ac.at/voice/documents/VOICE_mark-up_conventions_v2-1.pdf">the
+			VOICE mark-up conventions [2.1].</ref>the
+			VOICE mark-up conventions [2.1]. An existing word corresponding to the PVC may be provided within a <att>comment</att>comment attribute within the <gi>voice:pvc</gi>voice:pvc element. Additional phonetic
+			transcription may be provided within a <att>voice:ipa</att>voice:ipa attribute
+			within the <gi>voice:pvc</gi>voice:pvc element.</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#PRcon534_PR #PRcon534_con"/>
+            <catRef target="#PR #con"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">AT</name>
+               <name type="city">Vienna</name>
+               <locale>room at Vienna University of Technology</locale>
+               <activity>drinking coffee, writing down important points</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="2"/>
+                  <personGrp role="interactants" size="2"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="participant" sameAs="#P509" xml:id="PRcon534_S2">
+                     <age value="2">25-34</age>
+                     <sex value="1">male</sex>
+                     <occupation>mathematician</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="tur-TR"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P512" xml:id="PRcon534_S1">
+                     <age value="2">25-34</age>
+                     <sex value="2">female</sex>
+                     <occupation>mathematician</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-DE"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person corresp="#PRcon534_S2" sameAs="#SX" xml:id="PRcon534_SX-2"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#PRcon534_S1 #PRcon534_S2" name="fairly_symmetrical" type="power"/>
+                  <relation mutual="#PRcon534_S1 #PRcon534_S2" name="acquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-11" who="AB">finalized for publication</change>
+         <change when="2009-03-03" who="TK">proof-reading</change>
+         <change when="2008-12-18" who="RO">checking</change>
+         <change when="2006-02-22" who="UF">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="00:26" voice:end_medium_number="1" voice:end_track="05" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1" voice:start_track="01">
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_1"><incident voice:desc="conversation has already started"/><unclear> wants to </unclear> look at a <emph> har</emph>togs domain there right <unclear> we </unclear><supplied reason="unintelligible"> xx </supplied> is equal to the <pause/><seg n="8" type="overlap" xml:id="PRcon534_ol_0"><w voice:mode="spelt"> i  </w></seg> to the <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_2"><seg n="8" synch="#PRcon534_ol_0" type="overlap" xml:id="PRcon534_ol_1"><unclear> what </unclear></seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_3"> right<c function="rise" type="intonation"/><pause dur="PT1S"/> and then immediately have the defining function <pause dur="PT1S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_4"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><shift corresp="#PRcon534_s_2" feature="voice" new="laugh" xml:id="PRcon534_s_1"/>  har- <pause/> -togs domain is so bad <shift corresp="#PRcon534_s_1" feature="voice" new="neutral" xml:id="PRcon534_s_2"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_5"> of course <seg n="1" type="overlap" xml:id="PRcon534_ol_2"> it was </seg> bad yeah but er <pause dur="PT2S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_6"><seg n="1" synch="#PRcon534_ol_2" type="overlap" xml:id="PRcon534_ol_3"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_7"><vocal voice:desc="coughs"/> so you<unclear>'re been </unclear> take those <unclear> see any to the </unclear> norm <pause dur="PT1S"/></u>
+            <u who="#PRcon534_SX-2" xml:id="PRcon534_u_8"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_9"> yeah<c function="fall" type="intonation"/><pause dur="PT4S"/><incident dur="PT4S" voice:desc="parallel conversation audible in background "/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_10"> oow<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_11"> it was more than a <emph> year </emph> ago <shift corresp="#PRcon534_s_4" feature="loud" new="p" xml:id="PRcon534_s_3"/> i mean <shift corresp="#PRcon534_s_3" feature="loud" new="neutral" xml:id="PRcon534_s_4"/><pause dur="PT1S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_12"> so okay <seg n="2" type="overlap" xml:id="PRcon534_ol_4"> let's er </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_13"><seg n="2" synch="#PRcon534_ol_4" type="overlap" xml:id="PRcon534_ol_5"> bu- but </seg> i play for <pause/> so so the <emph> thing </emph> is how do you construct this swiss cheese <pause/> thingy right<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_14"> in two dimension <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_15"> o<c type="lengthening"/>h in any dimension <pause dur="PT1S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_16"> well okay i can see how you can accept the <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_17"> and then er <emph> which </emph> kind of er swiss cheese do you have to <emph> use </emph> such that the <pause/> yah for empty fine interior<c function="rise" type="intonation"/><pause dur="PT2S"/> but positive measure <shift corresp="#PRcon534_s_6" feature="tempo" new="a" xml:id="PRcon534_s_5"/> or however it works it's a long time ago that i haven't thought about it <shift corresp="#PRcon534_s_5" feature="tempo" new="neutral" xml:id="PRcon534_s_6"/><anchor synch="#PRcon534_oc_1" type="other_continuation" xml:id="PRcon534_oc_0"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_18"><anchor synch="#PRcon534_oc_0" type="other_continuation" xml:id="PRcon534_oc_1"/> o<c type="lengthening"/>h but see <seg n="3" type="overlap" xml:id="PRcon534_ol_6"> that is </seg> true only in one dimension<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_19"><seg n="3" synch="#PRcon534_ol_6" type="overlap" xml:id="PRcon534_ol_7"><unclear> it is </unclear></seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_20"> that <pause/> you know we have property  <w voice:mode="spelt"> b  </w> if if it has some empty f<c type="lengthening"/>ine interior that er <pause/> that's only in  <w voice:mode="spelt"> c<c function="fall" type="intonation"/></w><pause dur="PT2S"/> is it also doing in  <w voice:mode="spelt"> c n<c function="rise" type="intonation"/></w><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_21"> i don't <emph> know </emph> but you gotta we gotta <emph> play </emph> with things right<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_22"> yah that's <seg n="4" type="overlap" xml:id="PRcon534_ol_8"> true </seg><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_23"><seg n="4" synch="#PRcon534_ol_8" type="overlap" xml:id="PRcon534_ol_9"> i mean </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_24"> so you think you should put a a cheese er <pause/> cons- start with a cheese in  <w voice:mode="spelt"> c  </w> two <pause/><seg n="5" type="overlap" xml:id="PRcon534_ol_10"> and then put in a </seg> boundary of er three-dimensional <anchor synch="#PRcon534_oc_3" type="other_continuation" xml:id="PRcon534_oc_2"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_25"><seg n="5" synch="#PRcon534_ol_10" type="overlap" xml:id="PRcon534_ol_11"> yes for example </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_26"><anchor synch="#PRcon534_oc_2" type="other_continuation" xml:id="PRcon534_oc_3"/> mhm <pause dur="PT1S"/> i mean the <seg n="6" type="overlap" xml:id="PRcon534_ol_12"> er i'm not saying </seg> i <emph> think </emph> this should <emph> work </emph> but i i <seg n="7" type="overlap" xml:id="PRcon534_ol_13"><emph> think </emph> one </seg> should <emph> play </emph> with this<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_27"><seg n="6" synch="#PRcon534_ol_12" type="overlap" xml:id="PRcon534_ol_14"> why would that </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_28"><seg n="7" synch="#PRcon534_ol_13" type="overlap" xml:id="PRcon534_ol_15"> yah <unclear> i do </unclear></seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_29"> yah i'm just trying to <seg n="1" type="overlap" xml:id="PRcon534_ol_16"> say </seg> this<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_30"><seg n="1" synch="#PRcon534_ol_16" type="overlap" xml:id="PRcon534_ol_17"> yes<c function="fall" type="intonation"/></seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_31"> if di- if d- if <unclear> diagonal doesn't </unclear> open in two dimension then what <pause dur="PT1S"/> what part of this construction make  it <pause/><emph> be</emph>tter<c function="fall" type="intonation"/><pause/> even if it is a <unclear> two di- </unclear> dimension what kind of <pause dur="PT1S"/><emph> gain </emph><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_32"> tha- that you can <pause/> construct <pause/><w voice:mode="spelt"> p  </w> tilde <emph> ea</emph>sier than than than  <w voice:mode="spelt"> P<c function="fall" type="intonation"/></w> see <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_33"><shift corresp="#PRcon534_s_8" feature="tempo" new="a" xml:id="PRcon534_s_7"/> i know i know but <shift corresp="#PRcon534_s_7" feature="tempo" new="neutral" xml:id="PRcon534_s_8"/><seg n="2" type="overlap" xml:id="PRcon534_ol_18"><w voice:mode="spelt"> c  </w></seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_34"><seg n="2" synch="#PRcon534_ol_18" type="overlap" xml:id="PRcon534_ol_19"> you </seg> can immediately <anchor synch="#PRcon534_oc_5" type="other_continuation" xml:id="PRcon534_oc_4"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_35"><anchor synch="#PRcon534_oc_4" type="other_continuation" xml:id="PRcon534_oc_5"/> if this <seg n="3" type="overlap" xml:id="PRcon534_ol_20"> if this </seg> idea works in two dimension why then shouldn't it work in two <unclear> er </unclear> dimension<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_36"><seg n="3" synch="#PRcon534_ol_20" type="overlap" xml:id="PRcon534_ol_21"> if if </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_37"> you know it what i'm saying<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_38"> well if <seg n="4" type="overlap" xml:id="PRcon534_ol_22"> if if commu</seg>tator types all kinds of commutator types er work in two dimensions <shift corresp="#PRcon534_s_10" feature="tempo" new="a" xml:id="PRcon534_s_9"/> why don't you work in <emph> high</emph>er dimensions because you have too many dir<emph>e</emph>ctions going on<c function="fall" type="intonation"/><shift corresp="#PRcon534_s_9" feature="tempo" new="neutral" xml:id="PRcon534_s_10"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_39"><seg n="4" synch="#PRcon534_ol_22" type="overlap" xml:id="PRcon534_ol_23"> we are using </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_40"> so how doe- how the direction <seg n="5" type="overlap" xml:id="PRcon534_ol_24"> here the </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_41"><seg n="5" synch="#PRcon534_ol_24" type="overlap" xml:id="PRcon534_ol_25"> does it er </seg> work in there<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_42"> because if you use the same idea to construct the same thing in high in different dimen- dimensions<c function="fall" type="intonation"/><pause/> so what <pause/> what it really the <pause/> the d- difference is it because of <emph> our </emph> construction<c function="rise" type="intonation"/> hh or is it because <pause/><seg n="6" type="overlap" xml:id="PRcon534_ol_26"> no matter <emph> how </emph> you construct it </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_43"><seg n="6" synch="#PRcon534_ol_26" type="overlap" xml:id="PRcon534_ol_27"> but whose construction<c function="rise" type="intonation"/></seg><pause/> o<c type="lengthening"/>h<c function="fall" type="intonation"/> okay<c function="fall" type="intonation"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_44"> the <supplied reason="unintelligible"> xx </supplied><unclear> said </unclear> or no matter how we construct it <pause/> actually <pause/> from <emph> just </emph><pause/> higher  dimension we <emph> gain </emph> something extra that <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_45"> i don't <emph> know </emph> yet i stopped <emph> play</emph>ing with it<c function="fall" type="intonation"/> i've <pause/> i've <emph> told </emph> you <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_46"> i'm just <pause/><seg n="7" type="overlap" xml:id="PRcon534_ol_28"> asking <unclear> it's to </unclear> say <unclear> or </unclear></seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_47"><seg n="7" synch="#PRcon534_ol_28" type="overlap" xml:id="PRcon534_ol_29"> yah okay right </seg><unclear> all right </unclear><pause/> i i don't <emph> know </emph> but er <pause dur="PT1S"/> is it's it's of course clear that er <pause/> see that the idea of the swiss cheese had nothing the particular to do with  <w voice:mode="spelt"> c  </w> two<c function="fall" type="intonation"/> we started with  <w voice:mode="spelt"> c  </w><emph> two </emph> because  <w voice:mode="spelt"> c  </w> two is <emph> ea</emph>sy<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_48"> right <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_49"> then we stopped with <pause/><w voice:mode="spelt"> c  </w> two because <unclear> w- ft- </unclear><pause/> we realized that that er  <w voice:mode="spelt"> c  </w> two is not the way <seg n="1" type="overlap" xml:id="PRcon534_ol_30"> it app</seg>ears to <emph> look </emph> at <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_50"><seg n="1" synch="#PRcon534_ol_30" type="overlap" xml:id="PRcon534_ol_31"> aha </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_51"> hh but <seg n="2" type="overlap" xml:id="PRcon534_ol_32"> so<c type="lengthening"/></seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_52"><seg n="2" synch="#PRcon534_ol_32" type="overlap" xml:id="PRcon534_ol_33"> because </seg> there there there's already <emph> clear </emph> that there's no difference<c function="fall" type="intonation"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_53"> mhm <pause dur="PT2S"/><incident dur="PT2S" voice:desc="parallel conversation audible in background "/> er is it clear<c function="rise" type="intonation"/><pause/> tha- that there's no difference<c function="rise" type="intonation"/> in <seg n="3" type="overlap" xml:id="PRcon534_ol_34"><w voice:mode="spelt"> c  </w> two </seg><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_54"><shift corresp="#PRcon534_s_12" feature="loud" new="p" xml:id="PRcon534_s_11"/><seg n="3" synch="#PRcon534_ol_34" type="overlap" xml:id="PRcon534_ol_35"> i thought </seg> in  <w voice:mode="spelt"> c  </w> two  <w voice:mode="spelt"> p p  </w> tilde is the same <shift corresp="#PRcon534_s_11" feature="loud" new="neutral" xml:id="PRcon534_s_12"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_55"><shift corresp="#PRcon534_s_14" feature="loud" new="p" xml:id="PRcon534_s_13"/> no no <shift corresp="#PRcon534_s_13" feature="loud" new="neutral" xml:id="PRcon534_s_14"/><pause dur="PT2S"/><w voice:mode="spelt"> p  </w> and  <w voice:mode="spelt"> p  </w> tilde are <emph> not </emph> the same<c function="fall" type="intonation"/> they are both apply the hull condition<c function="fall" type="intonation"/><pause/> it's still not <emph> known </emph><voice:track medium="1" num="2" type="md"/> actually if they are <seg n="4" type="overlap" xml:id="PRcon534_ol_36"> the same or not </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_56"><seg n="4" synch="#PRcon534_ol_36" type="overlap" xml:id="PRcon534_ol_37"> in  <w voice:mode="spelt"> c  </w> two </seg> it's not known<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_57"> no it's not it's still not known<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_58"> so why are we moving up the <unclear> whole </unclear> dimensions then <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_59"> well <seg n="6" type="overlap" xml:id="PRcon534_ol_38"> because </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_60"><seg n="6" synch="#PRcon534_ol_38" type="overlap" xml:id="PRcon534_ol_39"> for what </seg> domain this is is it <emph> not </emph> known <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_61"> the idea to put a <emph> swiss </emph> cheese there <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_62"> that doesn't work<c function="fall" type="intonation"/><anchor synch="#PRcon534_oc_7" type="other_continuation" xml:id="PRcon534_oc_6"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_63"><anchor synch="#PRcon534_oc_6" type="other_continuation" xml:id="PRcon534_oc_7"/> is you won't have the <emph> hull </emph> condition<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_64"> o<c type="lengthening"/>h and they both apply hull condition<c function="fall" type="intonation"/><anchor synch="#PRcon534_oc_9" type="other_continuation" xml:id="PRcon534_oc_8"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_65"><anchor synch="#PRcon534_oc_8" type="other_continuation" xml:id="PRcon534_oc_9"/> right <pause dur="PT1S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_66"> aha <pause dur="PT3S"/><incident dur="PT3S" voice:desc="soft parallel conversations audible in background "/><shift corresp="#PRcon534_s_16" feature="voice" new="whisp" xml:id="PRcon534_s_15"/> i thought in <shift corresp="#PRcon534_s_15" feature="voice" new="neutral" xml:id="PRcon534_s_16"/><w voice:mode="spelt"> c  </w> two er <pause/> haeh<c function="rise" type="intonation"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_67"><shift corresp="#PRcon534_s_18" feature="tempo" new="a" xml:id="PRcon534_s_17"/> no no no <shift corresp="#PRcon534_s_17" feature="tempo" new="neutral" xml:id="PRcon534_s_18"/> it is only <emph> known </emph> in  <w voice:mode="spelt"> c  </w> two if you have a complete hartogs domain <pause dur="PT2S"/> that is known<c function="fall" type="intonation"/> but er in two dimension is s- still open <pause dur="PT1S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_68"> well then one why why going up in dimensions then it's okay<c function="fall" type="intonation"/><pause/> well <unclear> good </unclear><pause dur="PT2S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_69"> and it is even <emph> kno</emph><c type="lengthening"/><emph>wn </emph> that <pause/> both of them are even stronger than the hull condition too<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_70"> okay <pause dur="PT2S"/><incident dur="PT2S" voice:desc="parallel conversation audible in background "/> mhm<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_71"> so it's possible to certain domain that has property <pause dur="PT2S"/> wait what am i saying <pause dur="PT3S"/> tha- that <shift corresp="#PRcon534_s_20" feature="tempo" new="a" xml:id="PRcon534_s_19"/><voice:pvc comment="satisfies"><unclear> saisfies </unclear></voice:pvc> the hull condition <shift corresp="#PRcon534_s_19" feature="tempo" new="neutral" xml:id="PRcon534_s_20"/> but still <pause/> not <shift corresp="#PRcon534_s_22" feature="loud" new="p" xml:id="PRcon534_s_21"/> property  <w voice:mode="spelt"> p  </w> or  <w voice:mode="spelt"> p  </w> tilde <shift corresp="#PRcon534_s_21" feature="loud" new="neutral" xml:id="PRcon534_s_22"/><pause dur="PT3S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_72"> well maybe one should go back to  <w voice:mode="spelt"> c  </w><emph> two </emph> then<c function="fall" type="intonation"/><pause dur="PT2S"/><seg n="8" type="overlap" xml:id="PRcon534_ol_40"> i<unclear>'d </unclear></seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_73"><seg n="8" synch="#PRcon534_ol_40" type="overlap" xml:id="PRcon534_ol_41"> but </seg> then <pause dur="PT2S"/><vocal voice:desc="coughs"/><pause dur="PT2S"/><incident dur="PT2S" voice:desc="parallel conversation audible in background "/> but then what is the <pause/> argument that you see that they are <emph> diff</emph>erent<c function="fall" type="intonation"/><pause/> you will you will <emph> just </emph> need to con<emph>struct </emph> that <pause dur="PT1S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_74"> yeah yeah yeah <unclear> all done </unclear> erm <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_75"> and then to show that <pause/> the other one cannot be constructed pos- <pause/> cannot possibly be constructed if one of them is <pause dur="PT6S"/><incident dur="PT6S" voice:desc="very soft parallel conversation audible in background "/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_76"> are there unique <unclear> centers </unclear> for property  <w voice:mode="spelt"> p  </w> are not <voice:pvc voice:ipa="kəmˈpɛnt"> compend<c function="rise" type="intonation"/></voice:pvc><pause dur="PT3S"/><incident dur="PT3S" voice:desc="parallel conversation audible in background "/><unclear> well if </unclear></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_77"><shift corresp="#PRcon534_s_24" feature="voice" new="laugh" xml:id="PRcon534_s_23"/> if you knew that would be great too <shift corresp="#PRcon534_s_23" feature="voice" new="neutral" xml:id="PRcon534_s_24"/><pause dur="PT2S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_78"> maybe we should <seg n="7" type="overlap" xml:id="PRcon534_ol_42"> find any maybe </seg> we should start making a <emph> list </emph><c function="fall" type="intonation"/> of <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_79"><seg n="7" synch="#PRcon534_ol_42" type="overlap" xml:id="PRcon534_ol_43"> no it's <unclear> just </unclear></seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_80"> things one actually would <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_81"> well i have a list of but <pause/> they're all <emph> hard </emph> to <seg n="1" type="overlap" xml:id="PRcon534_ol_44"> er </seg><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause dur="PT2S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_82"><seg n="1" synch="#PRcon534_ol_44" type="overlap" xml:id="PRcon534_ol_45"> yah </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_83"> it's not even <pause/><seg n="2" type="overlap" xml:id="PRcon534_ol_46"> no </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_84"><seg n="2" synch="#PRcon534_ol_46" type="overlap" xml:id="PRcon534_ol_47"> it's </seg> it's it's really hard to see <pause/> a domain <pause/> that does have a com<emph>pact</emph>ness <unclear> with it </unclear> i mean there is this ex<emph>ample </emph> but that is in <pause/> two dimension and <emph> har</emph>togs domain<c function="fall" type="intonation"/><pause/> but there is <emph> known </emph><pause/> all of them <seg n="3" type="overlap" xml:id="PRcon534_ol_48"> what i'm saying </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_85"><seg n="3" synch="#PRcon534_ol_48" type="overlap" xml:id="PRcon534_ol_49"> yah yah yah yah<c function="fall" type="intonation"/></seg> yah<c function="fall" type="intonation"/><anchor synch="#PRcon534_oc_11" type="other_continuation" xml:id="PRcon534_oc_10"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_86"><anchor synch="#PRcon534_oc_10" type="other_continuation" xml:id="PRcon534_oc_11"/> so <pause/> if there's <unclear> that </unclear> hartogs domain <pause/> you don't know <pause/><shift corresp="#PRcon534_s_26" feature="tempo" new="a" xml:id="PRcon534_s_25"/> if it doesn't have a <unclear> disk and </unclear> boundary<c function="fall" type="intonation"/><shift corresp="#PRcon534_s_25" feature="tempo" new="neutral" xml:id="PRcon534_s_26"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_87"> mhm <pause/> mhm <pause dur="PT2S"/><incident dur="PT2S" voice:desc="parallel conversation audible in background "/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_88"> it's still not <emph> known </emph><c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_89"> what<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_90"> it's still not known </u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_91"> mhm <pause dur="PT3S"/><incident dur="PT3S" voice:desc="parallel conversation audible in background "/> so we have <pause/> well <pause/> at least two approaches right now<c function="fall" type="intonation"/><pause/> locally local lo<emph>cal</emph>ity of  <w voice:mode="spelt"> p  </w> tilde right<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_92"> yah <pause dur="PT4S"/><incident dur="PT4S" voice:desc="parallel conversation audible in background "/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_93"> wow one doesn't even understand <pause dur="PT1S"/><voice:pvc> non-p </voice:pvc> domains<c function="fall" type="intonation"/><pause/> er i mean <pause dur="PT6S"/><incident dur="PT6S" voice:desc="parallel conversation audible in background "/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_94"><vocal voice:desc="clears throat"/><anchor synch="#PRcon534_oc_11" type="other_continuation" xml:id="PRcon534_oc_12"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_95"><anchor synch="#PRcon534_oc_12" type="other_continuation" xml:id="PRcon534_oc_13"/> i mean the  <w voice:mode="spelt"> b  </w> regularity even<c function="rise" type="intonation"/><pause dur="PT2S"/> does <supplied reason="anonymization"> [last name1] </supplied> didn't do anything in that directions<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_96"> a<c type="lengthening"/>h well <pause/> if he did it would be the same as  <w voice:mode="spelt"> p  </w> right<c function="rise" type="intonation"/><anchor synch="#PRcon534_oc_15" type="other_continuation" xml:id="PRcon534_oc_14"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_97"><anchor synch="#PRcon534_oc_14" type="other_continuation" xml:id="PRcon534_oc_15"/> yah but but haeh <pause/> yah i <emph> know </emph><c function="fall" type="intonation"/><shift corresp="#PRcon534_s_28" feature="loud" new="p" xml:id="PRcon534_s_27"/> but <shift corresp="#PRcon534_s_27" feature="loud" new="neutral" xml:id="PRcon534_s_28"/><pause dur="PT3S"/> hm<c function="fall" type="intonation"/><pause dur="PT20S"/><incident dur="PT20S" voice:desc="soft parallel conversation audible in background "/><voice:track medium="1" num="3" type="md"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_98"> so<c type="lengthening"/> y- you didn't <emph> use </emph> an argument of partition of <emph> u</emph>nity <pause dur="PT2S"/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause/> when you're er <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_99"> yeah but on the conta- i <emph> use </emph> it but on the comp<emph>act</emph>ness level then<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_100"> oow<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_101"> i first moved to the <seg n="4" type="overlap" xml:id="PRcon534_ol_50"><w voice:mode="spelt"> l  </w> two </seg> estimates <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_102"><seg n="4" synch="#PRcon534_ol_50" type="overlap" xml:id="PRcon534_ol_51"> i see </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_103"> bec- i couldn't do it directly<c function="rise" type="intonation"/><anchor synch="#PRcon534_oc_17" type="other_continuation" xml:id="PRcon534_oc_16"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_104"><anchor synch="#PRcon534_oc_16" type="other_continuation" xml:id="PRcon534_oc_17"/> right <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_105"> so i moved to the  <w voice:mode="spelt"> l  </w><emph> two </emph> estimates<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_106"> and then <pause/><unclear> we're </unclear> there<c function="fall" type="intonation"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_107"> yeah<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_108"> this is <seg n="5" type="overlap" xml:id="PRcon534_ol_52"> so weird </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_109"><seg n="5" synch="#PRcon534_ol_52" type="overlap" xml:id="PRcon534_ol_53"> there of course i </seg><pause/><emph> yes </emph><shift corresp="#PRcon534_s_30" feature="tempo" new="a" xml:id="PRcon534_s_29"/> and and in the <shift corresp="#PRcon534_s_29" feature="tempo" new="neutral" xml:id="PRcon534_s_30"/> that's why i had the same kind of proof <emph> twice </emph><c function="fall" type="intonation"/><pause dur="PT1S"/> it's it's is this <pause/> duality argument of <supplied reason="anonymization"> [last name2] </supplied> i<unclear>'ll </unclear> needed <seg n="6" type="overlap" xml:id="PRcon534_ol_54"> to do </seg> it <emph> twice </emph> because er <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_110"><seg n="6" synch="#PRcon534_ol_54" type="overlap" xml:id="PRcon534_ol_55"> yeah </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_111"> i couldn't do the <pause/> partition of <emph> u</emph>nity<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_112"> aha aha <anchor synch="#PRcon534_oc_19" type="other_continuation" xml:id="PRcon534_oc_18"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_113"><anchor synch="#PRcon534_oc_18" type="other_continuation" xml:id="PRcon534_oc_19"/> so i once did it with the ex<emph>act </emph><pause/> estimates <pause dur="PT1S"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><shift corresp="#PRcon534_s_32" feature="voice" new="laugh" xml:id="PRcon534_s_31"/> and that's is always completely <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/> i <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/> very weird <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/> they <unclear> have proving </unclear> things but they are <shift corresp="#PRcon534_s_31" feature="voice" new="neutral" xml:id="PRcon534_s_32"/><anchor synch="#PRcon534_oc_21" type="other_continuation" xml:id="PRcon534_oc_20"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_114"><anchor synch="#PRcon534_oc_20" type="other_continuation" xml:id="PRcon534_oc_21"/> there's gotta be a way to see this more <pause/> going i think <pause dur="PT3S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_115"> hm i'll <pause/> get some m<c type="lengthening"/>ore coffee <pause dur="PT40S"/><incident dur="PT40S" voice:desc="S1 gets up and gets coffee, soft parallel conversations audible in background "/> hm<c function="fall" type="intonation"/><pause dur="PT10S"/><incident voice:desc="S1 puts cup on table"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_116"><vocal type="speaker_noise" voice:desc="smacks lips"/> hh <pause dur="PT3S"/> hh i've <pause/> there is one little point we don't see<c function="fall" type="intonation"/><pause/> i don't know what it is<c function="fall" type="intonation"/> but <pause dur="PT1S"/> i feel there is <emph> one </emph> little tool if we could <pause/> without <emph> a </emph> doubt then all this <pause/> riddle will be <shift corresp="#PRcon534_s_34" feature="voice" new="laugh" xml:id="PRcon534_s_33"/><emph> solved </emph><c function="fall" type="intonation"/><shift corresp="#PRcon534_s_33" feature="voice" new="neutral" xml:id="PRcon534_s_34"/><anchor synch="#PRcon534_oc_23" type="other_continuation" xml:id="PRcon534_oc_22"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_117"><anchor synch="#PRcon534_oc_22" type="other_continuation" xml:id="PRcon534_oc_23"/> o<c type="lengthening"/>h okay <pause/> i'll i as i said i haven't thought about it <seg n="7" type="overlap" xml:id="PRcon534_ol_56"> for <pause/> for a long </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_118"><seg n="7" synch="#PRcon534_ol_56" type="overlap" xml:id="PRcon534_ol_57"> like in <pause/> like in </seg> this er argument if you wanna <emph> show </emph> if i use partition of unity i did all of property  <w voice:mode="spelt"> P  </w> hh <pause/> all you need to do is just really see that you can make it <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_119"> that one of the the the that you can actually make them <voice:pvc> self-bounded </voice:pvc></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_120"> yes <anchor synch="#PRcon534_oc_25" type="other_continuation" xml:id="PRcon534_oc_24"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_121"><anchor synch="#PRcon534_oc_24" type="other_continuation" xml:id="PRcon534_oc_25"/><shift corresp="#PRcon534_s_36" feature="loud" new="p" xml:id="PRcon534_s_35"/><supplied reason="unintelligible"> xxx </supplied><shift corresp="#PRcon534_s_35" feature="loud" new="neutral" xml:id="PRcon534_s_36"/><pause/> i'm surprised that nobody saw that before <pause dur="PT1S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_122"> well property  <w voice:mode="spelt"> p  </w> today itself is not a very <emph> old </emph> and that paper is like <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_123"> no<c type="lengthening"/> but when for instance <supplied reason="anonymization"> [last name3] </supplied><c function="fall" type="intonation"/><pause dur="PT2S"/> he was <seg n="1" type="overlap" xml:id="PRcon534_ol_58"> always </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_124"><seg n="1" synch="#PRcon534_ol_58" type="overlap" xml:id="PRcon534_ol_59"> he didn't </seg> need </u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_125"> no but <supplied reason="anonymization"> [last name3] </supplied> was <pause/> you <shift corresp="#PRcon534_s_38" feature="tempo" new="a" xml:id="PRcon534_s_37"/> for instance always <voice:pvc> destruct </voice:pvc> that he we needed uniform <voice:pvc> boundedness<c function="fall" type="intonation"/></voice:pvc><shift corresp="#PRcon534_s_37" feature="tempo" new="neutral" xml:id="PRcon534_s_38"/><pause/> and he has <pause/> gotten some similar estimates like <supplied reason="anonymization"> [last name4] </supplied><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_126"> mhm <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_127"> where if he would have <emph> stared </emph> at it he w- <pause/> would have <emph> seen </emph> if he as<emph>sumes </emph> this <unclear><emph> breaking </emph></unclear> of the weight function to be bounded by the convex <emph> gest</emph>ure<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_128"> mhm mhm <anchor synch="#PRcon534_oc_27" type="other_continuation" xml:id="PRcon534_oc_26"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_129"><anchor synch="#PRcon534_oc_26" type="other_continuation" xml:id="PRcon534_oc_27"/><unclear> we </unclear> could <emph> do </emph> things<c function="fall" type="intonation"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_130"> o<c type="lengthening"/>h <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_131"> he er he told me <emph> this </emph> year that <anchor synch="#PRcon534_oc_29" type="other_continuation" xml:id="PRcon534_oc_28"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_132"><anchor synch="#PRcon534_oc_28" type="other_continuation" xml:id="PRcon534_oc_29"/> i'm a bit of er then that means great people who <unclear> involved </unclear> these certain things </u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_133"> yah <seg n="2" type="overlap" xml:id="PRcon534_ol_60"> of course yeah </seg><shift corresp="#PRcon534_s_40" feature="loud" new="p" xml:id="PRcon534_s_39"/><unclear> mhm </unclear> mhm <shift corresp="#PRcon534_s_39" feature="loud" new="neutral" xml:id="PRcon534_s_40"/><pause dur="PT2S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_134"><seg n="2" synch="#PRcon534_ol_60" type="overlap" xml:id="PRcon534_ol_61"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_135"> because of course those those <voice:pvc> self-bounded </voice:pvc> convex <voice:pvc> greatened </voice:pvc> functions you always can bound from one side<c function="fall" type="intonation"/> right<c function="rise" type="intonation"/><anchor synch="#PRcon534_oc_31" type="other_continuation" xml:id="PRcon534_oc_30"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_136"><anchor synch="#PRcon534_oc_30" type="other_continuation" xml:id="PRcon534_oc_31"/> right<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_137"><vocal type="speaker_noise" voice:desc="swallows"/> and so the <emph> other </emph> bound was the <emph> pro</emph>blem and there he as he would just p- <emph> put </emph> that bound on the<unclear>re </unclear><pause/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#PRcon534_s_42" feature="voice" new="laugh" xml:id="PRcon534_s_41"/> on those arrow terms <shift corresp="#PRcon534_s_41" feature="voice" new="neutral" xml:id="PRcon534_s_42"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_138"> hm<c function="fall" type="intonation"/><pause dur="PT2S"/><voice:track medium="1" num="4" type="md"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_139"><shift corresp="#PRcon534_s_44" feature="voice" new="laugh" xml:id="PRcon534_s_43"/> and <unclear> i had </unclear> too i think <shift corresp="#PRcon534_s_43" feature="voice" new="neutral" xml:id="PRcon534_s_44"/><pause dur="PT3S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_140"><vocal voice:desc="coughs"/><pause dur="PT4S"/><incident dur="PT4S" voice:desc="soft parallel conversation audible in background "/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_141"> yah<c function="fall" type="intonation"/><pause dur="PT2S"/> hm<c function="fall" type="intonation"/><pause dur="PT3S"/> i don't know <pause dur="PT2S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_142"> is it <voice:pvc> ist </voice:pvc><vocal voice:desc="coughs"/> is it possible to make this <pause/> hh <pause/> to think about it more more in the er real <pause dur="PT1S"/> setting<c function="fall" type="intonation"/> and see <pause dur="PT1S"/> you know instead of let's say complex hessian just look for the normal hessian<c function="fall" type="intonation"/><pause/><voice:pvc> self-convex </voice:pvc><voice:pvc><unclear> kerd </unclear></voice:pvc> look at those and then to see if there are <pause dur="PT1S"/> domains<c function="rise" type="intonation"/><pause dur="PT2S"/> in the real  case<c function="rise" type="intonation"/> do we know if they er are the same or not in the real  case<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_143"> if they are the same what<c function="rise" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_144"> or not<c function="rise" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_145"> i i no i don't know <pause/><shift corresp="#PRcon534_s_46" feature="loud" new="p" xml:id="PRcon534_s_45"/> i don't know <shift corresp="#PRcon534_s_45" feature="loud" new="neutral" xml:id="PRcon534_s_46"/><pause dur="PT1S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_146"> hm<c function="fall" type="intonation"/><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_147"> i don't know<c function="fall" type="intonation"/><pause dur="PT7S"/> well just think about it <emph> one </emph> variable<c function="fall" type="intonation"/><pause/> right say <seg n="3" type="overlap" xml:id="PRcon534_ol_62"><w voice:mode="spelt"> f n  </w></seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_148"><seg n="3" synch="#PRcon534_ol_62" type="overlap" xml:id="PRcon534_ol_63"> o<c type="lengthening"/>h one varia</seg>ble is er <pause/> easy to understand i guess<c function="fall" type="intonation"/><anchor synch="#PRcon534_oc_33" type="other_continuation" xml:id="PRcon534_oc_32"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_149"><anchor synch="#PRcon534_oc_32" type="other_continuation" xml:id="PRcon534_oc_33"/> yeah but then first check <emph> that </emph> one if you ask the que<seg n="4" type="overlap" xml:id="PRcon534_ol_64">stion right<c function="rise" type="intonation"/> no but er </seg> i think you can <emph> do </emph> it <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_150"><seg n="4" synch="#PRcon534_ol_64" type="overlap" xml:id="PRcon534_ol_65"> did you did you did you check that </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_151"> in one variable i check the following<c function="fall" type="intonation"/><pause dur="PT1S"/><vocal voice:desc="coughs"/> can <unclear> hartog </unclear> compactness supported <pause dur="PT1S"/><voice:pvc> subharmonic </voice:pvc> function and he <emph> can't </emph><c function="fall" type="intonation"/> hh <pause dur="PT1S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_152"> okay <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><seg n="8" type="overlap" xml:id="PRcon534_ol_66"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_153"><seg n="8" synch="#PRcon534_ol_66" type="overlap" xml:id="PRcon534_ol_67"> be</seg>cause you can't have a <pause dur="PT1S"/><shift corresp="#PRcon534_s_48" feature="tempo" new="a" xml:id="PRcon534_s_47"/> if you have a <voice:pvc><unclear> combolic </unclear></voice:pvc> supported <emph> thing </emph><shift corresp="#PRcon534_s_47" feature="tempo" new="neutral" xml:id="PRcon534_s_48"/><anchor synch="#PRcon534_oc_35" type="other_continuation" xml:id="PRcon534_oc_34"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_154"><anchor synch="#PRcon534_oc_34" type="other_continuation" xml:id="PRcon534_oc_35"/> you can <seg n="5" type="overlap" xml:id="PRcon534_ol_68"> count the<c type="lengthening"/> of course yes i- tha- that </seg><shift corresp="#PRcon534_s_50" feature="tempo" new="a" xml:id="PRcon534_s_49"/> okay <shift corresp="#PRcon534_s_49" feature="tempo" new="neutral" xml:id="PRcon534_s_50"/> you <emph> check </emph> that yes <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><seg n="6" type="overlap" xml:id="PRcon534_ol_69"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="8"/></seg><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_155"><seg n="5" synch="#PRcon534_ol_68" type="overlap" xml:id="PRcon534_ol_70"> somewhere the second <unclear> variable will try to </unclear><supplied reason="unintelligible"> xxx </supplied></seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_156"><seg n="6" synch="#PRcon534_ol_69" type="overlap" xml:id="PRcon534_ol_71"> yes last night i <emph> did </emph> check that because i was <shift corresp="#PRcon534_s_52" feature="voice" new="laugh" xml:id="PRcon534_s_51"/> thinking <shift corresp="#PRcon534_s_51" feature="voice" new="neutral" xml:id="PRcon534_s_52"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_157"> okay <shift corresp="#PRcon534_s_54" feature="voice" new="laugh" xml:id="PRcon534_s_53"/> well good for you <shift corresp="#PRcon534_s_53" feature="voice" new="neutral" xml:id="PRcon534_s_54"/><seg n="7" type="overlap" xml:id="PRcon534_ol_72"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_158"><seg n="7" synch="#PRcon534_ol_72" type="overlap" xml:id="PRcon534_ol_73"> so in one dimension </seg> no<c function="fall" type="intonation"/><pause/> it's not <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_159"> no but i mean erm <pause dur="PT2S"/><incident dur="PT2S" voice:desc="loud parallel conversation audible "/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_160"> i kno- i know you can do this <seg n="1" type="overlap" xml:id="PRcon534_ol_74"> in<c type="lengthening"/> in higher dimensions </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_161"><seg n="1" synch="#PRcon534_ol_74" type="overlap" xml:id="PRcon534_ol_75"> take general zero one </seg> and say<c type="lengthening"/><pause dur="PT3S"/><incident dur="PT3S" voice:desc="loud parallel conversation audible "/> at this unit one it <pause/> you can zero and one <pause dur="PT3S"/><incident dur="PT3S" voice:desc="loud parallel conversation continues "/><w voice:mode="spelt"> x  </w> of  <w voice:mode="spelt"> n  </w><pause dur="PT1S"/><seg n="2" type="overlap" xml:id="PRcon534_ol_76"><unclear> is it </unclear> large <supplied reason="unintelligible"> xxx </supplied></seg><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_162"><seg n="2" synch="#PRcon534_ol_76" type="overlap" xml:id="PRcon534_ol_77"><vocal voice:desc="coughs"/> and in </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_163"> how do you confront large <supplied reason="unintelligible" voice:ipa="sɜːvəntəs"> xxx </supplied> there <pause dur="PT2S"/> i was taking there <voice:pvc> over<unclear>tish </unclear></voice:pvc><pause dur="PT2S"/> and so <seg n="3" type="overlap" xml:id="PRcon534_ol_78"><unclear> many so many </unclear></seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_164"><seg n="3" synch="#PRcon534_ol_78" type="overlap" xml:id="PRcon534_ol_79"> and there aren't many </seg> domains that will satisfy that  <w voice:mode="spelt"> f  </w><w voice:mode="spelt"> f  </w> prime square doesn't code the <pause/> double file<c function="fall" type="intonation"/><pause/><shift corresp="#PRcon534_s_56" feature="tempo" new="a" xml:id="PRcon534_s_55"/> i think if you do that <shift corresp="#PRcon534_s_55" feature="tempo" new="neutral" xml:id="PRcon534_s_56"/> you <seg n="9" type="overlap" xml:id="PRcon534_ol_80"> get </seg><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_165"><seg n="9" synch="#PRcon534_ol_80" type="overlap" xml:id="PRcon534_ol_81"> hm </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_166"> like one over  <w voice:mode="spelt"> x  </w> or so <pause/> that's probably the only example<c function="fall" type="intonation"/><pause dur="PT1S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_167"> and log <pause dur="PT1S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_168"><vocal type="speaker_noise" voice:desc="smacks lips"/> or minus <pause/> minus one over  <w voice:mode="spelt"> x  </w><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_169"> and log <pause dur="PT1S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_170"> wait<c function="fall" type="intonation"/><seg n="4" type="overlap" xml:id="PRcon534_ol_82"> yeah logarithm </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_171"><seg n="4" synch="#PRcon534_ol_82" type="overlap" xml:id="PRcon534_ol_83"> log  is usually a </seg> very good function <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_172"> yeah<c function="fall" type="intonation"/> so yeah<c function="fall" type="intonation"/><seg n="5" type="overlap" xml:id="PRcon534_ol_84"> logarithm<c function="fall" type="intonation"/></seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_173"><shift corresp="#PRcon534_s_58" feature="loud" new="p" xml:id="PRcon534_s_57"/><seg n="5" synch="#PRcon534_ol_84" type="overlap" xml:id="PRcon534_ol_85"> mhm </seg> mhm<c function="rise" type="intonation"/><shift corresp="#PRcon534_s_57" feature="loud" new="neutral" xml:id="PRcon534_s_58"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_174"> no no it <emph> is </emph> actually of log<seg n="6" type="overlap" xml:id="PRcon534_ol_86">arithm </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_175"><seg n="6" synch="#PRcon534_ol_86" type="overlap" xml:id="PRcon534_ol_87"> log </seg> o<c type="lengthening"/>h you got okay <unclear> they're </unclear> we're already one <pause/> derivative too far <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_176"><shift corresp="#PRcon534_s_60" feature="tempo" new="a" xml:id="PRcon534_s_59"/> well if you've one over  <w voice:mode="spelt"> x  </w> you look at the second derivative one would have  <w voice:mode="spelt"> x  </w> to the cube <seg n="7" type="overlap" xml:id="PRcon534_ol_88"> but this can  <w voice:mode="spelt"> x  </w> square it is a </seg><shift corresp="#PRcon534_s_59" feature="tempo" new="neutral" xml:id="PRcon534_s_60"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_177"><seg n="7" synch="#PRcon534_ol_88" type="overlap" xml:id="PRcon534_ol_89"> yeah i'm saying we're already at at  <w voice:mode="spelt"> f  </w></seg><w voice:mode="spelt"> f  </w><seg n="1" type="overlap" xml:id="PRcon534_ol_90"> prime that which is one of the <shift corresp="#PRcon534_s_62" feature="loud" new="p" xml:id="PRcon534_s_61"/> okay <shift corresp="#PRcon534_s_61" feature="loud" new="neutral" xml:id="PRcon534_s_62"/></seg><pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_178"><seg n="1" synch="#PRcon534_ol_90" type="overlap" xml:id="PRcon534_ol_91"> yeah<c function="fall" type="intonation"/> yeah<c function="fall" type="intonation"/> yeah<c function="fall" type="intonation"/></seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_179"> log  is defined then <shift corresp="#PRcon534_s_64" feature="loud" new="p" xml:id="PRcon534_s_63"/> yeah<c function="fall" type="intonation"/><shift corresp="#PRcon534_s_63" feature="loud" new="neutral" xml:id="PRcon534_s_64"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_180"> yeah<c function="fall" type="intonation"/> so <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_181"> that's the horrible thing i played with <shift corresp="#PRcon534_s_66" feature="voice" new="laugh" xml:id="PRcon534_s_65"/> that too <shift corresp="#PRcon534_s_65" feature="voice" new="neutral" xml:id="PRcon534_s_66"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><shift corresp="#PRcon534_s_68" feature="voice" new="laugh" xml:id="PRcon534_s_67"/> that that there should<unclear>n't </unclear><shift corresp="#PRcon534_s_67" feature="voice" new="neutral" xml:id="PRcon534_s_68"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/> the the essentially there is just log <pause/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_182"> yeah<c function="fall" type="intonation"/><pause dur="PT1S"/> but if you wanna do let's say <pause/> property  <w voice:mode="spelt"> P<c type="lengthening"/></w> then there are <voice:pvc> huzillions </voice:pvc> of things <pause dur="PT2S"/><incident dur="PT2S" voice:desc="parallel conversation clearly audible in background "/> no<c function="fall" type="intonation"/><seg n="2" type="overlap" xml:id="PRcon534_ol_92"> wait<c function="fall" type="intonation"/> even <pause/> even that </seg> is a <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_183"><seg n="2" synch="#PRcon534_ol_92" type="overlap" xml:id="PRcon534_ol_93"> well but then er hold on </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_184"> even <seg n="3" type="overlap" xml:id="PRcon534_ol_94"> that is a </seg></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_185"><seg n="3" synch="#PRcon534_ol_94" type="overlap" xml:id="PRcon534_ol_95"> we have those </seg> only <pause dur="PT2S"/><incident dur="PT2S" voice:desc="parallel conversation clearly audible in background "/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_186"> right but er the second derivative cannot be very <emph> high </emph><c function="fall" type="intonation"/><pause dur="PT2S"/> if you have arbitrarily large second derivatives <pause dur="PT2S"/> bal <voice:track medium="1" num="5" type="md"/> functions cannot be <pause/> bounded <pause/> very much <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_187"> o<c type="lengthening"/>h the <unclear> could </unclear> sure you er <pause dur="PT2S"/></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_188"> because <unclear> certain </unclear> derivative says <pause/> the first derivative s- has <pause/> ha- wait<c function="fall" type="intonation"/><pause dur="PT2S"/> has to change a lot<c function="rise" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_189"> yes but then <pause dur="PT1S"/> so what we wanna ha<c type="lengthening"/>ve <pause/><incident voice:desc="S1 writes"/> conceive  like this<c function="fall" type="intonation"/><pause/> in<seg n="4" type="overlap" xml:id="PRcon534_ol_96">creasing like this </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_190"><seg n="4" synch="#PRcon534_ol_96" type="overlap" xml:id="PRcon534_ol_97"> no no <pause/> this way </seg><pause/><incident voice:desc="S2 writes"/> they gotta <seg n="5" type="overlap" xml:id="PRcon534_ol_98"> be <pause/> con<emph>vex </emph><c function="fall" type="intonation"/></seg><pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_191"><seg n="5" synch="#PRcon534_ol_98" type="overlap" xml:id="PRcon534_ol_99"> like this right </seg></u>
+            <u who="#PRcon534_S2" xml:id="PRcon534_u_192"> convex functions <pause/></u>
+            <u who="#PRcon534_S1" xml:id="PRcon534_u_193"> yah<c function="rise" type="intonation"/></u>
+         </div>
+      </body>
+   </text>
+</TEI>

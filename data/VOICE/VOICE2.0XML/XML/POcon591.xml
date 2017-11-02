@@ -1,0 +1,721 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" version="5" xml:id="POcon591" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>conversation during coffee break about shopping malls</title>
+            <principal>Prof. Barbara Seidlhofer</principal>
+            <editor/>
+            <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+            <sponsor/>
+            <respStmt>
+		<resp>Researchers</resp> 
+		<name xml:id="AB">Angelika Breiteneder</name> 
+		<name xml:id="TK">Theresa Klimpfinger</name> 
+		<name xml:id="SM">Stefan Majewski</name> 
+		<name xml:id="MLP">Marie-Luise Pitzl</name>
+	  </respStmt>
+         </titleStmt>
+         <editionStmt>
+	  <edition>Version 2.0 XML, <date>January 2013</date></edition>
+	  <respStmt>
+		<resp>Researchers</resp>
+		<name>Barbara Seidlhofer</name> 		
+		<name>Stefan Majewski</name> 
+		<name>Ruth Osimk-Teasdale</name>
+		<name>Marie-Luise Pitzl</name>
+		<name>Michael Radeka</name>
+	  </respStmt>
+	</editionStmt>
+         <publicationStmt>
+		<publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+	  <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+	  <address>
+		<addrLine>Spitalgasse 2, AAKH Hof 8</addrLine> 
+		<addrLine>1090 Vienna</addrLine> 
+		<addrLine>Austria</addrLine> 
+		<addrLine>Telephone: +43 1 427742446</addrLine> 
+		<addrLine>Email: voice@univie.ac.at</addrLine> 
+		<addrLine>Website: http://www.univie.ac.at/voice</addrLine> 
+	  </address>
+	  <availability status="free">
+	  		<p>
+		  The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). Minor revisions were gathered
+		  by Ruth Osimk-Teasdale and Michael Radeka and corrections were made by 
+		  Ruth Osimk-Teasdale. VOICE 2.0 XML is available for download at the VOICE 
+		  Project's website <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+	  	<p>
+          The recommended citation for VOICE 2.0 XML is:
+		</p>
+		<p>
+		<bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version 2.0
+		XML</edition>). Director: Barbara Seidlhofer; Researchers:
+		Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka.</bibl>
+		</p>
+		<p>The short citation for VOICE 2.0 XML is:
+		</p>
+		<p>
+          <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version 2.0 XML</edition>).</bibl>
+        </p>
+		<p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+	  </availability>
+	</publicationStmt>
+         <notesStmt>
+            <note xml:id="POcon591_wc">Words: 1276</note>
+            <note xml:id="POcon591_tn_0">This conversation takes place in the coffee break between two working group discussions which are part of a larger assembly about mobility in Europe. The speakers, all academics from different European universities, discuss what they want to do after the official program of the day and where they want to go shopping. The speakers know each other from earlier occasions of this kind, so the atmosphere can be described as relaxed. As many people talk to each other during the coffee break, only individual threads of talk could be transcribed.</note>
+         </notesStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording dur="PT00H07M09S" type="audio">
+                  <date>2006-05-12</date>
+                  <equipment>
+                     <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+                  </equipment>
+                  <respStmt>
+                     <resp>recording</resp>
+                     <name>R9</name>
+                  </respStmt>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="POcon591_domain">
+                  <catDesc>Domain</catDesc>
+                  <category sameAs="#ED" xml:id="POcon591_ED">
+                     <catDesc>educational</catDesc>
+                  </category>
+                  <category sameAs="#LE" xml:id="POcon591_LE">
+                     <catDesc>leisure</catDesc>
+                  </category>
+                  <category sameAs="#PB" xml:id="POcon591_PB">
+                     <catDesc>professional business</catDesc>
+                  </category>
+                  <category sameAs="#PO" xml:id="POcon591_PO">
+                     <catDesc>professional organizational</catDesc>
+                  </category>
+                  <category sameAs="#PR" xml:id="POcon591_PR">
+                     <catDesc>professional research/science</catDesc>
+                  </category>
+               </category>
+               <category xml:id="POcon591_spet">
+                  <catDesc>Speech Event Type</catDesc>
+                  <category sameAs="#int" xml:id="POcon591_int">
+                     <catDesc>interview</catDesc>
+                  </category>
+                  <category sameAs="#prc" xml:id="POcon591_prc">
+                     <catDesc>press conference</catDesc>
+                  </category>
+                  <category sameAs="#sve" xml:id="POcon591_sve">
+                     <catDesc>service encounter</catDesc>
+                  </category>
+                  <category sameAs="#sed" xml:id="POcon591_sed">
+                     <catDesc>seminar discussion</catDesc>
+                  </category>
+                  <category sameAs="#wgd" xml:id="POcon591_wgd">
+                     <catDesc>working group discussion</catDesc>
+                  </category>
+                  <category sameAs="#wsd" xml:id="POcon591_wsd">
+                     <catDesc>workshop discussion</catDesc>
+                  </category>
+                  <category sameAs="#mtg" xml:id="POcon591_mtg">
+                     <catDesc>meeting</catDesc>
+                  </category>
+                  <category sameAs="#pan" xml:id="POcon591_pan">
+                     <catDesc>panel</catDesc>
+                  </category>
+                  <category sameAs="#qas" xml:id="POcon591_qas">
+                     <catDesc>question-answer session</catDesc>
+                  </category>
+                  <category sameAs="#con" xml:id="POcon591_con">
+                     <catDesc>conversation</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <tagsDecl><namespace name="http://www.tei-c.org/ns/1.0">
+      <tagUsage gi="TEI" occurs="1"/>
+      <tagUsage gi="teiHeader" occurs="1"/>
+      <tagUsage gi="fileDesc" occurs="1"/>
+      <tagUsage gi="titleStmt" occurs="1"/>
+      <tagUsage gi="title" occurs="5"/>
+      <tagUsage gi="principal" occurs="1"/>
+      <tagUsage gi="editor" occurs="1"/>
+      <tagUsage gi="funder" occurs="1"/>
+      <tagUsage gi="sponsor" occurs="1"/>
+      <tagUsage gi="respStmt" occurs="3"/>
+      <tagUsage gi="resp" occurs="3"/>
+      <tagUsage gi="name" occurs="12"/>
+      <tagUsage gi="editionStmt" occurs="1"/>
+      <tagUsage gi="edition" occurs="3"/>
+      <tagUsage gi="date" occurs="4"/>
+      <tagUsage gi="publicationStmt" occurs="1"/>
+      <tagUsage gi="publisher" occurs="1"/>
+      <tagUsage gi="distributor" occurs="1"/>
+      <tagUsage gi="address" occurs="1"/>
+      <tagUsage gi="addrLine" occurs="6"/>
+      <tagUsage gi="availability" occurs="1"/>
+      <tagUsage gi="p" occurs="7"/>
+      <tagUsage gi="ref" occurs="4"/>
+      <tagUsage gi="bibl" occurs="2"/>
+      <tagUsage gi="notesStmt" occurs="1"/>
+      <tagUsage gi="note" occurs="2"/>
+      <tagUsage gi="sourceDesc" occurs="1"/>
+      <tagUsage gi="recordingStmt" occurs="1"/>
+      <tagUsage gi="recording" occurs="1"/>
+      <tagUsage gi="equipment" occurs="1"/>
+      <tagUsage gi="encodingDesc" occurs="1"/>
+      <tagUsage gi="classDecl" occurs="1"/>
+      <tagUsage gi="taxonomy" occurs="1"/>
+      <tagUsage gi="category" occurs="17"/>
+      <tagUsage gi="catDesc" occurs="17"/>
+      <tagUsage gi="tagsDecl" occurs="1"/>
+      <tagUsage gi="namespace" occurs="2"/>
+      <tagUsage gi="tagUsage" occurs="82"/>
+      <tagUsage gi="gi" occurs="3"/>
+      <tagUsage gi="att" occurs="14"/>
+      <tagUsage gi="list" occurs="12"/>
+      <tagUsage gi="label" occurs="22"/>
+      <tagUsage gi="val" occurs="43"/>
+      <tagUsage gi="item" occurs="42"/>
+      <tagUsage gi="profileDesc" occurs="1"/>
+      <tagUsage gi="textClass" occurs="1"/>
+      <tagUsage gi="catRef" occurs="2"/>
+      <tagUsage gi="settingDesc" occurs="1"/>
+      <tagUsage gi="setting" occurs="1"/>
+      <tagUsage gi="locale" occurs="1"/>
+      <tagUsage gi="activity" occurs="1"/>
+      <tagUsage gi="particDesc" occurs="1"/>
+      <tagUsage gi="listPerson" occurs="4"/>
+      <tagUsage gi="personGrp" occurs="2"/>
+      <tagUsage gi="person" occurs="10"/>
+      <tagUsage gi="age" occurs="8"/>
+      <tagUsage gi="sex" occurs="8"/>
+      <tagUsage gi="occupation" occurs="7"/>
+      <tagUsage gi="langKnowledge" occurs="8"/>
+      <tagUsage gi="langKnown" occurs="9"/>
+      <tagUsage gi="relationGrp" occurs="1"/>
+      <tagUsage gi="relation" occurs="2"/>
+      <tagUsage gi="revisionDesc" occurs="1"/>
+      <tagUsage gi="change" occurs="5"/>
+      <tagUsage gi="text" occurs="1"/>
+      <tagUsage gi="body" occurs="1"/>
+      <tagUsage gi="div" occurs="2"/>
+      <tagUsage gi="u" occurs="193">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+      <tagUsage gi="c" occurs="105">Used to mark lengthening of sounds and
+		intonation (fall, rise). The following <att>type</att>
+		attributes are used to mark:
+		<list>
+		  <label><val>lengthening</val></label><item>lengthened
+		  sounds</item>
+		  <label><val>intonation</val></label><item>a significant change in
+		  intonation, marked with the following <att>function</att>
+		  attribute for:
+		  <list>
+			<label><val>fall</val></label><item>falling
+			intonation</item>
+			<label><val>rise</val></label><item>rising intonation</item>
+		  </list>
+		</item>
+		</list>
+		Intonation may or may not coincide with
+		syntactic boundaries.
+		</tagUsage>
+      <tagUsage gi="pause" occurs="72">Used to mark a pause either between or
+		within utterances. Used without <att>dur</att> attribute to
+		indicate a brief pause up to half a second.
+		</tagUsage>
+      <tagUsage gi="incident" occurs="3">Used to mark contextual information
+		relevant to the understanding of the interaction or the
+		interaction as such. The <att>voice:desc</att> attribute
+		provides a short prose description of the contextual
+		event.</tagUsage>
+      <tagUsage gi="vocal" occurs="26">Used to mark laughter and other speaker
+        noises and non-verbal feedback.
+        <list>
+          <label>
+            <val>speaker_noise</val>
+          </label>
+          <item>
+            <list>
+              <item>
+                <val>coughing</val>
+              </item>
+              <item>
+                <val>nods</val>
+              </item>
+              <item>
+                <val>shakes head</val>
+              </item>
+              <item>
+                <val>smacks lips</val>
+              </item>
+              <item>
+                <val>sniffs</val>
+              </item>
+              <item>
+                <val>swallows</val>
+              </item>
+              <item>
+                <val>whistles</val>
+              </item>
+            </list>
+          </item>
+          <label>
+            <val>wordlike</val>
+          </label>
+          <item>
+            <val>laughing</val>
+          </item>
+        </list>
+        </tagUsage>
+      <tagUsage gi="supplied" occurs="38">Used to mark text supplied by the
+		transcriber because the original is unintelligible or needed
+		to be anonymized. The <att>reason</att> attribute is used to
+		mark:
+		<list>
+		  <label><val>unintelligible</val></label><item>unintelligible
+		  speech</item>
+		  <label><val>anonymization</val></label><item>anonymized
+		  speech</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="seg" occurs="101">Used with different <att>type</att> attributes to mark:
+		<list>
+		  <label><att>type</att><val>overlap</val></label>
+		  <item>overlaps</item>
+		  <label><att>type</att><val>onomatopoeia</val></label>
+		  <item>onomatopoeic sounds</item>
+		  <label><att>type</att><val>ipa</val></label>
+		  <item>transcriptions in the international phonetic alphabet</item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="anchor" occurs="30">Used to mark other-continuation,
+		i.e. whenever a speaker continues another speaker's <gi>u</gi>
+		without a pause. Other-continuation is to be interpreted
+		temporally and does not relate to form or content of the
+		speakers' utterances.</tagUsage>
+      <tagUsage gi="emph" occurs="26">Used to mark speech which is stressed or
+		emphasized in a way that goes beyond regular nuclear
+		stress.</tagUsage>
+      <tagUsage gi="unclear" occurs="32">Used to mark speech which cannot be
+		transcribed with certainty, because it is difficult to hear or
+		understand for the transcriber.</tagUsage>
+      <tagUsage gi="foreign" occurs="23">Used to mark a word or phrase as
+		belonging to some language other than English. The following
+		values for the <att>type</att> attribute are used to mark:
+		<list>
+		  <label><val>L1</val></label><item>the speaker's first
+		  language</item>
+		  <label><val>LN</val></label><item>a language other than the
+		  speaker's first language</item>
+		  <label><val>LQ</val></label><item>a language where it cannot
+		  be ascertained whether it is the speaker's first or other
+		  language.</item>
+		</list>
+		Whenever possible, the <att>voice:translation</att> attribute
+		provides a rough translation of the non-English speech into
+		English.
+		</tagUsage>
+      <tagUsage gi="shift" occurs="14">Used to mark the point at which some
+		paralinguistic feature changes. The following attribute values
+		are used to mark:
+		<list>
+          <label>
+            <val>voice</val>
+          </label>
+          <item>voice quality
+          <list>
+            <item><val>imitating</val></item>
+            <item><val>laugh</val></item>
+            <item><val>neutral</val></item>
+            <item><val>phone</val></item>
+            <item><val>reading</val></item>
+            <item><val>reading_aloud</val></item>
+            <item><val>sigh</val></item>
+            <item><val>singing</val></item>
+            <item><val>whisp</val></item>
+            <item><val>yawning</val></item>
+          </list>
+          </item>
+          <label>
+          <val>tempo</val></label>
+          <item>speed of utterance
+            <list>
+              <label><val>a</val></label>
+              <item>accelerando</item>
+              <label><val>l</val></label>
+              <item>lento</item>
+              <label><val>neutral</val></label>
+              <item>neutral</item>
+            </list>
+          </item>
+          <label>
+          <val>loud</val></label>
+          <item>loudness
+            <list>
+              <item><val>f</val></item>
+              <item><val>neutral</val></item>
+              <item><val>p</val></item>
+            </list>
+          </item>
+		</list>
+		</tagUsage>
+      <tagUsage gi="gap" occurs="1">Used to mark points where a short portion of
+		speech has not been recorded or has been left untranscribed,
+		whether for editorial reasons, as part of the sampling practice,
+		or because the material is inaudible or comprises sensitive
+		content. The following <att>reason</att> attributes are used to
+		mark:
+		<list>
+		  <label><val>not_recorded</val></label><item>Not recorded
+		  speech</item>
+		  <label><val>not_transcribed</val></label><item>Not transcribed
+		  speech</item>
+		</list>
+		Further information on the reason for a gap is provided within
+		the <att>voice:desc</att> attribute.
+		</tagUsage></namespace><namespace name="http://www.univie.ac.at/voice/ns/1.0">
+      <tagUsage gi="voice:to" occurs="3">Used to mark speech directed towards a
+		particular speaker. The <att>who</att>who attribute indicates the
+		addressed speaker.</tagUsage>
+      <tagUsage gi="voice:track" occurs="2">Used to mark the beginning of a new
+		audio track used in transcription (usually three minutes in
+		length) and thus refers to the audio recording of the
+		transcribed speech event.
+		</tagUsage></namespace></tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#POcon591_PO #POcon591_con"/>
+            <catRef target="#PO #con"/>
+         </textClass>
+         <settingDesc>
+            <setting>
+               <name type="country">PT</name>
+               <name type="city">Lisbon</name>
+               <locale>seminar room at university</locale>
+               <activity>drinking coffee</activity>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="main">
+               <listPerson type="groups">
+                  <personGrp role="speakers" size="8"/>
+                  <personGrp role="interactants" size="8"/>
+               </listPerson>
+               <listPerson type="identified">
+                  <person role="participant" sameAs="#P444" xml:id="POcon591_S7">
+                     <age value="4">50+</age>
+                     <sex value="2">female</sex>
+                     <occupation>employee at international relations office</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ger-DE"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P443" xml:id="POcon591_S5">
+                     <age value="4">50+</age>
+                     <sex value="2">female</sex>
+                     <occupation>employee at international relations office</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="dut"/>
+                        <langKnown level="L1" tag="ger-AT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P445" xml:id="POcon591_S8">
+                     <age value="0">unknown</age>
+                     <sex value="1">male</sex>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="spa-ES"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P446" xml:id="POcon591_S10">
+                     <age value="0">unknown</age>
+                     <sex value="2">female</sex>
+                     <occupation>employee at international relations office</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="eng-IE"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P447" xml:id="POcon591_S11">
+                     <age value="0">unknown</age>
+                     <sex value="2">female</sex>
+                     <occupation>employee of international relations office</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="nor-NO"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P448" xml:id="POcon591_S12">
+                     <age value="0">unknown</age>
+                     <sex value="2">female</sex>
+                     <occupation>employee at international relations office</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ita-IT"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P456" xml:id="POcon591_S19">
+                     <age value="0">unknown</age>
+                     <sex value="2">female</sex>
+                     <occupation>employee of international relations office</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="slo-SK"/>
+                     </langKnowledge>
+                  </person>
+                  <person role="participant" sameAs="#P187" xml:id="POcon591_S9">
+                     <age value="3">35-49</age>
+                     <sex value="2">female</sex>
+                     <occupation>employee of international relations office</occupation>
+                     <langKnowledge>
+                        <langKnown level="L1" tag="ita-IT"/>
+                     </langKnowledge>
+                  </person>
+               </listPerson>
+               <listPerson type="not_identified">
+                  <person sameAs="#SX-f" xml:id="POcon591_SX-f"/>
+                  <person sameAs="#SS" xml:id="POcon591_SS"/>
+               </listPerson>
+               <relationGrp>
+                  <relation mutual="#POcon591_S10 #POcon591_S11 #POcon591_S12 #POcon591_S19 #POcon591_S5 #POcon591_S7 #POcon591_S8 #POcon591_S9" name="fairly_symmetrical" type="power"/>
+                  <relation mutual="#POcon591_S10 #POcon591_S11 #POcon591_S12 #POcon591_S19 #POcon591_S5 #POcon591_S7 #POcon591_S8 #POcon591_S9" name="acquainted" type="acquaintedness"/>
+               </relationGrp>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2009-05-19" who="SM">conversion to XML</change>
+         <change when="2009-05-12" who="TK">finalized for publication</change>
+         <change when="2008-08-13" who="TK">proof-reading</change>
+         <change when="2008-02-03" who="HB">checking</change>
+         <change when="2006-11-17" who="RO">transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="medium" voice:end="01:14" voice:end_medium_number="1" voice:end_track="1" voice:medium_type="md" voice:start="00:00" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#POcon591_S19" xml:id="POcon591_u_1"> so<c function="fall" type="intonation"/><pause/> you stay for coffee with us or you go <incident voice:desc="parallel conversations start"/> to your second room </u>
+            <u who="#POcon591_S8" xml:id="POcon591_u_2"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_3"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/>  i drink a glass of water i had too much coffee today<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S8" xml:id="POcon591_u_4"> i like this  windows <supplied reason="unintelligible"> xx </supplied></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_5"> i'm going to the first floor </u>
+            <u who="#POcon591_SX-f" xml:id="POcon591_u_6"><supplied reason="unintelligible"> xxxx </supplied></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_7"> okay<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S9" xml:id="POcon591_u_8"><voice:to who="#POcon591_S8"> yes<c function="fall" type="intonation"/> i als- also i like those </voice:to></u>
+            <u who="#POcon591_S8" xml:id="POcon591_u_9"> yeah </u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_10"> is there a toilet<c function="rise" type="intonation"/></u>
+            <u who="#POcon591_SX-f" xml:id="POcon591_u_11"> yes<c function="fall" type="intonation"/> yes yes <pause/> i show you<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S9" xml:id="POcon591_u_12"> i like <supplied reason="unintelligible"> xxxx<c function="fall" type="intonation"/></supplied></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_13"> the shadows of the planes <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_14"> hm<c function="rise" type="intonation"/><pause/> pardon<c function="rise" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_15"> dark shadows the pla<c type="lengthening"/>nes go <seg n="1" type="overlap" xml:id="POcon591_ol_0"> over you<c function="fall" type="intonation"/></seg></u>
+            <u who="#POcon591_SS" xml:id="POcon591_u_16"><seg n="1" synch="#POcon591_ol_0" type="overlap" xml:id="POcon591_ol_1"> oh yeah </seg> yeah <seg n="13" type="overlap" xml:id="POcon591_ol_2"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></seg></u>
+            <u who="#POcon591_S9" xml:id="POcon591_u_17"><seg n="13" synch="#POcon591_ol_2" type="overlap" xml:id="POcon591_ol_3"> it's awful </seg><pause dur="PT1S"/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_18"> i'm surprised they don't have anything <pause/> against the birds here <pause/></u>
+            <u who="#POcon591_SX-f" xml:id="POcon591_u_19"><seg n="2" type="overlap" xml:id="POcon591_ol_4"> mhm yeah </seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_20"><seg n="2" synch="#POcon591_ol_4" type="overlap" xml:id="POcon591_ol_5"> you </seg> know we always have this  black <anchor synch="#POcon591_oc_1" type="other_continuation" xml:id="POcon591_oc_0"/></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_21"><anchor synch="#POcon591_oc_0" type="other_continuation" xml:id="POcon591_oc_1"/> mhm </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_22"> plastic birds on the windows<c function="fall" type="intonation"/> when they are so <pause/><seg n="3" type="overlap" xml:id="POcon591_ol_6"> huge<c function="fall" type="intonation"/></seg></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_23"><seg n="3" synch="#POcon591_ol_6" type="overlap" xml:id="POcon591_ol_7"> but </seg> they have the <emph> blinds </emph><seg n="4" type="overlap" xml:id="POcon591_ol_8"><unclear> with the </unclear><emph> shapes </emph><c function="fall" type="intonation"/></seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_24"><seg n="4" synch="#POcon591_ol_8" type="overlap" xml:id="POcon591_ol_9"> but you know that </seg><unclear> explains </unclear> maybe there are <emph> no </emph> birds in this area because </u>
+            <u who="#POcon591_SS" xml:id="POcon591_u_25"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="9"/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_26"> the other day </u>
+            <u who="#POcon591_SX-f" xml:id="POcon591_u_27"><seg n="14" type="overlap" xml:id="POcon591_ol_10"><foreign type="LQ" voice:translation="yes yes yes" xml:lang="spa"> si si si </foreign></seg></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_28"><seg n="14" synch="#POcon591_ol_10" type="overlap" xml:id="POcon591_ol_11"><shift corresp="#POcon591_s_2" feature="voice" new="laugh" xml:id="POcon591_s_1"/> can't imagine so <shift corresp="#POcon591_s_1" feature="voice" new="neutral" xml:id="POcon591_s_2"/></seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_29"> the other day a big bird flew against <pause/> the window<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_30"> yes </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_31"> al- although there er these plastic birds <pause/> and it was an enormous bang we were sitting with the back to the window i thought it was <emph> burst</emph>ing <pause/> then i turned round and there was just some <pause dur="PT1S"/> erm oil of on <seg n="5" type="overlap" xml:id="POcon591_ol_12"> that erm </seg> f- some <emph> fat </emph> from from the bird's feathers on the<c type="lengthening"/><pause/></u>
+            <u who="#POcon591_SX-f" xml:id="POcon591_u_32"><seg n="5" synch="#POcon591_ol_12" type="overlap" xml:id="POcon591_ol_13"> uhu </seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_33"> on the window <pause/> mhm </u>
+         </div>
+         <gap dur="PT00H00M50S" reason="not_transcribed" voice:desc="un; people continue talking very softly and/or in other languages"/>
+         <div type="medium" voice:end="01:05" voice:end_medium_number="1" voice:end_track="3" voice:medium_type="md" voice:start="02:03" voice:start_medium_number="1" voice:start_track="1">
+            <u who="#POcon591_S7" xml:id="POcon591_u_34"><supplied reason="anonymization"> [S10] </supplied> did <emph> you </emph> say that you went to a<c type="lengthening"/><vocal type="speaker_noise" voice:desc="smacks lips"/><pause dur="PT1S"/> a shopping mall<c function="rise" type="intonation"/><incident voice:desc="still multiple parallel conversations in background"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_35"> no i didn't but erm the <pause/> the receptionist in the hotel <pause/> told me but he recommended one<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_36"> it was not er <foreign type="LN" voice:translation="spanish shopping mall" xml:lang="spa"> corte ingles<c function="rise" type="intonation"/></foreign></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_37"> no he said not that one because it's span<shift corresp="#POcon591_s_4" feature="voice" new="laugh" xml:id="POcon591_s_3"/>ish <shift corresp="#POcon591_s_3" feature="voice" new="neutral" xml:id="POcon591_s_4"/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_38"><supplied reason="unintelligible"> xxx </supplied> yes it's spanish and it's <supplied reason="unintelligible"> xx </supplied> where <emph> else </emph><seg n="14" type="overlap" xml:id="POcon591_ol_14"><supplied reason="unintelligible"> xx </supplied></seg><pause/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_39"><seg n="14" synch="#POcon591_ol_14" type="overlap" xml:id="POcon591_ol_15"> yeah </seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_40"><seg n="15" type="overlap" xml:id="POcon591_ol_16"> i would like to <supplied reason="unintelligible"> xxx </supplied></seg> portuguese </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_41"><seg n="15" synch="#POcon591_ol_16" type="overlap" xml:id="POcon591_ol_17"><emph> he </emph><unclear> would </unclear> recommend it </seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_42"> that's what he said erm <pause dur="PT1S"/> that's the hotel and <seg n="6" type="overlap" xml:id="POcon591_ol_18"> that's </seg> that's our metro <seg n="7" type="overlap" xml:id="POcon591_ol_19"> stop </seg><pause/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_43"><seg n="6" synch="#POcon591_ol_18" type="overlap" xml:id="POcon591_ol_20"> yes<c function="rise" type="intonation"/></seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_44"><seg n="7" synch="#POcon591_ol_19" type="overlap" xml:id="POcon591_ol_21"> yeah </seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_45"> erm<c type="lengthening"/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_46"> where did you get this from <pause/> is it in our <pause/> map<c function="rise" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_47"> i got that i picked it up at the airport actually </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_48"> oh yeah </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_49"> that's <unclear> down there <foreign type="LN" voice:translation="portuguese shopping mall" xml:lang="por"> colombo<c function="fall" type="intonation"/></foreign></unclear><pause/> and there's a metro stop on our line<c function="fall" type="intonation"/> opp<seg n="8" type="overlap" xml:id="POcon591_ol_22">osite </seg> so you go to </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_50"><seg n="8" synch="#POcon591_ol_22" type="overlap" xml:id="POcon591_ol_23"> o<c type="lengthening"/>h yes </seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_51"><supplied reason="unintelligible"> xxx </supplied><unclear> park </unclear> yes<c function="fall" type="intonation"/> and then it's <foreign type="LN" voice:translation="portuguese shopping mall" xml:lang="por"> colombo </foreign></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_52"><foreign type="LN" voice:translation="portuguese shopping mall" xml:lang="por"> colombo<c function="fall" type="intonation"/></foreign><pause/><seg n="1" type="overlap" xml:id="POcon591_ol_24"> looks like </seg> it's <pause/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_53"><seg n="1" synch="#POcon591_ol_24" type="overlap" xml:id="POcon591_ol_25"> oh yeah </seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_54"><unclear> across the </unclear><supplied reason="unintelligible"> x </supplied><anchor synch="#POcon591_oc_3" type="other_continuation" xml:id="POcon591_oc_2"/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_55"><anchor synch="#POcon591_oc_2" type="other_continuation" xml:id="POcon591_oc_3"/> because i would like to buy something and the only <pause/> only possible time is tonight<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_56"> they <pause/> they're open till midnight<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_57"> a<c type="lengthening"/>h yeah<c function="fall" type="intonation"/><pause dur="PT2S"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_58"> e<c type="lengthening"/>rm so yeah <supplied reason="unintelligible"> xxxxxx </supplied></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_59"> would you like to do some <pause/> shopping or<c function="rise" type="intonation"/><voice:track medium="1" num="2" type="md"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_60"> yes<c function="rise" type="intonation"/></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_61"> yes i was there yesterday it <seg n="2" type="overlap" xml:id="POcon591_ol_26"><unclear> was </unclear> easy<c function="fall" type="intonation"/></seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_62"><seg n="2" synch="#POcon591_ol_26" type="overlap" xml:id="POcon591_ol_27"><foreign type="LN" voice:translation="portuguese shopping mall" xml:lang="por"> colombo </foreign></seg> yeah<c function="rise" type="intonation"/></u>
+            <u who="#POcon591_S9" xml:id="POcon591_u_63"><foreign type="LN" voice:translation="portuguese shopping mall" xml:lang="por"> colombo<c function="rise" type="intonation"/></foreign></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_64"> or this <pause/> this one here<c function="rise" type="intonation"/></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_65"> hm<c type="lengthening"/> yes<c function="fall" type="intonation"/><pause/> no no no what is the what is the <pause/> e<c type="lengthening"/>r </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_66"> did you go to the <seg n="16" type="overlap" xml:id="POcon591_ol_28"><foreign type="LN" voice:translation="spanish shopping mall" xml:lang="spa"> corte ingles<c function="rise" type="intonation"/></foreign></seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_67"><seg n="16" synch="#POcon591_ol_28" type="overlap" xml:id="POcon591_ol_29"><foreign type="LN" voice:translation="spanish shopping mall" xml:lang="spa"> corte ingles<c function="rise" type="intonation"/></foreign></seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_68"> so it is very close to the hotel but i don't know <unclear> if is really </unclear><supplied reason="unintelligible"> xx </supplied><anchor synch="#POcon591_oc_5" type="other_continuation" xml:id="POcon591_oc_4"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_69"><anchor synch="#POcon591_oc_4" type="other_continuation" xml:id="POcon591_oc_5"/> you <emph> walked </emph> to it<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_70"> yes ten <seg n="3" type="overlap" xml:id="POcon591_ol_30"> minutes </seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_71"><seg n="3" synch="#POcon591_ol_30" type="overlap" xml:id="POcon591_ol_31"><unclear> then it was </unclear></seg> the <foreign type="LN" voice:translation="spanish shopping mall" xml:lang="spa"> corte ingles<c function="rise" type="intonation"/></foreign></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_72"> there is a hotel <seg n="17" type="overlap" xml:id="POcon591_ol_32"><foreign type="LN" voice:translation="english" xml:lang="spa"> ingles </foreign></seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_73"><seg n="17" synch="#POcon591_ol_32" type="overlap" xml:id="POcon591_ol_33"><foreign type="LN" voice:translation="spanish shopping mall" xml:lang="spa"> corte ingles<c function="rise" type="intonation"/></foreign></seg><pause/> what's the name<c function="rise" type="intonation"/><foreign type="LN" voice:translation="half name of spanish shopping mall" xml:lang="spa"> el corte </foreign><anchor synch="#POcon591_oc_7" type="other_continuation" xml:id="POcon591_oc_6"/></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_74"><anchor synch="#POcon591_oc_6" type="other_continuation" xml:id="POcon591_oc_7"/><foreign type="LN" voice:translation="spanish shopping mall" xml:lang="spa"> el corte ingles<c function="fall" type="intonation"/></foreign></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_75"> yeah yeah<c function="fall" type="intonation"/><pause/><unclear> what direction </unclear></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_76"> it's er ten minutes w- walking <unclear> from here </unclear><anchor synch="#POcon591_oc_9" type="other_continuation" xml:id="POcon591_oc_8"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_77"><anchor synch="#POcon591_oc_8" type="other_continuation" xml:id="POcon591_oc_9"/> a<c type="lengthening"/>h okay </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_78"> i would like some<seg n="4" type="overlap" xml:id="POcon591_ol_34">thing </seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_79"><seg n="4" synch="#POcon591_ol_34" type="overlap" xml:id="POcon591_ol_35"> and </seg> if you want </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_80"> something portuguese things<c function="fall" type="intonation"/> i mean <seg n="5" type="overlap" xml:id="POcon591_ol_36"> not <pause/> not trash<c function="fall" type="intonation"/></seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_81"><seg n="5" synch="#POcon591_ol_36" type="overlap" xml:id="POcon591_ol_37"> yes they have some </seg> special things </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_82"> i i don't <supplied reason="unintelligible"> xx </supplied><seg n="6" type="overlap" xml:id="POcon591_ol_38"><shift corresp="#POcon591_s_6" feature="voice" new="laugh" xml:id="POcon591_s_5"/> special thing on my <supplied reason="unintelligible"> x </supplied><shift corresp="#POcon591_s_5" feature="voice" new="neutral" xml:id="POcon591_s_6"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="5"/></seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_83"><seg n="6" synch="#POcon591_ol_38" type="overlap" xml:id="POcon591_ol_39"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="7"/></seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_84"> you don't want spanish souvenirs </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_85"> er no <seg n="7" type="overlap" xml:id="POcon591_ol_40"> not really i <unclear> want that </unclear> but i </seg> would like some <pause/></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_86"><seg n="7" synch="#POcon591_ol_40" type="overlap" xml:id="POcon591_ol_41"><supplied reason="unintelligible"> xxx </supplied> something like this </seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_87"> some <pause/> tiles </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_88"> tiles are lovely <unclear> i know </unclear> yeah </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_89"><supplied reason="unintelligible"> xx </supplied><unclear> naples </unclear><c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_90"> yeah mhm <pause dur="PT1S"/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_91"> where <emph> are </emph> we<c function="fall" type="intonation"/> where is the university campus<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_92"><supplied reason="unintelligible"> xxxx </supplied></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_93"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="8"/><supplied reason="anonymization">  [S10] </supplied><c function="fall" type="intonation"/><anchor synch="#POcon591_oc_11" type="other_continuation" xml:id="POcon591_oc_10"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_94"><anchor synch="#POcon591_oc_10" type="other_continuation" xml:id="POcon591_oc_11"/> yes </u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_95"><supplied reason="anonymization"> [S10] </supplied> knows everything <seg n="1" type="overlap" xml:id="POcon591_ol_42"><supplied reason="unintelligible"> xxxxx </supplied></seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_96"><seg n="1" synch="#POcon591_ol_42" type="overlap" xml:id="POcon591_ol_43"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_97"><seg n="1" synch="#POcon591_ol_42" type="overlap" xml:id="POcon591_ol_44"> i don't know where </seg><emph> we </emph> are<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_98"> erm </u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_99"> this is the hotel </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_100"> that's the hotel <anchor synch="#POcon591_oc_13" type="other_continuation" xml:id="POcon591_oc_12"/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_101"><anchor synch="#POcon591_oc_12" type="other_continuation" xml:id="POcon591_oc_13"/> yeah </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_102"> and <pause/> erm a little bit further north four <emph> four </emph> metro stops </u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_103"> but we <emph> walked </emph><pause dur="PT1S"/> from the hotel </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_104"> oh where we are now </u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_105"> yeah </u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_106"><supplied reason="unintelligible"> xxxxx </supplied></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_107"> erm </u>
+            <u who="#POcon591_SX-f" xml:id="POcon591_u_108"> maybe i can help <supplied reason="unintelligible"> xxxx<c function="fall" type="intonation"/></supplied></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_109"><unclear> walk this way </unclear><supplied reason="unintelligible"> xxx </supplied> here<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_110"><supplied reason="unintelligible"> xxx </supplied></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_111"><supplied reason="unintelligible"> xxx </supplied></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_112"> ah yeah </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_113"> but the erm <pause/><unclear> closest </unclear><supplied reason="unintelligible"> xxx </supplied> the<c type="lengthening"/><pause/> metro stop <pause dur="PT1S"/> e<c type="lengthening"/>r <supplied reason="unintelligible"> xxx </supplied> hot<seg n="2" type="overlap" xml:id="POcon591_ol_45">el </seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_114"><seg n="2" synch="#POcon591_ol_45" type="overlap" xml:id="POcon591_ol_46"> is it </seg> in front of the hotel<c function="rise" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_115"> yeah but four stops so on<c type="lengthening"/>e two this one here <anchor synch="#POcon591_oc_15" type="other_continuation" xml:id="POcon591_oc_14"/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_116"><anchor synch="#POcon591_oc_14" type="other_continuation" xml:id="POcon591_oc_15"/><unclear> where </unclear> are you going to </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_117"> that's for shopping<c function="fall" type="intonation"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_118"> a<c type="lengthening"/>h <seg n="3" type="overlap" xml:id="POcon591_ol_47"> but </seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_119"><seg n="3" synch="#POcon591_ol_47" type="overlap" xml:id="POcon591_ol_48"> and <unclear> a </unclear></seg> port- portuguese shopping center is there<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_120"><seg n="4" type="overlap" xml:id="POcon591_ol_49"> a<c type="lengthening"/><c type="lengthening"/>h </seg></u>
+            <u who="#POcon591_S12" xml:id="POcon591_u_121"><shift corresp="#POcon591_s_8" feature="voice" new="reading" xml:id="POcon591_s_7"/><seg n="4" synch="#POcon591_ol_49" type="overlap" xml:id="POcon591_ol_50"><supplied reason="unintelligible"> xxxx<c type="lengthening"/></supplied></seg><supplied reason="unintelligible"> xx </supplied><shift corresp="#POcon591_s_7" feature="voice" new="neutral" xml:id="POcon591_s_8"/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_122"> yeah<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_123"> yeah <anchor synch="#POcon591_oc_17" type="other_continuation" xml:id="POcon591_oc_16"/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_124"><anchor synch="#POcon591_oc_16" type="other_continuation" xml:id="POcon591_oc_17"/> but then <seg n="5" type="overlap" xml:id="POcon591_ol_51"> you also this is a big department store </seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_125"><seg n="5" synch="#POcon591_ol_51" type="overlap" xml:id="POcon591_ol_52"><unclear> it's a it's a </unclear><supplied reason="unintelligible"> xxx </supplied></seg> wants to be near <anchor synch="#POcon591_oc_19" type="other_continuation" xml:id="POcon591_oc_18"/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_126"><anchor synch="#POcon591_oc_18" type="other_continuation" xml:id="POcon591_oc_19"/> yeah </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_127"> and but that's spanish<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_128"> i know<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S9" xml:id="POcon591_u_129"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="6"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_130"> whereas this one is is <unclear> here </unclear><pause/> whereas this one is is <seg n="6" type="overlap" xml:id="POcon591_ol_53"> portuguese </seg></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_131"><seg n="6" synch="#POcon591_ol_53" type="overlap" xml:id="POcon591_ol_54"> but i guess </seg><seg n="7" type="overlap" xml:id="POcon591_ol_55"> they have portuguese stuff </seg></u>
+            <u who="#POcon591_SX-f" xml:id="POcon591_u_132"><seg n="6" synch="#POcon591_ol_53" type="overlap" xml:id="POcon591_ol_56"><supplied reason="unintelligible"> xxx </supplied> spanish </seg><seg n="7" synch="#POcon591_ol_55" type="overlap" xml:id="POcon591_ol_57"><unclear> would like to say </unclear></seg> it's more international <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></u>
+            <u who="#POcon591_SS" xml:id="POcon591_u_133"> yeah<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_SX-f" xml:id="POcon591_u_134"> what is the name of the station<c function="rise" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_135"><foreign type="LN" voice:translation="name of metro stop" xml:lang="por"> colegio militar </foreign> and <seg n="1" type="overlap" xml:id="POcon591_ol_58"><foreign type="LN" voice:translation="portuguese shopping mall" xml:lang="por"> colombo<c function="fall" type="intonation"/></foreign><foreign type="LN" voice:translation="portuguese shopping mall" xml:lang="por"> colombo </foreign> is the shopping center<c function="fall" type="intonation"/></seg></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_136"><seg n="1" synch="#POcon591_ol_58" type="overlap" xml:id="POcon591_ol_59"><vocal voice:desc="coughs"/></seg></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_137"> okay<c function="rise" type="intonation"/><seg n="12" type="overlap" xml:id="POcon591_ol_60"><supplied reason="unintelligible"> xxxx </supplied><unclear> as well </unclear></seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_138"><seg n="12" synch="#POcon591_ol_60" type="overlap" xml:id="POcon591_ol_61"> and look like </seg> it's just erm <pause/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_139"> shopping <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><seg n="2" type="overlap" xml:id="POcon591_ol_62"><vocal type="wordlike" voice:desc="laughing" voice:syl="1"/></seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_140"><seg n="2" synch="#POcon591_ol_62" type="overlap" xml:id="POcon591_ol_63"> yeah </seg></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_141"> but on this map it looks like it's just a <seg n="3" type="overlap" xml:id="POcon591_ol_64"><unclear> long road </unclear></seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_142"><seg n="3" synch="#POcon591_ol_64" type="overlap" xml:id="POcon591_ol_65"> so everybody </seg><unclear> run for </unclear><pause/> shopping </u>
+            <u who="#POcon591_SX-f" xml:id="POcon591_u_143"><seg n="13" type="overlap" xml:id="POcon591_ol_66"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></seg></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_144"><seg n="13" synch="#POcon591_ol_66" type="overlap" xml:id="POcon591_ol_67"><foreign type="LN" voice:translation="portuguese shopping mall" xml:lang="por"> colombo </foreign></seg> no i thought i would just drop in the<c type="lengthening"/><foreign type="LN" voice:translation="spanish shopping mall" xml:lang="spa"> corte ingles<c function="rise" type="intonation"/></foreign><seg n="14" type="overlap" xml:id="POcon591_ol_68"> because i know it <pause/> from spain </seg><pause/><incident voice:desc="still background noise of multiple parallel conversations"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_145"><seg n="14" synch="#POcon591_ol_68" type="overlap" xml:id="POcon591_ol_69"><unclear> it's also very </unclear><supplied reason="unintelligible"> x </supplied></seg></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_146"> the <foreign type="LN" voice:translation="portuguese shopping mall" xml:lang="por"> colombo<c function="rise" type="intonation"/></foreign> the <foreign type="LN" voice:translation="portuguese shopping mall" xml:lang="por"> colombo<c function="rise" type="intonation"/></foreign><anchor synch="#POcon591_oc_21" type="other_continuation" xml:id="POcon591_oc_20"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_147"><anchor synch="#POcon591_oc_20" type="other_continuation" xml:id="POcon591_oc_21"/> yeah </u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_148"><seg n="4" type="overlap" xml:id="POcon591_ol_70"> oh my gosh </seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_149"><seg n="4" synch="#POcon591_ol_70" type="overlap" xml:id="POcon591_ol_71"> and when do you have </seg> so much time that you<c type="lengthening"/><unclear> want </unclear><c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_150"> oh yeah i understood that <pause/> one of the guys in the hotel <pause/> receptions when i arrived and he gave me <emph> so </emph> much information i have done <emph> ev</emph>erything he told me to do <vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="1"/><shift corresp="#POcon591_s_10" feature="voice" new="laugh" xml:id="POcon591_s_9"/> i think it's been <seg n="15" type="overlap" xml:id="POcon591_ol_72"><emph> perfect </emph></seg><shift corresp="#POcon591_s_9" feature="voice" new="neutral" xml:id="POcon591_s_10"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_151"><seg n="15" synch="#POcon591_ol_72" type="overlap" xml:id="POcon591_ol_73"><emph> hm </emph><c type="lengthening"/></seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_152"> because yesterday he he<c type="lengthening"/> sent me somewhere with- with- <pause/> without asking me what i want to <seg n="5" type="overlap" xml:id="POcon591_ol_74"> find<c function="fall" type="intonation"/> so </seg> you know <pause/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_153"><seg n="5" synch="#POcon591_ol_74" type="overlap" xml:id="POcon591_ol_75"> yeah yeah </seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_154"> but i asked <shift corresp="#POcon591_s_12" feature="voice" new="imitating" xml:id="POcon591_s_11"/> please <pause/> can you tell me <shift corresp="#POcon591_s_11" feature="voice" new="neutral" xml:id="POcon591_s_12"/><seg n="16" type="overlap" xml:id="POcon591_ol_76"><emph> yes </emph> he take a map <supplied reason="unintelligible"> xxxxx </supplied></seg></u>
+            <u who="#POcon591_SS" xml:id="POcon591_u_155"><seg n="16" synch="#POcon591_ol_76" type="overlap" xml:id="POcon591_ol_77"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/></seg><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_156"><seg n="16" synch="#POcon591_ol_76" type="overlap" xml:id="POcon591_ol_78"> thank you<c function="rise" type="intonation"/></seg></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_157"> but this is all <supplied reason="unintelligible"> xx </supplied> when he told me to <seg n="7" type="overlap" xml:id="POcon591_ol_79"> go down here <unclear> why don't you </unclear></seg><supplied reason="unintelligible"> x </supplied><unclear> yourself </unclear></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_158"><seg n="7" synch="#POcon591_ol_79" type="overlap" xml:id="POcon591_ol_80"> that's <emph> very </emph> nice<c function="fall" type="intonation"/> they're <emph> very </emph> helpful<c function="fall" type="intonation"/></seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_159"> so i think <pause/><shift corresp="#POcon591_s_14" feature="loud" new="f" xml:id="POcon591_s_13"/> how many <shift corresp="#POcon591_s_13" feature="loud" new="neutral" xml:id="POcon591_s_14"/><supplied reason="anonymization"> [org1] </supplied> people ask <pause/><seg n="1" type="overlap" xml:id="POcon591_ol_81"> for the same thing </seg></u>
+            <u who="#POcon591_SS" xml:id="POcon591_u_160"><seg n="1" synch="#POcon591_ol_81" type="overlap" xml:id="POcon591_ol_82"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></seg><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="4"/></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_161"> if they don't know a thing </u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_162"> a<c type="lengthening"/>h </u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_163"> okay </u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_164"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="2"/><c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S7" xml:id="POcon591_u_165"> so<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_166"> so er somehow we were interrupted yesterday be<seg n="2" type="overlap" xml:id="POcon591_ol_83">cause </seg> i didn't <pause/></u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_167"><seg n="2" synch="#POcon591_ol_83" type="overlap" xml:id="POcon591_ol_84"> sorry </seg></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_168"><voice:track medium="1" num="3" type="md"/> didn't <pause/> i finally didn't hear <pause/> what you <emph> did </emph><c function="fall" type="intonation"/> yes- <pause/> yesterday during the day </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_169"> yesterday i went to <foreign type="LN" voice:translation="ancient church in lisbon" xml:lang="por"> belem </foreign> may<seg n="3" type="overlap" xml:id="POcon591_ol_85">be </seg> erm i went straight up there went to the convent <anchor synch="#POcon591_oc_23" type="other_continuation" xml:id="POcon591_oc_22"/></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_170"><seg n="3" synch="#POcon591_ol_85" type="overlap" xml:id="POcon591_ol_86"> mhm </seg></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_171"><anchor synch="#POcon591_oc_22" type="other_continuation" xml:id="POcon591_oc_23"/> uhu </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_172"><unclear> there's one there </unclear><seg n="4" type="overlap" xml:id="POcon591_ol_87"> the church </seg></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_173"><seg n="4" synch="#POcon591_ol_87" type="overlap" xml:id="POcon591_ol_88"> and not </seg> to the tower <seg n="5" type="overlap" xml:id="POcon591_ol_89"> this </seg> i got yeah<c function="rise" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_174"><seg n="5" synch="#POcon591_ol_89" type="overlap" xml:id="POcon591_ol_90"> mhm </seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_175"> erm <pause/> and <pause/> the monument of the discoverer <unclear> that's all </unclear> that's really mainly <emph> all </emph> i did<c function="fall" type="intonation"/> i had my lunch up there </u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_176"> uhu </u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_177"> and then i got the bus back into town and it was <pause/> it was about half past three or so then<c function="fall" type="intonation"/> so i went back to the <pause/> hotel because i wanted to be back around four four thirty so i could change and freshen up <unclear> but </unclear> it was lovely i really liked <foreign type="LN" voice:translation="ancient church in lisbon" xml:lang="por"> belem </foreign> actually it was a very <emph> nice </emph> area<c function="fall" type="intonation"/><pause/> lots of space or some- there's a park oh yeah i walked through the <emph> park </emph> there<c function="fall" type="intonation"/> this was really nice <anchor synch="#POcon591_oc_25" type="other_continuation" xml:id="POcon591_oc_24"/></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_178"><anchor synch="#POcon591_oc_24" type="other_continuation" xml:id="POcon591_oc_25"/> the park of the convent<c function="fall" type="intonation"/></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_179"> yes<c function="fall" type="intonation"/><seg n="6" type="overlap" xml:id="POcon591_ol_91"> just in front </seg> directly in front yeah </u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_180"><seg n="6" synch="#POcon591_ol_91" type="overlap" xml:id="POcon591_ol_92"> the one in <emph> front </emph></seg></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_181"> because the convent also has a <pause/> has <seg n="18" type="overlap" xml:id="POcon591_ol_93"> a<c type="lengthening"/> erm <pause/> er some kind of a park but i don't know whether you </seg> can get into it </u>
+            <u who="#POcon591_S9" xml:id="POcon591_u_182"><seg n="18" synch="#POcon591_ol_93" type="overlap" xml:id="POcon591_ol_94"><voice:to who="#POcon591_SX-f"> yeah but it's rather difficult to er to do it within thirty minutes it's </voice:to></seg></u>
+            <u who="#POcon591_SX-f" xml:id="POcon591_u_183"><voice:to who="#POcon591_S9"> no no sure no sure </voice:to></u>
+            <u who="#POcon591_S9" xml:id="POcon591_u_184"><seg n="19" type="overlap" xml:id="POcon591_ol_95"> if you go in <pause/> for </seg><seg n="1" type="overlap" xml:id="POcon591_ol_96"> details then it means it's more </seg><seg n="2" type="overlap" xml:id="POcon591_ol_97"> difficult to er <unclear> completely </unclear></seg></u>
+            <u who="#POcon591_S10" xml:id="POcon591_u_185"><seg n="19" synch="#POcon591_ol_95" type="overlap" xml:id="POcon591_ol_98"> but it was <pause/> was just really nice </seg></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_186"><seg n="1" synch="#POcon591_ol_96" type="overlap" xml:id="POcon591_ol_99"> mhm <pause/> oh lord </seg></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_187"><seg n="2" synch="#POcon591_ol_97" type="overlap" xml:id="POcon591_ol_100"> yeah <pause/> well doesn't matter </seg></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_188"><vocal subtype="wordstart" type="wordlike" voice:desc="laughing" voice:syl="3"/><pause dur="PT1S"/>  yeah it's finished anyway probably </u>
+            <u who="#POcon591_S9" xml:id="POcon591_u_189"> i think that we should <emph> start </emph><pause/> because <pause dur="PT1S"/></u>
+            <u who="#POcon591_S19" xml:id="POcon591_u_190"> ah yes <anchor synch="#POcon591_oc_27" type="other_continuation" xml:id="POcon591_oc_26"/></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_191"><anchor synch="#POcon591_oc_26" type="other_continuation" xml:id="POcon591_oc_27"/> yes <supplied reason="anonymization"> [S9] </supplied><c function="fall" type="intonation"/> we are ready </u>
+            <u who="#POcon591_S11" xml:id="POcon591_u_192"> mhm <anchor synch="#POcon591_oc_29" type="other_continuation" xml:id="POcon591_oc_28"/></u>
+            <u who="#POcon591_S5" xml:id="POcon591_u_193"><anchor synch="#POcon591_oc_28" type="other_continuation" xml:id="POcon591_oc_29"/> e<c type="lengthening"/>r where does it say stop here </u>
+         </div>
+      </body>
+   </text>
+</TEI>

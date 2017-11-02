@@ -1,0 +1,3044 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:p="http://www.univie.ac.at/voice/pos" xmlns:t="http://www.tei-c.org/ns/1.0" xml:id="PRint30">
+  <teiHeader>
+    <fileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <titleStmt>
+        <title>interview about personal research interests and famous sights in Vienna</title>
+        <principal>Prof. Barbara Seidlhofer</principal>
+        <editor/>
+        <funder>VOICE is funded by FWF, the Austrian Science Fund (Project No. L448)</funder>
+        <sponsor/>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name xml:id="SM">Stefan Majewski</name>
+          <name xml:id="RO">Ruth Osimk-Teasdale</name>
+          <name xml:id="MLP">Marie-Luise Pitzl</name>
+          <name xml:id="MR">Michael Radeka</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Version POS XML 2.0, <date>January 2013</date></edition>
+        <respStmt>
+          <resp>Researchers</resp>
+          <name>Barbara Seidlhofer</name>
+          <name>Stefan Majewski</name>
+          <name>Ruth Osimk-Teasdale</name>
+          <name>Marie-Luise Pitzl</name>
+          <name>Michael Radeka</name>
+          <name>Nora Dorn</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Barbara Seidlhofer, Stefan Majewski, Ruth Osimk-Teasdale,
+		Marie-Luise Pitzl, Michael Radeka</publisher>
+        <distributor>
+        VOICE Project, University of Vienna, Austria
+      </distributor>
+        <address>
+          <addrLine>Spitalgasse 2, AAKH Hof 8</addrLine>
+          <addrLine>1090 Vienna</addrLine>
+          <addrLine>Austria</addrLine>
+          <addrLine>Telephone: +43 1 427742446</addrLine>
+          <addrLine>Email: voice@univie.ac.at</addrLine>
+          <addrLine>Website: http://www.univie.ac.at/voice</addrLine>
+        </address>
+        <availability status="free">
+          <p> The Vienna-Oxford International Corpus of English (VOICE)
+		  was created by Barbara Seidlhofer (project director) and
+		  Angelika Breiteneder, Theresa Klimpfinger, Stefan Majewski,
+		  Marie-Luise Pitzl (project researchers). VOICE POS XML 2.0 is the first part-of-speech tagged version of VOICE. It is based on the same data source as VOICE 2.0 XML. 
+		  VOICE 2.0 XML, which includes minor revisions with regard to previous versions, and VOICE POS XML 2.0, are available for download at the VOICE Project's website
+		  <ref target="http://www.univie.ac.at/voice/">http://www.univie.ac.at/voice/</ref>
+		  under a Creative Commons
+		  Attribution-NonCommercial-ShareAlike 3.0 Unported (CC
+		  BY-NC-SA 3.0) License (<ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ref>). The
+		  original audio files are held at the Department of English,
+		  University of Vienna. 23 selected audio files are available
+		  as audio streams in the VOICE Online interface at the VOICE
+		  Project's website <ref target="http://www.univie.ac.at/voice">http://www.univie.ac.at/voice</ref>.
+		</p>
+          <p>
+          The recommended citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+		English</title> (<edition>version POS XML 2.0
+		</edition>). Director: Barbara Seidlhofer; Researchers:
+		Stefan Majewski, Ruth Osimk-Teasdale, Marie-Luise Pitzl, Michael Radeka, Nora Dorn.</bibl>
+          </p>
+          <p>The short citation for VOICE POS XML 2.0 is:
+		</p>
+          <p>
+            <bibl><title>VOICE</title>. <date>2013</date>. <title level="m">The Vienna-Oxford International Corpus of
+          English</title> (<edition>version POS XML 2.0</edition>).</bibl>
+          </p>
+          <p>
+		  For further information about availability and copyright
+		  permissions, please see the README file included in the
+		  download package. For further enquiries please contact the
+		  VOICE Project at <ref target="mailto:voice@univie.ac.at">voice@univie.ac.at</ref>.
+		</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note xml:id="PRint30_tc">Tokens: 1763</note>
+        <note xml:id="PRint30_wc">Words: 1521</note>
+        <note xml:id="PRint30_tn_0">This interview takes place at a reception at an international conference on distributed computing. S1 approaches S2 and S3 and interviews them about their stay in Vienna, their joint presentation at the conference and their research. </note>
+      </notesStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording dur="PT00H08M00S" type="audio">
+            <date>2004-05-11</date>
+            <equipment>
+              <p>Portable minidisc recorder with electret condenser stereo microphone</p>
+            </equipment>
+            <respStmt>
+              <resp>recording</resp>
+              <name>R5</name>
+            </respStmt>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <classDecl>
+        <taxonomy>
+          <category xml:id="PRint30_domain">
+            <catDesc>Domain</catDesc>
+            <category sameAs="#ED" xml:id="PRint30_ED">
+              <catDesc>educational</catDesc>
+            </category>
+            <category sameAs="#LE" xml:id="PRint30_LE">
+              <catDesc>leisure</catDesc>
+            </category>
+            <category sameAs="#PB" xml:id="PRint30_PB">
+              <catDesc>professional business</catDesc>
+            </category>
+            <category sameAs="#PO" xml:id="PRint30_PO">
+              <catDesc>professional organizational</catDesc>
+            </category>
+            <category sameAs="#PR" xml:id="PRint30_PR">
+              <catDesc>professional research/science</catDesc>
+            </category>
+          </category>
+          <category xml:id="PRint30_spet">
+            <catDesc>Speech Event Type</catDesc>
+            <category sameAs="#int" xml:id="PRint30_int">
+              <catDesc>interview</catDesc>
+            </category>
+            <category sameAs="#prc" xml:id="PRint30_prc">
+              <catDesc>press conference</catDesc>
+            </category>
+            <category sameAs="#sve" xml:id="PRint30_sve">
+              <catDesc>service encounter</catDesc>
+            </category>
+            <category sameAs="#sed" xml:id="PRint30_sed">
+              <catDesc>seminar discussion</catDesc>
+            </category>
+            <category sameAs="#wgd" xml:id="PRint30_wgd">
+              <catDesc>working group discussion</catDesc>
+            </category>
+            <category sameAs="#wsd" xml:id="PRint30_wsd">
+              <catDesc>workshop discussion</catDesc>
+            </category>
+            <category sameAs="#mtg" xml:id="PRint30_mtg">
+              <catDesc>meeting</catDesc>
+            </category>
+            <category sameAs="#pan" xml:id="PRint30_pan">
+              <catDesc>panel</catDesc>
+            </category>
+            <category sameAs="#qas" xml:id="PRint30_qas">
+              <catDesc>question-answer session</catDesc>
+            </category>
+            <category sameAs="#con" xml:id="PRint30_con">
+              <catDesc>conversation</catDesc>
+            </category>
+          </category>
+        </taxonomy>
+      </classDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="TEI" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+          <tagUsage gi="title" occurs="5"/>
+          <tagUsage gi="principal" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="funder" occurs="1"/>
+          <tagUsage gi="sponsor" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="3"/>
+          <tagUsage gi="resp" occurs="3"/>
+          <tagUsage gi="name" occurs="13"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="edition" occurs="3"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="publisher" occurs="1"/>
+          <tagUsage gi="distributor" occurs="1"/>
+          <tagUsage gi="address" occurs="1"/>
+          <tagUsage gi="addrLine" occurs="6"/>
+          <tagUsage gi="availability" occurs="1"/>
+          <tagUsage gi="p" occurs="8"/>
+          <tagUsage gi="ref" occurs="4"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="notesStmt" occurs="1"/>
+          <tagUsage gi="note" occurs="3"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="recordingStmt" occurs="1"/>
+          <tagUsage gi="recording" occurs="1"/>
+          <tagUsage gi="equipment" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="classDecl" occurs="1"/>
+          <tagUsage gi="taxonomy" occurs="1"/>
+          <tagUsage gi="category" occurs="17"/>
+          <tagUsage gi="catDesc" occurs="17"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="tagUsage" occurs="72"/>
+          <tagUsage gi="gi" occurs="5"/>
+          <tagUsage gi="att" occurs="2"/>
+          <tagUsage gi="fLib" occurs="2"/>
+          <tagUsage gi="f" occurs="91"/>
+          <tagUsage gi="fvLib" occurs="1"/>
+          <tagUsage gi="fs" occurs="51"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="catRef" occurs="2"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="setting" occurs="1"/>
+          <tagUsage gi="locale" occurs="1"/>
+          <tagUsage gi="activity" occurs="1"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="listPerson" occurs="4"/>
+          <tagUsage gi="personGrp" occurs="2"/>
+          <tagUsage gi="person" occurs="4"/>
+          <tagUsage gi="age" occurs="3"/>
+          <tagUsage gi="sex" occurs="3"/>
+          <tagUsage gi="occupation" occurs="3"/>
+          <tagUsage gi="langKnowledge" occurs="3"/>
+          <tagUsage gi="langKnown" occurs="3"/>
+          <tagUsage gi="relationGrp" occurs="1"/>
+          <tagUsage gi="relation" occurs="2"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="change" occurs="11"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="u" occurs="392">Used to mark a stretch of speech commonly
+	  	preceded and followed by a pause or by a change of speaker. A
+	  	<gi>u</gi> is, however, not required to be bounded by a pause
+	  	or a change of speaker, nor does it represent a turn in a
+	  	conversation analytic sense. At a minimum, a <gi>u</gi> is
+	  	some phonetic production or noise made by a given speaker or a
+	  	group of speakers.</tagUsage>
+          <tagUsage gi="w" occurs="1776">
+		Used to mark lexical forms (tokens), but also word fragments,
+		pauses, onomatopoeic noises, spelling, laughter and breathing.
+		<gi>w</gi> is used with <att>ana</att> and <att>lemma</att>
+		attributes to mark its part-of-speech and lemma. Note that for
+		tokens with ambiguous tags <gi>w</gi> may contain nested
+		<gi>w</gi> elements to express alternative interpretations.
+		</tagUsage>
+        </namespace>
+      </tagsDecl>
+      <p>
+        <fLib>
+          <f xml:id="BR" name="BR">breathing</f>
+          <f xml:id="CC" name="CC">coordinating conjunction</f>
+          <f xml:id="CD" name="CD">cardinal number</f>
+          <f xml:id="DM" name="DM">discourse marker</f>
+          <f xml:id="DT" name="DT">determiner</f>
+          <f xml:id="EX" name="EX">existential there</f>
+          <f xml:id="FI" name="FI">formulaic items</f>
+          <f xml:id="FW" name="FW">foreign word (non-English speech)</f>
+          <f xml:id="IN" name="IN">preposition or subordinating conjunction</f>
+          <f xml:id="JJ" name="JJ">adjective, positive</f>
+          <f xml:id="JJR" name="JJR">adjective, comparative</f>
+          <f xml:id="JJS" name="JJS">adjective, superlative</f>
+          <f xml:id="LA" name="LA">laughter</f>
+          <f xml:id="MD" name="MD">modal verb</f>
+          <f xml:id="NN" name="NN">noun, singular or mass</f>
+          <f xml:id="NNS" name="NNS">noun, plural</f>
+          <f xml:id="NP" name="NP">proper noun, singular</f>
+          <f xml:id="PA" name="PA">pause</f>
+          <f xml:id="PP" name="PP">pronoun, personal</f>
+          <f xml:id="PPS" name="PP$">pronoun, possessive</f>
+          <f xml:id="PRE" name="PRE">pronoun, relative</f>
+          <f xml:id="PVC" name="PVC">pronunciation variations and coinages</f>
+          <f xml:id="RB" name="RB">adverb, positive</f>
+          <f xml:id="RBR" name="RBR">adverb, comparative</f>
+          <f xml:id="RE" name="RE">response particle</f>
+          <f xml:id="TO" name="TO">to, infinitive use</f>
+          <f xml:id="UH" name="UH">interjection</f>
+          <f xml:id="UNI" name="UNI">unintelligible speech</f>
+          <f xml:id="VB" name="VB">verb be, base form</f>
+          <f xml:id="VBD" name="VBD">verb be, past tense</f>
+          <f xml:id="VBN" name="VBN">verb be, past participle</f>
+          <f xml:id="VBP" name="VBP">verb be, present non-3rd person singular</f>
+          <f xml:id="VBS" name="VBS">verb be, contracted form</f>
+          <f xml:id="VBZ" name="VBZ">verb be, present 3rd person singular</f>
+          <f xml:id="VH" name="VH">verb have, base form</f>
+          <f xml:id="VHP" name="VHP">verb have, present non-3rd person singular</f>
+          <f xml:id="VV" name="VV">other verbs than be and have, base form</f>
+          <f xml:id="VVD" name="VVD">other verbs than be and have, past tense</f>
+          <f xml:id="VVG" name="VVG">other verbs than be and have, gerund or present participle</f>
+          <f xml:id="VVN" name="VVN">other verbs than be and have, past participle</f>
+          <f xml:id="VVP" name="VVP">other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="VVZ" name="VVZ">other verbs than be and have, present 3rd person singular</f>
+          <f xml:id="WDT" name="WDT">wh-determiner</f>
+          <f xml:id="WP" name="WP">wh-pronoun</f>
+          <f xml:id="WRB" name="WRB">wh-adverb</f>
+          <f xml:id="XX" name="XX">partial word</f>
+        </fLib>
+        <fLib>
+          <f xml:id="fBR" name="fBR">function breathing</f>
+          <f xml:id="fCC" name="fCC">function coordinating conjunction</f>
+          <f xml:id="fCD" name="fCD">function cardinal number</f>
+          <f xml:id="fDM" name="fDM">function discourse marker</f>
+          <f xml:id="fDT" name="fDT">function determiner</f>
+          <f xml:id="fEX" name="fEX">function existential there</f>
+          <f xml:id="fFI" name="fFI">function formulaic items</f>
+          <f xml:id="fFW" name="fFW">function foreign word (non-English speech)</f>
+          <f xml:id="fIN" name="fIN">function preposition or subordinating conjunction</f>
+          <f xml:id="fJJ" name="fJJ">function adjective, positive</f>
+          <f xml:id="fJJR" name="fJJR">function adjective, comparative</f>
+          <f xml:id="fJJS" name="fJJS">function adjective, superlative</f>
+          <f xml:id="fLA" name="fLA">function laughter</f>
+          <f xml:id="fMD" name="fMD">function modal verb</f>
+          <f xml:id="fNN" name="fNN">function noun, singular or mass</f>
+          <f xml:id="fNNS" name="fNNS">function noun, plural</f>
+          <f xml:id="fNP" name="fNP">function proper noun, singular</f>
+          <f xml:id="fPA" name="fPA">function pause</f>
+          <f xml:id="fPP" name="fPP">function pronoun, personal</f>
+          <f xml:id="fPPS" name="fPP$">function pronoun, possessive</f>
+          <f xml:id="fPRE" name="fPRE">function pronoun, relative</f>
+          <f xml:id="fRB" name="fRB">function adverb, positive</f>
+          <f xml:id="fRBR" name="fRBR">function adverb, comparative</f>
+          <f xml:id="fRE" name="fRE">function response particle</f>
+          <f xml:id="fTO" name="fTO">function to, infinitive use</f>
+          <f xml:id="fUH" name="fUH">function interjection</f>
+          <f xml:id="fUNI" name="fUNI">function unintelligible speech</f>
+          <f xml:id="fVB" name="fVB">function verb be, base form</f>
+          <f xml:id="fVBD" name="fVBD">function verb be, past tense</f>
+          <f xml:id="fVBN" name="fVBN">function verb be, past participle</f>
+          <f xml:id="fVBP" name="fVBP">function verb be, present non-3rd person singular</f>
+          <f xml:id="fVBS" name="fVBS">function verb be, contracted form</f>
+          <f xml:id="fVBZ" name="fVBZ">function verb be, present 3rd person singular</f>
+          <f xml:id="fVH" name="fVH">function verb have, base form</f>
+          <f xml:id="fVHP" name="fVHP">function verb have, present non-3rd person singular</f>
+          <f xml:id="fVV" name="fVV">function other verbs than be and have, base form</f>
+          <f xml:id="fVVD" name="fVVD">function other verbs than be and have, past tense</f>
+          <f xml:id="fVVG" name="fVVG">function other verbs than be and have, gerund or present participle</f>
+          <f xml:id="fVVN" name="fVVN">function other verbs than be and have, past participle</f>
+          <f xml:id="fVVP" name="fVVP">function other verbs than be and have, present non-3rd person singular</f>
+          <f xml:id="fVVZ" name="fVVZ">function other verbs than be and have, present 3rd person singular</f>
+          <f xml:id="fWDT" name="fWDT">function wh-determiner</f>
+          <f xml:id="fWP" name="fWP">function wh-pronoun</f>
+          <f xml:id="fWRB" name="fWRB">function wh-adverb</f>
+          <f xml:id="fXX" name="fXX">function partial word</f>
+        </fLib>
+        <fvLib>
+          <fs xml:id="XXfXX" feats="#XX #fXX"/>
+          <fs xml:id="PAfPA" feats="#PA #fPA"/>
+          <fs xml:id="FIfFI" feats="#FI #fFI"/>
+          <fs xml:id="TOfTO" feats="#TO #fTO"/>
+          <fs xml:id="VVfVV" feats="#VV #fVV"/>
+          <fs xml:id="PPfPP" feats="#PP #fPP"/>
+          <fs xml:id="BRfBR" feats="#BR #fBR"/>
+          <fs xml:id="MDfMD" feats="#MD #fMD"/>
+          <fs xml:id="RBfRB" feats="#RB #fRB"/>
+          <fs xml:id="VBPfVBP" feats="#VBP #fVBP"/>
+          <fs xml:id="REfRE" feats="#RE #fRE"/>
+          <fs xml:id="WRBfWRB" feats="#WRB #fWRB"/>
+          <fs xml:id="VVPfVVP" feats="#VVP #fVVP"/>
+          <fs xml:id="INfIN" feats="#IN #fIN"/>
+          <fs xml:id="NPfNP" feats="#NP #fNP"/>
+          <fs xml:id="DTfDT" feats="#DT #fDT"/>
+          <fs xml:id="DMfDM" feats="#DM #fDM"/>
+          <fs xml:id="FWfFW" feats="#FW #fFW"/>
+          <fs xml:id="JJfJJ" feats="#JJ #fJJ"/>
+          <fs xml:id="NNfNN" feats="#NN #fNN"/>
+          <fs xml:id="CCfCC" feats="#CC #fCC"/>
+          <fs xml:id="UHfUH" feats="#UH #fUH"/>
+          <fs xml:id="PPSfPPS" feats="#PP$ #fPP$"/>
+          <fs xml:id="VBZfVBZ" feats="#VBZ #fVBZ"/>
+          <fs xml:id="UNIfUNI" feats="#UNI #fUNI"/>
+          <fs xml:id="EXfEX" feats="#EX #fEX"/>
+          <fs xml:id="CDfCD" feats="#CD #fCD"/>
+          <fs xml:id="NNfNNS" feats="#NN #fNNS"/>
+          <fs xml:id="JJRfJJR" feats="#JJR #fJJR"/>
+          <fs xml:id="PVCfJJ" feats="#PVC #fJJ"/>
+          <fs xml:id="PVCfNN" feats="#PVC #fNN"/>
+          <fs xml:id="VBSfVBS" feats="#VBS #fVBS"/>
+          <fs xml:id="NNfJJ" feats="#NN #fJJ"/>
+          <fs xml:id="WDTfWDT" feats="#WDT #fWDT"/>
+          <fs xml:id="NNSfNNS" feats="#NNS #fNNS"/>
+          <fs xml:id="VVDfVVD" feats="#VVD #fVVD"/>
+          <fs xml:id="LAfLA" feats="#LA #fLA"/>
+          <fs xml:id="PPfDM" feats="#PP #fDM"/>
+          <fs xml:id="VVPfDM" feats="#VVP #fDM"/>
+          <fs xml:id="VVGfVVG" feats="#VVG #fVVG"/>
+          <fs xml:id="WPfWP" feats="#WP #fWP"/>
+          <fs xml:id="VHfVH" feats="#VH #fVH"/>
+          <fs xml:id="PREfPRE" feats="#PRE #fPRE"/>
+          <fs xml:id="VVZfVVZ" feats="#VVZ #fVVZ"/>
+          <fs xml:id="VHPfVHP" feats="#VHP #fVHP"/>
+          <fs xml:id="VBNfVBN" feats="#VBN #fVBN"/>
+          <fs xml:id="VVNfVVN" feats="#VVN #fVVN"/>
+          <fs xml:id="VBDfVBD" feats="#VBD #fVBD"/>
+          <fs xml:id="RBRfRBR" feats="#RBR #fRBR"/>
+          <fs xml:id="VBfVB" feats="#VB #fVB"/>
+          <fs xml:id="JJSfJJS" feats="#JJS #fJJS"/>
+        </fvLib>
+      </p>
+    </encodingDesc>
+    <profileDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <textClass>
+        <catRef target="#PRint30_PR #PRint30_int"/>
+        <catRef target="#PR #int"/>
+      </textClass>
+      <settingDesc>
+        <setting>
+          <name type="country">AT</name>
+          <name type="city">Vienna</name>
+          <locale>assembly hall at university</locale>
+          <activity>eating, drinking</activity>
+        </setting>
+      </settingDesc>
+      <particDesc>
+        <listPerson type="main">
+          <listPerson type="groups">
+            <personGrp role="speakers" size="3"/>
+            <personGrp role="interactants" size="3"/>
+          </listPerson>
+          <listPerson type="identified">
+            <person role="interviewee" sameAs="#P42" xml:id="PRint30_S2">
+              <age value="2">25-34</age>
+              <sex value="2">female</sex>
+              <occupation>scientist</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="ita"/>
+              </langKnowledge>
+            </person>
+            <person role="interviewee" sameAs="#P43" xml:id="PRint30_S3">
+              <age value="2">25-34</age>
+              <sex value="1">male</sex>
+              <occupation>scientist</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="ita"/>
+              </langKnowledge>
+            </person>
+            <person role="interviewer" sameAs="#P899" xml:id="PRint30_S1">
+              <age value="1">17-24</age>
+              <sex value="2">female</sex>
+              <occupation>student</occupation>
+              <langKnowledge>
+                <langKnown level="L1" tag="ger-AT"/>
+              </langKnowledge>
+            </person>
+          </listPerson>
+          <listPerson type="not_identified">
+            <person sameAs="#SS" xml:id="PRint30_SS"/>
+          </listPerson>
+          <relationGrp>
+            <relation mutual="#PRint30_S1 #PRint30_S2 #PRint30_S3" name="fairly_symmetrical" type="power"/>
+            <relation mutual="#PRint30_S1 #PRint30_S2 #PRint30_S3" name="predominantly_unacquainted" type="acquaintedness"/>
+          </relationGrp>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc xmlns:voice="http://www.univie.ac.at/voice/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <change when="2012-12-05" who="#BS #MR #RO #SM">Update of corpus
+      header for VOICE POS XML 2.0 release</change>
+      <change when="2012-12-05" who="#SM #MR #RO">Update of corpus
+      header for VOICE 2.0 XML release</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR">Lemmatisation</change>
+      <change from="2011-01-13" to="2012-09-26" who="#MR #RO #AW #CS       #IV #KM #LL #ND #VT">Part-of-speech tagging</change>
+      <change from="2010-09-01" to="2011-01-13" who="#SM       #MR">Extraction and tokenisation of VOICE 2.0 XML
+      utterances</change>
+      <change when="2009-05-19" who="SM">conversion to XML</change>
+      <change when="2009-05-11" who="AB">finalized for publication</change>
+      <change when="2008-10-06" who="MLP">proof-reading</change>
+      <change when="2006-08-10" who="AB">checking</change>
+      <change when="2006-03-28" who="GS">transcript completion</change>
+      <change when="2005-03-07" who="TR">transcription</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="#PRint30_S1" xml:id="PRint30_u_1">
+        <w ana="#XXfXX">exc-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#FIfFI" lemma="sorry">sorry</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_2">
+        <w ana="#FIfFI" lemma="hi">hi</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_3">
+        <w ana="#FIfFI" lemma="sorry">sorry</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="disturb">disturb</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#MDfMD" lemma="may">may</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#VVfVV" lemma="interrupt">interrupt</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBPfVBP" lemma="be">'m</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_4">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#FIfFI" lemma="please">please</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_5">
+        <w ana="#XXfXX">whe-</w>
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="come">come</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_6">
+        <w ana="#NPfNP" lemma="italy">italy</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_7">
+        <w ana="#NPfNP" lemma="italy">italy</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_8">
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NPfNP" lemma="italy">italy</w>
+        <w ana="#DTfDT" lemma="both">both</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_9">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBPfVBP" lemma="be">'m</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_10">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_11">
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#RBfRB" lemma="ahead">ahead</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_12">
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#RBfRB" lemma="ahead">ahead</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#NPfNP" lemma="italy">italy</w>
+        <w ana="#DTfDT" lemma="both">both</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_13">
+        <w ana="#REfRE" lemma="sure">sure</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_14">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_15">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_16">
+        <w ana="#FWfFW">f_si</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_17">
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="special">special</w>
+        <w ana="#NNfNN" lemma="university">university</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_18">
+        <w ana="#INfIN" lemma="from">from</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="university">university</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_19">
+        <w ana="#NPfNP" lemma="of">of</w>
+        <w ana="#NPfNP">a_[place1]</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_20">
+        <w ana="#NPfNP">a_[place1]</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_21">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_22">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NPfNP" lemma="university">university</w>
+        <w ana="#NPfNP" lemma="of">of</w>
+        <w ana="#NPfNP">a_[place2]</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_23">
+        <w ana="#PPSfPPS" lemma="i">my</w>
+        <w ana="#NNfNN" lemma="university">university</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="second">second</w>
+        <w ana="#NNfNN" lemma="university">university</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#NPfNP">a_[place3]</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_24">
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#UNIfUNI">x</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_25">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_26">
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_27">
+        <w ana="#XXfXX">th-</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNfNNS" lemma="university">university</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP">a_[place2]</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_28">
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNfNN" lemma="university">university</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_29">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP">a_[place2]</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_30">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_31">
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#INfIN" lemma="than">than</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_32">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_33">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#NNfNN" lemma="university">university</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNfNN" lemma="state">state</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#XXfXX">th-</w>
+        <w ana="#PPfPP" lemma="i">mine</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="first">first</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_34">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_35">
+        <w ana="#PPSfPPS" lemma="she">her</w>
+        <w ana="#PPfPP" lemma="she">hers</w>
+        <w ana="#XXfXX">in-</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="second">second</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_36">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_37">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PVCfJJ">
+          <w ana="#PVCfNN">p_polytechnical</w>
+        </w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_38">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_39">
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfJJ" lemma="technician">technician</w>
+        <w ana="#NNfNN" lemma="university">university</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#DTfDT" lemma="some">some</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_40">
+        <w ana="#UNIfUNI">x</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_41">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_42">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#WDTfWDT" lemma="which">which</w>
+        <w ana="#NNSfNNS" lemma="university">universities</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PPfPP" lemma="you">yours</w>
+        <w ana="#RBfRB" lemma="then">then</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfJJ" lemma="technician">technician</w>
+        <w ana="#NNSfNNS" lemma="one">ones</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_43">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_44">
+        <w ana="#REfRE" lemma="no">no</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_45">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#NNfNN" lemma="computer">computer</w>
+        <w ana="#NNfNN" lemma="science">science</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_46">
+        <w ana="#REfRE" lemma="no">no</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_47">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="both">both</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_48">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_49">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_50">
+        <w ana="#DTfDT" lemma="both">both</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#DTfDT" lemma="both">both</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#JJfJJ" lemma="different">different</w>
+        <w ana="#NNSfNNS" lemma="university">universities</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="same">same</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_51">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_52">
+        <w ana="#JJfJJ" lemma="same">same</w>
+        <w ana="#NNfNN" lemma="area">area</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#JJfJJ" lemma="different">different</w>
+        <w ana="#NNSfNNS" lemma="university">universities</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_53">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_54">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#BRfBR">hh</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_55">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_56">
+        <w ana="#XXfXX">d-</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#NNfNN" lemma="each">each</w>
+        <w ana="#NNfNN" lemma="other">other</w>
+        <w ana="#RBfRB" lemma="before">before</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="get">get</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_57">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_58">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="know">know</w>
+        <w ana="#NNfNN" lemma="each">each</w>
+        <w ana="#NNfNN" lemma="other">other</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_59">
+        <w ana="#REfRE" lemma="no">no</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_60">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#NNfNN" lemma="co-authors">co-authors</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="same">same</w>
+        <w ana="#NNfNN" lemma="paper">paper</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_61">
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_62">
+        <w ana="#REfRE" lemma="aha">aha</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_63">
+        <w ana="#DMfDM" lemma="so">so</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_64">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_65">
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_66">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_67">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="work">work</w>
+        <w ana="#RBfRB" lemma="together">together</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_68">
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="see">see</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_69">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_70">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#VVGfVVG" lemma="go">going</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="give">give</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="speech">speech</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_71">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_72">
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="event">events</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_73">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="day">day</w>
+        <w ana="#INfIN" lemma="after">after</w>
+        <w ana="#RBfRB" lemma="tomorrow">tomorrow</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_74">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_75">
+        <w ana="#RBfRB" lemma="tomorrow">tomorrow</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_76">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_77">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="day">day</w>
+        <w ana="#INfIN" lemma="after">after</w>
+        <w ana="#RBfRB" lemma="tomorrow">tomorrow</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_78">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_79">
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_80">
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="real-time">real-time</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NNfNN" lemma="software">software</w>
+        <w ana="#NNfNN" lemma="architecture">architecture</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="reflective">reflective</w>
+        <w ana="#NNSfNNS" lemma="mechanism">mechanisms</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_81">
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_82">
+        <w ana="#CCfCC" lemma="and">and</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_83">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#RBfRB" lemma="so">so</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#LAfLA">@@@</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_84">
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_85">
+        <w ana="#DMfDM">
+          <w ana="#RBfRB">
+            <w lemma="so">so</w>
+          </w>
+        </w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#XXfXX">difficu-</w>
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_86">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_87">
+        <w ana="#DTfDT" lemma="any">any</w>
+        <w ana="#NNfNN" lemma="clue">clue</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#RBfRB" lemma="actually">actually</w>
+        <w ana="#LAfLA">@@@@</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_88">
+        <w ana="#BRfBR">hh</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_89">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_90">
+        <w ana="#LAfLA">@@@@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_91">
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#JJfJJ" lemma="familiar">familiar</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#NNfNN" lemma="computer">computer</w>
+        <w ana="#NNfNN" lemma="science">science</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_92">
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_93">
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="really">really</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_94">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_95">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBPfVBP" lemma="be">'m</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VBPfVBP" lemma="be">'m</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="language">language</w>
+        <w ana="#NNfNN" lemma="student">student</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="do">do</w>
+        <w ana="#NNfNN" lemma="anything">anything</w>
+        <w ana="#INfIN" lemma="with">with</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="technical">technical</w>
+        <w ana="#NNfNN" lemma="university">university</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_96">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_97">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="really">really</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_98">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_99">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_100">
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_101">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_102">
+        <w ana="#XXfXX">fo-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+        <w ana="#PREfPRE" lemma="who">who</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#NNfNN" lemma="anything">anything</w>
+        <w ana="#INfIN" lemma="about">about</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_103">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="difficult">difficult</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_104">
+        <w ana="#TOfTO" lemma="to">to</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_105">
+        <w ana="#VVfVV" lemma="explain">explain</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+        <w ana="#PREfPRE" lemma="who">who</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_106">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVDfVVD" lemma="sound">sounded</w>
+        <w ana="#RBfRB" lemma="extremely">extremely</w>
+        <w ana="#JJfJJ" lemma="difficult">difficult</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVDfVVD" lemma="read">read</w>
+        <w ana="#INfIN" lemma="through">through</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#NNSfNNS">
+          <w ana="#VVZfVVZ">
+            <w lemma="name">names</w>
+          </w>
+        </w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_107">
+        <w ana="#UNIfUNI">x</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_108">
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#UNIfUNI">x</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_109">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#RBfRB" lemma="actually">actually</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="difficult">difficult</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_110">
+        <w ana="#LAfLA">@@@</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_111">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_112">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="mechanism">mechanism</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVfVV" lemma="predict">predict</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="behavior">behavior</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="system">system</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_113">
+        <w ana="#REfRE" lemma="aha">aha</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_114">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#RBfRB" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_115">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_116">
+        <w ana="#RBfRB" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="that">that</w>
+        <w ana="#JJfJJ" lemma="complex">complex</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_117">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_118">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_119">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_120">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#VVGfVVG" lemma="do">doing</w>
+        <w ana="#XXfXX">you-</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#NNfNN" lemma="research">research</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="italy">italy</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_121">
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="italy">italy</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_122">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_123">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_124">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_125">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVGfVVG" lemma="work">working</w>
+        <w ana="#RBfRB" lemma="together">together</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+        <w ana="#RBfRB" lemma="as">as</w>
+        <w ana="#RBfRB" lemma="well">well</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_126">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_127">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_128">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="vienna">vienna</w>
+        <w ana="#RBfRB" lemma="before">before</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_129">
+        <w ana="#REfRE" lemma="no">no</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_130">
+        <w ana="#REfRE" lemma="no">no</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_131">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="first">first</w>
+        <w ana="#NNfNN" lemma="time">time</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_132">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="first">first</w>
+        <w ana="#NNfNN" lemma="time">time</w>
+        <w ana="#XXfXX">x-</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_133">
+        <w ana="#JJfJJ" lemma="first">first</w>
+        <w ana="#NNfNN" lemma="time">time</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_134">
+        <w ana="#WRBfWRB" lemma="when">when</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="arrive">arrive</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_135">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_136">
+        <w ana="#RBfRB" lemma="today">today</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_137">
+        <w ana="#RBfRB" lemma="today">today</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_138">
+        <w ana="#RBfRB" lemma="today">today</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_139">
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#NNfNN" lemma="midday">midday</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="about">about</w>
+        <w ana="#NNfNN" lemma="midday">midday</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_140">
+        <w ana="#NNfNN" lemma="midday">midday</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_141">
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#RBfRB" lemma="o'clock">o'clock</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_142">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_143">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_144">
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVNfVVN" lemma="see">seen</w>
+        <w ana="#NNfNN" lemma="anything">anything</w>
+        <w ana="#RBfRB" lemma="so">so</w>
+        <w ana="#JJfJJ" lemma="far">far</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_145">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="take">take</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="take">took</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="walk">walk</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="center">center</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#NNfNN" lemma="downtown">downtown</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_146">
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="see">see</w>
+        <w ana="#RBfRB" lemma="there">there</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_147">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#FWfFW">f_come</w>
+        <w ana="#FWfFW">f_si</w>
+        <w ana="#FWfFW">f_chiama</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_148">
+        <w ana="#DTfDT" lemma="the">the</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_149">
+        <w ana="#XXfXX">s-</w>
+        <w ana="#NPfNP" lemma="saint">saint</w>
+        <w ana="#NPfNP" lemma="stephen">stephen</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_150">
+        <w ana="#XXfXX">s-</w>
+        <w ana="#FWfFW">f_santo</w>
+        <w ana="#FWfFW">f_s-</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_151">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_152">
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_153">
+        <w ana="#FWfFW">f_sankt</w>
+        <w ana="#NPfNP" lemma="stephen">stephen</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_154">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_155">
+        <w ana="#JJfJJ" lemma="imperial">imperial</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="palace">palace</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_156">
+        <w ana="#JJfJJ" lemma="imperial">imperial</w>
+        <w ana="#NNfNN" lemma="palace">palace</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_157">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_158">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_159">
+        <w ana="#JJfJJ" lemma="imperial">imperial</w>
+        <w ana="#NNfNN" lemma="palace">palace</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_160">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_161">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_162">
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_163">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_164">
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_165">
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_166">
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="all">all</w>
+      </u>
+      <u who="#PRint30_SS" xml:id="PRint30_u_167">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_168">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="few">few</w>
+        <w ana="#NNfNN" lemma="couple">couple</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNSfNNS" lemma="hour">hours</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_169">
+        <w ana="#LAfLA">@@@@@@@@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_170">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="before">before</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_171">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="indeed">indeed</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_172">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_173">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_174">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#JJfJJ" lemma="first">first</w>
+        <w ana="#NNfNN" lemma="impression">impression</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_175">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_176">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_177">
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#XXfXX">x-</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_178">
+        <w ana="#JJfJJ" lemma="beautiful">beautiful</w>
+        <w ana="#NNfNN" lemma="town">town</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_179">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_180">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="serious">serious</w>
+        <w ana="#NNfNN" lemma="town">town</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_181">
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="serious">serious</w>
+        <w ana="#NNfNN" lemma="town">town</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_182">
+        <w ana="#JJfJJ" lemma="serious">serious</w>
+        <w ana="#NNfNN" lemma="town">town</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_183">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_184">
+        <w ana="#WRBfWRB" lemma="why">why</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="think">think</w>
+        <w ana="#RBfRB" lemma="so">so</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_185">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="formal">formal</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_186">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="formal">formal</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_187">
+        <w ana="#REfRE" lemma="hm">hm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVZfVVZ" lemma="look">looks</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#NPfNP" lemma="switzerland">switzerland</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_188">
+        <w ana="#CCfCC" lemma="but">but</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_189">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVZfVVZ" lemma="look">looks</w>
+        <w ana="#INfIN" lemma="like">like</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_190">
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_191">
+        <w ana="#XXfXX">un-</w>
+        <w ana="#RBfRB" lemma="unfortunately">unfortunately</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VHPfVHP" lemma="have">'ve</w>
+        <w ana="#RBfRB" lemma="never">never</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#NPfNP" lemma="switzerland">switzerland</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_192">
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_193">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#PPfPP" lemma="we">us</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_194">
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#MDfMD" lemma="can">ca</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_195">
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_196">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#XXfXX">wh-</w>
+        <w ana="#XXfXX">wh-</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VVZfVVZ" lemma="make">makes</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVfVV" lemma="look">look</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_197">
+        <w ana="#RBfRB" lemma="again">again</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_198">
+        <w ana="#JJfJJ" lemma="formal">formal</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_199">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_200">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="building">buildings</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#XXfXX">bec-</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_201">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="building">buildings</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_202">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PVCfNN">p_cleanness</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_203">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_204">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_205">
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#JJfJJ" lemma="many">many</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+        <w ana="#VVPfVVP" lemma="say">say</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_206">
+        <w ana="#LAfLA">@@@@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_207">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="quietness">quietness</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="tramway">tramways</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_208">
+        <w ana="#LAfLA">@@@</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_209">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_210">
+        <w ana="#LAfLA">@@</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_211">
+        <w ana="#RBfRB" lemma="inside">inside</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_212">
+        <w ana="#CCfCC" lemma="both">both</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_213">
+        <w ana="#DTfDT">
+          <w ana="#CCfCC">
+            <w lemma="both">both</w>
+          </w>
+        </w>
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_214">
+        <w ana="#RBfRB" lemma="inside">inside</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#RBfRB" lemma="outside">outside</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#MDfMD" lemma="can">can</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#XXfXX">th-</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="atmosphere">atmosphere</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_215">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_216">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="quite">quite</w>
+        <w ana="#XXfXX">li-</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="quite">quite</w>
+        <w ana="#JJfJJ" lemma="quite">quite</w>
+        <w ana="#NNfNN" lemma="live">live</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#JJfJJ" lemma="quite">quite</w>
+        <w ana="#NNfNN" lemma="live">live</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#XXfXX">l-</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJRfJJR" lemma="more">more</w>
+        <w ana="#NNfNN" lemma="life">life</w>
+        <w ana="#INfIN" lemma="than">than</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="switzerland">switzerland</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_217">
+        <w ana="#LAfLA">@</w>
+        <w ana="#LAfLA">@</w>
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="switzerland">switzerland</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_218">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="feel">feel</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_219">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_220">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_221">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">lu-</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="south">south</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="southern">southern</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="southern">southern</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_222">
+        <w ana="#FWfFW">f_lugano</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#FWfFW">f_lugano</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#FWfFW">f_ginevra</w>
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_223">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_224">
+        <w ana="#NPfNP" lemma="switzerland">switzerland</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_225">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_226">
+        <w ana="#FWfFW">f_genevr-</w>
+        <w ana="#FWfFW">f_er</w>
+        <w ana="#FWfFW">f_oui</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_227">
+        <w ana="#FWfFW">f_genev-</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_228">
+        <w ana="#FWfFW">f_come</w>
+        <w ana="#FWfFW">f_si</w>
+        <w ana="#FWfFW">f_si</w>
+        <w ana="#FWfFW">f_in</w>
+        <w ana="#FWfFW">f_inglese</w>
+        <w ana="#FWfFW">f_ginevra</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_229">
+        <w ana="#FWfFW">f_no</w>
+        <w ana="#FWfFW">f_lo</w>
+        <w ana="#FWfFW">f_se</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_230">
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#FWfFW">f_genevre</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_231">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_232">
+        <w ana="#FWfFW">f_en</w>
+        <w ana="#FWfFW">f_francais</w>
+        <w ana="#FWfFW">f_oui</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_233">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_234">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_235">
+        <w ana="#FWfFW">f_genf</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="german">german</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_236">
+        <w ana="#RBfRB" lemma="probably">probably</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#DMfDM" lemma="well">well</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_237">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#LAfLA">@@@</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_238">
+        <w ana="#LAfLA">@@@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_239">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#XXfXX">qu-</w>
+        <w ana="#RBfRB" lemma="quite">quite</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="france">france</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#RBfRB" lemma="almost">almost</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="france">france</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_240">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_241">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_242">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#FWfFW">f_lugano</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_243">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#FWfFW">f_come</w>
+        <w ana="#FWfFW">f_si</w>
+        <w ana="#FWfFW">f_chiama</w>
+        <w ana="#PAfPA">_3</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_244">
+        <w ana="#FWfFW">f_xxxxx</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_245">
+        <w ana="#UNIfUNI">x</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#NNfNN" lemma="south">south</w>
+        <w ana="#XXfXX">south-</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#JJfJJ" lemma="southern">southern</w>
+        <w ana="#NPfNP" lemma="switzerland">switzerland</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_246">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#JJfJJ" lemma="italian">italian</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_247">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_248">
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_249">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VHPfVHP" lemma="have">'ve</w>
+        <w ana="#VBNfVBN" lemma="be">been</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#FWfFW">f_zuerich</w>
+        <w ana="#XXfXX">one-</w>
+        <w ana="#XXfXX">one-</w>
+        <w ana="#RBfRB" lemma="once">once</w>
+        <w ana="#RBfRB" lemma="once">once</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#JJfJJ" lemma="many">many</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+        <w ana="#RBfRB" lemma="ago">ago</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="day">day</w>
+        <w ana="#DMfDM" lemma="so">so</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_250">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VVDfVVD" lemma="look">looked</w>
+        <w ana="#JJfJJ" lemma="similar">similar</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_251">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJRfJJR" lemma="good">better</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_252">
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#JJRfJJR" lemma="good">better</w>
+        <w ana="#WRBfWRB" lemma="why">why</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_253">
+        <w ana="#FWfFW">f_si</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#XXfXX">th-</w>
+        <w ana="#EXfEX" lemma="there">there</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#RBRfRBR">
+          <w ana="#JJRfJJR">
+            <w lemma="more">more</w>
+          </w>
+        </w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#XXfXX">th-</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="swiss">swiss</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#XXfXX">m-</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#RBRfRBR" lemma="more">more</w>
+        <w ana="#JJfJJ" lemma="cold">cold</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_254">
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#RBRfRBR" lemma="more">more</w>
+        <w ana="#JJfJJ" lemma="cold">cold</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_255">
+        <w ana="#JJfJJ" lemma="cold">cold</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_256">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_257">
+        <w ana="#DMfDM">
+          <w ana="#RBfRB">
+            <w lemma="so">so</w>
+          </w>
+        </w>
+        <w ana="#PPfPP" lemma="they">they</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_258">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_259">
+        <w ana="#DMfDM" lemma="so">so</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_260">
+        <w ana="#JJfJJ" lemma="good">good</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="know">know</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="always">always</w>
+        <w ana="#JJfJJ" lemma="interesting">interesting</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#NNSfNNS" lemma="people">people</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_SS" xml:id="PRint30_u_261">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_262">
+        <w ana="#PREfPRE" lemma="who">who</w>
+        <w ana="#VVPfVVP" lemma="come">come</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NPfNP" lemma="austria">austria</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="first">first</w>
+        <w ana="#NNfNN" lemma="time">time</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_263">
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="first">first</w>
+        <w ana="#NNfNN" lemma="impression">impression</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_264">
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="interesting">interesting</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_265">
+        <w ana="#VVfVV" lemma="take">take</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VVfVV" lemma="take">take</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_266">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#JJfJJ" lemma="long">long</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVGfVVG" lemma="go">going</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="stay">stay</w>
+        <w ana="#RBfRB" lemma="here">here</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_267">
+        <w ana="#INfIN" lemma="till">till</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_268">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#INfIN" lemma="till">till</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#NPfNP" lemma="sunday">sunday</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_269">
+        <w ana="#NPfNP" lemma="sunday">sunday</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_270">
+        <w ana="#NPfNP" lemma="sunday">sunday</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_271">
+        <w ana="#NPfNP" lemma="sunday">sunday</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_272">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#VVGfVVG" lemma="go">going</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="conference">conference</w>
+        <w ana="#JJSfJJS" lemma="most">most</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="time">time</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_273">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_274">
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_275">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_276">
+        <w ana="#REfRE" lemma="no">no</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_277">
+        <w ana="#JJfJJ" lemma="half-and-half">half-and-half</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_278">
+        <w ana="#JJfJJ" lemma="half-and-half">half-and-half</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_279">
+        <w ana="#JJfJJ" lemma="half-and-half">half-and-half</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_280">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_281">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#JJfJJ" lemma="other">other</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="mean">mean</w>
+        <w ana="#INfIN" lemma="if">if</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#RBfRB" lemma="not">not</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="conference">conference</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_282">
+        <w ana="#DMfDM" lemma="well">well</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_283">
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_284">
+        <w ana="#VVGfVVG" lemma="go">going</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#FWfFW">f_prater</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_285">
+        <w ana="#FWfFW">f_prater</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_286">
+        <w ana="#INfIN">
+          <w ana="#TOfTO">
+            <w lemma="to">to</w>
+          </w>
+        </w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_287">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_288">
+        <w ana="#FWfFW">f_wo</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_289">
+        <w ana="#FWfFW">f_xxx</w>
+        <w ana="#FWfFW">f_xx</w>
+        <w ana="#FWfFW">f_xx</w>
+        <w ana="#FWfFW">f_xx</w>
+        <w ana="#FWfFW">f_x</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_290">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="list">list</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#FWfFW">f_technisch</w>
+        <w ana="#NNfNN" lemma="museum">museum</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_291">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_292">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#FWfFW">f_poi</w>
+        <w ana="#FWfFW">f_col</w>
+        <w ana="#FWfFW">f_'</w>
+        <w ana="#FWfFW">f_cosa</w>
+        <w ana="#FWfFW">f_che</w>
+        <w ana="#FWfFW">f_altro</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_293">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_294">
+        <w ana="#NNfNN" lemma="torture">torture</w>
+        <w ana="#NNfNN" lemma="museum">museum</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_295">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_296">
+        <w ana="#FWfFW">f_col</w>
+        <w ana="#FWfFW">f_'</w>
+        <w ana="#FWfFW">f_cosa</w>
+        <w ana="#FWfFW">f_che</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_297">
+        <w ana="#NNfNN" lemma="princess">princess</w>
+        <w ana="#NPfNP" lemma="sissy">sissy</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_298">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_299">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NPfNP" lemma="sissy">sissy</w>
+        <w ana="#NNfNN" lemma="museum">museum</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_300">
+        <w ana="#NNSfNNS" lemma="load">loads</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NNSfNNS" lemma="museum">museums</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_301">
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_302">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNSfNNS" lemma="thing">things</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_303">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_304">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_305">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_306">
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#MDfMD" lemma="shall">should</w>
+        <w ana="#RBfRB" lemma="not">n't</w>
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#VVfVV" lemma="go">go</w>
+        <w ana="#INfIN" lemma="inside">inside</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="building">buildings</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#INfIN" lemma="outside">outside</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="garden">gardens</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#NNSfNNS" lemma="park">parks</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="beautiful">beautiful</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="vienna">vienna</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_307">
+        <w ana="#RBfRB" lemma="outside">outside</w>
+        <w ana="#UNIfUNI">xx</w>
+        <w ana="#RBfRB" lemma="outside">outside</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_308">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_309">
+        <w ana="#XXfXX">to-</w>
+        <w ana="#RBfRB" lemma="today">today</w>
+        <w ana="#RBfRB" lemma="today">today</w>
+        <w ana="#VBDfVBD" lemma="be">was</w>
+        <w ana="#XXfXX">th-</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="goal">goal</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#XXfXX">th-</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="walk">walk</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_310">
+        <w ana="#NNfNN" lemma="goal">goal</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_311">
+        <w ana="#RBfRB" lemma="just">just</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VHfVH" lemma="have">have</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="look">look</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="city">city</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNSfNNS" lemma="building">buildings</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_312">
+        <w ana="#UHfUH" lemma="ah">ah</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_313">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_314">
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#VVGfVVG" lemma="look">looking</w>
+        <w ana="#RBfRB" lemma="forward">forward</w>
+        <w ana="#INfIN" lemma="to">to</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="conference">conference</w>
+        <w ana="#PAfPA">_3</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_315">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_316">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_317">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_318">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_319">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="mostly">mostly</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="city">city</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#RBfRB" lemma="mostly">mostly</w>
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_320">
+        <w ana="#XXfXX">bec-</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_321">
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NPfNP" lemma="vienna">vienna</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_322">
+        <w ana="#INfIN" lemma="because">because</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#NPfNP" lemma="vienna">vienna</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_323">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_324">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_325">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_326">
+        <w ana="#RBfRB" lemma="also">also</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#PPSfPPS" lemma="we">our</w>
+        <w ana="#NNfNN" lemma="work">work</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_327">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#XXfXX">wh-</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#VVPfVVP" lemma="do">do</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="gain">gain</w>
+        <w ana="#INfIN" lemma="out">out</w>
+        <w ana="#INfIN" lemma="of">of</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="conference">conference</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#RBfRB" lemma="only">only</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="mean">mean</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_328">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="feedback">feedback</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#PPSfPPS" lemma="we">our</w>
+        <w ana="#NNfNN" lemma="work">work</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfPP" lemma="i">i</w>
+        <w ana="#VVPfVVP" lemma="hope">hope</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_329">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_330">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_331">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVPfVVP" lemma="hope">hope</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_332">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_333">
+        <w ana="#LAfLA">@@</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_334">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#NNfNN" lemma="something">something</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#WPfWP" lemma="what">what</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+        <w ana="#VVGfVVG" lemma="work">working</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#CCfCC" lemma="or">or</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_335">
+        <w ana="#UHfUH" lemma="erm">erm</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_336">
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="architecture">architecture</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="design">designed</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#RBfRB" lemma="almost">almost</w>
+        <w ana="#JJfJJ" lemma="new">new</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VVDfVVD" lemma="present">presented</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#JJfJJ" lemma="last">last</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#JJfJJ" lemma="last">last</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_337">
+        <w ana="#REfRE" lemma="yes">yes</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_338">
+        <w ana="#XXfXX">i-</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="america">america</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_339">
+        <w ana="#WRBfWRB" lemma="where">where</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_340">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#XXfXX">prov-</w>
+        <w ana="#NPfNP" lemma="rhode">rhode</w>
+        <w ana="#NPfNP" lemma="island">island</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_341">
+        <w ana="#NPfNP" lemma="providence">providence</w>
+        <w ana="#NPfNP" lemma="rhode">rhode</w>
+        <w ana="#NPfNP" lemma="island">island</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_342">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_343">
+        <w ana="#RBfRB" lemma="near">near</w>
+        <w ana="#NPfNP" lemma="boston">boston</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_344">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_345">
+        <w ana="#REfRE" lemma="yah">yah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_346">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+        <w ana="#PAfPA">_2</w>
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#VBZfVBZ" lemma="be">is</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#VVfVV" lemma="say">say</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#JJfJJ" lemma="midterm">midterm</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#NNfNN" lemma="presentation">presentation</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_347">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_348">
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="work">work</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_349">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_350">
+        <w ana="#REfRE" lemma="hm">hm</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_351">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#PPfDM" lemma="i">i</w>
+        <w ana="#VVPfDM" lemma="see">see</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#WRBfWRB" lemma="how">how</w>
+        <w ana="#JJfJJ" lemma="long">long</w>
+        <w ana="#VVDfVVD" lemma="do">did</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVfVV" lemma="work">work</w>
+        <w ana="#INfIN" lemma="on">on</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#INfIN" lemma="by">by</w>
+        <w ana="#RBfRB" lemma="now">now</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_352">
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_353">
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_354">
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#REfRE" lemma="no">no</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_355">
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="half">half</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_356">
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="half">half</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_357">
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="half">half</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_358">
+        <w ana="#CDfCD" lemma="one">one</w>
+        <w ana="#NNfNN" lemma="year">year</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#DTfDT" lemma="a">a</w>
+        <w ana="#NNfNN" lemma="half">half</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_359">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_360">
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_361">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VVPfVVP" lemma="think">think</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#VVGfVVG" lemma="go">going</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VBfVB" lemma="be">be</w>
+        <w ana="#VVNfVVN" lemma="finish">finished</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#PAfPA">_2</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_362">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_363">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VBPfVBP" lemma="be">are</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_364">
+        <w ana="#CDfCD" lemma="two">two</w>
+        <w ana="#NNSfNNS" lemma="year">years</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_365">
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#INfIN" lemma="at">at</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="moment">moment</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#VVNfVVN" lemma="finish">finished</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="base">base</w>
+        <w ana="#NNfNN" lemma="architecture">architecture</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_366">
+        <w ana="#REfRE" lemma="yes">yes</w>
+        <w ana="#CCfCC" lemma="but">but</w>
+        <w ana="#XXfXX">w-</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_367">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_368">
+        <w ana="#REfRE" lemma="mhm">mhm</w>
+        <w ana="#PAfPA">_1</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_369">
+        <w ana="#PPfPP" lemma="we">we</w>
+        <w ana="#VHPfVHP" lemma="have">have</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="er">er</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_370">
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="test">test</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_371">
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="test">test</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="prove">prove</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_372">
+        <w ana="#DTfDT" lemma="this">this</w>
+        <w ana="#NNfNN" lemma="architecture">architecture</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_373">
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#PAfPA">_1</w>
+        <w ana="#TOfTO" lemma="to">to</w>
+        <w ana="#VVfVV" lemma="demonstrate">demonstrate</w>
+        <w ana="#PPfPP" lemma="it">it</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="useful">useful</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#UHfUH" lemma="erm">erm</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_374">
+        <w ana="#UNIfUNI">xx</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_375">
+        <w ana="#REfRE" lemma="yeah">yeah</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_376">
+        <w ana="#RBfRB" lemma="of">of</w>
+        <w ana="#RBfRB" lemma="course">course</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+        <w ana="#VBSfVBS" lemma="be">'s</w>
+        <w ana="#JJfJJ" lemma="important">important</w>
+        <w ana="#LAfLA">@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_377">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_378">
+        <w ana="#INfIN" lemma="after">after</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+      </u>
+      <u who="#PRint30_SS" xml:id="PRint30_u_379">
+        <w ana="#LAfLA">@@@@@@@@@@</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_380">
+        <w ana="#NNSfNNS" lemma="thing">things</w>
+        <w ana="#INfIN" lemma="like">like</w>
+        <w ana="#DTfDT" lemma="that">that</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_381">
+        <w ana="#REfRE" lemma="yah">yah</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_382">
+        <w ana="#REfRE" lemma="okay">okay</w>
+        <w ana="#PAfPA">_0</w>
+        <w ana="#FIfFI" lemma="thank">thanks</w>
+        <w ana="#RBfRB" lemma="a">a</w>
+        <w ana="#RBfRB" lemma="lot">lot</w>
+        <w ana="#INfIN" lemma="for">for</w>
+        <w ana="#DTfDT" lemma="the">the</w>
+        <w ana="#NNfNN" lemma="interview">interview</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_383">
+        <w ana="#REfRE" lemma="okay">okay</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_384">
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_385">
+        <w ana="#PPfPP" lemma="you">you</w>
+        <w ana="#VBPfVBP" lemma="be">'re</w>
+        <w ana="#XXfXX">welc-</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_386">
+        <w ana="#CCfCC" lemma="and">and</w>
+        <w ana="#VVfVV" lemma="enjoy">enjoy</w>
+        <w ana="#PPSfPPS" lemma="you">your</w>
+        <w ana="#NNfNN" lemma="stay">stay</w>
+        <w ana="#INfIN" lemma="in">in</w>
+        <w ana="#NPfNP" lemma="vienna">vienna</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_387">
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_388">
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+        <w ana="#RBfRB" lemma="very">very</w>
+        <w ana="#RBfRB" lemma="much">much</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_389">
+        <w ana="#FIfFI" lemma="thank">thank</w>
+        <w ana="#FIfFI" lemma="you">you</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S2" xml:id="PRint30_u_390">
+        <w ana="#FIfFI" lemma="bye-bye">bye-bye</w>
+        <w ana="#PAfPA">_0</w>
+      </u>
+      <u who="#PRint30_S3" xml:id="PRint30_u_391">
+        <w ana="#FIfFI" lemma="bye-bye">bye-bye</w>
+      </u>
+      <u who="#PRint30_S1" xml:id="PRint30_u_392">
+        <w ana="#FIfFI" lemma="bye">bye</w>
+      </u>
+    </body>
+  </text>
+</TEI>
