@@ -1,3 +1,4 @@
 ## Katherine Kairis, kak275@pitt.edu, 10/3/2017
+## Visitors log: https://github.com/Data-Science-for-Linguists/Shared-Repo/blob/master/todo10_visitors_log/visitors_log_Katherine.md
 # Comparing English speech of native and non-native speakers
-I will use two corpora of spoken English (one for native speakers, and another for nonnative speakers) to explore any major differences between the speech of these two groups.# Project_Katherine
+In this project, I compare the speech of native and non-native speakers of English. I use two different corpora -- the Vienna-Oxford International Corpus of English (VOICE), which contains conversations between mostly non-native English speakers, and the spoken files of the British Nation Corpus (BNC), which contain conversations between native English speakers. I make comparisons between bigrams and the hesitations between speakers in VOICE and BNC. I also make these comparisons between different L1 groups in VOICE -- Germanic L1s, Romance L1s, and Slavic L1s.
