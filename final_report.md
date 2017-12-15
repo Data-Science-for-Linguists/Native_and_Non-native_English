@@ -1,13 +1,13 @@
 # Comparing Native and Non-native English
 ## Table of Contents
 * [Introduction](#introduction)
-	* [Data Processing](#data-analysis)
+	* [Data Processing](#data analysis)
 	* [VOICE](#voice)
 	* [BNC](#bnc)
 * [Anaylsis](#analysis)
 	* [Hesitations](#hesitations)
 	* [Bigrams](#bigrams)
-	* [Comparing Specific L1s](#comparing-specific-l1s)
+	* [Comparing Specific L1s](#comparing specific l1s)
 
 ## Introduction
 Intro stuff goes here
