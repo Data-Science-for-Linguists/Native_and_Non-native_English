@@ -471,14 +471,14 @@ bigrams_df
 
 
 ```python
-from IPython.display import Image
-Image("images/contraction_use.png")
+<img src="images/contraction_use.png">
 ```
 
 
-
-
-![png](output_20_0.png)
+      File "<ipython-input-20-46f5ae61d2c6>", line 1
+        <img src="images/contraction_use.png">
+        ^
+    SyntaxError: invalid syntax
 
 
 
