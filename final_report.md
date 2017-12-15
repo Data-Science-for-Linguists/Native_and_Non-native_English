@@ -471,7 +471,7 @@ bigrams_df
 
 
 ```python
-<img src="images/contraction_use.png">
+![title](images/contraction_use.png)
 ```
 
 
