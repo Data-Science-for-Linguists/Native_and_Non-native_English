@@ -1,13 +1,13 @@
 # Comparing Native and Non-native English
 ## Table of Contents
 * [Introduction](#introduction)
-* [Data Processing](#data-analysis)
-** [VOICE](#voice)
-** [BNC](#bnc)
+	* [Data Processing](#data-analysis)
+	* [VOICE](#voice)
+	* [BNC](#bnc)
 * [Anaylsis](#analysis)
-** [Hesitations](#hesitations)
-** [Bigrams](#bigrams)
-** [Comparing Specific L1s](#comparing-specific-l1s)
+	* [Hesitations](#hesitations)
+	* [Bigrams](#bigrams)
+	* [Comparing Specific L1s](#comparing-specific-l1s)
 
 ## Introduction
 Intro stuff goes here
@@ -21,6 +21,5 @@ Info about BNC processing
 ## Analysis
 ### Hesitations
 ### Bigrams
-### Comparing Specific L1s
-
 ![png](images/contraction_use.png)
+### Comparing Specific L1s
