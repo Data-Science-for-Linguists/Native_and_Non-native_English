@@ -688,7 +688,7 @@ plt.show()
 
 
 
-![png](output_30_4.png)
+![png](images/contraction_repeated_frequencies.png)
 
 
 ## Comparing Contraction Use
@@ -993,7 +993,7 @@ plt.show()
 
 
 
-![png](output_47_4.png)
+![png](images/contraction_use.png)
 
 
 ## Comparing Bigrams of Native and Non-native Speakers: Round 2
