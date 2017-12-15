@@ -474,12 +474,8 @@ bigrams_df
 ![title](images/contraction_use.png)
 ```
 
-
-      File "<ipython-input-20-46f5ae61d2c6>", line 1
-        <img src="images/contraction_use.png">
-        ^
-    SyntaxError: invalid syntax
-
+    /bin/sh: -c: line 0: syntax error near unexpected token `images/contraction_use.png'
+    /bin/sh: -c: line 0: `[title](images/contraction_use.png)'
 
 
 
