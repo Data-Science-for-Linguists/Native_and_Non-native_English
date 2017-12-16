@@ -60,19 +60,6 @@ Later in my analysis, I [removed bigrams that contained hesitation words and rep
 
 #### Unmodified bigrams
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -97,19 +84,7 @@ Later in my analysis, I [removed bigrams that contained hesitation words and rep
 
 #### Modified bigrams
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -147,19 +122,6 @@ For bigrams, I compared 3 different language families. Here, I compare 7 differe
 #### [Trigrams](analysis-L1s.md#trigrams)
 I first compared part of speech trigrams across the 7 different L1 groups. The most common trigram for 6 of the 7 language groups was (INfIN, DTfDT, NNfNN), which corresponds to (infinitive, determiner, noun). The only exception was Korean, whose most common trigram was (REfRE, REfRE, REfRE) which corresponds to three consecutive response particles. For all languages, the same trigrams tended to appear among the top 5 most common, like (DTfDT, JJfJJ, NNfNN) -- (determiner, adjective, noun) and (NNfNN, INfIN, DTfDT) -- (noun, infinitive, determiner), in addition to the two trigrams mentioned above. After this point, the trigrams and their rankings in each language become less consistent.
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
