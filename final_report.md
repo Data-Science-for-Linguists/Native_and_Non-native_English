@@ -1,3 +1,4 @@
+Katherine Kairis, kak275@pitt.edu, 12/15/2017
 # Comparing Native and Non-native English
 ## Table of Contents
 * [Introduction](#introduction)
@@ -12,6 +13,9 @@
 		* [Comparing BNC and VOICE bigrams](#comparing-bnc-and-voice-bigrams)
 		* [Use of Contractions](#use-of-contractions)
 	* [Comparing Specific L1s](#comparing-specific-l1s)
+		* [Trigrams](#trigrams)
+		* [Discourse Markers](#discourse-markers)
+		* [Determiners](#determiners)
 * [Conclusions](conclusions)
 * [Opportunities for Future Analysis](opportunities-for-future-analysis)
 * [References](references)
@@ -68,7 +72,20 @@ Looking into the specific bigrams that the participant groups used revealed even
 ![png](images/contraction_use.png)  
 
 ### Comparing Specific L1s
+For bigrams, I compared 3 different language families. Here, I compare 7 different first languages (Korean, Finnish, Turkish, Danish, Portuguese, and Polish) to English. Also, unlike my previous analyses, I used the English speakers from the VOICE instead of the BNC, since the number of English speakers in VOICE is comparable to the number of speakers of other L1s that I'm exploring here. Also, since I am using data from the same corpus this time, I decided to use the part of speech tags since they are consistent here.
+#### Trigrams
+I first compared part of speech trigrams across the 7 different L1 groups. The most common trigram for 6 of the 7 language groups was (INfIN, DTfDT, NNfNN), which corresponds to (infinitive, determiner, noun). The only exception was Korean, whose most common trigram was (REfRE, REfRE, REfRE) which corresponds to three consecutive response particles. For all languages, the same trigrams tended to appear among the top 5 most common, like (DTfDT, JJfJJ, NNfNN) -- (determiner, adjective, noun) and (NNfNN, INfIN, DTfDT) -- (noun, infinitive, determiner), in addition to the two trigrams mentioned above. After this point, the trigrams and their rankings in each language become less consistent.
+#### Discourse Markers
+When comparing the use of discourse markers, like "look," "right," "so," "like", I first compared the frequency of discourse markers among each L1. With the exception of Portuguese, the proportion of discourse among the different L1 groups was relatively consistent, and fell between 1.2-1.5%. Portuguese speakers used discourse markers about 0.8% of the time.  
+The frequencies of discourse markers across the L1s were somewhat consistent, but difference emerge when the specific discourse makers are explored. All L1 groups, particularly Portuguese and Turkish, use "so" very frequently; for most L1 groups, "so" comprises about 50% of the discourse markers used, while this percentage rises to 61% for Danish speakers, 72% of Turkish speakers, and 75% of Portuguese speakers. Another interesting observation is the use of "right." This word accounts for about 11% of the Korean speakers' determiner use, while making up much smaller percentages for the other L1 groups.
+#### Determiners
+Like discourse marker use, the use of determiners was relatively consistent across the L1 groups. The use of specific determiners used across the 7 language groups becomes more variable, though.
 
 ## Conclusions
+A lot of the differences between native and non-native speakers can likely be attributed to non-native speakers' lack of comfort using English. A lot of the non-native speakers' bigrams consist of stuttering/repeated words, and hestitation words like "er" and "erm." When such bigrams are removed from consideration, the non-native speakers' bigram lists become significantly more similar to the native speakers' bigram list.  
+However, even if these bigrams are removed, there are stil some major differences between the two groups. The native speakers seem to rely on and overuse common English structures, like the four most common contractions. At the same time, they seem to struggle applying these contraction rules to other context where the use of these constructions would be appropriate. This is particularly noticeable for contractions invloving the word "have."  
+Despite the difference in bigrams, there are a few aspects of speech that non-native speakers seem to adopt more easily. For example, the percentage of discourse markers for non-native speakers did not differ to greatly from native speakers, possibly indicating that these elements translate easily from one language to another. However, the use of specific discourse markers does show some greater differences. In this case, the specific L1 likely plays an important role, but, since I am unfamiliar with the 6 L1s that I compared to English, I am not able to make any strong conclusion about the effect of the L1s on these aspects of language.
 ## Opportunities for Future Analysis
+I was planning on trying some machine learning algorithms to see if they could predict whether a speaker is a native or non-native English speaker, but I ran out of time. With the exception of hesitation words, I didn't spend a lot of time exploring word tokens. Using a "bag of words" classifier could be interesting and possible reveal any differences in word uses between native English speakers and non-native English speakers. Also, using an algorithm that allows selecting features could be interesting. If I were to do this, I would try using proportion of repeated words and proportions of contractions as starting points.  
+Another possible option is using the VOICE corpus to see if the number of native English speakers in a conversation affects the speech of non-native speakers. For example, does their speech become more native-like when when they converse with native speakers?
 ## References
