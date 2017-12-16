@@ -56,12 +56,85 @@ In my analysis of bigrams, [I created three new groups from the Vienna-Oxford co
 For each group/corpus (BNC, entire VOICE, and the three new subcorpora), I created a list of the bigrams that made up the top 20% in terms of frequency. 
 #### Comparing BNC and VOICE bigrams
 For the first part of my analysis of bigrams, I tried to [find similarities between the native bigrams and the non-native bigrams](analysis-bigrams.md#similarities-between-voice-and-bnc). Specifically, for each non-native group, I calculated the percent of their most frequent (top 20%) bigrams that also appeared in the BNC's most frequent (top 20%) bigrams.  
-Later in my analysis, I [removed bigrams that contained hesitation words and repeated words](analysis-bigrams.md#modifying-the-bigram-list). These dominated the frequent bigrams for non-natve speakers were valuable for revealing some differences between native and non-native speech, but they don't provide much evidence about other linguistic features. After removing these bigrams, the percentage of common (top 20%) bigrams in non-native speech that also occurred in the BNC's most common bigrams increased greatly. For all non-native groups, [over 70% of the common bigrams were also among the BNC's most common bigrams; in some cases (the entire VOICE corpus and the Germanic group), this percentage approached 80%. Looking into the bigrams that were now common in VOICE but not BNC showed a few patterns: a lot of these bigrams were words that native speakers often replace with contractions, like "we are," "they are," "is not," "we will," "what is," and "i will." Also, several of these bigrams were very formulaic transition phrases, like "for example."
-  
+Later in my analysis, I [removed bigrams that contained hesitation words and repeated words](analysis-bigrams.md#modifying-the-bigram-list). These dominated the frequent bigrams for non-natve speakers were valuable for revealing some differences between native and non-native speech, but they don't provide much evidence about other linguistic features. After removing these bigrams, the percentage of common (top 20%) bigrams in non-native speech that also occurred in the BNC's most common bigrams increased greatly. For all non-native groups, [over 70% of the common bigrams were also among the BNC's most common bigrams; in some cases (the entire VOICE corpus and the Germanic group), this percentage approached 80%. 
 
-PUT DATAFRAME HERE  
-  
-Then, in order to get a better idea as to the what bigrams caused the discrepencies between native and non-native speech, I generated two lists of bigrams: one contains bigrams that were common in VOICE but not in the BNC, and the other contains bigrams common in the BNC but not in VOICE. The bigrams that were common in VOICE but not in the BNC mirrored the results of my hesitation analysis: many of those bigrams either contained repeated words or hesitation words like "er" and "erm." Investigating the bigrams common in BNC but not in VOICE revealed an interesting trend: around 15% of these bigrams were contractions.
+#### Unmodified bigrams
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>All non-native L1s(VOICE)</th>
+      <th>L1=Germanic</th>
+      <th>L1=Romance</th>
+      <th>L1=Slavic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>% bigrams shared with BNC</th>
+      <td>0.672515</td>
+      <td>0.668605</td>
+      <td>0.645833</td>
+      <td>0.619632</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+#### Modified bigrams
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>All non-native L1s(VOICE)</th>
+      <th>L1=Germanic</th>
+      <th>L1=Romance</th>
+      <th>L1=Slavic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>% bigrams shared with BNC</th>
+      <td>0.795918</td>
+      <td>0.783784</td>
+      <td>0.769841</td>
+      <td>0.711111</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+In order to get a better idea as to the what bigrams caused the discrepencies between native and non-native speech, I generated two lists of bigrams: one contains bigrams that were common in VOICE but not in the BNC, and the other contains bigrams common in the BNC but not in VOICE. The bigrams that were common in VOICE but not in the BNC mirrored the results of my hesitation analysis: many of those bigrams either contained repeated words or hesitation words like "er" and "erm." Investigating the bigrams common in BNC but not in VOICE revealed an interesting trend: around 15% of these bigrams were contractions.
+
+Looking into the bigrams that were now common in VOICE but not BNC showed a few patterns: a lot of these bigrams were words that native speakers often replace with contractions, like "we are," "they are," "is not," "we will," "what is," and "i will." Also, several of these bigrams were very formulaic transition phrases, like "for example."
 
 #### [Use of Contractions](analysis-l1s.md#comparing-contraction-use)
 The realization that contractions occurred more frequently in native speech prompted me further explore contraction use. First, I calculated the percentage of contractions that occurred in the BNC and each L1 group from voice. Contractions comprised about 5.3% of native speech in the BNC, but only around 3% for the non-native groups:  
@@ -73,6 +146,238 @@ Looking into the specific bigrams that the participant groups used revealed even
 For bigrams, I compared 3 different language families. Here, I compare 7 different first languages (Korean, Finnish, Turkish, Danish, Portuguese, and Polish) to English. Also, unlike my previous analyses, I used the English speakers from the VOICE instead of the BNC, since the number of English speakers in VOICE is comparable to the number of speakers of other L1s that I'm exploring here. Also, since I am using data from the same corpus this time, I decided to use the part of speech tags since they are consistent here.
 #### [Trigrams](analysis-L1s.md#trigrams)
 I first compared part of speech trigrams across the 7 different L1 groups. The most common trigram for 6 of the 7 language groups was (INfIN, DTfDT, NNfNN), which corresponds to (infinitive, determiner, noun). The only exception was Korean, whose most common trigram was (REfRE, REfRE, REfRE) which corresponds to three consecutive response particles. For all languages, the same trigrams tended to appear among the top 5 most common, like (DTfDT, JJfJJ, NNfNN) -- (determiner, adjective, noun) and (NNfNN, INfIN, DTfDT) -- (noun, infinitive, determiner), in addition to the two trigrams mentioned above. After this point, the trigrams and their rankings in each language become less consistent.
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>L1=Danish</th>
+      <th>L1=English</th>
+      <th>L1=Finnish</th>
+      <th>L1=Korean</th>
+      <th>L1=Polish</th>
+      <th>L1=Portuguese</th>
+      <th>L1=Turkish</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>(INfIN, DTfDT, NNfNN)</td>
+      <td>(INfIN, DTfDT, NNfNN)</td>
+      <td>(INfIN, DTfDT, NNfNN)</td>
+      <td>(REfRE, REfRE, REfRE)</td>
+      <td>(INfIN, DTfDT, NNfNN)</td>
+      <td>(INfIN, DTfDT, NNfNN)</td>
+      <td>(INfIN, DTfDT, NNfNN)</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>(DTfDT, NNfNN, INfIN)</td>
+      <td>(DTfDT, NNfNN, INfIN)</td>
+      <td>(DTfDT, NNfNN, INfIN)</td>
+      <td>(INfIN, DTfDT, NNfNN)</td>
+      <td>(REfRE, REfRE, REfRE)</td>
+      <td>(DTfDT, NNfNN, INfIN)</td>
+      <td>(DTfDT, NNfNN, INfIN)</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>(DTfDT, JJfJJ, NNfNN)</td>
+      <td>(DTfDT, JJfJJ, NNfNN)</td>
+      <td>(REfRE, REfRE, REfRE)</td>
+      <td>(DTfDT, JJfJJ, NNfNN)</td>
+      <td>(DTfDT, NNfNN, INfIN)</td>
+      <td>(NNfNN, INfIN, DTfDT)</td>
+      <td>(DTfDT, JJfJJ, NNfNN)</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>(REfRE, REfRE, REfRE)</td>
+      <td>(NNfNN, INfIN, DTfDT)</td>
+      <td>(DTfDT, JJfJJ, NNfNN)</td>
+      <td>(DTfDT, NNfNN, INfIN)</td>
+      <td>(NNfNN, INfIN, DTfDT)</td>
+      <td>(DTfDT, JJfJJ, NNfNN)</td>
+      <td>(NNfNN, INfIN, DTfDT)</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>(NNfNN, INfIN, DTfDT)</td>
+      <td>(REfRE, REfRE, REfRE)</td>
+      <td>(NNfNN, INfIN, DTfDT)</td>
+      <td>(NNfNN, INfIN, DTfDT)</td>
+      <td>(DTfDT, JJfJJ, NNfNN)</td>
+      <td>(PPfPP, MDfMD, VVfVV)</td>
+      <td>(INfIN, DTfDT, JJfJJ)</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>(INfIN, DTfDT, JJfJJ)</td>
+      <td>(PPfPP, MDfMD, VVfVV)</td>
+      <td>(INfIN, DTfDT, JJfJJ)</td>
+      <td>(FWfFW, FWfFW, FWfFW)</td>
+      <td>(PPfPP, MDfMD, VVfVV)</td>
+      <td>(INfIN, DTfDT, JJfJJ)</td>
+      <td>(JJfJJ, NNfNN, INfIN)</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>(JJfJJ, NNfNN, INfIN)</td>
+      <td>(INfIN, DTfDT, JJfJJ)</td>
+      <td>(PPfPP, MDfMD, VVfVV)</td>
+      <td>(PPfPP, MDfMD, VVfVV)</td>
+      <td>(INfIN, DTfDT, JJfJJ)</td>
+      <td>(TOfTO, VVfVV, DTfDT)</td>
+      <td>(TOfTO, VVfVV, DTfDT)</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>(PPfPP, MDfMD, VVfVV)</td>
+      <td>(NNfNN, INfIN, NNfNN)</td>
+      <td>(JJfJJ, NNfNN, INfIN)</td>
+      <td>(DTfDT, NNfNN, NNfNN)</td>
+      <td>(DTfDT, NNfNN, NNfNN)</td>
+      <td>(PPfPP, VVPfVVP, RBfRB)</td>
+      <td>(PPfPP, MDfMD, VVfVV)</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>(DTfDT, NNfNN, NNfNN)</td>
+      <td>(JJfJJ, NNfNN, INfIN)</td>
+      <td>(PPfPP, VVPfVVP, RBfRB)</td>
+      <td>(CDfCD, CDfCD, CDfCD)</td>
+      <td>(PPfPP, VVPfVVP, RBfRB)</td>
+      <td>(INfIN, DTfDT, NNSfNNS)</td>
+      <td>(DTfDT, JJfJJ, NNSfNNS)</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>(PPfPP, VVPfVVP, PPfPP)</td>
+      <td>(PPfPP, VVPfVVP, PPfPP)</td>
+      <td>(INfIN, DTfDT, NNSfNNS)</td>
+      <td>(NNfNN, NNfNN, INfIN)</td>
+      <td>(INfIN, DTfDT, NNSfNNS)</td>
+      <td>(JJfJJ, NNfNN, INfIN)</td>
+      <td>(DTfDT, NNfNN, CCfCC)</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>(NNfNN, INfIN, PPfPP)</td>
+      <td>(PPfPP, VVPfVVP, RBfRB)</td>
+      <td>(DTfDT, NNfNN, CCfCC)</td>
+      <td>(JJfJJ, NNfNN, INfIN)</td>
+      <td>(JJfJJ, NNfNN, INfIN)</td>
+      <td>(DTfDT, NNfNN, CCfCC)</td>
+      <td>(NNfNN, INfIN, NNfNN)</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>(INfIN, INfIN, INfIN)</td>
+      <td>(DTfDT, NNfNN, NNfNN)</td>
+      <td>(DTfDT, NNfNN, NNfNN)</td>
+      <td>(NNfNN, REfRE, REfRE)</td>
+      <td>(NNfNN, INfIN, NNfNN)</td>
+      <td>(NNfNN, INfIN, NNfNN)</td>
+      <td>(NNSfNNS, INfIN, DTfDT)</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>(NNfNN, INfIN, NNfNN)</td>
+      <td>(PPfPP, VBSfVBS, RBfRB)</td>
+      <td>(PPfPP, VVPfVVP, PPfPP)</td>
+      <td>(NNfNN, NNfNN, NNfNN)</td>
+      <td>(VVfVV, INfIN, DTfDT)</td>
+      <td>(NNSfNNS, INfIN, DTfDT)</td>
+      <td>(DTfDT, NNfNN, NNfNN)</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>(INfIN, INfIN, DTfDT)</td>
+      <td>(INfIN, DTfDT, NNSfNNS)</td>
+      <td>(RBfRB, INfIN, DTfDT)</td>
+      <td>(NNfNN, INfIN, NNfNN)</td>
+      <td>(PPfPP, VVPfVVP, INfIN)</td>
+      <td>(PPfPP, VVPfVVP, PPfPP)</td>
+      <td>(DTfDT, NNSfNNS, INfIN)</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>(PPfPP, VVPfVVP, RBfRB)</td>
+      <td>(RBfRB, INfIN, DTfDT)</td>
+      <td>(PPfPP, VVPfVVP, INfIN)</td>
+      <td>(PPfPP, VVPfVVP, RBfRB)</td>
+      <td>(DTfDT, NNfNN, CCfCC)</td>
+      <td>(INfIN, PPfPP, VVPfVVP)</td>
+      <td>(DTfDT, NNfNN, PPfPP)</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>(INfIN, PPfPP, VVPfVVP)</td>
+      <td>(PPfPP, VBPfVBP, VVGfVVG)</td>
+      <td>(NNfNN, INfIN, NNfNN)</td>
+      <td>(DTfDT, NNfNN, PPfPP)</td>
+      <td>(VVfVV, DTfDT, NNfNN)</td>
+      <td>(PPfPP, VVPfVVP, INfIN)</td>
+      <td>(INfIN, DTfDT, NNSfNNS)</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>(INfIN, DTfDT, NNSfNNS)</td>
+      <td>(DTfDT, NNfNN, CCfCC)</td>
+      <td>(NNSfNNS, INfIN, DTfDT)</td>
+      <td>(TOfTO, VVfVV, DTfDT)</td>
+      <td>(NNfNN, NNfNN, INfIN)</td>
+      <td>(VVfVV, DTfDT, NNfNN)</td>
+      <td>(INfIN, JJfJJ, NNfNN)</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>(PPfPP, MDfMD, RBfRB)</td>
+      <td>(TOfTO, VVfVV, INfIN)</td>
+      <td>(INfIN, INfIN, DTfDT)</td>
+      <td>(NNfNN, INfIN, NPfNP)</td>
+      <td>(MDfMD, VVfVV, INfIN)</td>
+      <td>(RBfRB, RBfRB, RBfRB)</td>
+      <td>(VVfVV, DTfDT, NNfNN)</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>(DTfDT, NNfNN, CCfCC)</td>
+      <td>(INfIN, PPfPP, VVPfVVP)</td>
+      <td>(INfIN, PPfPP, VVPfVVP)</td>
+      <td>(NNfNN, INfIN, PPfPP)</td>
+      <td>(VVPfVVP, RBfRB, VVfVV)</td>
+      <td>(DTfDT, NNfNN, NNfNN)</td>
+      <td>(NNfNN, INfIN, JJfJJ)</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>(NNfNN, INfIN, INfIN)</td>
+      <td>(DTfDT, NNfNN, PPfPP)</td>
+      <td>(PPfPP, VBSfVBS, RBfRB)</td>
+      <td>(REfRE, REfRE, PPfPP)</td>
+      <td>(NNSfNNS, INfIN, DTfDT)</td>
+      <td>(DTfDT, NNfNN, PPfPP)</td>
+      <td>(JJfJJ, NNSfNNS, INfIN)</td>
+    </tr>
+  </tbody>
+</table>
+</div>  
+
 #### [Discourse Markers](analysis-L1s.md#comparing-discourse-markers)
 When comparing the use of discourse markers, like "look," "right," "so," "like", I first compared the frequency of discourse markers among each L1. With the exception of Portuguese, the proportion of discourse among the different L1 groups was relatively consistent, and fell between 1.2-1.5%. Portuguese speakers used discourse markers about 0.8% of the time.  
 The frequencies of discourse markers across the L1s were somewhat consistent, but difference emerge when the specific discourse makers are explored. All L1 groups, particularly Portuguese and Turkish, use "so" very frequently; for most L1 groups, "so" comprises about 50% of the discourse markers used, while this percentage rises to 61% for Danish speakers, 72% of Turkish speakers, and 75% of Portuguese speakers. Another interesting observation is the use of "right." This word accounts for about 11% of the Korean speakers' determiner use, while making up much smaller percentages for the other L1 groups.
