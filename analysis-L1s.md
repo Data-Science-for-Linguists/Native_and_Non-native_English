@@ -2,6 +2,12 @@
 Katherine Kairis, kak275@pitt.edu, 12/15/2017
 
 # Analyzing Specific L1s
+## Table of Contents
+* [VOICE Tagset](#voice-tagset)
+* [Getting speakers of chosen languages](#getting-speakers-of-chosen-languages)
+* [Trigrams](#trigrams)
+* [Comparing discourse markers](#comparing-discourse-markers)
+* [Comparing Article/Determiner Use](#comparing-article/determiner-use)
 
 
 ```python
@@ -744,10 +750,6 @@ eng_trigrams_df
 eng_trigram_df = {}
 eng_freq.most_common(20)
 ```
-
-
-
-
     [(('INfIN', 'DTfDT', 'NNfNN'), 719),
      (('DTfDT', 'NNfNN', 'INfIN'), 580),
      (('DTfDT', 'JJfJJ', 'NNfNN'), 450),
@@ -1031,10 +1033,6 @@ pol_dm = get_discourse_markers(pol_speech)
 ```python
 eng_dm[:20]
 ```
-
-
-
-
     [('so', 'DMfDM'),
      ('well', 'DMfDM'),
      ('so', 'DMfDM'),
@@ -1151,10 +1149,6 @@ pol_dm_words = [dm[0].replace('\n', '') for dm in pol_dm]
 eng_dm_freqs = nltk.FreqDist(eng_dm_words)
 eng_dm_freqs
 ```
-
-
-
-
     FreqDist({'like': 202,
               'look': 1,
               'right': 50,
@@ -1169,10 +1163,6 @@ eng_dm_freqs
 kor_dm_freqs = nltk.FreqDist(kor_dm_words)
 kor_dm_freqs
 ```
-
-
-
-
     FreqDist({'like': 55, 'right': 33, 'so': 174, 'well': 27, 'whatever': 4})
 
 
@@ -1182,10 +1172,6 @@ kor_dm_freqs
 fin_dm_freqs = nltk.FreqDist(fin_dm_words)
 fin_dm_freqs
 ```
-
-
-
-
     FreqDist({'like': 111, 'right': 10, 'so': 226, 'well': 72, 'whatever': 8})
 
 
@@ -1196,9 +1182,6 @@ tur_dm_freqs = nltk.FreqDist(tur_dm_words)
 tur_dm_freqs
 ```
 
-
-
-
     FreqDist({'like': 16, 'right': 15, 'so': 119, 'well': 13, 'whatever': 1})
 
 
@@ -1208,10 +1191,6 @@ tur_dm_freqs
 dan_dm_freqs = nltk.FreqDist(dan_dm_words)
 dan_dm_freqs
 ```
-
-
-
-
     FreqDist({'like': 125, 'right': 30, 'so': 499, 'well': 137, 'whatever': 16})
 
 
@@ -1221,10 +1200,6 @@ dan_dm_freqs
 pol_dm_freqs = nltk.FreqDist(pol_dm_words)
 pol_dm_freqs
 ```
-
-
-
-
     FreqDist({'like': 265,
               'look': 1,
               'right': 40,
@@ -1239,10 +1214,6 @@ pol_dm_freqs
 por_dm_freqs = nltk.FreqDist(por_dm_words)
 por_dm_freqs
 ```
-
-
-
-
     FreqDist({'like': 18, 'right': 3, 'so': 114, 'well': 15, 'whatever': 3})
 
 
@@ -1280,36 +1251,15 @@ plt.show()
 dm_words_df
 ```
 
-
-
-
     <matplotlib.axes._subplots.AxesSubplot at 0x12a92ab38>
-
-
-
-
-
-
     <matplotlib.legend.Legend at 0x12dca86a0>
-
-
-
-
-
-
     <matplotlib.text.Text at 0x12a934e48>
-
-
-
-
-
-
     <matplotlib.text.Text at 0x12a969518>
 
 
 
 
-![png](output_46_4.png)
+![png](images/discourse_markers.png)
 
 
 
