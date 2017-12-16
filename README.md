@@ -3,6 +3,11 @@
 # Comparing English speech of native and non-native speakers
 ## Description
 In this project, I compare the speech of native and non-native speakers of English. I use two different corpora -- the Vienna-Oxford International Corpus of English (VOICE), which contains conversations between mostly non-native English speakers, and the spoken files of the British Nation Corpus (BNC), which contain conversations between native English speakers. I make comparisons between bigrams and the hesitations between speakers in VOICE and BNC. I also make these comparisons between different L1 groups in VOICE -- Germanic L1s, Romance L1s, and Slavic L1s.
+
+## Data
+* Vienna-Oxford International Corpus of English (VOICE) -- https://www.univie.ac.at/voice/  
+* British Nation Corpus (BNC) -- http://www.natcorp.ox.ac.uk
+
 ## Directory
 * Data(https://github.com/Data-Science-for-Linguists/Native_and_Non-native_English/tree/master/data) - contains data for VOICE  and BNC sample
 * Images(https://github.com/Data-Science-for-Linguists/Native_and_Non-native_English/tree/master/images) - contains graphs from the analyses
