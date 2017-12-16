@@ -2,6 +2,10 @@
 Katherine Kairis, kak275@pitt.edu, 12/15/2017
 
 # Hesitation Analysis
+## Table of Contents
+* [Helper functions](#helper-functions)
+* [Repeated words/stuttering](#repeated-words/stuttering)
+* [Proportion of Hesitation words (er, erm, etc.)](#proportion-of-hesitation-words-(er,-erm,-etc.))
 
 
 ```python
@@ -145,17 +149,7 @@ BNC_bigrams = get_bigrams(BNC_toks)
 len(VOICE_bigrams)
 len(BNC_toks)
 ```
-
-
-
-
     541521
-
-
-
-
-
-
     908
 
 
@@ -184,17 +178,7 @@ BNC_total_repetitions = sum(BNC_repeated_words.values())
 VOICE_total_repetitions
 VOICE_total_repetitions/len(VOICE_bigrams)
 ```
-
-
-
-
     15819
-
-
-
-
-
-
     0.02921216351720432
 
 
@@ -205,17 +189,7 @@ VOICE_total_repetitions/len(VOICE_bigrams)
 BNC_total_repetitions
 BNC_total_repetitions/len(BNC_bigrams)
 ```
-
-
-
-
     101555
-
-
-
-
-
-
     0.010828264398376917
 
 
@@ -298,17 +272,7 @@ BNC_repeated_stopwords = repeated_stopwords(BNC_repeated_words)
 VOICE_repeated_stopwords/VOICE_total_repetitions
 BNC_repeated_stopwords/BNC_total_repetitions
 ```
-
-
-
-
     0.6030090397623111
-
-
-
-
-
-
     0.6675889911870415
 
 
@@ -415,9 +379,6 @@ BNC_hesitations = tag_counts(BNC_tags, "UNC")
 
 
 
-    '\nBoth VOICE and BNC have a tag that is used for words that do not have another clear classification. Both corpora point\nout that hesitation words are among the most common to fall into this category. In VOICE, they are indicated with the \nUHfUH tag, and in BNC, they are indicated with the UNC tag.\n'
-
-
 
 
 ```python
@@ -426,17 +387,7 @@ BNC_hesitations = tag_counts(BNC_tags, "UNC")
 len(VOICE_hesitations.keys())
 len(BNC_hesitations.keys())
 ```
-
-
-
-
     29
-
-
-
-
-
-
     5082
 
 
@@ -451,16 +402,7 @@ VOICE_num_hesitations
 BNC_num_hesitations
 ```
 
-
-
-
     43001
-
-
-
-
-
-
     231847
 
 
@@ -473,10 +415,6 @@ BNC_num_hesitations
 list(VOICE_hesitations.keys())
 list(BNC_hesitations.keys())[:30]
 ```
-
-
-
-
     [('er', 'UHfUH'),
      ('oh', 'UHfUH'),
      ('ah', 'UHfUH'),
@@ -506,11 +444,6 @@ list(BNC_hesitations.keys())[:30]
      ('ouch', 'UHfUH'),
      ('psh', 'UHfUH'),
      ('eh', 'UHfUH')]
-
-
-
-
-
 
     [('erm', 'UNC'),
      ('er', 'UNC'),
@@ -559,10 +492,6 @@ BNC_hesitation_words = [w[0] for w in BNC_hesitation_words]
 hesitation_words = [w for w in VOICE_hesitation_words if w in BNC_hesitation_words]
 hesitation_words
 ```
-
-
-
-
     ['er',
      'oh',
      'ah',
@@ -608,17 +537,7 @@ VOICE_tokens = get_tokens(VOICE_toks)
 len([w for w in VOICE_tokens if w in hesitation_words])/len(VOICE_tokens)
 len([w for w in BNC_tokens if w in hesitation_words])/len(BNC_tokens)
 ```
-
-
-
-
     0.0428130167749006
-
-
-
-
-
-
     0.024098311427494978
 
 
