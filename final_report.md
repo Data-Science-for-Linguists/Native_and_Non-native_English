@@ -9,8 +9,12 @@
 * [Anaylsis](#analysis)
 	* [Hesitations](#hesitations)
 	* [Bigrams](#bigrams)
-		*[Use of Contractions](#use-of-contractions)
+		* [Comparing BNC and VOICE bigrams](#comparing-bnc-and-voice-bigrams)
+		* [Use of Contractions](#use-of-contractions)
 	* [Comparing Specific L1s](#comparing-specific-l1s)
+* [Conclusions](conclusions)
+* [Opportunities for Future Analysis](opportunities-for-future-analysis)
+* [References](references)
 
 ## Introduction
 ### Motivation
@@ -36,14 +40,35 @@ The code for processing the Vienna-Oxford International Corpus of English can be
 Most of the processing for the BNC involved extracting only the spoken data from the corpus, which was not as simple as it first seems. It seemed that the data was organized according to topic or context, and there was not any clear distinction between the spoken and the written text. Though, a file was designated as spoken data with the "stext" tag, so finding the spoken data required iterating through all of the files in the BNC and checking for that tag.  
 Like the VOICE, the BNC consists of XML files, but the files for the two corpora were structured slightly different. Unlike the VOICE, the BNC only had one file for each conversation. Each word in the BNC is tagged with its lemma and part of speech, which made processing the data and saving the tokens and (word, tag) tuple somewhat easier.  
 
+
 ## Analysis
 When I first started this project, I didn't have very specific goals in terms of what aspects of native and non-native speech I wanted to explore, so I first did a preliminary analysis on word tokens, bigrams, stop words. I didn't notice any major differences in the stop word use between native and non-native English speakers. Word token frequencies also seemed similar between the two groups, but there was one interesting point: the word 'er' was very common for both native and non-native speakers, and it was actually the second most frequent token among non-native speakers. At first glance, bigram frequencies did not seem to reveal any major differences, either, but after looking more closely at the most common bigrams, I noticed that a lot of the most common bigrams for non-native speakers were repeated words, like ('the', 'the'). This pattern did not exist among native speakers. Considering the results of my initial analysis, I decided to look into bigrams and hesitations, since they seemed like the most promising area.
+
 ### Hesitations
 To compare hesitations, I started by creating bigrams for both the BNC and the VOICE. Then, for each list of bigrams, I created an additional list of bigrams whose first element and second element matched, which indicated word repetition. Then, I used the length of the repeated words list and the length of the bigrams list to determine the frequency of repeated words. Non-native speakers in the VOICE repeated words much more frequently than the native speakers in the BNC; about 3% of all bigrams for non-native speakers were repeated words, while this was the case for only about 1% of native bigrams:
-![png](images/repeated_words_frequencies.png)
+![png](images/repeated_words_frequencies.png)  
 I also make lists of tokens to compare the frequencies of hesitations words, like "er" and "erm," for native and non-native speech, and the difference was large: about 4.3% of non-native tokens were "hesitation" words, and 2.4% of native speakers' tokens were hesitation words.
+
 ### Bigrams
+In my analysis of bigrams, I created three new groups from the Vienna-Oxford corpus: the first group consisted of participants with Germanic L1s, the second consisted of participants with Romance L1s, and the third consisted of participants with Slavic L1s.  
+For each group/corpus (BNC, entire VOICE, and the three new subcorpora), I created a list of the bigrams that made up the top 20% in terms of frequency. 
+#### Comparing BNC and VOICE bigrams
+For the first part of my analysis of bigrams, I tried to find similarities between the native bigrams and the non-native bigrams. Specifically, for each non-native group, I calculated the percent of their most frequent (top 20%) bigrams that also appeared in the BNC's most frequent (top 20%) bigrams.  
+Later in my analysis, I removed bigrams that contained hesitation words and repeated words. These dominated the frequent bigrams for non-natve speakers were valuable for revealing some differences between native and non-native speech, but they don't provide much evidence about other linguistic features. After removing these bigrams, the percentage of common (top 20%) bigrams in non-native speech that also occurred in the BNC's most common bigrams increased greatly. For all non-native groups, over 70% of the common bigrams were also among the BNC's most common bigrams; in some cases (the entire VOICE corpus and the Germanic group), this percentage approached 80%. Looking into the bigrams that were now common in VOICE but not BNC showed a few patterns: a lot of these bigrams were words that native speakers often replace with contractions, like "we are," "they are," "is not," "we will," "what is," and "i will." Also, several of these bigrams were very formulaic transition phrases, like "for example."
+  
+
+PUT DATAFRAME HERE  
+  
+Then, in order to get a better idea as to the what bigrams caused the discrepencies between native and non-native speech, I generated two lists of bigrams: one contains bigrams that were common in VOICE but not in the BNC, and the other contains bigrams common in the BNC but not in VOICE. The bigrams that were common in VOICE but not in the BNC mirrored the results of my hesitation analysis: many of those bigrams either contained repeated words or hesitation words like "er" and "erm." Investigating the bigrams common in BNC but not in VOICE revealed an interesting trend: around 15% of these bigrams were contractions.
+
 #### Use of Contractions
-![png](images/contraction_frequencies.png)
-![png](images/contraction_use.png)
+The realization that contractions occurred more frequently in native speech prompted me further explore contraction use. First, I calculated the percentage of contractions that occurred in the BNC and each L1 group from voice. Contractions comprised about 5.3% of native speech in the BNC, but only around 3% for the non-native groups:  
+![png](images/contraction_frequencies.png)  
+Looking into the specific bigrams that the participant groups used revealed even more interesting patterns. I used NLTK's frequency dictionary to determine the 15 most common contractions in the BNC, and compared their frequencies across the 4 L1 groups (English/BNC, Germanic, Romance, and Slavic). The four most common contractions for native speakers were it's, that's, don't, and i'm. These were also common among the non-native groups; in fact, the proportions of these four contractions were higher among the three non-native groups then they were among the native speakers. Between the fifth and fifteenth most common bigrams, the frequencies gradually decreased and leveled off for native speakers in the BNC, while the proportions of these contractions dramatically dropped off for the non-native speakers:
+![png](images/contraction_use.png)  
+
 ### Comparing Specific L1s
+
+## Conclusions
+## Opportunities for Future Analysis
+## References
