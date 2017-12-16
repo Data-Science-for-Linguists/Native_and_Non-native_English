@@ -2,6 +2,11 @@
 Katherine Kairis, kak275@pitt.edu, 12/15/2017
 
 # Bigram Analysis
+## Table of Contents
+* Creating sub-corpora for different language families(#creating-sub-corpora-for-different-language-families)
+* Comparing Bigrams of Native and Non-native Speakers: Round 1(#comparing-bigrams-of-native-and-non-native-speakers:-round-1)
+* Comparing Contraction Use(#comparing-contraction-use)
+* Comparing Bigrams of Native and Non-native Speakers: Round 2(#comparing-bigrams-of-native-and-non-native-speakers:-round-2)
 
 
 ```python
@@ -245,37 +250,10 @@ len(romance_freq_bigrams)
 len(slavic_freq_bigrams)
 ```
 
-
-
-
     232
-
-
-
-
-
-
     171
-
-
-
-
-
-
     172
-
-
-
-
-
-
     144
-
-
-
-
-
-
     163
 
 
@@ -416,19 +394,7 @@ VOICE_not_BNC[:15]
 
 
     56
-
-
-
-
-
-
     0.32748538011695905
-
-
-
-
-
-
     [('yeah', 'yeah'),
      ('er', 'er'),
      ('we', 'are'),
@@ -458,12 +424,6 @@ len([b for b in VOICE_not_BNC if b[0] == 'er' or b[1] == 'er'])/len(VOICE_not_BN
 
 
     0.21428571428571427
-
-
-
-
-
-
     0.25
 
 
@@ -490,12 +450,6 @@ BNC_not_VOICE[:20]
 
 
     0.5043103448275862
-
-
-
-
-
-
     [("'ve", 'got'),
      ('i', "'ve"),
      ('he', "'s"),
@@ -536,19 +490,7 @@ contractions
 
 
     18
-
-
-
-
-
-
     0.15384615384615385
-
-
-
-
-
-
     [('i', "'ve"),
      ('he', "'s"),
      ('you', "'ve"),
@@ -680,32 +622,14 @@ plt.show()
 
 
     <matplotlib.axes._subplots.AxesSubplot at 0x1801922b0>
-
-
-
-
-
-
     <matplotlib.legend.Legend at 0x18575cef0>
-
-
-
-
-
-
     <matplotlib.text.Text at 0x1801a90f0>
-
-
-
-
-
-
     <matplotlib.text.Text at 0x18577b780>
 
 
 
 
-![png](output_30_4.png)
+![png](images/contraction_repeated_frequencies.png)
 
 
 ## Comparing Contraction Use
@@ -721,9 +645,6 @@ BNC_contractions_proportions = len([b for b in BNC_bigrams if "'" in b[1]])/len(
 BNC_contractions_proportions
 ```
 
-
-
-
     0.05367441273285753
 
 
@@ -733,9 +654,6 @@ BNC_contractions_proportions
 VOICE_contractions_proportions = len([b for b in VOICE_bigrams if "'" in b[1]])/len(VOICE_bigrams)
 VOICE_contractions_proportions
 ```
-
-
-
 
     0.03410209391694874
 
@@ -747,9 +665,6 @@ germanic_contractions_proportions = len([b for b in germanic_bigrams if "'" in b
 germanic_contractions_proportions
 ```
 
-
-
-
     0.03502617764352147
 
 
@@ -760,9 +675,6 @@ romance_contractions_proportions = len([b for b in romance_bigrams if "'" in b[1
 romance_contractions_proportions
 ```
 
-
-
-
     0.03406370609213933
 
 
@@ -772,9 +684,6 @@ romance_contractions_proportions
 slavic_contractions_proportions = len([b for b in slavic_bigrams if "'" in b[1]])/len(slavic_bigrams)
 slavic_contractions_proportions
 ```
-
-
-
 
     0.030748418704983363
 
@@ -788,9 +697,6 @@ Clearly, contractions occur much more frequently among the BNC's most common big
 BNC_common_contractions = [b for b in BNC_freq_bigrams if "'" in b[0][1]]
 BNC_common_contractions
 ```
-
-
-
 
     [(('it', "'s"), 68661),
      (('that', "'s"), 45150),
@@ -830,9 +736,6 @@ VOICE_common_contractions = [b for b in VOICE_freq_bigrams if "'" in b[0][1]]
 VOICE_common_contractions
 ```
 
-
-
-
     [(('it', "'s"), 5976),
      (('that', "'s"), 2637),
      (('do', "n't"), 2339),
@@ -868,16 +771,7 @@ len(slavic_common_contractions)
 slavic_common_contractions
 ```
 
-
-
-
     12
-
-
-
-
-
-
     [(('it', "'s"), 3176),
      (('that', "'s"), 1653),
      (('do', "n't"), 1093),
@@ -892,17 +786,7 @@ slavic_common_contractions
      (('i', "'ve"), 156)]
 
 
-
-
-
-
     9
-
-
-
-
-
-
     [(('it', "'s"), 953),
      (('do', "n't"), 438),
      (('that', "'s"), 301),
@@ -913,18 +797,7 @@ slavic_common_contractions
      (('let', "'s"), 57),
      (('we', "'re"), 54)]
 
-
-
-
-
-
     9
-
-
-
-
-
-
     [(('it', "'s"), 567),
      (('do', "n't"), 248),
      (('that', "'s"), 196),
@@ -985,32 +858,14 @@ plt.show()
 
 
     <matplotlib.axes._subplots.AxesSubplot at 0x1857f7f98>
-
-
-
-
-
-
     <matplotlib.legend.Legend at 0x17ba84a90>
-
-
-
-
-
-
     <matplotlib.text.Text at 0x17c079a20>
-
-
-
-
-
-
     <matplotlib.text.Text at 0x17baa5b70>
 
 
 
 
-![png](output_47_4.png)
+![png](images/contraction_use.png)
 
 
 ## Comparing Bigrams of Native and Non-native Speakers: Round 2
@@ -1171,10 +1026,6 @@ BNC_not_VOICE = BNC_not_VOICE = [b[0] for b in BNC_freq_bigrams if b[0] not in V
 ```python
 VOICE_not_BNC
 ```
-
-
-
-
     [('we', 'are'),
      ('kind', 'of'),
      ('they', 'are'),
@@ -1212,10 +1063,6 @@ VOICE_not_BNC
 ```python
 BNC_not_VOICE
 ```
-
-
-
-
     [("'ve", 'got'),
      ('you', "'ve"),
      ('we', "'ve"),
