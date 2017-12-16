@@ -248,35 +248,35 @@ len(slavic_freq_bigrams)
 
 
 
-    193
+    232
 
 
 
 
 
 
-    147
+    171
 
 
 
 
 
 
-    148
+    172
 
 
 
 
 
 
-    126
+    144
 
 
 
 
 
 
-    135
+    163
 
 
 
@@ -299,7 +299,7 @@ slavic_and_BNC = shared_bigrams(BNC_freq_bigrams, slavic_freq_bigrams)
 
 
 
-    "\nFor each non-native corpus, create a list that contains the corpora's top 20% bigrams that are also in BNC's\ntop 20% bigrams bigrams.\n"
+    "\nFor each non-native corpus, create a list that contains the corpus's top 20% bigrams that are also in BNC's\ntop 20% bigrams.\n"
 
 
 
@@ -315,44 +315,61 @@ Speakers with Germanic L1s have the most similarities with speakers in the BNC, 
 bigrams also appearing in the BNC's most frequent bigrams. Speakers of Romance and Slavic languages don't fare quite as 
 well, with 64.8% and 61.9% respectively.
 """
-len(VOICE_and_BNC)/len(VOICE_freq_bigrams)
-len(germanic_and_BNC)/len(germanic_freq_bigrams)
-len(romance_and_BNC)/len(romance_freq_bigrams)
-len(slavic_and_BNC)/len(slavic_freq_bigrams)
+
+shared_with_BNC_original = pd.DataFrame(index = ["% bigrams shared with BNC"], columns = ['All non-native L1s(VOICE)', 'L1=Germanic', 'L1=Romance', 'L1=Slavic'])
+shared_with_BNC_original['All non-native L1s(VOICE)'] = len(VOICE_and_BNC)/len(VOICE_freq_bigrams)
+shared_with_BNC_original['L1=Germanic'] = len(germanic_and_BNC)/len(germanic_freq_bigrams)
+shared_with_BNC_original['L1=Romance'] = len(romance_and_BNC)/len(romance_freq_bigrams)
+shared_with_BNC_original["L1=Slavic"] = len(slavic_and_BNC)/len(slavic_freq_bigrams)
+
+shared_with_BNC_original
 ```
 
 
 
 
-    "\nCompare the proportions of top bigrams that also appear in BNC's top bigrams. \n\nWhen comparing the entire VOICE corpus to the BNC, about 67% of the most common bigrams in VOICE are also among\nthe most common bigrams in the BNC.\n\nSpeakers with Germanic L1s have the most similarities with speakers in the BNC, with 66.8% of their most frequent \nbigrams appearing in the BNC's most frequent bigrams. Speakers of Romance and Slavic languages don't fare quite as \nwell, with 64.8% and 61.9% respectively.\n"
+    "\nCompare the proportions of top bigrams that also appear in BNC's top bigrams. \n\nWhen comparing the entire VOICE corpus to the BNC, about 67% of the most common bigrams in VOICE are also among\nthe most common bigrams in the BNC.\n\nSpeakers with Germanic L1s have the most similarities with speakers in the BNC, with 66.8% of their most frequent \nbigrams also appearing in the BNC's most frequent bigrams. Speakers of Romance and Slavic languages don't fare quite as \nwell, with 64.8% and 61.9% respectively.\n"
 
 
 
 
 
 
-    0.672514619883041
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
 
+    .dataframe thead th {
+        text-align: left;
+    }
 
-
-
-
-
-    0.6686046511627907
-
-
-
-
-
-
-    0.6458333333333334
-
-
-
-
-
-
-    0.6196319018404908
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>All non-native L1s(VOICE)</th>
+      <th>L1=Germanic</th>
+      <th>L1=Romance</th>
+      <th>L1=Slavic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>% bigrams shared with BNC</th>
+      <td>0.672515</td>
+      <td>0.668605</td>
+      <td>0.645833</td>
+      <td>0.619632</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
 
@@ -462,7 +479,7 @@ BNC_not_VOICE = [b[0] for b in BNC_freq_bigrams if b[0] not in VOICE_and_BNC]
 
 
 ```python
-#Around 60% of the bigrams common in BNC are not common in VOICE.
+#Around 50% of the bigrams common in BNC are not common in VOICE.
 len(BNC_not_VOICE)/len(BNC_freq_bigrams)
 
 #Display a few bigrams in the list
@@ -662,33 +679,33 @@ plt.show()
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x15bcc9d68>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1801922b0>
 
 
 
 
 
 
-    <matplotlib.legend.Legend at 0x15bce1e80>
+    <matplotlib.legend.Legend at 0x18575cef0>
 
 
 
 
 
 
-    <matplotlib.text.Text at 0x15bca0c18>
+    <matplotlib.text.Text at 0x1801a90f0>
 
 
 
 
 
 
-    <matplotlib.text.Text at 0x182d2ee48>
+    <matplotlib.text.Text at 0x18577b780>
 
 
 
 
-![png](images/contraction_repeated_frequencies.png)
+![png](output_30_4.png)
 
 
 ## Comparing Contraction Use
@@ -842,12 +859,12 @@ germanic_common_contractions = [b for b in germanic_freq_bigrams if "'" in b[0][
 len(germanic_common_contractions)
 germanic_common_contractions
 
-len(romance_common_contractions)
 romance_common_contractions = [b for b in romance_freq_bigrams if "'" in b[0][1]]
+len(romance_common_contractions)
 romance_common_contractions
 
-len(slavic_common_contractions)
 slavic_common_contractions = [b for b in slavic_freq_bigrams if "'" in b[0][1]]
+len(slavic_common_contractions)
 slavic_common_contractions
 ```
 
@@ -967,33 +984,33 @@ plt.show()
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x15bd2c438>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1857f7f98>
 
 
 
 
 
 
-    <matplotlib.legend.Legend at 0x15bd3ccf8>
+    <matplotlib.legend.Legend at 0x17ba84a90>
 
 
 
 
 
 
-    <matplotlib.text.Text at 0x15bde99b0>
+    <matplotlib.text.Text at 0x17c079a20>
 
 
 
 
 
 
-    <matplotlib.text.Text at 0x15bdcd940>
+    <matplotlib.text.Text at 0x17baa5b70>
 
 
 
 
-![png](images/contraction_use.png)
+![png](output_47_4.png)
 
 
 ## Comparing Bigrams of Native and Non-native Speakers: Round 2
@@ -1089,37 +1106,53 @@ slavic_and_BNC = shared_bigrams(BNC_freq_bigrams, slavic_freq_bigrams)
 
 
 ```python
-len(VOICE_and_BNC)/len(VOICE_freq_bigrams)
-len(germanic_and_BNC)/len(germanic_freq_bigrams)
-len(romance_and_BNC)/len(romance_freq_bigrams)
-len(slavic_and_BNC)/len(slavic_freq_bigrams)
+shared_with_BNC_modified = pd.DataFrame(index = ["% bigrams shared with BNC"], columns = ['All non-native L1s(VOICE)', 'L1=Germanic', 'L1=Romance', 'L1=Slavic'])
+shared_with_BNC_modified['All non-native L1s(VOICE)'] = len(VOICE_and_BNC)/len(VOICE_freq_bigrams)
+shared_with_BNC_modified['L1=Germanic'] = len(germanic_and_BNC)/len(germanic_freq_bigrams)
+shared_with_BNC_modified['L1=Romance'] = len(romance_and_BNC)/len(romance_freq_bigrams)
+shared_with_BNC_modified["L1=Slavic"] = len(slavic_and_BNC)/len(slavic_freq_bigrams)
+
+shared_with_BNC_modified
 ```
 
 
 
 
-    0.7959183673469388
+<div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
 
+    .dataframe thead th {
+        text-align: left;
+    }
 
-
-
-
-
-    0.7837837837837838
-
-
-
-
-
-
-    0.7698412698412699
-
-
-
-
-
-
-    0.7111111111111111
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>All non-native L1s(VOICE)</th>
+      <th>L1=Germanic</th>
+      <th>L1=Romance</th>
+      <th>L1=Slavic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>% bigrams shared with BNC</th>
+      <td>0.795918</td>
+      <td>0.783784</td>
+      <td>0.769841</td>
+      <td>0.711111</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
 
