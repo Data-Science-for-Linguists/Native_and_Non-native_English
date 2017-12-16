@@ -9,6 +9,7 @@
 * [Anaylsis](#analysis)
 	* [Hesitations](#hesitations)
 	* [Bigrams](#bigrams)
+		*[Use of Contractions](#use-of-contractions)
 	* [Comparing Specific L1s](#comparing-specific-l1s)
 
 ## Introduction
@@ -36,7 +37,11 @@ Most of the processing for the BNC involved extracting only the spoken data from
 Like the VOICE, the BNC consists of XML files, but the files for the two corpora were structured slightly different. Unlike the VOICE, the BNC only had one file for each conversation. Each word in the BNC is tagged with its lemma and part of speech, which made processing the data and saving the tokens and (word, tag) tuple somewhat easier.  
 
 ## Analysis
+When I first started this project, I didn't have very specific goals in terms of what aspects of native and non-native speech I wanted to explore, so I first did a preliminary analysis on word tokens, bigrams, stop words. I didn't notice any major differences in the stop word use between native and non-native English speakers. Word token frequencies also seemed similar between the two groups, but there was one interesting point: the word 'er' was very common for both native and non-native speakers, and it was actually the second most frequent token among non-native speakers. At first glance, bigram frequencies did not seem to reveal any major differences, either, but after looking more closely at the most common bigrams, I noticed that a lot of the most common bigrams for non-native speakers were repeated words, like ('the', 'the'). This pattern did not exist among native speakers. Considering the results of my initial analysis, I decided to look into bigrams and hesitations, since they seemed like the most promising area.
 ### Hesitations
+![png](images/repeated_words_frequencies.png)
 ### Bigrams
+#### Use of Contractions
+![png](images/contraction_frequencies.png)
 ![png](images/contraction_use.png)
 ### Comparing Specific L1s
