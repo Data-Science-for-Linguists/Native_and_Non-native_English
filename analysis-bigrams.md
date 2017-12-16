@@ -3,10 +3,10 @@ Katherine Kairis, kak275@pitt.edu, 12/15/2017
 
 # Bigram Analysis
 ## Table of Contents
-* Creating sub-corpora for different language families(#creating-sub-corpora-for-different-language-families)
-* Comparing Bigrams of Native and Non-native Speakers: Round 1(#comparing-bigrams-of-native-and-non-native-speakers:-round-1)
-* Comparing Contraction Use(#comparing-contraction-use)
-* Comparing Bigrams of Native and Non-native Speakers: Round 2(#comparing-bigrams-of-native-and-non-native-speakers:-round-2)
+* [Creating sub-corpora for different language families](#creating-sub-corpora-for-different-language-families)
+* [Comparing Bigrams of Native and Non-native Speakers: Round 1](#comparing-bigrams-of-native-and-non-native-speakers:-round-1)
+* [Comparing Contraction Use](#comparing-contraction-use)
+* [Comparing Bigrams of Native and Non-native Speakers: Round 2](#comparing-bigrams-of-native-and-non-native-speakers:-round-2)
 
 
 ```python
