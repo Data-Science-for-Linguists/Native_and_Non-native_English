@@ -1,8 +1,8 @@
 # Comparing Native and Non-native English
 ## Table of Contents
 * [Introduction](#introduction)
-	*[Motivation](#motivation)
-	*[Data](#overview-of-the-data)
+	* [Motivation](#motivation)
+	* [Overview of the Data](#overview-of-the-data)
 * [Data Processing](#data-processing)
 	* [VOICE](#voice)
 	* [BNC](#bnc)
